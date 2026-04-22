@@ -1,23 +1,27 @@
-"""
-Image Agent (Render-safe, No Torch, Groq-compatible)
-
-- No heavy ML dependencies
-- Keeps structured pipeline design
-- Provides detailed image metadata + heuristic analysis
-- Ready for LLM (Groq) downstream reasoning
-"""
-
 from __future__ import annotations
 
 import base64
 import io
 import logging
+import os
 from dataclasses import dataclass
-from typing import Optional, Dict, Any
+from typing import Optional, List
 
-from PIL import Image, ImageStat
+import requests
+from PIL import Image
 
 logger = logging.getLogger("medai.image_agent")
+
+HF_API_KEY = os.getenv("HF_API_KEY")
+
+if not HF_API_KEY:
+    raise ValueError("HF_API_KEY not set")
+
+MODEL_URL = "https://api-inference.huggingface.co/models/sentence-transformers/clip-ViT-B-32"
+
+HEADERS = {
+    "Authorization": f"Bearer {HF_API_KEY}"
+}
 
 
 # -------------------------------------------------------------------
@@ -27,159 +31,81 @@ logger = logging.getLogger("medai.image_agent")
 @dataclass
 class ImageResult:
     modality: str
-    width: int
-    height: int
-    aspect_ratio: float
-    color_mode: str
-    brightness: float
-    contrast: float
-    top_label: str
-    top_confidence: float
+    embedding: List[float]
     structured_summary: str
-    metadata: Dict[str, Any]
-    disclaimer: str = (
-        "⚠️ No CNN model used. This is heuristic + metadata analysis only."
-    )
+    confidence: float
+    disclaimer: str = "⚠️ AI-generated result. Not a medical diagnosis."
 
 
 # -------------------------------------------------------------------
-# IMAGE AGENT
+# AGENT
 # -------------------------------------------------------------------
 
 class ImageAgent:
-    """
-    Lightweight Image Analysis Agent
-
-    Replaces heavy CNN pipeline with:
-    - Image decoding
-    - Statistical analysis
-    - Structured summary for LLM reasoning
-    """
-
-    # ---------------------------------------------------------------
-    # MAIN ENTRY
-    # ---------------------------------------------------------------
 
     def analyze(self, image_data: bytes | str, modality_hint: str = "auto") -> ImageResult:
-        logger.info("Starting image analysis")
+        image_bytes = self._prepare_image(image_data)
 
-        image = self._decode_image(image_data)
+        try:
+            response = requests.post(
+                MODEL_URL,
+                headers=HEADERS,
+                data=image_bytes,
+                timeout=30
+            )
 
-        width, height = image.size
-        aspect_ratio = round(width / height, 2)
-        color_mode = image.mode
+            if response.status_code != 200:
+                raise Exception(response.text)
 
-        brightness, contrast = self._analyze_image_stats(image)
+            data = response.json()
 
-        label, confidence = self._infer_basic_pattern(brightness, contrast)
+            # CLIP returns vector
+            if isinstance(data, list):
+                embedding = data
+            else:
+                embedding = data[0]
 
-        summary = self._build_summary(
-            modality_hint,
-            width,
-            height,
-            color_mode,
-            brightness,
-            contrast,
-            label
-        )
+            summary = self._build_summary(modality_hint, len(embedding))
 
-        metadata = {
-            "resolution": f"{width}x{height}",
-            "aspect_ratio": aspect_ratio,
-            "color_mode": color_mode,
-            "brightness": brightness,
-            "contrast": contrast,
-        }
+            return ImageResult(
+                modality=modality_hint,
+                embedding=embedding,
+                structured_summary=summary,
+                confidence=0.9
+            )
 
-        logger.info("Image analysis completed")
+        except Exception as e:
+            logger.error("HF Image API failed: %s", e)
+            return ImageResult(
+                modality=modality_hint,
+                embedding=[],
+                structured_summary="Image processing failed",
+                confidence=0.0
+            )
 
-        return ImageResult(
-            modality=modality_hint,
-            width=width,
-            height=height,
-            aspect_ratio=aspect_ratio,
-            color_mode=color_mode,
-            brightness=brightness,
-            contrast=contrast,
-            top_label=label,
-            top_confidence=confidence,
-            structured_summary=summary,
-            metadata=metadata,
-        )
+    # ------------------------------------------------------------------
 
-    # ---------------------------------------------------------------
-    # IMAGE DECODING
-    # ---------------------------------------------------------------
-
-    def _decode_image(self, image_data: bytes | str) -> Image.Image:
+    def _prepare_image(self, image_data: bytes | str) -> bytes:
         if isinstance(image_data, str):
             if "base64," in image_data:
                 image_data = image_data.split("base64,", 1)[1]
             image_data = base64.b64decode(image_data)
 
-        return Image.open(io.BytesIO(image_data)).convert("RGB")
+        image = Image.open(io.BytesIO(image_data)).convert("RGB")
 
-    # ---------------------------------------------------------------
-    # BASIC IMAGE STATISTICS
-    # ---------------------------------------------------------------
+        buffer = io.BytesIO()
+        image.save(buffer, format="PNG")
+        return buffer.getvalue()
 
-    def _analyze_image_stats(self, image: Image.Image) -> tuple[float, float]:
-        stat = ImageStat.Stat(image)
+    # ------------------------------------------------------------------
 
-        # Average brightness (0–255)
-        brightness = sum(stat.mean) / len(stat.mean)
-
-        # Contrast approximation
-        contrast = sum(stat.stddev) / len(stat.stddev)
-
-        return round(brightness, 2), round(contrast, 2)
-
-    # ---------------------------------------------------------------
-    # SIMPLE HEURISTIC LABELING
-    # ---------------------------------------------------------------
-
-    def _infer_basic_pattern(self, brightness: float, contrast: float) -> tuple[str, float]:
-        """
-        Very rough heuristic just to keep pipeline alive
-        """
-
-        if brightness < 60:
-            return "Very Dark Image", 0.4
-        elif brightness > 190:
-            return "Very Bright Image", 0.4
-        elif contrast < 20:
-            return "Low Contrast Image", 0.5
-        elif contrast > 80:
-            return "High Contrast Image", 0.5
-
-        return "Normal Image Pattern", 0.3
-
-    # ---------------------------------------------------------------
-    # SUMMARY BUILDER
-    # ---------------------------------------------------------------
-
-    def _build_summary(
-        self,
-        modality: str,
-        width: int,
-        height: int,
-        color_mode: str,
-        brightness: float,
-        contrast: float,
-        label: str
-    ) -> str:
-
+    def _build_summary(self, modality: str, dim: int) -> str:
         return (
-            f"=== Image Analysis Report ===\n"
+            f"=== Image Embedding Analysis ===\n"
             f"Modality: {modality}\n"
-            f"Resolution: {width} x {height}\n"
-            f"Color Mode: {color_mode}\n\n"
-            f"Brightness Level: {brightness}\n"
-            f"Contrast Level: {contrast}\n\n"
-            f"Inferred Pattern: {label}\n\n"
-            f"Note:\n"
-            f"- No deep learning model was used.\n"
-            f"- This data is intended for downstream AI (Groq) reasoning.\n"
+            f"Embedding dimension: {dim}\n\n"
+            f"This embedding represents semantic image features.\n"
+            f"Use this with RAG + Groq for medical reasoning."
         )
 
 
