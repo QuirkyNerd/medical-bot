@@ -1,108 +1,76 @@
-"""
-backend/core/embedder.py
-=========================
-Singleton sentence-transformer embedding model.
-
-Model: all-mpnet-base-v2
-  - Vector dimension: 768
-  - Well-suited for semantic similarity over medical text
-  - Runs fully offline after first download
-
-Usage:
-    from core.embedder import get_embedder
-    emb = get_embedder()
-    vector = emb.embed("patient presents with dyspnea")
-"""
-
 from __future__ import annotations
 
 import logging
-import threading
+import os
+import requests
 from typing import List
-
-from sentence_transformers import SentenceTransformer
 
 logger = logging.getLogger("medai.embedder")
 
-# ---------------------------------------------------------------------------
-# Constants
-# ---------------------------------------------------------------------------
-MODEL_NAME = "sentence-transformers/all-mpnet-base-v2"
-VECTOR_DIM = 768
+HF_API_KEY = os.getenv("HF_API_KEY")
 
+MODEL_URL = "https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-MiniLM-L6-v2"
 
-# ---------------------------------------------------------------------------
-# Embedder class
-# ---------------------------------------------------------------------------
+HEADERS = {
+    "Authorization": f"Bearer {HF_API_KEY}"
+}
+
+VECTOR_DIM = 384
+
 
 class Embedder:
-    """
-    Thread-safe singleton wrapper around SentenceTransformer.
-    Provides both single-text and batch embedding utilities.
-    """
 
-    def __init__(self, model_name: str = MODEL_NAME) -> None:
-        logger.info("Loading embedding model: %s", model_name)
-        self._model = SentenceTransformer(model_name)
+    def __init__(self) -> None:
+        if not HF_API_KEY:
+            raise Exception("HF_API_KEY not set in environment")
+
         self.dim: int = VECTOR_DIM
-        logger.info("Embedding model loaded (dim=%d)", self.dim)
-
-    # ------------------------------------------------------------------
-    # Public API
-    # ------------------------------------------------------------------
+        logger.info("Using HuggingFace embeddings (dim=%d)", self.dim)
 
     def embed(self, text: str) -> List[float]:
-        """
-        Embed a single text string into a 768-dimensional float vector.
-
-        Args:
-            text: Input text (will be truncated to model max length internally).
-
-        Returns:
-            List[float] of length 768.
-        """
         if not text or not text.strip():
-            # Return zero-vector for empty input (safe fallback)
             return [0.0] * self.dim
 
-        vector = self._model.encode(text, normalize_embeddings=True)
-        return vector.tolist()
+        try:
+            response = requests.post(
+                MODEL_URL,
+                headers=HEADERS,
+                json={"inputs": text},
+                timeout=20
+            )
+
+            if response.status_code != 200:
+                raise Exception(response.text)
+
+            data = response.json()
+
+            if isinstance(data, list) and len(data) > 0 and isinstance(data[0], list):
+                return data[0]
+
+            return data
+
+        except Exception as e:
+            logger.error("Embedding failed: %s", e)
+            return [0.0] * self.dim
 
     def embed_batch(self, texts: List[str]) -> List[List[float]]:
-        """
-        Embed a batch of texts efficiently.
-
-        Args:
-            texts: List of input strings.
-
-        Returns:
-            List of 768-dimensional float vectors.
-        """
         if not texts:
             return []
 
-        # Replace empty strings with a placeholder to avoid model errors
-        safe_texts = [t if t.strip() else "<empty>" for t in texts]
-        vectors = self._model.encode(safe_texts, normalize_embeddings=True, batch_size=32)
-        return [v.tolist() for v in vectors]
+        results = []
+        for text in texts:
+            results.append(self.embed(text))
+
+        return results
 
 
-# ---------------------------------------------------------------------------
-# Singleton management (thread-safe)
-# ---------------------------------------------------------------------------
-
-_lock = threading.Lock()
 _instance: Embedder | None = None
 
 
 def get_embedder() -> Embedder:
-    """
-    Return the global singleton Embedder instance.
-    Creates it on first call (lazy + thread-safe).
-    """
     global _instance
+
     if _instance is None:
-        with _lock:
-            if _instance is None:
-                _instance = Embedder(MODEL_NAME)
+        _instance = Embedder()
+
     return _instance
