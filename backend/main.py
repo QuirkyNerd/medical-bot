@@ -15,6 +15,7 @@ from api.conversations_router import router as conversations_router
 from api.schedule_router import router as schedule_router
 from api.export_router import router as export_router
 from api.health_router import router as health_router
+
 from database import init_db, engine
 from sqlalchemy import text
 
@@ -44,9 +45,10 @@ async def lifespan(app: FastAPI):
         init_db()
         logger.info("✅ Database initialized")
 
-        # ✅ Test DB connection
+        # ✅ FIXED: SQLAlchemy 2.x requires text()
         with engine.connect() as conn:
-            conn.execute("SELECT 1")
+            conn.execute(text("SELECT 1"))
+
         logger.info("✅ Database connection successful")
 
     except Exception as exc:
@@ -72,7 +74,7 @@ def create_app() -> FastAPI:
     # ✅ CORS
     app.add_middleware(
         CORSMiddleware,
-        allow_origins=["*"],  # later restrict in production
+        allow_origins=["*"],  # restrict later in production
         allow_credentials=True,
         allow_methods=["*"],
         allow_headers=["*"],
@@ -101,7 +103,6 @@ def create_app() -> FastAPI:
     async def health():
         return {"status": "healthy"}
 
-    # ✅ DB test route (VERY useful)
     @app.get("/db-test")
     async def db_test():
         try:
