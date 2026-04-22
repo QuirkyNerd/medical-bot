@@ -15,6 +15,12 @@ from api.conversations_router import router as conversations_router
 from api.schedule_router import router as schedule_router
 from api.export_router import router as export_router
 from api.health_router import router as health_router
+from database import init_db, engine
+
+
+# -------------------------------------------------------------------
+# Logging
+# -------------------------------------------------------------------
 
 logging.basicConfig(
     level=logging.INFO,
@@ -24,17 +30,36 @@ logging.basicConfig(
 logger = logging.getLogger("medai.main")
 
 
+# -------------------------------------------------------------------
+# Lifespan (startup + shutdown)
+# -------------------------------------------------------------------
+
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    logger.info("Starting Medical AI Backend")
-    try:
-        logger.info("Backend started")
-    except Exception as exc:
-        logger.exception("Startup failed")
-        raise exc
-    yield
-    logger.info("Backend shutdown complete")
+    logger.info("🚀 Starting Medical AI Backend")
 
+    try:
+        # ✅ Initialize DB
+        init_db()
+        logger.info("✅ Database initialized")
+
+        # ✅ Test DB connection
+        with engine.connect() as conn:
+            conn.execute("SELECT 1")
+        logger.info("✅ Database connection successful")
+
+    except Exception as exc:
+        logger.exception("❌ Startup failed")
+        raise exc
+
+    yield
+
+    logger.info("🛑 Backend shutdown complete")
+
+
+# -------------------------------------------------------------------
+# App factory
+# -------------------------------------------------------------------
 
 def create_app() -> FastAPI:
     app = FastAPI(
@@ -43,14 +68,18 @@ def create_app() -> FastAPI:
         lifespan=lifespan,
     )
 
+    # ✅ CORS
     app.add_middleware(
         CORSMiddleware,
-        allow_origins=["*"],
+        allow_origins=["*"],  # later restrict in production
         allow_credentials=True,
         allow_methods=["*"],
         allow_headers=["*"],
     )
 
+    # ----------------------------------------------------------------
+    # Routers
+    # ----------------------------------------------------------------
     app.include_router(agent_router, prefix="/api/agent")
     app.include_router(medical_query_router, prefix="/api/medical-query")
     app.include_router(auth_router, prefix="/api/auth")
@@ -59,13 +88,31 @@ def create_app() -> FastAPI:
     app.include_router(export_router, prefix="/api/export-report")
     app.include_router(health_router, prefix="/api/health")
 
+    # ----------------------------------------------------------------
+    # Routes
+    # ----------------------------------------------------------------
+
     @app.get("/")
     async def root():
-        return {"status": "ok"}
+        return {"status": "ok", "service": "medical-ai-backend"}
 
     @app.get("/health")
     async def health():
-        return "ok"
+        return {"status": "healthy"}
+
+    # ✅ DB test route (VERY useful)
+    @app.get("/db-test")
+    async def db_test():
+        try:
+            with engine.connect() as conn:
+                conn.execute("SELECT 1")
+            return {"status": "database connected"}
+        except Exception as e:
+            return {"status": "database error", "error": str(e)}
+
+    # ----------------------------------------------------------------
+    # Global error handler
+    # ----------------------------------------------------------------
 
     @app.exception_handler(Exception)
     async def global_exception_handler(request: Request, exc: Exception):
@@ -78,8 +125,16 @@ def create_app() -> FastAPI:
     return app
 
 
+# -------------------------------------------------------------------
+# App instance
+# -------------------------------------------------------------------
+
 app = create_app()
 
+
+# -------------------------------------------------------------------
+# Local run
+# -------------------------------------------------------------------
 
 if __name__ == "__main__":
     import uvicorn

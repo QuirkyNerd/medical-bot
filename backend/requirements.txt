@@ -5,6 +5,8 @@ python-multipart==0.0.20
 
 # --- Vector Database ---
 qdrant-client==1.13.2
+sqlalchemy
+psycopg2-binary
 
 # --- Embeddings ---
 sentence-transformers==2.7.0
@@ -46,4 +48,4 @@ pypdf==5.1.0
 pytesseract==0.3.13
 
 # --- PDF Export ---
-reportlab==4.2.5
+reportlab==4.2.5
