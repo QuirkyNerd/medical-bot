@@ -5,34 +5,35 @@ from sqlalchemy.orm import sessionmaker
 
 load_dotenv()
 
-# ✅ Get DB URL from environment (Render → Neon)
+# -------------------------------------------------------------------
+# DATABASE CONFIG
+# -------------------------------------------------------------------
+
 DATABASE_URL = os.getenv("DATABASE_URL")
 
 if not DATABASE_URL:
     raise ValueError("DATABASE_URL not set")
 
-# ✅ Create engine
+# Create engine
 engine = create_engine(
     DATABASE_URL,
     pool_pre_ping=True,
 )
 
-# ✅ Session
+# Session
 SessionLocal = sessionmaker(
     autocommit=False,
     autoflush=False,
     bind=engine
 )
 
-
 # -------------------------------------------------------------------
-# INIT DB (PostgreSQL version of your schema)
+# INIT DB (PostgreSQL schema)
 # -------------------------------------------------------------------
 
 def init_db():
     with engine.begin() as conn:
 
-        # USERS
         conn.execute(text("""
         CREATE TABLE IF NOT EXISTS users (
             id SERIAL PRIMARY KEY,
@@ -43,7 +44,6 @@ def init_db():
         )
         """))
 
-        # PASSWORD RESET
         conn.execute(text("""
         CREATE TABLE IF NOT EXISTS password_reset_tokens (
             id SERIAL PRIMARY KEY,
@@ -55,7 +55,6 @@ def init_db():
         )
         """))
 
-        # CONVERSATIONS
         conn.execute(text("""
         CREATE TABLE IF NOT EXISTS conversations (
             id TEXT PRIMARY KEY,
@@ -66,7 +65,6 @@ def init_db():
         )
         """))
 
-        # MESSAGES
         conn.execute(text("""
         CREATE TABLE IF NOT EXISTS messages (
             id SERIAL PRIMARY KEY,
@@ -78,7 +76,6 @@ def init_db():
         )
         """))
 
-        # MEDICATION
         conn.execute(text("""
         CREATE TABLE IF NOT EXISTS medication_schedules (
             id TEXT PRIMARY KEY,
@@ -94,7 +91,6 @@ def init_db():
         )
         """))
 
-        # HEALTH VITALS
         conn.execute(text("""
         CREATE TABLE IF NOT EXISTS health_vitals (
             id TEXT PRIMARY KEY,
@@ -109,7 +105,6 @@ def init_db():
         )
         """))
 
-        # HEALTH RECORDS
         conn.execute(text("""
         CREATE TABLE IF NOT EXISTS health_records (
             id TEXT PRIMARY KEY,
@@ -124,7 +119,6 @@ def init_db():
         )
         """))
 
-        # MEDICINES
         conn.execute(text("""
         CREATE TABLE IF NOT EXISTS health_medicines (
             id TEXT PRIMARY KEY,
@@ -138,7 +132,6 @@ def init_db():
         )
         """))
 
-        # CONTACTS
         conn.execute(text("""
         CREATE TABLE IF NOT EXISTS health_contacts (
             id TEXT PRIMARY KEY,
@@ -152,7 +145,6 @@ def init_db():
         )
         """))
 
-        # EHR
         conn.execute(text("""
         CREATE TABLE IF NOT EXISTS ehr_profiles (
             id TEXT PRIMARY KEY,
@@ -163,7 +155,6 @@ def init_db():
         )
         """))
 
-        # MED LOGS
         conn.execute(text("""
         CREATE TABLE IF NOT EXISTS medication_logs (
             id TEXT PRIMARY KEY,
@@ -178,5 +169,9 @@ def init_db():
         """))
 
 
-# Auto-run on startup
-init_db()
+def get_db():
+    db = SessionLocal()
+    try:
+        yield db
+    finally:
+        db.close()
