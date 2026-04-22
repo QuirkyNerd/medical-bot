@@ -175,7 +175,6 @@ cython_debug/
 3-Modeling/credentials/api.json
 3-Modeling/credentials/api.json
 2-Data/dialogues_embededd.pkl
-*.json
 3-Modeling/credentials/api.json
 3-Modeling/credentials/api.json
 
