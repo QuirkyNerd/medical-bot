@@ -72,9 +72,15 @@ def create_app() -> FastAPI:
     )
 
     # ✅ CORS
+    # FIXED: allow_credentials=True requires explicit origins
+    origins = [
+        "https://medical-bot-mu.vercel.app",
+        "http://localhost:3000",
+    ]
+    
     app.add_middleware(
         CORSMiddleware,
-        allow_origins=["*"],  # restrict later in production
+        allow_origins=origins,
         allow_credentials=True,
         allow_methods=["*"],
         allow_headers=["*"],
@@ -111,6 +117,16 @@ def create_app() -> FastAPI:
             return {"status": "database connected"}
         except Exception as e:
             return {"status": "database error", "error": str(e)}
+
+    # ----------------------------------------------------------------
+    # Global Logging Middleware
+    # ----------------------------------------------------------------
+    @app.middleware("http")
+    async def log_requests(request: Request, call_next):
+        logger.info(f"Incoming request: {request.method} {request.url.path}")
+        response = await call_next(request)
+        logger.info(f"Response status: {response.status_code}")
+        return response
 
     # ----------------------------------------------------------------
     # Global error handler

@@ -117,29 +117,43 @@ def send_reset_email(to_email: str, otp: str) -> bool:
 
 @router.post("/register", summary="Create new user account")
 async def register(body: RegisterRequest) -> JSONResponse:
-    with engine.connect() as conn:
+    logger.info(f"POST /register | email: {body.email}")
+    
+    # Use engine.begin() for automatic transaction management (commit on success, rollback on error)
+    with engine.begin() as conn:
         try:
-            # Check if user exists
+            # 1. Check if user exists
             existing = conn.execute(
                 text("SELECT id FROM users WHERE email = :email"),
                 {"email": body.email}
             ).fetchone()
             
             if existing:
-                raise HTTPException(status_code=409, detail="Email already registered")
+                logger.warning(f"Registration failed: Email {body.email} already exists")
+                return JSONResponse(
+                    status_code=409,
+                    content={"error": "Email already registered"}
+                )
 
-            # Hash password
+            # 2. Hash password
             salt = bcrypt.gensalt()
             hashed = bcrypt.hashpw(body.password.encode('utf-8'), salt).decode('utf-8')
             name = body.displayName or body.email.split("@")[0]
 
-            # Insert user
+            # 3. Insert user using RETURNING id
+            logger.info(f"Inserting new user: {body.email}")
             result = conn.execute(
                 text("INSERT INTO users (name, email, password_hash) VALUES (:name, :email, :password_hash) RETURNING id"),
                 {"name": name, "email": body.email, "password_hash": hashed}
             )
-            user_id = result.fetchone()[0]
-            conn.commit()
+            
+            # Fetch the generated ID
+            row = result.fetchone()
+            if not row:
+                raise Exception("Failed to retrieve new user ID after insert")
+            
+            user_id = row[0]
+            logger.info(f"User created successfully with ID: {user_id}")
 
             user_out = {
                 "id": str(user_id),
@@ -150,39 +164,63 @@ async def register(body: RegisterRequest) -> JSONResponse:
             }
             
             token = create_jwt(user_id, body.email)
-            return JSONResponse({"message": "User registered successfully", "token": token, "user": user_out})
+            return JSONResponse({
+                "message": "User registered successfully", 
+                "token": token, 
+                "user": user_out
+            })
+            
         except Exception as e:
-            if isinstance(e, HTTPException): raise e
-            logger.exception("Register failed")
-            raise HTTPException(status_code=500, detail=str(e))
+            logger.exception(f"Unexpected error during registration for {body.email}")
+            return JSONResponse(
+                status_code=500,
+                content={"error": f"Internal server error: {str(e)}"}
+            )
 
 
 @router.post("/login", summary="Authenticate and receive JWT")
 async def login(body: LoginRequest) -> JSONResponse:
+    logger.info(f"POST /login | email: {body.email}")
     with engine.connect() as conn:
-        row = conn.execute(
-            text("SELECT id, name, email, password_hash FROM users WHERE email = :email"),
-            {"email": body.email}
-        ).fetchone()
+        try:
+            row = conn.execute(
+                text("SELECT id, name, email, password_hash FROM users WHERE email = :email"),
+                {"email": body.email}
+            ).fetchone()
 
-        if not row:
-            raise HTTPException(status_code=401, detail="Invalid email or password.")
+            if not row:
+                logger.warning(f"Login failed: User {body.email} not found")
+                return JSONResponse(
+                    status_code=401,
+                    content={"error": "Invalid email or password."}
+                )
 
-        # row is a tuple-like object, access by index or name depending on SQLAlchemy version
-        # row[3] is password_hash
-        if not bcrypt.checkpw(body.password.encode('utf-8'), row[3].encode('utf-8')):
-            raise HTTPException(status_code=401, detail="Invalid email or password.")
+            # row is a tuple-like object: (id, name, email, password_hash)
+            # row[3] is password_hash
+            if not bcrypt.checkpw(body.password.encode('utf-8'), row[3].encode('utf-8')):
+                logger.warning(f"Login failed: Incorrect password for {body.email}")
+                return JSONResponse(
+                    status_code=401,
+                    content={"error": "Invalid email or password."}
+                )
 
-        user_out = {
-            "id": str(row[0]),
-            "email": row[2],
-            "displayName": row[1],
-            "emailVerified": True,
-            "isAdmin": False
-        }
+            user_out = {
+                "id": str(row[0]),
+                "email": row[2],
+                "displayName": row[1],
+                "emailVerified": True,
+                "isAdmin": False
+            }
 
-        token = create_jwt(row[0], row[2])
-        return JSONResponse({"token": token, "user": user_out})
+            token = create_jwt(row[0], row[2])
+            logger.info(f"Login successful: {body.email}")
+            return JSONResponse({"token": token, "user": user_out})
+        except Exception as e:
+            logger.exception(f"Unexpected error during login for {body.email}")
+            return JSONResponse(
+                status_code=500,
+                content={"error": f"Internal server error: {str(e)}"}
+            )
 
 
 @router.get("/me", summary="Return current authenticated user")
@@ -191,26 +229,33 @@ async def me(authorization: Optional[str] = Header(None)) -> JSONResponse:
         raise HTTPException(status_code=401, detail="Missing or invalid Authorization header")
 
     token = authorization[7:].strip()
-    payload = decode_jwt(token)
+    try:
+        payload = decode_jwt(token)
+    except Exception as e:
+        return JSONResponse(status_code=401, content={"error": str(e)})
+        
     email = payload.get("email")
 
     with engine.connect() as conn:
-        row = conn.execute(
-            text("SELECT id, name, email FROM users WHERE email = :email"),
-            {"email": email}
-        ).fetchone()
-        
-        if not row:
-            raise HTTPException(status_code=401, detail="User not found")
+        try:
+            row = conn.execute(
+                text("SELECT id, name, email FROM users WHERE email = :email"),
+                {"email": email}
+            ).fetchone()
+            
+            if not row:
+                return JSONResponse(status_code=401, content={"error": "User not found"})
 
-        user_out = {
-            "id": str(row[0]),
-            "email": row[2],
-            "displayName": row[1],
-            "emailVerified": True,
-            "isAdmin": False
-        }
-        return JSONResponse({"user": user_out})
+            user_out = {
+                "id": str(row[0]),
+                "email": row[2],
+                "displayName": row[1],
+                "emailVerified": True,
+                "isAdmin": False
+            }
+            return JSONResponse({"user": user_out})
+        except Exception as e:
+            return JSONResponse(status_code=500, content={"error": str(e)})
 
 
 @router.post("/logout", summary="Invalidate token")
