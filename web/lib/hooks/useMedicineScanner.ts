@@ -2,9 +2,7 @@
 
 import { useState, useCallback } from "react";
 import type { MedicineItem, MedicineForm } from "@/lib/health-store";
-
-const SCAN_API = "/api/proxy/scan";
-const HEALTH_API = "/api/proxy/scan";
+import { apiRequest } from "../api-client";
 
 interface ScanResult {
   success: boolean;
@@ -15,46 +13,25 @@ interface ScanResult {
 
 type ScannerStatus = "idle" | "waking" | "scanning";
 
-/**
- * Hook for scanning medicine labels via the MedOS Medicine Scanner.
- *
- * Full lifecycle:
- *   1. Check if Scanner Space is awake (via backend proxy)
- *   2. If sleeping, poll until ready (HF auto-wakes on request)
- *   3. Send image through backend proxy (token injected server-side)
- *   4. Return structured MedicineItem JSON
- *
- * Zero tokens in the browser. All auth is server-side.
- */
 export function useMedicineScanner() {
   const [status, setStatus] = useState<ScannerStatus>("idle");
   const [result, setResult] = useState<ScanResult | null>(null);
   const [error, setError] = useState<string | null>(null);
 
-  /** Check if the Scanner Space is awake via the backend health proxy. */
   const isAwake = useCallback(async (): Promise<boolean> => {
     try {
-      const controller = new AbortController();
-      const timeout = setTimeout(() => controller.abort(), 6000);
-      const res = await fetch(HEALTH_API, { signal: controller.signal });
-      clearTimeout(timeout);
-      if (!res.ok) return false;
-      const data = await res.json();
+      const data = await apiRequest("/api/scan/health");
       return data.status === "ok";
     } catch {
       return false;
     }
   }, []);
 
-  /** Wake the Space if sleeping. Polls until ready (max ~3 min). */
   const wakeSpace = useCallback(async (): Promise<boolean> => {
     if (await isAwake()) return true;
 
     setStatus("waking");
-
-    // The GET request to the health proxy itself triggers the wake
-    // (the backend fetches from the Scanner Space URL, waking it)
-    const maxAttempts = 36; // 36 * 5s = 3 min
+    const maxAttempts = 36; // 3 min
     for (let i = 0; i < maxAttempts; i++) {
       await new Promise((r) => setTimeout(r, 5000));
       if (await isAwake()) return true;
@@ -68,7 +45,6 @@ export function useMedicineScanner() {
     setError(null);
 
     try {
-      // Step 1: Ensure Scanner Space is awake
       const awake = await wakeSpace();
       if (!awake) {
         setError("Scanner is starting up. Please try again in a moment.");
@@ -77,18 +53,14 @@ export function useMedicineScanner() {
         return;
       }
 
-      // Step 2: Send scan through backend proxy (token injected server-side)
       setStatus("scanning");
       const formData = new FormData();
       formData.append("image", imageFile);
 
-      const response = await fetch(SCAN_API, {
+      const data = await apiRequest("/api/scan", {
         method: "POST",
-        body: formData,
-        // No Authorization header — the backend proxy adds it
+        body: formData
       });
-
-      const data = await response.json();
 
       if (data.success && data.medicine) {
         const validForms: MedicineForm[] = [

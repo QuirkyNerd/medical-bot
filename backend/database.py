@@ -14,6 +14,10 @@ DATABASE_URL = os.getenv("DATABASE_URL")
 if not DATABASE_URL:
     raise ValueError("DATABASE_URL not set")
 
+# ✅ Neon/Heroku often provide "postgres://" but SQLAlchemy 1.4+ requires "postgresql://"
+if DATABASE_URL.startswith("postgres://"):
+    DATABASE_URL = DATABASE_URL.replace("postgres://", "postgresql://", 1)
+
 # Create engine
 engine = create_engine(
     DATABASE_URL,
@@ -33,7 +37,7 @@ SessionLocal = sessionmaker(
 
 def init_db():
     with engine.begin() as conn:
-
+        # User table
         conn.execute(text("""
         CREATE TABLE IF NOT EXISTS users (
             id SERIAL PRIMARY KEY,
@@ -44,6 +48,7 @@ def init_db():
         )
         """))
 
+        # Password reset tokens
         conn.execute(text("""
         CREATE TABLE IF NOT EXISTS password_reset_tokens (
             id SERIAL PRIMARY KEY,
@@ -55,6 +60,7 @@ def init_db():
         )
         """))
 
+        # Conversations
         conn.execute(text("""
         CREATE TABLE IF NOT EXISTS conversations (
             id TEXT PRIMARY KEY,
@@ -65,6 +71,7 @@ def init_db():
         )
         """))
 
+        # Messages
         conn.execute(text("""
         CREATE TABLE IF NOT EXISTS messages (
             id SERIAL PRIMARY KEY,
@@ -76,6 +83,7 @@ def init_db():
         )
         """))
 
+        # Other tables (health data, schedules, etc.)
         conn.execute(text("""
         CREATE TABLE IF NOT EXISTS medication_schedules (
             id TEXT PRIMARY KEY,
@@ -168,10 +176,14 @@ def init_db():
         )
         """))
 
-
 def get_db():
+    """FastAPI dependency for DB sessions."""
     db = SessionLocal()
     try:
         yield db
     finally:
         db.close()
+
+def get_conn():
+    """Utility for raw engine connection."""
+    return engine.connect()

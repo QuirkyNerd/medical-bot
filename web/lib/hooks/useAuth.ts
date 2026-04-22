@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useCallback } from "react";
 import { setStoreUserId, clearUserData } from "../health-store";
+import { apiRequest } from "../api-client";
 
 export interface User {
   id: string;
@@ -31,12 +32,15 @@ export function useAuth() {
     }
   }, []);
 
-  // Restore session on mount.
+  // Restore session on mount
   useEffect(() => {
     const t = localStorage.getItem(TOKEN_KEY);
-    if (!t) { setLoading(false); return; }
-    fetch("/api/proxy/auth/me", { headers: { Authorization: `Bearer ${t}` } })
-      .then((r) => (r.ok ? r.json() : null))
+    if (!t) {
+      setLoading(false);
+      return;
+    }
+
+    apiRequest("/api/auth/me", { token: t })
       .then((data) => {
         if (data?.user) {
           persistToken(t);
@@ -46,120 +50,114 @@ export function useAuth() {
           persistToken(null);
         }
       })
-      .catch(() => {})
+      .catch(() => {
+        persistToken(null);
+      })
       .finally(() => setLoading(false));
   }, [persistToken]);
 
   const register = useCallback(
     async (email: string, password: string, opts?: { displayName?: string }) => {
       try {
-        const res = await fetch("/api/proxy/auth/register", {
+        const data = await apiRequest("/api/auth/register", {
           method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ email, password, displayName: opts?.displayName }),
+          json: { email, password, displayName: opts?.displayName },
         });
-        const data = await res.json();
-        if (!res.ok) return { ok: false as const, error: data.error || "Registration failed" };
+
         persistToken(data.token);
         setUser(data.user);
         setStoreUserId(data.user.id);
         return { ok: true as const, needsVerification: !data.user.emailVerified };
-      } catch {
-        return { ok: false as const, error: "Network error" };
+      } catch (err: any) {
+        return { ok: false as const, error: err.message || "Registration failed" };
       }
     },
-    [persistToken],
+    [persistToken]
   );
 
   const login = useCallback(
     async (email: string, password: string) => {
       try {
-        const res = await fetch("/api/proxy/auth/login", {
+        const data = await apiRequest("/api/auth/login", {
           method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ email, password }),
+          json: { email, password },
         });
-        const data = await res.json();
-        if (!res.ok) return { ok: false as const, error: data.error || "Login failed" };
+
         persistToken(data.token);
         setUser(data.user);
         setStoreUserId(data.user.id);
         return { ok: true as const };
-      } catch {
-        return { ok: false as const, error: "Network error" };
+      } catch (err: any) {
+        return { ok: false as const, error: err.message || "Login failed" };
       }
     },
-    [persistToken],
+    [persistToken]
   );
 
-  const verifyEmail = useCallback(
-    async (code: string) => {
-      try {
-        const t = localStorage.getItem(TOKEN_KEY);
-        const res = await fetch("/api/proxy/auth/verify-email", {
-          method: "POST",
-          headers: { "Content-Type": "application/json", Authorization: `Bearer ${t}` },
-          body: JSON.stringify({ code }),
-        });
-        const data = await res.json();
-        if (!res.ok) return { ok: false as const, error: data.error };
-        setUser((u) => (u ? { ...u, emailVerified: true } : u));
-        return { ok: true as const };
-      } catch {
-        return { ok: false as const, error: "Network error" };
-      }
-    },
-    [],
-  );
+  const verifyEmail = useCallback(async (code: string) => {
+    try {
+      const t = localStorage.getItem(TOKEN_KEY);
+      await apiRequest("/api/auth/verify-email", {
+        method: "POST",
+        token: t,
+        json: { code },
+      });
+
+      setUser((u) => (u ? { ...u, emailVerified: true } : u));
+      return { ok: true as const };
+    } catch (err: any) {
+      return { ok: false as const, error: err.message };
+    }
+  }, []);
 
   const resendVerification = useCallback(async () => {
     const t = localStorage.getItem(TOKEN_KEY);
-    await fetch("/api/proxy/auth/resend-verification", {
-      method: "POST",
-      headers: { Authorization: `Bearer ${t}` },
-    }).catch(() => {});
+    try {
+      await apiRequest("/api/auth/resend-verification", {
+        method: "POST",
+        token: t,
+      });
+    } catch {}
   }, []);
 
   const forgotPassword = useCallback(async (email: string) => {
     try {
-      const res = await fetch("/api/proxy/auth/forgot-password", {
+      const data = await apiRequest("/api/auth/forgot-password", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email }),
+        json: { email },
       });
-      const data = await res.json();
-      return { ok: res.ok, message: data.message || data.error };
-    } catch {
-      return { ok: false, message: "Network error" };
+      return { ok: true, message: data.message };
+    } catch (err: any) {
+      return { ok: false, message: err.message };
     }
   }, []);
 
   const resetPassword = useCallback(
     async (email: string, code: string, newPassword: string) => {
       try {
-        const res = await fetch("/api/proxy/auth/reset-password", {
+        const data = await apiRequest("/api/auth/reset-password", {
           method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ email, code, newPassword }),
+          json: { email, code, newPassword },
         });
-        const data = await res.json();
-        if (!res.ok) return { ok: false as const, error: data.error };
+
         if (data.token) persistToken(data.token);
         if (data.user) {
           setUser(data.user);
           setStoreUserId(data.user.id);
         }
         return { ok: true as const };
-      } catch {
-        return { ok: false as const, error: "Network error" };
+      } catch (err: any) {
+        return { ok: false as const, error: err.message };
       }
     },
-    [persistToken],
+    [persistToken]
   );
 
   const logout = useCallback(async () => {
     const t = localStorage.getItem(TOKEN_KEY);
-    if (t) fetch("/api/proxy/auth/logout", { method: "POST", headers: { Authorization: `Bearer ${t}` } }).catch(() => {});
+    if (t) {
+      apiRequest("/api/auth/logout", { method: "POST", token: t }).catch(() => {});
+    }
     clearUserData();
     persistToken(null);
     setUser(null);

@@ -1,7 +1,7 @@
 """
 backend/api/auth_router.py
 ===========================
-Production-grade JWT authentication using SQLite and bcrypt.
+Production-grade JWT authentication using PostgreSQL and bcrypt.
 """
 
 from __future__ import annotations
@@ -24,8 +24,9 @@ import jwt
 from fastapi import APIRouter, HTTPException, Header
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel, Field
+from sqlalchemy import text
 
-from database import get_db
+from database import engine
 
 logger = logging.getLogger("medai.auth")
 
@@ -88,15 +89,10 @@ def send_reset_email(to_email: str, otp: str) -> bool:
     EMAIL_USER = os.getenv("EMAIL_USER")
     EMAIL_PASS = os.getenv("EMAIL_PASS")
     
-    print("ENV EMAIL:", EMAIL_USER)
-    
     if not EMAIL_USER or not EMAIL_PASS:
-        print("❌ EMAIL ERROR: Email credentials not configured")
+        logger.error("Email credentials not configured")
         return False
         
-    print("EMAIL_USER:", EMAIL_USER)
-    print("Sending email to:", to_email)
-    
     msg = EmailMessage()
     msg["Subject"] = "Password Reset Code"
     msg["From"] = EMAIL_USER
@@ -109,11 +105,10 @@ def send_reset_email(to_email: str, otp: str) -> bool:
         server.login(EMAIL_USER, EMAIL_PASS)
         server.send_message(msg)
         server.quit()
-        print("✅ EMAIL SENT SUCCESSFULLY")
         return True
     except Exception as e:
-        print("❌ EMAIL ERROR:", str(e))
-        raise e
+        logger.error(f"Email error: {e}")
+        return False
 
 
 # ---------------------------------------------------------------------------
@@ -122,69 +117,72 @@ def send_reset_email(to_email: str, otp: str) -> bool:
 
 @router.post("/register", summary="Create new user account")
 async def register(body: RegisterRequest) -> JSONResponse:
-    conn = get_db()
-    cursor = conn.cursor()
-    try:
-        # Check if user exists
-        cursor.execute("SELECT id FROM users WHERE email = ?", (body.email,))
-        if cursor.fetchone():
-            raise HTTPException(status_code=409, detail="Email already registered")
+    with engine.connect() as conn:
+        try:
+            # Check if user exists
+            existing = conn.execute(
+                text("SELECT id FROM users WHERE email = :email"),
+                {"email": body.email}
+            ).fetchone()
+            
+            if existing:
+                raise HTTPException(status_code=409, detail="Email already registered")
 
-        # Hash password
-        salt = bcrypt.gensalt()
-        hashed = bcrypt.hashpw(body.password.encode('utf-8'), salt).decode('utf-8')
-        name = body.displayName or body.email.split("@")[0]
+            # Hash password
+            salt = bcrypt.gensalt()
+            hashed = bcrypt.hashpw(body.password.encode('utf-8'), salt).decode('utf-8')
+            name = body.displayName or body.email.split("@")[0]
 
-        # Insert user
-        cursor.execute(
-            "INSERT INTO users (name, email, password_hash) VALUES (?, ?, ?)",
-            (name, body.email, hashed)
-        )
-        conn.commit()
-        user_id = cursor.lastrowid
+            # Insert user
+            result = conn.execute(
+                text("INSERT INTO users (name, email, password_hash) VALUES (:name, :email, :password_hash) RETURNING id"),
+                {"name": name, "email": body.email, "password_hash": hashed}
+            )
+            user_id = result.fetchone()[0]
+            conn.commit()
 
-        user_out = {
-            "id": str(user_id),
-            "email": body.email,
-            "displayName": name,
-            "emailVerified": True,
-            "isAdmin": False
-        }
-        
-        token = create_jwt(user_id, body.email)
-        logger.info(f"Registered user: {body.email}")
-        return JSONResponse({"message": "User registered successfully", "token": token, "user": user_out})
-    finally:
-        conn.close()
+            user_out = {
+                "id": str(user_id),
+                "email": body.email,
+                "displayName": name,
+                "emailVerified": True,
+                "isAdmin": False
+            }
+            
+            token = create_jwt(user_id, body.email)
+            return JSONResponse({"message": "User registered successfully", "token": token, "user": user_out})
+        except Exception as e:
+            if isinstance(e, HTTPException): raise e
+            logger.exception("Register failed")
+            raise HTTPException(status_code=500, detail=str(e))
 
 
 @router.post("/login", summary="Authenticate and receive JWT")
 async def login(body: LoginRequest) -> JSONResponse:
-    conn = get_db()
-    cursor = conn.cursor()
-    try:
-        cursor.execute("SELECT id, name, email, password_hash FROM users WHERE email = ?", (body.email,))
-        row = cursor.fetchone()
+    with engine.connect() as conn:
+        row = conn.execute(
+            text("SELECT id, name, email, password_hash FROM users WHERE email = :email"),
+            {"email": body.email}
+        ).fetchone()
 
         if not row:
-            raise HTTPException(status_code=401, detail="Invalid email or password. Please try again.")
+            raise HTTPException(status_code=401, detail="Invalid email or password.")
 
-        if not bcrypt.checkpw(body.password.encode('utf-8'), row['password_hash'].encode('utf-8')):
-            raise HTTPException(status_code=401, detail="Invalid email or password. Please try again.")
+        # row is a tuple-like object, access by index or name depending on SQLAlchemy version
+        # row[3] is password_hash
+        if not bcrypt.checkpw(body.password.encode('utf-8'), row[3].encode('utf-8')):
+            raise HTTPException(status_code=401, detail="Invalid email or password.")
 
         user_out = {
-            "id": str(row['id']),
-            "email": row['email'],
-            "displayName": row['name'],
+            "id": str(row[0]),
+            "email": row[2],
+            "displayName": row[1],
             "emailVerified": True,
             "isAdmin": False
         }
 
-        token = create_jwt(row['id'], row['email'])
-        logger.info(f"Login success: {body.email}")
+        token = create_jwt(row[0], row[2])
         return JSONResponse({"token": token, "user": user_out})
-    finally:
-        conn.close()
 
 
 @router.get("/me", summary="Return current authenticated user")
@@ -196,105 +194,99 @@ async def me(authorization: Optional[str] = Header(None)) -> JSONResponse:
     payload = decode_jwt(token)
     email = payload.get("email")
 
-    conn = get_db()
-    cursor = conn.cursor()
-    try:
-        cursor.execute("SELECT id, name, email FROM users WHERE email = ?", (email,))
-        row = cursor.fetchone()
+    with engine.connect() as conn:
+        row = conn.execute(
+            text("SELECT id, name, email FROM users WHERE email = :email"),
+            {"email": email}
+        ).fetchone()
+        
         if not row:
             raise HTTPException(status_code=401, detail="User not found")
 
         user_out = {
-            "id": str(row['id']),
-            "email": row['email'],
-            "displayName": row['name'],
+            "id": str(row[0]),
+            "email": row[2],
+            "displayName": row[1],
             "emailVerified": True,
             "isAdmin": False
         }
         return JSONResponse({"user": user_out})
-    finally:
-        conn.close()
 
 
-@router.post("/logout", summary="Invalidate token (client-side only for stateless JWT)")
-async def logout(authorization: Optional[str] = Header(None)) -> JSONResponse:
-    # A fully stateless JWT system handles logout client-side by destroying the token.
+@router.post("/logout", summary="Invalidate token")
+async def logout() -> JSONResponse:
     return JSONResponse({"ok": True, "message": "Logged out successfully"})
 
 
 @router.post("/forgot-password", summary="Initiate password reset")
 async def forgot_password(body: ForgotPasswordRequest) -> JSONResponse:
-    print("🔥 Forgot password triggered")
-    conn = get_db()
-    cursor = conn.cursor()
-    try:
-        cursor.execute("SELECT id FROM users WHERE email = ?", (body.email,))
-        if not cursor.fetchone():
+    with engine.connect() as conn:
+        user = conn.execute(
+            text("SELECT id FROM users WHERE email = :email"),
+            {"email": body.email}
+        ).fetchone()
+        
+        if not user:
             return JSONResponse({"ok": True, "message": "If that email exists, a reset code has been sent."})
             
         otp = str(random.randint(100000, 999999))
         
-        cursor.execute('''
+        conn.execute(text('''
             INSERT INTO password_reset_tokens (email, otp_code, expires_at, is_used) 
-            VALUES (?, ?, datetime('now', '+10 minutes'), 0)
-        ''', (body.email, otp))
+            VALUES (:email, :otp, NOW() + INTERVAL '10 minutes', FALSE)
+        '''), {"email": body.email, "otp": otp})
         conn.commit()
         
         send_reset_email(body.email, otp)
         
-        return JSONResponse({
-            "ok": True, 
-            "message": "If that email exists, a reset code has been sent."
-        })
-    finally:
-        conn.close()
+        return JSONResponse({"ok": True, "message": "If that email exists, a reset code has been sent."})
         
         
 @router.post("/verify-email", summary="Verify OTP")
 async def verify_email(body: VerifyEmailRequest) -> JSONResponse:
-    conn = get_db()
-    cursor = conn.cursor()
-    try:
-        cursor.execute("SELECT email FROM password_reset_tokens WHERE otp_code = ? AND is_used = 0 AND expires_at > datetime('now')", (body.code,))
-        row = cursor.fetchone()
+    with engine.connect() as conn:
+        row = conn.execute(text("""
+            SELECT email FROM password_reset_tokens 
+            WHERE otp_code = :code AND is_used = FALSE AND expires_at > NOW()
+        """), {"code": body.code}).fetchone()
+        
         if not row:
             raise HTTPException(status_code=400, detail="Invalid or expired code")
             
         return JSONResponse({"ok": True})
-    finally:
-        conn.close()
 
 
 @router.post("/reset-password", summary="Reset password using OTP")
 async def reset_password(body: ResetPasswordRequest) -> JSONResponse:
-    conn = get_db()
-    cursor = conn.cursor()
-    try:
-        cursor.execute('''
+    with engine.connect() as conn:
+        row = conn.execute(text('''
             SELECT id FROM password_reset_tokens 
-            WHERE email = ? AND otp_code = ? AND is_used = 0 AND expires_at > datetime('now')
-        ''', (body.email, body.code))
-        row = cursor.fetchone()
+            WHERE email = :email AND otp_code = :code AND is_used = FALSE AND expires_at > NOW()
+        '''), {"email": body.email, "code": body.code}).fetchone()
         
         if not row:
             raise HTTPException(status_code=401, detail="Invalid or expired reset code")
             
-        token_id = row['id']
+        token_id = row[0]
             
         # Update user password
         salt = bcrypt.gensalt()
         hashed = bcrypt.hashpw(body.newPassword.encode('utf-8'), salt).decode('utf-8')
-        cursor.execute("UPDATE users SET password_hash = ? WHERE email = ?", (hashed, body.email))
+        conn.execute(
+            text("UPDATE users SET password_hash = :hash WHERE email = :email"),
+            {"hash": hashed, "email": body.email}
+        )
         
         # Mark OTP as used
-        cursor.execute("UPDATE password_reset_tokens SET is_used = 1 WHERE id = ?", (token_id,))
+        conn.execute(
+            text("UPDATE password_reset_tokens SET is_used = TRUE WHERE id = :id"),
+            {"id": token_id}
+        )
         conn.commit()
         
         return JSONResponse({"ok": True, "message": "Password reset successfully"})
-    finally:
-        conn.close()
 
 
-@router.post("/resend-verification", summary="Resend verification (no-op in demo)")
+@router.post("/resend-verification", summary="Resend verification")
 async def resend_verification() -> JSONResponse:
     return JSONResponse({"ok": True})
