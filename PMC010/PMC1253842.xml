@@ -1,0 +1,735 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS Pathog</journal-id><journal-id journal-id-type="iso-abbrev">PLoS Pathog</journal-id><journal-id journal-id-type="publisher-id">ppat</journal-id><journal-id journal-id-type="publisher-id">plpa</journal-id><journal-id journal-id-type="pmc">plospath</journal-id><journal-title-group><journal-title>PLoS Pathogens</journal-title></journal-title-group><issn pub-type="ppub">1553-7366</issn><issn pub-type="epub">1553-7374</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">16228015</article-id><article-id pub-id-type="pmc">PMC1253842</article-id><article-id pub-id-type="doi">10.1371/journal.ppat.0010014</article-id><article-id pub-id-type="publisher-id">05-PLPA-RA-0067R1</article-id><article-id pub-id-type="sici">plpa-01-02-02</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group><subj-group subj-group-type="Discipline"><subject>Cell Biology</subject><subject>Development</subject><subject>Microbiology</subject><subject>Parasitology</subject></subj-group><subj-group subj-group-type="System Taxonomy"><subject>Eubacteria</subject><subject>Drosophila</subject><subject>Insects</subject><subject>Arthropods</subject></subj-group></article-categories><title-group><article-title>
+<italic>Wolbachia</italic> Utilizes Host Microtubules and Dynein for Anterior Localization in the <italic>Drosophila</italic> Oocyte</article-title><alt-title alt-title-type="running-head">Maternal Transmission of
+<italic>Wolbachia</italic></alt-title></title-group><contrib-group><contrib contrib-type="author" equal-contrib="yes"><name><surname>Ferree</surname><given-names>Patrick M</given-names></name><xref ref-type="aff" rid="aff1">1</xref></contrib><contrib contrib-type="author" equal-contrib="yes"><name><surname>Frydman</surname><given-names>Horacio M</given-names></name><xref ref-type="aff" rid="aff2">2</xref></contrib><contrib contrib-type="author"><name><surname>Li</surname><given-names>Jennifer M</given-names></name><xref ref-type="aff" rid="aff2">2</xref></contrib><contrib contrib-type="author"><name><surname>Cao</surname><given-names>Jian</given-names></name><xref ref-type="aff" rid="aff1">1</xref></contrib><contrib contrib-type="author"><name><surname>Wieschaus</surname><given-names>Eric</given-names></name><xref ref-type="aff" rid="aff2">2</xref></contrib><contrib contrib-type="author"><name><surname>Sullivan</surname><given-names>William</given-names></name><xref ref-type="aff" rid="aff1">1</xref><xref ref-type="corresp" rid="cor1">&#x0002a;</xref></contrib></contrib-group><aff id="aff1">
+<label>1</label> Department of Molecular, Cellular, and Developmental Biology, University of California, Santa Cruz, California, United States of America
+</aff><aff id="aff2">
+<label>2</label> Howard Hughes Medical Institute, Department of Molecular Biology, Princeton University, Princeton, New Jersey, United States of America
+</aff><contrib-group><contrib contrib-type="editor"><name><surname>Schneider</surname><given-names>David</given-names></name><role>Editor</role><xref ref-type="aff" rid="edit1"/></contrib></contrib-group><aff id="edit1">Stanford University, United States of America</aff><author-notes><corresp id="cor1">&#x0002a; To whom correspondence should be addressed. E-mail: <email>sullivan&#x00040;biology.ucsc.edu</email></corresp></author-notes><pub-date pub-type="ppub"><month>10</month><year>2005</year></pub-date><pub-date pub-type="epub"><day>14</day><month>10</month><year>2005</year></pub-date><volume>1</volume><issue>2</issue><elocation-id>e14</elocation-id><history><date date-type="received"><day>1</day><month>7</month><year>2005</year></date><date date-type="accepted"><day>31</day><month>8</month><year>2005</year></date></history><permissions><copyright-statement>Copyright: &#x000a9; 2005 Ferree et al.</copyright-statement><copyright-year>2005</copyright-year><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p></license></permissions><abstract><p>To investigate the role of the host cytoskeleton in the maternal transmission of the endoparasitic bacteria <italic>Wolbachia,</italic> we have characterized their distribution in the female germ line of <italic>Drosophila melanogaster</italic>. In the germarium, <italic>Wolbachia</italic> are distributed to all germ cells of the cyst, establishing an early infection in the cell destined to become the oocyte. During mid-oogenesis, <italic>Wolbachia</italic> exhibit a distinct concentration between the anterior cortex and the nucleus in the oocyte, where many bacteria appear to contact the nuclear envelope. Following programmed rearrangement of the microtubule network, <italic>Wolbachia</italic> dissociate from this anterior position and become dispersed throughout the oocyte. This localization pattern is distinct from mitochondria and all known axis determinants. Manipulation of microtubules and cytoplasmic Dynein and Dynactin, but not Kinesin-1, disrupts anterior bacterial localization in the oocyte. In live egg chambers, <italic>Wolbachia</italic> exhibit movement in nurse cells but not in the oocyte, suggesting that the bacteria are anchored by host factors. In addition, we identify mid-oogenesis as a period in the life cycle of <italic>Wolbachia</italic> in which bacterial replication occurs. Total bacterial counts show that <italic>Wolbachia</italic> increase at a significantly higher rate in the oocyte than in the average nurse cell, and that normal <italic>Wolbachia</italic> levels in the oocyte depend on microtubules. These findings demonstrate that <italic>Wolbachia</italic> utilize the host microtubule network and associated proteins for their subcellular localization in the <italic>Drosophila</italic> oocyte. These interactions may also play a role in bacterial motility and replication, ultimately leading to the bacteria's efficient maternal transmission.</p></abstract><abstract abstract-type="synopsis"><title>Synopsis</title><sec id="st1"><title/><p>Intracellular bacteria that cause disease exploit host cells for their survival and reproduction. Here the authors are studying <italic>Wolbachia,</italic> an intracellular bacteria that infects many insect species and other invertebrates, such as filarial nematodes, the agents of diseases such as African river blindness and elephantiasis. <italic>Wolbachia</italic> transmission is similar to mitochondrial inheritance, that is, from mother to offspring in the host. However, little is known about the mechanisms of this maternal transmission and the interactions of <italic>Wolbachia</italic> and its hosts at the cellular level. Here the authors show that in the fruit fly <italic>Drosophila melanogaster, Wolbachia</italic> bacteria are initially distributed uniformly throughout the female germ line but concentrate during the middle stages of oogenesis in the future oocyte, exhibiting a striking anterior localization that is distinct from mitochondria and all known axis determinants. The authors demonstrate that microtubules and the minus-end-directed motor Dynein are required for this subcellular localization, suggesting that <italic>Wolbachia</italic> uses the host's microtubule cytoskeleton and transport system to ensure its transmission to the next generation. This microtubule dependence contrasts with the Actin-based motility observed for many other intracellular bacteria and may provide a foundation for further probing of the molecular and cellular basis of <italic>Wolbachia</italic> replication and transmission.</p></sec></abstract><custom-meta-group><custom-meta><meta-name>Citation:</meta-name><meta-value>Ferree PM, Frydman HM, Li JM, Cao J, Wieschaus E, et al. (2005) <italic>Wolbachia</italic> utilizes host microtubules and Dynein for anterior localization in the <italic>Drosophila</italic> oocyte. PLoS Pathog 1(2): e14.</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec id="s1"><title>Introduction</title><p>Associations between bacterial endoparasites and their hosts are widespread in nature [<xref rid="ppat-0010014-b01" ref-type="bibr">1</xref>]. Studies of how these endoparasites modify host cell biological processes have proven insightful in elucidating the mechanisms that drive core cellular events [<xref rid="ppat-0010014-b02" ref-type="bibr">2</xref>]. While interactions between intracellular pathogens and the host Actin cytoskeleton have been intensively investigated [<xref rid="ppat-0010014-b03" ref-type="bibr">3</xref>], interactions between pathogens and the microtubule cytoskeleton are less well explored. In insects, the endoparasitic bacteria <italic>Wolbachia</italic> maintains a close association with host microtubules [<xref rid="ppat-0010014-b04" ref-type="bibr">4</xref>,<xref rid="ppat-0010014-b05" ref-type="bibr">5</xref>], thus providing an excellent system to explore pathogen interactions with the microtubule cytoskeleton.</p><p>
+<italic>Wolbachia</italic> are gram-negative, <italic>Rickettsia</italic>-like bacteria that infect insects (reviewed in [<xref rid="ppat-0010014-b06" ref-type="bibr">6</xref>]), filarial nematodes (reviewed in [<xref rid="ppat-0010014-b07" ref-type="bibr">7</xref>]), crustaceans [<xref rid="ppat-0010014-b08" ref-type="bibr">8</xref>], and mites [<xref rid="ppat-0010014-b09" ref-type="bibr">9</xref>]. These bacteria are most prominent in insects, infecting an estimated 16&#x00025; to 76&#x00025; of insect species worldwide [<xref rid="ppat-0010014-b10" ref-type="bibr">10</xref>&#x02013;<xref rid="ppat-0010014-b12" ref-type="bibr">12</xref>]. This is largely attributable to their ability to manipulate the host insect reproductive machinery for their own benefit. Depending on the insect species and bacterial strain, the presence of <italic>Wolbachia</italic> in females can induce parthenogenesis [<xref rid="ppat-0010014-b13" ref-type="bibr">13</xref>], male killing [<xref rid="ppat-0010014-b14" ref-type="bibr">14</xref>], or feminization of male progeny [<xref rid="ppat-0010014-b15" ref-type="bibr">15</xref>], all of which increase the number of infected females. The most common <italic>Wolbachia</italic>-induced host manipulation is a form of reproductive sterility called cytoplasmic incompatibility (reviewed in [<xref rid="ppat-0010014-b06" ref-type="bibr">6</xref>,<xref rid="ppat-0010014-b16" ref-type="bibr">16</xref>]). Cytoplasmic incompatibility occurs when an infected male mates with an uninfected female, resulting in high levels of embryonic death. Embryonic development is normal, however, if the female is infected with the same <italic>Wolbachia</italic> strain. Because infected females can successfully mate with either infected or uninfected males, they are selectively favored over uninfected females. <italic>Wolbachia</italic> are maternally transmitted, so favoring infected females enhances bacterial transmission frequencies.</p><p>Although <italic>Wolbachia</italic> have been detected in host somatic tissues, they are found primarily in the germ-line tissues [<xref rid="ppat-0010014-b17" ref-type="bibr">17</xref>&#x02013;<xref rid="ppat-0010014-b20" ref-type="bibr">20</xref>]. In males, <italic>Wolbachia</italic> are present within developing spermatocytes, but they are completely removed in cytoplasmic &#x0201c;waste bags&#x0201d; during late spermatogenesis [<xref rid="ppat-0010014-b19" ref-type="bibr">19</xref>,<xref rid="ppat-0010014-b21" ref-type="bibr">21</xref>]. Because <italic>Wolbachia</italic> are not transmitted through the sperm, their presence in males is considered to be a &#x0201c;dead end&#x0201d; with regard to transmission [<xref rid="ppat-0010014-b22" ref-type="bibr">22</xref>,<xref rid="ppat-0010014-b23" ref-type="bibr">23</xref>]. <italic>Wolbachia</italic> are instead transmitted from the mother to her eggs, where they persist through embryogenesis and eventually become incorporated into the pole cells, the precursors of germ-line stem cells [<xref rid="ppat-0010014-b05" ref-type="bibr">5</xref>]. <italic>Wolbachia</italic> transmission frequencies previously have been measured to be 100&#x00025; from laboratory-reared <italic>Drosophila melanogaster</italic> and <italic>D. simulans</italic> females [<xref rid="ppat-0010014-b24" ref-type="bibr">24</xref>] and over 97&#x00025; from field-collected <italic>D. melanogaster</italic> females [<xref rid="ppat-0010014-b25" ref-type="bibr">25</xref>], indicating that <italic>Wolbachia</italic> are capable of infecting developing eggs with nearly perfect fidelity in these species. As only minor reductions in fecundity have been observed for infected females [<xref rid="ppat-0010014-b26" ref-type="bibr">26</xref>], transmission of <italic>Wolbachia</italic> involves their amplification in the female germ line to levels high enough to insure infection of nearly all eggs while minimizing disruption of normal oocyte development [<xref rid="ppat-0010014-b22" ref-type="bibr">22</xref>]. Little is known about the cellular mechanisms underlying the efficient maternal transmission of <italic>Wolbachia</italic>.</p><p>The microtubule cytoskeleton and associated factors play a large role in proper oocyte formation. In <italic>D. melanogaster,</italic> oocytes develop from one of several germ-line stem cells located at the anterior tip of the ovary (see <xref ref-type="fig" rid="ppat-0010014-g001">Figure 1</xref>; for reviews of <italic>Drosophila</italic> oogenesis, see [<xref rid="ppat-0010014-b27" ref-type="bibr">27</xref>,<xref rid="ppat-0010014-b28" ref-type="bibr">28</xref>]). Each stem cell divides asymmetrically to produce a daughter stem cell and a cystoblast. The cystoblast undergoes four synchronized mitotic divisions to form a cluster, or cyst, of 16 germ cells termed cystocytes. These mitotic divisions occur with incomplete cytokinesis so that the cystocytes remain interconnected by cytoplasmic bridges known as ring canals. Each of the initial two cystocytes derived from the first mitotic division contain four ring canals, while the other cystocytes have three or fewer. Despite the fact that they share a common cytoplasm, one of the two cystocytes with four ring canals differentiates into the oocyte, while the other 15 become supporting trophocytes, termed &#x0201c;nurse&#x0201d; cells. Differentiation of the oocyte and its specialized development throughout oogenesis require the activities of specific cytoskeletal components, such as the Actin- and Spectrin-containing fusome and different forms of an organized microtubule network [<xref rid="ppat-0010014-b29" ref-type="bibr">29</xref>]. During mitotic division of the germ cells, the fusome spans the ring canals of all the germ cells but concentrates more in one of the two cells containing four ring canals [<xref rid="ppat-0010014-b30" ref-type="bibr">30</xref>,<xref rid="ppat-0010014-b31" ref-type="bibr">31</xref>]. There, its presence is necessary for the establishment of a microtubule network nucleated within this particular germ cell. The plus ends of these microtubules project through the ring canals and into the nurse cells and facilitate minus-end-directed transport of specific mRNA and proteins, leading to differentiation of this cell into the oocyte [<xref rid="ppat-0010014-b32" ref-type="bibr">32</xref>]. Although the fusome degenerates shortly after oocyte differentiation, the polarized microtubule network continues to direct further transport of other maternal factors produced in the nurse cells into the oocyte until the end of mid-oogenesis [<xref rid="ppat-0010014-b33" ref-type="bibr">33</xref>,<xref rid="ppat-0010014-b34" ref-type="bibr">34</xref>]. At this time, the microtubule network reverses polarity [<xref rid="ppat-0010014-b35" ref-type="bibr">35</xref>], and transported maternal factors are then placed in specific regions within the oocyte with the aid of the microtubule-associated motors Dynein and Kinesin (reviewed in [<xref rid="ppat-0010014-b36" ref-type="bibr">36</xref>]).</p><fig id="ppat-0010014-g001" position="float"><label>Figure 1</label><caption><title>
+<italic>Wolbachia</italic> Distribution from Germ-Line Stem Cell Division through Mid-Oogenesis</title><p>In (B), (B&#x02032;), (D), and (E), <italic>Wolbachia</italic> is green (hsp60), Vasa is blue, and DNA is red. In (F&#x02013;H), <italic>Wolbachia</italic> is red (hsp60), &#x003b1;-Spectrin highlights the fusome (white), and microtubules are green.</p><p>(A) The ovariole consists of the germarium (GER) at the anterior-most tip, and the vitellarium. Numbers represent the stages of oogenesis in the vitellarium (stages 2 through 14). Between stages 2 and 7, the cytoplasm of the nurse cells and the oocyte increases linearly. Following stage 7, the oocyte cytoplasm begins to grow disproportionately faster than nurse cell cytoplasm. Between stages 10 and 12, all nurse cell cytoplasm is transferred into the oocyte through &#x0201c;cytoplasmic dumping.&#x0201d; From stage 12 to 14, the nurse cell nuclei degenerate and dorsal filaments are formed.</p><p>(B) Middle stage egg chambers infected with <italic>Wolbachia</italic>. White arrow indicates <italic>Wolbachia</italic> within follicle cells.</p><p>(B&#x02032;) High magnification of a stage 5 uninfected oocyte stained with anti-hsp60 antibody, showing that this antibody does not cross react with <italic>D. melanogaster</italic> proteins.</p><p>(C) The germarium is divided into regions 1, 2, and 3. In the germarium, a germ-line stem cell (dark blue) divides to produce a daughter stem cell and a cystoblast. In region 1, the cystoblast is mitotically active; it undergoes four successive rounds of mitosis, resulting progressively in cysts of two, four, eight (brown), and sixteen (tan) cystocytes. Red shading represents the fusome. In region 2, the 16-cell cyst becomes surrounded by somatically derived follicle cells (green). At the most posterior position of the germarium (region 3), the stage 1 cyst buds off and enters the vitellarium. By this time the oocyte (white) has moved to the posterior side of the cyst.</p><p>(D) High magnification of a stage 6 oocyte. <italic>Wolbachia</italic> (indicated by a white arrow) accumulate densely around the anterior of the oocyte.</p><p>(E) High magnification of a stage 7 oocyte. <italic>Wolbachia</italic> begin to disperse from the anterior of the oocyte.</p><p>(F) A germarium infected with <italic>Wolbachia</italic>: stage 1 egg chamber (white arrow) and stage 2 egg chamber (white arrow with asterisk).</p><p>(G) High magnification of a germ-line stem cell (circumscribed by yellow line) undergoing asymmetric mitosis. The fusome material (indicated by a white arrow) is spherical in the stem cell. A cystoblast is visible in the upper right corner, identified by its shape and position in the germarium. A black arrow indicates <italic>Wolbachia</italic>.</p><p>(H) A 16-cell cyst in region 2 of the germarium (circumscribed by yellow line) as it becomes surrounded by follicle cells. <italic>Wolbachia</italic> are present in all of the germ cells, but do not associate with the fusome.</p><p>(A) adapted from [<xref rid="ppat-0010014-b79" ref-type="bibr">79</xref>]; (C) adapted from [<xref rid="ppat-0010014-b39" ref-type="bibr">39</xref>].</p></caption><graphic xlink:href="ppat.0010014.g001"/></fig><p>In this study, we address the role(s) of the host cytoskeleton in <italic>Wolbachia</italic>'s transmission from germ-line stem cell to mature oocyte in <italic>D. melanogaster</italic>. In the germarium, <italic>Wolbachia</italic> are distributed among all germ cells of the cyst, establishing an early oocyte infection. During early oogenesis, <italic>Wolbachia</italic> show a distinct localization at the anterior end of the oocyte, where many bacteria appear to contact the anterior side of the nuclear envelope. Following programmed rearrangement of the microtubule network, <italic>Wolbachia</italic> dissociate from this anterior position and become evenly dispersed throughout the oocyte. This localization pattern is distinct from mitochondria and all known axis determinants. Manipulation of microtubules and cytoplasmic Dynein and Dynactin, but not Kinesin-1, disrupts anterior bacterial localization in the oocyte. In live egg chambers, <italic>Wolbachia</italic> exhibit movement in nurse cells but not in the oocyte, suggesting that the bacteria are anchored by host factors. In addition, we find that the number of <italic>Wolbachia</italic> in the oocyte increases at a higher rate than bacteria in the average nurse cell. These findings demonstrate that <italic>Wolbachia</italic> utilize the host microtubule network and associated proteins for their subcellular localization in the oocyte. These interactions may also play a role in bacterial motility and replication, ultimately leading to their efficient maternal transmission.</p></sec><sec id="s2"><title>Results</title><sec id="s2a"><title>
+<italic>Wolbachia</italic> Become Distributed throughout the Cyst Prior to Oocyte Differentiation</title><p>A diagram of oogenesis is presented in <xref ref-type="fig" rid="ppat-0010014-g001">Figure 1</xref>A. The production of a functional oocyte begins with the division of a stem cell in region 1 of the germarium, the anterior-most structure of the ovariole (<xref ref-type="fig" rid="ppat-0010014-g001">Figure 1</xref>A and <xref ref-type="fig" rid="ppat-0010014-g001">1</xref>C). Each stem cell division gives rise to a daughter stem cell and a cystoblast. The cystoblast then undergoes four rounds of mitosis with incomplete cytokinesis to produce a cyst of 16 germ cells, termed cystocytes, which are interconnected by cytoplasmic bridges. To determine the distribution of the <italic>Wolbachia</italic> strain <italic>w</italic>Mel during these divisions in <italic>D. melanogaster,</italic> we stained ovarioles with an antibody against recombinant human heat shock protein 60 (hsp60), which recognizes the bacterial homolog [<xref rid="ppat-0010014-b24" ref-type="bibr">24</xref>,<xref rid="ppat-0010014-b37" ref-type="bibr">37</xref>,<xref rid="ppat-0010014-b38" ref-type="bibr">38</xref>] but does not cross-react with <italic>Drosophila</italic> proteins (<xref ref-type="fig" rid="ppat-0010014-g001">Figure 1</xref>B). In the germarium, <italic>Wolbachia</italic> were seen in dividing stem cells (<xref ref-type="fig" rid="ppat-0010014-g001">Figure 1</xref>F and <xref ref-type="fig" rid="ppat-0010014-g001">1</xref>G), as well as in all 2-, 4-, 8-, and 16-cell cysts (<xref ref-type="fig" rid="ppat-0010014-g001">Figure 1</xref>F and <xref ref-type="fig" rid="ppat-0010014-g001">1</xref>H), indicating that the bacteria are efficiently passed from the stem cell to each of the interconnected germ cells of the cyst. By distributing evenly among all 16 germ cells prior to oocyte differentiation, <italic>Wolbachia</italic> establish an early presence in the cell destined to become the oocyte.</p><p>In region 2 of the germarium, one of the two germ cells with four ring canals differentiates into the oocyte, while the remaining 15 germ cells become nurse cells. In addition to its involvement in oocyte differentiation [<xref rid="ppat-0010014-b31" ref-type="bibr">31</xref>,<xref rid="ppat-0010014-b32" ref-type="bibr">32</xref>], the fusome plays a role in the partitioning of organelles among the dividing germ cells in the germarium [<xref rid="ppat-0010014-b39" ref-type="bibr">39</xref>]. To determine whether <italic>Wolbachia</italic> localize with the fusome during germ cell division, we stained the bacteria with anti-hsp60 and the fusome with anti-&#x003b1;-Spectrin (<xref ref-type="fig" rid="ppat-0010014-g001">Figure 1</xref>F&#x02013;<xref ref-type="fig" rid="ppat-0010014-g001">1</xref>H). In contrast to mitochondria [<xref rid="ppat-0010014-b39" ref-type="bibr">39</xref>], <italic>Wolbachia</italic> do not associate with the fusome in the dividing stem cells or 16-cell cysts, but instead they appear distributed within the cytoplasm of the germ cells (<xref ref-type="fig" rid="ppat-0010014-g001">Figure 1</xref>G and <xref ref-type="fig" rid="ppat-0010014-g001">1</xref>H). This observation suggests that <italic>Wolbachia</italic> and mitochondria have different modes of segregation among the dividing germ cells.</p></sec><sec id="s2b"><title>During Mid-Oogenesis, <italic>Wolbachia</italic> Concentrate Anteriorly in the Oocyte</title><p>Following cyst formation, the oocyte moves posteriorly within the cyst as the cyst moves into the posterior-most position of the germarium. The cyst, now termed &#x0201c;egg chamber,&#x0201d; has reached region 3 (also referred to as stage 1) and becomes completely surrounded by somatically derived follicle cells (<xref ref-type="fig" rid="ppat-0010014-g001">Figure 1</xref>C). From this stage until stage 7 in the vitellarium, the nurse cell nuclei increase over 100-fold in volume as they undergo 10&#x02013;12 rounds of endoreplication [<xref rid="ppat-0010014-b40" ref-type="bibr">40</xref>], while the oocyte nucleus arrests in prophase of meiosis I. Despite the difference in nuclear volume between the nurse cells and the oocyte, the cytoplasmic volumes of the nurse cells and oocyte increase at the same rate and are nearly equal through stage 7 [<xref rid="ppat-0010014-b41" ref-type="bibr">41</xref>].</p><p>During stages 1 and 2, <italic>Wolbachia</italic> in the nurse cells and oocyte were evenly distributed within cell cytoplasm and showed similar densities in these cell types (<xref ref-type="fig" rid="ppat-0010014-g001">Figure 1</xref>F). In nurse cells, <italic>Wolbachia</italic> remained distributed throughout the cytoplasm for the remainder of oogenesis (<xref ref-type="fig" rid="ppat-0010014-g001">Figure 1</xref>B). However, in the oocyte, <italic>Wolbachia</italic> began to concentrate between the anterior cortex and the nucleus around stage 3 (<xref ref-type="fig" rid="ppat-0010014-g001">Figure 1</xref>B). By stage 6, the anterior concentration of <italic>Wolbachia</italic> became most pronounced, as they collectively formed a &#x0201c;cup&#x0201d; surrounding the anterior periphery of the nucleus (<xref ref-type="fig" rid="ppat-0010014-g001">Figure 1</xref>D). Consequently, at this point in oogenesis, many bacteria in the oocyte were proximal to the oocyte nucleus. In contrast, mitochondria were distributed throughout the oocyte and nurse cell cytoplasm (<xref ref-type="fig" rid="ppat-0010014-g002">Figure 2</xref>A&#x02013;<xref ref-type="fig" rid="ppat-0010014-g002">2</xref>C).</p><fig id="ppat-0010014-g002" position="float"><label>Figure 2</label><caption><title>
+<italic>Wolbachia</italic> and Mitochondria Exhibit Different Localizations, and <italic>Wolbachia</italic> Anterior Localization Is Observed for Several Bacterial Strains and <italic>Drosophila</italic> Species</title><p>(A&#x02013;C) A stage 5 egg chamber showing <italic>Wolbachia</italic> and mitochondria. (A) Host DNA and <italic>Wolbachia</italic> (greyscale-OliGreen). (B) Mitochondria (greyscale-MitoTracker). (C) Merged image of (A) and (B): <italic>Wolbachia</italic> and host DNA are green and Mitochondria are red.</p><p>(D&#x02013;F) <italic>Wolbachia</italic> and host DNA are red (propidium iodide), and cell cortex and ring canals are green. (D) An oocyte from <italic>D. melanogaster</italic> infected with the <italic>w</italic>Mel <italic>Wolbachia</italic> strain. (E) An oocyte from <italic>D. melanogaster</italic> infected with the <italic>w</italic>Melpop (Popcorn) <italic>Wolbachia</italic> strain. (F) An oocyte from <italic>D. simulans</italic> infected with the <italic>w</italic>Riv <italic>Wolbachia</italic> strain. Scale bar = 10 &#x003bc;m.</p><p>White arrows in (A) and (D) indicate <italic>Wolbachia</italic> concentrated at the anterior region of the oocyte.</p></caption><graphic xlink:href="ppat.0010014.g002"/></fig><p>All egg chambers from infected females contained <italic>Wolbachia,</italic> but occasionally we observed uninfected nurse cells or oocytes even though adjacent cells were infected at normal levels. Of 35 stage 4&#x02013;7 oocytes from infected egg chambers, four were devoid of <italic>Wolbachia</italic> (not shown). The lack of bacteria in these germ cells was likely not due to developmental defects, as they appeared normal in morphology. <italic>Wolbachia</italic> densities were lower in the follicle cells that surround the egg chamber than in the germ cells (see <xref ref-type="fig" rid="ppat-0010014-g001">Figure 1</xref>B).</p><p>To determine whether this bacterial localization pattern is present in other <italic>Drosophila</italic> species and <italic>Wolbachia</italic> strains, we also examined <italic>Wolbachia</italic>'s distribution in egg chambers from <italic>D. simulans</italic> infected with <italic>w</italic>Ri [<xref rid="ppat-0010014-b42" ref-type="bibr">42</xref>] and <italic>D. melanogaster</italic> infected with <italic>w</italic>Melpop (&#x0201c;Popcorn&#x0201d;) [<xref rid="ppat-0010014-b43" ref-type="bibr">43</xref>] (<xref ref-type="fig" rid="ppat-0010014-g002">Figure 2</xref>). In both cases, <italic>Wolbachia</italic> exhibited a prominent anterior localization in stage 5&#x02013;7 oocytes (<xref ref-type="fig" rid="ppat-0010014-g002">Figure 2</xref>E and <xref ref-type="fig" rid="ppat-0010014-g002">2</xref>F), suggesting that this pattern is common among these <italic>Drosophila</italic> species and <italic>Wolbachia</italic> strains.</p></sec><sec id="s2c"><title>
+<italic>Wolbachia</italic> Exhibit Movement in Nurse Cells but Not in the Oocyte In Vivo</title><p>To further investigate the behavior of <italic>Wolbachia</italic> in the oocyte, we visualized the bacteria in vivo using the DNA dye Draq 5 (see <xref ref-type="sec" rid="s4">Materials and Methods</xref>). In live egg chambers, <italic>Wolbachia</italic> localized anteriorly in the oocyte but were randomly distributed within nurse cell cytoplasm, confirming our observations from fixed samples (<xref ref-type="fig" rid="ppat-0010014-g003">Figure 3</xref>A; <xref ref-type="supplementary-material" rid="ppat-0010014-sv001">Video S1</xref>). Stainings with control uninfected egg chambers confirmed that Draq 5 highlights host DNA but not mitochondria or other cytoplasmic organelles (<xref ref-type="fig" rid="ppat-0010014-g003">Figure 3</xref>B; <xref ref-type="supplementary-material" rid="ppat-0010014-sv002">Video S2</xref>).</p><fig id="ppat-0010014-g003" position="float"><label>Figure 3</label><caption><title>
+<italic>Wolbachia</italic> Exhibit Movement in Nurse Cells but Not in the Oocyte In Vivo</title><p>(A) A still image taken from <xref ref-type="supplementary-material" rid="ppat-0010014-sv001">Video S1</xref> showing bacterial motility in a live stage 5 egg chamber. Draq 5 stains <italic>Wolbachia</italic> and host DNA (both shown in green). As in fixed tissues, <italic>Wolbachia</italic> localize anteriorly (white arrow) in the oocyte and are distributed randomly in the nurse cells (red arrows) of live egg chambers. <italic>Wolbachia</italic> in nurse cells exhibit random movement while <italic>Wolbachia</italic> in the oocyte are relatively motionless (<xref ref-type="supplementary-material" rid="ppat-0010014-sv001">Video S1</xref>). White arrowheads indicate smaller groups of <italic>Wolbachia</italic> at the anterior region of the oocyte with lower bacterial densities, suggesting that their lack of movement is not due to bacterial overcrowding in the oocyte. Yellow arrowhead indicates the oocyte nucleus.</p><p>(B) A still image taken from <xref ref-type="supplementary-material" rid="ppat-0010014-sv002">Video S2</xref> showing a live stage 6 uninfected egg chamber. This image illustrates that Draq 5 stains <italic>Wolbachia</italic> (see [A]) but not mitochondria or other cytoplasmic organelles. Yellow arrowhead indicates the oocyte nucleus. Scale bar = 5 &#x003bc;m.</p></caption><graphic xlink:href="ppat.0010014.g003"/></fig><p>Additionally, <italic>Wolbachia</italic> exhibited random movement within the nurse cells, whereas in the oocyte, they appeared nearly motionless (<xref ref-type="supplementary-material" rid="ppat-0010014-sv001">Video S1</xref>). Occasionally, small clusters of bacteria could be seen adjacent to areas within the oocyte cytoplasm devoid of other bacteria (<xref ref-type="fig" rid="ppat-0010014-g003">Figure 3</xref>A; <xref ref-type="supplementary-material" rid="ppat-0010014-sv001">Video S1</xref>), suggesting that the lack of bacterial movement in the oocyte is not a result of overcrowding. These observations suggest that some difference in subcellular environment leads to <italic>Wolbachia</italic> movement in nurse cells and a lack of their movement in the oocyte.</p></sec><sec id="s2d"><title>
+<italic>Wolbachia</italic> Preferentially Concentrate in the Oocyte during Stages 3&#x02013;7</title><p>We observed that <italic>Wolbachia</italic> numbers appeared to increase disproportionately faster in the oocyte relative to the nurse cells during stages 3&#x02013;7. To verify and quantify this observation, for each egg chamber the total number of <italic>Wolbachia</italic> in the oocyte was determined, as well as the average from counts of total <italic>Wolbachia</italic> in four randomly chosen nurse cells (<xref ref-type="fig" rid="ppat-0010014-g004">Figure 4</xref>). Total cell counts were obtained through confocal serial sectioning of formaldehyde-fixed egg chambers stained with propidium iodide (see <xref ref-type="sec" rid="s4">Materials and Methods</xref>). During these stages fixed cytology is excellent for accurate scoring of total <italic>Wolbachia</italic> numbers because of small cell volume. However, accurate bacterial counts beyond stage 7 were not possible because of the increased volume and yolkiness of the oocyte cytoplasm. The mean total number of <italic>Wolbachia</italic> in the oocyte from stages 2&#x02013;3 to stages 6&#x02013;7 increased from 61.0 (standard error of the mean, &#x000b1; 6.1) to 142.3 (&#x000b1; 17.3), while the mean total number of <italic>Wolbachia</italic> in the average nurse cell during this period increased from 34.4 (&#x000b1; 2.6) to 56.5 (&#x000b1; 4.5) (<xref ref-type="fig" rid="ppat-0010014-g004">Figure 4</xref>A). Two-way ANOVA showed an overall effect of cell type on the number of <italic>Wolbachia</italic> (F<sub>1,126</sub> = 78.5, <italic>p</italic> &#x0003c; 0.0001), but with a significant interaction between cell type and stage (F<sub>2,126</sub> = 7.6, <italic>p</italic> &#x0003c; 0.001). A Tukey post-hoc test verified that there were significantly more <italic>Wolbachia</italic> in the oocyte than in the average nurse cell for all stages. However, between stages 2&#x02013;3 and 6&#x02013;7 <italic>Wolbachia</italic> numbers increased more dramatically in the oocyte than in the average nurse cell (230&#x00025; versus 160&#x00025;, respectively), as reflected by the significant interaction term.</p><fig id="ppat-0010014-g004" position="float"><label>Figure 4</label><caption><title>Manipulation of Specific Host Cytoskeletal Factors Affects <italic>Wolbachia</italic> Numbers</title><p>(A) Mean <italic>Wolbachia</italic> numbers for the average nurse cell and the oocyte through mid-oogenesis.</p><p>(B) Mean <italic>Wolbachia</italic> numbers for the average nurse cell and the oocyte for colchicine-treated and control (untreated) egg chambers.</p><p>(C) Mean <italic>Wolbachia</italic> numbers for the average nurse cell and the oocyte for <italic>maelstrom</italic>
+<sup>r20</sup>/&#x0002b; and <italic>maelstrom</italic>
+<sup>r20</sup>/<italic>Df (3L) 79E-F</italic> egg chambers.</p><p>(D) Mean <italic>Wolbachia</italic> numbers for the average nurse cell and the oocyte for <italic>Dhc64C</italic>
+<sup>6&#x02013;6</sup>/&#x0002b;, <italic>Dhc64C</italic>
+<sup>6&#x02013;12</sup>/&#x0002b;, and <italic>Dhc64C</italic>
+<sup>6&#x02013;6</sup>/<italic>Dhc64C</italic>
+<sup>6&#x02013;12</sup> egg chambers.</p><p>Error bars represent the standard error of the mean.</p></caption><graphic xlink:href="ppat.0010014.g004"/></fig></sec><sec id="s2e"><title>Loss of <italic>Wolbachia</italic>'s Anterior Localization Coincides with Microtubule Reorganization in the Oocyte</title><p>Through stage 6, the microtubule-organizing center (MTOC) of the egg chamber resides at the posterior pole of the oocyte and the plus ends of the microtubules extend through the ring canals and into the nurse cells [<xref rid="ppat-0010014-b44" ref-type="bibr">44</xref>]. These microtubules facilitate the inward transport of maternal mRNAs and proteins necessary for proper oocyte and embryonic development [<xref rid="ppat-0010014-b44" ref-type="bibr">44</xref>]. However, between stages 7 and 8 the MTOC disassembles and microtubules become nucleated from the anterolateral cortex of the oocyte [<xref rid="ppat-0010014-b35" ref-type="bibr">35</xref>]. Before stage 8, <italic>Wolbachia</italic> maintained a tight anterior concentration, but after stage 8 they became dispersed throughout the entire oocyte (compare <xref ref-type="fig" rid="ppat-0010014-g001">Figure 1</xref>D to <xref ref-type="fig" rid="ppat-0010014-g001">1</xref>E). To confirm the correlation between <italic>Wolbachia</italic> redistribution and microtubule reorganization, we double-stained infected <italic>D. melanogaster</italic> oocytes with anti-&#x003b1;-Tubulin antibodies to label the microtubules and anti-hsp60 to label <italic>Wolbachia</italic>. The images in <xref ref-type="fig" rid="ppat-0010014-g005">Figure 5</xref> demonstrate that prior to stage 8, <italic>Wolbachia</italic> concentrated opposite the MTOC located at a position near the posterior pole. However, <italic>Wolbachia</italic> began to lose their anterior localization in many oocytes around stage 8. In nearly all stage 9 oocytes, <italic>Wolbachia</italic> had become dispersed throughout the oocyte cytoplasm, although a few oocytes exhibited a slight residual accumulation of <italic>Wolbachia</italic> at the anterior region. <italic>Wolbachia</italic> were completely dispersed in all stage 10 oocytes. The correlation between timing of microtubule reorganization and loss of anterior <italic>Wolbachia</italic> localization suggests that the bacteria rely on microtubules for positioning within the oocyte.</p><fig id="ppat-0010014-g005" position="float"><label>Figure 5</label><caption><title>Depolymerization of Microtubules Causes Loss of Anterior <italic>Wolbachia</italic> Localization in the Oocyte</title><p>(A&#x02013;C) Stage 5 and 7 infected egg chambers, untreated. (A) Microtubules (greyscale). (B) <italic>Wolbachia</italic> (greyscale). White arrow indicates <italic>Wolbachia</italic> concentrated at the anterior region of the oocyte. (C) Merged image of (A) and (B): microtubules are red, and <italic>Wolbachia</italic> are green (hsp60).</p><p>(D&#x02013;F) Stage 5 and 7 infected egg chambers treated with colchicine. (D) Microtubules (greyscale). (E) <italic>Wolbachia</italic> (greyscale). (F) Merged image of (D) and (E): microtubules are red, and <italic>Wolbachia</italic> are green (hsp60). White arrows indicate positions of the oocytes. Yellow asterisk indicates a nurse cell adjacent to the oocyte in which <italic>Wolbachia</italic> appear abnormally high.</p></caption><graphic xlink:href="ppat.0010014.g005"/></fig></sec><sec id="s2f"><title>Cytoplasmic Dumping Results in the Transfer of <italic>Wolbachia</italic> from Nurse Cell Cytoplasm into the Oocyte</title><p>At stage 10, the nurse cell cytoplasm is transferred through the ring canals into the oocyte. This Actin/Myosin-based process, termed &#x0201c;cytoplasmic dumping,&#x0201d; occurs within a relatively short period of 30 min and is completed by stage 12 [<xref rid="ppat-0010014-b45" ref-type="bibr">45</xref>&#x02013;<xref rid="ppat-0010014-b47" ref-type="bibr">47</xref>]. Just before cytoplasmic dumping initiates, <italic>Wolbachia</italic> were abundant in the nurse cells (not shown). However, by stage 12 virtually all <italic>Wolbachia</italic> resided in the oocyte, with only a few bacteria remaining in the nurse cell remnants (<xref ref-type="fig" rid="ppat-0010014-g006">Figure 6</xref>). This suggests that during cytoplasmic dumping <italic>Wolbachia</italic> are effectively delivered to the oocyte with nurse cell cytoplasm.</p><fig id="ppat-0010014-g006" position="float"><label>Figure 6</label><caption><title>
+<italic>Wolbachia</italic> Are Transferred into the Oocyte from Nurse Cells through Cytoplasmic Dumping</title><p>
+<italic>Wolbachia</italic> and host DNA are red (propidium iodide), and cell cortex and ring canals are green.</p><p>(A) A stage 12 egg chamber nearing completion of cytoplasmic dumping.</p><p>(B) Higher magnification of nurse cell remnants. Only a small number of <italic>Wolbachia</italic> are present in remaining nurse cell cytoplasm. White arrow indicates a few <italic>Wolbachia</italic> near a nurse cell nucleus.</p><p>(C) Higher magnification of the anterior region of the oocyte. Nearly all <italic>Wolbachia</italic> have been &#x0201c;dumped&#x0201d; into the oocyte. White arrow indicates <italic>Wolbachia,</italic> and white arrowhead points to the oocyte nucleus.</p></caption><graphic xlink:href="ppat.0010014.g006"/></fig></sec><sec id="s2g"><title>Microtubules Are Required for the Anterior Localization of <italic>Wolbachia</italic> in the Oocyte</title><p>The fact that <italic>Wolbachia</italic>'s distribution within the oocyte changes following the developmentally programmed microtubule reorganization led us to speculate that <italic>Wolbachia</italic> localization is microtubule dependent. We tested this idea by analyzing the distribution of <italic>Wolbachia</italic> in oocytes from females that were fed colchicine, a microtubule inhibitor. Treatment with colchicine resulted in complete depolymerization of microtubules within the germ cells, but not in follicle cells, where microtubules are more stable (see <xref ref-type="fig" rid="ppat-0010014-g005">Figure 5</xref>D and <xref ref-type="fig" rid="ppat-0010014-g005">5</xref>F). Following colchicine treatment, <italic>Wolbachia</italic> failed to localize at the anterior of the oocyte (<xref ref-type="fig" rid="ppat-0010014-g005">Figure 5</xref>E and <xref ref-type="fig" rid="ppat-0010014-g005">5</xref>F). Additionally, in some treated egg chambers, the number of <italic>Wolbachia</italic> appeared to increase within nurse cells adjacent to the oocyte (<xref ref-type="fig" rid="ppat-0010014-g005">Figure 5</xref>E and <xref ref-type="fig" rid="ppat-0010014-g005">5</xref>F). <italic>Wolbachia</italic> localization does not appear to depend on the Actin cytoskeleton, as exposure to the filamentous Actin depolymerizer, cytochalasin-D, did not affect their localization within the oocyte (not shown).</p><p>To further investigate how the disruption of microtubules affects <italic>Wolbachia</italic> localization in the oocyte, we classified a number of colchicine-treated oocytes based on their bacterial localization pattern. Of 20 stage 4&#x02013;6 colchicine-treated oocytes, only two exhibited normal anterior localization (<xref ref-type="fig" rid="ppat-0010014-g007">Figure 7</xref>A). Six exhibited posterior localization, 11 exhibited lateral and posterior cortical localization, and in seven oocytes, <italic>Wolbachia</italic> were dispersed randomly throughout the cytoplasm (<xref ref-type="fig" rid="ppat-0010014-g007">Figure 7</xref>B&#x02013;<xref ref-type="fig" rid="ppat-0010014-g007">7</xref>D). In contrast, of 31 control (untreated) oocytes infected with <italic>Wolbachia,</italic> all exhibited anterior bacterial localization. The distribution of <italic>Wolbachia</italic> in the nurse cells appeared unaffected by colchicine treatment (not shown).</p><fig id="ppat-0010014-g007" position="float"><label>Figure 7</label><caption><title>Perturbation of Microtubules and Cytoplasmic Dynein Disrupts Anterior Localization of <italic>Wolbachia</italic> in the Oocyte</title><p>
+<italic>Wolbachia</italic> and host DNA are red (propidium iodide), and cell cortex and ring canals are green.</p><p>(A&#x02013;D) Stage 4&#x02013;6 infected oocytes from colchicine-treated females. White arrows indicate <italic>Wolbachia</italic>.</p><p>(E&#x02013;H) Stage 4&#x02013;6 infected oocytes from <italic>maelstrom</italic>
+<sup>r20</sup>/<italic>Df (3L) 79E-F</italic> females.</p><p>(I&#x02013;L) Stage 4&#x02013;6 infected oocytes from <italic>Dhc64C</italic>
+<sup>6&#x02013;6</sup>/<italic>Dhc64C</italic>
+<sup>6&#x02013;12</sup> females.</p></caption><graphic xlink:href="ppat.0010014.g007"/></fig><p>The role of microtubules in <italic>Wolbachia</italic>'s localization was further tested by examining bacterial distribution in oocytes derived from <italic>maelstrom</italic>
+<sup>r20</sup>/<italic>Df (3L) 79E-F</italic> females. In <italic>maelstrom</italic> mutants, the microtubule minus ends are focused aberrantly on the anterior side of the nucleus, and specific axis determinants become misplaced because of an abnormal microtubule polarity [<xref rid="ppat-0010014-b48" ref-type="bibr">48</xref>]. Of 18 stage 4&#x02013;6 <italic>maelstrom</italic>-derived oocytes, 11 showed dramatic mislocalization of <italic>Wolbachia</italic> (<xref ref-type="fig" rid="ppat-0010014-g007">Figure 7</xref>E&#x02013;<xref ref-type="fig" rid="ppat-0010014-g007">7</xref>H). The range of defects was similar to those observed in colchicine-treated oocytes. Three of 11 oocytes exhibited lateral localization, and in five oocytes <italic>Wolbachia</italic> were randomly dispersed throughout the cytoplasm. <italic>Wolbachia</italic> were absent from three oocytes. Taken together, these results support the idea that <italic>Wolbachia</italic> utilize microtubules for normal anterior localization in the oocyte.</p></sec><sec id="s2h"><title>Cytoplasmic Dynein and Dynactin, but Not Kinesin-1, Are Required for Anterior Localization of <italic>Wolbachia</italic> in the Oocyte</title><p>The localization of <italic>Wolbachia</italic> at the anterior of the oocyte during stages 3&#x02013;7 is opposite to the site of microtubule nucleation, which is positioned at the posterior pole at this time. Therefore, we hypothesized that <italic>Wolbachia</italic> may associate with the microtubule plus-end-directed motor, Kinesin-1, for early anterior localization. To test this idea, we used the FLP-FRT system (see <xref ref-type="sec" rid="s4">Materials and Methods</xref>) to generate females whose germ line is completely devoid of the Kinesin heavy chain (Khc). <italic>Wolbachia</italic> localized normally in all oocytes derived from <italic>Khc</italic>
+<sup>27</sup> null females (not shown), indicating that <italic>Wolbachia</italic> do not require Kinesin-1 for anterior positioning.</p><p>To test whether <italic>Wolbachia</italic>'s anterior localization instead requires the microtubule minus-end-directed motor, cytoplasmic Dynein, we visualized <italic>Wolbachia</italic> in oocytes derived from infected females transheterozygous for two hypomorphic alleles of the Dynein heavy chain (Dhc), <italic>Dhc64C</italic>
+<sup>6&#x02013;6</sup> and <italic>Dhc64C</italic>
+<sup>6&#x02013;12</sup>. This combination of alleles results in abnormal patches of Dynein in nurse cells, misplacement of Dynein in the oocyte, and female sterility, without disrupting the microtubule network [<xref rid="ppat-0010014-b49" ref-type="bibr">49</xref>]. In oocytes from <italic>Dhc64C</italic> transheterozygous females, <italic>Wolbachia</italic> displayed a variety of abnormal distribution patterns (<xref ref-type="fig" rid="ppat-0010014-g007">Figure 7</xref>I&#x02013;<xref ref-type="fig" rid="ppat-0010014-g007">7</xref>L). Of 18 stage 4&#x02013;6 <italic>Dhc64C</italic>-derived oocytes, only two exhibited normal anterior localization. Three oocytes exhibited laterally distributed <italic>Wolbachia,</italic> one showed posterior-localized <italic>Wolbachia,</italic> and 12 exhibited <italic>Wolbachia</italic> that were distributed randomly throughout the cytoplasm.</p><p>In addition to morphogen transport in the oocyte, cytoplasmic Dynein is a known transporter of membranous vesicles and organelles in many different cell types, and is tethered to these cargoes by Dynactin, a large, multi-subunit complex [<xref rid="ppat-0010014-b50" ref-type="bibr">50</xref>,<xref rid="ppat-0010014-b51" ref-type="bibr">51</xref>]. To ascertain whether the Dynein-dependent localization of <italic>Wolbachia</italic> also relies on Dynactin, we analyzed the bacteria in oocytes in which the p50/Dynamitin (Dmn) subunit of Dynactin was overexpressed using a heat-shock-driven promoter. It has been well established that overexpression of Dmn disrupts the association of Dynein with its cargo in both tissue culture cells and in the <italic>D. melanogaster</italic> germ line [<xref rid="ppat-0010014-b52" ref-type="bibr">52</xref>,<xref rid="ppat-0010014-b53" ref-type="bibr">53</xref>]. In oocytes from females carrying a single copy of hsDmn, <italic>Wolbachia</italic> localized normally near the anterior cortex (<xref ref-type="fig" rid="ppat-0010014-g008">Figure 8</xref>A). However, in all of 16 stage 4&#x02013;7 oocytes derived from females carrying two copies of hs-Dmn, <italic>Wolbachia</italic> were mislocalized to varying degrees within the oocyte cytoplasm (<xref ref-type="fig" rid="ppat-0010014-g008">Figure 8</xref>B). This result further supports the idea that normal bacterial localization requires Dynein, and suggests that an interaction between <italic>Wolbachia</italic> and the Dynein complex is mediated through Dynactin.</p><fig id="ppat-0010014-g008" position="float"><label>Figure 8</label><caption><title>In the Oocyte, <italic>Wolbachia</italic> Localize along the Anterior Nuclear Envelope</title><p>In (A) and (B), <italic>Wolbachia</italic> and host DNA are red (propidium iodide), and cell cortex and ring canals are green. In (C), (D), and (F),) cytoplasmic Dynein is green, and <italic>Wolbachia</italic> and host DNA are red (OliGreen). In (E) and (G&#x02013;I), nuclear envelope is blue, and <italic>Wolbachia</italic> and host DNA are red (OliGreen). White arrows indicate <italic>Wolbachia</italic>.</p><p>(A) A stage 7 oocyte derived from a hs-Dmn/&#x0002b; female, heat shocked. <italic>Wolbachia</italic> localize normally in the anterior region.</p><p>(B) A stage 7 oocyte derived from a hs-Dmn/hs-Dmn female, heat shocked. <italic>Wolbachia</italic> become displaced from the anterior region.</p><p>(C) A series of early-stage infected egg chambers. Dynein becomes enriched in the oocyte before stage 7.</p><p>(D) A stage 5&#x02013;6 infected oocyte. Within the oocyte, Dynein is enriched near the posterior pole and in a ring around the periphery of the oocyte nucleus. Many <italic>Wolbachia</italic> localize near nuclear-associated Dynein along the anterior periphery of the oocyte nucleus but not with the majority of Dynein concentrated at the posterior pole. Scale bar = 20 &#x003bc;m.</p><p>(E) A stage 5&#x02013;6 infected oocyte. In the oocyte, many <italic>Wolbachia</italic> maintain a close association with the nuclear envelope.</p><p>(F) A stage 9 infected oocyte. Following the microtubule reorganization, Dynein localizes at the posterior pole of the oocyte and between the oocyte nucleus and the anterolateral cortex. At this time, <italic>Wolbachia</italic> become distributed throughout the oocyte cytoplasm. Scale bar = 20 &#x003bc;m.</p><p>(G) A stage 9 infected oocyte. Following the microtubule reorganization, <italic>Wolbachia</italic> lose their association with the nuclear membrane.</p><p>(H) A stage 6 <italic>Dhc64C</italic>
+<sup>6&#x02013;6</sup>/<italic>Dhc64C</italic>
+<sup>6&#x02013;12</sup>-derived oocyte. <italic>Wolbachia</italic> localize around the entire periphery of the oocyte nuclear envelope.</p><p>(I) A stage 6 <italic>Dhc64C</italic>
+<sup>6&#x02013;6</sup>/<italic>Dhc64C</italic>
+<sup>6&#x02013;12</sup>-derived oocyte. <italic>Wolbachia</italic> dissociate from the oocyte nuclear envelope.</p></caption><graphic xlink:href="ppat.0010014.g008"/></fig></sec><sec id="s2i"><title>
+<italic>Wolbachia</italic> Localize Near the Anterior Nuclear Envelope of the Oocyte</title><p>To visualize <italic>Wolbachia</italic> relative to cytoplasmic Dynein in the oocyte, we stained infected egg chambers with antibodies raised against the Dhc. In stage 1&#x02013;7 egg chambers Dynein exhibits a preferential accumulation within the oocyte (<xref ref-type="fig" rid="ppat-0010014-g008">Figure 8</xref>C) [<xref rid="ppat-0010014-b54" ref-type="bibr">54</xref>]. During this time, Dynein concentrates at a position between the oocyte nucleus and the posterior cortex thought to represent the MTOC, and additionally in a ring surrounding the periphery of the oocyte nucleus (<xref ref-type="fig" rid="ppat-0010014-g008">Figure 8</xref>D) [<xref rid="ppat-0010014-b54" ref-type="bibr">54</xref>,<xref rid="ppat-0010014-b55" ref-type="bibr">55</xref>]. Staining with antibodies against Lamin Dm0 confirmed that this ring of Dynein is associated with the surface of the nuclear envelope (<xref ref-type="fig" rid="ppat-0010014-g008">Figure 8</xref>E). At this time, many <italic>Wolbachia</italic> in the oocyte localized along the anterior side of the nuclear membrane and near the ring of nuclear-membrane-associated Dynein, but the majority of bacteria did not appear to co-localize with Dynein in this region. Additionally, in oocytes with larger numbers of <italic>Wolbachia,</italic> the bacteria fully occupied the space between the nuclear envelope and the anterior cortex. However, in oocytes with fewer <italic>Wolbachia,</italic> the bacteria maintained a closer association with the oocyte nuclear envelope and did not appear to associate with the anterior cortex (not shown).</p><p>Following the microtubule rearrangement, the oocyte nucleus migrates to a corner of the anterolateral cortex. At this time, Dynein localized between the oocyte nucleus and cortex and in a cap at the posterior pole (<xref ref-type="fig" rid="ppat-0010014-g008">Figure 8</xref>F) [<xref rid="ppat-0010014-b54" ref-type="bibr">54</xref>], while <italic>Wolbachia</italic> were distributed evenly throughout the oocyte cytoplasm (<xref ref-type="fig" rid="ppat-0010014-g008">Figure 8</xref>F). Although many <italic>Wolbachia</italic> localized near the anterior nuclear envelope between stages 3&#x02013;7 (<xref ref-type="fig" rid="ppat-0010014-g008">Figure 8</xref>E), the bacteria completely dissociated from the anterior region and the nuclear envelope and became distributed throughout the cytoplasm (<xref ref-type="fig" rid="ppat-0010014-g008">Figure 8</xref>G).</p><p>To test whether Dynein is required for positioning of <italic>Wolbachia</italic> along the anterior side of the nuclear envelope, we stained the bacteria and the nuclear envelope in oocytes derived from <italic>Dhc64C</italic>
+<sup>6&#x02013;6</sup>/<italic>Dhc64C</italic>
+<sup>6&#x02013;12</sup> females. In these oocytes, <italic>Wolbachia</italic> were either misplaced around the entire nuclear envelope (<xref ref-type="fig" rid="ppat-0010014-g008">Figure 8</xref>H), or they dissociated partially or completely from the nuclear envelope (<xref ref-type="fig" rid="ppat-0010014-g008">Figure 8</xref>I). Taken together, these results suggest that Dynein is required not only for localization of <italic>Wolbachia</italic> near the nuclear envelope, but also for positioning the bacteria specifically at its anterior side.</p></sec><sec id="s2j"><title>Integrity of the Microtubule Network and Cytoplasmic Dynein Are Required for Normal <italic>Wolbachia</italic> Numbers in the Oocyte</title><p>To determine whether microtubules play a role in <italic>Wolbachia</italic> levels in addition to their localization, we counted total <italic>Wolbachia</italic> numbers in normal and colchicine-treated stage 4&#x02013;5 oocytes and nurse cells (see <xref ref-type="fig" rid="ppat-0010014-g004">Figure 4</xref>B). Control oocytes and nurse cells exhibited bacterial means of 127 (standard error of the mean, &#x000b1; 12) and 52 (&#x000b1; 3), respectively, while colchicine-treated oocytes and nurse cells exhibited bacterial means of 59 (&#x000b1; 13) and 76 (&#x000b1; 7), respectively. <italic>Wolbachia</italic> numbers were significantly higher in control oocytes than in nurse cells (<italic>t</italic>-test, <italic>p</italic> &#x0003c; 0.001, degrees of freedom [df] = 56), whereas bacterial numbers in treated oocytes were reduced to levels not statistically different from nurse cells (<italic>p</italic> = 0.248, df = 38). Additionally, bacterial numbers were significantly lower in treated oocytes than control oocytes (<italic>p</italic> &#x0003c; 0.001, df = 47), although bacterial numbers for treated nurse cells were higher than for control nurse cells (<italic>p</italic> = 0.001, df = 47).</p><p>These findings are further supported through genetic perturbation of the microtubule network in <italic>maelstrom</italic>-derived egg chambers (<xref ref-type="fig" rid="ppat-0010014-g004">Figure 4</xref>C). <italic>maelstrom</italic>
+<sup>r20</sup>/&#x0002b; oocytes and nurse cells exhibited bacterial means of 118 (&#x000b1; 17) and 87 (&#x000b1; 12), respectively, while <italic>maelstrom</italic>
+<sup>r20</sup>/<italic>Df (3L) 79E-F</italic> oocytes and nurse cells exhibited bacterial means of 65 (&#x000b1; 8) and 70 (&#x000b1; 9), respectively. Within each genetic group, <italic>Wolbachia</italic> numbers in the oocyte were not significantly higher than <italic>Wolbachia</italic> numbers in the average nurse cell. However, there were significantly fewer bacteria in <italic>maelstrom</italic>
+<sup>r20</sup>/<italic>Df (3L) 79E-F</italic> oocytes than in <italic>maelstrom</italic>
+<sup>r20</sup>/&#x0002b; oocytes (<italic>p</italic> = 0.007, df = 31), while bacterial numbers in nurse cells of each group did not differ (<italic>p</italic> = 0.235, df = 31). These results, taken together with results from colchicine treatment, suggest that disrupting the microtubule network significantly decreases the number of <italic>Wolbachia</italic> in the oocyte.</p><p>To discern whether manipulation of Dynein also affects <italic>Wolbachia</italic> numbers in the oocyte, we obtained total bacterial numbers for oocytes and nurse cells derived from <italic>Dhc64C</italic>
+<sup>6&#x02013;6</sup>/&#x0002b;, <italic>Dhc64C</italic>
+<sup>6&#x02013;12</sup>/&#x0002b;, and <italic>Dhc64C</italic>
+<sup>6&#x02013;6</sup>/<italic>Dhc64C</italic>
+<sup>6&#x02013;12</sup> individuals (<xref ref-type="fig" rid="ppat-0010014-g004">Figure 4</xref>D). The mean number of <italic>Wolbachia</italic> in <italic>Dhc64C</italic>
+<sup>6&#x02013;6</sup>/&#x0002b;, <italic>Dhc64C</italic>
+<sup>6&#x02013;12</sup>/&#x0002b;, and <italic>Dhc64C</italic>
+<sup>6&#x02013;6</sup>/<italic>Dhc64C</italic>
+<sup>6&#x02013;12</sup> oocytes was 203 (&#x000b1; 29), 155 (&#x000b1; 22), and 140 (&#x000b1; 27), respectively, while the means for corresponding nurse cells were 89 (&#x000b1; 15), 67 (&#x000b1; 8), and 106 (&#x000b1; 12), respectively. Despite the fact that bacterial numbers in <italic>Dhc64C</italic>
+<sup>6&#x02013;6</sup>/<italic>Dhc64C</italic>
+<sup>6&#x02013;12</sup> oocytes appeared lower than in control (heterozygous) oocytes, Two-way ANOVA showed no significant differences in bacterial number in oocytes or nurse cells across these three genetic groups (F<sub>2,86</sub> = 1.48, <italic>p</italic> = 0.233). In all cases, oocyte bacterial numbers remained significantly higher than nurse cell numbers (F<sub>1,86</sub> = 22.04, <italic>p</italic> &#x0003c; 0.0001).</p></sec></sec><sec id="s3"><title>Discussion</title><sec id="s3a"><title>
+<italic>Wolbachia</italic> Exhibit a Distinct Anterior Localization in the Oocyte</title><p>By characterizing the distribution of <italic>Wolbachia</italic> in the female germ line of <italic>D. melanogaster,</italic> we have discovered that these endoparasitic bacteria accumulate anteriorly in the oocyte during mid-oogenesis. In this regard, <italic>Wolbachia</italic> are reminiscent of several embryonic axis determinants, including <italic>oskar, bicoid,</italic> and <italic>gurken</italic> mRNAs, which also exhibit distinct localization patterns in the oocyte. These axis determinants must be positioned at specific regions within the oocyte at different stages for proper embryonic development. For example, <italic>oskar</italic> localizes in a tight band at the posterior cortex from stage 9 through the remainder of oogenesis, where it is required for formation of the germ plasm [<xref rid="ppat-0010014-b56" ref-type="bibr">56</xref>,<xref rid="ppat-0010014-b57" ref-type="bibr">57</xref>]. Like <italic>Wolbachia, bicoid</italic> also localizes anteriorly [<xref rid="ppat-0010014-b58" ref-type="bibr">58</xref>,<xref rid="ppat-0010014-b59" ref-type="bibr">59</xref>]. However, <italic>Wolbachia</italic> localize anteriorly from stage 3 to 7, while <italic>bicoid</italic> localizes anteriorly from stage 8 through the remainder of oogenesis. <italic>gurken,</italic> required for establishment of the dorsal&#x02013;ventral axis, accumulates along the posterior side of the nucleus between stages 1 and 7 and then between the nucleus and anterolateral cortex at stage 8 [<xref rid="ppat-0010014-b60" ref-type="bibr">60</xref>,<xref rid="ppat-0010014-b61" ref-type="bibr">61</xref>]. Similarly, <italic>Wolbachia</italic> appear to associate transiently with the nuclear membrane, but on its anterior side and at stages preceding <italic>gurken</italic> nuclear localization. Although the significance of <italic>Wolbachia</italic>'s anterior concentration is not known, the fact that it does not overlap with key developmental determinants may have evolved to diminish the likelihood of the bacteria disrupting proper oocyte development.</p></sec><sec id="s3b"><title>
+<italic>Wolbachia</italic> Behavior Requires Host Microtubules in the Oocyte and Nurse Cells</title><p>Our cytology has shown that <italic>Wolbachia</italic> localization in the egg chamber is microtubule dependent. In the oocyte, <italic>Wolbachia</italic> normally lose their anterior localization and become cytoplasmically distributed following the programmed reversal in polarity of the microtubule network between stages 7 and 8. Additionally, the bacteria are abnormally mislocalized in 90&#x00025; of stage 4&#x02013;6 colchicine-treated oocytes, in which microtubules are depolymerized, and in 60&#x00025; of <italic>maelstrom</italic>-derived oocytes, in which normal positioning and polarity of the microtubule network is disrupted. Together, these data suggest that <italic>Wolbachia</italic> utilize the host microtubule network for their placement at the anterior pole of the oocyte. Interestingly, their localization is opposite the major MTOC of the egg chamber, which is positioned between the posterior cortex and the oocyte nucleus at this time. It is unlikely that <italic>Wolbachia</italic> localize near the anterior pole because they are excluded by a higher density of microtubules at the posterior region. Organelles such as endoplasmic reticulum and mitochondria are not excluded from the posterior pole. Endoplasmic reticulum is distributed evenly throughout the oocyte cytoplasm during early and middle stages [<xref rid="ppat-0010014-b62" ref-type="bibr">62</xref>], and mitochondria exhibit a slight enrichment near the posterior pole during these stages [<xref rid="ppat-0010014-b39" ref-type="bibr">39</xref>]. Additionally, <italic>Wolbachia</italic> do not aggregate at the oocyte's posterior pole following the microtubule reorganization, when microtubules are rich along the anterolateral cortex and in the surrounding cytoplasm and deficient near the posterior pole [<xref rid="ppat-0010014-b63" ref-type="bibr">63</xref>]. Therefore, it is likely that instead of being excluded from the posterior pole during stages 3&#x02013;7, <italic>Wolbachia</italic> use microtubules for specific placement at the anterior region of the oocyte.</p><p>The dependence of <italic>Wolbachia</italic> on microtubules for localization in the oocyte is consistent with their close association with the astral microtubules of centrosomes in the early <italic>Drosophila</italic> embryo [<xref rid="ppat-0010014-b04" ref-type="bibr">4</xref>,<xref rid="ppat-0010014-b05" ref-type="bibr">5</xref>]. The fact that <italic>Wolbachia</italic> require host microtubules for proper localization both in the oocyte and in the embryo suggests that the microtubules are the primary cytoskeletal scaffold used by <italic>Wolbachia</italic> for germ-line and somatic transmission. Additional support for this idea comes from our finding that the filamentous Actin depolymerizer, cytochalasin-D, does not disrupt <italic>Wolbachia</italic> localization in the oocyte.</p></sec><sec id="s3c"><title>
+<italic>Wolbachia</italic> Require the Dynein Complex for Localization in the Oocyte</title><p>Our mutational analysis has shown that <italic>Wolbachia</italic> localization is disrupted in oocytes from <italic>Dhc64C</italic>
+<sup>6&#x02013;6</sup>/<italic>Dhc64C</italic>
+<sup>6&#x02013;12</sup> females and in oocytes in which the Dmn subunit of Dynactin is overexpressed. These observations suggest that in the oocyte, <italic>Wolbachia</italic> rely on the Dynein complex for association with microtubules. Dynein plays multiple critical roles in oogenesis. Although the mechanisms are not clear, Dynein is involved in the early localization of maternal factors for establishment and maintenance of oocyte identity [<xref rid="ppat-0010014-b54" ref-type="bibr">54</xref>,<xref rid="ppat-0010014-b64" ref-type="bibr">64</xref>], the migration and anchoring of the oocyte nucleus to the plasma membrane [<xref rid="ppat-0010014-b53" ref-type="bibr">53</xref>,<xref rid="ppat-0010014-b55" ref-type="bibr">55</xref>], and the localization of specific axis determinants to their proper positions within the oocyte [<xref rid="ppat-0010014-b53" ref-type="bibr">53</xref>,<xref rid="ppat-0010014-b55" ref-type="bibr">55</xref>,<xref rid="ppat-0010014-b59" ref-type="bibr">59</xref>].</p><p>Despite the fact that <italic>Wolbachia</italic> require Dynein for proper behavior in the early oocyte, the bacteria do not co-localize with the highest concentrations of this motor complex. How then do these bacteria depend on Dynein and microtubules for their subcellular behavior? One idea is that <italic>Wolbachia</italic> use Dynein as a transporter. Dynein is believed to be a major transporter of axis determinants into the oocyte from nurse cells [<xref rid="ppat-0010014-b54" ref-type="bibr">54</xref>,<xref rid="ppat-0010014-b64" ref-type="bibr">64</xref>]. Conceivably, a subset of <italic>Wolbachia</italic> may use Dynein to move along microtubules through ring canals into the oocyte [<xref rid="ppat-0010014-b16" ref-type="bibr">16</xref>]. As the bacteria enter the oocyte at its anterior region, they may dissociate from Dynein and accumulate there. At this time, <italic>Wolbachia</italic> may also associate with another host factor that anchors them to this region, thus inhibiting their movement. This idea is supported by our observations that, in vivo, the bacteria exhibit movement in nurse cells, whereas in the oocyte they are relatively motionless. Following microtubule reorganization, the bacteria lose their affinity for the anterior region and become distributed throughout the oocyte cytoplasm, where they persist for the remainder of oogenesis. The fact that <italic>Wolbachia</italic> accumulate neither along the anterolateral cortex&#x02014;where microtubule minus ends are located&#x02014;nor at the posterior pole&#x02014;where Dynein accumulates as a consequence of Kinesin-1-mediated recycling&#x02014;supports the idea that the interaction between <italic>Wolbachia</italic> and Dynein is transient. Our data do not allow us to determine precisely how <italic>Wolbachia</italic> localize at the anterior pole of the oocyte during early stages. Nevertheless, their accumulation there suggests a novel quality of this region of the oocyte that will be of interest to discern in future studies.</p><p>Genetic manipulation of Dynein resulted in mislocalization of <italic>Wolbachia</italic> but did not decrease their numbers in the oocyte. This is consistent with the nature of the <italic>Dhc</italic> alleles used here, which resulted specifically in misplacement of Dynein [<xref rid="ppat-0010014-b49" ref-type="bibr">49</xref>]. Stronger alleles that reduce Dynein levels result in failure to form an oocyte [<xref rid="ppat-0010014-b65" ref-type="bibr">65</xref>] and, therefore, could not be used to test the idea of Dynein as a transporter of <italic>Wolbachia</italic>. Improvements in other methods such as live bacterial imaging will be important for further testing of this idea.</p><p>We have shown that <italic>Wolbachia</italic> numbers increase in nurse cells and in the oocyte in stages 2 through 7, indicating that bacterial replication occurs in both cell types during this time. However, although the volumes of both cell types increase at similar rates during this period, <italic>Wolbachia</italic> increase by approximately 160&#x00025; in the average nurse cell, in contrast to approximately 230&#x00025; in the oocyte. In addition to transport from nurse cells, it is possible that higher bacterial replication rates in the oocyte contribute to this difference. <italic>Wolbachia</italic> replication in the oocyte may be enhanced by the distinct subcellular environment of this cell, including a higher concentration of microtubules and the oocyte's accumulation of developmental determinants, organelles, and nutrients. Previous studies have shown that <italic>Wolbachia</italic> are enclosed within a layer of host-derived membrane [<xref rid="ppat-0010014-b04" ref-type="bibr">4</xref>,<xref rid="ppat-0010014-b66" ref-type="bibr">66</xref>]. Compared to nurse cells, the oocyte is enriched with endoplasmic reticulum [<xref rid="ppat-0010014-b62" ref-type="bibr">62</xref>], which could serve as a source of host membrane for the bacteria. By associating with microtubules through Dynein, <italic>Wolbachia</italic> may intercept membrane vesicles or other host factors trafficked along microtubules, thus facilitating its own replication. This idea is supported by previous findings that other bacterial endoparasites, such as <italic>Salmonella typhimurium,</italic> require host microtubules and Dynein for replication [<xref rid="ppat-0010014-b67" ref-type="bibr">67</xref>,<xref rid="ppat-0010014-b68" ref-type="bibr">68</xref>].</p></sec><sec id="s3d"><title>
+<italic>Wolbachia</italic> and Mitochondria Exhibit Different Localizations</title><p>Mitochondria are bacterial in origin and, like <italic>Wolbachia,</italic> are maternally transmitted. In addition, <italic>Wolbachia</italic>'s outer layer of host-derived membrane may allow them to escape the host immune response by mimicking organelles, such as mitochondria. Therefore, a plausible hypothesis is that <italic>Wolbachia</italic> rely on mechanisms similar to mitochondria for transmission through the female germ line. Although mitochondria exhibit a dependence on microtubules for their localization in tissues of many higher eukaryotes [<xref rid="ppat-0010014-b69" ref-type="bibr">69</xref>&#x02013;<xref rid="ppat-0010014-b71" ref-type="bibr">71</xref>], their distribution differs markedly from <italic>Wolbachia</italic> during oogenesis. During formation of the germ cells, a subset of mitochondria and other organelles such as Golgi aggregate into a cloud-like structure known as the Balbiani body, while the rest remain cytoplasmic [<xref rid="ppat-0010014-b39" ref-type="bibr">39</xref>]. While mitochondria aggregate along the branched arms of the fusome at the center of the cyst and within the Balbiani body during germ cell division [<xref rid="ppat-0010014-b39" ref-type="bibr">39</xref>], <italic>Wolbachia</italic> remain distributed throughout the germ cell cytoplasm. Between stages 1 and 7, mitochondria either move to the posterior pole of the oocyte to associate with the germ plasm or remain distributed within the cytopolasm [<xref rid="ppat-0010014-b39" ref-type="bibr">39</xref>], in contrast to <italic>Wolbachia,</italic> which localize near the anterior pole (see <xref ref-type="fig" rid="ppat-0010014-g002">Figure 2</xref>). Based on their different patterns of localization, it is likely that <italic>Wolbachia</italic> and mitochondria have evolved different mechanisms for associating with microtubules in the female germ line.</p></sec><sec id="s3e"><title>
+<italic>Wolbachia</italic> Infect the Oocyte during Early and Late Phases</title><p>Our observations suggest that <italic>Wolbachia</italic> infect the oocyte at two distinct periods during oogenesis. First, <italic>Wolbachia</italic> become distributed among all of the germ cells as they form in region 1 of the germarium. This provides a means for the bacteria to establish infection in the oocyte very early in development, allowing them to multiply in the oocyte and 15 nurse cells until the time when cytoplasmic dumping occurs. Beginning at stage 10, this process results in the transfer of all nurse cell cytoplasm into the oocyte. Accurate bacterial counts for oocytes later than stage 7 were unobtainable owing to large cell size and yolkiness of cytoplasm. However, based on bacterial counts from stage 6&#x02013;7 egg chambers, we estimate that approximately 6-fold more bacteria are delivered into the oocyte from nurse cells than are present in the oocyte before cytoplasmic dumping. Therefore, this second phase of bacterial transfer explains how the majority of <italic>Wolbachia</italic> become transmitted into the egg.</p><p>Infrequently we observed middle stage uninfected oocytes within infected egg chambers, which could result from imperfect bacterial distribution during division of the germ cells. However, by allowing for a high level of bacterial magnification and a second source of bacterial transfer into the oocyte, the nurse cells are likely to insure that these uninfected oocytes will eventually become infected. Bacterial amplification in nurse cells and subsequent transfer into the oocyte might therefore underlie the near-perfect transmission of infection observed in some <italic>Drosophila</italic> species [<xref rid="ppat-0010014-b24" ref-type="bibr">24</xref>,<xref rid="ppat-0010014-b72" ref-type="bibr">72</xref>]. The idea that bacterial amplification in nurse cells is important for infection of the oocyte has been suggested previously for other insect species [<xref rid="ppat-0010014-b20" ref-type="bibr">20</xref>,<xref rid="ppat-0010014-b73" ref-type="bibr">73</xref>].</p></sec><sec id="s3f"><title>Conclusions</title><p>While the interactions between intracellular pathogens and the host Actin cytoskeleton have been intensively investigated [<xref rid="ppat-0010014-b03" ref-type="bibr">3</xref>], those between pathogens and the microtubule cytoskeleton are less well explored. The <italic>Wolbachia</italic>&#x02013;<italic>Drosophila</italic> system provides powerful tools for dissecting the complex nature of such parasite&#x02013;host interactions, allowing the identification of specific host factors exploited by these intracellular bacteria. The results presented here demonstrate that <italic>Wolbachia</italic> utilize the host microtubule network for their subcellular localization in the <italic>Drosophila</italic> oocyte. These interactions may also play a role in bacterial motility and replication, ultimately leading to the bacteria's efficient maternal transmission. Our identification of cytoplasmic Dynein and Dynactin as potential links between <italic>Wolbachia</italic> and microtubules illustrates the promise of this system in molecularly defining these interactions through genetic means. Studies of the mechanisms by which pathogens commandeer the Actin cytoskeleton have proven useful in elucidating basic host mechanisms of Actin polymerization [<xref rid="ppat-0010014-b02" ref-type="bibr">2</xref>]. Likewise, the discovery of <italic>Wolbachia</italic>'s striking anterior localization in the <italic>Drosophila</italic> oocyte, which is distinct from the localization of mitochondria and all known morphogens, indicates that the analysis of <italic>Wolbachia</italic>&#x02013;host interactions also may inform us about basic host cellular and developmental processes.</p></sec></sec><sec id="s4"><title>Materials and Methods</title><sec id="s4a"><title>Fly strains and establishment of infection.</title><p>Two <italic>D. melanogaster</italic> lines (both OregonR-derived) infected with the <italic>w</italic>Mel <italic>Wolbachia</italic> strain were used for bacterial characterization in wild-type egg chambers. A <italic>D. melanogaster white</italic>
+<sup>1118</sup> line infected with <italic>w</italic>Melpop (Popcorn) [<xref rid="ppat-0010014-b43" ref-type="bibr">43</xref>] and a <italic>D. simulans</italic> line infected with <italic>w</italic>Ri [<xref rid="ppat-0010014-b42" ref-type="bibr">42</xref>] were also used. <italic>w</italic>Mel from the OregonR line was introgressed into a <italic>CyO</italic>/<italic>Sco</italic> line, which was then used to infect the following lines for mutational analysis: <italic>Dhc64C</italic>
+<sup>6&#x02013;6</sup> and <italic>Dhc64C</italic>
+<sup>6&#x02013;12</sup> [<xref rid="ppat-0010014-b65" ref-type="bibr">65</xref>], <italic>maelstrom</italic>
+<sup>r20</sup> and <italic>Df (3L) 79E-F</italic> [<xref rid="ppat-0010014-b48" ref-type="bibr">48</xref>], <italic>P(w&#x0002b;, FRT}42B Khc</italic>
+<sup>27</sup> [<xref rid="ppat-0010014-b74" ref-type="bibr">74</xref>] and hs-Dmn [<xref rid="ppat-0010014-b53" ref-type="bibr">53</xref>]. Germ-line clones of <italic>Khc</italic>
+<sup>27</sup> were generated as described in [<xref rid="ppat-0010014-b74" ref-type="bibr">74</xref>]. Overexpression of Dmn was carried out as described in [<xref rid="ppat-0010014-b53" ref-type="bibr">53</xref>]. The infection status of each line was confirmed by PCR of the <italic>Wolbachia</italic> 16S rRNA or <italic>Wolbachia</italic> Surface Protein genes as described in [<xref rid="ppat-0010014-b75" ref-type="bibr">75</xref>].</p></sec><sec id="s4b"><title>Cytoskeletal inhibitor treatment.</title><p>For disruption of microtubules, 3- to 5-d-old female flies were starved for 18 h and then fed yeast paste supplemented with 50 &#x003bc;g/ml colchicine for 24&#x02013;30 h before ovaries were dissected in EBR solution [<xref rid="ppat-0010014-b44" ref-type="bibr">44</xref>]. For depolymerization of filamentious Actin, ovaries were dissected and soaked in EBR solution containing 20 mg/ml cytochalasin-D for 20 min [<xref rid="ppat-0010014-b63" ref-type="bibr">63</xref>].</p></sec><sec id="s4c"><title>Analysis of <italic>Wolbachia</italic> in vivo.</title><p>Ovaries were dissected from 2- to 3-d-old females and incubated for 20 min in 5 mM Draq 5 (Alexis Biochemicals, Montreal, Quebec, Canada). Ovaries were transferred to halocarbon oil, where individual ovarioles were separated for imaging. Egg chambers were imaged with the PerkinElmer (Wellesley, Massachusetts, United States) Ultra View RS spinning disk confocal system. Images were collected at 15-s intervals and real time was accelerated 75 times.</p></sec><sec id="s4d"><title>Fixation, immunostaining, and fluorescence microscopy.</title><p>Following dissection, ovaries were fixed for 10 min in 3.7&#x00025; paraformaldehyde/heptane [<xref rid="ppat-0010014-b76" ref-type="bibr">76</xref>]. Primary antibodies were incubated overnight at 4 &#x000b0;C at the following dilutions: rabbit anti-&#x003b1;-Spectrin at 1:150 [<xref rid="ppat-0010014-b77" ref-type="bibr">77</xref>], mouse anti-&#x003b1;&#x02212;Tubulin at 1:150 (Sigma, St. Louis, Missouri, United States), mouse anti-Lamin Dm0 at 1:50 [<xref rid="ppat-0010014-b78" ref-type="bibr">78</xref>], and mouse anti-Dhc at 1:200 [<xref rid="ppat-0010014-b54" ref-type="bibr">54</xref>]. Following six 15-min washes in PBS with 0.1&#x00025; Triton-X-100, ovaries were incubated at room temperature for 1 h with Alexa 488&#x02013; or Alexa 633&#x02013;coupled anti-mouse antibodies (1:150) (Molecular Probes, Eugene, Oregon, United States) and/or FITC-conjugated phalloidin (1:100) (Molecular Probes). <italic>Wolbachia</italic> were stained with anti-hsp60 (1:500) (Sigma), OliGreen (1:750) (Molecular Probes), DAPI (Molecular Probes), or propidium iodide added to the mounting medium. In experiments in which <italic>Wolbachia</italic> were visualized with DNA dyes, fixed egg chambers were RNaseA-treated for 6&#x02013;8 h at 37 &#x000b0;C before staining. Images were generated using a Leica (Wetzlar, Germany) DM IRB confocal microscope and processed using Adobe Photoshop 7.0 (Adobe Systems, San Jose, California, United States). Bacterial counts were obtained from serial sections taken at 1-&#x003bc;m intervals through entire oocytes and nurse cells. Statistical analyses were performed using SYSTAT, version 10.2 (Systat Software, Point Richmond, California, United States).</p></sec></sec><sec sec-type="supplementary-material" id="s5"><title>Supporting Information</title><supplementary-material content-type="local-data" id="ppat-0010014-sv001"><label>Video S1</label><caption><title>
+<italic>Wolbachia</italic> Exhibit Movement in the Nurse Cells but Not in the Oocyte In Vivo</title><p>(1.2 MB ZIP)</p></caption><media xlink:href="ppat.0010014.sv001.zip"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="ppat-0010014-sv002"><label>Video S2</label><caption><title>The DNA Stain Draq 5 Highlights Only Host DNA in Live Uninfected Egg Chambers</title><p>(805 KB ZIP)</p></caption><media xlink:href="ppat.0010014.sv002.zip"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><sec id="s5a"><title>Accession Numbers</title><p>The NCBI Entrez (<ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/gquery/gquery.fcgi?itool=toolbar">http://www.ncbi.nlm.nih.gov/gquery/gquery.fcgi?itool=toolbar</ext-link>) accession numbers for the genes and gene products discussed in this paper are cDNA Dmn subunit of Dynactin (AY061092), Dhc (P37276), human hsp60 (AAF66640), Khc (P17210), Lamin Dm0 (P08928), <italic>maelstrom</italic> (AAB97831), and &#x003b1;-Spectrin (AAB29441).</p></sec></sec></body><back><ack><p>We would like to thank Jack Werren, Tom Hays, Elise Ferree, and three anonymous reviewers for helpful comments on this manuscript, and Joseph Goodhouse (Princeton University) for technical help with confocal microscopy. Tom Hays provided the <italic>Dhc64C</italic>
+<sup>6&#x02013;6</sup> and <italic>Dhc64C</italic>
+<sup>6&#x02013;12</sup> lines and the Dynein antibody, Bill Saxton provided the <italic>Khc</italic>
+<sup>27</sup> germ-line clone lines, Hannele Ruohola-Baker provided the <italic>maelstrom</italic>
+<sup>r20</sup> and <italic>Df (3L) 79E-F</italic> lines, Rahul Warrior provided the hs-Dmn lines, and Paul Lasko provided the Vasa antibody. Financial support for this research was provided by the U.S. National Science Foundation (EF-0328363) and the Howard Hughes Medical Institute.</p></ack><fn-group><fn id="ack1" fn-type="COI-statement"><p>
+<bold>Competing interests.</bold> The authors have declared that no competing interests exist.</p></fn><fn id="ack2" fn-type="con"><p>
+<bold>Author contributions.</bold> PMF, HMF, EW, and WS conceived and designed the experiments. PMF, HMF, JML, and JC performed the experiments. PMF, HMF, JML, JC, EW, and WS analyzed the data. PMF, HMF, EW, and WS contributed reagents/materials/analysis tools. PMF wrote the paper. HMF, EW, and WS edited the paper.</p></fn></fn-group><glossary><title>Abbreviations</title><def-list><def-item><term>df</term><def><p>degrees of freedom</p></def></def-item><def-item><term>Dhc</term><def><p>Dynein heavy chain</p></def></def-item><def-item><term>Dmn</term><def><p>p50/Dynamitin</p></def></def-item><def-item><term>hsp60</term><def><p>heat shock protein 60</p></def></def-item><def-item><term>Khc</term><def><p>Kinesin heavy chain</p></def></def-item><def-item><term>MTOC</term><def><p>microtubule-organizing center</p></def></def-item></def-list></glossary><ref-list><title>References</title><ref id="ppat-0010014-b01"><element-citation publication-type="book">
+<person-group person-group-type="editor"><name><surname>Bourtzis</surname><given-names>K</given-names></name><name><surname>Miller</surname><given-names>TA</given-names></name></person-group>
+<year>2003</year>
+<source>Insect symbiosis</source>
+<publisher-loc>Boca Raton (Florida)</publisher-loc>
+<publisher-name>CRC Press</publisher-name>
+<size units="page">347</size>
+<comment>p.</comment>
+</element-citation></ref><ref id="ppat-0010014-b02"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gouin</surname><given-names>E</given-names></name><name><surname>Welch</surname><given-names>MD</given-names></name><name><surname>Cossart</surname><given-names>P</given-names></name></person-group>
+<year>2005</year>
+<article-title>Actin-based motility of intracellular pathogens</article-title>
+<source>Curr Opin Microbiol</source>
+<volume>8</volume>
+<fpage>35</fpage>
+<lpage>45</lpage>
+<pub-id pub-id-type="pmid">15694855</pub-id></element-citation></ref><ref id="ppat-0010014-b03"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Galan</surname><given-names>JE</given-names></name><name><surname>Cossart</surname><given-names>P</given-names></name></person-group>
+<year>2005</year>
+<article-title>Host&#x02013;pathogen interactions: A diversity of themes, a variety of molecular machines</article-title>
+<source>Curr Opin Microbiol</source>
+<volume>8</volume>
+<fpage>1</fpage>
+<lpage>3</lpage>
+<pub-id pub-id-type="pmid">15694849</pub-id></element-citation></ref><ref id="ppat-0010014-b04"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Callaini</surname><given-names>G</given-names></name><name><surname>Riparbelli</surname><given-names>MG</given-names></name><name><surname>Dallai</surname><given-names>R</given-names></name></person-group>
+<year>1994</year>
+<article-title>The distribution of cytoplasmic bacteria in the early <italic>Drosophila</italic> embryo is mediated by astral microtubules</article-title>
+<source>J Cell Sci</source>
+<volume>107</volume>
+<fpage>673</fpage>
+<lpage>682</lpage>
+<pub-id pub-id-type="pmid">8006080</pub-id></element-citation></ref><ref id="ppat-0010014-b05"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kose</surname><given-names>H</given-names></name><name><surname>Karr</surname><given-names>TL</given-names></name></person-group>
+<year>1995</year>
+<article-title>Organization of <italic>Wolbachia pipientis</italic> in the <italic>Drosophila</italic> fertilized egg and embryo revealed by an anti-<italic>Wolbachia</italic> monoclonal antibody</article-title>
+<source>Mech Dev</source>
+<volume>51</volume>
+<fpage>275</fpage>
+<lpage>288</lpage>
+<pub-id pub-id-type="pmid">7547474</pub-id></element-citation></ref><ref id="ppat-0010014-b06"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Stouthamer</surname><given-names>R</given-names></name><name><surname>Breeuwer</surname><given-names>JAJ</given-names></name><name><surname>Hurst</surname><given-names>GDD</given-names></name></person-group>
+<year>1999</year>
+<article-title>
+<italic>Wolbachia pipientis:</italic> Microbial manipulator of arthropod reproduction</article-title>
+<source>Annu Rev Microbiol</source>
+<volume>53</volume>
+<fpage>71</fpage>
+<lpage>102</lpage>
+<pub-id pub-id-type="pmid">10547686</pub-id></element-citation></ref><ref id="ppat-0010014-b07"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bandi</surname><given-names>C</given-names></name><name><surname>Trees</surname><given-names>AJ</given-names></name><name><surname>Brattig</surname><given-names>NW</given-names></name></person-group>
+<year>2001</year>
+<article-title>
+<italic>Wolbachia</italic> in filarial nematodes: Evolutionary aspects and implications for the pathogenesis and treatment of filarial diseases</article-title>
+<source>Vet Parasitol</source>
+<volume>98</volume>
+<fpage>215</fpage>
+<lpage>238</lpage>
+<pub-id pub-id-type="pmid">11516587</pub-id></element-citation></ref><ref id="ppat-0010014-b08"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cordaux</surname><given-names>R</given-names></name><name><surname>Michel-Salzat</surname><given-names>A</given-names></name><name><surname>Bouchon</surname><given-names>D</given-names></name></person-group>
+<year>2001</year>
+<article-title>
+<italic>Wolbachia</italic> infection in crustaceans: Novel hosts and potential routes for horizontal transmission</article-title>
+<source>J Evol Biol</source>
+<volume>14</volume>
+<fpage>237</fpage>
+<lpage>243</lpage>
+</element-citation></ref><ref id="ppat-0010014-b09"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Breeuwer</surname><given-names>JAJ</given-names></name><name><surname>Jacobs</surname><given-names>G</given-names></name></person-group>
+<year>1996</year>
+<article-title>
+<italic>Wolbachia:</italic> Intracellular manipulators of mite reproduction</article-title>
+<source>Exp Appl Acarol</source>
+<volume>20</volume>
+<fpage>421</fpage>
+<lpage>434</lpage>
+<pub-id pub-id-type="pmid">8856963</pub-id></element-citation></ref><ref id="ppat-0010014-b10"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Werren</surname><given-names>JH</given-names></name><name><surname>Windsor</surname><given-names>DM</given-names></name><name><surname>Guo</surname><given-names>L</given-names></name></person-group>
+<year>1995</year>
+<article-title>Distribution of <italic>Wolbachia</italic> among neotropical arthropods</article-title>
+<source>Proc R Soc Lond B Biol Sci</source>
+<volume>262</volume>
+<fpage>197</fpage>
+<lpage>204</lpage>
+</element-citation></ref><ref id="ppat-0010014-b11"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Werren</surname><given-names>JH</given-names></name><name><surname>Windsor</surname><given-names>DM</given-names></name></person-group>
+<year>2000</year>
+<article-title>
+<italic>Wolbachia</italic> infection frequencies in insects: Evidence of a global equilibrium?</article-title>
+<source>Proc R Soc Lond B Biol Sci</source>
+<volume>267</volume>
+<fpage>1277</fpage>
+<lpage>1285</lpage>
+</element-citation></ref><ref id="ppat-0010014-b12"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jeyaprakash</surname><given-names>A</given-names></name><name><surname>Hoy</surname><given-names>MA</given-names></name></person-group>
+<year>2000</year>
+<article-title>Long PCR improves <italic>Wolbachia</italic> DNA amplification: <italic>wsp</italic> sequences found in 76&#x00025; of sixty-three arthropod species</article-title>
+<source>Insect Mol Biol</source>
+<volume>9</volume>
+<fpage>393</fpage>
+<lpage>405</lpage>
+<pub-id pub-id-type="pmid">10971717</pub-id></element-citation></ref><ref id="ppat-0010014-b13"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Stouthamer</surname><given-names>R</given-names></name><name><surname>Breeuwer</surname><given-names>JA</given-names></name><name><surname>Luck</surname><given-names>RF</given-names></name><name><surname>Werren</surname><given-names>JH</given-names></name></person-group>
+<year>1993</year>
+<article-title>Molecular identification of microorganisms associated with parthenogenesis</article-title>
+<source>Nature</source>
+<volume>361</volume>
+<fpage>66</fpage>
+<lpage>68</lpage>
+<pub-id pub-id-type="pmid">7538198</pub-id></element-citation></ref><ref id="ppat-0010014-b14"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Werren</surname><given-names>JH</given-names></name><name><surname>Hurst</surname><given-names>GD</given-names></name><name><surname>Zhang</surname><given-names>W</given-names></name><name><surname>Breeuwer</surname><given-names>JA</given-names></name><name><surname>Stouthamer</surname><given-names>R</given-names></name><etal/></person-group>
+<year>1994</year>
+<article-title>Rickettsial relative associated with male killing in the ladybird beetle <italic>(Adalia bipunctata)</italic>
+</article-title>
+<source>J Bacteriol</source>
+<volume>176</volume>
+<fpage>388</fpage>
+<lpage>394</lpage>
+<pub-id pub-id-type="pmid">8288533</pub-id></element-citation></ref><ref id="ppat-0010014-b15"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rousset</surname><given-names>F</given-names></name><name><surname>Bouchon</surname><given-names>D</given-names></name><name><surname>Pintureau</surname><given-names>B</given-names></name><name><surname>Juchault</surname><given-names>P</given-names></name><name><surname>Solignac</surname><given-names>M</given-names></name></person-group>
+<year>1992</year>
+<article-title>
+<italic>Wolbachia</italic> endosymbionts responsible for various alterations of sexuality in arthropods</article-title>
+<source>Proc Biol Sci</source>
+<volume>250</volume>
+<fpage>91</fpage>
+<lpage>98</lpage>
+<pub-id pub-id-type="pmid">1361987</pub-id></element-citation></ref><ref id="ppat-0010014-b16"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tram</surname><given-names>U</given-names></name><name><surname>Ferree</surname><given-names>PM</given-names></name><name><surname>Sullivan</surname><given-names>W</given-names></name></person-group>
+<year>2003</year>
+<article-title>Identification of <italic>Wolbachia</italic>&#x02013;host interacting factors through cytological analysis</article-title>
+<source>Microbes Infect</source>
+<volume>5</volume>
+<fpage>999</fpage>
+<lpage>1011</lpage>
+<pub-id pub-id-type="pmid">12941392</pub-id></element-citation></ref><ref id="ppat-0010014-b17"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dobson</surname><given-names>SL</given-names></name><name><surname>Bourtzis</surname><given-names>K</given-names></name><name><surname>Braig</surname><given-names>HR</given-names></name><name><surname>Jones</surname><given-names>BF</given-names></name><name><surname>Zhou</surname><given-names>W</given-names></name><etal/></person-group>
+<year>1999</year>
+<article-title>
+<italic>Wolbachia</italic> infections are distributed throughout insect somatic and germ line tissues</article-title>
+<source>Insect Biochem Mol Biol</source>
+<volume>29</volume>
+<fpage>153</fpage>
+<lpage>160</lpage>
+<pub-id pub-id-type="pmid">10196738</pub-id></element-citation></ref><ref id="ppat-0010014-b18"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cheng</surname><given-names>Q</given-names></name><name><surname>Ruel</surname><given-names>TD</given-names></name><name><surname>Zhou</surname><given-names>W</given-names></name><name><surname>Moloo</surname><given-names>SK</given-names></name><name><surname>Majiwa</surname><given-names>P</given-names></name><etal/></person-group>
+<year>2000</year>
+<article-title>Tissue distribution and prevalence of <italic>Wolbachia</italic> infections in tsetse flies, <italic>Glossina</italic> spp</article-title>
+<source>Med Vet Entomol</source>
+<volume>14</volume>
+<fpage>44</fpage>
+<lpage>50</lpage>
+<pub-id pub-id-type="pmid">10759311</pub-id></element-citation></ref><ref id="ppat-0010014-b19"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Clark</surname><given-names>ME</given-names></name><name><surname>Veneti</surname><given-names>Z</given-names></name><name><surname>Bourtzis</surname><given-names>K</given-names></name><name><surname>Karr</surname><given-names>TL</given-names></name></person-group>
+<year>2002</year>
+<article-title>The distribution and proliferation of the intracellular bacteria <italic>Wolbachia</italic> during spermatogenesis in <italic>Drosophila</italic>
+</article-title>
+<source>Mech Dev</source>
+<volume>111</volume>
+<fpage>3</fpage>
+<lpage>15</lpage>
+<pub-id pub-id-type="pmid">11804774</pub-id></element-citation></ref><ref id="ppat-0010014-b20"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ijichi</surname><given-names>N</given-names></name><name><surname>Kondo</surname><given-names>N</given-names></name><name><surname>Matsumoto</surname><given-names>R</given-names></name><name><surname>Shimada</surname><given-names>M</given-names></name><name><surname>Ishikawa</surname><given-names>H</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>Internal spatiotemporal population dynamics of infection with three <italic>Wolbachia</italic> strains in the adzuki bean beetle, <italic>Callosobruchus chinensis</italic> (Coleoptera: Bruchidae)</article-title>
+<source>Appl Environ Microbiol</source>
+<volume>68</volume>
+<fpage>4074</fpage>
+<lpage>4080</lpage>
+<pub-id pub-id-type="pmid">12147509</pub-id></element-citation></ref><ref id="ppat-0010014-b21"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bressac</surname><given-names>C</given-names></name><name><surname>Rousset</surname><given-names>F</given-names></name></person-group>
+<year>1993</year>
+<article-title>The reproductive incompatibility system in <italic>Drosophila simulans:</italic> DAPI-staining analysis of the <italic>Wolbachia</italic> symbionts in sperm cysts</article-title>
+<source>J Invertebr Pathol</source>
+<volume>61</volume>
+<fpage>226</fpage>
+<lpage>230</lpage>
+<pub-id pub-id-type="pmid">7689622</pub-id></element-citation></ref><ref id="ppat-0010014-b22"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Werren</surname><given-names>JH</given-names></name></person-group>
+<year>1997</year>
+<article-title>
+<italic>Wolbachia</italic> run amok</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>94</volume>
+<fpage>11154</fpage>
+<lpage>11155</lpage>
+<pub-id pub-id-type="pmid">9326576</pub-id></element-citation></ref><ref id="ppat-0010014-b23"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>McGraw</surname><given-names>EA</given-names></name><name><surname>O'Neill</surname><given-names>SL</given-names></name></person-group>
+<year>2004</year>
+<article-title>
+<italic>Wolbachia pipientis:</italic> Intracellular infection and pathogenesis in <italic>Drosophila</italic>
+</article-title>
+<source>Curr Opin Microbiol</source>
+<volume>7</volume>
+<fpage>67</fpage>
+<lpage>70</lpage>
+<pub-id pub-id-type="pmid">15036143</pub-id></element-citation></ref><ref id="ppat-0010014-b24"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>McGraw</surname><given-names>EA</given-names></name><name><surname>Merritt</surname><given-names>DJ</given-names></name><name><surname>Droller</surname><given-names>JN</given-names></name><name><surname>O'Neill</surname><given-names>SL</given-names></name></person-group>
+<year>2002</year>
+<article-title>
+<italic>Wolbachia</italic> density and virulence attenuation after transfer into a novel host</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>99</volume>
+<fpage>2918</fpage>
+<lpage>2923</lpage>
+<pub-id pub-id-type="pmid">11880639</pub-id></element-citation></ref><ref id="ppat-0010014-b25"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hoffmann</surname><given-names>AA</given-names></name><name><surname>Hercus</surname><given-names>M</given-names></name><name><surname>Dagher</surname><given-names>H</given-names></name></person-group>
+<year>1998</year>
+<article-title>Population dynamics of the <italic>Wolbachia</italic> infection causing cytoplasmic incompatibility in <italic>Drosophila melanogaster</italic>
+</article-title>
+<source>Genetics</source>
+<volume>148</volume>
+<fpage>221</fpage>
+<lpage>231</lpage>
+<pub-id pub-id-type="pmid">9475734</pub-id></element-citation></ref><ref id="ppat-0010014-b26"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hoffmann</surname><given-names>AA</given-names></name><name><surname>Turelli</surname><given-names>M</given-names></name><name><surname>Harshman</surname><given-names>LG</given-names></name></person-group>
+<year>1990</year>
+<article-title>Factors affecting the distribution of cytoplasmic incompatibility in <italic>Drosophila simulans</italic>
+</article-title>
+<source>Genetics</source>
+<volume>126</volume>
+<fpage>933</fpage>
+<lpage>948</lpage>
+<pub-id pub-id-type="pmid">2076821</pub-id></element-citation></ref><ref id="ppat-0010014-b27"><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Spradling</surname><given-names>AC</given-names></name></person-group>
+<year>1993</year>
+<article-title>Developmental genetics of oogenesis</article-title>
+<person-group person-group-type="editor"><name><surname>Bate</surname><given-names>M</given-names></name><name><surname>Martinez Arias</surname><given-names>A</given-names></name></person-group>
+<source>The development of Drosophila melanogaster</source>
+<publisher-loc>Plainview (New York)</publisher-loc>
+<publisher-name>Cold Spring Harbor Press</publisher-name>
+<fpage>1</fpage>
+<lpage>70</lpage>
+</element-citation></ref><ref id="ppat-0010014-b28"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cooley</surname><given-names>L</given-names></name><name><surname>Theurkauf</surname><given-names>WE</given-names></name></person-group>
+<year>1994</year>
+<article-title>Cytoskeletal functions during <italic>Drosophila</italic> oogenesis</article-title>
+<source>Science</source>
+<volume>266</volume>
+<fpage>590</fpage>
+<lpage>596</lpage>
+<pub-id pub-id-type="pmid">7939713</pub-id></element-citation></ref><ref id="ppat-0010014-b29"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lin</surname><given-names>H</given-names></name><name><surname>Yue</surname><given-names>L</given-names></name><name><surname>Spradling</surname><given-names>AC</given-names></name></person-group>
+<year>1994</year>
+<article-title>The <italic>Drosophila</italic> fusome, a germline-specific organelle, contains membrane skeletal proteins and functions in cyst formation</article-title>
+<source>Development</source>
+<volume>120</volume>
+<fpage>947</fpage>
+<lpage>956</lpage>
+<pub-id pub-id-type="pmid">7600970</pub-id></element-citation></ref><ref id="ppat-0010014-b30"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lin</surname><given-names>H</given-names></name><name><surname>Spradling</surname><given-names>AC</given-names></name></person-group>
+<year>1995</year>
+<article-title>Fusome asymmetry and oocyte determination in <italic>Drosophila</italic>
+</article-title>
+<source>Dev Genet</source>
+<volume>16</volume>
+<fpage>6</fpage>
+<lpage>12</lpage>
+<pub-id pub-id-type="pmid">7758245</pub-id></element-citation></ref><ref id="ppat-0010014-b31"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>De Cuevas</surname><given-names>M</given-names></name><name><surname>Spradling</surname><given-names>AC</given-names></name></person-group>
+<year>1998</year>
+<article-title>Morphogenesis of the <italic>Drosophila</italic> fusome and its implications for oocyte specification</article-title>
+<source>Development</source>
+<volume>125</volume>
+<fpage>2781</fpage>
+<lpage>2789</lpage>
+<pub-id pub-id-type="pmid">9655801</pub-id></element-citation></ref><ref id="ppat-0010014-b32"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Grieder</surname><given-names>NC</given-names></name><name><surname>de Cuevas</surname><given-names>M</given-names></name><name><surname>Spradling</surname><given-names>AC</given-names></name></person-group>
+<year>2000</year>
+<article-title>The fusome organizes the microtubule network during oocyte differentiation in <italic>Drosophila</italic>
+</article-title>
+<source>Development</source>
+<volume>127</volume>
+<fpage>4253</fpage>
+<lpage>4264</lpage>
+<pub-id pub-id-type="pmid">10976056</pub-id></element-citation></ref><ref id="ppat-0010014-b33"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Theurkauf</surname><given-names>W</given-names></name></person-group>
+<year>1994</year>
+<article-title>Microtubules and cytoplasm organization during <italic>Drosophila</italic> oogenesis</article-title>
+<source>Dev Biol</source>
+<volume>165</volume>
+<fpage>352</fpage>
+<lpage>360</lpage>
+<pub-id pub-id-type="pmid">7958405</pub-id></element-citation></ref><ref id="ppat-0010014-b34"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pokrywka</surname><given-names>NJ</given-names></name><name><surname>Stephenson</surname><given-names>EC</given-names></name></person-group>
+<year>1995</year>
+<article-title>Microtubules are a general component of mRNA localization systems in <italic>Drosophila</italic> oocytes</article-title>
+<source>Dev Biol</source>
+<volume>167</volume>
+<fpage>363</fpage>
+<lpage>370</lpage>
+<pub-id pub-id-type="pmid">7851657</pub-id></element-citation></ref><ref id="ppat-0010014-b35"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Theurkauf</surname><given-names>WE</given-names></name><name><surname>Smiley</surname><given-names>S</given-names></name><name><surname>Wong</surname><given-names>ML</given-names></name><name><surname>Alberts</surname><given-names>BM</given-names></name></person-group>
+<year>1992</year>
+<article-title>Reorganization of the cytoskeleton during <italic>Drosophila</italic> oogenesis: Implications for axis specification and intercellular transport</article-title>
+<source>Development</source>
+<volume>115</volume>
+<fpage>923</fpage>
+<lpage>936</lpage>
+<pub-id pub-id-type="pmid">1451668</pub-id></element-citation></ref><ref id="ppat-0010014-b36"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Riechmann</surname><given-names>V</given-names></name><name><surname>Ephrussi</surname><given-names>A</given-names></name></person-group>
+<year>2001</year>
+<article-title>Axis formation during <italic>Drosophila</italic> oogenesis</article-title>
+<source>Curr Opin Genet Dev</source>
+<volume>11</volume>
+<fpage>374</fpage>
+<lpage>383</lpage>
+<pub-id pub-id-type="pmid">11448623</pub-id></element-citation></ref><ref id="ppat-0010014-b37"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Taylor</surname><given-names>MJ</given-names></name><name><surname>Hoerauf</surname><given-names>A</given-names></name></person-group>
+<year>1999</year>
+<article-title>
+<italic>Wolbachia</italic> bacteria of filarial nematodes</article-title>
+<source>Parasitol Today</source>
+<volume>16</volume>
+<fpage>179</fpage>
+<lpage>180</lpage>
+</element-citation></ref><ref id="ppat-0010014-b38"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hoerauf</surname><given-names>A</given-names></name><name><surname>Volkmann</surname><given-names>L</given-names></name><name><surname>Hamelmann</surname><given-names>C</given-names></name><name><surname>Adjei</surname><given-names>O</given-names></name><name><surname>Autenrieth</surname><given-names>IB</given-names></name><etal/></person-group>
+<year>2000</year>
+<article-title>Endosymbiotic bacteria in worms as targets for a novel chemotherapy in filariasis</article-title>
+<source>Lancet</source>
+<volume>355</volume>
+<fpage>1242</fpage>
+<lpage>1243</lpage>
+<pub-id pub-id-type="pmid">10770311</pub-id></element-citation></ref><ref id="ppat-0010014-b39"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cox</surname><given-names>RT</given-names></name><name><surname>Spradling</surname><given-names>AC</given-names></name></person-group>
+<year>2003</year>
+<article-title>A Balbiani body and the fusome mediate mitochondrial inheritance during <italic>Drosophila</italic> oogenesis</article-title>
+<source>Development</source>
+<volume>130</volume>
+<fpage>1579</fpage>
+<lpage>1590</lpage>
+<pub-id pub-id-type="pmid">12620983</pub-id></element-citation></ref><ref id="ppat-0010014-b40"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dej</surname><given-names>KJ</given-names></name><name><surname>Spradling</surname><given-names>AC</given-names></name></person-group>
+<year>1999</year>
+<article-title>The endocycle controls nurse cell polytene chromosome structure during <italic>Drosophila</italic> oogenesis</article-title>
+<source>Development</source>
+<volume>126</volume>
+<fpage>293</fpage>
+<lpage>303</lpage>
+<pub-id pub-id-type="pmid">9847243</pub-id></element-citation></ref><ref id="ppat-0010014-b41"><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>King</surname><given-names>RC</given-names></name></person-group>
+<year>1970</year>
+<source>Ovarian development in <italic>Drosophila melanogaster</italic></source>
+<publisher-loc>New York</publisher-loc>
+<publisher-name>Academic Press</publisher-name>
+<size units="page">227</size>
+<comment>p.</comment>
+</element-citation></ref><ref id="ppat-0010014-b42"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Turelli</surname><given-names>M</given-names></name><name><surname>Hoffmann</surname><given-names>AA</given-names></name></person-group>
+<year>1995</year>
+<article-title>Cytoplasmic incompatibility in <italic>Drosophila simulans:</italic> Dynamics and parameter estimates from natural populations</article-title>
+<source>Genetics</source>
+<volume>140</volume>
+<fpage>1319</fpage>
+<lpage>1338</lpage>
+<pub-id pub-id-type="pmid">7498773</pub-id></element-citation></ref><ref id="ppat-0010014-b43"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Min</surname><given-names>K</given-names></name><name><surname>Benzer</surname><given-names>S</given-names></name></person-group>
+<year>1997</year>
+<article-title>
+<italic>Wolbachia,</italic> normally a symbiont of <italic>Drosophila,</italic> can be virulent, causing degeneration and early death</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>94</volume>
+<fpage>10792</fpage>
+<lpage>10796</lpage>
+<pub-id pub-id-type="pmid">9380712</pub-id></element-citation></ref><ref id="ppat-0010014-b44"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Theurkauf</surname><given-names>WE</given-names></name><name><surname>Alberts</surname><given-names>BM</given-names></name><name><surname>Jan</surname><given-names>YN</given-names></name><name><surname>Jongens</surname><given-names>TA</given-names></name></person-group>
+<year>1993</year>
+<article-title>A central role for microtubules in the differentiation of <italic>Drosophila</italic> oocytes</article-title>
+<source>Development</source>
+<volume>118</volume>
+<fpage>1169</fpage>
+<lpage>1180</lpage>
+<pub-id pub-id-type="pmid">8269846</pub-id></element-citation></ref><ref id="ppat-0010014-b45"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gutzeit</surname><given-names>HO</given-names></name></person-group>
+<year>1990</year>
+<article-title>The microfilament pattern in the somatic follicle cells of mid-vitellognic ovarian follicles of <italic>Drosophila</italic>
+</article-title>
+<source>Eur J Cell Biol</source>
+<volume>53</volume>
+<fpage>349</fpage>
+<lpage>356</lpage>
+<pub-id pub-id-type="pmid">2081548</pub-id></element-citation></ref><ref id="ppat-0010014-b46"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wheatley</surname><given-names>S</given-names></name><name><surname>Kulkarni</surname><given-names>S</given-names></name><name><surname>Karess</surname><given-names>R</given-names></name></person-group>
+<year>1995</year>
+<article-title>
+<italic>Drosophila</italic> nonmuscle myosin II is required for rapid cytoplasmic transport during oogenesis and for axial nuclear migration in early embryos</article-title>
+<source>Development</source>
+<volume>121</volume>
+<fpage>1937</fpage>
+<lpage>1946</lpage>
+<pub-id pub-id-type="pmid">7601006</pub-id></element-citation></ref><ref id="ppat-0010014-b47"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Edwards</surname><given-names>KA</given-names></name><name><surname>Kiehart</surname><given-names>DP</given-names></name></person-group>
+<year>1996</year>
+<article-title>
+<italic>Drosophila</italic> nonmuscle myosin II has multiple essential roles in imaginal disc and egg chamber morphogenesis</article-title>
+<source>Development</source>
+<volume>122</volume>
+<fpage>1499</fpage>
+<lpage>1511</lpage>
+<pub-id pub-id-type="pmid">8625837</pub-id></element-citation></ref><ref id="ppat-0010014-b48"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Clegg</surname><given-names>NJ</given-names></name><name><surname>Frost</surname><given-names>DM</given-names></name><name><surname>Larkin</surname><given-names>MK</given-names></name><name><surname>Subrahmanyan</surname><given-names>L</given-names></name><name><surname>Bryant</surname><given-names>Z</given-names></name><etal/></person-group>
+<year>1997</year>
+<article-title>Maelstrom is required for an early step in the establishment of <italic>Drosophila</italic> oocyte polarity: Posterior localization of <italic>grk</italic> mRNA</article-title>
+<source>Development</source>
+<volume>124</volume>
+<fpage>4661</fpage>
+<lpage>4671</lpage>
+<pub-id pub-id-type="pmid">9409682</pub-id></element-citation></ref><ref id="ppat-0010014-b49"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>McGrail</surname><given-names>M</given-names></name><name><surname>Gepner</surname><given-names>J</given-names></name><name><surname>Silvanovich</surname><given-names>A</given-names></name><name><surname>Ludmann</surname><given-names>S</given-names></name><name><surname>Serr</surname><given-names>M</given-names></name><etal/></person-group>
+<year>1995</year>
+<article-title>Regulation of cytoplasmic dynein function in vivo by the <italic>Drosophila</italic> glued complex</article-title>
+<source>J Cell Biol</source>
+<volume>131</volume>
+<fpage>411</fpage>
+<lpage>425</lpage>
+<pub-id pub-id-type="pmid">7593168</pub-id></element-citation></ref><ref id="ppat-0010014-b50"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gill</surname><given-names>SR</given-names></name><name><surname>Shroer</surname><given-names>TA</given-names></name><name><surname>Szilak</surname><given-names>I</given-names></name><name><surname>Steuer</surname><given-names>ER</given-names></name><name><surname>Sheets</surname><given-names>MP</given-names></name><etal/></person-group>
+<year>1991</year>
+<article-title>Dynactin, a conserved, ubiquitously expressed component of an activator of vesicle motility mediated by cytoplasmic Dynein</article-title>
+<source>J Cell Biol</source>
+<volume>115</volume>
+<fpage>1639</fpage>
+<lpage>1650</lpage>
+<pub-id pub-id-type="pmid">1836789</pub-id></element-citation></ref><ref id="ppat-0010014-b51"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Karcher</surname><given-names>RL</given-names></name><name><surname>Deacon</surname><given-names>SW</given-names></name><name><surname>Gefland</surname><given-names>VI</given-names></name></person-group>
+<year>2002</year>
+<article-title>Motor-cargo interactions: The key to transport specificity</article-title>
+<source>Trends Cell Biol</source>
+<volume>12</volume>
+<fpage>21</fpage>
+<lpage>27</lpage>
+<pub-id pub-id-type="pmid">11854006</pub-id></element-citation></ref><ref id="ppat-0010014-b52"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wittmann</surname><given-names>T</given-names></name><name><surname>Hyman</surname><given-names>T</given-names></name></person-group>
+<year>1999</year>
+<article-title>Recombinant p50/Dynamitin as a tool to examine the role of Dynactin in intracellular processes</article-title>
+<source>Methods Cell Biol</source>
+<volume>61</volume>
+<fpage>137</fpage>
+<lpage>143</lpage>
+<pub-id pub-id-type="pmid">9891312</pub-id></element-citation></ref><ref id="ppat-0010014-b53"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Duncan</surname><given-names>JE</given-names></name><name><surname>Warrior</surname><given-names>R</given-names></name></person-group>
+<year>2002</year>
+<article-title>The cytoplasmic Dynein and Kinesin motors have interdependent roles in patterning the <italic>Drosophila</italic> oocyte</article-title>
+<source>Curr Biol</source>
+<volume>12</volume>
+<fpage>1982</fpage>
+<lpage>1991</lpage>
+<pub-id pub-id-type="pmid">12477386</pub-id></element-citation></ref><ref id="ppat-0010014-b54"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Li</surname><given-names>M</given-names></name><name><surname>McGrail</surname><given-names>M</given-names></name><name><surname>Serr</surname><given-names>M</given-names></name><name><surname>Hays</surname><given-names>TS</given-names></name></person-group>
+<year>1994</year>
+<article-title>
+<italic>Drosophila</italic> cytoplasmic Dynein, a microtubule motor that is asymmetrically localized in the oocyte</article-title>
+<source>J Cell Biol</source>
+<volume>126</volume>
+<fpage>1475</fpage>
+<lpage>1494</lpage>
+<pub-id pub-id-type="pmid">8089180</pub-id></element-citation></ref><ref id="ppat-0010014-b55"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Januschke</surname><given-names>J</given-names></name><name><surname>Gervais</surname><given-names>L</given-names></name><name><surname>Dass</surname><given-names>S</given-names></name><name><surname>Kaltschmidt</surname><given-names>JA</given-names></name><name><surname>Lopez-Schier</surname><given-names>H</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>Polar transport in the <italic>Drosophila</italic> oocyte requires Dynein and Kinesin I cooperation</article-title>
+<source>Curr Biol</source>
+<volume>12</volume>
+<fpage>1971</fpage>
+<lpage>1981</lpage>
+<pub-id pub-id-type="pmid">12477385</pub-id></element-citation></ref><ref id="ppat-0010014-b56"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ephrussi</surname><given-names>A</given-names></name><name><surname>Dickinson</surname><given-names>LK</given-names></name><name><surname>Lehmann</surname><given-names>R</given-names></name></person-group>
+<year>1991</year>
+<article-title>Oskar organizes the germ plasm and directs localization of the posterior determinant, <italic>nanos</italic>
+</article-title>
+<source>Cell</source>
+<volume>66</volume>
+<fpage>51</fpage>
+<lpage>63</lpage>
+<pub-id pub-id-type="pmid">1712672</pub-id></element-citation></ref><ref id="ppat-0010014-b57"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kim-Ha</surname><given-names>J</given-names></name><name><surname>Smith</surname><given-names>JL</given-names></name><name><surname>Macdonald</surname><given-names>PM</given-names></name></person-group>
+<year>1991</year>
+<article-title>
+<italic>oskar</italic> mRNA is localized to the posterior pole of the <italic>Drosophila</italic> oocyte</article-title>
+<source>Cell</source>
+<volume>66</volume>
+<fpage>23</fpage>
+<lpage>35</lpage>
+<pub-id pub-id-type="pmid">2070416</pub-id></element-citation></ref><ref id="ppat-0010014-b58"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Driever</surname><given-names>W</given-names></name><name><surname>Siegel</surname><given-names>V</given-names></name><name><surname>Nusslein-Volhard</surname><given-names>C</given-names></name></person-group>
+<year>1990</year>
+<article-title>Autonomous determination of anterior structures in the early <italic>Drosophila</italic> embryo by the <italic>bicoid</italic> morphogen</article-title>
+<source>Development</source>
+<volume>109</volume>
+<fpage>811</fpage>
+<lpage>820</lpage>
+<pub-id pub-id-type="pmid">2226200</pub-id></element-citation></ref><ref id="ppat-0010014-b59"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schnorrer</surname><given-names>F</given-names></name><name><surname>Bohmann</surname><given-names>K</given-names></name><name><surname>Nusslein-Volhard</surname><given-names>C</given-names></name></person-group>
+<year>2000</year>
+<article-title>The molecular motor dynein is involved in targeting Swallow and <italic>bicoid</italic> RNA to the anterior pole of <italic>Drosophila</italic> oocytes</article-title>
+<source>Nat Cell Biol</source>
+<volume>2</volume>
+<fpage>185</fpage>
+<lpage>190</lpage>
+<pub-id pub-id-type="pmid">10783235</pub-id></element-citation></ref><ref id="ppat-0010014-b60"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Neuman-Silberberg</surname><given-names>FS</given-names></name><name><surname>Schupbach</surname><given-names>T</given-names></name></person-group>
+<year>1993</year>
+<article-title>The <italic>Drosophila</italic> dorsoventral patterning gene <italic>gurken</italic> produces a dorsally localized RNA and encodes a TGF&#x003b1;-like protein</article-title>
+<source>Cell</source>
+<volume>75</volume>
+<fpage>165</fpage>
+<lpage>174</lpage>
+<pub-id pub-id-type="pmid">7691414</pub-id></element-citation></ref><ref id="ppat-0010014-b61"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gonzalez-Reyes</surname><given-names>A</given-names></name><name><surname>Elliott</surname><given-names>H</given-names></name><name><surname>St. Johnston</surname><given-names>D</given-names></name></person-group>
+<year>1995</year>
+<article-title>Polarization of both major body axes in <italic>Drosophila</italic> by <italic>gurken&#x02013;torpedo</italic> signaling</article-title>
+<source>Nature</source>
+<volume>375</volume>
+<fpage>654</fpage>
+<lpage>658</lpage>
+<pub-id pub-id-type="pmid">7791898</pub-id></element-citation></ref><ref id="ppat-0010014-b62"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bobinnec</surname><given-names>Y</given-names></name><name><surname>Marcaillou</surname><given-names>C</given-names></name><name><surname>Morin</surname><given-names>X</given-names></name><name><surname>Debec</surname><given-names>A</given-names></name></person-group>
+<year>2003</year>
+<article-title>Dynamics of the endoplasmic reticulum during early development of <italic>Drosophila melanogaster</italic>
+</article-title>
+<source>Cell Motil Cytoskeleton</source>
+<volume>54</volume>
+<fpage>217</fpage>
+<lpage>225</lpage>
+<pub-id pub-id-type="pmid">12589680</pub-id></element-citation></ref><ref id="ppat-0010014-b63"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cha</surname><given-names>BJ</given-names></name><name><surname>Serbus</surname><given-names>LR</given-names></name><name><surname>Koppetsch</surname><given-names>BS</given-names></name><name><surname>Theurkauf</surname><given-names>WE</given-names></name></person-group>
+<year>2002</year>
+<article-title>Kinesin I-dependent cortical exclusion restricts pole plasm to the oocyte posterior</article-title>
+<source>Nat Cell Biol</source>
+<volume>4</volume>
+<fpage>592</fpage>
+<lpage>598</lpage>
+<pub-id pub-id-type="pmid">12134163</pub-id></element-citation></ref><ref id="ppat-0010014-b64"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Navarro</surname><given-names>C</given-names></name><name><surname>Puthalakath</surname><given-names>H</given-names></name><name><surname>Adams</surname><given-names>JM</given-names></name><name><surname>Strasser</surname><given-names>A</given-names></name><name><surname>Lehmann</surname><given-names>R</given-names></name></person-group>
+<year>2004</year>
+<article-title>Egalitarian binds Dynein light chain to establish oocyte polarity and maintain oocyte fate</article-title>
+<source>Nat Cell Biol</source>
+<volume>6</volume>
+<fpage>427</fpage>
+<lpage>435</lpage>
+<pub-id pub-id-type="pmid">15077115</pub-id></element-citation></ref><ref id="ppat-0010014-b65"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gepner</surname><given-names>J</given-names></name><name><surname>Li</surname><given-names>M</given-names></name><name><surname>Ludmann</surname><given-names>S</given-names></name><name><surname>Kortas</surname><given-names>C</given-names></name><name><surname>Boylan</surname><given-names>K</given-names></name><etal/></person-group>
+<year>1996</year>
+<article-title>Cytoplasmic Dynein function is essential in <italic>Drosophila melanogaster</italic>
+</article-title>
+<source>Genetics</source>
+<volume>142</volume>
+<fpage>865</fpage>
+<lpage>878</lpage>
+<pub-id pub-id-type="pmid">8849893</pub-id></element-citation></ref><ref id="ppat-0010014-b66"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Louis</surname><given-names>C</given-names></name><name><surname>Nigro</surname><given-names>L</given-names></name></person-group>
+<year>1989</year>
+<article-title>Ultrastructural evidence of <italic>Wolbachia</italic> Rickettsiales in <italic>Drosophila simulans</italic> and their relationships with unidirectional cross-incompatibility</article-title>
+<source>J Invertebr Pathol</source>
+<volume>54</volume>
+<fpage>39</fpage>
+<lpage>44</lpage>
+</element-citation></ref><ref id="ppat-0010014-b67"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gruenheid</surname><given-names>S</given-names></name><name><surname>Finlay</surname><given-names>BB</given-names></name></person-group>
+<year>2003</year>
+<article-title>Microbial pathogenesis and cytoskeletal function</article-title>
+<source>Nature</source>
+<volume>422</volume>
+<fpage>775</fpage>
+<lpage>781</lpage>
+<pub-id pub-id-type="pmid">12700772</pub-id></element-citation></ref><ref id="ppat-0010014-b68"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Guignot</surname><given-names>J</given-names></name><name><surname>Caron</surname><given-names>E</given-names></name><name><surname>Beuzon</surname><given-names>C</given-names></name><name><surname>Bucci</surname><given-names>C</given-names></name><name><surname>Kagan</surname><given-names>J</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Microtubule motors control membrane dynamics of <italic>Salmonella</italic>-containing vacuoles</article-title>
+<source>J Cell Sci</source>
+<volume>117</volume>
+<fpage>1033</fpage>
+<lpage>1045</lpage>
+<pub-id pub-id-type="pmid">14970261</pub-id></element-citation></ref><ref id="ppat-0010014-b69"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yaffe</surname><given-names>MP</given-names></name><name><surname>Harata</surname><given-names>D</given-names></name><name><surname>Verde</surname><given-names>F</given-names></name><name><surname>Eddison</surname><given-names>M</given-names></name><name><surname>Toda</surname><given-names>T</given-names></name><etal/></person-group>
+<year>1996</year>
+<article-title>Microtubules mediate mitochondrial distribution in fission yeast</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>93</volume>
+<fpage>11664</fpage>
+<lpage>11668</lpage>
+<pub-id pub-id-type="pmid">8876193</pub-id></element-citation></ref><ref id="ppat-0010014-b70"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pereira</surname><given-names>AJ</given-names></name><name><surname>Dalby</surname><given-names>B</given-names></name><name><surname>Stewart</surname><given-names>RJ</given-names></name><name><surname>Doxsey</surname><given-names>SJ</given-names></name><name><surname>Goldstein</surname><given-names>LSB</given-names></name></person-group>
+<year>1997</year>
+<article-title>Mitochondrial association of a plus end-directed microtubule motor expressed during mitosis in <italic>Drosophila</italic>
+</article-title>
+<source>J Cell Biol</source>
+<volume>136</volume>
+<fpage>1081</fpage>
+<lpage>1090</lpage>
+<pub-id pub-id-type="pmid">9060472</pub-id></element-citation></ref><ref id="ppat-0010014-b71"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Svoboda</surname><given-names>A</given-names></name><name><surname>Slaninova</surname><given-names>I</given-names></name></person-group>
+<year>1997</year>
+<article-title>Colocalization of microtubules and mitochondria in the yeast <italic>Schizosaccharomyces japonicus</italic> var. <italic>versatilis</italic>
+</article-title>
+<source>Can J Microbiol</source>
+<volume>43</volume>
+<fpage>945</fpage>
+<lpage>953</lpage>
+<pub-id pub-id-type="pmid">9396147</pub-id></element-citation></ref><ref id="ppat-0010014-b72"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hurst</surname><given-names>GD</given-names></name><name><surname>Jiggins</surname><given-names>FM</given-names></name><name><surname>Robinson</surname><given-names>SJ</given-names></name></person-group>
+<year>2001</year>
+<article-title>What causes inefficient transmission of male-killing <italic>Wolbachia</italic> in <italic>Drosophila</italic>?</article-title>
+<source>Heredity</source>
+<volume>87</volume>
+<fpage>220</fpage>
+<lpage>226</lpage>
+<pub-id pub-id-type="pmid">11703513</pub-id></element-citation></ref><ref id="ppat-0010014-b73"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zchori-Fein</surname><given-names>E</given-names></name><name><surname>Roush</surname><given-names>RT</given-names></name><name><surname>Rosen</surname><given-names>D</given-names></name></person-group>
+<year>1998</year>
+<article-title>Distribution of parthenogenesis-inducing symbionts in ovaries and eggs of <italic>Aphytis</italic> (Hymenoptera: Aphelinidae)</article-title>
+<source>Curr Microbiol</source>
+<volume>36</volume>
+<fpage>1</fpage>
+<lpage>8</lpage>
+<pub-id pub-id-type="pmid">9405738</pub-id></element-citation></ref><ref id="ppat-0010014-b74"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Brendza</surname><given-names>RP</given-names></name><name><surname>Serbus</surname><given-names>LR</given-names></name><name><surname>Duffy</surname><given-names>JB</given-names></name><name><surname>Saxton</surname><given-names>WM</given-names></name></person-group>
+<year>2000</year>
+<article-title>A function for Kinesin I in the posterior transport of <italic>oskar</italic> mRNA and Staufen protein</article-title>
+<source>Science</source>
+<volume>289</volume>
+<fpage>2120</fpage>
+<lpage>2122</lpage>
+<pub-id pub-id-type="pmid">11000113</pub-id></element-citation></ref><ref id="ppat-0010014-b75"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>O'Neill</surname><given-names>SL</given-names></name><name><surname>Giordano</surname><given-names>R</given-names></name><name><surname>Colbert</surname><given-names>AM</given-names></name><name><surname>Karr</surname><given-names>TL</given-names></name><name><surname>Robertson</surname><given-names>HM</given-names></name></person-group>
+<year>1992</year>
+<article-title>16S rRNA phylogenetic analysis of the bacterial endosymbionts associated with cytoplasmic incompatibility in insects</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>89</volume>
+<fpage>2699</fpage>
+<lpage>2702</lpage>
+<pub-id pub-id-type="pmid">1557375</pub-id></element-citation></ref><ref id="ppat-0010014-b76"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Verheyen</surname><given-names>E</given-names></name><name><surname>Cooley</surname><given-names>L</given-names></name></person-group>
+<year>1994</year>
+<article-title>Looking at oogenesis</article-title>
+<source>Methods Cell Biol</source>
+<volume>44</volume>
+<fpage>545</fpage>
+<lpage>561</lpage>
+<pub-id pub-id-type="pmid">7707970</pub-id></element-citation></ref><ref id="ppat-0010014-b77"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Byers</surname><given-names>TJ</given-names></name><name><surname>Husain-Chishti</surname><given-names>A</given-names></name><name><surname>Dubreuil</surname><given-names>R</given-names></name><name><surname>Branton</surname><given-names>D</given-names></name><name><surname>Goldstein</surname><given-names>LSB</given-names></name></person-group>
+<year>1989</year>
+<article-title>Sequence similarity of the amino-terminal domain of <italic>Drosophila</italic> beta spectrin to alpha actinin and dystrophin</article-title>
+<source>J Cell Biol</source>
+<volume>109</volume>
+<fpage>1633</fpage>
+<lpage>1641</lpage>
+<pub-id pub-id-type="pmid">2677025</pub-id></element-citation></ref><ref id="ppat-0010014-b78"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Riemer</surname><given-names>D</given-names></name><name><surname>Stuurman</surname><given-names>N</given-names></name><name><surname>Berrios</surname><given-names>M</given-names></name><name><surname>Hunter</surname><given-names>C</given-names></name><name><surname>Fisher</surname><given-names>PA</given-names></name><etal/></person-group>
+<year>1995</year>
+<article-title>Expression of <italic>Drosophila</italic> lamin C is developmentally regulated: analogies with vertebrate A-type lamins</article-title>
+<source>J Cell Sci</source>
+<volume>108</volume>
+<fpage>3189</fpage>
+<lpage>3198</lpage>
+<pub-id pub-id-type="pmid">7593280</pub-id></element-citation></ref><ref id="ppat-0010014-b79"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Frydman</surname><given-names>HM</given-names></name><name><surname>Spradling</surname><given-names>AC</given-names></name></person-group>
+<year>2001</year>
+<article-title>The receptor-like tyrosine phosphatase lar is required for epithelial planar polarity and for axis determination within <italic>Drosophila</italic> ovarian follicles</article-title>
+<source>Development</source>
+<volume>128</volume>
+<fpage>3209</fpage>
+<lpage>3220</lpage>
+<pub-id pub-id-type="pmid">11688569</pub-id></element-citation></ref></ref-list></back></article>

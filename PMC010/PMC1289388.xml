@@ -1,0 +1,536 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="review-article"><?properties open_access?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS Comput Biol</journal-id><journal-id journal-id-type="iso-abbrev">PLoS Comput. Biol</journal-id><journal-id journal-id-type="publisher-id">pcbi</journal-id><journal-id journal-id-type="publisher-id">plcb</journal-id><journal-id journal-id-type="pmc">ploscomp</journal-id><journal-title-group><journal-title>PLoS Computational Biology</journal-title></journal-title-group><issn pub-type="ppub">1553-734X</issn><issn pub-type="epub">1553-7358</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">16322763</article-id><article-id pub-id-type="pmc">PMC1289388</article-id><article-id pub-id-type="doi">10.1371/journal.pcbi.0010061</article-id><article-id pub-id-type="publisher-id">05-PLCB-RV-0239R1</article-id><article-id pub-id-type="sici">plcb-01-06-10</article-id><article-categories><subj-group subj-group-type="heading"><subject>Review</subject></subj-group><subj-group subj-group-type="Discipline"><subject>Bioinformatics - Computational Biology</subject><subject>Evolution</subject><subject>Genetics/Evolution</subject><subject>Virology</subject></subj-group><subj-group subj-group-type="System Taxonomy"><subject>None</subject></subj-group></article-categories><title-group><article-title>Quasispecies Made Simple</article-title><alt-title alt-title-type="running-head">Review</alt-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Bull</surname><given-names>J. J</given-names></name></contrib><contrib contrib-type="author"><name><surname>Meyers</surname><given-names>Lauren Ancel</given-names></name></contrib><contrib contrib-type="author"><name><surname>Lachmann</surname><given-names>Michael</given-names></name><xref ref-type="corresp" rid="cor1">*</xref></contrib></contrib-group><author-notes><corresp id="cor1">*To whom correspondence should be addressed. E-mail: <email>lachmann@eva.mpg.de</email></corresp><fn id="n102" fn-type="current-aff"><p>J. J. Bull is at the Institute for Cellular and Molecular Biology, Section of Integrative Biology, University of Texas, Austin, Texas, United States of America. Lauren Ancel Meyers is at the Institute for Cellular and Molecular Biology, Section of Integrative Biology, University of Texas, Austin, Texas, United States of America, and at the Santa Fe Institute, Santa Fe, New Mexico, United States of America. Michael Lachmann is at the Max Planck Institute for Evolutionary Anthropology, Leipzig, Germany.</p></fn></author-notes><pub-date pub-type="ppub"><month>11</month><year>2005</year></pub-date><pub-date pub-type="epub"><day>25</day><month>11</month><year>2005</year></pub-date><volume>1</volume><issue>6</issue><elocation-id>e61</elocation-id><permissions><copyright-statement>Copyright: &#x000a9; 2005 Bull et al.</copyright-statement><copyright-year>2005</copyright-year><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p></license></permissions><abstract><p>Quasispecies are clouds of genotypes that appear in a population at mutation&#x02013;selection balance. This concept has recently attracted the attention of virologists, because many RNA viruses appear to generate high levels of genetic variation that may enhance the evolution of drug resistance and immune escape. The literature on these important evolutionary processes is, however, quite challenging. Here we use simple models to link mutation&#x02013;selection balance theory to the most novel property of quasispecies: the error threshold&#x02014;a mutation rate below which populations equilibrate in a traditional mutation&#x02013;selection balance and above which the population experiences an error catastrophe, that is, the loss of the favored genotype through frequent deleterious mutations. These models show that a single fitness landscape may contain multiple, hierarchically organized error thresholds and that an error threshold is affected by the extent of back mutation and redundancy in the genotype-to-phenotype map. Importantly, an error threshold is distinct from an extinction threshold, which is the complete loss of the population through lethal mutations. Based on this framework, we argue that the lethal mutagenesis of a viral infection by mutation-inducing drugs is not a true error catastophe, but is an extinction catastrophe.</p></abstract><counts><page-count count="11"/></counts><custom-meta-group><custom-meta><meta-name>Citation:</meta-name><meta-value>Bull JJ, Meyers LA, Lachmann M (2005) Quasispecies made simple. PLoS Comput Biol 1(6): e61.</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec id="s1"><title>Introduction</title><p>The concept of a mutation&#x02013;selection balance is one of the oldest and most fundamental pillars of population genetics: natural selection increases the frequency of fit variants while mutations introduce unfit variants, giving rise to an equilibrium distribution balanced between these two effects. Mutation&#x02013;selection balance has been invoked to explain the persistence of undesirable genes, for example, those underlying inbreeding depression, genetic diseases, and even senescence. Despite the long history of the concept, some of its consequences were only realized in 1971, when Manfred Eigen studied mutation&#x02013;selection dynamics in long genomes [<xref rid="pcbi-0010061-b001" ref-type="bibr">1</xref>]. He found that populations do not necessarily attain classic mutation&#x02013;selection balances in which the wild-type allele is most common, but rather attain an equilibrium with an abundant assemblage of mutant genotypes and a rare wild-type. He and Peter Schuster later called this collection of genotypes at equilibrium a quasispecies [<xref rid="pcbi-0010061-b002" ref-type="bibr">2</xref>]. This concept offered not only an intuitive extension of the mutation&#x02013;selection theory based on simple one- or two-locus systems, but also a novel insight into the impact of mutation rate on evolutionary dynamics. In particular, Eigen found that there are states in which a trivial boost in the mutation rate can lead to a fundamental change in the composition of genotypes in the population. This change, a phase transition in physics terms, is called the error catastrophe.</p><p>The error catastrophe has been applied liberally as a metaphor for complications of high mutation rates, as likely plagued primordial life [<xref rid="pcbi-0010061-b001" ref-type="bibr">1</xref>] and currently challenges extant viruses with RNA genomes [<xref rid="pcbi-0010061-b003" ref-type="bibr">3</xref>]. The error-catastrophe model inspired treatments to extirpate viral populations by mutation enhancement [<xref rid="pcbi-0010061-b004" ref-type="bibr">4</xref>,<xref rid="pcbi-0010061-b005" ref-type="bibr">5</xref>], and the model has been generalized to explain the attraction of populations to mutationally robust regions of fitness landscapes [<xref rid="pcbi-0010061-b006" ref-type="bibr">6</xref>]. The error catastrophe has imparted a mystique to the quasispecies concept, and much of the literature on RNA virus evolution now uses quasispecies as an enriched synonym for a high mutation rate. An excellent and short review of the topic and its relationship to population genetics theory is provided by Wilke [<xref rid="pcbi-0010061-b007" ref-type="bibr">7</xref>].</p><p>Eigen's insights were developed in the context of genomes with many loci, each of which suffered mutation. Appropriately, the quasispecies has since been considered in this large-genome context. Yet many of its concepts are easily illustrated in the much simpler case of few genotypes, which is our approach here. Our results are not new, per se, but our models should convey quasispecies and error-catastrophe concepts to a broad audience and correct some common misunderstandings.</p></sec><sec id="s2"><title>The Simplest Quasispecies</title><p>Our basic model has the fewest number of genotypes needed to demonstrate a quasispecies and an error threshold: two [<xref rid="pcbi-0010061-b008" ref-type="bibr">8</xref>]. Genotype <italic>A</italic>
+<sub>1</sub> has fitness <italic>w</italic>
+<sub>1</sub>, and of those <italic>w</italic>
+<sub>1</sub> offspring a fraction 1 &#x02212; &#x003bc;<sub>1</sub> retain the <italic>A</italic>
+<sub>1</sub> genotype (<xref ref-type="fig" rid="pcbi-0010061-g001">Figure 1</xref>). Its mutants are converted into the other genotype, <italic>A</italic>
+<sub>2</sub>, which has the lower fitness <italic>w</italic>
+<sub>2</sub>. <italic>A</italic>
+<sub>2</sub> reproduces its genotype with fidelity 1 &#x02212; &#x003bc;<sub>2</sub>, and all of its mutants die.</p><fig id="pcbi-0010061-g001" position="float"><label>Figure 1</label><caption><title>Model of Two Genotypes with Forward Mutation</title><p>Each genotype <italic>A<sub>i</sub></italic> has its own fitness <italic>w<sub>i</sub></italic> and mutational loss &#x003bc;<sub>i</sub>. Mutation is asymmetric, so that <italic>A</italic>
+<sub>1</sub> gives rise to <italic>A</italic>
+<sub>2</sub>, but not vice versa.</p></caption><graphic xlink:href="pcbi.0010061.g001"/></fig><p>Quasispecies concepts address equilibia, that is, the final distributions of genotypes in populations that have evolved to a stable state. In the quasispecies model, mutation and natural selection steer the population toward the equilibrium distribution, regardless of the initial distribution of genotypes. If the population does not start at the equilibrium, then mutation and natural selection steer it toward equilibrium in the quasispecies model. Mutations introduce new types with various fitnesses while natural selection causes more fit variants to increase in frequency at the expense of less fit variants. Ultimately, a population reaches a genotype distribution at which these two forces exactly cancel each other, leaving the genotype distribution unchanged. This stable assemblage of genotypes has been called both a mutation&#x02013;selection balance and a quasispecies. Some authors prefer to reserve the quasispecies concept for the mutation&#x02013;selection balance extreme in which the wild-type is rare [<xref rid="pcbi-0010061-b009" ref-type="bibr">9</xref>]. This preference may stem from the property that, under a high mutation rate, the quasispecies distribution as a whole rather than a single genotype is the target of selection [<xref rid="pcbi-0010061-b002" ref-type="bibr">2</xref>], as illustrated below.</p><p>It is essential to distinguish the process of evolution toward the mutation&#x02013;selection balance from an error catastrophe, as the two are completely different. We thus begin by briefly illustrating the dynamic approach to mutation&#x02013;selection balance. For any combination of mutation rates and fitnesses in our model, a population will evolve until it reaches a unique equilibrium distribution of <italic>A</italic>
+<sub>1</sub> and <italic>A</italic>
+<sub>2</sub>. <xref ref-type="fig" rid="pcbi-0010061-g002">Figure 2</xref> illustrates the evolution of two populations&#x02014;one that initially consisted entirely of <italic>A</italic>
+<sub>1</sub> and another that consisted almost entirely of <italic>A</italic>
+<sub>2</sub>. Both eventually reach the same equilibrium proportions because the mutation rates and fitnesses are the same for both cases. This end-state is the mutation&#x02013;selection balance, whereby mutation continually creates <italic>A</italic>
+<sub>2</sub> from <italic>A</italic>
+<sub>1</sub> and natural selection continually purges <italic>A</italic>
+<sub>2</sub> in favor of <italic>A</italic>
+<sub>1</sub>; it is also a quasispecies where <italic>A</italic>
+<sub>1</sub> is the wild-type and <italic>A</italic>
+<sub>2</sub> is the mutational &#x0201c;cloud&#x0201d; that persists with it. In a strict sense, equilibrium is reached only after infinitely many generations, but the deviation from equilibrium quickly becomes insignificant.</p><fig id="pcbi-0010061-g002" position="float"><label>Figure 2</label><caption><title>Dynamic Approach to the Quasispecies Equilibrium, for the Genotypes Illustrated in <xref ref-type="fig" rid="pcbi-0010061-g001">Figure 1</xref>
+</title><p>Drawn for <italic>w</italic>
+<sub>1</sub> = 1.5, <italic>w</italic>
+<sub>2</sub> = 1.0, &#x003bc;<sub>1</sub> = 0.7, and &#x003bc;<sub>2</sub> = 0.6. The upper, black curve represents a different starting condition than the lower, gray curve, but they both equilibrate to the same value.</p></caption><graphic xlink:href="pcbi.0010061.g002"/></fig><p>If a mutation rate or fitness is changed, the equilibrium distribution changes. Thus, the analogous figure for a different equilibrium would have the curves converging to a different value on the vertical axis. In particular, if we continually lower the fitness (<italic>w</italic>
+<sub>1</sub>) or the mutation-free fraction of offspring (1 &#x02212; &#x003bc;<sub>1</sub>) of <italic>A</italic>
+<sub>1</sub> relative to that of <italic>A</italic>
+<sub>2</sub>, then the equilibrium distribution will move to progressively lower values on the vertical axis, until it lacks <italic>A</italic>
+<sub>1</sub> entirely. This brings us to the error catastrophe.</p></sec><sec id="s3"><title>Error Catastrophe: The &#x0201c;Loss&#x0201d; of <italic>A</italic>
+<sub>1</sub> at Equilibrium</title><p>Error thresholds and error catastrophes are properties of mutation&#x02013;selection equilibria, and an error catastrophe is a specific type of change in the equilibria. Consider again the genotypes and fitnesses illustrated in <xref ref-type="fig" rid="pcbi-0010061-g001">Figure 1</xref>. The product <italic>w</italic>
+<sub>1</sub>(1 &#x02212; &#x003bc;<sub>1</sub>) is the number of <italic>A</italic>
+<sub>1</sub> offspring of an <italic>A</italic>
+<sub>1</sub> parent; we will refer to this product as the replacement rate of the genotype&#x02014;the product of fitness times the mutation-free fraction of offspring. For mathematical simplicity, we assume that this number is an absolute quantity greater than one and that it does not change with population density. Hence, the population is forever expanding in unlimited space (this assumption is convenient but not necessary). For convenience, we will continue to treat <italic>A</italic>
+<sub>1</sub> and <italic>A</italic>
+<sub>2</sub> as single genotypes, but later in the paper, we will explain how they can be treated as sets of genotypes and how additional types can be included (e.g., <italic>A</italic>
+<sub>3</sub>, <italic>A</italic>
+<sub>4</sub>, ...).</p><p>Since <italic>A</italic>
+<sub>1</sub> has a higher fitness than <italic>A</italic>
+<sub>2</sub>, it follows that, for small mutation rates &#x003bc;<sub>1</sub>, the replacement rate of <italic>A</italic>
+<sub>1</sub> is higher than the replacement rate of <italic>A</italic>
+<sub>2</sub>, or <italic>w</italic>
+<sub>1</sub> (1 &#x02212; &#x003bc;<sub>1</sub>) &#x0003e; <italic>w</italic>
+<sub>2</sub> (1 &#x02212; &#x003bc;<sub>2</sub>). As long as the replacement rate of <italic>A</italic>
+<sub>1</sub> exceeds that of <italic>A</italic>
+<sub>2</sub>, both genotypes will be maintained at equilibrium: <italic>A</italic>
+<sub>1</sub> because of its higher replacement rate, and <italic>A</italic>
+<sub>2</sub> because of mutation from <italic>A</italic>
+<sub>1</sub>. If the mutation rate of <italic>A</italic>
+<sub>1</sub> increases such that the mutation-free fraction of <italic>A</italic>
+<sub>1</sub> drops relative to that of <italic>A</italic>
+<sub>2</sub>, however, the replacement rate inequality will eventually reverse, yielding a simple error catastrophe: <italic>A</italic>
+<sub>1</sub> is no longer maintained. The error threshold is the point at which both genotypes have identical replacement rates. Beyond this point, <italic>A</italic>
+<sub>2</sub> has the higher replacement rate, and <italic>A</italic>
+<sub>1</sub> is absent at all equilibria&#x02014;the lack of back mutations ensures that it is not recreated from <italic>A</italic>
+<sub>2</sub>.</p><p>The nature of this simple error threshold and error catastrophe is easily visualized (<xref ref-type="fig" rid="pcbi-0010061-g003">Figure 3</xref>). The left part of the figure shows <italic>A</italic>
+<sub>1</sub> and <italic>A</italic>
+<sub>2</sub> replacement rate functions approaching each other as the mutation rate increases toward the error threshold. The functions cross at the error threshold, giving rise to an error catastrophe (complete loss of <italic>A</italic>
+<sub>1</sub>) for higher mutation rates. The right part of the figure illustrates that, despite the suggestive terminology (threshold and catastrophe), an error catastrophe is the culmination of a gradual decrease in the equilibrium frequency of <italic>A</italic>
+<sub>1</sub> rather than a dramatic one. An apt analogy is the geological transition from mountains to plains: starting from the mountains, the plains are approached gradually until they are reached, at which point the plains continue in the absence of any trace of mountains. (Note, however, that a true phase transition does occur at the error threshold, as has been shown by Leuthausser [<xref rid="pcbi-0010061-b010" ref-type="bibr">10</xref>,<xref rid="pcbi-0010061-b011" ref-type="bibr">11</xref>].) The equilibrium proportion of <italic>A</italic>
+<sub>1</sub> approaches zero as the mutation rate approaches the error threshold. Just before the threshold, the population is dominated by the &#x0201c;cloud&#x0201d; of <italic>A</italic>
+<sub>2</sub> mutants around a tiny fraction of <italic>A</italic>
+<sub>1</sub>, and thus fulfills the standard criteria for a quasispecies.</p><fig id="pcbi-0010061-g003" position="float"><label>Figure 3</label><caption><title>The Error Threshold and Error Catastrophe</title><p>Left: replacement rates of the two genotypes in <xref ref-type="fig" rid="pcbi-0010061-g001">Figure 1</xref>, <italic>w</italic>
+<sub>1</sub>(1 &#x02212; &#x003bc;<sub>1</sub>) for <italic>A</italic>
+<sub>1</sub> (solid black line extending to dashes) and <italic>w</italic>
+<sub>2</sub>(1 &#x02212; &#x003bc;<sub>2</sub>) for <italic>A</italic>
+<sub>2</sub> (gray line). Here we let &#x003bc;<sub>1</sub> = <italic>k</italic>&#x003bc; and &#x003bc;<sub>2</sub> = &#x003bc;, with <italic>k</italic> &#x0003e; 1 so the two replacement rates can be plotted as lines in the same plane. Since <italic>w</italic>
+<sub>1</sub> &#x0003e; <italic>w</italic>
+<sub>2</sub>, the constraint on <italic>k</italic> ensures a higher replacement rate of <italic>A</italic>
+<sub>1</sub> than of <italic>A</italic>
+<sub>2</sub> at low mutation rates and the reverse at higher mutation rates. The point at which the lines intersect is the error threshold, beyond which <italic>A</italic>
+<sub>1</sub> is absent, hence the use of dashes for this part of its replacement rate function. If replacement rate drops below unity, the population goes extinct, so the functions are not extended below one on the vertical axis.</p><p>Right: the frequency of <italic>A</italic>
+<sub>1</sub> declines as the mutation rate increases until the error threshold is reached. At higher mutation rates, only <italic>A</italic>
+<sub>2</sub> is present. The decline in the frequency of <italic>A</italic>
+<sub>1</sub> with &#x003bc; toward the error threshold may be linear (as shown here), concave, or convex, depending on parameter values. (Right side drawn for <italic>w</italic>
+<sub>1</sub> = 3.0, <italic>w</italic>
+<sub>2</sub> = 2, and <italic>k</italic> = 2.)</p></caption><graphic xlink:href="pcbi.0010061.g003"/></fig><p>An error threshold exists because deleterious mutations impact some genotypes more than others (reviewed in [<xref rid="pcbi-0010061-b007" ref-type="bibr">7</xref>]): in this model the threshold is breached only if <italic>A</italic>
+<sub>1</sub> experiences a potentially much greater mutational loss than <italic>A</italic>
+<sub>2</sub>. Beyond the error threshold this deleterious effect of mutation is retarded: by replacing a mutation-sensitive genotype with a mutation-robust genotype, the error catastrophe reduces the speed at which the replacement rate drops in response to increases in the mutation rate [<xref rid="pcbi-0010061-b007" ref-type="bibr">7</xref>]. This outcome can be seen in the left side of <xref ref-type="fig" rid="pcbi-0010061-g003">Figure 3</xref>: the <italic>A</italic>
+<sub>1</sub> replacement rate function is steeper than the <italic>A</italic>
+<sub>2</sub> replacement rate function, so increases in the mutation rate have less impact after the error threshold. (Not only do the functions depict genotype replacement rate, but the uppermost functions also give the mean replacement rate in a population at equilibrium.) Below we will specifically describe how such mutational robustness may be achieved; we have depicted an error catastrophe between two genotypes, but the logic is easily extended to larger sets of mutationally connected genotypes. Again, we emphasize that an error catastrophe is not a process per se; rather it is a change in the equilibrium distribution of genotypes arising under a relatively high mutation rate. If the mutation rate of a population is increased from below to above an error threshold, however, then there will be a dynamical loss of <italic>A</italic>
+<sub>1</sub> as the population approaches the new equilibrium.</p><p>Three implications of this analysis are significant. First, an error catastrophe is not equivalent to a population extinction. Second, fitness landscapes may contain multiple error thresholds. Third, the error threshold is affected by finite population size, the inclusion of back mutation from the mutant to the wild-type, and recombination. We now discuss each of these in detail.</p><sec id="s3a"><title/><sec id="s3a1"><title>Error catastrophes versus population extinction.</title><p>High mutation rates can cause extinction, but not as an error catastrophe (<xref ref-type="fig" rid="pcbi-0010061-g003">Figure 3</xref>). An error catastrophe takes place when one genotype's replacement rate exceeds another's and thus displaces it at the equilibrium&#x02014;a replacement of one self-sustaining genotype by another self-sustaining genotype. The population cannot maintain the genotype with the higher fitness, <italic>A</italic>
+<sub>1</sub>, since its high mutation rate causes it to have a lower replacement rate than <italic>A</italic>
+<sub>2</sub>. Thus, the error threshold refers to the loss of the highest fitness genotype in favor of other genotypes with lower fitness but greater mutational robustness.</p><p>In contrast, extinction occurs at the point that the best genotype cannot reproduce itself to maintain a minimum population size (<italic>w<sub>i</sub></italic>[1 &#x02212; &#x003bc;<italic><sub>i</sub></italic>] &#x0003c; 1 for all genotypes). The most trivial example of the distinction between an error threshold and an extinction threshold is the case in which only one genotype exists, and all mutations are lethal. No error catastrophe is possible because no other genotypes exist, but extinction is obviously possible. Our model is one genotype more complicated: mutant offspring of <italic>A</italic>
+<sub>1</sub> survive as <italic>A</italic>
+<sub>2</sub>, but mutants of <italic>A</italic>
+<sub>2</sub> are inviable. Thus, there is not an additional error threshold beyond <italic>A</italic>
+<sub>2</sub>, because the model does not allow a third inferior genotype. An <italic>A</italic>
+<sub>2</sub> population, however, will go extinct if its net growth rate drops below one (the horizontal axis in <xref ref-type="fig" rid="pcbi-0010061-g003">Figure 3</xref>). While an error threshold depends on the relative replacement rates of the genotypes, the extinction threshold depends on the absolute replacement rates of the genotypes.</p><p>There are several possible relationships between error thresholds and extinction thresholds. The genotype with highest fitness in this model (<italic>A</italic>
+<sub>1</sub>) can disappear through either an error catastrophe or a population extinction, but <italic>A</italic>
+<sub>2</sub> can disappear only through extinction. Depending on the values of <italic>w</italic>
+<sub>1</sub>, <italic>w</italic>
+<sub>2</sub>, and &#x003bc;<sub>2</sub>, the rate of mutation &#x003bc;<sub>1</sub> at which <italic>A</italic>
+<sub>1</sub> would be lost to <italic>A</italic>
+<sub>2</sub> in an error catastrophe may be less than or greater than the value of &#x003bc;<sub>1</sub> at which the population would go extinct. If the error threshold lies beyond the extinction value, then as &#x003bc;<sub>1</sub> increases, the <italic>A</italic>
+<sub>1</sub> + <italic>A</italic>
+<sub>2</sub> population will go extinct of its own accord before a true error catastrophe can happen, because the population has disappeared before the mutation rate rises high enough for the error catastrophe (<xref ref-type="fig" rid="pcbi-0010061-g004">Figure 4</xref>, right). If the opposite is true, then <italic>A</italic>
+<sub>1</sub> will be displaced by <italic>A</italic>
+<sub>2</sub> in an error catastrophe before the replacement rate of either type drops below one (<xref ref-type="fig" rid="pcbi-0010061-g004">Figure 4</xref>, left).</p><fig id="pcbi-0010061-g004" position="float"><label>Figure 4</label><caption><title>Extinction versus Error Catastrophe</title><p>Left: the error threshold is crossed at a lower mutation rate (&#x003bc;) than the extinction threshold.</p><p>Right: the extinction threshold is crossed before the error threshold.</p><p>Otherwise as in <xref ref-type="fig" rid="pcbi-0010061-g003">Figure 3</xref>.</p></caption><graphic xlink:href="pcbi.0010061.g004"/></fig></sec><sec id="s3b"><title>Multiple error thresholds.</title><p>The model implies that multiple error thresholds may exist in a fitness landscape. For example, a fitness landscape may include multiple <italic>A<sub>i</sub></italic> with associated <italic>w<sub>i</sub></italic> and &#x003bc;<italic><sub>i</sub></italic> (<xref ref-type="fig" rid="pcbi-0010061-g005">Figure 5</xref>). With an appropriate hierarchy of mutation rates, error thresholds could operate sequentially, so that as mutation rates increase, the population drops from one <italic>A<sub>i</sub></italic> to the next, then to the next, and so on [<xref rid="pcbi-0010061-b012" ref-type="bibr">12</xref>]. It is also possible for an error catastrophe to jump over an intermediate peak [<xref rid="pcbi-0010061-b013" ref-type="bibr">13</xref>]. For example, if the mutation rate at which the error threshold is crossed between <italic>A</italic>
+<sub>1</sub> and <italic>A</italic>
+<sub>2</sub> exceeds the mutation rate for the error threshold between <italic>A</italic>
+<sub>2</sub> to <italic>A</italic>
+<sub>3</sub>, then a transition will occur from <italic>A</italic>
+<sub>1</sub> to <italic>A</italic>
+<sub>3</sub>, skipping the intermediate in which <italic>A</italic>
+<sub>1</sub> has disappeared but <italic>A</italic>
+<sub>2</sub> remains (see below). The interplay between extinction catastrophes and error catastrophes can likewise add interesting complexity to the model.</p><fig id="pcbi-0010061-g005" position="float"><label>Figure 5</label><caption><title>Model of Several Genotypes with Forward Mutation</title><p>Each genotype <italic>A<sub>i</sub></italic> has its own fitness <italic>w<sub>i</sub></italic> and mutational loss &#x003bc;<italic><sub>i</sub></italic> so that error thresholds can exist between each pair of genotypes.</p></caption><graphic xlink:href="pcbi.0010061.g005"/></fig></sec><sec id="s3c"><title>Implications of finite population size, back mutation, and recombination.</title><p>Our model assumes deterministic dynamics and ignores the stochastic effects of finite population sizes. We have argued that populations will equilibrate either to a combination of <italic>A</italic>
+<sub>1</sub> and <italic>A</italic>
+<sub>2</sub> or to <italic>A</italic>
+<sub>2</sub> exclusively. This equilibration strictly requires an infinite amount of time in an infinite population. In a finite population, as long as the effective population size times the mutation rate is significantly bigger than one (<italic>N</italic>&#x003bc; &#x0226b; 1), the finite population behaves similarly to the infinite population, except that the error threshold is not as sharp. In particular, the lack of back mutations ensures that random events will eventually cause the loss of genotype <italic>A</italic>
+<sub>1</sub> from the population, so that only genotype <italic>A</italic>
+<sub>2</sub> remains. If <italic>A</italic>
+<sub>2</sub> represents multiple types of mutants, then this random loss of <italic>A</italic>
+<sub>1</sub> is Muller's ratchet [<xref rid="pcbi-0010061-b014" ref-type="bibr">14</xref>,<xref rid="pcbi-0010061-b015" ref-type="bibr">15</xref>]. Beyond the error threshold, this transition is simply much faster, because selection favors it. The threshold is also altered by the introduction of back mutations from <italic>A</italic>
+<sub>2</sub> to <italic>A</italic>
+<sub>1</sub>, as described in <xref ref-type="boxed-text" rid="pcbi-0010061-box001">Box 1</xref>.</p><boxed-text id="pcbi-0010061-box001" content-type="2col" position="float"><sec id="sb1"><title>Box 1. Back Mutation</title><p>Our model of two genotypes ignored back mutation, hence <italic>A</italic>
+<sub>1</sub> could not be regenerated once lost from the population (see <xref ref-type="fig" rid="pcbi-0010061-g001">Figure 1</xref>). The absence of back mutations is often assumed in models of population genetics (e.g., the &#x0201c;infinite alleles&#x0201d; and &#x0201c;infinite sites&#x0201d; models of population genetics [<xref rid="pcbi-0010061-b042" ref-type="bibr">42</xref>,<xref rid="pcbi-0010061-b043" ref-type="bibr">43</xref>]). This assumption offers analytical convenience and is perhaps an approximate interpretation of asexual genomes, in which an &#x0201c;allele&#x0201d; can be considered the entire suite of mutations in a genome; a new mutation, which can occur anywhere in the genome, is unlikely to recreate a former allelic state. Nonetheless, since back mutations can occur in many systems, it is useful to study their effect on the error threshold. In particular, they present a special challenge to the concept of an error threshold: when back mutations occur, the wild-type genome is never strictly lost in a deterministic sense. What, then, is the counterpart to a strict error threshold? To approach this question, we return to the simple model in <xref ref-type="fig" rid="pcbi-0010061-g006">Figure 6</xref>.</p><fig id="pcbi-0010061-g006" position="float"><label>Figure 6</label><caption><title>Model of Two Genotypes with Back Mutation, &#x003bc;<sub>3</sub>
+</title><p>As in <xref ref-type="fig" rid="pcbi-0010061-g001">Figure 1</xref>, except that some of the mutations away from <italic>A</italic>
+<sub>2</sub> recreate genotype <italic>A</italic>
+<sub>1</sub>. The total mutation rate of <italic>A</italic>
+<sub>2</sub> is still &#x003bc;<sub>2</sub>, so the back mutation rate cannot exceed this value (i.e., &#x003bc;<sub>3</sub> &#x02264; &#x003bc;<sub>2</sub>).</p></caption><graphic xlink:href="pcbi.0010061.g006"/></fig><p>At this point we use simple matrix algebra to explore the problem. Assuming discrete time steps, let <italic>n<sub>i</sub></italic> be the number of individuals with genotype <italic>A<sub>i</sub></italic>; mutation precedes reproduction, so the fitness <italic>w<sub>i</sub></italic> accrues to an individual after its genotype experiences any mutation (the model is just as easily constructed with mutation occurring after reproduction). Two equations describe the system:
+<disp-formula id="pcbi-0010061-e001"><graphic xlink:href="pcbi.0010061.e001.jpg" mimetype="image" position="float"/></disp-formula>
+<disp-formula id="pcbi-0010061-e002"><graphic xlink:href="pcbi.0010061.e002.jpg" mimetype="image" position="float"/></disp-formula>The system can then be described with the aid of the transition matrix:
+</p><disp-formula id="pcbi-0010061-e003"><graphic xlink:href="pcbi.0010061.e003.jpg" mimetype="image" position="float"/></disp-formula><p>so that <inline-formula id="pcbi-0010061-ex005"><inline-graphic xlink:href="pcbi.0010061.ex005.jpg" mimetype="image"/></inline-formula>
+. The only new parameter with respect to our earlier model is &#x003bc;<sub>3</sub>, which allows for back mutation and cannot exceed &#x003bc;<sub>2</sub>. If we set &#x003bc;<sub>3</sub> = 0, then these equations describe our earlier model exactly (in <xref ref-type="fig" rid="pcbi-0010061-g001">Figure 1</xref>). To evaluate the long term behavior of the system, we consider <italic>n</italic>
+<sub>1</sub>(<italic>t</italic>) and <italic>n</italic>
+<sub>2</sub>(<italic>t</italic>) as <italic>t</italic> becomes arbitrarily large; that is, we calculate (<italic>n</italic>
+<sub>1</sub>, <italic>n</italic>
+<sub>2</sub>)&#x02009;<italic>M<sup>t</sup></italic> for large <italic>t</italic>. The standard method for evaluating long-term behavior in such a linear system is to consider the eigenvalues of the system, found as the values of &#x003bb; satisfying
+</p><disp-formula id="pcbi-0010061-e004"><graphic xlink:href="pcbi.0010061.e004.jpg" mimetype="image" position="float"/></disp-formula><p>To establish a baseline, we first assume no back mutation (&#x003bc;<sub>3</sub> = 0). Equation 4 then yields the solutions</p><disp-formula id="pcbi-0010061-e005"><graphic xlink:href="pcbi.0010061.e005.jpg" mimetype="image" position="float"/></disp-formula><disp-formula id="pcbi-0010061-e006"><graphic xlink:href="pcbi.0010061.e006.jpg" mimetype="image" position="float"/></disp-formula><p>These two eigenvalues are the respective replacement rates of <italic>A</italic>
+<sub>1</sub> and <italic>A</italic>
+<sub>2</sub> described in <xref ref-type="fig" rid="pcbi-0010061-g003">Figure 3</xref>. Importantly, &#x003bb;<sub>1</sub> is larger for some mutation rates, but &#x003bb;<sub>2</sub> is larger for others, and it is the intersection of the eigenvalues that gives rise to the error threshold. This simple picture appears to change fundamentally with even a small level of back mutation. When &#x003bc;<sub>3</sub> &#x0003e; 0, the two eigenvalues become</p><disp-formula id="pcbi-0010061-e007"><graphic xlink:href="pcbi.0010061.e007.jpg" mimetype="image" position="float"/></disp-formula><disp-formula id="pcbi-0010061-e008"><graphic xlink:href="pcbi.0010061.e008.jpg" mimetype="image" position="float"/></disp-formula><p>where <italic>x</italic> = <italic>w</italic>
+<sub>1</sub>(1 &#x02212; &#x003bc;<sub>1</sub>) and <italic>y</italic> = <italic>w</italic>
+<sub>2</sub>(1 &#x02212; &#x003bc;<sub>2</sub>).</p><p>Whereas a transition from &#x003bb;<sub>1</sub> to &#x003bb;<sub>2</sub> as the dominant eigenvalue occurred at <italic>x</italic> = <italic>y</italic> in the absence of back mutation, now &#x003bb;<sub>1</sub> remains superior at all values of <italic>x</italic> and <italic>y</italic>. As &#x003bc;<sub>3</sub> approaches arbitrarily close to zero, the eigenvalues approach each other but do not cross. Thus, there is no strict error threshold unless &#x003bc;<sub>3</sub> equals zero exactly. Yet as &#x003bc;<sub>3</sub> approaches zero, the system appears more and more like that with no back mutation (<xref ref-type="fig" rid="pcbi-0010061-g007">Figure 7</xref>). So the mathematical discontinuity between systems with and without back mutation does not obviously translate into a meaningful biological distinction, but large amounts of back mutation do change the picture. </p><fig id="pcbi-0010061-g007" position="float"><label>Figure 7</label><caption><title>Eigenvalues When a Small Level of Back Mutation Occurs</title><p>In contrast to the case of no back mutation in <xref ref-type="fig" rid="pcbi-0010061-g003">Figure 3</xref>, the eigenvalues here do not cross but change slope as they approach each other. The dark curves (upper) correspond to the maximum eigenvalue (&#x003bb;<sub>1</sub>) and the light curves (lower) to the smaller eigenvalue. The thick, outer curves are drawn for a back mutation rate of &#x003bc;<sub>3</sub> = 0.05, and the thin, inner curves for &#x003bc;<sub>3</sub> = 0.001. The effect of increasing back mutation is clearly seen as increasing the minimum distance between the eigenvalue functions. Other parameters are the same as for the right side of <xref ref-type="fig" rid="pcbi-0010061-g003">Figure 3</xref>: <italic>w</italic>
+<sub>1</sub> = 3.0, <italic>w</italic>
+<sub>2</sub> = 2, and <italic>k</italic> = 2.</p></caption><graphic xlink:href="pcbi.0010061.g007"/></fig></sec></boxed-text><p>When <italic>N</italic>&#x003bc; &#x0226a; 1, the above description does not hold. Mutations occur so rarely, that the population is very likely to fix or lose each mutation before the next one arises. In this case, it no longer makes sense to talk about a quasispecies&#x02014;there is no mutation&#x02013;selection balance, but instead a fixed type, the wild-type, with possibly some recent mutants. The wild-type essentially undergoes a random walk in genotype space, in which it tends to &#x0201c;hang out&#x0201d; more often in areas with high fitness [<xref rid="pcbi-0010061-b016" ref-type="bibr">16</xref>]. Sella and Hirsh [<xref rid="pcbi-0010061-b016" ref-type="bibr">16</xref>] showed that population size rather than mutation rate is the critical randomizing factor: the smaller the population size, the less the population is able to maintain genotypes with high fitness.</p><p>We ignored the effect of recombination, as does most of the literature on the error catastrophe. The effect of recombination on the quasispecies can be very complicated. A surprising result is that recombination can make a genotype more vulnerable to an error catastrophe, causing the error threshold to occur at a lower mutation rate [<xref rid="pcbi-0010061-b017" ref-type="bibr">17</xref>]. Although a full explanation of this effect does not seem to have been provided, one contributing factor is that, close to the error threshold, the quasispecies contains mainly mutants, and very few individuals of type <italic>A</italic>
+<sub>1</sub>. Therefore, most individuals of type <italic>A</italic>
+<sub>1</sub> will mate with those of type <italic>A</italic>
+<sub>2</sub>. If our model is interpreted as a single-locus model, recombination would make no difference. But if <italic>A</italic>
+<sub>2</sub> is a collection of genotypes with mutations at possibly many loci and <italic>A</italic>
+<sub>1</sub> is the mutation-free class, then recombination could decrease the rate at which <italic>A</italic>
+<sub>1</sub> parents have <italic>A</italic>
+<sub>1</sub> offspring and thus cause the error threshold to occur earlier [<xref rid="pcbi-0010061-b017" ref-type="bibr">17</xref>]. Recombination might also operate in the reverse direction, however, if <italic>A</italic>
+<sub>2</sub> genotypes frequently recombine to create <italic>A</italic>
+<sub>1</sub> offspring. A greater exploration of this problem is warranted.</p></sec></sec></sec><sec id="s4"><title>Survival of the Flattest</title><p>Error thresholds require that some genotypes or phenotypes are more sensitive to mutation than others. Biologically, many phenotypes have the property that they can be produced by multiple, mutationally related genotypes, and mutational robustness is known to vary among protein and nucleic acid sequences [<xref rid="pcbi-0010061-b013" ref-type="bibr">13</xref>,<xref rid="pcbi-0010061-b018" ref-type="bibr">18</xref>&#x02013;<xref rid="pcbi-0010061-b022" ref-type="bibr">22</xref>]. The set of genotypes for a particular phenotype is called its neutral network [<xref rid="pcbi-0010061-b023" ref-type="bibr">23</xref>]. Since mutations within a neutral network preserve the phenotype, this genetic redundancy can reduce the phenotypic mutation rate without altering the underlying genetic mutation rate. As discussed above, a lower rate of phenotypic mutations (e.g., <italic>A</italic>
+<sub>1</sub> to <italic>A</italic>
+<sub>2</sub>) leads to a higher net replacement rate of the phenotype.</p><p>Here we illustrate how the breadth of a neutral network&#x02014;the number of and mutational connectivity among genotypes contained within it&#x02014;affects the competitiveness of the phenotype. In particular, &#x0201c;survival of the flattest&#x0201d; refers to the ability of inferior phenotypes with large neutral networks to displace superior phenotypes with smaller neutral networks. This phenomenon was recently demonstrated in digital life simulations and simulated RNA molecules [<xref rid="pcbi-0010061-b006" ref-type="bibr">6</xref>,<xref rid="pcbi-0010061-b024" ref-type="bibr">24</xref>].</p><p>We explore the impact of neutrality on the error threshold with a simple extension of our previous model, this time allowing two genotypes to have the phenotype <italic>A</italic>
+<sub>2</sub> (<xref ref-type="fig" rid="pcbi-0010061-g008">Figure 8</xref>). This creates a minimal neutral network of two genotypes. In the absence of back mutation (&#x003bc;<sub>3</sub> = 0), the error threshold is unaffected by the &#x0201c;network&#x0201d; and is the same as with a single <italic>A</italic>
+<sub>2</sub> genotype: <italic>A</italic>
+<sub>2</sub> here has exactly the same properties as the <italic>A</italic>
+<sub>2</sub> in <xref ref-type="fig" rid="pcbi-0010061-g001">Figure 1</xref>, so the <italic>A</italic>
+<sub>1</sub>/<italic>A</italic>
+<sub>2</sub> error threshold is the same as in <xref ref-type="fig" rid="pcbi-0010061-g001">Figure 1</xref>. Yet the error threshold does change when back mutation is allowed from the second <italic>A</italic>
+<sub>2</sub> genotype (<inline-formula id="pcbi-0010061-ex001"><inline-graphic xlink:href="pcbi.0010061.ex001.jpg" mimetype="image"/></inline-formula>
+) to the first (<italic>A</italic>
+<sub>2</sub>). Back mutation provides a mutational &#x0201c;connectivity&#x0201d; among both genotypes in the neutral network and renders the network more competitive against <italic>A</italic>
+<sub>1</sub>. This connectivity serves to bolster the frequency of the left <italic>A</italic>
+<sub>2</sub> genotype at the expense of the right <italic>A</italic>
+<sub>2</sub>. Since only the right peak experiences mutations off the neutral network (at rate &#x003bc;<sub>2</sub>), this shift increases the overall replacement rate of <italic>A</italic>
+<sub>2</sub>, allowing <italic>A</italic>
+<sub>2</sub> to more easily supplant <italic>A</italic>
+<sub>1</sub>. Higher rates of back mutation increase this effect (<xref ref-type="fig" rid="pcbi-0010061-g009">Figure 9</xref>, top) and also retard the extinction of <italic>A</italic>
+<sub>2</sub>. (As we discuss later, allowing an infinite succession of <italic>A</italic>
+<sub>2</sub> genotypes without back mutation has the same effect on the error threshold as abolishing the forward mutation rate of a single <italic>A</italic>
+<sub>2</sub> genotype, since the population will never mutate off the <italic>A</italic>
+<sub>2</sub> neutral network.)
+</p><fig id="pcbi-0010061-g008" position="float"><label>Figure 8</label><caption><title>Model of Three Genotypes with a Simple Neutral Network</title><p>Both <italic>A</italic>
+<sub>2</sub> genotypes have the same fitness and the same forward mutation rates &#x003bc;<sub>2</sub>. The error threshold with &#x003bc;<sub>3</sub> = 0 is the same as in <xref ref-type="fig" rid="pcbi-0010061-g001">Figure 1</xref>. As &#x003bc;<sub>3</sub> increases, the <italic>A</italic>
+<sub>2</sub> network becomes more competitive against <italic>A</italic>
+<sub>1</sub>, and thus the error threshold value of &#x003bc;<sub>1</sub> decreases. Equations for this system can be derived and analyzed with similar methods as in <xref ref-type="boxed-text" rid="pcbi-0010061-box001">Box 1</xref>.</p></caption><graphic xlink:href="pcbi.0010061.g008"/></fig><fig id="pcbi-0010061-g009" position="float"><label>Figure 9</label><caption><title>Network Size and Mutational Connectivity Affects Replacement Rate</title><p>Top: effect of back mutation (&#x003bc;<sub>3</sub>) between the pair of <italic>A</italic>
+<sub>2</sub> genotypes in <xref ref-type="fig" rid="pcbi-0010061-g008">Figure 8</xref>. The vertical axis gives the replacement rate of the <italic>A</italic>
+<sub>2</sub> network. Since all <italic>A</italic>
+<sub>2</sub> genotypes are mutationally interconnected, they ultimately grow at the same rate in the limit. In the absence of back mutation, the neutral network has the replacement rate <italic>w</italic>
+<sub>2</sub> (1 &#x02212; &#x003bc;<sub>2</sub>), and replacement rate increases as back mutation is increased up to its maximum of &#x003bc;<sub>3,max</sub> = 1 &#x02212; &#x003bc;<sub>2</sub>. (The replacement rate function is
+obtained as the eigenvalue associated with <italic>A</italic>
+<sub>2</sub> in the transition matrix.)
+</p><p>Bottom: the replacement rate of the neutral network also increases with the number of genotypes in it. <xref ref-type="fig" rid="pcbi-0010061-g008">Figure 8</xref> shows the network with two genotypes; third and additional genotypes would be added so that each is mutationally balanced: each additional genotype loses &#x003bc;<sub>2</sub> of its progeny to become the genotype to its right and loses &#x003bc;<sub>3</sub> of its progeny to become the genotype to its left, but it receives &#x003bc;<sub>2</sub> mutants from the genotype to its left and receives &#x003bc;<sub>3</sub> mutants from the genotype to its right. The benefit of increasing the network size is shown for three different combinations of forward and back mutation rates.</p></caption><graphic xlink:href="pcbi.0010061.g009"/></fig><p>This model can also be extended to demonstrate the impact of neutral network size on the error threshold. In this case, we add <italic>A</italic>
+<sub>2</sub> genotypes into the middle of the neutral network, each with forward mutation rate &#x003bc;<sub>2</sub> and back mutation rate &#x003bc;<sub>3</sub>. <xref ref-type="fig" rid="pcbi-0010061-g009">Figure 9</xref> (bottom) shows that as the number of genotypes increases, the replacement rate of the <italic>A</italic>
+<sub>2</sub> network also increases, thus shifting the error threshold in favor of <italic>A</italic>
+<sub>2</sub> and buffering <italic>A</italic>
+<sub>2</sub> against extinction.</p><p>In summary, the error threshold decreases as the fitness landscape around the inferior phenotype broadens, either via the extension of the neutral network to include additional genotypes or via a net decrease in mutation off the network. The error threshold above which a particular wild-type is lost will depend on its fitness relative to the fitness and breadth of the inferior network. The broader and more mutationally connected the inferior neutral network, the greater its tolerance for mutation and the more likely an error catastrophe that tips the population in its favor. Nonetheless, a sufficiently high fitness can compensate for a high rate of mutational loss.</p><p>These trade-offs also apply to more complex fitness landscapes consisting of multiple neutral networks with differing fitnesses. In this case, the sequence of error thresholds becomes difficult to intuit and has not previously been addressed quantitatively. <xref ref-type="fig" rid="pcbi-0010061-g010">Figure 10</xref> illustrates a succession of error catastrophes in a single landscape with varying widths and heights of neutral networks, for a genome with 40 loci. In general, the narrower networks are skipped as the error catastrophes move to the flatter networks. In this particular model, there is no back mutation. Error thresholds exist because the genomic mutation rate is proportional to the number of unmutated loci, hence the phenotypes of lower fitness experience lower overall mutation rates.</p><fig id="pcbi-0010061-g010" position="float"><label>Figure 10</label><caption><title>Multiple Error Thresholds on a Binary Sequence of Length 40</title><p>Each allele has two states&#x02014;wild-type and mutant. The per base mutation rate from wild-type to mutant is identical for all loci. Back mutation from mutant to wild-type is not allowed. As mutant alleles fix in the population, the proportion of the sequence that can still mutate decreases. Multiple error thresholds exist because the effective mutation rate per genome drops as mutations accumulate. The model is otherwise as in <xref ref-type="fig" rid="pcbi-0010061-g001">Figure 1</xref> and <xref ref-type="boxed-text" rid="pcbi-0010061-box001">Box 1</xref>, and as specified below.</p><p>Top: the fitness landscape. The <italic>x</italic>-axis shows the mutation distance from the &#x0201c;perfect&#x0201d; genotype consisting of all wild-type (zero mutant) alleles. The <italic>y</italic>-axis shows the fitness.</p><p>Lower left: equilibrium distributions of genotypes in the population for seven mutation rates from 0.0001 to 0.045. In all plots the <italic>x</italic>-axis indicates the number of mutations in the genome and the <italic>y</italic>-axis indicates frequency in the steady-state population; the shortest bars merely indicate the presence of genotypes at some (low) frequency, and the absence of a bar indicates absence of that genotype from the equilibrium population. Plots 1&#x02013;5 show equilibria before the first error catastrophe, that is, for mutation rates that are less than the first error threshold. Plot 6 shows an equilibrium after the first error catastrophe and before the second error catastrophe, and plot 7 shows an equilibrium after the second catastrophe. The vertical dashed green lines indicate the stable networks that can attract error catastrophes. These correspond to the first (wild-type), third (5&#x02013;14 mutations), and fourth (15&#x02013;31 mutations) networks, starting from the left. The second network, with 1&#x02013;4 mutations (represented by a red line), is never stable as the fittest type in the population, and is skipped.</p><p>Lower right: replacement rates of the various fitness plateaus. Numbers correspond to panels in the figure to the left. The <italic>x</italic>-axis shows the mutation rate; the <italic>y</italic>-axis shows the growth rate (with a log scale). One can see two error thresholds. The red dashed line represents the replacement rate of the second network, with 1&#x02013;4 mutations, and shows why this plateau never stabilizes&#x02014;it is too narrow relative to its fitness advantage.</p></caption><graphic xlink:href="pcbi.0010061.g010"/></fig></sec><sec id="s5"><title>Comparison to Eigen's and Other Models</title><p>For those familiar with Eigen's original quasispecies model ([<xref rid="pcbi-0010061-b001" ref-type="bibr">1</xref>], a simplified version appears on p. 480, Table 8) and more recent versions applied to nucleotides [<xref rid="pcbi-0010061-b002" ref-type="bibr">2</xref>,<xref rid="pcbi-0010061-b008" ref-type="bibr">8</xref>,<xref rid="pcbi-0010061-b025" ref-type="bibr">25</xref>], we relate it to our simpler model using our notation. In those models, a genome consists of <italic>L</italic> loci with a per locus mutation rate of <italic>&#x003bd;</italic>. A single mutant-free, wild-type genotype <italic>A</italic>
+<sub>1</sub> has highest fitness <italic>w</italic>
+<sub>1</sub>, and all other genotypes with one or more mutations fall into the same neutral network in which each genotype has the same fitness <italic>w</italic>
+<sub>2</sub>. Eigen's classic error threshold result is that, depending on <italic>L</italic> and <italic>w</italic>
+<sub>1</sub>/<italic>w</italic>
+<sub>2</sub>, there is a specific per base mutation rate <italic>&#x003bd;</italic> beyond which the wild-type is lost or maintained only through back mutation and the <italic>w</italic>
+<sub>2</sub> neutral network prevails, as in our <xref ref-type="fig" rid="pcbi-0010061-g010">Figure 10</xref> (the most-fit genotype is maintained if back mutation is allowed, as in Box 1).</p><p>A second class of models is more challenging to fit into the current framework [<xref rid="pcbi-0010061-b015" ref-type="bibr">15</xref>,<xref rid="pcbi-0010061-b026" ref-type="bibr">26</xref>]. In those models, a linear series of genotypes is connected by forward mutation but not back mutation (<inline-formula id="pcbi-0010061-ex002"><inline-graphic xlink:href="pcbi.0010061.ex002.jpg" mimetype="image"/></inline-formula>
+) --&#x0003e;<inline-formula id="pcbi-0010061-ex003"><inline-graphic xlink:href="pcbi.0010061.ex003.jpg" mimetype="image"/></inline-formula>
+, and all genotypes have the same mutation rate. An error threshold exists in those models but not in ours. One critical difference is that those models include infinitely many genotypes. Thus, if our <italic>A</italic>
+<sub>1</sub>/<italic>A</italic>
+<sub>2</sub> model is restricted to a single forward mutation rate for all genotypes, an error threshold appears only when infinitely many <italic>A</italic>
+<sub>2</sub> genotypes exist. In this extreme, the <italic>A</italic>
+<sub>2</sub> network no longer experiences any mutational loss, and hence its mutation rate effectively disappears. The existence of an error threshold in those models also requires that the fitnesses of all of the genotypes be greater than some positive value [<xref rid="pcbi-0010061-b015" ref-type="bibr">15</xref>]. Thus, those models also appear to be consistent with our framework.
+</p></sec><sec id="s6"><title>RNA Viruses, Quasispecies, and Lethal Mutagenesis</title><p>The error catastrophe has found its greatest appeal in work on RNA viruses, whose genomes have high mutation rates. One appeal of the quasispecies concept in this work is that it can potentially explain the high levels of sequence variation observed in RNA virus samples: the high mutation rate of RNA genomes should lead to a mutation&#x02013;selection balance with lots of variation. Yet despite the frequent reference to quasispecies concepts in the literature, relatively few studies have demonstrated that observed variation is truly a quasispecies equilibrium [<xref rid="pcbi-0010061-b009" ref-type="bibr">9</xref>]. An early study of the RNA phage Q&#x003b2; reported that sequence variation in a population was high but approximately stable over time around a consensus sequence, supporting the basic concept of a quasispecies [<xref rid="pcbi-0010061-b027" ref-type="bibr">27</xref>]. There are now countless studies revealing population variation in RNA viruses of eukaryotes, but one cannot easily determine whether the variation stems primarily from mutation&#x02013;selection balance or from the simple alternative of selection for different genotypes within the spatially heterogeneous environment of the host [<xref rid="pcbi-0010061-b009" ref-type="bibr">9</xref>]. Part of the difficulty is that quasispecies models consider mutation only as a degenerative process reducing replacement rate. They do not address mutation as an exploratory process for finding new fitness peaks&#x02014;a process that must obviously be considered when interpreting empirical data. Quasispecies models also tend to ignore population structure and migration.</p><p>Further support for quasispecies behavior was provided by an empirical study of the dynamical approach toward quasispecies equilibrium. Burch and Chao [<xref rid="pcbi-0010061-b028" ref-type="bibr">28</xref>] obtained a high-fitness isolate of the RNA phage &#x003c6;6. Upon propagation in the same environmental conditions, however, the fitness of the viral lineage declined to the level of culture from which the isolate was originally obtained. Their interpretation, with which we agree, was that the initial isolate was a somewhat rare, high-fitness type from a quasispecies distribution, and that it re-evolved the equilibrium quasispecies distribution on further passage. It thus seems clear that some RNA virus populations satisfy the basic tenets of quasispecies theory, even if based on relatively few studies.</p><p>Quasispecies error thresholds have been invoked in an important medical application, the extinction of RNA virus populations by lethal mutagenesis&#x02014;elevating mutation rates with base analog drugs to the point that the virus population disappears. In 2005, an entire issue of <italic>Virus Research</italic> was devoted to this topic (volume 107, issue 2). Base analogs are incorporated into the viral genome as it is being copied from the parent strand. In general, incorporation of a base analog can have two types of effects: chain termination, resulting in immediate death of the progeny strand, or mutation, whereby the base analog is later miscopied when the genome gets replicated. The latter mechanism underlies the antiviral activity of the drug ribavirin for some RNA viruses [<xref rid="pcbi-0010061-b004" ref-type="bibr">4</xref>,<xref rid="pcbi-0010061-b029" ref-type="bibr">29</xref>,<xref rid="pcbi-0010061-b030" ref-type="bibr">30</xref>]. It is commonly argued that the extinction of the viral population by mutagenesis is an example of an error catastrophe (e.g., [<xref rid="pcbi-0010061-b004" ref-type="bibr">4</xref>,<xref rid="pcbi-0010061-b005" ref-type="bibr">5</xref>,<xref rid="pcbi-0010061-b030" ref-type="bibr">30</xref>&#x02013;<xref rid="pcbi-0010061-b032" ref-type="bibr">32</xref>]). Others have argued against this interpretation [<xref rid="pcbi-0010061-b007" ref-type="bibr">7</xref>], and our models illustrate clearly that extinction is distinct from an error catastrophe, and hence that lethal mutagenesis does not necessarily produce an error catastrophe.</p><p>From a practical perspective, it does not matter whether lethal mutagenesis is referred to as an error catastrophe or extinction catastrophe. There may be a benefit, however, to distinguishing between these two concepts and, more generally, to clarifying the concept of a quasispecies. For example, consider a protocol of sublethal mutagenesis, whereby a virus mutation rate is artificially elevated close to an extinction threshold but the virus population persists. Conventional wisdom suggests that such a strategy should be disastrous from a host health perspective, because the increased mutation rate may accelerate viral adaptation. Yet two components of the quasispecies framework suggest that a permanently elevated mutation rate may be deleterious to the virus even when extinction is not achieved. First, a higher mutation rate reduces mean fitness around any local fitness peak. Second, a high mutation rate &#x0201c;flattens&#x0201d; the fitness landscape, so that some narrow peaks cannot be attained. Thus, a sustained high mutation rate that does not drive the virus to extinction may enforce a low mean fitness. Holmes [<xref rid="pcbi-0010061-b033" ref-type="bibr">33</xref>] has likewise argued that the high mutation rates of RNA viruses may constrain adaptation. Without greater insight into the structure of biological fitness landscapes, we cannot yet assess whether high mutation rates will expedite or thwart adaptation. Evolutionary theory suggests that either outcome is possible.</p><p>In light of this potential impact of high mutation rates, it seems paradoxical that a new class of drugs is being touted for its ability to reduce mutation rates, and thereby block the evolution of resistance to other drugs [<xref rid="pcbi-0010061-b034" ref-type="bibr">34</xref>]. Yet mutation reduction and lethal mutagenesis may both be feasible strategies for controlling a virus, with the two methods working at opposite ends of the evolutionary spectrum. Mutation suppression may thwart evolutionary exploration of the fitness landscape while mutation enhancement may overwhelm the genome with lethal mutations. There is necessarily a wide zone of mutation rates between these extremes that allow viral persistence.</p></sec><sec id="s7"><title>How to Demonstrate an Error Catastrophe</title><p>We have used a variety of simplifications to explain and depict error catastrophes from a mathematical perspective. Yet it may not be obvious how an error catastrophe would manifest itself in a population, especially how it would appear in a sample of genome sequences taken before and after crossing the error threshold. One possible scenario is similar to that of <xref ref-type="fig" rid="pcbi-0010061-g010">Figure 10</xref>: the error catastrophe is the deterministic accumulation of mildly deleterious nucleotides in a genome while preserving sites that are functionally essential. <xref ref-type="fig" rid="pcbi-0010061-g010">Figure 10</xref> does not assign different fitness effects among loci but is easily extended to that case. The population will suffer the mutational loss of all nucleotides that cannot be maintained under the high mutation rate, while maintaining only those for which the fitness cost of a mutation is sufficiently large. This is similar to Kondrashov's version of Muller's ratchet, in which high fitness alleles ratchet out of the population until either the remaining alleles are sufficiently robust to mutation or all viable alleles have disappeared [<xref rid="pcbi-0010061-b035" ref-type="bibr">35</xref>]. The different neutral networks in this process are neighbors in sequence space and differ by one or a few deleterious mutations. Thus the error catastrophe is observed as a population-wide change in nucleotide frequencies at possibly very few sites in the genome.</p><p>A second scenario is that of a population in which each individual's genome belongs to either of two &#x0201c;disjoint&#x0201d; neutral networks from very different parts of the fitness landscape. This type of polymorphism could arise if one type was present in the starting population and the other was introduced from a different population through migration. For this scenario, we assume that the population size is sufficiently small relative to the mutational distance between the two neutral networks, so that it is essentially impossible for the population to reach one network from the other via mutation (as modeled in some of the &#x0201c;survival of the flattest&#x0201d; work cited above). If one of the networks is more mutationally robust but of lower fitness than the other, an error catastrophe can cause the loss of the higher-fitness network. This type of error catastrophe might reveal itself in genomic data as the loss of polymorphism through the independent mutational meltdown and subsequent disappearance of one of the original types. Back mutation complicates the previous scenario by continually re-introducing the fitter nucleotides, which are then maintained at only a slightly higher level than neutral nucleotides. Back mutation is not a factor in the disjoint network model because the first network to disappear is exceedingly unlikely to be re-introduced via point mutations from the remaining population.</p><p>Given the difficulty of demonstrating the relatively simple properties of quasispecies dynamics and equilibrium properties, it is not surprising that the empirical demonstration of an error threshold/catastrophe has not been achieved. An interesting step in this direction was provided recently in a study that estimated the error threshold mutation rate that might apply to a primitive organism consisting of RNA molecules&#x02014;a riboorganism [<xref rid="pcbi-0010061-b036" ref-type="bibr">36</xref>]. The study concluded that an error catastrophe might be avoided in a substantially larger genome than had previously been thought. This result stemmed in part from the high degree of neutrality inferred from existing functional RNA molecules.</p><p>The systems offering the best hope for empirically demonstrating an error threshold are in fact naked RNA molecules evolved by directed evolution: ribozymes (catalytic RNA molecules) and aptamers (binding molecules) evolved in vitro from initial pools of random-sequence molecules. In this work, mutational robustness is recognized as a key property of molecules affecting evolution (e.g., [<xref rid="pcbi-0010061-b037" ref-type="bibr">37</xref>]), but the concept has been approached from the perspective of adaptive evolution rather than error catastrophes (the Kun et al. study [<xref rid="pcbi-0010061-b036" ref-type="bibr">36</xref>] cited above is unusual in applying the perspective of error catastrophes to ribozymes). A sequence &#x0201c;motif&#x0201d; is the set of bases at specific positions in the RNA molecule essential for function; changes in those bases destroy function but changes at other positions have no major effect. When there exist both short and long sequence motifs that are functionally similar, then, by simple combinatorics, the short motif will attain higher representation in a random sequence library than the long motif will. Thus, short motifs are more likely to be selected at the outset, creating a bias known as the &#x0201c;tyranny of short motifs&#x0201d; [<xref rid="pcbi-0010061-b038" ref-type="bibr">38</xref>]. Furthermore, since the length of a motif determines the number of potential mutational targets, short motifs will typically be more mutationally robust than long motifs. In subsequent rounds of mutagenesis and selection, this may create additional bias toward short motifs.</p><p>Suppose a long motif has slightly greater functionality (our fitness, <italic>w<sub>i</sub></italic>) than a short motif. By virtue of differences in mutational robustness among the different motifs, there should be an error threshold mutation rate, above which the long motifs will be displaced by the short motifs. If one knows the fitnesses <italic>(w<sub>i</sub>)</italic> and the number of critical bases in the long and short motifs <italic>(m<sub>i</sub>),</italic> it should be possible to estimate the value of the error threshold by using <inline-formula id="pcbi-0010061-ex004"><inline-graphic xlink:href="pcbi.0010061.ex004.jpg" mimetype="image"/></inline-formula>
+as the replacement rate of motif <italic>i</italic>. The ligase ribozymes seem like an appropriate model for such a calculation, because the class I ligases have a much longer motif (~70 bases) than the class II and class III ligases (~40 bases; [<xref rid="pcbi-0010061-b039" ref-type="bibr">39</xref>]). Kinetic parameters of classes II and III were not determined for optimized ligase molecules, so it is not yet possible to estimate realistic fitness differences between the best members of each family, and even if kinetic properties were known, extrapolation to fitness is not trivial. Nonetheless, if all point mutations of critical bases are lethal and others are neutral, the error threshold would be a per base mutation rate of roughly 0.003 if class I had a fitness advantage of 10% over classII/III, a mutation rate of 0.01 for a 50% advantage, and a mutation rate of 0.06 for a 10-fold advantage of class I. An experimental demonstration of an error threshold may thus be feasible in this system.
+</p><p>The ligase ribozymes will permit an easier demonstration of an error threshold than most other empirical systems, because the alternative functional networks have been identified and can be seeded into the experiment. We thus know in advance what to compare. If, instead, we have information about only the wild-type but not the suboptimal type that dominates beyond the error threshold (as would be the case when working with viruses or bacteria), then it becomes far more complicated to identify an error threshold empirically. Even with the ligase ribozymes, if a population was initiated with only the class I molecule, the class II or III molecules might not evolve at high mutation rates because their sequences might be too distant in sequence space to arise in a quasispecies of class I molecules. All three classes arose in the initial experiment because they were selected from a random sequence pool rather than evolved from a single type.</p><p>Identification of an error threshold is certainly facilitated by use of a previously characterized genotype&#x02013;fitness map, but that kind of information is not usually available. In ignorance of the alternative neutral networks for a phenotype, the obvious protocol to use in blindly testing for an error catastrophe is to impose stabilizing selection for the wild-type trait while progressively increasing the mutation rate. One would then test for characteristics of an error catastrophe, such as a population shift in genotype space or increased mutational robustness of the genotypes evolved at high mutation rate. The key difficulty in demonstrating an error catastrophe without a priori knowledge of alternative networks is that there are population genetic processes not considered in the simple quasispecies models that give rise to superficially similar outcomes. Thus, under our suggested experimental protocol, shifts in genotype space may stem from (i) an error catastrophe&#x02014;the deterministic fixation of deleterious mutations, (ii) stochastic fixation of deleterious and neutral mutations, (iii) the higher mutation rate allowing the population to find higher adaptive peaks, or (iv) adaptive evolution because mutagenesis has altered the selective environment (other than through higher mutation rate). Likewise, increases in mutational robustness may, in fact, suggest an error catastrophe, or may simply be a by-product of a general decline in fitness under high mutation rates. Recent work suggests that genotypes of reduced fitness generally experience a higher fraction of mutations with beneficial effect than genotypes of high fitness [<xref rid="pcbi-0010061-b040" ref-type="bibr">40</xref>,<xref rid="pcbi-0010061-b041" ref-type="bibr">41</xref>]. This pattern may stem from the local structure of the fitness landscape: a genotype at a local optimum can experience no beneficial mutations, and the further a genotype lies from a peak, the greater the chance that a random mutation improves fitness. Even before sorting out these various interpretations, there are fundamental challenges to demonstrating that a shift in genotype space or in mutational robustness has actually occurred (e.g., <xref ref-type="fig" rid="pcbi-0010061-g010">Figure 10</xref> shows some of the difficulties).</p><p>The theory of quasispecies error thresholds appears sound. The major avenues for new developments are twofold: (i) obtaining empirical support and (ii) incorporating additional realism into the basic models. There are several papers that make progress on this second point, by including recombination [<xref rid="pcbi-0010061-b017" ref-type="bibr">17</xref>], stochastic effects [<xref rid="pcbi-0010061-b014" ref-type="bibr">14</xref>], and the shape of the mutation&#x02013;fitness function [<xref rid="pcbi-0010061-b015" ref-type="bibr">15</xref>]. We still have much to learn about the relevance of error catastrophes to the natural world, and the effort promises to yield many new insights.&#x02002;</p></sec></body><back><ack><p>We thank J. F. Crow, C. Wilke, B. Kerr, H. Wichman, and two anonymous reviewers for comments, and in some cases, identifying errors. Discussions with L. Chao and C. Burch helped motivate this study. JJB was supported by National Institutes of Health GM 57756, LAM by National Science Foundation DEB-0445351. ML and LAM thank G. Sella for numerous discussions of the error threshold.</p></ack><ref-list><title>References</title><ref id="pcbi-0010061-b001"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Eigen</surname><given-names>M</given-names></name></person-group>
+<year>1971</year>
+<article-title>Selforganization of matter and the evolution of biological macromolecules</article-title>
+<source>Naturwissenschaften</source>
+<volume>58</volume>
+<fpage>465</fpage>
+<lpage>523</lpage>
+<pub-id pub-id-type="pmid">4942363</pub-id></element-citation></ref><ref id="pcbi-0010061-b002"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Eigen</surname><given-names>M</given-names></name><name><surname>Schuster</surname><given-names>P</given-names></name></person-group>
+<year>1977</year>
+<article-title>The hypercycle. A principle of natural self-organization. Part A: Emergence of the hypercycle</article-title>
+<source>Naturwissenschaften</source>
+<volume>64</volume>
+<fpage>541</fpage>
+<lpage>565</lpage>
+<pub-id pub-id-type="pmid">593400</pub-id></element-citation></ref><ref id="pcbi-0010061-b003"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Eigen</surname><given-names>M</given-names></name></person-group>
+<year>1993</year>
+<article-title>Viral quasispecies</article-title>
+<source>Sci Am</source>
+<volume>269</volume>
+<fpage>42</fpage>
+<lpage>49</lpage>
+<pub-id pub-id-type="pmid">8337597</pub-id></element-citation></ref><ref id="pcbi-0010061-b004"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Anderson</surname><given-names>JP</given-names></name><name><surname>Daifuku</surname><given-names>R</given-names></name><name><surname>Loeb</surname><given-names>LA</given-names></name></person-group>
+<year>2004</year>
+<article-title>Viral error catastrophe by mutagenic nucleosides</article-title>
+<source>Annu Rev Microbiol</source>
+<volume>58</volume>
+<fpage>183</fpage>
+<lpage>205</lpage>
+<pub-id pub-id-type="pmid">15487935</pub-id></element-citation></ref><ref id="pcbi-0010061-b005"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jonsson</surname><given-names>CB</given-names></name><name><surname>Milligan</surname><given-names>BG</given-names></name><name><surname>Arterburn</surname><given-names>JB</given-names></name></person-group>
+<year>2005</year>
+<article-title>Potential importance of error catastrophe to the development of antiviral strategies for hantaviruses</article-title>
+<source>Virus Res</source>
+<volume>107</volume>
+<fpage>195</fpage>
+<lpage>205</lpage>
+<pub-id pub-id-type="pmid">15649565</pub-id></element-citation></ref><ref id="pcbi-0010061-b006"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wilke</surname><given-names>CO</given-names></name><name><surname>Wang</surname><given-names>JL</given-names></name><name><surname>Ofria</surname><given-names>C</given-names></name><name><surname>Lenski</surname><given-names>RE</given-names></name><name><surname>Adami</surname><given-names>C</given-names></name></person-group>
+<year>2001</year>
+<article-title>Evolution of digital organisms at high mutation rates leads to survival of the flattest</article-title>
+<source>Nature</source>
+<volume>412</volume>
+<fpage>331</fpage>
+<lpage>3</lpage>
+<pub-id pub-id-type="pmid">11460163</pub-id></element-citation></ref><ref id="pcbi-0010061-b007"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wilke</surname><given-names>CO</given-names></name></person-group>
+<year>2005</year>
+<article-title>Quasispecies theory in the context of population genetics</article-title>
+<source>BMC Evol Biol</source>
+<volume>5</volume>
+<fpage>44</fpage>
+<pub-id pub-id-type="pmid">16107214</pub-id></element-citation></ref><ref id="pcbi-0010061-b008"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Swetina</surname><given-names>J</given-names></name><name><surname>Schuster</surname><given-names>P</given-names></name></person-group>
+<year>1982</year>
+<article-title>Self-replication with errors. A model for polynucleotide replication</article-title>
+<source>Biophys Chem</source>
+<volume>16</volume>
+<fpage>329</fpage>
+<lpage>345</lpage>
+<pub-id pub-id-type="pmid">7159681</pub-id></element-citation></ref><ref id="pcbi-0010061-b009"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Holmes</surname><given-names>EC</given-names></name><name><surname>Moya</surname><given-names>A</given-names></name></person-group>
+<year>2002</year>
+<article-title>Is the quasispecies concept relevant to RNA viruses?</article-title>
+<source>J Virol</source>
+<volume>76</volume>
+<fpage>460</fpage>
+<lpage>465</lpage>
+<pub-id pub-id-type="pmid">11739715</pub-id></element-citation></ref><ref id="pcbi-0010061-b010"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Leuthausser</surname><given-names>I</given-names></name></person-group>
+<year>1986</year>
+<article-title>An exact correspondence between Eigen's evolution model and a two-dimensional Ising system</article-title>
+<source>J Chem Phys</source>
+<volume>84</volume>
+<fpage>1884</fpage>
+<lpage>1885</lpage>
+</element-citation></ref><ref id="pcbi-0010061-b011"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Leuthausser</surname><given-names>I</given-names></name></person-group>
+<year>1987</year>
+<article-title>Statistical-mechanics of Eigen evolution model</article-title>
+<source>J Stat Phys</source>
+<volume>48</volume>
+<fpage>343</fpage>
+<lpage>360</lpage>
+</element-citation></ref><ref id="pcbi-0010061-b012"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tannenbaum</surname><given-names>E</given-names></name><name><surname>Shakhnovich</surname><given-names>EI</given-names></name></person-group>
+<year>2004</year>
+<article-title>Solution of the quasispecies model for an arbitrary gene network</article-title>
+<source>Phys Rev E Stat Nonlin Soft Matter Phys</source>
+<volume>70</volume>
+<fpage>021903</fpage>
+<pub-id pub-id-type="pmid">15447511</pub-id></element-citation></ref><ref id="pcbi-0010061-b013"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ancel</surname><given-names>LW</given-names></name><name><surname>Fontana</surname><given-names>W</given-names></name></person-group>
+<year>2000</year>
+<article-title>Plasticity, evolvability, and modularity in RNA</article-title>
+<source>J Exp Zool</source>
+<volume>288</volume>
+<fpage>242</fpage>
+<lpage>283</lpage>
+<pub-id pub-id-type="pmid">11069142</pub-id></element-citation></ref><ref id="pcbi-0010061-b014"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nowak</surname><given-names>M</given-names></name><name><surname>Schuster</surname><given-names>P</given-names></name></person-group>
+<year>1989</year>
+<article-title>Error thresholds of replication in finite populations mutation frequencies and the onset of Muller's ratchet</article-title>
+<source>J Theor Biol</source>
+<volume>137</volume>
+<fpage>375</fpage>
+<lpage>395</lpage>
+<pub-id pub-id-type="pmid">2626057</pub-id></element-citation></ref><ref id="pcbi-0010061-b015"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wagner</surname><given-names>GP</given-names></name><name><surname>Krall</surname><given-names>P</given-names></name></person-group>
+<year>1993</year>
+<article-title>What is the difference between models of error thresholds and Muller's ratchet?</article-title>
+<source>J Math Biol</source>
+<volume>32</volume>
+<fpage>33</fpage>
+<lpage>44</lpage>
+</element-citation></ref><ref id="pcbi-0010061-b016"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sella</surname><given-names>G</given-names></name><name><surname>Hirsh</surname><given-names>AE</given-names></name></person-group>
+<year>2005</year>
+<article-title>The application of statistical physics to evolutionary biology</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>102</volume>
+<fpage>9541</fpage>
+<lpage>9546</lpage>
+<pub-id pub-id-type="pmid">15980155</pub-id></element-citation></ref><ref id="pcbi-0010061-b017"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Boerlijst</surname><given-names>MC</given-names></name><name><surname>Bonhoeffer</surname><given-names>S</given-names></name><name><surname>Nowak</surname><given-names>MA</given-names></name></person-group>
+<year>1996</year>
+<article-title>Viral quasi-species and recombination</article-title>
+<source>Proc R Soc Lond B Biol Sci</source>
+<volume>263</volume>
+<fpage>1577</fpage>
+<lpage>1584</lpage>
+</element-citation></ref><ref id="pcbi-0010061-b018"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Burch</surname><given-names>AD</given-names></name><name><surname>Ta</surname><given-names>J</given-names></name><name><surname>Fane</surname><given-names>BA</given-names></name></person-group>
+<year>1999</year>
+<article-title>Cross-functional analysis of the Microviridae internal scaffolding protein</article-title>
+<source>J Mol Biol</source>
+<volume>286</volume>
+<fpage>95</fpage>
+<lpage>104</lpage>
+<pub-id pub-id-type="pmid">9931252</pub-id></element-citation></ref><ref id="pcbi-0010061-b019"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Huynen</surname><given-names>MA</given-names></name></person-group>
+<year>1996</year>
+<article-title>Exploring phenotype space through neutral evolution</article-title>
+<source>J Mol Evol</source>
+<volume>43</volume>
+<fpage>165</fpage>
+<lpage>169</lpage>
+<pub-id pub-id-type="pmid">8703081</pub-id></element-citation></ref><ref id="pcbi-0010061-b020"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Huynen</surname><given-names>MA</given-names></name><name><surname>Stadler</surname><given-names>PF</given-names></name><name><surname>Fontana</surname><given-names>W</given-names></name></person-group>
+<year>1996</year>
+<article-title>Smoothness within ruggedness: The role of neutrality in adaptation</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>93</volume>
+<fpage>397</fpage>
+<lpage>401</lpage>
+<pub-id pub-id-type="pmid">8552647</pub-id></element-citation></ref><ref id="pcbi-0010061-b021"><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Li</surname><given-names>WH</given-names></name></person-group>
+<year>1997</year>
+<source>Molecular evolution</source>
+<publisher-loc>Sunderland (Massachusetts)</publisher-loc>
+<publisher-name>Sinauer Associates</publisher-name>
+<size units="page">487</size>
+<comment>p.</comment>
+</element-citation></ref><ref id="pcbi-0010061-b022"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Novak</surname><given-names>CR</given-names></name><name><surname>Fane</surname><given-names>BA</given-names></name></person-group>
+<year>2004</year>
+<article-title>The functions of the n terminus of the phix174 internal scaffolding protein, a protein encoded in an overlapping reading frame in a two scaffolding protein system</article-title>
+<source>J Mol Biol</source>
+<volume>335</volume>
+<fpage>383</fpage>
+<lpage>390</lpage>
+<pub-id pub-id-type="pmid">14659765</pub-id></element-citation></ref><ref id="pcbi-0010061-b023"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fontana</surname><given-names>W</given-names></name><name><surname>Schuster</surname><given-names>P</given-names></name></person-group>
+<year>1987</year>
+<article-title>A computer model of evolutionary optimization</article-title>
+<source>Biophys Chem</source>
+<volume>26</volume>
+<fpage>123</fpage>
+<lpage>147</lpage>
+<pub-id pub-id-type="pmid">3607225</pub-id></element-citation></ref><ref id="pcbi-0010061-b024"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wilke</surname><given-names>CO</given-names></name></person-group>
+<year>2001</year>
+<article-title>Selection for fitness versus selection for robustness in RNA secondary structure folding</article-title>
+<source>Evolution Int J Org Evolution</source>
+<volume>55</volume>
+<fpage>2412</fpage>
+<lpage>2420</lpage>
+</element-citation></ref><ref id="pcbi-0010061-b025"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Eigen</surname><given-names>M</given-names></name><name><surname>McCaskill</surname><given-names>J</given-names></name></person-group>
+<year>1988</year>
+<article-title>Molecular quasispecies</article-title>
+<source>J Phys Chem</source>
+<volume>92</volume>
+<fpage>6881</fpage>
+<lpage>6891</lpage>
+</element-citation></ref><ref id="pcbi-0010061-b026"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Charlesworth</surname><given-names>B</given-names></name></person-group>
+<year>1990</year>
+<article-title>Mutation&#x02013;selection balance and the evolutionary advantage of sex and recombination</article-title>
+<source>Genet Res</source>
+<volume>55</volume>
+<fpage>199</fpage>
+<lpage>221</lpage>
+<pub-id pub-id-type="pmid">2394378</pub-id></element-citation></ref><ref id="pcbi-0010061-b027"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Domingo</surname><given-names>E</given-names></name><name><surname>Sabo</surname><given-names>D</given-names></name><name><surname>Taniguchi</surname><given-names>T</given-names></name><name><surname>Weissmann</surname><given-names>C</given-names></name></person-group>
+<year>1978</year>
+<article-title>Nucleotide sequence heterogeneity of an RNA phage population</article-title>
+<source>Cell</source>
+<volume>13</volume>
+<fpage>735</fpage>
+<lpage>744</lpage>
+<pub-id pub-id-type="pmid">657273</pub-id></element-citation></ref><ref id="pcbi-0010061-b028"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Burch</surname><given-names>CL</given-names></name><name><surname>Chao</surname><given-names>L</given-names></name></person-group>
+<year>2000</year>
+<article-title>Evolvability of an RNA virus is determined by its mutational neighbourhood</article-title>
+<source>Nature</source>
+<volume>406</volume>
+<fpage>625</fpage>
+<lpage>628</lpage>
+<pub-id pub-id-type="pmid">10949302</pub-id></element-citation></ref><ref id="pcbi-0010061-b029"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Crotty</surname><given-names>S</given-names></name><name><surname>Andino</surname><given-names>R</given-names></name></person-group>
+<year>2002</year>
+<article-title>Implications of high RNA virus mutation rates: Lethal mutagenesis and the antiviral drug ribavirin</article-title>
+<source>Microbes Infect</source>
+<volume>4</volume>
+<fpage>1301</fpage>
+<lpage>1307</lpage>
+<pub-id pub-id-type="pmid">12443894</pub-id></element-citation></ref><ref id="pcbi-0010061-b030"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Crotty</surname><given-names>S</given-names></name><name><surname>Cameron</surname><given-names>CE</given-names></name><name><surname>Andino</surname><given-names>R</given-names></name></person-group>
+<year>2001</year>
+<article-title>RNA virus error catastrophe: Direct molecular test by using ribavirin</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>98</volume>
+<fpage>6895</fpage>
+<lpage>6900</lpage>
+<pub-id pub-id-type="pmid">11371613</pub-id></element-citation></ref><ref id="pcbi-0010061-b031"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Graci</surname><given-names>JD</given-names></name><name><surname>Cameron</surname><given-names>CE</given-names></name></person-group>
+<year>2002</year>
+<article-title>Quasispecies, error catastrophe, and the antiviral activity of ribavirin</article-title>
+<source>Virology</source>
+<volume>298</volume>
+<fpage>175</fpage>
+<lpage>180</lpage>
+<pub-id pub-id-type="pmid">12127780</pub-id></element-citation></ref><ref id="pcbi-0010061-b032"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Vignuzzi</surname><given-names>M</given-names></name><name><surname>Stone</surname><given-names>JK</given-names></name><name><surname>Andino</surname><given-names>R</given-names></name></person-group>
+<year>2005</year>
+<article-title>Ribavirin and lethal mutagenesis of poliovirus: Molecular mechanisms, resistance and biological implications</article-title>
+<source>Virus Res</source>
+<volume>107</volume>
+<fpage>173</fpage>
+<lpage>181</lpage>
+<pub-id pub-id-type="pmid">15649563</pub-id></element-citation></ref><ref id="pcbi-0010061-b033"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Holmes</surname><given-names>EC</given-names></name></person-group>
+<year>2003</year>
+<article-title>Error thresholds and the constraints to RNA virus evolution</article-title>
+<source>Trends Microbiol</source>
+<volume>11</volume>
+<fpage>543</fpage>
+<lpage>546</lpage>
+<pub-id pub-id-type="pmid">14659685</pub-id></element-citation></ref><ref id="pcbi-0010061-b034"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cirz</surname><given-names>RT</given-names></name><name><surname>Chin</surname><given-names>JK</given-names></name><name><surname>Andes</surname><given-names>DR</given-names></name><name><surname>de Crecy-Lagard</surname><given-names>V</given-names></name><name><surname>Craig</surname><given-names>WA</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Inhibition of mutation and combating the evolution of antibiotic resistance</article-title>
+<source>PLoS Biol</source>
+<volume>3</volume>
+<elocation-id>e176.</elocation-id>
+<comment>DOI: <ext-link ext-link-type="doi" xlink:href="10.1371/journal.pbio.0030176">10.1371/journal.pbio.0030176</ext-link></comment>
+<pub-id pub-id-type="pmid">15869329</pub-id></element-citation></ref><ref id="pcbi-0010061-b035"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kondrashov</surname><given-names>AS</given-names></name></person-group>
+<year>1994</year>
+<article-title>Muller's ratchet under epistatic selection</article-title>
+<source>Genetics</source>
+<volume>136</volume>
+<fpage>1469</fpage>
+<lpage>1473</lpage>
+<pub-id pub-id-type="pmid">8013919</pub-id></element-citation></ref><ref id="pcbi-0010061-b036"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kun</surname><given-names>A</given-names></name><name><surname>Santos</surname><given-names>M</given-names></name><name><surname>Szathmary</surname><given-names>E</given-names></name></person-group>
+<year>2005</year>
+<article-title>Real ribozymes suggest a relaxed error threshold</article-title>
+<source>Nat Genet</source>
+<volume>37</volume>
+<fpage>1008</fpage>
+<lpage>1011</lpage>
+<pub-id pub-id-type="pmid">16127452</pub-id></element-citation></ref><ref id="pcbi-0010061-b037"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Joyce</surname><given-names>GF</given-names></name></person-group>
+<year>2004</year>
+<article-title>Directed evolution of nucleic acid enzymes</article-title>
+<source>Annu Rev Biochem</source>
+<volume>73</volume>
+<fpage>791</fpage>
+<lpage>836</lpage>
+<pub-id pub-id-type="pmid">15189159</pub-id></element-citation></ref><ref id="pcbi-0010061-b038"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jhaveri</surname><given-names>SD</given-names></name><name><surname>Hirao</surname><given-names>I</given-names></name><name><surname>Bell</surname><given-names>S</given-names></name><name><surname>Uphoff</surname><given-names>KW</given-names></name><name><surname>Ellington</surname><given-names>AD</given-names></name></person-group>
+<year>1997</year>
+<article-title>Landscapes for molecular evolution: Lessons from in vitro selection experiments with nucleic acids</article-title>
+<source>Annu Rep Comb Chem Mol Divers</source>
+<volume>1</volume>
+<fpage>169</fpage>
+<lpage>191</lpage>
+</element-citation></ref><ref id="pcbi-0010061-b039"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ekland</surname><given-names>EH</given-names></name><name><surname>Szostak</surname><given-names>JW</given-names></name><name><surname>Bartel</surname><given-names>DP</given-names></name></person-group>
+<year>1995</year>
+<article-title>Structurally complex and highly active RNA ligases derived from random RNA sequences</article-title>
+<source>Science</source>
+<volume>269</volume>
+<fpage>364</fpage>
+<lpage>370</lpage>
+<pub-id pub-id-type="pmid">7618102</pub-id></element-citation></ref><ref id="pcbi-0010061-b040"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Poon</surname><given-names>A</given-names></name><name><surname>Otto</surname><given-names>SP</given-names></name></person-group>
+<year>2000</year>
+<article-title>Compensating for our load of mutations: Freezing the meltdown of small populations</article-title>
+<source>Evolution Int J Org Evolution</source>
+<volume>54</volume>
+<fpage>1467</fpage>
+<lpage>1479</lpage>
+</element-citation></ref><ref id="pcbi-0010061-b041"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Whitlock</surname><given-names>MC</given-names></name><name><surname>Otto</surname><given-names>SP</given-names></name></person-group>
+<year>1999</year>
+<article-title>The panda and the phage: Compensatory mutations and the persistence of small populations</article-title>
+<source>Trends Ecol Evol</source>
+<volume>14</volume>
+<fpage>295</fpage>
+<lpage>296</lpage>
+<pub-id pub-id-type="pmid">10407424</pub-id></element-citation></ref><ref id="pcbi-0010061-b042"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kimura</surname><given-names>M</given-names></name><name><surname>Crow</surname><given-names>JF</given-names></name></person-group>
+<year>1964</year>
+<article-title>The number of alleles that can be maintained in a finite population</article-title>
+<source>Genetics</source>
+<volume>49</volume>
+<fpage>725</fpage>
+<lpage>738</lpage>
+<pub-id pub-id-type="pmid">14156929</pub-id></element-citation></ref><ref id="pcbi-0010061-b043"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ewens</surname><given-names>WJ</given-names></name></person-group>
+<year>1974</year>
+<article-title>A note on the sampling theory for infinite alleles and infinite sites models</article-title>
+<source>Theor Popul Biol</source>
+<volume>6</volume>
+<fpage>143</fpage>
+<lpage>148</lpage>
+<pub-id pub-id-type="pmid">4445971</pub-id></element-citation></ref></ref-list></back></article>

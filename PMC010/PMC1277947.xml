@@ -1,0 +1,439 @@
+<!-- edited with XMLSPY v2004 rel. 3 U (http://www.xmlspy.com) by CDC (private) -->
+<!DOCTYPE article
+PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.3 20210610//EN" "JATS-archivearticle1-3-mathml3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article"><?properties open_access?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Prev Chronic Dis</journal-id><journal-id journal-id-type="iso-abbrev">Prev Chronic Dis</journal-id><journal-title-group><journal-title>Preventing Chronic Disease</journal-title></journal-title-group><issn pub-type="epub">1545-1151</issn><publisher><publisher-name>Centers for Disease Control and Prevention</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">15670438</article-id><article-id pub-id-type="pmc">PMC1277947</article-id><article-id pub-id-type="publisher-id">PCDv14_03_0038</article-id><article-categories><subj-group subj-group-type="heading"><subject>Original Research</subject></subj-group><series-title>Peer Reviewed</series-title></article-categories><title-group><article-title>Inadequate Functional Health Literacy in Spanish as a Barrier to Cervical Cancer Screening Among Immigrant Latinas in New York City</article-title></title-group><contrib-group><contrib contrib-type="author" corresp="yes"><name><surname>Garbers</surname><given-names>Samantha</given-names></name><degrees>MPA</degrees><aff>Medical &#x00026; Health Research Association of New York City, Inc</aff><address><addr-line>40 Worth St, Suite 720, New York, NY 10013</addr-line><email>sgarbers@mhra.org</email><phone>212-285-0220 x119</phone></address></contrib><contrib contrib-type="author"><name><surname>Chiasson</surname><given-names>Mary Ann</given-names></name><degrees>DrPH</degrees><aff>Medical &#x00026; Health Research Association of New York City, New York, NY</aff></contrib></contrib-group><pub-date pub-type="collection"><month>10</month><year>2004</year></pub-date><pub-date pub-type="epub"><day>15</day><month>9</month><year>2004</year></pub-date><volume>1</volume><issue>4</issue><elocation-id>A07</elocation-id><permissions><copyright-year>2004</copyright-year><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is a publication of the U.S. Government. This publication is in the public domain and is therefore without copyright. All text from this work may be reprinted freely. Use of these materials should be properly cited.</license-p></license></permissions><abstract abstract-type="key-points"><sec sec-type="objective"><title>Objective</title><p>The objective of this study was to examine the association between inadequate functional health literacy in Spanish among low-income Latinas aged 40 and older and cervical cancer screening knowledge and behavior.</p></sec><sec sec-type="methods"><title>Methods</title><p>Spanish-speaking Latinas aged 40&#x02013;78 of various nationalities (n = 205) participated in a study that included a survey on cervical cancer knowledge and behavior administered in Spanish and the Spanish version of the Test of Functional Health Literacy in Adults.</p></sec><sec sec-type="results"><title>Results</title><p>Compared to those with adequate and marginal health literacy, women with inadequate functional health literacy in Spanish were significantly less likely to have ever had a Papanicolaou (Pap) test (odds ratio, 0.12; 95% confidence interval [CI], 0.04-0.37) or in the last three years (odds ratio, 0.35; 95% CI, 0.18-0.68) and were significantly more likely to have had their last Pap test at a local public hospital (odds ratio, 2.43; 95% CI, 1.18-4.97). Even when controlling for other factors, women with inadequate health literacy were 16.7 times less likely (adjusted odds ratio, 0.06; 95% CI, 0.01-0.55) to have ever had a Pap test.</p></sec><sec sec-type="conclusions"><title>Conclusion</title><p>Almost half of the population we studied will have difficulty interpreting written medical materials, even in Spanish. When developing efforts to reach women who have not been screened, programs and service providers need to be aware that the women most in need of information about screening may be more likely to be unable to read any written materials provided to them, regardless of the language or level of simplicity of the materials. Programs and strategies need to be implemented to increase screening prevalence and to minimize the identified gaps in regular screening for Latinas who have low health literacy.</p></sec></abstract></article-meta></front><body><sec><title>Introduction</title><p>Health literacy has been defined as "the degree to which individuals have the capacity to obtain, process, and understand basic health information and services needed to make appropriate health decisions" (<xref rid="B1" ref-type="bibr">1</xref>). Improving health literacy has been added as a <italic>Healthy People 2010</italic> objective (<xref rid="B2" ref-type="bibr">2</xref>), and two recent reports by the Institute of Medicine and the Agency for Healthcare Research and Quality summarize the data regarding the prevalence of low health literacy and its relationship to health care quality, use, outcomes, and disparities (<xref rid="B3" ref-type="bibr">3</xref>,<xref rid="B4" ref-type="bibr">4</xref>). Despite these findings, health care providers are often unaware of the health literacy skills of their patients (<xref rid="B5" ref-type="bibr">5</xref>&#x02013;<xref rid="B7" ref-type="bibr">7</xref>).</p><p>While there has not been a large-scale study representative of the U.S. population examining health literacy per se, the 1992 National Adult Literacy Survey indicated that 40&#x02013;44 million Americans demonstrated skills in the lowest level of literacy proficiency in three scales (prose, document, and quantitative) (<xref rid="B8" ref-type="bibr">8</xref>). Some populations are more likely to have lower literacy skills, including the elderly, non-native English speakers, those with limited formal education, immigrants, and those with low incomes (<xref rid="B8" ref-type="bibr">8</xref>-<xref rid="B11" ref-type="bibr">11</xref>). In New York City alone, according to the 2000 U.S. Census, more than 1.22 million foreign-born residents arrived in the United States in the previous 10 years (<xref rid="B12" ref-type="bibr">12</xref>).</p><p>There are numerous barriers to effective cervical cancer screening, particularly for populations with low health literacy: screening recommendations for cervical cancer are complex (<xref rid="B13" ref-type="bibr">13</xref>,<xref rid="B14" ref-type="bibr">14</xref>), and educational materials are often written at reading levels that are inappropriately high for most of the population (<xref rid="B15" ref-type="bibr">15</xref>,<xref rid="B16" ref-type="bibr">16</xref>). For women who are native Spanish speakers, there are even fewer appropriate materials. Cervical cancer is preventable and treatable if detected early, yet in 2004 there will be an estimated 10,520 new cases of invasive cervical cancer diagnosed in the United States, and 3900 cervical cancer deaths (<xref rid="B17" ref-type="bibr">17</xref>). Case-control studies have found that the risk of developing invasive cervical cancer is three to 10 times greater in women who have not been screened (<xref rid="B18" ref-type="bibr">18</xref>). SEER (Surveillance, Epidemiology, and End Results) data show that cervical cancer incidence among Latinas aged 30 years and older is almost two times higher than the rate among non-Hispanic white women (<xref rid="B19" ref-type="bibr">19</xref>), which likely reflects disparities in screening prevalence (<xref rid="B20" ref-type="bibr">20</xref>-<xref rid="B22" ref-type="bibr">22</xref>). Low income, educational attainment, acculturation, and literacy may contribute to lower rates of screening (<xref rid="B20" ref-type="bibr">20</xref>,<xref rid="B23" ref-type="bibr">23</xref>-<xref rid="B25" ref-type="bibr">25</xref>).</p><p>As the populations at risk for low health literacy continue to increase both in New York City and in the United States, and the ethnic disparities in cervical cancer incidence widen, reducing the health-literacy&#x02013;related barriers to cervical cancer screening and appropriate follow-up becomes an even more serious public health concern. Building on a previously published study that found an association between health literacy (in English) and Papanicolaou (Pap) test knowledge among a multiethnic group of young women (<xref rid="B7" ref-type="bibr">7</xref>), our study examined the independent association between functional health literacy in Spanish among low-income Latinas aged 40 and older and cervical cancer screening knowledge and behavior.</p></sec><sec><title>Methods</title><p>Women aged 40 and older were recruited for the study through their younger female relatives. On approximately three recruitment days each week, from November 2002 to July 2003, all women who were awaiting appointments for prenatal care and family planning services at two MIC-Women's Health Services Centers operated by Medical and Health Research Association of New York City, Inc (MHRA) were approached in the waiting room. In 2003, the two clinic recruitment sites had 1879 visits from new prenatal and family planning patients. For women who self-identified as Latina or Hispanic, were aged 18 or older, and who had a female relative aged 40 or older living in the New York City area, the interviewer described the study, provided a flyer, and asked for the client's written informed consent to be contacted later to obtain the names and contact information of relatives aged 40 and older. A total of 1205 young women were approached in the centers: 936 did not fit the above listed eligibility criteria for referring participants, 27 were eligible but refused to refer participants, and 242 agreed to refer a participant. Older relatives were eligible to participate in the study if they self-identified as Latina or Hispanic, were aged 40 or over, and spoke Spanish as their primary language. Of the 242 women contacted for the study, 25 (10%) refused participation and seven (3%) were ineligible (two spoke English as a first language, five were under age 40). A total of 210 Latina women of various nationalities, ranging in age from 40&#x02013;78, consented to participate in the study. Five participants completed the survey but refused participation in the Test of Functional Health Literacy in Adults (TOFHLA-S), a screening instrument in Spanish that has been used in several settings to identify patients with low functional health literacy; these women were not included in the analysis, leaving a final sample size of 205. The study was approved by MHRA's Institutional Review Board.</p><p>The interviews were administered in Spanish in participants' homes by a trained and experienced bilingual interviewer. Participation in the study included written informed consent, administration in Spanish of a 20-minute survey on cervical cancer screening knowledge and behavior, administration of the Spanish version of the TOFHLA-S and, for a randomly selected subset of 10% of participants, medical record release for validation of the most recent Pap test. All materials, including the consent form and survey, were written in Spanish and were read aloud to all participants. Materials were developed using simple words and short sentences. The informed consent (158 words) had an average of 14 words per sentence and average of 2.1 syllables per word. The survey, which included 36 questions, had an average of 10 words per sentence and 1.9 syllables per word. To facilitate recall and to reduce inconsistencies in reporting, the survey was developed using cognitive interviewing techniques in which participants were asked to verbalize their thought processes as they completed the survey (<xref rid="B26" ref-type="bibr">26</xref>). The survey was developed for the purposes of this study; several of the survey questions were adapted from a previous study on breast cancer screening knowledge and behavior (<xref rid="B27" ref-type="bibr">27</xref>). The survey was developed in English, translated to Spanish, and back-translated for review. Survey items included demographic information, most recent visits to health care providers, and detailed information on the most recent Pap test, from appointment making through follow-up. Open-ended questions asked about the purpose of a Pap test, how a Pap test is performed, and knowledge of risk factors for cervical cancer. The survey asked participants about the Pap test provider (type of site where the participant had her last Pap test [e.g., hospital, clinic, private physician office] and nation of provider [United States or native country]). Follow-up measures included whether the participant received her results, how she got results (e.g., postcard, phone call, visit to the provider), whether she was asked to return for a repeat Pap test, and whether she obtained her last two Pap tests in the same place.</p><p>Participants completed the TOFHLA-S. The English version of the TOFHLA has been tested for concurrent validity with other standardized literacy tests (<xref rid="B28" ref-type="bibr">28</xref>,<xref rid="B29" ref-type="bibr">29</xref>), but because there are no Spanish versions of the other standardized tests (REALM and WRAT-R) (<xref rid="B30" ref-type="bibr">30</xref>), concurrent validity with TOFHLA-S has not been measured. The TOFHLA-S includes both reading comprehension (employing a modified Cloze procedure) and numeracy sections. The results of the test yield a score from 0&#x02013;100 that includes equal contributions from each section. The test takes up to 22 minutes to administer. The TOFHLA-S score is categorized into three levels: those with inadequate functional health literacy (TOFHLA score 0&#x02013;59) are unable to read and interpret health texts, those with marginal functional health literacy (TOFHLA score 60&#x02013;74) have difficulty reading and interpreting health texts, and those with adequate functional health literacy (TOFHLA score 75&#x02013;100) can read and interpret most health texts.</p><p>Data analysis was performed using SPSS statistical software version 9.0 (SPSS, Inc, Chicago, Ill). Statistical differences in the frequencies of demographic characteristics, health care access (three dimensions: having any health insurance, having a regular source of care, and visiting any provider in the last 12 months), and Pap test knowledge, behavior, and follow-up by functional health literacy groups were assessed by chi-square tests for categorical variables and analysis of variance for continuous variables. Bivariate odds ratios and 95% confidence intervals were calculated for functional health literacy and demographic variables and Pap test behaviors. Using logistic regression, adjusted odds ratios and 95% confidence intervals were calculated for ever having a Pap test and having one in the last three years as the dependent variables, adjusting for characteristics associated with screening behavior (having a source of care [no {ref}/yes], having any health insurance [no {ref}/yes], age [40&#x02013;49 {ref}, 50-59, 60 or older]) and those known to be associated with literacy (<xref rid="B8" ref-type="bibr">8</xref>) (years in the United States [0&#x02013;14 years {ref}, 15 or more years {dichotomized at the median value}], education [elementary or less {ref}, some high school or more], and TOFHLA-S score [adequate {ref}, marginal, inadequate]) (<xref rid="B31" ref-type="bibr">31</xref>). A second logistic regression model separated women with inadequate functional health literacy into two groups: those who scored 1 or above, and those who scored 0 (unable to read any words).</p></sec><sec><title>Results</title><p>
+<xref rid="T1" ref-type="table">Table 1</xref> presents sociodemographic and health information for the 205 women in the sample. More than half the women had elementary school education or less, and 95% were foreign-born. Access to care was low, according to three measures studied: 58% had no health insurance, 41% had no regular source of health care, and 22% had not visited any doctor in the last year. Almost all of the women interviewed had heard of a Pap test, and 92% had ever had a Pap test. While 75% could identify (in an open-ended question) that the purpose of a Pap test was to detect cancer, only three women specified cervical cancer. As illustrated in <xref rid="F1" ref-type="fig">Figure 1</xref>, scores on the TOFHLA-S indicated a population with low health literacy levels in Spanish: 30% had inadequate health literacy in Spanish, 19% marginal, and 51% adequate. Twenty-four women (12%) were unable to read any words (TOFHLA-S score of 0). Significant differences were found by functional health literacy level on sociodemographic variables (except birthplace), knowledge of cervical cancer, and cervical cancer screening behavior. No differences were found in terms of access to health care: those with adequate health literacy were no more likely to have health insurance, a regular source of care, or to have visited any health care provider in the last year.</p><boxed-text position="float"><fig position="float" id="F1" fig-type="illustration"><label>Figure 1</label><caption><p>Distribution of scores in functional health literacy as determined by Spanish version of Test of Functional Health Literacy in Adults (TOFHLA-S) among Latinas aged 40 and older in New York City, November 2002&#x02013;July 2003 (N = 205).</p></caption><alt-text>Bar chart showing Distribution of Functional Health Literacy in Spanish Scores (TOFHLA-S) explained above</alt-text><graphic xlink:href="PCD14A07s1" position="float"/></fig></boxed-text><p>Although more than three quarters of the women had had a Pap test in the last three years, this population faced significant barriers to effective cervical cancer screening and follow-up, regardless of literacy level: more than 14% did not receive the results from their most recent Pap test, 10% could not remember where they had their last Pap test, 29% did not have their last two Pap tests in the same place, and 26% had their last Pap test in their native country. <xref rid="F2" ref-type="fig">Figure 2</xref> illustrates the location of most recent Pap test by literacy level. Compared to those with adequate and marginal health literacy, women with inadequate health literacy were significantly less likely to have ever had a Pap test (odds ratio [OR], 0.12; 95% CI, 0.04-0.37) or in the last three years (OR, 0.35; 95% CI, 0.18-0.68), and were significantly more likely to have their last Pap test at a local public hospital (OR, 2.43; 95% CI, 1.18-4.97; excluding those who had never had a Pap test or who could not remember where they had their last Pap test).</p><boxed-text position="float"><fig position="float" id="F2" fig-type="illustration"><label>Figure 2</label><caption><p>Location of most recent Papanicolaou (Pap) test by functional health literacy level: survey results among Latinas aged 40 and older in New York City, November 2002&#x02013;July 2003. Literacy levels determined by Spanish version of Test of Functional Health Literacy in Adults (TOFHLA-S).</p></caption><alt-text>Bar chart showing Location of Most Recent Papanicolaou Test by Functional Health Literacy Level explained above</alt-text><graphic xlink:href="PCD14A07s2" position="float"/></fig></boxed-text><p>The goal of the study was to evaluate an independent association of functional health literacy in Spanish on Pap test behavior, taking into account factors known to be associated both with lower prevalence of screening and lower levels of literacy. <xref rid="T2" ref-type="table">Table 2</xref> illustrates both the crude and adjusted odds ratios for ever having a Pap test and having one within the last three years. After adjusting for source of care, health insurance status, age, years in the United States, and education, women with inadequate functional health literacy in Spanish (compared to women with adequate health literacy) were 16.7 times less likely to have ever had a Pap test (adjusted OR, 0.06; 95% CI, 0.01-0.55). In the adjusted model, only having a source of health care was found to predict having a Pap test in the last three years (Adjusted OR, 3.67; 95% CI, 1.45-9.27).</p><p>Women who were unable to read any words (comprising 12% of the sample, and 39% of those with inadequate health literacy) were significantly different from women who had inadequate health literacy as measured by the TOFHLA-S but were able to read (data not shown in table). Compared to the rest of the sample, women who were unable to read any words were more recently arrived in the United States (75% in the United States less than 15 years, compared with 47%, chi-square = 6.54, <italic>P</italic> = .009), were significantly older (mean age 61.1 versus 49.6, ANOVA F = 38.96, <italic>P</italic> &#x0003c; .001), and had fewer years of schooling (95.8% with elementary education or less, compared to 44.2%, chi-square = 22.99, <italic>P</italic> &#x0003c; .001). A second logistic regression (data not shown in table) was conducted in which health literacy was divided into four strata; women who had inadequate health literacy but scored higher than 1 on the TOFHLA-S were categorized separately from those who scored 0 (were unable to read any words), although this is not a distinction that is made by the developers of the TOFHLA. In this analysis (with women with adequate health literacy as the referent group), after adjustment for the same variables as above, women who could not read any words were four times less likely (adjusted OR, 0.24; 95% CI, 0.07-0.85) to have had a recent Pap test, but no difference was found for women who had inadequate health literacy but scored higher than 1 on the TOFHLA-S.</p></sec><sec><title>Discussion</title><p>Previous studies of literacy and functional health literacy in the United States have focused on populations' abilities to negotiate written information in English. As Latino populations in the United States continue to grow, exchanges of health care information will increasingly be provided in Spanish: the 2000 U.S. Census revealed that 28.1 million Americans speak Spanish, with only half reporting that they fluently speak English. However, our study suggests that taking the next step in addressing a health information gap &#x02014; making materials available in Spanish &#x02014; may not be adequate. Almost half of the women we studied will have difficulty interpreting written medical materials, even if the materials are made available in Spanish.</p><p>Because of low access to care in addition to low levels of functional health literacy, the study population faces significant barriers in obtaining effective cervical cancer screening. Our study adds to previous findings by Lindau et al, in which literacy (in English) was the only factor independently associated with knowledge of cervical cancer screening, even when controlling for age, education, ethnicity, employment, and insurance (<xref rid="B7" ref-type="bibr">7</xref>). In our study, low levels of functional health literacy in Spanish were strongly inversely associated with ever having a Pap test. Even when controlling for other factors (including age, educational level, having a source of care, having health insurance, and years in the United States) women with inadequate functional health literacy in Spanish were 16.7 times less likely to have ever had a Pap test.</p><p>Cervical cancer is preventable and curable if detected early. While the proportion of women we studied who had ever had a Pap test was high (92%), it is lower than the <italic>Healthy People 2010</italic> objective of 97% (<xref rid="B2" ref-type="bibr">2</xref>). Appropriate, regular screening and follow-up are essential to reduce the identified cervical cancer mortality and incidence gaps between Hispanics and non-Hispanic whites (<xref rid="B32" ref-type="bibr">32</xref>). For the outcome of clinical importance &#x02014; having a recent (in the last three years) Pap test &#x02014; the logistic regression revealed no independent association with functional health literacy level. A second regression model, however, separating women who could not read any words, revealed a strong association with having a recent Pap test.</p><p>The TOFHLA-S, used to measure health literacy in Spanish, does not distinguish between those who have inadequate health literacy and those who are unable to read any words. While the questions in the numeracy section are read aloud, the participant must be able to read both the prompts in the numeracy section and the reading comprehension section. Women with lower literacy skills may have been more likely to refuse participation because of the actual or perceived literacy burden of the study, resulting in a study population that underrepresents women with inadequate functional health literacy. It should be stressed that this study measured functional health literacy in Spanish, the primary language of participants. We did not measure participants' functional health literacy in English, which would allow greater comparability with previous studies that have examined associations between health literacy in English and health care knowledge and behavior. An unknown proportion of the women we studied who were found to have adequate functional health literacy in Spanish would not have adequate functional health literacy in English, the primary language in which health care services and education are provided in the United States.</p><p>This study had some other limitations. Previous research suggests that the prevalence of cervical cancer screening may be overreported (<xref rid="B33" ref-type="bibr">33</xref>,<xref rid="B34" ref-type="bibr">34</xref>). Self reporting, as our validation efforts confirmed, consistently results in overreporting of the prevalence of Pap testing (<xref rid="B35" ref-type="bibr">35</xref>,<xref rid="B36" ref-type="bibr">36</xref>). Because of the small sample size, the study lacked the power to detect significant effects of some characteristics that may also contribute to cervical cancer screening behavior, including nationality, years in the United States, and age. This analysis focused on Latina immigrant women in New York City whose primary language is Spanish. Caution should be used in applying the findings to other ethnic populations, to women living in other areas, or to Latinas whose primary language is English. Finally, the study examined the association between functional health literacy and cervical cancer knowledge and behaviors; however, the scope of the study did not include measurement of the complex relationships between screening knowledge and behavior.</p><p>Our findings are of particular importance to health care providers and screening programs that serve low-income, immigrant Latina communities. In the communities we studied, women with low functional health literacy were more likely to obtain their care at local public hospitals. Our study confirmed previous findings that women with low health literacy were no less likely to have a regular source of care and to have had a visit to a provider in the last year (<xref rid="B37" ref-type="bibr">37</xref>). Programs and strategies need to be implemented to increase screening prevalence and to minimize the identified gaps in follow-up for all patients. Patient/provider exchanges of all kinds (including those relating to cervical cancer screening) currently rely on the exchange of written information, including educational brochures, prescriptions, test results, and referrals for follow-up. Screening programs and service providers, when developing efforts to reach women who have not been screened for cervical cancer, need to be aware that the women most in need of information about screening may be more likely to be unable to read any written materials provided to them, regardless of the language or simplicity of the materials. Increasing cervical cancer screening rates and improving follow-up among Latinas with low functional health literacy will require creative solutions to convey information without relying on written materials. Providers face the added challenge that individuals with low functional health literacy may also have difficulties with oral communication with providers (<xref rid="B38" ref-type="bibr">38</xref>). The evidence on the effectiveness of interventions using innovative approaches such as videotapes is still emerging (<xref rid="B4" ref-type="bibr">4</xref>).</p></sec></body><back><ack><p>This research was funded by the New York Community Trust. The authors also wish to thank Maria Uribelarrea, former director of MIC-Women&#x02019;s Health Services; Dulce Alvarez and Sarina Williams, MIC Center directors; and Luz Piedrahita, interviewer.</p></ack><fn-group><fn><p>The opinions expressed by authors contributing to this journal do not necessarily reflect the opinions of the U.S. Department of Health and Human Services, the Public Health Service, Centers for Disease Control and Prevention, or the authors' affiliated institutions. Use of trade names is for identification only and does not imply endorsement by any of the groups named above.</p></fn><fn><p>
+<italic>Suggested citation for this article</italic>: Garbers S, Chiasson MA. Inadequate functional health literacy in Spanish as a barrier to cervical cancer screening among immigrant Latinas in New York City. Prev Chronic Dis [serial online] 2004 Oct [date cited]. Available from: URL: <ext-link xlink:href="http://www.cdc.gov/pcd/issues/2004/oct/03_0038.htm" ext-link-type="uri">http://www.cdc.gov/pcd/issues/2004/oct/03_0038.htm</ext-link>.</p></fn></fn-group><ref-list><ref id="B1"><label>1</label><element-citation publication-type="book">
+<person-group person-group-type="editor"><name><surname>Selden</surname><given-names>CR</given-names></name><name><surname>Zorn</surname><given-names>M</given-names></name><name><surname>Ratzan</surname><given-names>SC</given-names></name><name><surname>Parker</surname><given-names>RM</given-names></name></person-group>
+<source>Health literacy</source>
+<publisher-name>National Library of Medicine</publisher-name>
+<publisher-loc>Bethesda (MD)</publisher-loc>
+<year>2000</year>
+<month>Feb</month>
+</element-citation></ref><ref id="B2"><label>2</label><element-citation publication-type="book">
+<year>2000</year>
+<source>U.S. Department of Health and Human Services. Healthy people 2010: understanding and improving health</source>
+<publisher-loc>Washington (DC)</publisher-loc>
+<publisher-name>U.S. Government Printing Office</publisher-name>
+<lpage>76</lpage>
+<month>Nov</month>
+</element-citation></ref><ref id="B3"><label>3</label><element-citation publication-type="book">
+<person-group person-group-type="editor"><name><surname>Nielsen-Bohlman</surname><given-names>L</given-names></name><name><surname>Panzer</surname><given-names>AM</given-names></name><name><surname>Kindig</surname><given-names>DA</given-names></name></person-group>
+<source>Health literacy: a prescription to end confusion</source>
+<year>2004</year>
+<month>Apr</month>
+<day>8</day>
+<publisher-name>National Academies Press</publisher-name>
+<publisher-loc>Washington (DC)</publisher-loc>
+<lpage>368</lpage>
+</element-citation></ref><ref id="B4"><label>4</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Berkman</surname><given-names>ND</given-names></name><name><surname>DeWalt</surname><given-names>DA</given-names></name><name><surname>Pignone</surname><given-names>MP</given-names></name><name><surname>Sheridan</surname><given-names>SL</given-names></name><name><surname>Lohr</surname><given-names>KN</given-names></name><name><surname>Lux</surname><given-names>L</given-names></name><etal/></person-group>
+<article-title>Literacy and health outcomes. Summary, evidence report/technology assessment number 87</article-title>
+<publisher-loc>Rockville (MD)</publisher-loc>
+<publisher-name>Agency for Healthcare Research and Quality</publisher-name>
+<year>2004</year>
+<month>Jan</month>
+</element-citation></ref><ref id="B5"><label>5</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bass</surname><given-names>PF</given-names></name><name><surname>Wilson</surname><given-names>JF</given-names></name><name><surname>Griffith</surname><given-names>CH</given-names></name><name><surname>Barnett</surname><given-names>DR</given-names></name></person-group>
+<article-title>Residents' ability to identify patients with poor literacy skills</article-title>
+<source>Acad Med</source>
+<year>2002</year>
+<volume>77</volume>
+<fpage>1039</fpage>
+<lpage>1041</lpage>
+<pub-id pub-id-type="pmid">12377684</pub-id></element-citation></ref><ref id="B6"><label>6</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Parikh</surname><given-names>NS</given-names></name><name><surname>Parker</surname><given-names>RM</given-names></name><name><surname>Baker</surname><given-names>DW</given-names></name><name><surname>Williams</surname><given-names>MV</given-names></name><name><surname>Nurss</surname><given-names>JR</given-names></name></person-group>
+<article-title>Shame and health literacy: the unspoken connection</article-title>
+<source>Patient Educ Couns</source>
+<year>1996</year>
+<volume>27</volume>
+<fpage>33</fpage>
+<lpage>39</lpage>
+<pub-id pub-id-type="pmid">8788747</pub-id></element-citation></ref><ref id="B7"><label>7</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lindau</surname><given-names>ST</given-names></name><name><surname>Tomori</surname><given-names>C</given-names></name><name><surname>Lyons</surname><given-names>T</given-names></name><name><surname>Langseth</surname><given-names>L</given-names></name><name><surname>Bennett</surname><given-names>CL</given-names></name><name><surname>Garcia</surname><given-names>P</given-names></name></person-group>
+<article-title>The association of health literacy with cervical cancer prevention knowledge and health behaviors in a multiethnic cohort of women</article-title>
+<source>Am J Obstet Gynecol</source>
+<year>2002</year>
+<volume>186</volume>
+<fpage>938</fpage>
+<lpage>943</lpage>
+<pub-id pub-id-type="pmid">12015518</pub-id></element-citation></ref><ref id="B8"><label>8</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Kirsch</surname><given-names>IS</given-names></name><name><surname>Jungeblut</surname><given-names>A</given-names></name><name><surname>Jenkins</surname><given-names>L</given-names></name><name><surname>Kolstad</surname><given-names>A</given-names></name></person-group>
+<publisher-loc>Washington (DC)</publisher-loc>
+<publisher-name>U.S. Department of Education, Office of Educational Research and Improvement</publisher-name>
+<source>Adult literacy in America: a first look at the findings of the National Adult Literacy Survey</source>
+<year>1993</year>
+</element-citation></ref><ref id="B9"><label>9</label><element-citation publication-type="journal">
+<article-title>Ad Hoc Committee on Health Literacy for the Council on Scientific Affairs, American Medical Association. Health literacy: report on the Council of Scientific Affairs</article-title>
+<source>JAMA</source>
+<year>1999</year>
+<volume>281</volume>
+<issue>6</issue>
+<fpage>552</fpage>
+<lpage>557</lpage>
+<pub-id pub-id-type="pmid">10022112</pub-id></element-citation></ref><ref id="B10"><label>10</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Greenberg</surname><given-names>E</given-names></name><name><surname>Macias</surname><given-names>RF</given-names></name><name><surname>Rhodes</surname><given-names>D</given-names></name><name><surname>Chan</surname><given-names>T</given-names></name></person-group>
+<source>English Literacy and language minorities in the United States</source>
+<publisher-name>U.S. Department of Education, Office of Educational Research and Improvement</publisher-name>
+<publisher-loc>Washington (DC)</publisher-loc>
+<year>2001</year>
+<lpage>234</lpage>
+</element-citation></ref><ref id="B11"><label>11</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Potter</surname><given-names>LS</given-names></name><name><surname>Garvey</surname><given-names>DL</given-names></name><name><surname>Friedland</surname><given-names>RB</given-names></name></person-group>
+<source>Who suffers from poor health literacy?</source>
+<publisher-loc>Washington (DC)</publisher-loc>
+<publisher-name>Center for Health Care Strategies</publisher-name>
+<year>1997</year>
+<lpage>2</lpage>
+</element-citation></ref><ref id="B12"><label>12</label><element-citation publication-type="book">
+<collab>U.S. Census Bureau</collab>
+<source>United States Census 2000</source>
+<year>2000</year>
+<publisher-name>U.S. Department of Commerce, Economics and Statistics Administration</publisher-name>
+<publisher-loc>Washington (DC)</publisher-loc>
+</element-citation></ref><ref id="B13"><label>13</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Hartmann</surname><given-names>KE</given-names></name><name><surname>Hall</surname><given-names>SA</given-names></name><name><surname>Nanda</surname><given-names>K</given-names></name><name><surname>Boggess</surname><given-names>JF</given-names></name><name><surname>Zolnoun</surname><given-names>D</given-names></name></person-group>
+<source>Screening for cervical cancer. Systematic evidence review number 25</source>
+<publisher-loc>Rockville (MD)</publisher-loc>
+<publisher-name>Agency for Healthcare Research and Quality</publisher-name>
+<year>2002</year>
+<month>Jan</month>
+</element-citation></ref><ref id="B14"><label>14</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sawaya</surname><given-names>GF</given-names></name><name><surname>McConnell</surname><given-names>KJ</given-names></name><name><surname>Kulasingam</surname><given-names>SL</given-names></name><name><surname>Lawson</surname><given-names>HW</given-names></name><name><surname>Kerlikowske</surname><given-names>K</given-names></name><name><surname>Melnikow</surname><given-names>J</given-names></name><etal/></person-group>
+<article-title>Risk of cervical cancer associated with extending the interval between cervical cancer screenings</article-title>
+<source>N Engl J Med</source>
+<year>2003</year>
+<volume>349</volume>
+<issue>16</issue>
+<fpage>1501</fpage>
+<lpage>1509</lpage>
+<pub-id pub-id-type="pmid">14561792</pub-id></element-citation></ref><ref id="B15"><label>15</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Doak</surname><given-names>LG</given-names></name><name><surname>Doak</surname><given-names>CC</given-names></name><name><surname>Meade</surname><given-names>CD</given-names></name></person-group>
+<article-title>Strategies to improve cancer education materials</article-title>
+<source>Oncol Nurs Forum</source>
+<year>1996</year>
+<volume>23</volume>
+<issue>8</issue>
+<fpage>1305</fpage>
+<lpage>1312</lpage>
+<pub-id pub-id-type="pmid">8883075</pub-id></element-citation></ref><ref id="B16"><label>16</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Rudd</surname><given-names>R</given-names></name><name><surname>Moeykens</surname><given-names>B</given-names></name><name><surname>Colton</surname><given-names>T</given-names></name></person-group>
+<person-group person-group-type="editor"><name><surname>Comings</surname><given-names>J</given-names></name><name><surname>Garner</surname><given-names>B</given-names></name><name><surname>Smith</surname><given-names>C</given-names></name></person-group>
+<article-title>Health and literacy: a review of the medical and public health literature</article-title>
+<source>Annual review of adult learning and literacy, volume 1</source>
+<year>1999 </year>
+<month>Nov</month>
+<publisher-name>Jossey-Bass</publisher-name>
+<publisher-loc>San Francisco (CA)</publisher-loc>
+<lpage>384</lpage>
+</element-citation></ref><ref id="B17"><label>17</label><element-citation publication-type="book">
+<source>American Cancer Society. Cancer facts &#x00026; figures 2004 [Internet]</source>
+<publisher-name>The Society</publisher-name>
+<publisher-loc>Atlanta (GA)</publisher-loc>
+<date-in-citation content-type="access-date">cited 2004 Apr 20</date-in-citation>
+<comment>Available from: URL:<ext-link xlink:href="http://www.cancer.org/downloads/STT/CAFF_finalPWSecured.pdf" ext-link-type="uri">http://www.cancer.org/downloads/STT/ CAFF_finalPWSecured.pdf</ext-link>
+</comment>
+</element-citation></ref><ref id="B18"><label>18</label><element-citation publication-type="book">
+<source>Physician Data Query. Screening for cervical cancer [Internet]</source>
+<publisher-name>National Cancer Institute</publisher-name>
+<publisher-loc>Bethesda (MD)</publisher-loc>
+<date-in-citation content-type="access-date">cited 2004 Apr 22</date-in-citation>
+<year>2004</year>
+</element-citation></ref><ref id="B19"><label>19</label><element-citation publication-type="journal">
+<article-title>Invasive cervical cancer among Hispanic and non-Hispanic white women - United States 1992-1999</article-title>
+<source>MMWR Morb Mortal Wkly Rpt</source>
+<year>2002</year>
+<volume>51</volume>
+<issue>47</issue>
+<fpage>1067</fpage>
+<lpage>1070</lpage>
+</element-citation></ref><ref id="B20"><label>20</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Suarez</surname><given-names>L</given-names></name><name><surname>Pulley</surname><given-names>L</given-names></name></person-group>
+<article-title>Comparing acculturation scales and their relationship to cancer screening among older Mexican-American women</article-title>
+<source>J Natl Cancer Inst Monog</source>
+<year>1995</year>
+<issue>18</issue>
+<fpage>41</fpage>
+<lpage>47</lpage>
+</element-citation></ref><ref id="B21"><label>21</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Harlan</surname><given-names>LC</given-names></name><name><surname>Bernstein</surname><given-names>AB</given-names></name><name><surname>Kessler</surname><given-names>LG</given-names></name></person-group>
+<article-title>Cervical cancer screening: who is not screened and why?</article-title>
+<source>Am J Public Health </source>
+<year>1991 </year>
+<month>Jul</month>
+<volume>81</volume>
+<issue>7</issue>
+<fpage>885</fpage>
+<lpage>890</lpage>
+<pub-id pub-id-type="pmid">2053665</pub-id></element-citation></ref><ref id="B22"><label>22</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Caplan</surname><given-names>LS</given-names></name><name><surname>Wells</surname><given-names>BL</given-names></name><name><surname>Haynes</surname><given-names>S</given-names></name></person-group>
+<article-title>Breast cancer screening among older racial/ethnic minorities and whites: barriers to early detection</article-title>
+<source>J Gerontol</source>
+<year>1992 </year>
+<month>Nov</month>
+<volume>47</volume>
+<issue>Spec No</issue>
+<fpage>101</fpage>
+<lpage>110</lpage>
+<pub-id pub-id-type="pmid">1430871</pub-id></element-citation></ref><ref id="B23"><label>23</label><element-citation publication-type="book">
+<source>Centers for Disease Control and Prevention. 1999 Behavioral Risk Factor Surveillance System [Internet]</source>
+<publisher-name>U.S. Department of Health and Human Services</publisher-name>
+<publisher-loc>Atlanta (GA)</publisher-loc>
+<date-in-citation content-type="access-date">cited 2000 Oct 30</date-in-citation>
+<year>1999</year>
+</element-citation></ref><ref id="B24"><label>24</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Harmon</surname><given-names>MP</given-names></name><name><surname>Castro</surname><given-names>FG</given-names></name><name><surname>Coe</surname><given-names>K</given-names></name></person-group>
+<article-title>Acculturation and cervical cancer: knowledge, beliefs, and behaviors of Hispanic women</article-title>
+<source>Women Health</source>
+<year>1996</year>
+<volume>24</volume>
+<issue>3</issue>
+<fpage>37</fpage>
+<lpage>57</lpage>
+<pub-id pub-id-type="pmid">9046552</pub-id></element-citation></ref><ref id="B25"><label>25</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bennett</surname><given-names>C</given-names></name><name><surname>Ferreira</surname><given-names>MR</given-names></name><name><surname>Davis</surname><given-names>TC</given-names></name><name><surname>Kaplan</surname><given-names>J</given-names></name><name><surname>Weinberger</surname><given-names>M</given-names></name><name><surname>Kuzel</surname><given-names>T</given-names></name><etal/></person-group>
+<article-title>Relation between literacy, race, and stage of presentation among low-income patients with prostate cancer</article-title>
+<source>J Clin Oncol</source>
+<year>1998</year>
+<volume>16</volume>
+<issue>9</issue>
+<fpage>3101</fpage>
+<lpage>3104</lpage>
+<pub-id pub-id-type="pmid">9738581</pub-id></element-citation></ref><ref id="B26"><label>26</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jobe</surname><given-names>JB</given-names></name><name><surname>Mingay</surname><given-names>D</given-names></name></person-group>
+<article-title>Cognitive Research Improves Questionnaires</article-title>
+<source>Am J Pub Health</source>
+<year>1989</year>
+<volume>79</volume>
+<fpage>1053</fpage>
+<lpage>1055</lpage>
+<pub-id pub-id-type="pmid">2751028</pub-id></element-citation></ref><ref id="B27"><label>27</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Garbers</surname><given-names>S</given-names></name><name><surname>Jessop</surname><given-names>D</given-names></name><name><surname>Foti</surname><given-names>H</given-names></name><name><surname>Uribelarrea</surname><given-names>M</given-names></name><name><surname>Chiasson</surname><given-names>MA</given-names></name></person-group>
+<article-title>Barriers to breast cancer screening for low-income Mexican and Dominican women in New York City</article-title>
+<source>J Urban Health</source>
+<year>2003</year>
+<volume>80</volume>
+<fpage>81</fpage>
+<lpage>91</lpage>
+<pub-id pub-id-type="pmid">12612098</pub-id></element-citation></ref><ref id="B28"><label>28</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Davis</surname><given-names>TC</given-names></name><name><surname>Michielutte</surname><given-names>R</given-names></name><name><surname>Askov</surname><given-names>EN</given-names></name><name><surname>Williams</surname><given-names>MV</given-names></name><name><surname>Weiss</surname><given-names>BD</given-names></name></person-group>
+<article-title>Practical assessment of adult literacy in health care</article-title>
+<source>Health Educ Behav</source>
+<year>1998</year>
+<volume>25</volume>
+<issue>5</issue>
+<fpage>613</fpage>
+<lpage>624</lpage>
+<pub-id pub-id-type="pmid">9768381</pub-id></element-citation></ref><ref id="B29"><label>29</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Parker </surname><given-names>RM</given-names></name><name><surname>Baker</surname><given-names>DW</given-names></name><name><surname>Williams</surname><given-names>MV</given-names></name><name><surname>Nurss</surname><given-names>JR</given-names></name></person-group>
+<article-title>The test of functional health literacy in adults: a new instrument for measuring patients' literacy skills</article-title>
+<source>J Gen Intern Med</source>
+<year>1995</year>
+<volume>10</volume>
+<fpage>537</fpage>
+<lpage>541</lpage>
+<pub-id pub-id-type="pmid">8576769</pub-id></element-citation></ref><ref id="B30"><label>30</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nurss</surname><given-names>JR</given-names></name><name><surname>Baker</surname><given-names>DW</given-names></name><name><surname>Davis</surname><given-names>TC</given-names></name><name><surname>Parker</surname><given-names>RM</given-names></name><name><surname>Williams</surname><given-names>MV</given-names></name></person-group>
+<article-title>Difficulties in functional health literacy screening in Spanish-speaking adults</article-title>
+<source>Journal of Reading</source>
+<year>1995</year>
+<volume>38</volume>
+<issue>8</issue>
+<fpage>632</fpage>
+<lpage>637</lpage>
+</element-citation></ref><ref id="B31"><label>31</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Nurss</surname><given-names>JR</given-names></name><name><surname>Parker</surname><given-names>RM</given-names></name><name><surname>Williams</surname><given-names>MV</given-names></name><name><surname>Baker</surname><given-names>DW</given-names></name></person-group>
+<source>TOFHLA: Test of Functional Health Literacy in Adults</source>
+<publisher-loc>Snow Camp (NC)</publisher-loc>
+<publisher-name>Peppercorn Press</publisher-name>
+<year>1995</year>
+</element-citation></ref><ref id="B32"><label>32</label><element-citation publication-type="book">
+<source>National Cancer Institute. A snapshot of cervical cancer [Internet]</source>
+<publisher-name>The Institute</publisher-name>
+<publisher-loc>Bethesda (MD)</publisher-loc>
+<date-in-citation content-type="access-date">cited 2004 Apr 19</date-in-citation>
+</element-citation></ref><ref id="B33"><label>33</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Marcus</surname><given-names>AC</given-names></name><name><surname>Crane</surname><given-names>LA</given-names></name><name><surname>Kaplan</surname><given-names>CP</given-names></name><name><surname>Goodman</surname><given-names>KJ</given-names></name><name><surname>Savage</surname><given-names>E</given-names></name><name><surname>Gunning</surname><given-names>J</given-names></name></person-group>
+<article-title>Screening for cervical cancer in emergency centers and sexually transmitted disease clinics</article-title>
+<source>Obstet Gynecol</source>
+<year>1990</year>
+<month>Mar</month>
+<volume>75(3 Pt 1)</volume>
+<fpage>453</fpage>
+<lpage>455</lpage>
+<pub-id pub-id-type="pmid">2304716</pub-id></element-citation></ref><ref id="B34"><label>34</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bowman</surname><given-names>JA</given-names></name><name><surname>Sanson-Fisher</surname><given-names>R</given-names></name><name><surname>Redman</surname><given-names>S</given-names></name></person-group>
+<article-title>The accuracy of self-reported Pap smear utilisation</article-title>
+<source>Soc Sci Med</source>
+<year>1997</year>
+<volume>44</volume>
+<issue>7</issue>
+<fpage>969</fpage>
+<lpage>976</lpage>
+<pub-id pub-id-type="pmid">9089918</pub-id></element-citation></ref><ref id="B35"><label>35</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Paskett</surname><given-names>ED</given-names></name><name><surname>Tatum</surname><given-names>CM</given-names></name><name><surname>Mack</surname><given-names>D</given-names></name><name><surname>Hoen</surname><given-names>H</given-names></name><name><surname>Case</surname><given-names>D</given-names></name><name><surname>Velez</surname><given-names>R</given-names></name></person-group>
+<article-title>Validation of self-reported breast and cervical cancer screening tests among low-income minority women</article-title>
+<source>Cancer Epidemiol Biomarkers Prev</source>
+<year>1996</year>
+<month>Sep</month>
+<volume>5</volume>
+<issue>9</issue>
+<fpage>721</fpage>
+<lpage>726</lpage>
+<pub-id pub-id-type="pmid">8877064</pub-id></element-citation></ref><ref id="B36"><label>36</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Newell</surname><given-names>S</given-names></name><name><surname>Girgis</surname><given-names>A</given-names></name><name><surname>Sanson-Fisher</surname><given-names>R</given-names></name><name><surname>Ireland</surname><given-names>M</given-names></name></person-group>
+<article-title>Accuracy of patients' recall of Pap and cholesterol screening</article-title>
+<source>Am J Public Health</source>
+<year>2000</year>
+<volume>90</volume>
+<issue>9</issue>
+<fpage>1431</fpage>
+<lpage>1435</lpage>
+<pub-id pub-id-type="pmid">10983202</pub-id></element-citation></ref><ref id="B37"><label>37</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Baker</surname><given-names>Dw</given-names></name><name><surname>Parker</surname><given-names>RM</given-names></name><name><surname>Williams</surname><given-names>MV</given-names></name><name><surname>Clark</surname><given-names>WS</given-names></name><name><surname>Nurss</surname><given-names>J</given-names></name></person-group>
+<article-title>The relationship of patient reading ability to self-reported health and use of health services</article-title>
+<source>Am J Public Health</source>
+<year>1997</year>
+<volume>87</volume>
+<fpage>1027</fpage>
+<lpage>1030</lpage>
+<pub-id pub-id-type="pmid">9224190</pub-id></element-citation></ref><ref id="B38"><label>38</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schillinger</surname><given-names>D</given-names></name><name><surname>Bindman</surname><given-names>A</given-names></name><name><surname>Wang</surname><given-names>F</given-names></name><name><surname>Stewart</surname><given-names>A</given-names></name><name><surname>Piette</surname><given-names>J</given-names></name></person-group>
+<article-title>Functional health literacy and the quality of physician-patient communication among diabetes patients</article-title>
+<source>Patient Educ Couns</source>
+<year>2004</year>
+<volume>52</volume>
+<issue>3</issue>
+<fpage>315</fpage>
+<lpage>323</lpage>
+<pub-id pub-id-type="pmid">14998602</pub-id></element-citation></ref></ref-list><sec><table-wrap position="float" id="T1"><label>Table 1</label><caption><p>Demographic and Health Care Characteristics by Functional Health Literacy Level in Spanish: Survey Results Among Latinas Aged 40 and Older (n = 205), New York City, November 2002&#x02013;July 2003<xref rid="T1FN1" ref-type="table-fn">a</xref>
+</p></caption><table frame="hsides" rules="groups" border="0" cellspacing="1" cellpadding="4"><thead><tr><th scope="col" valign="top" align="left" rowspan="1" colspan="1">&#x000a0;</th><th scope="col" valign="top" align="right" rowspan="1" colspan="1">&#x000a0;</th><th scope="col" valign="top" colspan="3" align="center" rowspan="1">
+<bold>Health Literacy Level in Spanish as Measured by Test of Functional Health Literacy in Adults (TOFHLA-S)</bold>
+</th></tr><tr><th colspan="5" rowspan="1">
+<hr/>
+</th></tr><tr><th scope="col" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Characteristic</bold>
+</th><th scope="col" valign="top" align="right" rowspan="1" colspan="1">
+<bold>All Women</bold> (n = 205), No. (%)</th><th scope="col" valign="top" align="right" rowspan="1" colspan="1">
+<bold>Inadequate</bold> (n = 61), No. (%)</th><th scope="col" valign="top" align="right" rowspan="1" colspan="1">
+<bold>Marginal</bold> (n = 39), No. (%)</th><th scope="col" valign="top" align="right" rowspan="1" colspan="1">
+<bold>Adequate</bold> (n = 105), No. (%)</th></tr></thead><tbody><tr><td colspan="5" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="col" valign="top" align="left" colspan="5" rowspan="1">
+<bold>Sociodemographic<xref rid="T1FN2" ref-type="table-fn">b</xref>
+</bold>
+</td></tr><tr><td colspan="5" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Age (years, mean)</td><td valign="top" align="right" rowspan="1" colspan="1">51.0</td><td valign="top" align="right" rowspan="1" colspan="1">55.3</td><td valign="top" align="right" rowspan="1" colspan="1">51.4</td><td valign="top" align="right" rowspan="1" colspan="1">48.3</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Years in United States (mean)</td><td valign="top" align="right" rowspan="1" colspan="1">17.9</td><td valign="top" align="right" rowspan="1" colspan="1">13.8</td><td valign="top" align="right" rowspan="1" colspan="1">21.0</td><td valign="top" align="right" rowspan="1" colspan="1">19.1</td></tr><tr><td colspan="5" rowspan="1">
+<hr/>
+</td></tr><tr><td valign="top" align="left" colspan="5" rowspan="1">
+<bold>Birthplace</bold>
+<xref rid="T1FN3" ref-type="table-fn">c</xref>
+</td></tr><tr><td colspan="5" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">United States (not Puerto Rico)</td><td valign="top" align="right" rowspan="1" colspan="1">11 (5.4)</td><td valign="top" align="right" rowspan="1" colspan="1">0 (0)</td><td valign="top" align="right" rowspan="1" colspan="1">2 (5.1)</td><td valign="top" align="right" rowspan="1" colspan="1">9 (8.7)</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Mexico</td><td valign="top" align="right" rowspan="1" colspan="1">25 (12.3)</td><td valign="top" align="right" rowspan="1" colspan="1">10 (16.4)</td><td valign="top" align="right" rowspan="1" colspan="1">4 (10.3)</td><td valign="top" align="right" rowspan="1" colspan="1">11 (10.6)</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">South America</td><td valign="top" align="right" rowspan="1" colspan="1">84 (41.2)</td><td valign="top" align="right" rowspan="1" colspan="1">26 (42.6)</td><td valign="top" align="right" rowspan="1" colspan="1">16 (41.0)</td><td valign="top" align="right" rowspan="1" colspan="1">42 (40.4)</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Dominican Republic</td><td valign="top" align="right" rowspan="1" colspan="1">39 (19.1)</td><td valign="top" align="right" rowspan="1" colspan="1">11 (18.0)</td><td valign="top" align="right" rowspan="1" colspan="1">7 (17.9)</td><td valign="top" align="right" rowspan="1" colspan="1">21 (20.2)</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Puerto Rico</td><td valign="top" align="right" rowspan="1" colspan="1">28 (13.7)</td><td valign="top" align="right" rowspan="1" colspan="1">7 (11.5)</td><td valign="top" align="right" rowspan="1" colspan="1">9 (23.1)</td><td valign="top" align="right" rowspan="1" colspan="1">12 (11.5)</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Central America</td><td valign="top" align="right" rowspan="1" colspan="1">12 (5.9)</td><td valign="top" align="right" rowspan="1" colspan="1">4 (6.6)</td><td valign="top" align="right" rowspan="1" colspan="1">1 (2.6)</td><td valign="top" align="right" rowspan="1" colspan="1">7 (6.7)</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Other</td><td valign="top" align="right" rowspan="1" colspan="1">5 (2.5)</td><td valign="top" align="right" rowspan="1" colspan="1">3 (4.9)</td><td valign="top" align="right" rowspan="1" colspan="1">0 (0)</td><td valign="top" align="right" rowspan="1" colspan="1">2 (1.9)</td></tr><tr><td colspan="5" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="col" valign="top" align="left" colspan="5" rowspan="1">
+<bold>Level of education</bold>
+<xref rid="T1FN4" ref-type="table-fn">d</xref>
+</td></tr><tr><td colspan="5" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">No formal education</td><td valign="top" align="right" rowspan="1" colspan="1">12 (5.9)</td><td valign="top" align="right" rowspan="1" colspan="1">12 (19.7)</td><td valign="top" align="right" rowspan="1" colspan="1">0 (0)</td><td valign="top" align="right" rowspan="1" colspan="1">0 (0)</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Elementary school only</td><td valign="top" align="right" rowspan="1" colspan="1">91 (44.4)</td><td valign="top" align="right" rowspan="1" colspan="1">39 (63.9)</td><td valign="top" align="right" rowspan="1" colspan="1">22 (56.4)</td><td valign="top" align="right" rowspan="1" colspan="1">30 (28.6)</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Some high school</td><td valign="top" align="right" rowspan="1" colspan="1">38 (18.5)</td><td valign="top" align="right" rowspan="1" colspan="1">8 (13.1)</td><td valign="top" align="right" rowspan="1" colspan="1">5 (12.8)</td><td valign="top" align="right" rowspan="1" colspan="1">25 (23.8)</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">High school graduate or more</td><td valign="top" align="right" rowspan="1" colspan="1">64 (31.2)</td><td valign="top" align="right" rowspan="1" colspan="1">2 (3.3)</td><td valign="top" align="right" rowspan="1" colspan="1">12 (30.8)</td><td valign="top" align="right" rowspan="1" colspan="1">50 (47.6)</td></tr><tr><td colspan="5" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="col" valign="top" align="left" colspan="5" rowspan="1">
+<bold>Marital status</bold>
+<xref rid="T1FN5" ref-type="table-fn">e</xref>
+</td></tr><tr><td colspan="5" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Married or living as married</td><td valign="top" align="right" rowspan="1" colspan="1">100 (49.5)</td><td valign="top" align="right" rowspan="1" colspan="1">26 (43.4)</td><td valign="top" align="right" rowspan="1" colspan="1">17 (44.8)</td><td valign="top" align="right" rowspan="1" colspan="1">57 (54.8)</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Never married</td><td valign="top" align="right" rowspan="1" colspan="1">27 (13.4)</td><td valign="top" align="right" rowspan="1" colspan="1">6 (10.0)</td><td valign="top" align="right" rowspan="1" colspan="1">7 (18.4)</td><td valign="top" align="right" rowspan="1" colspan="1">14 (13.5)</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Separated/divorced or widowed</td><td valign="top" align="right" rowspan="1" colspan="1">75 (37.1)</td><td valign="top" align="right" rowspan="1" colspan="1">28 (46.6)</td><td valign="top" align="right" rowspan="1" colspan="1">14 (36.9)</td><td valign="top" align="right" rowspan="1" colspan="1">33 (31.7)</td></tr><tr><td colspan="5" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="col" valign="top" align="left" colspan="5" rowspan="1">
+<bold>Health care</bold>
+<xref rid="T1FN3" ref-type="table-fn">c</xref>
+</td></tr><tr><td colspan="5" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">No source of health care </td><td valign="top" align="right" rowspan="1" colspan="1">83 (40.5)</td><td valign="top" align="right" rowspan="1" colspan="1">27 (44.3)</td><td valign="top" align="right" rowspan="1" colspan="1">14 (36.8)</td><td valign="top" align="right" rowspan="1" colspan="1">42 (40.0)</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">No visit to health care provider in last year </td><td valign="top" align="right" rowspan="1" colspan="1">45 (22.0)</td><td valign="top" align="right" rowspan="1" colspan="1">16 (26.2)</td><td valign="top" align="right" rowspan="1" colspan="1">4 (10.3)</td><td valign="top" align="right" rowspan="1" colspan="1">25 (23.8)</td></tr><tr><td colspan="5" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="col" valign="top" align="left" colspan="5" rowspan="1">
+<bold>Insurance coverage</bold>
+<xref rid="T1FN3" ref-type="table-fn">c</xref>
+</td></tr><tr><td colspan="5" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">No insurance</td><td valign="top" align="right" rowspan="1" colspan="1">118 (57.8)</td><td valign="top" align="right" rowspan="1" colspan="1">37 (60.7)</td><td valign="top" align="right" rowspan="1" colspan="1">18 (47.4)</td><td valign="top" align="right" rowspan="1" colspan="1">63 (60.0)</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Medicaid and/or Medicare</td><td valign="top" align="right" rowspan="1" colspan="1">66 (32.3)</td><td valign="top" align="right" rowspan="1" colspan="1">20 (32.8)</td><td valign="top" align="right" rowspan="1" colspan="1">18 (47.4)</td><td valign="top" align="right" rowspan="1" colspan="1">28 (26.7)</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Private insurance</td><td valign="top" align="right" rowspan="1" colspan="1">20 (9.8)</td><td valign="top" align="right" rowspan="1" colspan="1">4 (6.6)</td><td valign="top" align="right" rowspan="1" colspan="1">2 (5.3)</td><td valign="top" align="right" rowspan="1" colspan="1">14 (13.3)</td></tr><tr><td colspan="5" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="col" valign="top" align="left" colspan="5" rowspan="1">
+<bold>Knowledge</bold>
+</td></tr><tr><td colspan="5" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Ever heard of a pelvic exam<xref rid="T1FN6" ref-type="table-fn">f</xref>
+</td><td valign="top" align="right" rowspan="1" colspan="1">198 (96.6)</td><td valign="top" align="right" rowspan="1" colspan="1">56 (91.8)</td><td valign="top" align="right" rowspan="1" colspan="1">38 (97.4)</td><td valign="top" align="right" rowspan="1" colspan="1">104 (99.0)</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Ever heard of a Pap test<xref rid="T1FN4" ref-type="table-fn">d</xref>
+</td><td valign="top" align="right" rowspan="1" colspan="1">193 (94.1)</td><td valign="top" align="right" rowspan="1" colspan="1">50 (82.0)</td><td valign="top" align="right" rowspan="1" colspan="1">38 (97.4)</td><td valign="top" align="right" rowspan="1" colspan="1">105 (100.0)</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Can describe how a Pap test is performed<xref rid="T1FN4" ref-type="table-fn">d</xref>
+</td><td valign="top" align="right" rowspan="1" colspan="1">162 (79.4)</td><td valign="top" align="right" rowspan="1" colspan="1">35 (57.4) </td><td valign="top" align="right" rowspan="1" colspan="1">31 (81.6)</td><td valign="top" align="right" rowspan="1" colspan="1">96 (91.4)</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Could specify that Pap was to detect cancer<xref rid="T1FN6" ref-type="table-fn">f</xref>
+</td><td valign="top" align="right" rowspan="1" colspan="1">153 (74.6)</td><td valign="top" align="right" rowspan="1" colspan="1">37 (60.7)</td><td valign="top" align="right" rowspan="1" colspan="1">31 (79.5)</td><td valign="top" align="right" rowspan="1" colspan="1">85 (81.0)</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Ever heard of a mammogram<xref rid="T1FN3" ref-type="table-fn">c</xref>
+</td><td valign="top" align="right" rowspan="1" colspan="1">154 (75.1)</td><td valign="top" align="right" rowspan="1" colspan="1">47 (77.0)</td><td valign="top" align="right" rowspan="1" colspan="1">29 74.4)</td><td valign="top" align="right" rowspan="1" colspan="1">78 (74.3)</td></tr><tr><td colspan="5" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="col" valign="top" align="left" colspan="5" rowspan="1">
+<bold>Behavior</bold>
+</td></tr><tr><td colspan="5" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Ever had a pelvic exam<xref rid="T1FN5" ref-type="table-fn">e</xref>
+</td><td valign="top" align="right" rowspan="1" colspan="1">193 (94.1)</td><td valign="top" align="right" rowspan="1" colspan="1">53 (86.9)</td><td valign="top" align="right" rowspan="1" colspan="1">36 (92.3)</td><td valign="top" align="right" rowspan="1" colspan="1">104 (99.0)</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Ever had a Pap test<xref rid="T1FN4" ref-type="table-fn">d</xref>
+</td><td valign="top" align="right" rowspan="1" colspan="1">187 (92.1)</td><td valign="top" align="right" rowspan="1" colspan="1">48 (80.0)</td><td valign="top" align="right" rowspan="1" colspan="1">35 (92.1)</td><td valign="top" align="right" rowspan="1" colspan="1">104 (99.0)</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Had a Pap test in the last 3 years<xref rid="T1FN5" ref-type="table-fn">e</xref>
+</td><td valign="top" align="right" rowspan="1" colspan="1">157 (76.6)</td><td valign="top" align="right" rowspan="1" colspan="1">38 (62.3)</td><td valign="top" align="right" rowspan="1" colspan="1">32 (82.1)</td><td valign="top" align="right" rowspan="1" colspan="1">87 (82.9)</td></tr></tbody></table><table-wrap-foot><fn id="T1FN1"><label>a</label><p>Missing data are excluded from totals.</p></fn><fn id="T1FN2"><label>b</label><p>
+<italic>P</italic> &#x0003c; .05, one-way ANOVA for association between literacy level and characteristic.</p></fn><fn id="T1FN3"><label>c</label><p>Results are not significant.</p></fn><fn id="T1FN4"><label>d</label><p>
+<italic>P</italic> &#x0003c; .001, chi-square test of association between literacy level and characteristic.</p></fn><fn id="T1FN5"><label>e</label><p>
+<italic>P</italic> &#x0003c; .01, chi-square test of association between literacy level and characteristic.</p></fn><fn id="T1FN6"><label>f</label><p>
+<italic>P</italic> &#x0003c; .05, chi-square test of association between literacy level and characteristic.</p></fn></table-wrap-foot></table-wrap><table-wrap position="float" id="T2"><label>Table 2</label><caption><p>Bivariate and Logistic Regression Models of Having a Papanicolaou (Pap) Test Ever and Within the Last Three Years: Survey Results Among Latinas Aged 40 and Older (n = 205), New York City, November 2002&#x02013;July 2003<xref rid="T2FN1" ref-type="table-fn">a</xref>
+</p></caption><table frame="hsides" rules="groups" border="0" cellspacing="1" cellpadding="4"><thead><tr><th scope="col" valign="top" align="left" rowspan="1" colspan="1"/><th scope="col" valign="top" colspan="2" rowspan="1">
+<bold>Bivariate</bold>
+</th><th scope="col" valign="top" colspan="2" rowspan="1">
+<bold>Adjusted</bold>
+</th></tr><tr><th colspan="5" rowspan="1">
+<hr/>
+</th></tr><tr><th scope="col" valign="top" align="left" rowspan="1" colspan="1"/><th scope="col" valign="top" align="right" rowspan="1" colspan="1">
+<bold>Had Recent Pap (&#x0003c;3 years)</bold>
+</th><th scope="col" valign="top" align="right" rowspan="1" colspan="1">
+<bold>Ever Had Pap</bold>
+</th><th scope="col" valign="top" align="right" rowspan="1" colspan="1">
+<bold>Had Recent Pap (&#x0003c;3 years)</bold>
+</th><th scope="col" valign="top" align="right" rowspan="1" colspan="1">
+<bold>Ever Had Pap</bold>
+</th></tr></thead><tbody><tr><td colspan="5" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" colspan="5" rowspan="1">
+<bold>Source of care</bold>
+</td></tr><tr><td colspan="5" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="col" valign="top" align="left" rowspan="1" colspan="1">No source of care </td><td valign="top" align="right" rowspan="1" colspan="1">Ref</td><td valign="top" align="right" rowspan="1" colspan="1">Ref</td><td valign="top" align="right" rowspan="1" colspan="1">Ref</td><td valign="top" align="right" rowspan="1" colspan="1">Ref</td></tr><tr><td scope="col" valign="top" align="left" rowspan="1" colspan="1">Has source of care</td><td valign="top" align="right" rowspan="1" colspan="1">2.82 (1.46&#x02013;5.44)</td><td valign="top" align="right" rowspan="1" colspan="1">0.81 (0.29&#x02013;2.29)</td><td valign="top" align="right" rowspan="1" colspan="1">3.67 (1.45&#x02013;9.27)</td><td valign="top" align="right" rowspan="1" colspan="1">0.83 (0.19&#x02013;3.54)</td></tr><tr><td colspan="5" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="col" valign="top" align="left" colspan="5" rowspan="1">
+<bold>
+Health insurance status</bold>
+</td></tr><tr><td colspan="5" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="col" valign="top" align="left" rowspan="1" colspan="1">No insurance</td><td valign="top" align="right" rowspan="1" colspan="1">Ref</td><td valign="top" align="right" rowspan="1" colspan="1">Ref</td><td valign="top" align="right" rowspan="1" colspan="1">Ref</td><td valign="top" align="right" rowspan="1" colspan="1">Ref</td></tr><tr><td scope="col" valign="top" align="left" rowspan="1" colspan="1">Private, Medicaid and/or Medicare</td><td valign="top" align="right" rowspan="1" colspan="1">1.74 (0.89&#x02013;3.43)</td><td valign="top" align="right" rowspan="1" colspan="1">0.85 (0.32&#x02013;2.31)</td><td valign="top" align="right" rowspan="1" colspan="1">0.63 (0.23&#x02013;1.73)</td><td valign="top" align="right" rowspan="1" colspan="1">0.98 (0.22&#x02013;4.44)</td></tr><tr><td colspan="5" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" colspan="5" rowspan="1">
+<bold>Age (years)</bold>
+</td></tr><tr><td colspan="5" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="col" valign="top" align="left" rowspan="1" colspan="1">40&#x02013;49</td><td valign="top" align="right" rowspan="1" colspan="1">Ref</td><td valign="top" align="right" rowspan="1" colspan="1">Ref</td><td valign="top" align="right" rowspan="1" colspan="1">Ref</td><td valign="top" align="right" rowspan="1" colspan="1">Ref</td></tr><tr><td scope="col" valign="top" align="left" rowspan="1" colspan="1">50&#x02013;59</td><td valign="top" align="right" rowspan="1" colspan="1">0.52 (0.24&#x02013;1.10)</td><td valign="top" align="right" rowspan="1" colspan="1">0.77 (0.23&#x02013;2.55)</td><td valign="top" align="right" rowspan="1" colspan="1">0.46 (0.19&#x02013;1.13)</td><td valign="top" align="right" rowspan="1" colspan="1">1.38 (0.34&#x02013;5.55)</td></tr><tr><td scope="col" valign="top" align="left" rowspan="1" colspan="1">60 and
+older</td><td valign="top" align="right" rowspan="1" colspan="1">0.44 (0.19&#x02013;0.99)</td><td valign="top" align="right" rowspan="1" colspan="1">0.56 (0.17&#x02013;1.86)</td><td valign="top" align="right" rowspan="1" colspan="1">0.41 (0.15&#x02013;1.07)</td><td valign="top" align="right" rowspan="1" colspan="1">1.34 (0.33&#x02013;5.42)</td></tr><tr><td colspan="5" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" colspan="5" rowspan="1">
+<bold>Years in United States</bold>
+</td></tr><tr><td colspan="5" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="col" valign="top" align="left" rowspan="1" colspan="1">Less than 15 </td><td valign="top" align="right" rowspan="1" colspan="1">Ref</td><td valign="top" align="right" rowspan="1" colspan="1">Ref</td><td valign="top" align="right" rowspan="1" colspan="1">Ref</td><td valign="top" align="right" rowspan="1" colspan="1">Ref</td></tr><tr><td scope="col" valign="top" align="left" rowspan="1" colspan="1">15 or more </td><td valign="top" align="right" rowspan="1" colspan="1">2.05 (1.06&#x02013;3.97)</td><td valign="top" align="right" rowspan="1" colspan="1">1.46 (0.53&#x02013;3.99)</td><td valign="top" align="right" rowspan="1" colspan="1">2.05 (0.94&#x02013;4.47)</td><td valign="top" align="right" rowspan="1" colspan="1">1.20 (0.36&#x02013;4.06)</td></tr><tr><td colspan="5" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" colspan="5" rowspan="1">
+<bold>Education</bold>
+</td></tr><tr><td colspan="5" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="col" valign="top" align="left" rowspan="1" colspan="1">Elementary or no schooling</td><td valign="top" align="right" rowspan="1" colspan="1">Ref</td><td valign="top" align="right" rowspan="1" colspan="1">Ref</td><td valign="top" align="right" rowspan="1" colspan="1">Ref</td><td valign="top" align="right" rowspan="1" colspan="1">Ref</td></tr><tr><td scope="col" valign="top" align="left" rowspan="1" colspan="1">Some high school or more</td><td valign="top" align="right" rowspan="1" colspan="1">1.62 (0.85&#x02013;3.10)</td><td valign="top" align="right" rowspan="1" colspan="1">5.24 (1.46&#x02013;18.82)</td><td valign="top" align="right" rowspan="1" colspan="1">1.03 (0.44&#x02013;2.44)</td><td valign="top" align="right" rowspan="1" colspan="1">3.16 (0.60&#x02013;16.66)</td></tr><tr><td colspan="5" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" colspan="5" rowspan="1">
+<bold>Health Literacy Level</bold>
+</td></tr><tr><td colspan="5" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="col" valign="top" align="left" rowspan="1" colspan="1">Adequate</td><td valign="top" align="right" rowspan="1" colspan="1">Ref</td><td valign="top" align="right" rowspan="1" colspan="1">Ref</td><td valign="top" align="right" rowspan="1" colspan="1">Ref</td><td valign="top" align="right" rowspan="1" colspan="1">Ref</td></tr><tr><td scope="col" valign="top" align="left" rowspan="1" colspan="1">Marginal</td><td valign="top" align="right" rowspan="1" colspan="1">0.95 (0.36&#x02013;2.48)</td><td valign="top" align="right" rowspan="1" colspan="1">0.11 (0.01&#x02013;1.11)</td><td valign="top" align="right" rowspan="1" colspan="1">1.31 (0.44&#x02013;3.85)</td><td valign="top" align="right" rowspan="1" colspan="1">0.14 (0.01&#x02013;1.41)</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">Inadequate</td><td valign="top" align="right" rowspan="1" colspan="1">0.34 (0.17&#x02013;0.71)</td><td valign="top" align="right" rowspan="1" colspan="1">0.04 (0.005&#x02013;0.30)</td><td valign="top" align="right" rowspan="1" colspan="1">0.53 (0.21&#x02013;1.35)</td><td valign="top" align="right" rowspan="1" colspan="1">0.06 (0.01&#x02013;0.55)</td></tr></tbody></table><table-wrap-foot><fn id="T2FN1"><label>a</label><p>Values represent odds ratios (95% confidence intervals). Ref indicates referent group.</p></fn></table-wrap-foot></table-wrap></sec></back></article>

@@ -1,0 +1,975 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS Genet</journal-id><journal-id journal-id-type="iso-abbrev">PLoS Genet</journal-id><journal-id journal-id-type="publisher-id">pgen</journal-id><journal-id journal-id-type="publisher-id">plge</journal-id><journal-id journal-id-type="pmc">plosgen</journal-id><journal-title-group><journal-title>PLoS Genetics</journal-title></journal-title-group><issn pub-type="ppub">1553-7390</issn><issn pub-type="epub">1553-7404</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">16132081</article-id><article-id pub-id-type="pmc">PMC1193525</article-id><article-id pub-id-type="doi">10.1371/journal.pgen.0010015</article-id><article-id pub-id-type="publisher-id">05-PLGE-RA-0065R2</article-id><article-id pub-id-type="sici">plge-01&#x02013;02&#x02013;09r</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group><subj-group subj-group-type="Discipline"><subject>Evolution</subject><subject>Microbiology</subject><subject>Genetics/Comparative Genomics</subject><subject>Genetics/Chromosome Biology</subject></subj-group><subj-group subj-group-type="System Taxonomy"><subject>Eubacteria</subject></subj-group></article-categories><title-group><article-title>Comparative and Evolutionary Analysis of the Bacterial Homologous Recombination Systems </article-title><alt-title alt-title-type="running-head">Recombination Systems in Bacteria</alt-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Rocha</surname><given-names>Eduardo P. C</given-names></name><xref ref-type="aff" rid="aff1">1</xref><xref ref-type="aff" rid="aff2">2</xref><xref ref-type="corresp" rid="cor1">*</xref></contrib><contrib contrib-type="author"><name><surname>Cornet</surname><given-names>Emmanuel</given-names></name><xref ref-type="aff" rid="aff2">2</xref></contrib><contrib contrib-type="author"><name><surname>Michel</surname><given-names>B&#x000e9;n&#x000e9;dicte</given-names></name><xref ref-type="aff" rid="aff3">3</xref></contrib></contrib-group><aff id="aff1"><label>1</label> Unit&#x000e9; G&#x000e9;n&#x000e9;tique des G&#x000e9;nomes Bact&#x000e9;riens, Institut Pasteur, Paris, France
+</aff><aff id="aff2"><label>2</label> Atelier de Bioinformatique, Universit&#x000e9; Pierre et Marie Curie, Paris, France
+</aff><aff id="aff3"><label>3</label> Laboratoire de G&#x000e9;n&#x000e9;tique Microbienne, Institut National de la Recherche Agronomique, Jouy en Josas, France
+</aff><contrib-group><contrib contrib-type="editor"><name><surname>Bell</surname><given-names>Stephen D</given-names></name><role>Editor</role><xref ref-type="aff" rid="edit1"/></contrib></contrib-group><aff id="edit1">MRC Cancer Cell Unit, United Kingdom</aff><author-notes><corresp id="cor1">*To whom correspondence should be addressed. E-mail: <email>erocha@closun.snv.jussieu.fr</email></corresp></author-notes><pub-date pub-type="ppub"><month>8</month><year>2005</year></pub-date><pub-date pub-type="epub"><day>26</day><month>8</month><year>2005</year></pub-date><volume>1</volume><issue>2</issue><elocation-id>e15</elocation-id><history><date date-type="received"><day>31</day><month>3</month><year>2005</year></date><date date-type="accepted"><day>9</day><month>6</month><year>2005</year></date></history><permissions><copyright-statement>Copyright: &#x000a9; 2005 Rocha et al.</copyright-statement><copyright-year>2005</copyright-year><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p></license></permissions><abstract><p>Homologous recombination is a housekeeping process involved in the maintenance of chromosome integrity and generation of genetic variability. Although detailed biochemical studies have described the mechanism of action of its components in model organisms, there is no recent extensive assessment of this knowledge, using comparative genomics and taking advantage of available experimental data on recombination. Using comparative genomics, we assessed the diversity of recombination processes among bacteria, and simulations suggest that we missed very few homologs. The work included the identification of orthologs and the analysis of their evolutionary history and genomic context. Some genes, for proteins such as RecA, the resolvases, and RecR, were found to be nearly ubiquitous, suggesting that the large majority of bacterial genomes are capable of homologous recombination. Yet many genomes show incomplete sets of presynaptic systems, with RecFOR being more frequent than RecBCD/AddAB. There is a significant pattern of co-occurrence between these systems and antirecombinant proteins such as the ones of mismatch repair and SbcB, but no significant association with nonhomologous end joining, which seems rare in bacteria. Surprisingly, a large number of genomes in which homologous recombination has been reported lack many of the enzymes involved in the presynaptic systems. The lack of obvious correlation between the presence of characterized presynaptic genes and experimental data on the frequency of recombination suggests the existence of still-unknown presynaptic mechanisms in bacteria. It also indicates that, at the moment, the assessment of the intrinsic stability or recombination isolation of bacteria in most cases cannot be inferred from the identification of known recombination proteins in the genomes.</p></abstract><abstract abstract-type="synopsis"><title>Synopsis</title><sec id="st1"><title/><p>Genomes evolve mostly by modifications involving large pieces of genetic material (DNA). Exchanges of chromosome pieces between different organisms as well as intragenomic movements of DNA regions are the result of a process named homologous recombination. The central actor of this process, the RecA protein, is amazingly conserved from bacteria to human. In addition to its role in the generation of genetic variability, homologous recombination is also the guardian of genome integrity, as it acts to repair DNA damage. RecA-catalyzed DNA exchange (synapse) is facilitated by the action of presynaptic enzymes and completed by postsynaptic enzymes (resolvases). In addition, some enzymes counteract RecA. Here, the researchers assess the diversity of recombination proteins among 117 different bacterial species. They find that resolvases are nearly as ubiquitous and as well conserved at the sequence level as RecA. This suggests that the large majority of bacterial genomes are capable of homologous recombination. Presynaptic systems are less ubiquitous, and there is no obvious correlation between their presence and experimental data on the frequency of recombination. However, there is a significant pattern of co-occurrence between these systems and antirecombinant proteins.</p></sec></abstract><custom-meta-group><custom-meta><meta-name>Citation:</meta-name><meta-value>Rocha EPC, Cornet E, Michel B (2005) Comparative and evolutionary analysis of the bacterial homologous recombination systems. PLoS Genet 1(2): e15.</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec id="s1"><title>Introduction</title><p>Homologous recombination was originally described as being the result of the sexual process&#x02014;in bacteria as in eukaryotes&#x02014;and was later identified as a major DNA repair process. Both genetic and biochemical studies revealed the crucial role of homologous recombination in all organisms for the repair of a variety of DNA damage of exogenous and endogenous origin [<xref rid="pgen-0010015-b01" ref-type="bibr">1</xref>,<xref rid="pgen-0010015-b02" ref-type="bibr">2</xref>]. Indeed, in all organisms in which it has been tested, inactivation of RecA causes a dramatic increase of sensitivity to all DNA-damaging agents used in laboratories. In addition to its housekeeping role in repair, recombination is fundamental for the genetic diversification of bacterial genomes. First, in bacteria it allows the integration of homologous alien DNA, arising from transformation or conjugation [<xref rid="pgen-0010015-b03" ref-type="bibr">3</xref>,<xref rid="pgen-0010015-b04" ref-type="bibr">4</xref>]. Second, by allowing allelic recombination between closely related strains [<xref rid="pgen-0010015-b05" ref-type="bibr">5</xref>], it assorts adaptive mutations and purges deleterious mutations hitchhiking with them [<xref rid="pgen-0010015-b06" ref-type="bibr">6</xref>]. Third, recombination between homologous segments in the genomes leads to chromosomal instability [<xref rid="pgen-0010015-b07" ref-type="bibr">7</xref>,<xref rid="pgen-0010015-b08" ref-type="bibr">8</xref>], and among bacteria, the rate of chromosome rearrangements correlates with the number of repeated sequences in the genomes [<xref rid="pgen-0010015-b09" ref-type="bibr">9</xref>]. Fourth, intrachromosomal homologous recombination between large repeated regions is often adaptive, allowing the generation of genotypic diversity, e.g., in pathogens [<xref rid="pgen-0010015-b10" ref-type="bibr">10</xref>&#x02013;<xref rid="pgen-0010015-b12" ref-type="bibr">12</xref>].</p><p>The general outline of homologous recombination is common to all organisms studied to date. It involves a central step of strand-invasion and strand-exchange catalyzed by RecA or a RecA homolog. RecA is ubiquitous and highly conserved in sequence. Strand exchange is preceded by the action of enzymes called presynaptic enzymes. These enzymes act on DNA to render it accessible to RecA and thus allow the formation of a RecA filament, which is single-stranded DNA (ssDNA) coated with RecA molecules. The steps that follow strand exchange and result in the formation of a viable recombinant molecule are termed postsynaptic and are mainly the resolution of the recombination intermediate made by RecA. The entire process and the enzymes involved have been originally defined and extensively characterized in <italic>Escherichia coli,</italic> which has become a paradigm for homologous recombination [<xref rid="pgen-0010015-b01" ref-type="bibr">1</xref>,<xref rid="pgen-0010015-b13" ref-type="bibr">13</xref>,<xref rid="pgen-0010015-b14" ref-type="bibr">14</xref>]. For this reason, the <italic>E. coli</italic> genes were used in this work to search for homologs in other bacteria. Genes of <italic>Bacillus subtilis,</italic> the second model bacteria, were used for enzymes absent from <italic>E. coli</italic>.</p><p>The initiation of homologous recombination in <italic>E. coli</italic> may follow the RecBCD or the RecFOR pathway (<xref ref-type="fig" rid="pgen-0010015-g001">Figure 1</xref>). Both pathways work to provide a ssDNA molecule coated with RecA to allow the invasion of a homologous molecule [<xref rid="pgen-0010015-b13" ref-type="bibr">13</xref>,<xref rid="pgen-0010015-b15" ref-type="bibr">15</xref>]. RecBCD promotes the repair of double-stranded DNA (dsDNA) breaks, whereas RecFOR is involved in the repair of ssDNA gaps. In the RecBCD pathway, all the required functions&#x02014;helicase, nuclease, and RecA loading&#x02014;are assembled in a single holoenzyme [<xref rid="pgen-0010015-b16" ref-type="bibr">16</xref>]. RecBCD binds to dsDNA ends, unwinds, and degrades DNA until it encounters a &#x003c7; site. The activity of RecBCD is modified at &#x003c7;, where it starts producing ssDNA and loading RecA [<xref rid="pgen-0010015-b17" ref-type="bibr">17</xref>]. RecF, RecO, and RecR bind gapped ssDNA and displace the SSB proteins to allow RecA coating. There is evidence for interactions between RecR and either RecF or RecO, but not for the existence of a tricomponent complex [<xref rid="pgen-0010015-b18" ref-type="bibr">18</xref>,<xref rid="pgen-0010015-b19" ref-type="bibr">19</xref>]. The RecJ ssDNA exonuclease acts in concert with RecFOR to enlarge the ssDNA region when needed. Strand exchange is catalyzed by RecA [<xref rid="pgen-0010015-b20" ref-type="bibr">20</xref>], a multifunctional protein also involved in the regulation of the SOS response and in the activity of polymerases that facilitate replication across DNA lesions [<xref rid="pgen-0010015-b21" ref-type="bibr">21</xref>]. In <italic>E. coli,</italic> the joint molecules formed by RecA are resolved by either the RuvABC complex or, in an unknown way, by the action of the RecG helicase. The RuvAB and RuvC proteins catalyze the branch migration and the resolution of Holliday junction recombination intermediates, respectively. These three proteins are thought to interact in a resolvasome complex, in which a RuvABC-junction complex tracks along DNA, with RuvC able to scan for cleavable sequences as the DNA passes through (<xref ref-type="fig" rid="pgen-0010015-g001">Figure 1</xref>). Finally, replication is directly linked to the recombination process during double-strand break repair, as a viable recombinant is only obtained if the recombination intermediate is used to initiate replication, via the action of the PriA protein [<xref rid="pgen-0010015-b22" ref-type="bibr">22</xref>,<xref rid="pgen-0010015-b23" ref-type="bibr">23</xref>]. Conversely, recombination proteins participate in replication progression as, for example, RecFOR and RecA are required for the resumption of a normal replication rate after treatment with a DNA-damaging agent, and RecBC is required for the viability of several replication mutants [<xref rid="pgen-0010015-b02" ref-type="bibr">2</xref>].</p><fig id="pgen-0010015-g001" position="float"><label>Figure 1</label><caption><title>Models for the Mode of Action of the Main Homologous Recombination Proteins in <italic>E. coli</italic> at ssDNA Gaps or dsDNA Ends</title><p>Enzymes of known biochemical activities are shown. The presynaptic steps result in the formation of a RecA filament. At gaps, this step requires RecJ, RecF, RecO, and RecR: the 5&#x02032; ssDNA exonuclease RecJ enlarges the ssDNA region (possibly with the help of various helicases, as no specific helicase is required for gap repair); RecF, RecO, and RecR promote RecA binding to SSB-coated DNA. At dsDNA ends, RecBCD (AddAB in <italic>B. subtilis</italic>) degrades DNA until it encounters a &#x003c7; site; its helicase-nuclease activity is then modified to produce a 3&#x02032;-ended ssDNA, to which it loads RecA. The synaptic step (homology search and strand exchange) is always performed by RecA and results in the formation of a Holliday junction (X structure). The postsynaptic steps are the migration and the resolution of Holliday junctions. Migration can be performed by RuvAB or by RecG, and resolution is made by RuvC (RecU in <italic>B. subtlis;</italic> RuvC forms a complex with RuvAB in <italic>E. coli</italic>). In addition, RecBCD-mediated recombination is always coupled with PriA-dependent replication restart. Antirecombinases are not shown: UvrD and MutLS prevent by different means the strand exchange reaction. In <italic>recBC</italic> mutants, the presynaptic steps of dsDNA end repair can be catalyzed by the helicase RecQ and the gap repair proteins RecJ and RecFOR, a reaction that is prevented by SbcB (and SbcCD) nucleases.</p></caption><graphic xlink:href="pgen.0010015.g001"/></fig><p>Evidence is accumulating that other bacteria use different proteins for some recombination steps. For example, in firmicutes, RecBCD is replaced by the analogous complex AddAB (named RexAB in streptococci and lactococci) [<xref rid="pgen-0010015-b24" ref-type="bibr">24</xref>,<xref rid="pgen-0010015-b25" ref-type="bibr">25</xref>], and there is evidence indicating that a functional &#x003c7; site is present in these genomes, albeit variable in size and composition [<xref rid="pgen-0010015-b26" ref-type="bibr">26</xref>]. In these genomes, RecU also replaces RuvC [<xref rid="pgen-0010015-b27" ref-type="bibr">27</xref>]. The frequency of homologous recombination is diminished by the action of other proteins. The general mismatch repair system (MutS1LH in <italic>E. coli</italic>) antagonizes homologous recombination between nonidentical DNA sequences by blocking the RecA-mediated strand exchange process if mismatches are present [<xref rid="pgen-0010015-b28" ref-type="bibr">28</xref>]. Hence, the mismatch repair system prevents recombination between homeologous sequences and has an important role in defining bacterial species barriers [<xref rid="pgen-0010015-b29" ref-type="bibr">29</xref>]. The helicase II, UvrD, also acts as an antirecombinant, possibly by unwinding the paired DNA recombinant intermediates [<xref rid="pgen-0010015-b30" ref-type="bibr">30</xref>], or by displacing RecA from ssDNA [<xref rid="pgen-0010015-b31" ref-type="bibr">31</xref>]. On the other hand, UvrD can stimulate RecA-driven branch migration and can participate in the RecFOR pathway [<xref rid="pgen-0010015-b32" ref-type="bibr">32</xref>]. Finally, in <italic>recBC</italic> mutant cells, RecFOR can initiate recombination from DNA double-strand ends that have a single-strand extension, but only when SbcB, a ssDNA-specific 3&#x02032; &#x02192; 5&#x02032; exonuclease, is inactivated. When present, this nuclease prevents RecFOR action by removing the 3&#x02032; extremity on which RecA could be loaded; in addition, the growth of <italic>recBC sbcB</italic> mutants requires the inactivation of the SbcCD proteins for unknown reasons [<xref rid="pgen-0010015-b01" ref-type="bibr">1</xref>,<xref rid="pgen-0010015-b33" ref-type="bibr">33</xref>]. Antirecombinant proteins must be taken into account when assessing the potential recombination machinery of bacteria, as it can be evaluated from genome sequences.</p><p>An extended assessment of the proteins involved in DNA repair followed the publication of the first genome sequences [<xref rid="pgen-0010015-b34" ref-type="bibr">34</xref>]. This pioneering work showed that genes implicated in homologous recombination are not homogeneously distributed among bacterial species. Unfortunately, no equivalent extensive work has been done recently that focuses precisely on homologous recombination and takes advantage of the nearly 200 completely sequenced genomes. Yet different sets of recombination-related genes have been found among some bacterial groups [<xref rid="pgen-0010015-b35" ref-type="bibr">35</xref>&#x02013;<xref rid="pgen-0010015-b38" ref-type="bibr">38</xref>]. We have thus tried to assess the distribution of homologous recombination genes in complete genomes, using a large set of tools involving sequence and phylogenetic analysis [<xref rid="pgen-0010015-b34" ref-type="bibr">34</xref>,<xref rid="pgen-0010015-b39" ref-type="bibr">39</xref>], as well as colocalization data. This type of analysis presupposes that recombination proteins are ancient enough to have diverged from one or a few proteins for which we know the function for at least one element in the family. Although recombination is probably a very old process, our data suggest that some genes may have been missed because they are not yet functionally characterized. A further assumption of our analysis is that sequence similarity will remain strong enough to allow finding these genes by sequence similarity. We make some simulations that suggest that few genes are likely to have been lost if sequence divergence follows the pattern (but not necessarily the rate) of RecA. The use of genomic context should also reduce this problem. Finally, this analysis also supposes that orthologs have similar functions. Although this is usually assumed, proteins with multiple functions may have gained or lost part of them during evolution. For example, the role of RecA in SOS is unused&#x02014;possibly lost&#x02014;in the bacteria that lack this response. After establishing the repertoire of genes, we evaluate their co-occurrence, evolutionary rate, and colocalization, taking into account their functional association in known pathways. This was then put into relation with the evolutionary history of genes and the assessment of the experimental evidence for recombination.</p></sec><sec id="s2"><title>Results/Discussion</title><sec id="s2a"><title>Introductory Remarks</title><p>As described in Materials and Methods, we first applied an automatic methodology to find candidate orthologs of genes implicated in homologous recombination. The analysis started from genomes for which experimental evidence was available for the function of the genes. This typically included not only <italic>E. coli</italic> and <italic>B. subtilis</italic> but also much less studied bacteria such as mollicutes (for RuvAB [<xref rid="pgen-0010015-b40" ref-type="bibr">40</xref>]), actinobacteria (for Ku [<xref rid="pgen-0010015-b41" ref-type="bibr">41</xref>]), or others. Naturally, when an ortholog was found in a phylogenetic group, it was used to search for further orthologs within the group. Second, we made a more detailed analysis by searching for InterPro domains and making FASTA searches; and by taking into account phylogenetic analyses and information on gene colocalization. Using these diverse sources of information, we were able to list candidate homologous recombination genes in 117 genomes (<xref ref-type="fig" rid="pgen-0010015-g002">Figure 2</xref>). Some genes are highly conserved in sequence and nearly ubiquitous. For these genes, the methods we used are very reliable and provide uniformly consistent results. However, for some less ubiquitous, fast-evolving, or poorly characterized genes, we found sometimes either inconsistent similarity or weak hits, e.g., similarity smaller than 40%, FASTA hits with <italic>E</italic> ~10<sup>&#x02212;5</sup>, matches with a nonspecific motif or with large variation in protein length. Under these conditions, and when no reliable close ortholog is available, it is hazardous to confidently predict orthology. Hence, we conservatively regard these genes as &#x0201c;putative&#x0201d; orthologs. For some proteins, e.g., RecO and RecX, the list of putatives is relatively large.</p><fig id="pgen-0010015-g002" position="float"><label>Figure 2</label><caption><title>Probable Presence, Putative, and Unlikely Presence of Recombination-Associated Genes in the Studied Genomes</title><p>Black indicates presence is probably, grey indicates putative presence, and white indicates presence is unlikely. F indicates that the gene is present in the genome but contains frame shifts (genes with known programmed frame shifts, introns, and inteins are indicated, as regular genes, in black).</p></caption><graphic xlink:href="pgen.0010015.g002"/></fig></sec><sec id="s2b"><title>RecA and Resolvases Are Nearly Ubiquitous Genes</title><p>No homologous recombination gene is present in all bacterial genomes. However, many genes are widespread among all or nearly all groups and are extremely frequent within each group (<xref ref-type="fig" rid="pgen-0010015-g002">Figure 2</xref>). RecA is absent only in the several genomes of <italic>Buchnera</italic> and <italic>Blochmania</italic> and presents frame shifts in Onion Yellows (OY) phytoplasma. The near ubiquity of RecA matches well with its preeminent role in homologous recombination and has been previously noticed [<xref rid="pgen-0010015-b34" ref-type="bibr">34</xref>,<xref rid="pgen-0010015-b42" ref-type="bibr">42</xref>,<xref rid="pgen-0010015-b43" ref-type="bibr">43</xref>]. Its absence among intracellular bacteria has also been widely documented [<xref rid="pgen-0010015-b36" ref-type="bibr">36</xref>,<xref rid="pgen-0010015-b44" ref-type="bibr">44</xref>&#x02013;<xref rid="pgen-0010015-b46" ref-type="bibr">46</xref>]. Unsurprisingly, bacteria lacking RecA have very few other recombination proteins. Several proteins are almost as frequent as RecA. The genes coding for the RuvAB Holliday junction branch migration complex always co-occur and are absent from the genomes that lack RecA and from only two genomes where RecA is present, <italic>Wigglesworthia</italic> Gb and <italic>Aquifex aeolicus</italic> (<xref ref-type="fig" rid="pgen-0010015-g002">Figures 2</xref> and <xref ref-type="fig" rid="pgen-0010015-g003">3</xref>). Although they lack RuvAB, these two genomes contain a RecG ortholog&#x02014;another Holliday junction branch migrating helicase. The gene for RecG is also very frequent, absent only from all mollicutes and all Chlamydiacea as well as from <italic>Desulfovibrio vulgaris</italic>.</p><fig id="pgen-0010015-g003" position="float"><label>Figure 3</label><caption><title>Distribution of Some Recombination Genes in a Phylogenetic Tree of Bacteria</title><p>Tree adapted from [<xref rid="pgen-0010015-b99" ref-type="bibr">99</xref>]. The position of <italic>Pirellula</italic> and <italic>Fusobacterium</italic> are still unclear [<xref rid="pgen-0010015-b100" ref-type="bibr">100</xref>].</p></caption><graphic xlink:href="pgen.0010015.g003"/></fig><p>Some proteins are believed to be functional analogs, although they apparently lack a common evolutionary history (i.e., they are not orthologs). RuvAB in <italic>E. coli</italic> forms a complex with the resolvase RuvC. RuvC is less ubiquitous than RuvAB, which is explained by its functional replacement by the analog RecU in firmicutes and mollicutes [<xref rid="pgen-0010015-b27" ref-type="bibr">27</xref>]. Our data indicate that only ten genomes lack both RuvC and RecU (this includes the genomes that lack RecA; <xref ref-type="table" rid="pgen-0010015-t001">Table 1</xref>). In these rare cases, the resolvase function may be provided by YqgF [<xref rid="pgen-0010015-b47" ref-type="bibr">47</xref>], which is only absent from seven genomes. However, our data suggest that RuvC/RecU and YqgF are not simple functional analogs because they co-occur in the large majority of genomes. In addition, a resolvase activity of the YqgF proteins has not yet been demonstrated either in vitro or in vivo. The function performed by resolution proteins may also be carried out by prophage-encoded proteins [<xref rid="pgen-0010015-b48" ref-type="bibr">48</xref>].</p><table-wrap id="pgen-0010015-t001" content-type="2col" position="float"><label>Table 1</label><caption><p>Genomes Missing Key Components of the Homologous Recombination</p></caption><graphic xlink:href="pgen.0010015.t001"/><table-wrap-foot><fn id="nt101"><p>Listed in each column are the genomes missing the components given at the top of each column.</p></fn><fn id="nt102"><p>
+<sup>a</sup>Presence of putative prophage resolvase [<xref rid="pgen-0010015-b47" ref-type="bibr">47</xref>].</p></fn><fn id="nt103"><p>
+<sup>b</sup>Presence of putative ubiquitous resolvase YqgF.</p></fn></table-wrap-foot></table-wrap><p>PriA is nearly ubiquitous and is only absent in genomes of some intracellular endosymbionts, <italic>Deinococcus radiodurans, A. aeolicus,</italic> and from most genomes of mollicutes. Among actinobacteria, there is a putative ortholog of PriA that is smaller and very divergent. With the exception of <italic>Candidatus Blochmania floridanus</italic> (which lacks RecA), all genomes with AddAB or RecBCD (the presynaptic proteins that act at double-strand ends) have PriA. In conclusion, RecA, branch migration systems, and resolvases, and to a lesser extent the protein that couples recombination and replication PriA, are present in nearly all the bacterial genomes (<xref ref-type="table" rid="pgen-0010015-t001">Table 1</xref>).</p></sec><sec id="s2c"><title>The RecBCD and AddAB Presynaptic Recombination Proteins</title><p>RecBCD provides another example of complementary distribution of similar but nonorthologous systems. The AddAB proteins (and their orthologs RexAB) replace RecBCD in firmicutes and in most &#x003b2;- and &#x003b1;-proteobacteria. AddAB is almost ubiquitous among these groups, as it is missing only in <italic>Bacillus halodurans, Neisseria meningitidis,</italic> and <italic>Chromobacterium violaceum</italic>&#x02014;these having RecBCD instead. A recent work analyzed a homolog of AddA in proteobacteria and confirmed its role in the repair of double-strand breaks [<xref rid="pgen-0010015-b49" ref-type="bibr">49</xref>]. Although AddA and AddB closely co-occur in most genomes, the AddB gene of <italic>B. subtilis</italic> has no significant similarity with the ones of proteobacteria (<italic>E</italic> &#x0003e; 0.01 for FASTA hits, &#x0003c;25% identity on a global alignment). Because AddB is slightly more conserved than AddA among firmicutes (see following), one would expect the AddB protein of proteobacteria to have significant similarity with the AddB protein of firmicutes if it shared a common evolutionary history. Hence, the AddB proteins of the two clades may be functional analogs but not othologs. This is consistent with recent data indicating that AddA shares stronger resemblance with RecB than AddB does with RecC, reflecting a more central role for the function of RecB/AddA in the complex (M. El Karoui, personal communication).</p><p>Genes coding for proteins that participate in complexes tend to systematically co-occur in genomes. This is the case for AddAB, RuvAB, RuvAB/RuvC(RecU), SbcCD, and MutS1L (see following). A major exception to this trend is the frequent presence of a RecD protein when RecBC is absent, in mollicutes, firmicutes, <italic>D. radiodurans,</italic> both <italic>Streptomyces</italic>, and <italic>Des. vulgaris</italic>. The phylogenetic tree of this protein (<xref ref-type="fig" rid="pgen-0010015-g004">Figure 4</xref>) shows a clear separation between RecD1 (a protein systematically associated with RecBC) and RecD2 (a protein present in genomes lacking RecBC). Within each RecD group, one can identify most of the major phylogenetic groups of bacteria. For example, among actinobacteria, the <italic>Mycobacterium</italic> (with RecBC) and the two <italic>Streptomyces</italic> (without) are on opposite sides of the tree, and a similar contrast is found in &#x003b4;-proteobacteria, where <italic>Geobacter sulfurreducens</italic> has RecBC and <italic>Des. vulgaris</italic> does not. In some genomes, such as Chlamydiacea, there are multiple copies of RecD, typically one in each side of the tree. The analysis of the protein sequences of the two groups of RecD shows a major difference between them. RecD2 contains an N-terminus extension including a domain identified as RuvA domain 2&#x02013;like in InterPro that is absent from RecD1. This domain is also present in UvrC and is essential for the 5&#x02032; incision in the prokaryotic nucleotide excision repair process [<xref rid="pgen-0010015-b50" ref-type="bibr">50</xref>]. The RecD2 protein of <italic>D. radiodurans,</italic> the only one biochemically studied, is a DNA helicase with a low processivity and a yet-unidentified role [<xref rid="pgen-0010015-b51" ref-type="bibr">51</xref>].</p><fig id="pgen-0010015-g004" position="float"><label>Figure 4</label><caption><title>Unrooted Phylogenetic Tree of the RecD Protein</title><p>The dotted line separates genomes containing RecBCD from the ones containing only RecD. The tree was constructed using Tree-Puzzle, using the JTT+&#x00393; model with eight classes [<xref rid="pgen-0010015-b74" ref-type="bibr">74</xref>]. Bootstraps were made using SEQBOOT and CONSENSE from the PHYLIP package [<xref rid="pgen-0010015-b101" ref-type="bibr">101</xref>]. <italic>C. acetobutylicum, Clostridium acetobutylicum; C. tepidum, Chlorobium tepidum; C. violaceum, Chromobacterium violaceum; D. vulgaris, Desulfovibrio vulgaris; E. carotovora, Erwinia carotovora; E. faecalis, Enterococcus faecalis; L. plantarum, Lactobacillus plantarum; L. lactis, Lactococcus lactis; P. multocida, Pasteurella multocida; M. mobile, Mycoplasma mobile; M. florum, Mesoplasma florum; M. mycoides, Mycoplasma mycoides; M. pulmonis, Mycoplasma pulmonis; P. maritima, Procholorcoccus maritima; S. enterica, Salmonella enterica; S. oneidensis, Shewanella oneidensis; X. fastidiosa, Xylella fastidiosa.</italic>
+</p></caption><graphic xlink:href="pgen.0010015.g004"/></fig><p>Finally, some bacteria have a functional nonhomologous end-joining mechanism (NHEJ), allowing the repair of dsDNA breaks [<xref rid="pgen-0010015-b52" ref-type="bibr">52</xref>]. Contrary to homologous recombination, NHEJ does not require sequence homology&#x02014;only complementary ends. The key factors of NHEJ are a Ku protein that binds to the termini of the double-strand breaks and has the bridging activity, and a ligase that ligates the termini. Our results indicate that NHEJ genes are present in few bacteria (Ku is present in 24 genomes out of the 117), with no particular phylogenetic trend, as they are found in firmicutes, actinobacteria, and several groups of proteobacteria (see <xref ref-type="fig" rid="pgen-0010015-g002">Figure 2</xref>). As indicated previously [<xref rid="pgen-0010015-b53" ref-type="bibr">53</xref>,<xref rid="pgen-0010015-b54" ref-type="bibr">54</xref>], the two genes tend to co-occur contiguously in genomes, probably constituting an operon. In some bacteria, we found many copies of the Ku/ligase genes. For example, <italic>Agrobacterium tumefaciens</italic> contains six copies of the Ku gene and eight copies of the ligase, and <italic>Bradyrhizobium japonicum</italic> contains four copies of the Ku gene and two copies of the ligase. Thus, in these genomes, Ku has probably a very important role. We then tested the patterns of co-occurrence of NHEJ and RecBCD/AddAB to see whether the presence of one could compensate for the absence of the other (as both act to repair double-strand breaks). We found these systems to co-occur independently (<italic>p</italic> = 0.6, &#x003c7;<sup>2</sup> test). NHEJ is the major pathway for repairing DNA double-strand breaks in mammalian cells, whereas homologous recombination is so in yeast [<xref rid="pgen-0010015-b55" ref-type="bibr">55</xref>]. Because most bacterial genomes lack NHEJ, homologous recombination also appears to be the major repair pathway acting on such lesions in bacteria.</p></sec><sec id="s2d"><title>The RecFOR Presynaptic Proteins</title><p>Whereas the RecB, RecC, and RecD polypeptides form a stable active complex, in the RecFOR pathway, there are interactions between some of the elements but no stable complexes between the three proteins. Interestingly, the RecBCD/AddAB and RecFOR proteins, instead of showing a complementary pattern of co-occurrence, tend to co-occur more frequently than expected (<italic>p</italic> &#x0003c; 0.001, &#x003c7;<sup>2</sup> test). This means that if RecBCD/AddAB is present (absent), then RecFOR is more likely to be present (absent), which probably reflects the specificity of these two systems on complementary types of lesions (see <xref ref-type="fig" rid="pgen-0010015-g001">Figure 1</xref>).</p><p>Although RecF historically served as a reference for this pathway, it is absent from 29 genomes and is the least frequent protein in the set (see <xref ref-type="fig" rid="pgen-0010015-g002">Figure 2</xref>). At the other extreme, RecR is the most frequent, being absent from only ten genomes, followed by RecO, which, counting putative orthologs, is only absent from 19 genomes. In agreement with RecR being present in the two active complexes RecOR and RecFR [<xref rid="pgen-0010015-b18" ref-type="bibr">18</xref>,<xref rid="pgen-0010015-b19" ref-type="bibr">19</xref>], there is no single occurrence of RecO or RecF when RecR is absent.</p><p>In <italic>E. coli,</italic> the RecJ exonuclease acts during gap repair to enlarge the ssDNA region for RecFOR binding [<xref rid="pgen-0010015-b56" ref-type="bibr">56</xref>]. RecJ is absent from the species that lack RecA and from the mollicutes and the mycobacteria, which may use an alternative exonuclease. RecQ is absent from 48 genomes, in agreement with the observation that the RecQ helicase is required in <italic>E. coli</italic> for RecFOR-mediated recombination only in a <italic>recBC sbcB sbcCD</italic> mutant [<xref rid="pgen-0010015-b57" ref-type="bibr">57</xref>].</p></sec><sec id="s2e"><title>Recombination without Presynaptic Recombination Proteins?</title><p>Our analysis indicates that certain bacterial genomes lack most presynaptic recombination proteins (see <xref ref-type="fig" rid="pgen-0010015-g002">Figure 2</xref>). One possibility is that these genomes lack homologous recombination altogether. This may be the case for some species lacking nearly all homologous recombination proteins, such as all <italic>Buchnera,</italic> or the OY phytoplasma (<xref ref-type="table" rid="pgen-0010015-t001">Table 1</xref>). However, for the genomes containing RecA and resolvases, this is most unlikely. We therefore made an extensive analysis of the literature and selected genomes lacking most presynaptic proteins but for which there is evidence for homologous recombination (<xref ref-type="table" rid="pgen-0010015-t002">Table 2</xref>). Such evidence comes from experimental studies of the homologous recombination processes or experimental studies that have used homologous recombination to engineer/inactivate genes, and from multilocus sequence typing data that indicate a population structure driven by frequent recombination. One also typically assumes that natural transformation is used for recombination repair or gene acquisition, which suggests that competent bacteria should have some type of homologous recombination [<xref rid="pgen-0010015-b04" ref-type="bibr">4</xref>,<xref rid="pgen-0010015-b58" ref-type="bibr">58</xref>]. It is surprising that highly recombining genomes, such as <italic>Helicobacter pylori</italic> [<xref rid="pgen-0010015-b59" ref-type="bibr">59</xref>&#x02013;<xref rid="pgen-0010015-b61" ref-type="bibr">61</xref>] or <italic>Streptomyces coelicolor</italic> [<xref rid="pgen-0010015-b62" ref-type="bibr">62</xref>] lack a large fraction of the presynaptic proteins. One should note that with the exception of both <italic>Streptomyces,</italic> these genomes also lack NHEJ, and many also code for antirecombinants, such as MutS2. This suggests that either presynaptic proteins are dispensable for efficient homologous recombination in some genomes or other, unknown systems, exist in these genomes. The first hypothesis is supported by data indicating that some <italic>E. coli recA</italic> mutations (RecA P67W, RecA441, RecA730, and RecA803) can displace SSB proteins much more efficiently than the wild-type, and thus function in the absence of presynaptic proteins [<xref rid="pgen-0010015-b63" ref-type="bibr">63</xref>]. However, if some genomes lack presynaptic functions because their RecA protein is able to efficiently bind SSB-covered DNA, it is not through one of the studied RecA mutations in <italic>E. coli,</italic> because we did not find any of these mutations in natural genomes. Furthermore, it remains to be understood how organisms lacking presynaptic functions could control RecA activity to avoid its improper fixation to any ssDNA (e.g., on the template of the replicating lagging strand). Yet-unidentified presynaptic systems may exist in these genomes. Recombination presynaptic functions are fulfilled in eukaryotes by proteins that have no homology with <italic>E. coli</italic> proteins, in spite of their capacity to facilitate the binding to DNA of their cognate RecA homolog [<xref rid="pgen-0010015-b64" ref-type="bibr">64</xref>].</p><table-wrap id="pgen-0010015-t002" content-type="2col" position="float"><label>Table 2</label><caption><p>Bacteria for Which Some Evidence Exists of Homologous Recombination, but That Lack Elements of Both RecBCD/AddAB and RecFOR in the Genome</p></caption><graphic xlink:href="pgen.0010015.t002"/><table-wrap-foot><fn id="nt201"><p>The genes present for each group are indicated. Types of evidence: natural transformation (NT); population is panmitic as observed from MLST data (MLST); genetic engineering is performed using homologous recombination (GE); recombination studies (RS).</p></fn><fn id="nt202"><p>
+<sup>a</sup>Not all genomes have all proteins.</p></fn><fn id="nt203"><p>
+<sup>b</sup>Putative.</p></fn></table-wrap-foot></table-wrap></sec><sec id="s2f"><title>Proteins That Antagonize Homologous Recombination</title><p>Another way of increasing the frequency of homologous recombination without making changes in the recombination machinery is to eliminate the function of antirecombinant proteins. We tested whether there are associations between the losses of presynaptic systems and the losses of antirecombinant proteins, such as UvrD, MutS1L, MutS2, and SbcB genes. UvrD is nearly ubiquitous. The presence of MutS1L correlates with the presence of RecBCD/AddAB and RecFOR (RecBCD/AddAB: observed 102, expected 69; RecFOR: observed 91, expected 80; both <italic>p</italic> &#x0003c; 0.005, Pearson's exact test). This suggests that a lower activity of RecA in the absence of presynaptic systems can be compensated for by the loss of the mismatch repair system. Contrary to MutS1, MutS2 is not involved in mismatch repair and suppresses homologous recombination between identical sequences, in addition to homeologous recombination, in <italic>H. pylori</italic> [<xref rid="pgen-0010015-b60" ref-type="bibr">60</xref>]. However, no significant association was found between the presence or absence of MutS2 and that of the presynaptic systems. As the <italic>H. pylori</italic> enzyme is the only MutS2 that has been studied in detail so far, it is possible that the antirecombination property of this MutS2 protein is specific for this species.</p><p>SbcB, which in RecBC<sup>&#x02212;</sup> backgrounds prevents the repair of double-strand breaks by RecFOR, has a statistically significant pattern of co-occurrence and co-omission with RecBCD/AddAB (observed 63, expected 53, <italic>p</italic> &#x0003c; 0.01, Pearson's exact test), but not with RecFOR (<italic>p</italic> &#x0003e; 0.1, same test). In fact, only one of the bacteria lacking RecBC/AddAB contains SbcB. This indicates that the absence (presence) of RecBCD/AddAB is correlated with the absence (presence) of this antirecombinant gene, which may allow RecFOR to efficiently repair double-strand breaks in RecBCD<sup>&#x02212;</sup>/AddAB<sup>&#x02212;</sup> backgrounds. SbcCD is much more frequent than SbcB and also co-occurs with RecBCD/AddAB (observed 64, expected 52, <italic>p</italic> &#x0003c; 0.01, Pearson's exact test). However, the role of SbcCD in homologous recombination is unclear.</p></sec><sec id="s2g"><title>Colocalization of Genes</title><p>Genes involved in a common mechanism tend to be tightly coregulated and, for this reason, clustered in the genome [<xref rid="pgen-0010015-b65" ref-type="bibr">65</xref>]. We have therefore searched for the colocalization of these genes among our set of genomes. With few exceptions, we found that only the recombination genes that are part of stable complexes are systematically clustered. The <italic>addAB</italic> genes colocalize in 20 of 21 co-occurrences among firmicutes, the exception being <italic>Clostridium tetani</italic>. Among proteobacteria these genes are together in 13 of 13 genomes. The three genes for RecBCD were found to colocalize in 28 of their 31 co-occurrences. RuvA and RuvB colocalized in 77 of 111 co-occurrences, with exceptions including all chlamydiacea, all cyanobacteria, all &#x0025b;-proteobacteria, all streptococci, all bacteroides, and most spirochetes, as well as a few phylogenetically dispersed genomes. RuvA, RuvB, and RuvC colocalized in 45 of 78 co-occurrences of the three genes. In firmicutes and mollicutes, RuvC is replaced by RecU, but this gene only colocalizes with RuvAB in two genomes (<italic>Mycoplasma genitalium</italic> and <italic>M. pneumoniae</italic>). Thus, RecU and RuvC are very different in this respect. YqgF was rarely found close to other recombination genes. The two key genes for NHEJ (Ku and the ligase) were found together in 19 of 24 genomes. Naturally, as for the co-occurrence of genes in genomes, the closeness of their co-occurrence is influenced by the phylogenetic distribution of the available genomes. Close occurrence of genes in highly sampled clades, e.g., firmicutes or proteobacteria, will be more preeminent than in clades with few available sequences.</p><p>RecA and RecX are close in many genomes and are partly coexpressed in <italic>E. coli</italic> [<xref rid="pgen-0010015-b66" ref-type="bibr">66</xref>]. In some bacteria, the overexpression of RecA is toxic in the absence of RecX, and in vitro, RecX modulates the action of RecA by blocking the extension of the RecA filament [<xref rid="pgen-0010015-b67" ref-type="bibr">67</xref>]. However, although in <italic>E. coli</italic> RecX inhibits the action of RecA [<xref rid="pgen-0010015-b68" ref-type="bibr">68</xref>], in <italic>Neisseria gonorrhoeae</italic> its inactivation leads to a decrease in homologous recombination [<xref rid="pgen-0010015-b66" ref-type="bibr">66</xref>]. Expanding previous observations [<xref rid="pgen-0010015-b69" ref-type="bibr">69</xref>], we found that 35 of the 37 co-occurrences of bona fide orthologs of <italic>recX</italic> colocalize with <italic>recA</italic>. The exceptions are <italic>N. meningitidis</italic> and <italic>Photorhabdus luminescens</italic>. In contrast, very few genes among the more distantly related, putative <italic>recX</italic> orthologs are physically close to <italic>recA</italic> genes. In particular, the putative <italic>recX</italic> of firmicutes are systematically far in the chromosome from <italic>recA</italic>. The proteins coded by these genes are larger and less than 40% similar to the RecX from <italic>E. coli</italic> and from actinobacteria. It is thus uncertain whether they perform the same function. However, RecX also shows large relative variations in length among well-characterized orthologs (e.g., among &#x003b3;-proteobacteria the <italic>E. coli</italic> protein has 166 residues, whereas in <italic>Yersinia pestis</italic> it has 188, and in <italic>Shewanella oneidensis</italic> it has 123). It has been suggested that the uncoupling between <italic>recA</italic> and the putative <italic>recX</italic> in <italic>N. gonorrhoeae</italic> and <italic>B. subtilis</italic> could be associated with their competence for natural transformation [<xref rid="pgen-0010015-b66" ref-type="bibr">66</xref>]. However, such uncoupling is a characteristic of all firmicutes, not specifically of the competent ones, and it is not found in other competent bacteria such as <italic>Haemophilus influenzae</italic> or <italic>H. pylori</italic> (which lacks RecX).</p><p>Although <italic>recF, recR,</italic> and <italic>recO</italic> do not colocalize, both <italic>recF</italic> and <italic>recR</italic> often colocalize with genes coding for replication proteins. Many genomes have an operon close to the replication origin containing four genes: <italic>dnaA</italic> (involved in replication initiation), <italic>dnaN</italic> (&#x003b2;-clamp of the DNA polymerase III), <italic>recF,</italic> and <italic>gyrB</italic> (DNA gyrase) [<xref rid="pgen-0010015-b70" ref-type="bibr">70</xref>]. Among the 86 occurrences of <italic>recF,</italic> it is close to <italic>dnaA</italic> in 54, close to <italic>dnaN</italic> in 58, and close to <italic>gyrB</italic> in 52. The four genes are together in 40 genomes. Finally, the <italic>dnaX</italic> gene, which encodes both the &#x003c4; and &#x003b3; subunits of <italic>E. coli</italic> DNA polymerase III, is close to <italic>recR</italic> in <italic>E. coli,</italic> and the genes are partially cotranscribed [<xref rid="pgen-0010015-b71" ref-type="bibr">71</xref>]. Among the 97 genomes containing <italic>dnaX</italic> and <italic>recR,</italic> the genes colocalize in 65. These results indicate that instead of clustering together, recombination genes that are not part of stable complexes are often colocalized with genes involved in replication. The linkage between genes of these two cellular processes is certainly associated with the role of homologous recombination in repairing DNA lesions that block DNA synthesis [<xref rid="pgen-0010015-b72" ref-type="bibr">72</xref>,<xref rid="pgen-0010015-b73" ref-type="bibr">73</xref>].</p></sec><sec id="s2h"><title>Relative Evolutionary Rates of the Proteins</title><p>The substitution rate of proteins is the result of the interplay between mutation and functional constraints. Hence, if one discounts horizontal gene transfer, the differences in substitution rates between proteins should reflect their relative tolerance to change (i.e., they should be associated with the fraction of changes that allows maintaining the function). To assess the relative tolerance of each recombination protein to changes, we computed evolutionary distances within the sets of all bona fide orthologs, using Tree-Puzzle [<xref rid="pgen-0010015-b74" ref-type="bibr">74</xref>]. We then used RecA as the reference protein because of its near ubiquity and slow evolutionary rate [<xref rid="pgen-0010015-b42" ref-type="bibr">42</xref>]. The regression analyses of the substitution rates of each protein as a function of the substitution rate of RecA showed one single group in which RecA evolves faster&#x02014;the mollicutes (data not shown). We have thus not used these points in the regressions. All other proteins were then compared to RecA, and we found a considerable diversity among the different proteins in terms of substitution rates (<xref ref-type="fig" rid="pgen-0010015-g005">Figure 5</xref>). A more developed version of this method has recently been proposed to find horizontal gene transfer between distant taxa [<xref rid="pgen-0010015-b75" ref-type="bibr">75</xref>]. Using our data, we found very little evidence of such events (data not shown). RuvB has evolved almost as slowly as RecA (16% faster), whereas some proteins have evolved a little faster, such as RecR (+68%) and RecU (+100%). However, most proteins have evolved much faster than RecA. Among these, there is a group of proteins that has evolved between 4.0 and 4.5 times faster than RecA and that includes RecB, RecD, RecX, AddA, AddB, YqgF, and RecO. Because RecD is divided in two groups, these data only include the RecD proteins that are in the group of genomes containing RecBC (i.e., RecD1).</p><fig id="pgen-0010015-g005" position="float"><label>Figure 5</label><caption><title>Regression Lines of the Substitution Rates of the Recombination Proteins Plotted against the Substitution Rates of RecA</title><p>RecA is the slowest and most ubiquitous of these proteins and its substitution rates are the <italic>x</italic>-axis of the plot (dashed lines indicate the RecA identity line). The regression was forced to pass through zero at intercept, and the slopes of the lines indicate the relative rapidity of the protein's evolution relative to that of RecA (varies from 1.3 for RuvB to 4.4 to RecB); the points associated with mollicutes were removed because we found these to evolve proportionally faster in RecA than in the other proteins.</p></caption><graphic xlink:href="pgen.0010015.g005"/></fig><p>The proteins of the RecFOR pathway have a peculiar evolutionary pattern. In addition to being present with very different frequency, with RecF being more frequently absent than RecR or RecO, they also show remarkably different substitution rates, with high conservation for RecR, lower conservation for RecF, and among the lowest conservation for RecO (<xref ref-type="fig" rid="pgen-0010015-g005">Figure 5</xref>). This may be the result of the double participation of RecR in interactions with RecO and RecF, which would increase the constraints on its evolution. The crystal structure of the <italic>D. radiodurans</italic> RecR protein reveals the existence of a ring-shaped tetramer, theoretically able to encircle dsDNA [<xref rid="pgen-0010015-b76" ref-type="bibr">76</xref>]. This particular clamp-like structure may also have contributed to the high level of conservation of the protein.</p><p>It's interesting to note that among the fastest-evolving proteins, some are nearly ubiquitous (RecD and YqgF), and some are much rarer (RecB and AddAB). This suggests that few proteins have been missed in the analysis as a result of excessive sequence divergence. We made a set of simulations to assess this problem more precisely. We allowed protein sequences to evolve according to the evolutionary model of RecA, but at a different relative rates (see <xref ref-type="sec" rid="s3">Materials and Methods</xref>). This analysis showed that only proteins evolving more than four times faster than RecA are expected to be missed in our similarity searches at this evolutionary distance and using our 40% similarity criterion (<xref ref-type="fig" rid="pgen-0010015-g006">Figure 6</xref>). Even for proteins evolving 5.5 times faster than RecA, in none of our 100 simulations would we miss more than six orthologs. These orthologs were systematically in the fast-evolving mollicutes clade. Naturally, this is an oversimplification of the evolution of proteins, because proteins evolve in a changing context, and this may change their relative rates of evolution. In addition, these analyses do not take into account that insertions and deletions may be more frequent in some proteins than in others. Yet they indicate that few homologous genes are expected to have been lost in the present analysis as a result of excessive sequence divergence.</p><fig id="pgen-0010015-g006" position="float"><label>Figure 6</label><caption><title>Results of the Simulations of Protein Evolution following the Phylogenetic Tree of RecA Using the JTT+&#x00393; Model with Eight Classes and an &#x003b1; of 0.59</title><p>We used Seq-Gen to evolve protein sequences with regularly spaced scaling factors (100 experiments for each scaling factor) and analyzed for each experience which sequences showed less than 40% similarity.</p></caption><graphic xlink:href="pgen.0010015.g006"/></fig></sec><sec id="s2i"><title>Conclusion</title><p>The presynaptic role of RecBCD and RecFOR and the branch migration activity of RuvAB and RecG suggest functional redundancy, whereas, in contrast, the patterns of co-occurrence of these systems agree with the experimental works indicating complementary, and not redundant, roles for these proteins. Interestingly, this work also indicates that the RecFOR pathway may be more conspicuously important among bacteria than RecBCD, as it is significantly more frequent. RecR is the most conserved of the three proteins, and understanding how recombination is promoted in the organisms that encode a RecR homolog but do not have RecF or RecO would help understand the functioning of these recombination mediator proteins. The associations of <italic>recR</italic> and <italic>recF</italic> with genes involved in replication are often conserved, suggesting that the close association between replication and recombination observed in <italic>E. coli</italic> is common to most bacteria.</p><p>A central tenet of current genomic studies is the possibility of associating gene content with phenotype variation. Because the abundance of repeats in genomes correlates well with rearrangement rates and with the capacity of generating genetic variation [<xref rid="pgen-0010015-b08" ref-type="bibr">8</xref>,<xref rid="pgen-0010015-b09" ref-type="bibr">9</xref>], and because repeats are cause and consequence of recombination processes, one could expect an association between the repertoire of recombination genes and the number of repeats. We were unable to observe such a correlation. Indeed, except for genomes lacking RecA and resolvases (which are stable, have few repeats, and possibly lack homologous recombination), bacteria known to recombine frequently may either have a complete repertoire of known recombination genes or lack a substantial part of it. A striking example of the latter is provided by <italic>H. pylori</italic> [<xref rid="pgen-0010015-b77" ref-type="bibr">77</xref>], which is highly recombinogenic, although it lacks most presynaptic proteins and has antirecombinants such as UvrD and MutS2. In addition, at the intraspecies level, the differences in the population structure do not correlate with the genome content in recombination proteins. For example, serogroup A of <italic>N. meningitidis</italic> is mostly clonal, contrary to the majority of the others [<xref rid="pgen-0010015-b78" ref-type="bibr">78</xref>]. However, we found that both serotypes A [<xref rid="pgen-0010015-b79" ref-type="bibr">79</xref>] and B [<xref rid="pgen-0010015-b80" ref-type="bibr">80</xref>] have the same almost complete repertoire of homologous recombination proteins. Hence, associations between stability of a genome and the lack of some recombination proteins, as was proposed for <italic>Bifidobacterium longum</italic> [<xref rid="pgen-0010015-b81" ref-type="bibr">81</xref>] and <italic>Corynebacterium</italic> species [<xref rid="pgen-0010015-b38" ref-type="bibr">38</xref>], must be viewed with exceptional care before experimental confirmation.</p><p>The reasons for this lack of simple association between genotype and phenotype are probably multiple. Orthologs do not necessarily have the same exact functionalities and are likely to have different levels of activity. For example, presynaptic systems may be less necessary if the affinity of RecA for ssDNA is higher. The frequency of recombination events may also depend on the implication of recombination proteins in different cellular processes. For example, the coupling of recombination and replication may depend on the replication machinery and on the frequency of replication arrest. Specific genetic regulatory systems may also lead to different rates of recombination. For example, the onset of competence may be differently related in various organisms with cell growth and with the level of expression of recombination enzymes. Also, equivalent cellular processes may be associated with different enzymatic systems. For example, in neisserial species and <italic>E. coli,</italic> transformation-associated recombination takes place through the RecBCD pathway, whereas in <italic>B. subtilis,</italic> chromosomal transformation decreases 2.5-fold in a <italic>recO</italic> mutant [<xref rid="pgen-0010015-b82" ref-type="bibr">82</xref>], and in streptococci, AddAB is not involved in chromosome transformation [<xref rid="pgen-0010015-b83" ref-type="bibr">83</xref>], possibly because in competent firmicutes only ssDNA enters the cell. In contrast, in the competent <italic>Helicobacter</italic> and <italic>Campylobacter</italic> species, all these genes but RecR are absent. One could also expect that recombination activity is also constrained by ecological factors. Endosymbionts live in very protected environments, and this, associated with reductive genome evolution, has led to the loss of recombination functions [<xref rid="pgen-0010015-b36" ref-type="bibr">36</xref>,<xref rid="pgen-0010015-b37" ref-type="bibr">37</xref>]. However, apart from this case, we could not find any other obvious association between lifestyle and the presence or absence of recombination proteins, which once again is in agreement with the inherent housekeeping role of homologous recombination.</p><p>This housekeeping role of homologous recombination is probably also why we found little evidence of horizontal transfer among these genes. Genes implicated in the generation of genetic variation tend to be frequently horizontally transferred [<xref rid="pgen-0010015-b84" ref-type="bibr">84</xref>,<xref rid="pgen-0010015-b85" ref-type="bibr">85</xref>], but not housekeeping genes involved in managing genetic information [<xref rid="pgen-0010015-b86" ref-type="bibr">86</xref>]. Interestingly, multilocus sequence data also indicate that RecA rarely recombines among strains of the same species [<xref rid="pgen-0010015-b87" ref-type="bibr">87</xref>,<xref rid="pgen-0010015-b88" ref-type="bibr">88</xref>]. This does not mean that horizontal transfer is altogether absent. Such events are the most parsimonious explanation for the existence of some analogous replacements, such as AddAB among proteobacteria or RuvC in <italic>Thermoanaerobacter tengcongensis</italic>. They are also probably responsible for the sporadic occurrence of NHEJ in different phylogenetic groups. In addition, given the frequency of prophage sequences in bacterial genomes [<xref rid="pgen-0010015-b89" ref-type="bibr">89</xref>], and the many phage-encoded recombination systems, recombination genes of known phage origin, which have not been included in this study, may also play a role in the variations of recombination mechanisms.</p><p>Our study defines a core of recombination genes coding for proteins nearly ubiquitous in bacterial species. These include the genes that encode RecA (which has a homolog among eukaryotes), RuvAB, RecR, RuvC/RecU, and to a minor extent RecG, RecN, RecJ, and PriA. These genes are present in nearly all bacterial groups and show little horizontal transfer. This justifies the use of such proteins as phylogenetic markers [<xref rid="pgen-0010015-b43" ref-type="bibr">43</xref>]. Their widespread distribution demonstrates their importance in bacteria and justifies the emphasis on their detailed biochemical and functional study.</p></sec></sec><sec id="s3"><title>Materials and Methods</title><sec id="s3a"><title>Data.</title><p>We analyzed the genomes of 117 different bacterial species (see <xref ref-type="fig" rid="pgen-0010015-g002">Figure 2</xref>), taken from GenBank Genomes (<ext-link ext-link-type="ftp" xlink:href="ftp://ftp.ncbi.nih.gov/genomes/Bacteria/">ftp://ftp.ncbi.nih.gov/genomes/Bacteria/</ext-link>). The list of proteins related to homologous recombination was taken from the literature [<xref rid="pgen-0010015-b13" ref-type="bibr">13</xref>,<xref rid="pgen-0010015-b24" ref-type="bibr">24</xref>] and included RecA, RecB, RecC, RecD, RecF, RecG, RecJ, RecN, RecO, RecQ, RecR, RecU, RecX, RuvA, RuvB, RuvC, AddA (RexA), AddB (RexB), and PriA. Their function is summarized in <xref ref-type="fig" rid="pgen-0010015-g001">Figure 1</xref>. Proteins such as RecE, RecT, and RusA were not analyzed because they were found to be very rare in bacterial genomes and are associated with prophages [<xref rid="pgen-0010015-b13" ref-type="bibr">13</xref>]. In addition, we included the antirecombination proteins SbcB, SbcC, SbcD<italic>,</italic> MutS1, MutS2, MutL, and UvrD; the putative resolvase YqgF [<xref rid="pgen-0010015-b47" ref-type="bibr">47</xref>]; and the Ku and ligase genes responsible for nonhomologous end joining in some bacteria [<xref rid="pgen-0010015-b52" ref-type="bibr">52</xref>].</p></sec><sec id="s3b"><title>Assignment of orthology.</title><p>One should note that many recombination genes belong to large protein families, such as helicases [<xref rid="pgen-0010015-b90" ref-type="bibr">90</xref>] or nucleases [<xref rid="pgen-0010015-b47" ref-type="bibr">47</xref>]. Hence, simple sequence similarity is not an indication of orthology. Assignment of orthology followed an automated step and then manual curation. The automatic method was the following. We started from the protein in <italic>E. coli</italic> (except for AddAB, MutS2, Ku, and RecU, where we started from <italic>B. subtilis</italic>) and searched for orthology in all other genomes. Genes were regarded as potential orthologs if they were bidirectional best hits with at least 40% similarity in sequence and their sequences were less than 30% different in length. The alignments were done using an adapted version of the Neddleman-Wusch algorithm (global alignment), in which the nonaligned edges of the largest sequence are not penalized [<xref rid="pgen-0010015-b91" ref-type="bibr">91</xref>], using the matrix BLOSUM60 and typical gap penalties. For comparison, we also made FASTA searches, because they allow for the detection of more local similarities [<xref rid="pgen-0010015-b92" ref-type="bibr">92</xref>]. Then we took the less similar protein hit, respecting the previously cited conditions as a query, and relaunched the analysis on the entire set of genomes with the same parameters. The proteins resulting from the intersection of these lists were temporarily regarded as bona fide orthologs. The other proteins were put together with the ones showing significant FASTA hits (<italic>E</italic> &#x0003c; 10<sup>&#x02212;5</sup>) on the other genomes, as well as the ones originally annotated as orthologs (but not respecting the above conditions). We then searched for significant motifs in this set of proteins, using the InterPro database (<ext-link ext-link-type="uri" xlink:href="http://www.ebi.ac.uk/interpro/">http://www.ebi.ac.uk/interpro/</ext-link>) and visually analyzed and corrected multiple alignments. The proteins showing alignments with more than 40% similarity with bona fide orthologs were kept. When the alignments were within the range of 37%&#x02013;40% similarity and did not show excessive gaps, and the proteins respected the 30% difference in length criterion or had significant InterPro motifs, the proteins were classed as putative. The bona fide orthologs were then aligned and phylogenetic distances computed as described below. The final list of &#x0201c;bona fide orthologs&#x0201d; took into account not only sequence similarity searches but also the phylogenetic information and colocalization data, as recommended [<xref rid="pgen-0010015-b93" ref-type="bibr">93</xref>].</p></sec><sec id="s3c"><title>Phylogenetic analyses and simulations of protein evolution.</title><p>Orthologs were aligned using ClustalW [<xref rid="pgen-0010015-b94" ref-type="bibr">94</xref>] and checked with Seaview [<xref rid="pgen-0010015-b95" ref-type="bibr">95</xref>]. Phylogenetic distances between the orthologous proteins were computed using Tree-Puzzle [<xref rid="pgen-0010015-b74" ref-type="bibr">74</xref>], with the JTT+&#x00393; model with eight classes. For this analysis, and because we wanted to assess evolutionary rates, we removed only the regions with extended gaps from the multiple alignments. Phylogenetic trees were built using the same model with Phyml [<xref rid="pgen-0010015-b96" ref-type="bibr">96</xref>]. We used Seq-Gen [<xref rid="pgen-0010015-b97" ref-type="bibr">97</xref>] to generate 1,000 proteins with 1,000 residues, having the average amino acid composition of the JTT substitution matrix. The sequences were made to evolve along the RecA phylogenetic tree (which is largely congruent with the 16S rDNA tree [<xref rid="pgen-0010015-b42" ref-type="bibr">42</xref>]), using scaling factors in the range 0.5 to 6 (the fastest protein was found to evolve at less than 4.5 times the rate of RecA), and with the evolutionary model used to build the RecA tree. Each time, we used the evolved sequences to make global alignments and compute the similarity. For each experience, we counted how many genes had more than 40% and more than 37% similarity with the <italic>E. coli</italic> gene. This allowed the assessment of the number of orthologs that may be missed by the automatic similarity search part of the methods as a result of excessive sequence divergence.</p></sec><sec id="s3d"><title>Colocalization analysis.</title><p>Two genes were considered to closely co-occur if they were fewer than five genes away in a genome. A third gene is in close co-occurrence with the latter two if it is less than five genes away from at least one of the two genes. One should note that the average operon in <italic>E. coli</italic> and <italic>B. subtilis</italic> has fewer than five genes [<xref rid="pgen-0010015-b98" ref-type="bibr">98</xref>]. We started by analyzing the co-occurrence of the orthologs of the <italic>E. coli</italic> recombination genes. Then we did the same with the orthologs of <italic>B. subtilis</italic> genes that have no orthologue in <italic>E. coli</italic>. Finally, we analyzed particular cases described in the literature: the occurrence of <italic>recF</italic> in the <italic>dnaA</italic> region [<xref rid="pgen-0010015-b70" ref-type="bibr">70</xref>] and the co-occurrence of <italic>recR</italic> with <italic>dnaX</italic> [<xref rid="pgen-0010015-b71" ref-type="bibr">71</xref>], and <italic>recX</italic> with <italic>recA</italic> [<xref rid="pgen-0010015-b69" ref-type="bibr">69</xref>].</p></sec></sec></body><back><ack><p>Meriem El Karoui, Ivan Matic, Vincent Daubin, and two anonymous reviewers provided important comments and criticisms on this manuscript. Alain Blanchard and Pascal Sirand-Pugnet provided important input and thoughts on recombination in mollicutes.</p></ack><fn-group><fn id="ack1" fn-type="COI-statement"><p>
+<bold>Competing interests.</bold> The authors have declared that no competing interests exist.</p></fn><fn id="ack2" fn-type="con"><p>
+<bold>Author contributions.</bold> EPCR conceived and designed the experiments. EPCR and EC performed the experiments. EPCR, EC, and BM analyzed the data. EPCR and BM wrote the paper.</p></fn></fn-group><glossary><title>Abbreviations</title><def-list><def-item><term>dsDNA</term><def><p>double-stranded DNA</p></def></def-item><def-item><term>NHEJ</term><def><p>nonhomologous end-joining mechanism</p></def></def-item><def-item><term>OY</term><def><p>Onion Yellows</p></def></def-item><def-item><term>ssDNA</term><def><p>single-stranded DNA</p></def></def-item></def-list></glossary><ref-list><title>References</title><ref id="pgen-0010015-b01"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kuzminov</surname><given-names>A</given-names></name></person-group>
+<year>1999</year>
+<article-title>Recombinational repair of DNA damage in <italic>Escherichia coli</italic> and bacteriophage lambda</article-title>
+<source>Microbiol Mol Biol Rev</source>
+<volume>63</volume>
+<fpage>751</fpage>
+<lpage>813</lpage>
+<pub-id pub-id-type="pmid">10585965</pub-id></element-citation></ref><ref id="pgen-0010015-b02"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Michel</surname><given-names>B</given-names></name><name><surname>Grompone</surname><given-names>G</given-names></name><name><surname>Flor&#x000e8;s</surname><given-names>MJ</given-names></name><name><surname>Bidnenko</surname><given-names>V</given-names></name></person-group>
+<year>2004</year>
+<article-title>Multiple pathways process stalled replication forks</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>101</volume>
+<fpage>12783</fpage>
+<lpage>12788</lpage>
+<pub-id pub-id-type="pmid">15328417</pub-id></element-citation></ref><ref id="pgen-0010015-b03"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Smith</surname><given-names>GR</given-names></name></person-group>
+<year>1991</year>
+<article-title>Conjugational recombination in <italic>E. coli:</italic> Myths and mechanisms</article-title>
+<source>Cell</source>
+<volume>64</volume>
+<fpage>19</fpage>
+<lpage>27</lpage>
+<pub-id pub-id-type="pmid">1986865</pub-id></element-citation></ref><ref id="pgen-0010015-b04"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lorenz</surname><given-names>MG</given-names></name><name><surname>Wackernagel</surname><given-names>W</given-names></name></person-group>
+<year>1994</year>
+<article-title>Bacterial gene transfer by natural genetic transformation in the environment</article-title>
+<source>Microbiol Rev</source>
+<volume>58</volume>
+<fpage>563</fpage>
+<lpage>602</lpage>
+<pub-id pub-id-type="pmid">7968924</pub-id></element-citation></ref><ref id="pgen-0010015-b05"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Feil</surname><given-names>EJ</given-names></name></person-group>
+<year>2004</year>
+<article-title>Small change: Keeping pace with microevolution</article-title>
+<source>Nat Rev Microbiol</source>
+<volume>2</volume>
+<fpage>483</fpage>
+<lpage>495</lpage>
+<pub-id pub-id-type="pmid">15152204</pub-id></element-citation></ref><ref id="pgen-0010015-b06"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Otto</surname><given-names>SP</given-names></name><name><surname>Michalakis</surname><given-names>Y</given-names></name></person-group>
+<year>1998</year>
+<article-title>The evolution of recombination in changing environments</article-title>
+<source>Trends Ecol Evol</source>
+<volume>13</volume>
+<fpage>145</fpage>
+<lpage>151</lpage>
+<pub-id pub-id-type="pmid">21238235</pub-id></element-citation></ref><ref id="pgen-0010015-b07"><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Hughes</surname><given-names>D</given-names></name></person-group>
+<year>1999</year>
+<article-title>Impact of homologous recombination on genome organization and stability</article-title>
+<person-group person-group-type="editor"><name><surname>Charlebois</surname><given-names>RL</given-names></name></person-group>
+<source>Organization of the prokaryotic genome</source>
+<publisher-loc>Washington (DC)</publisher-loc>
+<publisher-name>ASM Press</publisher-name>
+<fpage>109</fpage>
+<lpage>128</lpage>
+</element-citation></ref><ref id="pgen-0010015-b08"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rocha</surname><given-names>EPC</given-names></name></person-group>
+<year>2004</year>
+<article-title>Order and disorder in bacterial genomes</article-title>
+<source>Curr Opin Microbiol</source>
+<volume>7</volume>
+<fpage>519</fpage>
+<lpage>527</lpage>
+<pub-id pub-id-type="pmid">15451508</pub-id></element-citation></ref><ref id="pgen-0010015-b09"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rocha</surname><given-names>EPC</given-names></name></person-group>
+<year>2003</year>
+<article-title>DNA repeats lead to the accelerated loss of gene order in bacteria</article-title>
+<source>Trends Genet</source>
+<volume>19</volume>
+<fpage>600</fpage>
+<lpage>604</lpage>
+<pub-id pub-id-type="pmid">14585609</pub-id></element-citation></ref><ref id="pgen-0010015-b10"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Finlay</surname><given-names>BB</given-names></name><name><surname>Falkow</surname><given-names>S</given-names></name></person-group>
+<year>1997</year>
+<article-title>Common themes in microbial pathogenicity revisited</article-title>
+<source>Microbiol Mol Biol Rev</source>
+<volume>61</volume>
+<fpage>136</fpage>
+<lpage>169</lpage>
+<pub-id pub-id-type="pmid">9184008</pub-id></element-citation></ref><ref id="pgen-0010015-b11"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mehr</surname><given-names>IJ</given-names></name><name><surname>Seifert</surname><given-names>HS</given-names></name></person-group>
+<year>1998</year>
+<article-title>Differential roles of homologous recombination pathways in <italic>Neisseria gonorrhoeae</italic> pilin antigenic variation, DNA transformation, and DNA repair</article-title>
+<source>Mol Microbiol</source>
+<volume>30</volume>
+<fpage>697</fpage>
+<lpage>710</lpage>
+<pub-id pub-id-type="pmid">10094619</pub-id></element-citation></ref><ref id="pgen-0010015-b12"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rocha</surname><given-names>EPC</given-names></name><name><surname>Blanchard</surname><given-names>A</given-names></name></person-group>
+<year>2002</year>
+<article-title>Genomic repeats, genome plasticity and the dynamics of <italic>Mycoplasma</italic> evolution</article-title>
+<source>Nucleic Acids Res</source>
+<volume>30</volume>
+<fpage>2031</fpage>
+<lpage>2042</lpage>
+<pub-id pub-id-type="pmid">11972343</pub-id></element-citation></ref><ref id="pgen-0010015-b13"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kowalczykowski</surname><given-names>SC</given-names></name><name><surname>Dixon</surname><given-names>DA</given-names></name><name><surname>Eggleston</surname><given-names>AK</given-names></name><name><surname>Lauder</surname><given-names>SD</given-names></name><name><surname>Rehrauer</surname><given-names>WM</given-names></name></person-group>
+<year>1994</year>
+<article-title>Biochemistry of homologous recombination in <italic>Escherichia coli</italic>
+</article-title>
+<source>Microbiol Rev</source>
+<volume>58</volume>
+<fpage>401</fpage>
+<lpage>465</lpage>
+<pub-id pub-id-type="pmid">7968921</pub-id></element-citation></ref><ref id="pgen-0010015-b14"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cox</surname><given-names>MM</given-names></name></person-group>
+<year>2002</year>
+<article-title>Historical overview: Searching for replication help in all the rec places</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>98</volume>
+<fpage>8173</fpage>
+<lpage>8180</lpage>
+</element-citation></ref><ref id="pgen-0010015-b15"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Konforti</surname><given-names>BB</given-names></name><name><surname>Davis</surname><given-names>RW</given-names></name></person-group>
+<year>1990</year>
+<article-title>The preference for a 3&#x02032; homologous end is intrinsic to RecA-promoted strand exchange</article-title>
+<source>J Biol Chem</source>
+<volume>265</volume>
+<fpage>6916</fpage>
+<lpage>6920</lpage>
+<pub-id pub-id-type="pmid">2182632</pub-id></element-citation></ref><ref id="pgen-0010015-b16"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Singleton</surname><given-names>MR</given-names></name><name><surname>Dillingham</surname><given-names>MS</given-names></name><name><surname>Gaudier</surname><given-names>M</given-names></name><name><surname>Kowalczykowski</surname><given-names>SC</given-names></name><name><surname>Wigley</surname><given-names>DB</given-names></name></person-group>
+<year>2004</year>
+<article-title>Crystal structure of RecBCD enzyme reveals a machine for processing DNA breaks</article-title>
+<source>Nature</source>
+<volume>432</volume>
+<fpage>187</fpage>
+<lpage>193</lpage>
+<pub-id pub-id-type="pmid">15538360</pub-id></element-citation></ref><ref id="pgen-0010015-b17"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kowalczykowski</surname><given-names>SC</given-names></name></person-group>
+<year>2000</year>
+<article-title>Initiation of genetic recombination and recombination-dependent replication</article-title>
+<source>Trends Biochem Sci</source>
+<volume>25</volume>
+<fpage>156</fpage>
+<lpage>165</lpage>
+<pub-id pub-id-type="pmid">10754547</pub-id></element-citation></ref><ref id="pgen-0010015-b18"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Webb</surname><given-names>BL</given-names></name><name><surname>Cox</surname><given-names>MM</given-names></name><name><surname>Inman</surname><given-names>RB</given-names></name></person-group>
+<year>1997</year>
+<article-title>Recombinational DNA repair: The RecF and RecR proteins limit the extension of RecA filaments beyond single-strand DNA gaps</article-title>
+<source>Cell</source>
+<volume>91</volume>
+<fpage>347</fpage>
+<lpage>356</lpage>
+<pub-id pub-id-type="pmid">9363943</pub-id></element-citation></ref><ref id="pgen-0010015-b19"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Morimatsu</surname><given-names>K</given-names></name><name><surname>Kowalczykowski</surname><given-names>SC</given-names></name></person-group>
+<year>2003</year>
+<article-title>RecFOR proteins load RecA protein onto gapped DNA to accelerate DNA strand exchange: A universal step of recombinational repair</article-title>
+<source>Mol Cell</source>
+<volume>11</volume>
+<fpage>1337</fpage>
+<lpage>1347</lpage>
+<pub-id pub-id-type="pmid">12769856</pub-id></element-citation></ref><ref id="pgen-0010015-b20"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lusetti</surname><given-names>SL</given-names></name><name><surname>Cox</surname><given-names>MM</given-names></name></person-group>
+<year>2002</year>
+<article-title>The bacterial RecA protein and the recombinational DNA repair of stalled replication forks</article-title>
+<source>Annu Rev Biochem</source>
+<volume>2002</volume>
+<fpage>71</fpage>
+<lpage>100</lpage>
+</element-citation></ref><ref id="pgen-0010015-b21"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Goodman</surname><given-names>MF</given-names></name><name><surname>Tippin</surname><given-names>B</given-names></name></person-group>
+<year>2000</year>
+<article-title>Sloppier copier DNA polymerases involved in genome repair</article-title>
+<source>Curr Opin Genet Dev</source>
+<volume>10</volume>
+<fpage>162</fpage>
+<lpage>168</lpage>
+<pub-id pub-id-type="pmid">10753775</pub-id></element-citation></ref><ref id="pgen-0010015-b22"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Marians</surname><given-names>KJ</given-names></name></person-group>
+<year>2000</year>
+<article-title>PriA-directed replication fork restart in <italic>Escherichia coli</italic>
+</article-title>
+<source>Trends Biochem Sci</source>
+<volume>25</volume>
+<fpage>185</fpage>
+<lpage>189</lpage>
+<pub-id pub-id-type="pmid">10754552</pub-id></element-citation></ref><ref id="pgen-0010015-b23"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Polard</surname><given-names>P</given-names></name><name><surname>Marsin</surname><given-names>S</given-names></name><name><surname>McGovern</surname><given-names>S</given-names></name><name><surname>Velten</surname><given-names>M</given-names></name><name><surname>Wigley</surname><given-names>DB</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>Restart of DNA replication in Gram-positive bacteria: Functional characterisation of the <italic>Bacillus subtilis</italic> PriA initiator</article-title>
+<source>Nucleic Acids Res</source>
+<volume>30</volume>
+<fpage>1593</fpage>
+<lpage>1605</lpage>
+<pub-id pub-id-type="pmid">11917020</pub-id></element-citation></ref><ref id="pgen-0010015-b24"><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Dubnau</surname><given-names>D</given-names></name><name><surname>Lovett</surname><given-names>CM</given-names></name></person-group>
+<year>2002</year>
+<article-title>Transformation and recombination</article-title>
+<person-group person-group-type="editor"><name><surname>Sonenshein</surname><given-names>AL</given-names></name><name><surname>Hoch</surname><given-names>JA</given-names></name><name><surname>Losick</surname><given-names>R</given-names></name></person-group>
+<source>Bacillus subtilis and its closest relatives</source>
+<publisher-loc>Washington (DC)</publisher-loc>
+<publisher-name>ASM Press</publisher-name>
+<fpage>453</fpage>
+<lpage>471</lpage>
+</element-citation></ref><ref id="pgen-0010015-b25"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>el Karoui</surname><given-names>M</given-names></name><name><surname>Ehrlich</surname><given-names>D</given-names></name><name><surname>Gruss</surname><given-names>A</given-names></name></person-group>
+<year>1998</year>
+<article-title>Identification of the lactococcal exonuclease/recombinase and its modulation by the putative Chi sequence</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>95</volume>
+<fpage>626</fpage>
+<lpage>631</lpage>
+<pub-id pub-id-type="pmid">9435243</pub-id></element-citation></ref><ref id="pgen-0010015-b26"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>El Karoui</surname><given-names>M</given-names></name><name><surname>Biaudet</surname><given-names>V</given-names></name><name><surname>Schbath</surname><given-names>S</given-names></name><name><surname>Gruss</surname><given-names>A</given-names></name></person-group>
+<year>1999</year>
+<article-title>Characteristics of Chi distribution on different bacterial genomes</article-title>
+<source>Res Microbiol</source>
+<volume>150</volume>
+<fpage>579</fpage>
+<lpage>587</lpage>
+<pub-id pub-id-type="pmid">10672998</pub-id></element-citation></ref><ref id="pgen-0010015-b27"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ayora</surname><given-names>S</given-names></name><name><surname>Carrasco</surname><given-names>B</given-names></name><name><surname>Doncel</surname><given-names>E</given-names></name><name><surname>Lurz</surname><given-names>R</given-names></name><name><surname>Alonso</surname><given-names>JC</given-names></name></person-group>
+<year>2004</year>
+<article-title>
+<italic>Bacillus subtilis</italic> RecU protein cleaves Holliday junctions and anneals single-stranded DNA</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>101</volume>
+<fpage>452</fpage>
+<lpage>457</lpage>
+<pub-id pub-id-type="pmid">14701911</pub-id></element-citation></ref><ref id="pgen-0010015-b28"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Feinstein</surname><given-names>SI</given-names></name><name><surname>Low</surname><given-names>KB</given-names></name></person-group>
+<year>1986</year>
+<article-title>Hyper-recombining recipient strains in bacterial conjugation</article-title>
+<source>Genetics</source>
+<volume>113</volume>
+<fpage>13</fpage>
+<lpage>33</lpage>
+<pub-id pub-id-type="pmid">3519362</pub-id></element-citation></ref><ref id="pgen-0010015-b29"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Vulic</surname><given-names>M</given-names></name><name><surname>Dionisio</surname><given-names>F</given-names></name><name><surname>Taddei</surname><given-names>F</given-names></name><name><surname>Radman</surname><given-names>M</given-names></name></person-group>
+<year>1997</year>
+<article-title>Molecular keys to speciation: DNA polymorphism and the control of genetic exchange in enterobacteria</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>94</volume>
+<fpage>9763</fpage>
+<lpage>9767</lpage>
+<pub-id pub-id-type="pmid">9275198</pub-id></element-citation></ref><ref id="pgen-0010015-b30"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Morel</surname><given-names>P</given-names></name><name><surname>Hejna</surname><given-names>JA</given-names></name><name><surname>Ehrlich</surname><given-names>SD</given-names></name><name><surname>Cassuto</surname><given-names>E</given-names></name></person-group>
+<year>1993</year>
+<article-title>Antipairing and strand transferase activities of <italic>E. coli</italic> helicase II (UvrD)</article-title>
+<source>Nucleic Acids Res</source>
+<volume>21</volume>
+<fpage>3205</fpage>
+<lpage>3209</lpage>
+<pub-id pub-id-type="pmid">8341594</pub-id></element-citation></ref><ref id="pgen-0010015-b31"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Veaute</surname><given-names>X</given-names></name><name><surname>Delmas</surname><given-names>S</given-names></name><name><surname>Selva</surname><given-names>M</given-names></name><name><surname>Jeusset</surname><given-names>J</given-names></name><name><surname>Le Cam</surname><given-names>E</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>UvrD helicase, unlike Rep helicase, dismantles RecA nucleoprotein filaments in <italic>Escherichia coli</italic>
+</article-title>
+<source>EMBO J</source>
+<volume>24</volume>
+<fpage>180</fpage>
+<lpage>189</lpage>
+<pub-id pub-id-type="pmid">15565170</pub-id></element-citation></ref><ref id="pgen-0010015-b32"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mendonca</surname><given-names>VM</given-names></name><name><surname>Matson</surname><given-names>SW</given-names></name></person-group>
+<year>1995</year>
+<article-title>Genetic analysis of delta helD and delta uvrD mutations in combination with other genes in the RecF recombination pathway in <italic>Escherichia coli:</italic> Suppression of a ruvB mutation by a uvrD deletion</article-title>
+<source>Genetics</source>
+<volume>141</volume>
+<fpage>443</fpage>
+<lpage>452</lpage>
+<pub-id pub-id-type="pmid">8647383</pub-id></element-citation></ref><ref id="pgen-0010015-b33"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gibson</surname><given-names>FP</given-names></name><name><surname>Leach</surname><given-names>DR</given-names></name><name><surname>Lloyd</surname><given-names>RG</given-names></name></person-group>
+<year>1992</year>
+<article-title>Identification of sbcD mutations as cosuppressors of recBC that allow propagation of DNA palindromes in <italic>Escherichia coli</italic> K-12</article-title>
+<source>J Bacteriol</source>
+<volume>174</volume>
+<fpage>1222</fpage>
+<lpage>1228</lpage>
+<pub-id pub-id-type="pmid">1531222</pub-id></element-citation></ref><ref id="pgen-0010015-b34"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Eisen</surname><given-names>JA</given-names></name><name><surname>Hanawalt</surname><given-names>PC</given-names></name></person-group>
+<year>1999</year>
+<article-title>A phylogenomic study of DNA repair genes, proteins, and processes</article-title>
+<source>Mutat Res</source>
+<volume>435</volume>
+<fpage>171</fpage>
+<lpage>213</lpage>
+<pub-id pub-id-type="pmid">10606811</pub-id></element-citation></ref><ref id="pgen-0010015-b35"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fraser</surname><given-names>CM</given-names></name><name><surname>Norris</surname><given-names>SJ</given-names></name><name><surname>Weinstock</surname><given-names>GM</given-names></name><name><surname>White</surname><given-names>O</given-names></name><name><surname>Sutton</surname><given-names>GG</given-names></name><etal/></person-group>
+<year>1998</year>
+<article-title>Complete genome sequence of <italic>Treponema pallidum</italic> the syphilis spirochete</article-title>
+<source>Science</source>
+<volume>281</volume>
+<fpage>375</fpage>
+<lpage>388</lpage>
+<pub-id pub-id-type="pmid">9665876</pub-id></element-citation></ref><ref id="pgen-0010015-b36"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Silva</surname><given-names>FJ</given-names></name><name><surname>Latorre</surname><given-names>A</given-names></name><name><surname>Moya</surname><given-names>A</given-names></name></person-group>
+<year>2003</year>
+<article-title>Why are the genomes of endosymbiotic bacteria so stable?</article-title>
+<source>Trends Genet</source>
+<volume>19</volume>
+<fpage>176</fpage>
+<lpage>180</lpage>
+<pub-id pub-id-type="pmid">12683967</pub-id></element-citation></ref><ref id="pgen-0010015-b37"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dale</surname><given-names>C</given-names></name><name><surname>Wang</surname><given-names>B</given-names></name><name><surname>Moran</surname><given-names>N</given-names></name><name><surname>Ochman</surname><given-names>H</given-names></name></person-group>
+<year>2003</year>
+<article-title>Loss of DNA recombinational repair enzymes in the initial stages of genome degeneration</article-title>
+<source>Mol Biol Evol</source>
+<volume>20</volume>
+<fpage>1188</fpage>
+<lpage>1194</lpage>
+<pub-id pub-id-type="pmid">12777518</pub-id></element-citation></ref><ref id="pgen-0010015-b38"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nakamura</surname><given-names>Y</given-names></name><name><surname>Nishio</surname><given-names>Y</given-names></name><name><surname>Ikeo</surname><given-names>K</given-names></name><name><surname>Gojobori</surname><given-names>T</given-names></name></person-group>
+<year>2003</year>
+<article-title>The genome stability in <italic>Corynebacterium</italic> species due to lack of the recombinational repair system</article-title>
+<source>Gene</source>
+<volume>317</volume>
+<fpage>149</fpage>
+<lpage>155</lpage>
+<pub-id pub-id-type="pmid">14604803</pub-id></element-citation></ref><ref id="pgen-0010015-b39"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sicheritz-Ponten</surname><given-names>T</given-names></name><name><surname>Andersson</surname><given-names>SG</given-names></name></person-group>
+<year>2001</year>
+<article-title>A phylogenomic approach to microbial evolution</article-title>
+<source>Nucleic Acids Res</source>
+<volume>29</volume>
+<fpage>545</fpage>
+<lpage>552</lpage>
+<pub-id pub-id-type="pmid">11139625</pub-id></element-citation></ref><ref id="pgen-0010015-b40"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ingleston</surname><given-names>SM</given-names></name><name><surname>Dickman</surname><given-names>MJ</given-names></name><name><surname>Grasby</surname><given-names>JA</given-names></name><name><surname>Hornby</surname><given-names>DP</given-names></name><name><surname>Sharples</surname><given-names>GJ</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>Holliday junction binding and processing by the RuvA protein of <italic>Mycoplasma pneumoniae</italic>
+</article-title>
+<source>Eur J Biochem</source>
+<volume>269</volume>
+<fpage>1525</fpage>
+<lpage>1533</lpage>
+<pub-id pub-id-type="pmid">11874468</pub-id></element-citation></ref><ref id="pgen-0010015-b41"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Della</surname><given-names>M</given-names></name><name><surname>Palmbos</surname><given-names>PL</given-names></name><name><surname>Tseng</surname><given-names>HM</given-names></name><name><surname>Tonkin</surname><given-names>LM</given-names></name><name><surname>Daley</surname><given-names>JM</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Mycobacterial Ku and ligase proteins constitute a two-component NHEJ repair machine</article-title>
+<source>Science</source>
+<volume>306</volume>
+<fpage>683</fpage>
+<lpage>685</lpage>
+<pub-id pub-id-type="pmid">15499016</pub-id></element-citation></ref><ref id="pgen-0010015-b42"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Eisen</surname><given-names>JA</given-names></name></person-group>
+<year>1995</year>
+<article-title>The RecA protein as a model molecule for molecular systematic studies of bacteria: Comparison of trees of RecAs and 16S rRNAs from the same species</article-title>
+<source>J Mol Evol</source>
+<volume>41</volume>
+<fpage>1105</fpage>
+<lpage>1123</lpage>
+<pub-id pub-id-type="pmid">8587109</pub-id></element-citation></ref><ref id="pgen-0010015-b43"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Santos</surname><given-names>SR</given-names></name><name><surname>Ochman</surname><given-names>H</given-names></name></person-group>
+<year>2004</year>
+<article-title>Identification and phylogenetic sorting of bacterial lineages with universally conserved genes and proteins</article-title>
+<source>Environ Microbiol</source>
+<volume>6</volume>
+<fpage>754</fpage>
+<lpage>759</lpage>
+<pub-id pub-id-type="pmid">15186354</pub-id></element-citation></ref><ref id="pgen-0010015-b44"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Shigenobu</surname><given-names>S</given-names></name><name><surname>Watanabe</surname><given-names>H</given-names></name><name><surname>Hattori</surname><given-names>M</given-names></name><name><surname>Sakaki</surname><given-names>Y</given-names></name><name><surname>Ishikawa</surname><given-names>H</given-names></name></person-group>
+<year>2000</year>
+<article-title>Genome sequence of the endocellular bacterial symbiont of aphids <italic>Buchnera</italic> sp. APS</article-title>
+<source>Nature</source>
+<volume>407</volume>
+<fpage>81</fpage>
+<lpage>86</lpage>
+<pub-id pub-id-type="pmid">10993077</pub-id></element-citation></ref><ref id="pgen-0010015-b45"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tamas</surname><given-names>I</given-names></name><name><surname>Klasson</surname><given-names>L</given-names></name><name><surname>Canback</surname><given-names>B</given-names></name><name><surname>Naslund</surname><given-names>AK</given-names></name><name><surname>Eriksson</surname><given-names>AS</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>50 million years of genomic stasis in endosymbiotic bacteria</article-title>
+<source>Science</source>
+<volume>296</volume>
+<fpage>2376</fpage>
+<lpage>2379</lpage>
+<pub-id pub-id-type="pmid">12089438</pub-id></element-citation></ref><ref id="pgen-0010015-b46"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Oshima</surname><given-names>K</given-names></name><name><surname>Kakizawa</surname><given-names>S</given-names></name><name><surname>Nishigawa</surname><given-names>H</given-names></name><name><surname>Jung</surname><given-names>HY</given-names></name><name><surname>Wei</surname><given-names>W</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Reductive evolution suggested from the complete genome sequence of a plant-pathogenic phytoplasma</article-title>
+<source>Nat Genet</source>
+<volume>36</volume>
+<fpage>27</fpage>
+<lpage>29</lpage>
+<pub-id pub-id-type="pmid">14661021</pub-id></element-citation></ref><ref id="pgen-0010015-b47"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Aravind</surname><given-names>L</given-names></name><name><surname>Makarova</surname><given-names>KS</given-names></name><name><surname>Koonin</surname><given-names>EV</given-names></name></person-group>
+<year>2000</year>
+<article-title>Survey and summary: Holliday junction resolvases and related nucleases: Identification of new families, phyletic distribution, and evolutionary trajectories</article-title>
+<source>Nucleic Acids Res</source>
+<volume>28</volume>
+<fpage>3417</fpage>
+<lpage>3432</lpage>
+<pub-id pub-id-type="pmid">10982859</pub-id></element-citation></ref><ref id="pgen-0010015-b48"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sharples</surname><given-names>GJ</given-names></name><name><surname>Ingleston</surname><given-names>SM</given-names></name><name><surname>Lloyd</surname><given-names>RG</given-names></name></person-group>
+<year>1999</year>
+<article-title>Holliday junction processing in bacteria: Insights from the evolutionary conservation of RuvABC, RecG, and RusA</article-title>
+<source>J Bacteriol</source>
+<volume>181</volume>
+<fpage>5543</fpage>
+<lpage>5550</lpage>
+<pub-id pub-id-type="pmid">10482492</pub-id></element-citation></ref><ref id="pgen-0010015-b49"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zuniga-Castillo</surname><given-names>J</given-names></name><name><surname>Romero</surname><given-names>D</given-names></name><name><surname>Martinez-Salazar</surname><given-names>JM</given-names></name></person-group>
+<year>2004</year>
+<article-title>The recombination genes addAB are not restricted to gram-positive bacteria: Genetic analysis of the recombination initiation enzymes RecF and AddAB in <italic>Rhizobium etli</italic>
+</article-title>
+<source>J Bacteriol</source>
+<volume>186</volume>
+<fpage>7905</fpage>
+<lpage>7913</lpage>
+<pub-id pub-id-type="pmid">15547262</pub-id></element-citation></ref><ref id="pgen-0010015-b50"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Singh</surname><given-names>S</given-names></name><name><surname>Folkers</surname><given-names>GE</given-names></name><name><surname>Bonvin</surname><given-names>AM</given-names></name><name><surname>Boelens</surname><given-names>R</given-names></name><name><surname>Wechselberger</surname><given-names>R</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>Solution structure and DNA-binding properties of the C-terminal domain of UvrC from <italic>E. coli</italic>
+</article-title>
+<source>EMBO J</source>
+<volume>21</volume>
+<fpage>6257</fpage>
+<lpage>6266</lpage>
+<pub-id pub-id-type="pmid">12426397</pub-id></element-citation></ref><ref id="pgen-0010015-b51"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wang</surname><given-names>J</given-names></name><name><surname>Julin</surname><given-names>DA</given-names></name></person-group>
+<year>2004</year>
+<article-title>DNA helicase activity of the RecD protein from <italic>Deinococcus radiodurans</italic>
+</article-title>
+<source>J Biol Chem</source>
+<volume>279</volume>
+<fpage>52024</fpage>
+<lpage>52032</lpage>
+<pub-id pub-id-type="pmid">15466873</pub-id></element-citation></ref><ref id="pgen-0010015-b52"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Weller</surname><given-names>GR</given-names></name><name><surname>Kysela</surname><given-names>B</given-names></name><name><surname>Roy</surname><given-names>R</given-names></name><name><surname>Tonkin</surname><given-names>LM</given-names></name><name><surname>Scanlan</surname><given-names>E</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>Identification of a DNA nonhomologous end-joining complex in bacteria</article-title>
+<source>Science</source>
+<volume>297</volume>
+<fpage>1686</fpage>
+<lpage>1689</lpage>
+<pub-id pub-id-type="pmid">12215643</pub-id></element-citation></ref><ref id="pgen-0010015-b53"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Aravind</surname><given-names>L</given-names></name><name><surname>Koonin</surname><given-names>EV</given-names></name></person-group>
+<year>2001</year>
+<article-title>Prokaryotic homologs of the eukaryotic DNA-end-binding protein Ku, novel domains in the Ku protein and prediction of a prokaryotic double-strand break repair system</article-title>
+<source>Genome Res</source>
+<volume>11</volume>
+<fpage>1365</fpage>
+<lpage>1374</lpage>
+<pub-id pub-id-type="pmid">11483577</pub-id></element-citation></ref><ref id="pgen-0010015-b54"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Doherty</surname><given-names>AJ</given-names></name><name><surname>Jackson</surname><given-names>SP</given-names></name><name><surname>Weller</surname><given-names>GR</given-names></name></person-group>
+<year>2001</year>
+<article-title>Identification of bacterial homologues of the Ku DNA repair proteins</article-title>
+<source>FEBS Lett</source>
+<volume>500</volume>
+<fpage>186</fpage>
+<lpage>188</lpage>
+<pub-id pub-id-type="pmid">11445083</pub-id></element-citation></ref><ref id="pgen-0010015-b55"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Krejci</surname><given-names>L</given-names></name><name><surname>Chen</surname><given-names>L</given-names></name><name><surname>Van Komen</surname><given-names>S</given-names></name><name><surname>Sung</surname><given-names>P</given-names></name><name><surname>Tomkinson</surname><given-names>A</given-names></name></person-group>
+<year>2003</year>
+<article-title>Mending the break: Two DNA double-strand break repair machines in eukaryotes</article-title>
+<source>Prog Nucleic Acid Res Mol Biol</source>
+<volume>74</volume>
+<fpage>159</fpage>
+<lpage>201</lpage>
+<pub-id pub-id-type="pmid">14510076</pub-id></element-citation></ref><ref id="pgen-0010015-b56"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lovett</surname><given-names>ST</given-names></name><name><surname>Clark</surname><given-names>AJ</given-names></name></person-group>
+<year>1984</year>
+<article-title>Genetic analysis of the recJ gene of <italic>Escherichia coli</italic> K-12</article-title>
+<source>J Bacteriol</source>
+<volume>157</volume>
+<fpage>190</fpage>
+<lpage>196</lpage>
+<pub-id pub-id-type="pmid">6317649</pub-id></element-citation></ref><ref id="pgen-0010015-b57"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mendonca</surname><given-names>VM</given-names></name><name><surname>Klepin</surname><given-names>HD</given-names></name><name><surname>Matson</surname><given-names>SW</given-names></name></person-group>
+<year>1995</year>
+<article-title>DNA helicases in recombination and repair: Construction of a delta uvrD delta helD delta recQ mutant deficient in recombination and repair</article-title>
+<source>J Bacteriol</source>
+<volume>177</volume>
+<fpage>1326</fpage>
+<lpage>1335</lpage>
+<pub-id pub-id-type="pmid">7868608</pub-id></element-citation></ref><ref id="pgen-0010015-b58"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wojciechowski</surname><given-names>MF</given-names></name><name><surname>Hoelzer</surname><given-names>MA</given-names></name><name><surname>Michod</surname><given-names>RE</given-names></name></person-group>
+<year>1989</year>
+<article-title>DNA repair and the evolution of transformation in <italic>Bacillus subtilis</italic>. II. Role of inducible repair</article-title>
+<source>Genetics</source>
+<volume>121</volume>
+<fpage>411</fpage>
+<lpage>422</lpage>
+<pub-id pub-id-type="pmid">2497048</pub-id></element-citation></ref><ref id="pgen-0010015-b59"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Falush</surname><given-names>D</given-names></name><name><surname>Kraft</surname><given-names>C</given-names></name><name><surname>Taylor</surname><given-names>NS</given-names></name><name><surname>Correa</surname><given-names>P</given-names></name><name><surname>Fox</surname><given-names>JG</given-names></name><etal/></person-group>
+<year>2001</year>
+<article-title>Recombination and mutation during long-term gastric colonization by <italic>Helicobacter pylori:</italic> Estimates of clock rates, recombination size, and minimal age</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>98</volume>
+<fpage>15056</fpage>
+<lpage>15061</lpage>
+<pub-id pub-id-type="pmid">11742075</pub-id></element-citation></ref><ref id="pgen-0010015-b60"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pinto</surname><given-names>AV</given-names></name><name><surname>Mathieu</surname><given-names>A</given-names></name><name><surname>Marsin</surname><given-names>S</given-names></name><name><surname>Veaute</surname><given-names>X</given-names></name><name><surname>Ielpi</surname><given-names>L</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Suppression of homologous and homeologous recombination by the bacterial MutS2 protein</article-title>
+<source>Mol Cell</source>
+<volume>17</volume>
+<fpage>113</fpage>
+<lpage>120</lpage>
+<pub-id pub-id-type="pmid">15629722</pub-id></element-citation></ref><ref id="pgen-0010015-b61"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Aras</surname><given-names>RA</given-names></name><name><surname>Kang</surname><given-names>J</given-names></name><name><surname>Tschumi</surname><given-names>AI</given-names></name><name><surname>Harasaki</surname><given-names>Y</given-names></name><name><surname>Blaser</surname><given-names>MJ</given-names></name></person-group>
+<year>2003</year>
+<article-title>Extensive repetitive DNA facilitates prokaryotic genome plasticity</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>100</volume>
+<fpage>13579</fpage>
+<lpage>13584</lpage>
+<pub-id pub-id-type="pmid">14593200</pub-id></element-citation></ref><ref id="pgen-0010015-b62"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chen</surname><given-names>CW</given-names></name><name><surname>Huang</surname><given-names>CH</given-names></name><name><surname>Lee</surname><given-names>HH</given-names></name><name><surname>Tsai</surname><given-names>HH</given-names></name><name><surname>Kirby</surname><given-names>R</given-names></name></person-group>
+<year>2002</year>
+<article-title>Once the circle has been broken: Dynamics and evolution of <italic>Streptomyces</italic> chromosomes</article-title>
+<source>Trends Genet</source>
+<volume>18</volume>
+<fpage>522</fpage>
+<lpage>529</lpage>
+<pub-id pub-id-type="pmid">12350342</pub-id></element-citation></ref><ref id="pgen-0010015-b63"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kowalczykowski</surname><given-names>SC</given-names></name></person-group>
+<year>1991</year>
+<article-title>Biochemical and biological function of <italic>Escherichia coli</italic> RecA protein: Behavior of mutant RecA proteins</article-title>
+<source>Biochimie</source>
+<volume>73</volume>
+<fpage>289</fpage>
+<lpage>304</lpage>
+<pub-id pub-id-type="pmid">1883888</pub-id></element-citation></ref><ref id="pgen-0010015-b64"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Aylon</surname><given-names>Y</given-names></name><name><surname>Kupiec</surname><given-names>M</given-names></name></person-group>
+<year>2004</year>
+<article-title>New insights into the mechanism of homologous recombination in yeast</article-title>
+<source>Mutat Res</source>
+<volume>566</volume>
+<fpage>231</fpage>
+<lpage>248</lpage>
+<pub-id pub-id-type="pmid">15082239</pub-id></element-citation></ref><ref id="pgen-0010015-b65"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hershberg</surname><given-names>R</given-names></name><name><surname>Yeger-Lotem</surname><given-names>E</given-names></name><name><surname>Margalit</surname><given-names>H</given-names></name></person-group>
+<year>2005</year>
+<article-title>Chromosomal organization is shaped by the transcription regulatory network</article-title>
+<source>Trends Genet</source>
+<volume>21</volume>
+<fpage>138</fpage>
+<lpage>142</lpage>
+<pub-id pub-id-type="pmid">15734572</pub-id></element-citation></ref><ref id="pgen-0010015-b66"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Stohl</surname><given-names>EA</given-names></name><name><surname>Seifert</surname><given-names>HS</given-names></name></person-group>
+<year>2001</year>
+<article-title>The <italic>recX</italic> gene potentiates homologous recombination in <italic>Neisseria gonorrhoeae</italic>
+</article-title>
+<source>Mol Microbiol</source>
+<volume>40</volume>
+<fpage>1301</fpage>
+<lpage>1310</lpage>
+<pub-id pub-id-type="pmid">11442829</pub-id></element-citation></ref><ref id="pgen-0010015-b67"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Drees</surname><given-names>JC</given-names></name><name><surname>Lusetti</surname><given-names>SL</given-names></name><name><surname>Chitteni-Pattu</surname><given-names>S</given-names></name><name><surname>Inman</surname><given-names>RB</given-names></name><name><surname>Cox</surname><given-names>MM</given-names></name></person-group>
+<year>2004</year>
+<article-title>A RecA filament capping mechanism for RecX protein</article-title>
+<source>Mol Cell</source>
+<volume>15</volume>
+<fpage>789</fpage>
+<lpage>798</lpage>
+<pub-id pub-id-type="pmid">15350222</pub-id></element-citation></ref><ref id="pgen-0010015-b68"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lusetti</surname><given-names>SL</given-names></name><name><surname>Drees</surname><given-names>JC</given-names></name><name><surname>Stohl</surname><given-names>EA</given-names></name><name><surname>Seifert</surname><given-names>HS</given-names></name><name><surname>Cox</surname><given-names>MM</given-names></name></person-group>
+<year>2004</year>
+<article-title>The DinI and RecX proteins are competing modulators of RecA function</article-title>
+<source>J Biol Chem</source>
+<volume>279</volume>
+<fpage>55073</fpage>
+<lpage>55079</lpage>
+<pub-id pub-id-type="pmid">15489505</pub-id></element-citation></ref><ref id="pgen-0010015-b69"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>De Mot</surname><given-names>R</given-names></name><name><surname>Schoofs</surname><given-names>G</given-names></name><name><surname>Vanderleyden</surname><given-names>J</given-names></name></person-group>
+<year>1994</year>
+<article-title>A putative regulatory gene downstream of recA is conserved in gram-negative and gram-positive bacteria</article-title>
+<source>Nucleic Acids Res</source>
+<volume>22</volume>
+<fpage>1313</fpage>
+<lpage>1314</lpage>
+<pub-id pub-id-type="pmid">8165147</pub-id></element-citation></ref><ref id="pgen-0010015-b70"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yoshikawa</surname><given-names>H</given-names></name><name><surname>Ogasawara</surname><given-names>N</given-names></name></person-group>
+<year>1991</year>
+<article-title>Structure and function of DnaA and the DnaA-box in eubacteria: Evolutionary relationships of bacterial replication origins</article-title>
+<source>Mol Microbiol</source>
+<volume>5</volume>
+<fpage>2589</fpage>
+<lpage>2597</lpage>
+<pub-id pub-id-type="pmid">1779750</pub-id></element-citation></ref><ref id="pgen-0010015-b71"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chen</surname><given-names>KS</given-names></name><name><surname>Saxena</surname><given-names>P</given-names></name><name><surname>Walker</surname><given-names>JR</given-names></name></person-group>
+<year>1993</year>
+<article-title>Expression of the <italic>Escherichia coli dnaX</italic> gene</article-title>
+<source>J Bacteriol</source>
+<volume>175</volume>
+<fpage>6663</fpage>
+<lpage>6670</lpage>
+<pub-id pub-id-type="pmid">7691799</pub-id></element-citation></ref><ref id="pgen-0010015-b72"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Courcelle</surname><given-names>J</given-names></name><name><surname>Carswell-Crumpton</surname><given-names>C</given-names></name><name><surname>Hanawalt</surname><given-names>PC</given-names></name></person-group>
+<year>1997</year>
+<article-title>
+<italic>recF</italic> and <italic>recR</italic> are required for the resumption of replication at DNA replication forks in <italic>Escherichia coli</italic>
+</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>94</volume>
+<fpage>3714</fpage>
+<lpage>3719</lpage>
+<pub-id pub-id-type="pmid">9108043</pub-id></element-citation></ref><ref id="pgen-0010015-b73"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chow</surname><given-names>KH</given-names></name><name><surname>Courcelle</surname><given-names>J</given-names></name></person-group>
+<year>2004</year>
+<article-title>RecO acts with RecF and RecR to protect and maintain replication forks blocked by UV-induced DNA damage in <italic>Escherichia coli</italic>
+</article-title>
+<source>J Biol Chem</source>
+<volume>279</volume>
+<fpage>3492</fpage>
+<lpage>3496</lpage>
+<pub-id pub-id-type="pmid">14625283</pub-id></element-citation></ref><ref id="pgen-0010015-b74"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schmidt</surname><given-names>HA</given-names></name><name><surname>Strimmer</surname><given-names>K</given-names></name><name><surname>Vingron</surname><given-names>M</given-names></name><name><surname>von Haeseler</surname><given-names>A</given-names></name></person-group>
+<year>2002</year>
+<article-title>TREE-PUZZLE: Maximum likelihood phylogenetic analysis using quartets and parallel computing</article-title>
+<source>Bioinformatics</source>
+<volume>18</volume>
+<fpage>502</fpage>
+<lpage>504</lpage>
+<pub-id pub-id-type="pmid">11934758</pub-id></element-citation></ref><ref id="pgen-0010015-b75"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Novichkov</surname><given-names>PS</given-names></name><name><surname>Omelchenko</surname><given-names>MV</given-names></name><name><surname>Gelfand</surname><given-names>MS</given-names></name><name><surname>Mironov</surname><given-names>AA</given-names></name><name><surname>Wolf</surname><given-names>YI</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Genome-wide molecular clock and horizontal gene transfer in bacterial evolution</article-title>
+<source>J Bacteriol</source>
+<volume>186</volume>
+<fpage>6575</fpage>
+<lpage>6585</lpage>
+<pub-id pub-id-type="pmid">15375139</pub-id></element-citation></ref><ref id="pgen-0010015-b76"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lee</surname><given-names>BI</given-names></name><name><surname>Kim</surname><given-names>KH</given-names></name><name><surname>Park</surname><given-names>SJ</given-names></name><name><surname>Eom</surname><given-names>SH</given-names></name><name><surname>Song</surname><given-names>HK</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Ring-shaped architecture of RecR: Implications for its role in homologous recombinational DNA repair</article-title>
+<source>EMBO J</source>
+<volume>23</volume>
+<fpage>2029</fpage>
+<lpage>2038</lpage>
+<pub-id pub-id-type="pmid">15116069</pub-id></element-citation></ref><ref id="pgen-0010015-b77"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tomb</surname><given-names>JF</given-names></name><name><surname>White</surname><given-names>O</given-names></name><name><surname>Kerlavage</surname><given-names>AR</given-names></name><name><surname>Clayton</surname><given-names>RA</given-names></name><name><surname>Sutton</surname><given-names>GG</given-names></name><etal/></person-group>
+<year>1997</year>
+<article-title>The complete genome sequence of the gastric pathogen <italic>Helicobacter pylori</italic>
+</article-title>
+<source>Nature</source>
+<volume>388</volume>
+<fpage>539</fpage>
+<lpage>547</lpage>
+<pub-id pub-id-type="pmid">9252185</pub-id></element-citation></ref><ref id="pgen-0010015-b78"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bart</surname><given-names>A</given-names></name><name><surname>Barnabe</surname><given-names>C</given-names></name><name><surname>Achtman</surname><given-names>M</given-names></name><name><surname>Dankert</surname><given-names>J</given-names></name><name><surname>van der Ende</surname><given-names>A</given-names></name><etal/></person-group>
+<year>2001</year>
+<article-title>The population structure of <italic>Neisseria meningitidis</italic> serogroup A fits the predictions for clonality</article-title>
+<source>Infect Genet Evol</source>
+<volume>1</volume>
+<fpage>117</fpage>
+<lpage>122</lpage>
+<pub-id pub-id-type="pmid">12798026</pub-id></element-citation></ref><ref id="pgen-0010015-b79"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Parkhill</surname><given-names>J</given-names></name><name><surname>Achtman</surname><given-names>M</given-names></name><name><surname>James</surname><given-names>KD</given-names></name><name><surname>Bentley</surname><given-names>SD</given-names></name><name><surname>Churcher</surname><given-names>C</given-names></name><etal/></person-group>
+<year>2000</year>
+<article-title>Complete DNA sequence of a serogroup A strain of <italic>Neisseria meningitidis Z2491</italic>
+</article-title>
+<source>Nature</source>
+<volume>404</volume>
+<fpage>502</fpage>
+<lpage>506</lpage>
+<pub-id pub-id-type="pmid">10761919</pub-id></element-citation></ref><ref id="pgen-0010015-b80"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tettelin</surname><given-names>H</given-names></name><name><surname>Saunders</surname><given-names>NJ</given-names></name><name><surname>Heidelberg</surname><given-names>J</given-names></name><name><surname>Jeffries</surname><given-names>AC</given-names></name><name><surname>Nelson</surname><given-names>KE</given-names></name><etal/></person-group>
+<year>2000</year>
+<article-title>Complete genome sequence of <italic>Neisseria meningitidis</italic> serogroup B strain <italic>MC58</italic>
+</article-title>
+<source>Science</source>
+<volume>287</volume>
+<fpage>1809</fpage>
+<lpage>1815</lpage>
+<pub-id pub-id-type="pmid">10710307</pub-id></element-citation></ref><ref id="pgen-0010015-b81"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schell</surname><given-names>MA</given-names></name><name><surname>Karmirantzou</surname><given-names>M</given-names></name><name><surname>Snel</surname><given-names>B</given-names></name><name><surname>Vilanova</surname><given-names>D</given-names></name><name><surname>Berger</surname><given-names>B</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>The genome sequence of <italic>Bifidobacterium longum</italic> reflects its adaptation to the human gastrointestinal tract</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>99</volume>
+<fpage>14422</fpage>
+<lpage>14427</lpage>
+<pub-id pub-id-type="pmid">12381787</pub-id></element-citation></ref><ref id="pgen-0010015-b82"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fernandez</surname><given-names>S</given-names></name><name><surname>Kobayashi</surname><given-names>Y</given-names></name><name><surname>Ogasawara</surname><given-names>N</given-names></name><name><surname>Alonso</surname><given-names>JC</given-names></name></person-group>
+<year>1999</year>
+<article-title>Analysis of the <italic>Bacillus subtilis</italic> recO gene: RecO forms part of the RecFLOR function</article-title>
+<source>Mol Gen Genet</source>
+<volume>261</volume>
+<fpage>567</fpage>
+<lpage>573</lpage>
+<pub-id pub-id-type="pmid">10323239</pub-id></element-citation></ref><ref id="pgen-0010015-b83"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Halpern</surname><given-names>D</given-names></name><name><surname>Gruss</surname><given-names>A</given-names></name><name><surname>Claverys</surname><given-names>JP</given-names></name><name><surname>El-Karoui</surname><given-names>M</given-names></name></person-group>
+<year>2004</year>
+<article-title>rexAB mutants in <italic>Streptococcus pneumoniae</italic>
+</article-title>
+<source>Microbiology</source>
+<volume>150</volume>
+<fpage>2409</fpage>
+<lpage>2414</lpage>
+<pub-id pub-id-type="pmid">15256582</pub-id></element-citation></ref><ref id="pgen-0010015-b84"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kobayashi</surname><given-names>I</given-names></name></person-group>
+<year>2001</year>
+<article-title>Behavior of restriction-modification systems as selfish mobile elements and their impact on genome evolution</article-title>
+<source>Nucleic Acids Res</source>
+<volume>29</volume>
+<fpage>3742</fpage>
+<lpage>3756</lpage>
+<pub-id pub-id-type="pmid">11557807</pub-id></element-citation></ref><ref id="pgen-0010015-b85"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Denamur</surname><given-names>E</given-names></name><name><surname>Lecointre</surname><given-names>G</given-names></name><name><surname>Darlu</surname><given-names>P</given-names></name><name><surname>Tenaillon</surname><given-names>O</given-names></name><name><surname>Acquaviva</surname><given-names>C</given-names></name><etal/></person-group>
+<year>2000</year>
+<article-title>Evolutionary implications of the frequent horizontal transfer of mismatch repair genes</article-title>
+<source>Cell</source>
+<volume>103</volume>
+<fpage>711</fpage>
+<lpage>721</lpage>
+<pub-id pub-id-type="pmid">11114328</pub-id></element-citation></ref><ref id="pgen-0010015-b86"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rivera</surname><given-names>MC</given-names></name><name><surname>Rain</surname><given-names>R</given-names></name><name><surname>Moore</surname><given-names>JE</given-names></name><name><surname>Lake</surname><given-names>JA</given-names></name></person-group>
+<year>1998</year>
+<article-title>Genomic evidence for two functionally distinct gene classes</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>95</volume>
+<fpage>6239</fpage>
+<lpage>6244</lpage>
+<pub-id pub-id-type="pmid">9600949</pub-id></element-citation></ref><ref id="pgen-0010015-b87"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Feil</surname><given-names>E</given-names></name><name><surname>Zhou</surname><given-names>J</given-names></name><name><surname>Maynard Smith</surname><given-names>J</given-names></name><name><surname>Spratt</surname><given-names>BG</given-names></name></person-group>
+<year>1996</year>
+<article-title>A comparison of the nucleotide sequences of the <italic>adk</italic> and <italic>recA</italic> genes of pathogenic and commensal <italic>Neisseria</italic> species: Evidence for extensive interspecies recombination within <italic>adk</italic>
+</article-title>
+<source>J Mol Evol</source>
+<volume>43</volume>
+<fpage>631</fpage>
+<lpage>640</lpage>
+<pub-id pub-id-type="pmid">8995060</pub-id></element-citation></ref><ref id="pgen-0010015-b88"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tu</surname><given-names>ZC</given-names></name><name><surname>Dewhirst</surname><given-names>FE</given-names></name><name><surname>Blaser</surname><given-names>MJ</given-names></name></person-group>
+<year>2001</year>
+<article-title>Evidence that the <italic>Campylobacter</italic> fetus sap locus is an ancient genomic constituent with origins before mammals and reptiles diverged</article-title>
+<source>Infect Immun</source>
+<volume>69</volume>
+<fpage>2237</fpage>
+<lpage>2244</lpage>
+<pub-id pub-id-type="pmid">11254579</pub-id></element-citation></ref><ref id="pgen-0010015-b89"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Casjens</surname><given-names>S</given-names></name></person-group>
+<year>2003</year>
+<article-title>Prophages and bacterial genomics: What have we learned so far?</article-title>
+<source>Mol Microbiol</source>
+<volume>49</volume>
+<fpage>277</fpage>
+<lpage>300</lpage>
+<pub-id pub-id-type="pmid">12886937</pub-id></element-citation></ref><ref id="pgen-0010015-b90"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tuteja</surname><given-names>N</given-names></name><name><surname>Tuteja</surname><given-names>R</given-names></name></person-group>
+<year>2004</year>
+<article-title>Unraveling DNA helicases. Motif, structure, mechanism, and function</article-title>
+<source>Eur J Biochem</source>
+<volume>271</volume>
+<fpage>1849</fpage>
+<lpage>1863</lpage>
+<pub-id pub-id-type="pmid">15128295</pub-id></element-citation></ref><ref id="pgen-0010015-b91"><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Erickson</surname><given-names>BW</given-names></name><name><surname>Sellers</surname><given-names>PH</given-names></name></person-group>
+<year>1983</year>
+<article-title>Recognition of patterns in genetic sequences</article-title>
+<person-group person-group-type="editor"><name><surname>Sankoff</surname><given-names>D</given-names></name><name><surname>Kruskal</surname><given-names>JB</given-names></name></person-group>
+<source>Time warps, string edits, and macromolecules: The theory and practice of sequence comparison</source>
+<publisher-loc>Boston</publisher-loc>
+<publisher-name>Addison-Wesley</publisher-name>
+<fpage>55</fpage>
+<lpage>91</lpage>
+</element-citation></ref><ref id="pgen-0010015-b92"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pearson</surname><given-names>WR</given-names></name></person-group>
+<year>1990</year>
+<article-title>Rapid and sensitive sequence comparison with FASTP and FASTA</article-title>
+<source>Methods Enzymol</source>
+<volume>183</volume>
+<fpage>63</fpage>
+<lpage>98</lpage>
+<pub-id pub-id-type="pmid">2156132</pub-id></element-citation></ref><ref id="pgen-0010015-b93"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Eisen</surname><given-names>JA</given-names></name></person-group>
+<year>1998</year>
+<article-title>Phylogenomics: Improving functional predictions for uncharacterized genes by evolutionary analysis</article-title>
+<source>Genome Res</source>
+<volume>8</volume>
+<fpage>163</fpage>
+<lpage>167</lpage>
+<pub-id pub-id-type="pmid">9521918</pub-id></element-citation></ref><ref id="pgen-0010015-b94"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Thomson</surname><given-names>JD</given-names></name><name><surname>Higgins</surname><given-names>DG</given-names></name><name><surname>Gibson</surname><given-names>TJ</given-names></name></person-group>
+<year>1994</year>
+<article-title>Clustal W: Improving the sensitivity of progressive multiple sequence alignment through sequence weighting, positions-specific gap penalties and weight matrix choice</article-title>
+<source>Nucleic Acids Res</source>
+<volume>22</volume>
+<fpage>4673</fpage>
+<lpage>4680</lpage>
+<pub-id pub-id-type="pmid">7984417</pub-id></element-citation></ref><ref id="pgen-0010015-b95"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Galtier</surname><given-names>N</given-names></name><name><surname>Gouy</surname><given-names>M</given-names></name><name><surname>Gautier</surname><given-names>C</given-names></name></person-group>
+<year>1996</year>
+<article-title>SEAVIEW and PHYLO_WIN: Two graphic tools for sequence alignment and molecular phylogeny</article-title>
+<source>Comput Appl Biosci</source>
+<volume>12</volume>
+<fpage>543</fpage>
+<lpage>548</lpage>
+<pub-id pub-id-type="pmid">9021275</pub-id></element-citation></ref><ref id="pgen-0010015-b96"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Guindon</surname><given-names>S</given-names></name><name><surname>Gascuel</surname><given-names>O</given-names></name></person-group>
+<year>2003</year>
+<article-title>A simple, fast, and accurate algorithm to estimate large phylogenies by maximum likelihood</article-title>
+<source>Syst Biol</source>
+<volume>52</volume>
+<fpage>696</fpage>
+<lpage>704</lpage>
+<pub-id pub-id-type="pmid">14530136</pub-id></element-citation></ref><ref id="pgen-0010015-b97"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rambaut</surname><given-names>A</given-names></name><name><surname>Grassly</surname><given-names>NC</given-names></name></person-group>
+<year>1997</year>
+<article-title>Seq-Gen: An application for the Monte Carlo simulation of DNA sequence evolution along phylogenetic trees</article-title>
+<source>Comput Appl Biosci</source>
+<volume>13</volume>
+<fpage>235</fpage>
+<lpage>238</lpage>
+<pub-id pub-id-type="pmid">9183526</pub-id></element-citation></ref><ref id="pgen-0010015-b98"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zheng</surname><given-names>Y</given-names></name><name><surname>Szustakowski</surname><given-names>JD</given-names></name><name><surname>Fortnow</surname><given-names>L</given-names></name><name><surname>Roberts</surname><given-names>RJ</given-names></name><name><surname>Kasif</surname><given-names>S</given-names></name></person-group>
+<year>2002</year>
+<article-title>Computational identification of operons in microbial genomes</article-title>
+<source>Genome Res</source>
+<volume>12</volume>
+<fpage>1221</fpage>
+<lpage>1230</lpage>
+<pub-id pub-id-type="pmid">12176930</pub-id></element-citation></ref><ref id="pgen-0010015-b99"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Brochier</surname><given-names>C</given-names></name><name><surname>Bapteste</surname><given-names>E</given-names></name><name><surname>Moreira</surname><given-names>D</given-names></name><name><surname>Philippe</surname><given-names>H</given-names></name></person-group>
+<year>2002</year>
+<article-title>Eubacterial phylogeny based on translational apparatus proteins</article-title>
+<source>Trends Genet</source>
+<volume>18</volume>
+<fpage>1</fpage>
+<lpage>5</lpage>
+<pub-id pub-id-type="pmid">11750686</pub-id></element-citation></ref><ref id="pgen-0010015-b100"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Glockner</surname><given-names>FO</given-names></name><name><surname>Kube</surname><given-names>M</given-names></name><name><surname>Bauer</surname><given-names>M</given-names></name><name><surname>Teeling</surname><given-names>H</given-names></name><name><surname>Lombardot</surname><given-names>T</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>Complete genome sequence of the marine planctomycete <italic>Pirellula</italic> sp. strain 1</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>100</volume>
+<fpage>8298</fpage>
+<lpage>8303</lpage>
+<pub-id pub-id-type="pmid">12835416</pub-id></element-citation></ref><ref id="pgen-0010015-b101"><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Felsenstein</surname><given-names>J</given-names></name></person-group>
+<year>1993</year>
+<source>PHYLIP. Phylogeny Inference Package, version 3.6a [computer program]</source>
+<publisher-loc>Seattle</publisher-loc>
+<publisher-name>University of Washington Department of Genetics</publisher-name>
+</element-citation></ref><ref id="pgen-0010015-b102"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dybvig</surname><given-names>K</given-names></name><name><surname>Woodard</surname><given-names>A</given-names></name></person-group>
+<year>1992</year>
+<article-title>Construction of <italic>recA</italic> mutants of <italic>Acholeplasma laidlawii</italic> by insertional inactivation with a homologous DNA fragment</article-title>
+<source>Plasmid</source>
+<volume>28</volume>
+<fpage>262</fpage>
+<lpage>266</lpage>
+<pub-id pub-id-type="pmid">1461941</pub-id></element-citation></ref><ref id="pgen-0010015-b103"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sogaard</surname><given-names>IZ</given-names></name><name><surname>Boesen</surname><given-names>T</given-names></name><name><surname>Mygind</surname><given-names>T</given-names></name><name><surname>Melkova</surname><given-names>R</given-names></name><name><surname>Birkelund</surname><given-names>S</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>Recombination in <italic>Mycoplasma hominis</italic>
+</article-title>
+<source>Infect Genet Evol</source>
+<volume>1</volume>
+<fpage>277</fpage>
+<lpage>285</lpage>
+<pub-id pub-id-type="pmid">12798006</pub-id></element-citation></ref><ref id="pgen-0010015-b104"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cordova</surname><given-names>CM</given-names></name><name><surname>Lartigue</surname><given-names>C</given-names></name><name><surname>Sirand-Pugnet</surname><given-names>P</given-names></name><name><surname>Renaudin</surname><given-names>J</given-names></name><name><surname>Cunha</surname><given-names>RA</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>Identification of the origin of replication of the <italic>Mycoplasma pulmonis</italic> chromosome and its use in oriC replicative plasmids</article-title>
+<source>J Bacteriol</source>
+<volume>184</volume>
+<fpage>5426</fpage>
+<lpage>5435</lpage>
+<pub-id pub-id-type="pmid">12218031</pub-id></element-citation></ref><ref id="pgen-0010015-b105"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kuipers</surname><given-names>EJ</given-names></name><name><surname>Israel</surname><given-names>DA</given-names></name><name><surname>Kusters</surname><given-names>JG</given-names></name><name><surname>Blaser</surname><given-names>MJ</given-names></name></person-group>
+<year>1998</year>
+<article-title>Evidence for a conjugation-like mechanism of DNA transfer in <italic>Helicobacter pylori</italic>
+</article-title>
+<source>J Bacteriol</source>
+<volume>180</volume>
+<fpage>2901</fpage>
+<lpage>2905</lpage>
+<pub-id pub-id-type="pmid">9603879</pub-id></element-citation></ref><ref id="pgen-0010015-b106"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Suerbaum</surname><given-names>S</given-names></name><name><surname>Maynard-Smith</surname><given-names>J</given-names></name><name><surname>Bapumia</surname><given-names>K</given-names></name><name><surname>Morelli</surname><given-names>G</given-names></name><name><surname>Smith</surname><given-names>NH</given-names></name><etal/></person-group>
+<year>1998</year>
+<article-title>Free recombination within <italic>Helicobacter pylori</italic>
+</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>95</volume>
+<fpage>12619</fpage>
+<lpage>12624</lpage>
+<pub-id pub-id-type="pmid">9770535</pub-id></element-citation></ref><ref id="pgen-0010015-b107"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>de Jonge</surname><given-names>R</given-names></name><name><surname>Bakker</surname><given-names>D</given-names></name><name><surname>van Vliet</surname><given-names>AH</given-names></name><name><surname>Kuipers</surname><given-names>EJ</given-names></name><name><surname>Vandenbroucke-Grauls</surname><given-names>CM</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>Direct random insertion mutagenesis of <italic>Helicobacter pylori</italic>
+</article-title>
+<source>J Microbiol Methods</source>
+<volume>52</volume>
+<fpage>93</fpage>
+<lpage>100</lpage>
+<pub-id pub-id-type="pmid">12401231</pub-id></element-citation></ref><ref id="pgen-0010015-b108"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wilson</surname><given-names>DL</given-names></name><name><surname>Bell</surname><given-names>JA</given-names></name><name><surname>Young</surname><given-names>VB</given-names></name><name><surname>Wilder</surname><given-names>SR</given-names></name><name><surname>Mansfield</surname><given-names>LS</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>Variation of the natural transformation frequency of <italic>Campylobacter jejuni</italic> in liquid shake culture</article-title>
+<source>Microbiology</source>
+<volume>149</volume>
+<fpage>3603</fpage>
+<lpage>3615</lpage>
+<pub-id pub-id-type="pmid">14663092</pub-id></element-citation></ref><ref id="pgen-0010015-b109"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schouls</surname><given-names>LM</given-names></name><name><surname>Reulen</surname><given-names>S</given-names></name><name><surname>Duim</surname><given-names>B</given-names></name><name><surname>Wagenaar</surname><given-names>JA</given-names></name><name><surname>Willems</surname><given-names>RJ</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>Comparative genotyping of <italic>Campylobacter jejuni</italic> by amplified fragment length polymorphism, multilocus sequence typing, and short repeat sequencing: Strain diversity, host range, and recombination</article-title>
+<source>J Clin Microbiol</source>
+<volume>41</volume>
+<fpage>15</fpage>
+<lpage>26</lpage>
+<pub-id pub-id-type="pmid">12517820</pub-id></element-citation></ref><ref id="pgen-0010015-b110"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Boer</surname><given-names>P</given-names></name><name><surname>Wagenaar</surname><given-names>JA</given-names></name><name><surname>Achterberg</surname><given-names>RP</given-names></name><name><surname>Putten</surname><given-names>JP</given-names></name><name><surname>Schouls</surname><given-names>LM</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>Generation of <italic>Campylobacter jejuni</italic> genetic diversity in vivo</article-title>
+<source>Mol Microbiol</source>
+<volume>44</volume>
+<fpage>351</fpage>
+<lpage>359</lpage>
+<pub-id pub-id-type="pmid">11972775</pub-id></element-citation></ref><ref id="pgen-0010015-b111"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fu</surname><given-names>R</given-names></name><name><surname>Voordouw</surname><given-names>G</given-names></name></person-group>
+<year>1997</year>
+<article-title>Targeted gene-replacement mutagenesis of dcrA, encoding an oxygen sensor of the sulfate-reducing bacterium <italic>Desulfovibrio vulgaris</italic> Hildenborough</article-title>
+<source>Microbiology</source>
+<volume>143</volume>
+<fpage>1815</fpage>
+<lpage>1826</lpage>
+<pub-id pub-id-type="pmid">9202456</pub-id></element-citation></ref><ref id="pgen-0010015-b112"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bertolla</surname><given-names>F</given-names></name><name><surname>Van Gijsegem</surname><given-names>F</given-names></name><name><surname>Nesme</surname><given-names>X</given-names></name><name><surname>Simonet</surname><given-names>P</given-names></name></person-group>
+<year>1997</year>
+<article-title>Conditions for natural transformation of <italic>Ralstonia solanacearum</italic>
+</article-title>
+<source>Appl Environ Microbiol</source>
+<volume>63</volume>
+<fpage>4965</fpage>
+<lpage>4968</lpage>
+<pub-id pub-id-type="pmid">9406418</pub-id></element-citation></ref><ref id="pgen-0010015-b113"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cotter</surname><given-names>TW</given-names></name><name><surname>Thomashow</surname><given-names>MF</given-names></name></person-group>
+<year>1992</year>
+<article-title>A conjugation procedure for <italic>Bdellovibrio bacteriovorus</italic> and its use to identify DNA sequences that enhance the plaque-forming ability of a spontaneous host-independent mutant</article-title>
+<source>J Bacteriol</source>
+<volume>174</volume>
+<fpage>6011</fpage>
+<lpage>6017</lpage>
+<pub-id pub-id-type="pmid">1400153</pub-id></element-citation></ref><ref id="pgen-0010015-b114"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hommes</surname><given-names>NG</given-names></name><name><surname>Sayavedra-Soto</surname><given-names>LA</given-names></name><name><surname>Arp</surname><given-names>DJ</given-names></name></person-group>
+<year>1996</year>
+<article-title>Mutagenesis of hydroxylamine oxidoreductase in <italic>Nitrosomonas europaea</italic> by transformation and recombination</article-title>
+<source>J Bacteriol</source>
+<volume>178</volume>
+<fpage>3710</fpage>
+<lpage>3714</lpage>
+<pub-id pub-id-type="pmid">8682770</pub-id></element-citation></ref><ref id="pgen-0010015-b115"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cooper</surname><given-names>AJ</given-names></name><name><surname>Kalinowski</surname><given-names>AP</given-names></name><name><surname>Shoemaker</surname><given-names>NB</given-names></name><name><surname>Salyers</surname><given-names>AA</given-names></name></person-group>
+<year>1997</year>
+<article-title>Construction and characterization of a <italic>Bacteroides thetaiotaomicron recA</italic> mutant: Transfer of <italic>Bacteroides</italic> integrated conjugative elements is RecA independent</article-title>
+<source>J Bacteriol</source>
+<volume>179</volume>
+<fpage>6221</fpage>
+<lpage>6227</lpage>
+<pub-id pub-id-type="pmid">9335266</pub-id></element-citation></ref><ref id="pgen-0010015-b116"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Krafft</surname><given-names>T</given-names></name><name><surname>Gross</surname><given-names>R</given-names></name><name><surname>Kroger</surname><given-names>A</given-names></name></person-group>
+<year>1995</year>
+<article-title>The function of <italic>Wolinella succinogenes psr</italic> genes in electron transport with polysulphide as the terminal electron acceptor</article-title>
+<source>Eur J Biochem</source>
+<volume>230</volume>
+<fpage>601</fpage>
+<lpage>606</lpage>
+<pub-id pub-id-type="pmid">7607234</pub-id></element-citation></ref><ref id="pgen-0010015-b117"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Park</surname><given-names>SY</given-names></name><name><surname>Kim</surname><given-names>HK</given-names></name><name><surname>Yoo</surname><given-names>SK</given-names></name><name><surname>Oh</surname><given-names>TK</given-names></name><name><surname>Lee</surname><given-names>JK</given-names></name></person-group>
+<year>2000</year>
+<article-title>Characterization of <italic>glk,</italic> a gene coding for glucose kinase of <italic>Corynebacterium glutamicum</italic>
+</article-title>
+<source>FEMS Microbiol Lett</source>
+<volume>188</volume>
+<fpage>209</fpage>
+<lpage>215</lpage>
+<pub-id pub-id-type="pmid">10913707</pub-id></element-citation></ref></ref-list></back></article>

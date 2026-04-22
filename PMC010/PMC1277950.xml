@@ -1,0 +1,362 @@
+<!-- edited with XMLSPY v2004 rel. 3 U (http://www.xmlspy.com) by CDC (private) -->
+<!DOCTYPE article
+PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.3 20210610//EN" "JATS-archivearticle1-3-mathml3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article"><?properties open_access?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Prev Chronic Dis</journal-id><journal-id journal-id-type="iso-abbrev">Prev Chronic Dis</journal-id><journal-title-group><journal-title>Preventing Chronic Disease</journal-title></journal-title-group><issn pub-type="epub">1545-1151</issn><publisher><publisher-name>Centers for Disease Control and Prevention</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">15670442</article-id><article-id pub-id-type="pmc">PMC1277950</article-id><article-id pub-id-type="publisher-id">PCDv14_04_0035</article-id><article-categories><subj-group subj-group-type="heading"><subject>Original Research</subject></subj-group><series-title>Peer Reviewed</series-title></article-categories><title-group><article-title>Predictors of Dropouts From a San Diego Diabetes Program: A Case Control Study</article-title></title-group><contrib-group><contrib contrib-type="author" corresp="yes"><name><surname>Benoit</surname><given-names>Stephen R.</given-names></name><degrees>MD, MPH</degrees><aff>UCSD-SDSU Preventive Medicine Residency, University of California, San Diego Department of Family and Preventive Medicine, La Jolla, Calif. Dr. Benoit is now with the Centers for Disease Control and Prevention</aff><address><addr-line>1600 Clifton Rd, Mail Stop E-68, Atlanta, GA 30333</addr-line><email>bvy8@cdc.gov</email></address></contrib><contrib contrib-type="author"><name><surname>Ji</surname><given-names>Ming</given-names></name><degrees>PhD</degrees><aff>San Diego State Graduate School of Public Health, San Diego, Calif</aff></contrib><contrib contrib-type="author"><name><surname>Fleming</surname><given-names>Regina</given-names></name><degrees>MD, MSPH</degrees><aff>UCSD-SDSU Preventive Medicine Residency</aff></contrib><contrib contrib-type="author"><name><surname>Philis-Tsimikas</surname><given-names>Athena</given-names></name><degrees>MD</degrees><aff>The Whittier Institute for Diabetes, La Jolla, Calif</aff></contrib></contrib-group><pub-date pub-type="collection"><month>10</month><year>2004</year></pub-date><pub-date pub-type="epub"><day>15</day><month>9</month><year>2004</year></pub-date><volume>1</volume><issue>4</issue><elocation-id>A10</elocation-id><permissions><copyright-year>2004</copyright-year><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is a publication of the U.S. Government. This publication is in the public domain and is therefore without copyright. All text from this work may be reprinted freely. Use of these materials should be properly cited.</license-p></license></permissions><abstract abstract-type="key-points"><sec sec-type="objective"><title>Introduction</title><p>The objective of this study was to determine the demographic, treatment, clinical, and behavioral factors associated with dropping out of a nurse-based, low-income, multiethnic San Diego diabetes program.</p></sec><sec sec-type="methods"><title>Methods</title><p>Data were collected during a 17-month period in 2000 and 2002 on patients with type 2 diabetes from Project Dulce, a disease management program in San Diego County designed to care for an underserved diabetic population. The study sample included 69 cases and 504 controls representing a racial/ethnic mix of 53% Hispanic, 7% black, 16% Asian, 22% white, and 2% other. Logistic regression was used to determine factors associated with patient dropout.</p></sec><sec sec-type="results"><title>Results</title><p>Patients who had high initial clinical indicators including blood pressure and hemoglobin A1c and those who smoked currently or smoked in the past were more likely to drop out of the diabetes program.</p></sec><sec sec-type="conclusions"><title>Conclusion</title><p>This study provides markers of patient dropout in a low-income, multiethnic, type 2 diabetic population. Reasons for dropout in this program can be investigated to prevent further cohort loss.</p></sec></abstract></article-meta></front><body><sec><title>Introduction</title><p>More than 15 million people have diabetes in the United States, and it is now the sixth leading cause of death (<xref rid="B1" ref-type="bibr">1</xref>,<xref rid="B2" ref-type="bibr">2</xref>). The United Kingdom Prospective Diabetes Study and Kumamoto Study confirm that improved glucose control reduces the microvascular complications of type 2 diabetes such as retinopathy, nephropathy, and neuropathy (<xref rid="B3" ref-type="bibr">3</xref>,<xref rid="B4" ref-type="bibr">4</xref>). Because of these findings, new standards of care and new models of health care delivery have emerged to reduce the complications of diabetes and thus improve quality of life (<xref rid="B5" ref-type="bibr">5</xref>).</p><p>Nonadherence to diabetes treatment strategies prevents patients from meeting optimal standards of care. Jacobsen et al found that up to 34% of patients with type 1 diabetes defaulted from care, and their glycemic control was significantly worse than those who attended their visits (<xref rid="B6" ref-type="bibr">6</xref>). Evidence suggests that patients with diabetes who are unable or unwilling to adhere to treatment regimens suffer greater morbidity than those under regular medical supervision (<xref rid="B7" ref-type="bibr">7</xref>).</p><p>Studies have investigated patients' reasons for non-attendance in diabetes care clinics. Reasons include financial or transportation issues, inability to get time off work, forgetting about appointments, feeling too ill, crowded clinic settings, administrative errors, and feeling the appointment was unnecessary. Other studies have addressed nonadherence in diabetes clinic settings and found significant factors to be smoking, poor education, living long distances from the clinic, and dietary treatments (<xref rid="B8" ref-type="bibr">8</xref>).</p><p>The purpose of this study was to investigate the factors associated with patients dropping out of Project Dulce, a nurse-based diabetes disease-management system in San Diego, Calif (<xref rid="B9" ref-type="bibr">9</xref>). The factors studied included demographic, treatment, clinical, and behavioral variables. The program, started in 1998, is an initiative of Community Health Improvement Partners, the Council of Community Clinics, and The Whittier Institute for Diabetes. Project Dulce uses a multifaceted approach and focuses on providing care to racial/ethnic groups that often lack access to medical services.</p></sec><sec><title>Methods</title><sec><title>Data study sample</title><p>Patients with diabetes are referred to Project Dulce by primary care providers. After the patient is referred, a nurse educator conducts an initial assessment and follows the American Diabetes Association (ADA) standards of appropriate physical and laboratory exams and referrals to specialists (e.g., ophthalmologists, podiatrists). The nurse educator is the case manager and follows up on missed patient appointments in addition to identifying individual service and access needs of his or her panel of patients. The nurse also communicates with the primary care physician regarding clinical-care issues. Dieticians are also on staff at Project Dulce to meet with patients referred by the nurse educators. The program is currently active in 17 sites, including community clinics and hospital ambulatory care centers throughout San Diego County. Project Dulce uses the same procedures at each site and tracks patients with diabetes electronic management system (DEMS) software. The database contains demographic, treatment, clinical, and behavioral factors for each patient and collects the information over time. This study included data from July 18, 2000 to October 7, 2002 and was approved by the Institutional Review Board of San Diego State University.</p></sec><sec><title>Eligibility criteria</title><p>Patients with type 2 diabetes were first selected from the database. This reduced the population size to 1357 from 1728. Case-control methodology was used in the analysis. We defined cases as patients who dropped out of the program and selected them using the following inclusion criteria: the patient could not have more than two Project Dulce visits; could not be in the program more than three months; needed a baseline A1c value; and the last Project Dulce visit had to be at least six months before October 7, 2002 (the last Project Dulce visit date in the database). The control group consisted of active patients in Project Dulce, and these patients were selected using the following criteria: each patient had to have at least two A1c values at least six months apart, had to be in the program for at least six months, and had to have at least three Project Dulce visits. Eighteen cases (dropouts) and 69 controls were excluded due to missing analytic variables, leaving 69 dropouts and 504 controls.</p></sec><sec><title>Measures and diagnostics</title><p>All variables came from the DEMS database and were grouped into five clusters: demographic factors, disease duration, treatment factors, clinical characteristics, and behavioral factors.</p><p>The five variables in the demographic cluster were sex, age, race/ethnicity, primary language, and insurance. For purposes of this study, we created five racial/ethnic categories: Hispanic, black, Asian (including Eastern Indian), white, and other.</p><p>Most of the patients in Project Dulce have County Medical Services, an insurance program funded by San Diego County to care for the medically indigent adult (MIA) population. However, some patients who surpass maximum income limits or who are not documented are uninsured and pay out-of-pocket to enroll in the program. A smaller proportion of the patients have Medicare, Medicaid, or private insurance. For purposes of this study, insurance status was categorized as uninsured, County Medical Services (representing the MIA population), or insured (including Medicare, Medicaid, or private insurance).</p><p>Disease duration was estimated by subtracting the diabetes diagnosis date from the date of the patient's initial Project Dulce visit. The treatment factor cluster was represented by the type of medicine the patient was using at the initial visit. The medicines used for glucose control (e.g., insulin, sulfonylureas, metformin, glitazones, alpha glucosidase inhibitors, meglitinides) were categorized into three levels: insulin alone or insulin with oral agents, more than one oral agent but no insulin, and one oral medication or no medication at all.</p><p>Clinical characteristics included baseline systolic (SBP) and diastolic (DBP) blood pressure, Body Mass Index, and baseline A1c. Blood pressure was categorized according to American Diabetes Association standards for optimal control: &#x0003c;130 mm Hg for SBP and &#x0003c;80 mm Hg for DBP (<xref rid="B5" ref-type="bibr">5</xref>). The behavioral factor in the model was smoking status. Variables left in the continuous form were assessed for nonlinearity. Collinearity among independent variables was assessed using tolerance values. All tolerance values were substantially greater than 0.10, indicating that collinearity was not an issue.</p></sec><sec><title>Statistical analysis</title><p>Variable screening was done using univariate logistic regression with an alpha significance level of 0.25. Those variables significant in univariate analysis were placed in a multivariate model. Variables not significant at the alpha level of 0.05 were assessed as confounders. Each potential confounder was added to the exposures of interest one by one. Parameter estimate changes of greater than 20% were considered significant. Sex, primary language, and baseline DBP were considered confounders and were therefore included in the final model.</p></sec></sec><sec><title>Results</title><p>
+<xref rid="T1" ref-type="table">Table 1</xref> shows the descriptive and univariate statistics. There appear to have been fewer Asians and more whites in the dropout group compared with the control group, while the percentage of Hispanics remained consistent among both groups. More of the dropout population (58.6%) spoke English than the control population (47.2%), and more of the dropout population was insured by County Medical Service (60.9%) than the control population (43.5%). Among the dropouts, high baseline blood pressures (defined here as &#x02a7e; 130 mm Hg for SBP and &#x02a7e; 80 mm Hg for DBP) were more common compared to the control population: 46.1% of the dropout population had high SBP compared to 29.5% of the control, and 26.9% of the dropout population had high DBP compared to 11.7% of control. More of the dropouts compared to controls were current smokers (20.3%, dropouts compared to 12.5%, controls) or past smokers (47.3%, dropouts compared to 32.0%, controls).</p><p>
+<xref rid="T2" ref-type="table">Table 2</xref> presents the results of the final logistic model. Insurance status, initial blood pressure, baseline A1c, and smoking habit were significant predictors of dropout status. The odds of dropping out of Project Dulce were 95% lower for a patient without insurance compared to a patient with insurance. The odds of being a dropout were 1.8 times higher for a patient with a SBP &#x02a7e;130 mm Hg compared to a patient with a SBP &#x0003c;130 mm Hg and 2.3 times higher for a patient with a DBP &#x02a7e;80 mm Hg compared to a patient with DBP &#x0003c;80 mm Hg. For every two-unit increase in baseline A1c, the odds of being a dropout increased 1.3 times. Compared with a patient who never smoked, the odds of dropping out of the program were 3.7 times higher for a current smoker and 2.9 times higher for a past smoker. The variables mentioned above were significant after controlling for all other variables in the model (sex, primary language, insurance status, blood pressure, baseline A1c, and smoking status).</p></sec><sec><title>Discussion</title><p>Univariate associations between dropouts and controls showed that race/ethnicity, primary language, insurance status, baseline blood pressure, and smoking varied among the two groups. In multivariate analysis, insurance status, baseline blood pressure, baseline A1c, and smoking habit were different between dropouts and controls.</p><p>Similar to the findings of Graber et al (<xref rid="B10" ref-type="bibr">10</xref>) and Jacobson et al (<xref rid="B6" ref-type="bibr">6</xref>), sex and age were not significant predictors of dropout. Other studies have found that men and younger patients are less likely to adhere to treatment (<xref rid="B11" ref-type="bibr">11</xref>-<xref rid="B13" ref-type="bibr">13</xref>). Race/ethnicity was a predictor of dropout in univariate analysis but lost its significance after controlling for other factors. Dove and Schneider (<xref rid="B14" ref-type="bibr">14</xref>) and Goldman et al (<xref rid="B11" ref-type="bibr">11</xref>) also found this to be the case. Primary language also lost its significance in multivariate analysis. Disease duration and type of medicine used to treat diabetes did not predict patient adherence to the program. This finding is consistent with Jacobson et al (<xref rid="B6" ref-type="bibr">6</xref>) and Graber et al (<xref rid="B10" ref-type="bibr">10</xref>) but contradicts Irvine and Mitchell (<xref rid="B15" ref-type="bibr">15</xref>).</p><p>Insurance status was a significant predictor of patient adherence. The uninsured were 95% less likely to drop out of the program compared to those with insurance. The uninsured pay an enrollment fee to cover nurse visits, laboratory measurements, and diabetes-related medications. They are not eligible for county or federal health services because of documentation status or income limits. The initial monetary investment and lack of affordable health care options are clearly reasons that the uninsured were less likely to drop out. Those with County Medical Services and Medicaid/Medicare do not pay to enroll in Project Dulce and have other provider options for their diabetes care.</p><p>Those with high initial blood pressure or A1c were more likely to drop out of the program. These clinical markers may indicate that these patients were more ill and conceivably unable to keep their outpatient appointments. Perhaps their time was occupied with other primary care or specialty visits to address other medical problems. Regardless of the reasons for patient nonadherence, these clinical markers are important. Higher A1c levels put the cases at increased risk for developing microvascular disease, including retinopathy, nephropathy, and neuropathy (<xref rid="B3" ref-type="bibr">3</xref>,<xref rid="B4" ref-type="bibr">4</xref>). Elevated initial blood pressure put the cases at increased risk of heart attacks, heart failure, strokes, and kidney disease (<xref rid="B16" ref-type="bibr">16</xref>).</p><p>Smokers that have type 2 diabetes are at even greater risk of micro- and macrovascular disease (<xref rid="B17" ref-type="bibr">17</xref>). This study showed that those who smoked or smoked in the past were more likely to drop out of the program. Why these patients are leaving is not clear. Perhaps smokers are less interested in their health, which would explain their lack of interest in Project Dulce. Another possible explanation is that smokers feel rejected by providers that admonish their behavior (<xref rid="B10" ref-type="bibr">10</xref>). Smoking could also be a surrogate for life stressors that prevent appointment attendance due to unstable living or financial environments (<xref rid="B18" ref-type="bibr">18</xref>). Regardless of the reason, the clinical and behavioral markers that predict nonadherence leave these patients at high risk of morbidity and mortality associated with microvascular and macrovascular disease (<xref rid="B19" ref-type="bibr">19</xref>).</p><p>This study has limitations. According to Griffin (<xref rid="B8" ref-type="bibr">8</xref>), adherence may be less related to demographic factors and more to patients' perceptions, beliefs, and attitudes. Perhaps some patients may not have understood the importance of consistent glucose control, had a different perception of the disease, or were fearful of the multiple medications needed to treat diabetes. Others may have experienced adverse side effects to medication, stopped treatment, and were ashamed to return to their provider. Patient perceptions could explain nonadherence, but none of this information was available for this study.</p><p>Similarly, other possible confounders, such as distance living from the clinic, transportation issues, work schedules, whether they knew they had an appointment, stability of living environment, alcohol and drug problems, other comorbid medical/psychological problems, and patient satisfaction and ability to talk with providers, were not available. These factors could also significantly predict dropouts in Project Dulce. Some of the demographic, clinical, and behavioral factors significant in this model may lose statistical significance depending on the importance of the unmeasured predictors. Lastly, 18 dropouts and 69 controls were excluded because of missing data, which could potentially introduce a selection bias. Because patient identifiers were scrambled for privacy prior to copying the dataset, medical records could not be reviewed to recover this data.</p><p>In summary, with the available data, this predictor analysis found that Project Dulce patients with higher initial blood pressure readings and A1c values and those who smoked or smoked in the past were more likely to drop out of the program. These results have clinical applicability in that those patients in most need of care were more likely to drop out of the program. Investigating reasons for dropping out would best be done with patient interviews. In this way, patient perceptions, attitudes, and beliefs could be explored in addition to other logistical reasons.</p><p>Project Dulce can use the results of this study to minimize future patient loss to follow-up. Although all patients are case-managed by nurses, an intensified approach would be beneficial in those patients with higher initial A1c and blood pressure measurements and in those who smoke or smoked in the past. Acquiring additional information from patients who drop out could help explain the obstacles facing this low-income, multiethnic population. Addressing these obstacles with interventions and/or organizational changes may lead to better clinical outcomes.</p></sec></body><back><fn-group><fn><p>The opinions expressed by authors contributing to this journal do not necessarily reflect the opinions of the U.S. Department of Health and Human Services, the Public Health Service, Centers for Disease Control and Prevention, or the authors' affiliated institutions. Use of trade names is for identification only and does not imply endorsement by any of the groups named above.</p></fn><fn><p>
+<italic>Suggested citation for this article</italic>: Benoit SR, Ji M, Fleming R, Philis-Tsimikas A. Predictors of dropouts from a San Diego diabetes program: a case control study. Prev Chronic Dis [serial online] 2004 Oct [date cited]. Available from: URL: <ext-link xlink:href="http://www.cdc.gov/pcd/issues/2004/oct/04_0035.htm" ext-link-type="uri">http://www.cdc.gov/pcd/issues/2004/oct/04_0035.htm</ext-link>.</p></fn></fn-group><ref-list><ref id="B1"><label>1</label><element-citation publication-type="book">
+<year>2002</year>
+<collab>National Institute of Diabetes &#x00026; Digestive &#x00026; Kidney Diseases</collab>
+<source>National Diabetes Statistics fact sheet: general information and national estimates on diabetes in the United States, 2000</source>
+<article-title>NIH Publication No.: 02-3892</article-title>
+<publisher-loc>Bethesda (MD)</publisher-loc>
+<publisher-name>U.S. Department of Health and Human Services, National Institutes of Health</publisher-name>
+</element-citation></ref><ref id="B2"><label>2</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Arias</surname><given-names>E</given-names></name><name><surname>Smith</surname><given-names>BL</given-names></name></person-group>
+<year>2001</year>
+<article-title>Deaths: preliminary data for 2001</article-title>
+<source>National vital statistics reports</source>
+<volume>51</volume>
+<issue>5</issue>
+<publisher-loc>Hyattsville (MD)</publisher-loc>
+<publisher-name>U.S. Department of Health and Human Services, National Center for Health Statistics, Centers for Disease Control and Prevention</publisher-name>
+</element-citation></ref><ref id="B3"><label>3</label><element-citation publication-type="journal">
+<article-title>Intensive blood-glucose control with sulphonylureas or insulin compared with conventional treatment and risk of complications in patients with type 2 diabetes (UKPDS 33). UK Prospective Diabetes Study (UKPDS) Group</article-title>
+<source>Lancet</source>
+<year>1998</year>
+<volume>352</volume>
+<fpage>837</fpage>
+<lpage>853</lpage>
+<pub-id pub-id-type="pmid">9742976</pub-id></element-citation></ref><ref id="B4"><label>4</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ohkubo</surname><given-names>Y</given-names></name><name><surname>Kishikawa</surname><given-names>H</given-names></name><name><surname>Araki</surname><given-names>E</given-names></name><name><surname>Miyata</surname><given-names>T</given-names></name><name><surname>Isami</surname><given-names>S</given-names></name><name><surname>Motoyoshi</surname><given-names>S</given-names></name><etal/></person-group>
+<article-title>Intensive insulin therapy prevents the progression of diabetic microvascular complications in Japanese patients with non-insulin-dependent diabetes mellitus: a randomized prospective 6-year study</article-title>
+<source>Diabetes Res Clin Practl</source>
+<year>1995</year>
+<fpage>103</fpage>
+<lpage>117</lpage>
+</element-citation></ref><ref id="B5"><label>5</label><element-citation publication-type="journal">
+<article-title>American Diabetes Association. Standards of medical care for patients with diabetes mellitus</article-title>
+<source>Diabetes Care</source>
+<year>2003</year>
+<volume>26</volume>
+<fpage>33</fpage>
+<lpage>50</lpage>
+</element-citation></ref><ref id="B6"><label>6</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jacobson</surname><given-names>AM</given-names></name><name><surname>Adler</surname><given-names>AG</given-names></name><name><surname>Derby</surname><given-names>L</given-names></name><name><surname>Anderson</surname><given-names>BJ</given-names></name><name><surname>Wofsdorf</surname><given-names>JI</given-names></name></person-group>
+<article-title>Clinic attendance and glycemic control. Study of contrasting groups of patients with IDDM</article-title>
+<source>Diabetes Care</source>
+<year>1991</year>
+<volume>14</volume>
+<fpage>599</fpage>
+<lpage>601</lpage>
+<pub-id pub-id-type="pmid">1914802</pub-id></element-citation></ref><ref id="B7"><label>7</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hammersley</surname><given-names>MS</given-names></name><name><surname>Holland</surname><given-names>MR</given-names></name><name><surname>Walford</surname><given-names>S</given-names></name><name><surname>Thorn</surname><given-names>PA</given-names></name></person-group>
+<article-title>What happens to defaulters from a diabetic clinic?</article-title>
+<source>BMJ</source>
+<year>1985</year>
+<volume>291</volume>
+<fpage>1330</fpage>
+<lpage>1332</lpage>
+<pub-id pub-id-type="pmid">3933654</pub-id></element-citation></ref><ref id="B8"><label>8</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Griffin</surname><given-names>SJ</given-names></name></person-group>
+<article-title>Lost to follow-up: the problem of defaulters from diabetes clinics</article-title>
+<source>Diabet Med</source>
+<year>1998</year>
+<volume>15</volume>
+<issue>3</issue>
+<fpage>S14</fpage>
+<lpage>S24</lpage>
+<pub-id pub-id-type="pmid">9829764</pub-id></element-citation></ref><ref id="B9"><label>9</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Philis-Tsimikas</surname><given-names>A</given-names></name><name><surname>Walker</surname><given-names>C</given-names></name></person-group>
+<article-title>Improved care for diabetes in underserved populations</article-title>
+<source>J Ambul Care Manage</source>
+<year>2001</year>
+<volume>24</volume>
+<issue>1</issue>
+<fpage>39</fpage>
+<lpage>43</lpage>
+</element-citation></ref><ref id="B10"><label>10</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Graber</surname><given-names>AL</given-names></name><name><surname>Davidson</surname><given-names>P</given-names></name><name><surname>Brown</surname><given-names>AW</given-names></name><name><surname>McRae</surname><given-names>JR</given-names></name><name><surname>Woolridge</surname><given-names>K</given-names></name></person-group>
+<article-title>Dropout and relapse during diabetes care</article-title>
+<source>Diabetes Care</source>
+<year>1992</year>
+<volume>15</volume>
+<fpage>1477</fpage>
+<lpage>1483</lpage>
+<pub-id pub-id-type="pmid">1468274</pub-id></element-citation></ref><ref id="B11"><label>11</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Goldman</surname><given-names>L</given-names></name><name><surname>Freidin</surname><given-names>R</given-names></name><name><surname>Cook</surname><given-names>EF</given-names></name><name><surname>Eigner</surname><given-names>J</given-names></name><name><surname>Grich</surname><given-names>P</given-names></name></person-group>
+<article-title>A multivariate approach to the prediction of no-show behavior in a primary care center</article-title>
+<source>Arch Intern Med</source>
+<year>1982</year>
+<volume>142</volume>
+<fpage>563</fpage>
+<lpage>567</lpage>
+<pub-id pub-id-type="pmid">7065791</pub-id></element-citation></ref><ref id="B12"><label>12</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hurtado</surname><given-names>AV</given-names></name><name><surname>Greenlick</surname><given-names>MR</given-names></name><name><surname>Colombo</surname><given-names>TJ</given-names></name></person-group>
+<article-title>Determinants of medical care utilization. Failure to keep appointments</article-title>
+<source>Med Care</source>
+<year>1973</year>
+<volume>11</volume>
+<fpage>189</fpage>
+<lpage>198</lpage>
+<pub-id pub-id-type="pmid">4708206</pub-id></element-citation></ref><ref id="B13"><label>13</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Frankel</surname><given-names>S</given-names></name><name><surname>Farrow</surname><given-names>A</given-names></name><name><surname>West</surname><given-names>R</given-names></name></person-group>
+<article-title>Non-attendance or non-invitation? A case-control study of failed outpatient appointments</article-title>
+<source>BMJ</source>
+<year>1989</year>
+<volume>298</volume>
+<fpage>1343</fpage>
+<lpage>1345</lpage>
+<pub-id pub-id-type="pmid">2502248</pub-id></element-citation></ref><ref id="B14"><label>14</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dove</surname><given-names>HG</given-names></name><name><surname>Schneider</surname><given-names>KC</given-names></name></person-group>
+<article-title>The usefulness of patients&#x02019; individual characteristics in predicting no-shows in outpatient clinics</article-title>
+<source>Med Care</source>
+<year>1981</year>
+<volume>19</volume>
+<fpage>734</fpage>
+<lpage>740</lpage>
+<pub-id pub-id-type="pmid">7266121</pub-id></element-citation></ref><ref id="B15"><label>15</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Irvine</surname><given-names>AA</given-names></name><name><surname>Mitchell</surname><given-names>CM</given-names></name></person-group>
+<article-title>Impact of community-based diabetes education on program attenders and nonattenders</article-title>
+<source>Diabetes Educ</source>
+<year>1992</year>
+<volume>18</volume>
+<fpage>29</fpage>
+<lpage>33</lpage>
+<pub-id pub-id-type="pmid">1729122</pub-id></element-citation></ref><ref id="B16"><label>16</label><element-citation publication-type="book">
+<collab>National High Blood Pressure Education Program</collab>
+<source>The Seventh Report of the Joint National Committee on Prevention, Detection, Evaluation, and Treatment of High Blood Pressure</source>
+<year>2003</year>
+<publisher-name>U.S. Department of Health and Human Services, National Institutes of Health, National Heart, Lung, and Blood Institute</publisher-name>
+<publisher-loc>Bethesda (MD)</publisher-loc>
+<article-title>NIH Publication No.: 03-5233</article-title>
+</element-citation></ref><ref id="B17"><label>17</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Eliasson</surname><given-names>B</given-names></name></person-group>
+<article-title>Cigarette smoking and diabetes</article-title>
+<source>Prog Cardiovasc Dis</source>
+<year>2003</year>
+<volume>45</volume>
+<issue>5</issue>
+<fpage>405</fpage>
+<lpage>413</lpage>
+<pub-id pub-id-type="pmid">12704597</pub-id></element-citation></ref><ref id="B18"><label>18</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>McKee</surname><given-names>SA</given-names></name><name><surname>Maciejewski</surname><given-names>PK</given-names></name><name><surname>Falba</surname><given-names>T</given-names></name><name><surname>Mazure</surname><given-names>CM</given-names></name></person-group>
+<article-title>Sex differences in the effects of stressful life events on changes in smoking status</article-title>
+<source>Addiction</source>
+<year>2003</year>
+<volume>98</volume>
+<issue>6</issue>
+<fpage>847</fpage>
+<lpage>855</lpage>
+<pub-id pub-id-type="pmid">12780373</pub-id></element-citation></ref><ref id="B19"><label>19</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Bishop</surname><given-names>DB</given-names></name><name><surname>Zimmerman</surname><given-names>BR</given-names></name><name><surname>Roesler</surname><given-names>JS</given-names></name></person-group>
+<person-group person-group-type="editor"><name><surname>Brownson</surname><given-names>RC</given-names></name><name><surname>Remington</surname><given-names>PL</given-names></name><name><surname>Davis</surname><given-names>JR</given-names></name></person-group>
+<article-title>Diabetes</article-title>
+<source>Chronic Disease Epidemiology and Control</source>
+<edition>2nd ed</edition>
+<publisher-loc>Washington (DC)</publisher-loc>
+<publisher-name>The American Public Health Association</publisher-name>
+<year>1998</year>
+<volume>51</volume>
+<issue>47</issue>
+<fpage>421</fpage>
+<lpage>464</lpage>
+</element-citation></ref></ref-list><sec><table-wrap position="float" id="T1"><label>Table 1</label><caption><p>Descriptive and Univariate Statistics to Assess Factors Associated with Dropping Out of a Diabetes Program, San Diego County, 2000&#x02013;2002<xref rid="T1FN1" ref-type="table-fn">a</xref>,<xref rid="T1FN2" ref-type="table-fn">b</xref>
+</p></caption><table frame="hsides" rules="groups" cellspacing="1" cellpadding="4" width="100%" border="0"><thead><tr><th scope="col" valign="bottom" align="left" rowspan="1" colspan="1">&#x000a0;</th><th scope="col" valign="bottom" align="right" rowspan="1" colspan="1">
+<bold>Controls</bold>
+<break/>
+<bold>N = 573</bold>
+</th><th scope="col" valign="bottom" align="right" rowspan="1" colspan="1">
+<bold>Dropouts</bold>
+<break/>
+<bold>N = 87</bold>
+</th><th scope="col" valign="bottom" align="right" rowspan="1" colspan="1">
+<bold>
+<italic>P</italic>
+<xref rid="T1FN3" ref-type="table-fn">c</xref>
+</bold>
+</th></tr></thead><tbody><tr><td colspan="4" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="col" valign="top" align="left" colspan="4" rowspan="1">
+<bold>Demographic factors</bold>
+</td></tr><tr><td colspan="4" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Sex</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">&#x000a0;</td><td valign="top" align="right" rowspan="1" colspan="1">&#x000a0;</td><td valign="top" align="right" rowspan="1" colspan="1">.22</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>&#x000a0; Female</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">392 (68.6)</td><td valign="top" align="right" rowspan="1" colspan="1">33 (37.9)</td><td valign="top" align="right" rowspan="1" colspan="1">&#x000a0;</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>&#x000a0; Male</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">179 (31.4)</td><td valign="top" align="right" rowspan="1" colspan="1">54 (62.1)</td><td valign="top" align="right" rowspan="1" colspan="1">&#x000a0;</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Age (mean years)</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">573 (55.4)</td><td valign="top" align="right" rowspan="1" colspan="1">87 (54.9)</td><td valign="top" align="right" rowspan="1" colspan="1">.66 </td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Race/ethnicity</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">&#x000a0;</td><td valign="top" align="right" rowspan="1" colspan="1">&#x000a0;</td><td valign="top" align="right" rowspan="1" colspan="1">
+<bold>.008</bold>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>&#x000a0; Hispanic</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">304 (53.3)</td><td valign="top" align="right" rowspan="1" colspan="1">45 (51.7)</td><td valign="top" align="right" rowspan="1" colspan="1">&#x000a0;</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>&#x000a0; Black</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">39 (6.8)</td><td valign="top" align="right" rowspan="1" colspan="1">7 (8.1)</td><td valign="top" align="right" rowspan="1" colspan="1">&#x000a0;</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>&#x000a0; Asian (includes Eastern Indian)</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">100 (17.6)</td><td valign="top" align="right" rowspan="1" colspan="1">4 (4.6)</td><td valign="top" align="right" rowspan="1" colspan="1">&#x000a0;</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>&#x000a0; White</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">116 (20.4)</td><td valign="top" align="right" rowspan="1" colspan="1">31 (35.6)</td><td valign="top" align="right" rowspan="1" colspan="1">&#x000a0;</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>&#x000a0; Other</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">11 (1.9)</td><td valign="top" align="right" rowspan="1" colspan="1">0 (0)</td><td valign="top" align="right" rowspan="1" colspan="1">&#x000a0;</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Primary language</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">&#x000a0;</td><td valign="top" align="right" rowspan="1" colspan="1">&#x000a0;</td><td valign="top" align="right" rowspan="1" colspan="1">
+<bold>.048</bold>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>&#x000a0; Not English</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">302 (52.8)</td><td valign="top" align="right" rowspan="1" colspan="1">36 (41.4)</td><td valign="top" align="right" rowspan="1" colspan="1">&#x000a0;</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>&#x000a0; English</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">270 (47.2)</td><td valign="top" align="right" rowspan="1" colspan="1">51 (58.6)</td><td valign="top" align="right" rowspan="1" colspan="1">&#x000a0;</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Insurance status</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">&#x000a0;</td><td valign="top" align="right" rowspan="1" colspan="1">&#x000a0;</td><td valign="top" align="right" rowspan="1" colspan="1">
+<bold>&#x0003c;.001 </bold>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>&#x000a0; Uninsured</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">169 (29.5)</td><td valign="top" align="right" rowspan="1" colspan="1">3 (3.5)</td><td valign="top" align="right" rowspan="1" colspan="1">&#x000a0;</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>&#x000a0; County Medical Services</bold>
+<break/>
+<bold>&#x000a0; (Medically Indigent Adults)</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">249 (43.5)</td><td valign="top" align="right" rowspan="1" colspan="1">53 (60.9)</td><td valign="top" align="right" rowspan="1" colspan="1">&#x000a0;</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>&#x000a0; Insurance</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">155 (27.0)</td><td valign="top" align="right" rowspan="1" colspan="1">31 (35.6)</td><td valign="top" align="right" rowspan="1" colspan="1">&#x000a0;</td></tr><tr><td colspan="4" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="col" valign="top" align="left" colspan="4" rowspan="1">
+<bold>Treatment factor</bold>
+</td></tr><tr><td colspan="4" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>&#x000a0; Medicine</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">&#x000a0;</td><td valign="top" align="right" rowspan="1" colspan="1">&#x000a0;</td><td valign="top" align="right" rowspan="1" colspan="1">.28 </td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>&#x000a0; Insulin alone or insulin plus oral agents</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">102 (17.8)</td><td valign="top" align="right" rowspan="1" colspan="1">21 (24.1)</td><td valign="top" align="right" rowspan="1" colspan="1">&#x000a0;</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>&#x000a0; &#x0003e;1 oral agent (no insulin)</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">210 (36.7)</td><td valign="top" align="right" rowspan="1" colspan="1">26 (29.9)</td><td valign="top" align="right" rowspan="1" colspan="1">&#x000a0;</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>&#x000a0; No medicine or 1 oral agent</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">261 (45.5)</td><td valign="top" align="right" rowspan="1" colspan="1">40 (46.0)</td><td valign="top" align="right" rowspan="1" colspan="1">&#x000a0;</td></tr><tr><td colspan="4" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="col" valign="top" align="left" colspan="4" rowspan="1">
+<bold>Clinical characteristics</bold>
+</td></tr><tr><td colspan="4" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Baseline systolic blood pressure</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">&#x000a0;</td><td valign="top" align="right" rowspan="1" colspan="1">&#x000a0;</td><td valign="top" align="right" rowspan="1" colspan="1">
+<bold>.003</bold>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>&#x000a0; &#x02265;130 mm Hg</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">169 (29.5)</td><td valign="top" align="right" rowspan="1" colspan="1">36 (46.1)</td><td valign="top" align="right" rowspan="1" colspan="1">&#x000a0;</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>&#x000a0; &#x0003c;130 mm Hg</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">404 (70.5)</td><td valign="top" align="right" rowspan="1" colspan="1">42 (53.9)</td><td valign="top" align="right" rowspan="1" colspan="1">&#x000a0;</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Baseline diastolic blood pressure</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">&#x000a0;</td><td valign="top" align="right" rowspan="1" colspan="1">&#x000a0;</td><td valign="top" align="right" rowspan="1" colspan="1">
+<bold>&#x0003c;.001</bold>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>&#x000a0; &#x02265;80 mm Hg</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">67 (11.7)</td><td valign="top" align="right" rowspan="1" colspan="1">21 (26.9)</td><td valign="top" align="right" rowspan="1" colspan="1">&#x000a0;</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>&#x000a0; &#x0003c;80 mm Hg</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">506 (88.3)</td><td valign="top" align="right" rowspan="1" colspan="1">57 (73.1)</td><td valign="top" align="right" rowspan="1" colspan="1">&#x000a0;</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Baseline body mass index (kg/m&#x000b2;) </bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">557 (32.1)</td><td valign="top" align="right" rowspan="1" colspan="1">82 (33.3)</td><td valign="top" align="right" rowspan="1" colspan="1">.29</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Baseline A1c</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">573 (8.46)</td><td valign="top" align="right" rowspan="1" colspan="1">87 (8.80)</td><td valign="top" align="right" rowspan="1" colspan="1">.22</td></tr><tr><td colspan="4" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="col" valign="top" align="left" colspan="4" rowspan="1">
+<bold>Behavioral factor</bold>
+</td></tr><tr><td colspan="4" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Smoking habit</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">&#x000a0;</td><td valign="top" align="right" rowspan="1" colspan="1">&#x000a0;</td><td valign="top" align="right" rowspan="1" colspan="1">
+<bold>.001</bold>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>&#x000a0; Current</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">63 (12.5)</td><td valign="top" align="right" rowspan="1" colspan="1">15 (20.3)</td><td valign="top" align="right" rowspan="1" colspan="1">&#x000a0;</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>&#x000a0; Past</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">162 (32.0)</td><td valign="top" align="right" rowspan="1" colspan="1">35 (47.3)</td><td valign="top" align="right" rowspan="1" colspan="1">&#x000a0;</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>&#x000a0; Never</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">281 (55.5)</td><td valign="top" align="right" rowspan="1" colspan="1">24 (32.4)</td><td valign="top" align="right" rowspan="1" colspan="1">&#x000a0;</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Disease duration before starting</bold>
+<break/>
+<bold>Project Dulce (mean years)</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">558 (7.08)</td><td valign="top" align="right" rowspan="1" colspan="1">83 (7.54)</td><td valign="top" align="right" rowspan="1" colspan="1">.59</td></tr></tbody></table><table-wrap-foot><fn id="T1FN1"><label>a</label><p>Data are given as N (%) except where noted.</p></fn><fn id="T1FN2"><label>b</label><p>Missing data resulted in case/control sample size differences among analytic variables.</p></fn><fn id="T1FN3"><label>c</label><p>Statistically significant results are in <bold>boldface</bold>
+</p></fn></table-wrap-foot></table-wrap><table-wrap position="float" id="T2"><label>Table 2</label><caption><p>Multivariable Logistic Regression Model to Assess Characteristics Associated with Dropping Out of a Diabetes Program, San Diego County, 2000&#x02013;2002</p></caption><table frame="hsides" rules="groups" border="0" cellspacing="1" cellpadding="4" width="100%"><thead><tr><th scope="col" valign="bottom" align="left" rowspan="1" colspan="1">
+<bold>Cases (N = 69)</bold>
+<break/>
+<bold>Controls (N = 504)</bold>
+</th><th scope="col" valign="bottom" align="right" rowspan="1" colspan="1">
+<bold>Odds Ratio</bold>
+</th><th scope="col" valign="bottom" align="right" rowspan="1" colspan="1">
+<bold>(95% CI)<xref rid="T2FN1" ref-type="table-fn">a</xref>
+</bold>
+</th><th scope="col" valign="bottom" align="right" rowspan="1" colspan="1">
+<bold>
+<italic>P</italic>
+<xref rid="T2FN2" ref-type="table-fn">b</xref>
+</bold>
+</th></tr></thead><tbody><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Sex</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1"/><td valign="top" align="right" rowspan="1" colspan="1"/><td valign="top" align="right" rowspan="1" colspan="1"/></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>&#x000a0; Female</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">1.50</td><td valign="top" align="right" rowspan="1" colspan="1">(0.83-2.70)</td><td valign="top" align="right" rowspan="1" colspan="1">.18</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>&#x000a0; Male</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">1.00</td><td valign="top" align="right" rowspan="1" colspan="1">ref<xref rid="T2FN3" ref-type="table-fn">c</xref>
+</td><td valign="top" align="right" rowspan="1" colspan="1">ref</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Primary Language</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1"/><td valign="top" align="right" rowspan="1" colspan="1"/><td valign="top" align="right" rowspan="1" colspan="1"/></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>&#x000a0; Not English</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">.93</td><td valign="top" align="right" rowspan="1" colspan="1">(0.53-1.65)</td><td valign="top" align="right" rowspan="1" colspan="1">.81</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>&#x000a0; English</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">1.00</td><td valign="top" align="right" rowspan="1" colspan="1">ref</td><td valign="top" align="right" rowspan="1" colspan="1">ref</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Insurance status</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">&#x000a0;</td><td valign="top" align="right" rowspan="1" colspan="1">&#x000a0;</td><td valign="top" align="right" rowspan="1" colspan="1">
+<bold>&#x0003c;.001</bold>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>&#x000a0; Uninsured</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">.05</td><td valign="top" align="right" rowspan="1" colspan="1">(0.01-0.24)</td><td valign="top" align="right" rowspan="1" colspan="1">
+<bold>&#x0003c;.001</bold>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>&#x000a0; County Medical Services </bold>
+<break/>
+<bold>&#x000a0; (Medically Indigent Adults)</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">.85</td><td valign="top" align="right" rowspan="1" colspan="1">(0.48-1.51)</td><td valign="top" align="right" rowspan="1" colspan="1">.58</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>&#x000a0; Insurance</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">1.00</td><td valign="top" align="right" rowspan="1" colspan="1">ref</td><td valign="top" align="right" rowspan="1" colspan="1">ref</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Baseline systolic blood pressure</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1"/><td valign="top" align="right" rowspan="1" colspan="1"/><td valign="top" align="right" rowspan="1" colspan="1"/></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>&#x000a0; &#x02265;130 mm Hg</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">1.84</td><td valign="top" align="right" rowspan="1" colspan="1">(1.03-3.28)</td><td valign="top" align="right" rowspan="1" colspan="1">
+<bold>.04</bold>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>&#x000a0; &#x0003c;130 mm Hg</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">1.00</td><td valign="top" align="right" rowspan="1" colspan="1">ref</td><td valign="top" align="right" rowspan="1" colspan="1">ref</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Baseline diastolic blood pressure</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1"/><td valign="top" align="right" rowspan="1" colspan="1"/><td valign="top" align="right" rowspan="1" colspan="1"/></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>&#x000a0; &#x02265;80 mm Hg</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">2.26</td><td valign="top" align="right" rowspan="1" colspan="1">(1.11-4.58)</td><td valign="top" align="right" rowspan="1" colspan="1">
+<bold>.02</bold>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>&#x000a0; &#x0003c;80 mm Hg</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">1.00</td><td valign="top" align="right" rowspan="1" colspan="1">ref</td><td valign="top" align="right" rowspan="1" colspan="1">ref</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Baseline A1c (2% interval)</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">1.27</td><td valign="top" align="right" rowspan="1" colspan="1">(1.02-1.57)</td><td valign="top" align="right" rowspan="1" colspan="1">
+<bold>.03</bold>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Smoking habit</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">&#x000a0;</td><td valign="top" align="right" rowspan="1" colspan="1">&#x000a0;</td><td valign="top" align="right" rowspan="1" colspan="1">
+<bold>&#x0003c;.001</bold>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>&#x000a0; Current</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">3.69</td><td valign="top" align="right" rowspan="1" colspan="1">(1.67-8.14)</td><td valign="top" align="right" rowspan="1" colspan="1">
+<bold>.001</bold>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>&#x000a0; Past</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">2.86</td><td valign="top" align="right" rowspan="1" colspan="1">(1.53-5.32)</td><td valign="top" align="right" rowspan="1" colspan="1">
+<bold>.001</bold>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>&#x000a0; Never</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">1.00</td><td valign="top" align="right" rowspan="1" colspan="1">ref</td><td valign="top" align="right" rowspan="1" colspan="1">ref</td></tr></tbody></table><table-wrap-foot><fn id="T2FN1"><label>a</label><p>CI indicates confidence interval.</p></fn><fn id="T2FN2"><label>b</label><p>Statistically significant results are in <bold>boldface</bold>.</p></fn><fn id="T2FN3"><label>c</label><p>Ref indicates reference group.</p></fn></table-wrap-foot></table-wrap></sec></back></article>

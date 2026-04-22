@@ -1,0 +1,102 @@
+# ================================
+# Python cache / temp
+# ================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# ================================
+# Virtual environments
+# ================================
+.venv/
+venv/
+env/
+
+# ================================
+# Jupyter / dev junk
+# ================================
+.ipynb_checkpoints/
+
+# ================================
+# OS / IDE files
+# ================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ================================
+# Git
+# ================================
+.git/
+.gitignore
+
+# ================================
+# Environment files (keep safe)
+# ================================
+.env
+.env.*
+!.env.example
+
+# ================================
+# Node (if frontend exists)
+# ================================
+node_modules/
+.next/
+
+# ================================
+# Qdrant / Vector DB (VERY IMPORTANT)
+# ================================
+qdrant_data/
+*.sqlite
+*.db
+
+# ================================
+# ML Models / Huge Files (CRITICAL 🔥)
+# ================================
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.onnx
+
+# HuggingFace cache
+.cache/
+huggingface/
+transformers_cache/
+
+# Sentence-transformers cache
+sentence_transformers/
+
+# ================================
+# Downloads / temp data
+# ================================
+data/
+downloads/
+tmp/
+temp/
+
+# ================================
+# Build / dist
+# ================================
+build/
+dist/
+*.egg-info/
+
+# ================================
+# Logs
+# ================================
+logs/
+
+# ================================
+# Docker (avoid recursion)
+# ================================
+Dockerfile*
+docker-compose*
+
+# ================================
+# Tests / unused
+# ================================
+tests/

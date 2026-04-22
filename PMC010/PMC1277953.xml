@@ -1,0 +1,591 @@
+<!-- edited with XMLSPY v2004 rel. 3 U (http://www.xmlspy.com) by CDC (private) -->
+<!DOCTYPE article
+PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.3 20210610//EN" "JATS-archivearticle1-3-mathml3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article"><?properties open_access?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Prev Chronic Dis</journal-id><journal-id journal-id-type="iso-abbrev">Prev Chronic Dis</journal-id><journal-title-group><journal-title>Preventing Chronic Disease</journal-title></journal-title-group><issn pub-type="epub">1545-1151</issn><publisher><publisher-name>Centers for Disease Control and Prevention</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">15670445</article-id><article-id pub-id-type="pmc">PMC1277953</article-id><article-id pub-id-type="publisher-id">PCDv14_04_0004</article-id><article-categories><subj-group subj-group-type="heading"><subject>Original Research</subject></subj-group><series-title>Peer Reviewed</series-title></article-categories><title-group><article-title>Use of the Internet for Health Information by the Chronically Ill</article-title></title-group><contrib-group><contrib contrib-type="author" corresp="yes"><name><surname>Wagner</surname><given-names>Todd H.</given-names></name><degrees>PhD</degrees><aff>Veterans Affairs Palo Alto Health Care System, Palo Alto, Calif, Department of Health Research and Policy, Stanford University School of Medicine, Stanford, Calif, Center for Health Policy and Center for Primary Care and Outcomes Research, Stanford University, Stanford, Calif</aff><address><addr-line>795 Willow Rd, 152-MD, Menlo Park, CA 94025</addr-line><phone>650-493-5000 ext 22048</phone><email>twagner@stanford.edu</email></address></contrib><contrib contrib-type="author"><name><surname>Baker</surname><given-names>Laurence C.</given-names></name><degrees>PhD</degrees><aff>Department of Health Research and Policy, Stanford University School of Medicine, Stanford, Calif, Center for Health Policy and Center for Primary Care and Outcomes Research, Stanford University, Stanford, Calif</aff></contrib><contrib contrib-type="author"><name><surname>Bundorf</surname><given-names>M. Kate</given-names></name><degrees>MBA, MPH</degrees><aff>Department of Health Research and Policy, Stanford University School of Medicine, Stanford, Calif, Center for Health Policy and Center for Primary Care and Outcomes Research, Stanford University, Stanford, Calif</aff></contrib><contrib contrib-type="author"><name><surname>Singer</surname><given-names>Sara</given-names></name><degrees>MBA</degrees><aff>Center for Health Policy and Center for Primary Care and Outcomes Research, Stanford University, Stanford, Calif, Harvard School of Business, Cambridge, Mass</aff></contrib></contrib-group><pub-date pub-type="collection"><month>10</month><year>2004</year></pub-date><pub-date pub-type="epub"><day>15</day><month>9</month><year>2004</year></pub-date><volume>1</volume><issue>4</issue><elocation-id>A13</elocation-id><permissions><copyright-year>2004</copyright-year><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is a publication of the U.S. Government. This publication is in the public domain and is therefore without copyright. All text from this work may be reprinted freely. Use of these materials should be properly cited.</license-p></license></permissions><abstract abstract-type="key-points"><sec sec-type="intro"><title>Introduction</title><p>Chronic conditions are among the leading causes of death and disability in the United States. The Internet is a source of health information and advice for individuals with chronic conditions and shows promise for helping individuals manage their conditions and improve their quality of life.</p></sec><sec sec-type="methods"><title>Methods</title><p>We assessed Internet use for health information by people who had one or more of five common chronic conditions. We conducted a national survey of adults aged 21 and older, then analyzed data from 1980 respondents who had Internet access and who reported that they had hypertension, diabetes, cancer, heart problems, and/or depression.</p></sec><sec sec-type="results"><title>Results</title><p>Adjusted rates for any Internet use for health information ranged from 33.8% (heart problems only) to 52.0% (diabetes only). A sizable minority of respondents &#x02014; particularly individuals with diabetes &#x02014; reported that the Internet helped them to manage their condition themselves, and 7.9% said information on the Internet led them to seek care from a different doctor.</p></sec><sec sec-type="conclusions"><title>Conclusion</title><p>Use of the Internet for health information by chronically ill patients is moderate. Self-reported effects on choice of treatment or provider are small but noteworthy.</p></sec></abstract></article-meta></front><body><sec><title>Introduction</title><p>Chronic conditions are among the leading causes of death and disability in the United States (<xref rid="B1" ref-type="bibr">1</xref>) and are responsible for a disproportionately large share of health care use and cost (<xref rid="B2" ref-type="bibr">2</xref>). New technologies frequently target people with chronic conditions with the hope of increasing system efficiencies and improving patient quality of life. One particularly promising area of innovation has been consumer-oriented health information on the Internet.</p><p>Certain attributes of the Internet make it particularly appealing for patients with chronic illnesses. The cost of distributing information on the Web is extremely low, and people in rural areas and those with disabilities can access the same information as people in urban areas and those with no disabilities. Also, compared with printed documents, Internet information can be easily updated to reflect new scientific findings. This has become particularly useful for patients looking for cutting-edge treatments and new clinical trials for chronic illnesses such as human immunodeficiency virus (HIV) and cancer. While the first few generations of Internet sites offering health information consisted primarily of digitized copies of printed materials, developers were quick to exploit the Internet's interactive capabilities. Consumers can now use the Internet to search for risk-assessment tools, interactive health advice, and the latest medical news.</p><p>Researchers have begun to examine the potential effects of the Internet on health issues. The low cost of distributing information on the Internet has prompted some researchers to test whether the Internet could be used as a disease-management tool. In two studies, high-quality, disease-specific information was distributed to randomly selected participants, and participants in control groups received information in the traditional form of a health magazine or book (<xref rid="B3" ref-type="bibr">3</xref>,<xref rid="B4" ref-type="bibr">4</xref>). Study results indicated that the Internet was a better conduit for providing health information. It is not clear, however, which characteristics of the Internet drive its effect on patient education. One study compared a group that received tailored information and personalized feedback via the Internet with a group that received Internet information only and found few differences between the two groups (<xref rid="B5" ref-type="bibr">5</xref>).</p><p>In addition to disease management, two other areas of Internet health information research have attracted attention. First, studies by Jadad et al (<xref rid="B6" ref-type="bibr">6</xref>), Eysenbach et al (<xref rid="B7" ref-type="bibr">7</xref>), and Berland et al (<xref rid="B8" ref-type="bibr">8</xref>), among others, have shown that the Internet is saturated with both good and bad health information and that consumers are not good judges of quality. Second, studies have described how people are using the Internet for health information. Although the estimates of how many people use the Internet for health have been heavily debated (<xref rid="B9" ref-type="bibr">9</xref>-<xref rid="B12" ref-type="bibr">12</xref>), questions about how a person's health affects their use of the Internet have not been investigated in as much depth. A recurring finding is that people with depression are more likely than people with other health conditions to use computers to find health information. This finding was noted as part of a community-wide intervention that provided participants with self-care books, a telephone advice line, and computerized health information (<xref rid="B13" ref-type="bibr">13</xref>). Compared with participants without depression, participants with depression reported a higher probability of using all three media. More recently, Haviland and colleagues analyzed data from the 2001 Healthcare Market Guide survey and found that people who reported a psychiatric condition (including depression) were more likely to use the Internet to access disease/wellness information than people with no chronic health problem (<xref rid="B14" ref-type="bibr">14</xref>). Similarly, a recent national survey by the Pew Internet and American Life Project found that depression, anxiety, or mental-health issues were among the 10 most frequent health-related search topics on the Internet (<xref rid="B15" ref-type="bibr">15</xref>). But beyond depression, there is little research from which to identify other emerging themes.</p><p>People with chronic conditions have unique needs; this paper investigates Internet use among respondents who reported having hypertension, diabetes, cancer, heart problems, and/or depression. We conducted a nationally representative survey to assess Internet use for health advice and information by individuals with these chronic conditions. Our analysis focused on individuals with at least one of five common chronic illnesses: diabetes, hypertension, cancer, heart problems, and depression. This study addressed three issues. First, we assessed the extent to which people with any of the five chronic illnesses used the Internet for health information. Second, we compared perceptions of the Internet among participants who have one of the five chronic illnesses. Third, we examined respondents' self-reported effects of the information. The sample used in this analysis represents a sub-population of a previously published paper (<xref rid="B9" ref-type="bibr">9</xref>).</p></sec><sec><title>Methods</title><sec><title>Survey of health and the Internet</title><p>We surveyed a sample representing the entire U.S. population aged 21 years and older. We drew our sample from a research panel of more than 60,000 households; the panel was developed and maintained by Knowledge Networks (KN), a survey research firm. Using random-digit dialing, KN contacted potential panel households, offering them free Internet access in exchange for periodic participation in short surveys. Participants were informed of their rights as panel members, including the right not to answer surveys or questions. We then surveyed a random sample of panel members through the MSN WebTV.</p><p>The electronic survey was sent to a specific household member. A light on the WebTV notified potential participants about the survey. KN formatted the survey for the WebTV to resemble other surveys it sends to panel members. Item nonresponse for variables analyzed in this paper was less than 2%.</p><p>Institutional Review Boards at Stanford University and Research Triangle Institute approved the survey protocol. KN sent a consent form and the survey to a sample of 12,878 panel members in late 2001 and early 2002. Those who did not respond within three days received an e-mail reminder. Two additional e-mail reminders were sent to nonrespondents. Of the 12,878 persons who were sent a survey, 2265 (18%) declined consent, 1678 (13%) did not complete the consent form, and 8935 (69%) provided informed consent and subsequently completed the survey. Compared with respondents, people who did not complete the survey were younger on average (49 versus 54 years; <italic>P</italic> &#x0003c; .001) and more likely to have a high school education or less (39% versus 49%; <italic>P</italic> &#x0003c; .001).</p><p>A focus of the survey was to assess how people with chronic illnesses were using the Internet. In the survey, we asked people about five common chronic conditions: hypertension, diabetes, cancer, heart problems, and depression. We selected these conditions based on their prevalence and on research by Berland et al (<xref rid="B8" ref-type="bibr">8</xref>). Of the 8935 respondents, 4990 reported one or more of these conditions.</p><p>We further narrowed our analytical sample because KN had given Internet access to most of our respondents for the first time, and previously published studies on health and the Internet had sampled only people who had obtained Internet access on their own. Thus, of the 4990 respondents, we analyzed data from only the 1980 respondents who had Internet access prior to participation in KN. In a separate paper, we reported on how all people with Internet access prior to participation in KN used the Internet for health (<xref rid="B9" ref-type="bibr">9</xref>). In this paper, we focus on people with chronic conditions.</p><p>At the time of our survey, the panel recruitment response rate was 41%, calculated by standards established by the American Association for Public Opinion Research (<xref rid="B16" ref-type="bibr">16</xref>), and the panel attrition rate was 14%. We independently investigated the generalizability of the KN dataset by comparing disease prevalence estimates to the 2000 National Health Interview Survey (NHIS). The questions on cancer were most similar, and the prevalence estimates were 6.2% for our sample and 6.8% for NHIS. For diabetes and hypertension, our questions differed from the NHIS questions: we asked about diabetes along with high blood sugar and hypertension along with high blood pressure, rather than just about diabetes and hypertension. Prevalence estimates in our sample were 12.3% for diabetes and 29.0% for hypertension &#x02014; each approximately five percentage points higher than the NHIS survey. We also conducted additional comparisons of the sample to a range of population benchmarks and found results consistent with the representativeness of the sample. Details of the KN panel and data generalizability are reported in a technical <xref rid="A1" ref-type="app">appendix</xref> (<xref rid="B17" ref-type="bibr">17</xref>), and the questionnaire is available upon request.</p></sec><sec><title>Variables and analysis</title><p>We first assessed how frequently subjects had used the Internet for health information in the last year (more than once a week, about once a week, about once a month, every two to three months, less than every two to three months, never in the last year). We asked about the frequency with which they had searched during the past year, and whether they had used the Internet to communicate about their illness with doctors, other patients, and family or friends. For subjects who said they had used the Internet to find health information, participants were asked to respond "agree," "disagree," or "don't know" to three statements: "it takes too long to find information on the Internet," "I cannot trust information I find on the Internet," and "I can easily understand the information I find on the Internet." We excluded the few (2&#x02013;6%) who answered "don't know."</p><p>We asked questions that referred specifically to one of the respondent's chronic illnesses. The questions asked whether using the Internet or e-mail 1) improved understanding of the illness; 2) improved understanding of possible treatments for the illness; 3) affected the treatments used for the illness; 4) improved the ability of respondent to manage the disease on his or her own; 5) led the respondent to seek care from different doctors or health care providers than respondent otherwise would have; or 6) affected the way respondent ate or exercised. None of the questions asked respondents to recall what information they were seeking. Response categories were "strongly agree," "agree," "disagree," and "strongly disagree"; we collapsed these four into "agree" and "disagree." These six questions were asked only if people reported searching the Internet for health information.</p><p>The independent variable of interest was the subject's chronic condition. We asked respondents if a doctor had ever told them that they had 1) high blood pressure or hypertension; 2) diabetes or high blood sugar; 3) cancer; or 4) heart problems, such as a heart attack, coronary heart disease, angina, or heart failure. We also asked whether they had ever had, or had a doctor or other health care provider tell them that they had, depression. For diabetes, respondents could answer "yes," "no," or "borderline" (we recoded borderline as "yes"); for other items, they could answer "yes" or "no."</p><p>We used two analytical approaches for comparing the chronic conditions. First, for the dependent variables that did not refer to a specific condition, we created a classification system for the chronic conditions. People could report more than one chronic condition. For most analyses, we classified respondents into one of seven mutually exclusive study groups: hypertension only (n = 505), diabetes only (n = 147), cancer only (n = 59), heart problems only (n = 73), depression only (n = 552), two chronic conditions (n = 451), and three or more (n = 190). We tried developing categories representing different combinations of conditions (e.g., diabetes and hypertension), but making more combinations was intractable and preliminary analysis indicated that doing so would provide little additional information. We note when significant differences between other chronic conditions exist.</p><p>We used another approach for questions on the effects of Internet use on the respondent's chronic condition. For people who had more than one chronic condition, we chose one of the conditions randomly and asked all questions about only that one. Again, the chronic condition was the primary variable of interest. But because the questions specifically referred to a chronic condition, we compared hypertension, diabetes, cancer, heart problems, and depression.</p><p>We oversampled veterans and older adults (aged more than 50). KN calculated post-stratification sampling weights to reduce the bias due to nonresponse and to reduce sampling variance for characteristics highly correlated with demographic and geographic totals. KN calculated these weights so that the weighted sample cells matched those of the December 2001 U.S. Census Bureau's Current Population Survey. The weights were based on age, veteran status, sex, race/ethnicity, geographic region, metropolitan status, and education.</p><p>We weighted all bivariate and multivariate analyses to account for our oversamples of older adults and veterans. The five chronic conditions differed by demographic characteristics that were also associated with using the Internet. Therefore, we used multivariate logistic regression models in which we controlled for education (high school or less, some college, or some graduate school), sex, and age (under 50, 50&#x02013;64, 65&#x02013;74, or 75+ years). We treated all control variables as sets of dummy variables to allow for nonlinearities. When testing for statistical significance, we corrected the standard errors for the complex design effects. We conducted all analyses in Stata 8 (StataCorp LP, College Station, Tex).</p><p>Although the odds ratios are informative, we were interested in the absolute and relative differences across the chronic conditions. Therefore, we used the logistic regressions to compute predicted probabilities, which we then multiplied by 100 to reflect percentages, using the characteristics of a respondent who had average values of the control variables. In the tables, we present the predicted probabilities based on our multivariate models in which we hold age, education, and sex constant. (The full regression results are presented in <xref rid="T4" ref-type="table">Supplemental Tables</xref>.)</p></sec></sec><sec><title>Results</title><p>
+<xref rid="T1" ref-type="table">Table 1</xref> shows the summary statistics for the sample. People who reported depression only were the largest group (27.9% of the sample). People who had hypertension only constituted the second-largest group (25.5%); people who had two chronic conditions made up the third-largest group (22.8%). The smallest group was people who had cancer only (3.0%).</p><p>Of the 641 respondents with more than one chronic condition, 201 (31.4%) reported having hypertension, 171 (26.7%) reported having depression, 116 (18.1%) reported having diabetes, 88 (13.7%) reported having heart problems, and 66 (10.3%) reported having cancer (data not shown). Combinations of two and three chronic conditions comprised 93.0% of this group; 39 (6.1%) people reported four chronic conditions, and only six (1.0%) reported having all five conditions.</p><sec><title>Frequency of Internet use</title><p>Among all individuals who had one or more of the five chronic conditions, 45.9% reported using the Internet to seek health information or advice in the past year (<xref rid="T2" ref-type="table">Table 2</xref>). On average, 11.0% reported at least monthly use. Internet use varied by chronic condition. Those who had hypertension only, cancer only, or heart problems only reported relatively low use (33.8%&#x02013;42.9%); those who had diabetes only, depression only, or two or more chronic conditions were more likely to use the Internet (47.6%&#x02013;52.0%).</p><p>People with depression only, cancer only, and three or more chronic conditions were more likely to use e-mail or other Internet-based services to communicate with heath professionals than people with hypertension only or heart problems only (<italic>P </italic>&#x0003c;.05). Using the Internet to communicate with family or friends was the most common form of communication, ranging from approximately 26.6%&#x02013;41.7%, except for people with diabetes only (16.6%). People with three or more chronic conditions or cancer only reported higher rates of communicating with other patients, compared with people with hypertension only or heart problems only (<italic>P </italic>&#x0003c;.05).</p></sec><sec><title>Attitudes about the Internet</title><p>Among people who used the Internet for health information, 38.7% agreed that it takes too long to find information on the Internet, 20.7% agreed that they cannot trust information on the Internet, and 82.6% agreed that the information on the Internet is easy to understand. There were no statistically significant differences across study groups, except for the finding that 18.7% of people in the heart-problems&#x02013;only group agreed that it takes too long to find information, compared with diabetes only (48.7%, <italic>P</italic> &#x0003c; .01), depression only (42.4%, <italic>P</italic> &#x0003c;.01), two chronic conditions (40.6%, <italic>P</italic> &#x0003c;.05), and three or more chronic conditions (42.1%, <italic>P</italic> &#x0003c;.05).</p></sec><sec><title>Self-reported effects</title><p>When stratified by condition, nearly one half to more than three quarters of respondents reported that Internet use or e-mail improved their understanding of their condition(s) (<xref rid="T3" ref-type="table">Table 3</xref>). Approximately the same percentage of respondents said that Internet use improved their understanding of possible treatments. People who had diabetes and heart problems responded positively more frequently than did those who had hypertension (<italic>P</italic> &#x0003c; .05).</p><p>A much smaller percentage in all groups reported that the Internet affected the treatment(s) they received for their condition(s). Although 23.5% of people with diabetes and 26.9% of people with heart problems said Internet use affected their treatments, only the latter value was marginally statistically greater than for people who had hypertension (15%, <italic>P</italic> = .06).</p><p>Overall, 28.3% of respondents with one of five chronic conditions reported that Internet information had improved their ability to manage their condition by themselves. People who had diabetes reported most frequently that the Internet had improved their ability to manage their condition (38.4%), and this was statistically greater than for people with depression (22.3%, <italic>P</italic> &#x0003c; .01), but was not greater than for the other chronic condition groups. Fewer than one in eight reported that the Internet had led them to seek care from different doctors or providers; there were no significant differences across the conditions. When we asked about whether the Internet had affected the way that subjects ate or exercised, 49.2% of those with diabetes said yes, a significantly greater proportion than the proportion of people who had depression (31.0%, <italic>P</italic> &#x0003c; .01) or cancer (29.7%, <italic>P</italic> &#x0003c; .05).</p></sec></sec><sec><title>Discussion</title><p>People with chronic conditions vary in their use of the Internet for health information and advice. After adjusting for education, sex, and age, Internet use for health information in the past year clustered at about 33.8% to 42.9% for hypertension only, cancer only, and heart problems only. Rates were slightly higher (47.6%) for people with any two of the five chronic conditions and were 51.0% to 52.0% for people with diabetes only, depression only, and three or more chronic conditions.</p><p>People who have depression only and people who have multiple chronic conditions were among the most frequent users of the Internet for health information &#x02014; for overall use and for communicating with health professionals. Use of the Internet was also common for people with diabetes only, although these people were less likely to communicate with family and no more or less likely to communicate with health professionals or other patients than the other chronic condition groups. These data confirm past reports that people who have depression are more likely to seek health information than people who have other chronic conditions (<xref rid="B13" ref-type="bibr">13</xref>,<xref rid="B18" ref-type="bibr">18</xref>). The higher rates for depression only may reflect that the disorder still carries some stigma, leading individuals to seek information outside traditional routes. The higher rates for depression could also reflect that depression care often has greater limits on mental health care insurance benefits and higher out-of-pocket expenses. It would be useful to know whether this association is driven by stigma or by costs. If the association is driven by stigma, this could identify opportunities for using the Internet to reach people with stigmatized and potentially communicable chronic conditions (e.g., HIV).</p><p>Although a large percentage of people with depression searched the Internet only for health information, the depression-only group reported one of the lowest rates for having been affected by Internet use. People who had diabetes, cancer, or heart problems were more likely to agree that Internet information improved their understanding of their condition than were people who had hypertension or depression. More research is needed to determine which type of information is received by people who have depression and whether they find it helpful.</p><p>We interpret Internet use among people with chronic conditions as a glass half empty or half full. We see smaller effects on treatments and providers and larger effects on self-management, eating, and exercise. Fewer than one in eight people agreed that the Internet led them to seek care from different health professionals for their conditions, and fewer than one in four said that the Internet affected their choice of treatment. These numbers can be viewed as substantial or meager, depending upon perspective. If these numbers are accurate, the effect of the Internet on improved understanding is larger than other computerized patient education interventions, such as the one described in the study by Rostom et al on decision support for hormone replacement therapy (<xref rid="B19" ref-type="bibr">19</xref>) or in the study by Consoli et al on hypertension (<xref rid="B20" ref-type="bibr">20</xref>). Caution must be used in interpreting these responses because the data are self-reported, and we do not have information about respondents' knowledge before they used the Internet and cannot compare these data to a control group. We also have no way of verifying if the information they obtained was factually correct.</p><p>Attitudes toward health information on the Internet were generally favorable. Slightly more than one third of the people with one or more of the five chronic conditions agreed that it takes too long to find information on the Internet, indicating that search time is an important determinant in using the Internet. When people do find information, they then have to identify whether it is high quality and accurate. Approximately one in five people agreed that they cannot trust Internet health information, but it is unclear how they determine whether they can trust the information. Other studies have discussed problems with the quality and coverage of health information on the Internet (<xref rid="B6" ref-type="bibr">6</xref>,<xref rid="B8" ref-type="bibr">8</xref>,<xref rid="B21" ref-type="bibr">21</xref>), and research has found that people are not particularly good judges for identifying accurate health information and often forget which sites they searched (<xref rid="B7" ref-type="bibr">7</xref>). Efforts to help people identify high-quality information more quickly could result in more people using the Internet for health information.</p><p>A limitation of this study was that all the data were self-reported. Some respondents might have avoided labeling themselves as chronically ill, especially for depression, which is stigmatized. Additionally, the survey questions required that people reconstruct memories of how they used the Internet in the past year. This process can be cognitively difficult, especially when a question asks respondents to remember how they used the Internet and then to estimate its net effect.</p><p>The KN panel has been used in other research studies (<xref rid="B22" ref-type="bibr">22</xref>,<xref rid="B23" ref-type="bibr">23</xref>). This method of sampling departs from traditional random-digit dialing. Both methods start with a sampling frame that consists of U.S. households with telephone access. Both methods have strengths and weaknesses. The strength of the panel approach is that people are asked to participate in the panel, and a subset is sampled for a particular survey. We have information on those who were sent the survey and did not respond. The weakness is that some people may dislike being on a panel and opt out when first asked or ask to be removed from the panel over time. KN and independent researchers have studied these issues and reports are available online (<ext-link xlink:href="http://www.knowledgenetworks.com/ganp/reviewer-info.html" ext-link-type="uri">http://www.knowledgenetworks.com/ganp/reviewer-info.html</ext-link>). Random-digit dialing is performed each time a survey is fielded, so it is not susceptible to panel attrition. At the onset of the call, however, the respondent is told about the intent of the survey. People then choose whether to complete the survey, and, typically, little if any information on the non-respondents is collected. Many national surveys, including the Behavioral Risk Factor Surveillance Survey and 2000 Census, report median response rates below 70%. The latest study on the Internet and health conducted by Pew Internet and American Life Project reported a response rate of 32.8% (<xref rid="B15" ref-type="bibr">15</xref>). As mentioned earlier, we compared our sample to other national surveys. Although the results were similar on all the variables we compared (<xref rid="B17" ref-type="bibr">17</xref>), we cannot rule out the existence of potential biases on other variables, such as Internet use.</p><p>This study focuses on common chronic conditions. Perhaps we would see higher rates of Internet use among people who have rare diseases. There is a substantial amount of health information available on the Internet (<xref rid="B24" ref-type="bibr">24</xref>), and people with rare illnesses can obtain peer support on the Internet in ways that would not be possible off-line. Further research could evaluate these matters.</p><p>A common perception is that the provision of health information via the Internet is a "field of dreams" &#x02014; that is, if we build it, they will come. In the past decade, public and private investments have poured into Internet sites. Although the Internet can offer several clear advantages over traditional information sources, such as very low distribution costs, we found that few people who have the five common chronic conditions studied use it routinely. When they do, however, they report notable gains in knowledge and small changes in behavior.</p></sec></body><back><ack><p>The Department of Veterans Affairs, Stanford University, and the Center on the Demography and Economics of Health and Aging at Stanford University, which is funded by National Institute on Aging (AG17253), provided research funding for this study. We have no financial or nonfinancial connections with Knowledge Networks.</p></ack><fn-group><fn><p>The opinions expressed by authors contributing to this journal do not necessarily reflect the opinions of the U.S. Department of Health and Human Services, the Public Health Service, Centers for Disease Control and Prevention, or the authors' affiliated institutions. Use of trade names is for identification only and does not imply endorsement by any of the groups named above.</p></fn><fn><p>
+<italic>Suggested citation for this article</italic>: Wagner TH, Baker LC, Bundorf MK, Singer S. Use of the Internet for health information by the chronically ill. Prev Chronic Dis [serial online] 2004 Oct [date cited]. Available from: URL: <ext-link xlink:href="http://www.cdc.gov/pcd/issues/2004/oct/04_0004.htm" ext-link-type="uri">http://www.cdc.gov/pcd/issues/2004/oct/04_0004.htm</ext-link>.</p></fn></fn-group><ref-list><ref id="B1"><label>1</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Murray</surname><given-names>CJ</given-names></name><name><surname>Lopez</surname><given-names>AD</given-names></name></person-group>
+<article-title>Evidence-based health policy &#x02014; lessons from the Global Burden of Disease Study</article-title>
+<source>Science</source>
+<year>1996</year>
+<volume>274</volume>
+<issue>5288</issue>
+<fpage>740</fpage>
+<lpage>743</lpage>
+<pub-id pub-id-type="pmid">8966556</pub-id></element-citation></ref><ref id="B2"><label>2</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hoffman</surname><given-names>C</given-names></name><name><surname>Rice</surname><given-names>D</given-names></name><name><surname>Sung</surname><given-names>HY</given-names></name></person-group>
+<article-title>Persons with chronic conditions. Their prevalence and costs</article-title>
+<source>JAMA</source>
+<year>1996</year>
+<volume>276</volume>
+<issue>18</issue>
+<fpage>1473</fpage>
+<lpage>1479</lpage>
+<pub-id pub-id-type="pmid">8903258</pub-id></element-citation></ref><ref id="B3"><label>3</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lorig</surname><given-names>KR</given-names></name><name><surname>Laurent</surname><given-names>DD</given-names></name><name><surname>Deyo</surname><given-names>RA</given-names></name><name><surname>Marnell</surname><given-names>ME</given-names></name><name><surname>Minor</surname><given-names>MA</given-names></name><name><surname>Ritter</surname><given-names>PL</given-names></name></person-group>
+<article-title>Can a back pain e-mail discussion group improve health status and lower health care costs?: A randomized study</article-title>
+<source>Arch Intern Med</source>
+<year>2002</year>
+<volume>162</volume>
+<issue>7</issue>
+<fpage>792</fpage>
+<lpage>796</lpage>
+<pub-id pub-id-type="pmid">11926853</pub-id></element-citation></ref><ref id="B4"><label>4</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gustafson</surname><given-names>DH</given-names></name><name><surname>Hawkins</surname><given-names>R</given-names></name><name><surname>Pingree</surname><given-names>S</given-names></name><name><surname>McTavish</surname><given-names>F</given-names></name><name><surname>Arora</surname><given-names>NK</given-names></name><name><surname>Mendenhall</surname><given-names>J</given-names></name><etal/></person-group>
+<article-title>Effect of computer support on younger women with breast cancer</article-title>
+<source>J Gen Intern Med</source>
+<year>2001</year>
+<month>Jul</month>
+<volume>16</volume>
+<issue>7</issue>
+<fpage>435</fpage>
+<lpage>445</lpage>
+<pub-id pub-id-type="pmid">11520380</pub-id></element-citation></ref><ref id="B5"><label>5</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>McKay</surname><given-names>HG</given-names></name><name><surname>King</surname><given-names>D</given-names></name><name><surname>Eakin</surname><given-names>EG</given-names></name><name><surname>Seeley</surname><given-names>JR</given-names></name><name><surname>Glasgow</surname><given-names>RE</given-names></name><etal/></person-group>
+<article-title>The diabetes network internet-based physical activity intervention: a randomized pilot study</article-title>
+<source>Diabetes Care</source>
+<year>2001</year>
+<volume>24</volume>
+<issue>8</issue>
+<fpage>1328</fpage>
+<lpage>1334</lpage>
+<pub-id pub-id-type="pmid">11473065</pub-id></element-citation></ref><ref id="B6"><label>6</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jadad</surname><given-names>AR</given-names></name><name><surname>Gagliardi</surname><given-names>A</given-names></name></person-group>
+<article-title>Rating health information on the Internet: navigating to knowledge or to Babel?</article-title>
+<source>JAMA</source>
+<year>1998</year>
+<volume>279</volume>
+<issue>8</issue>
+<fpage>611</fpage>
+<lpage>614</lpage>
+<pub-id pub-id-type="pmid">9486757</pub-id></element-citation></ref><ref id="B7"><label>7</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Eysenbach</surname><given-names>G</given-names></name><name><surname>Kohler</surname><given-names>C</given-names></name></person-group>
+<source>BMJ</source>
+<article-title>How do consumers search for and appraise health information on the World Wide Web? Qualitative study using focus groups, usability tests, and in-depth interviews</article-title>
+<year>2002</year>
+<volume>324</volume>
+<issue>7337</issue>
+<fpage>573</fpage>
+<lpage>577</lpage>
+<pub-id pub-id-type="pmid">11884321</pub-id></element-citation></ref><ref id="B8"><label>8</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Berland</surname><given-names>GK</given-names></name><name><surname>Elliott</surname><given-names>MN</given-names></name><name><surname>Morales</surname><given-names>LS</given-names></name><name><surname>Algazy</surname><given-names>JI</given-names></name><name><surname>Kravitz</surname><given-names>RL</given-names></name><name><surname>Broder</surname><given-names>MS</given-names></name><etal/></person-group>
+<article-title>Health information on the Internet: accessibility, quality, and readability in English and Spanish</article-title>
+<source>JAMA</source>
+<year>2001</year>
+<volume>285</volume>
+<issue>20</issue>
+<fpage>2612</fpage>
+<lpage>2621</lpage>
+<pub-id pub-id-type="pmid">11368735</pub-id></element-citation></ref><ref id="B9"><label>9</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Baker</surname><given-names>L</given-names></name><name><surname>Wagner</surname><given-names>TH</given-names></name><name><surname>Singer</surname><given-names>S</given-names></name><name><surname>Bundorf</surname><given-names>MK</given-names></name></person-group>
+<source>JAMA</source>
+<article-title>Use of the Internet and E-mail for health care information: results from a national survey</article-title>
+<year>2003</year>
+<month>May</month>
+<day>14</day>
+<volume>289</volume>
+<issue>18</issue>
+<fpage>2400</fpage>
+<lpage>2406</lpage>
+<pub-id pub-id-type="pmid">12746364</pub-id></element-citation></ref><ref id="B10"><label>10</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Taylor</surname><given-names>H</given-names></name></person-group>
+<source>Cyberchondriacs continued [Internet]</source>
+<date-in-citation content-type="access-date">cited 2002 Jun 24</date-in-citation>
+<publisher-loc>Rochester (NY)</publisher-loc>
+<publisher-name>Harris Interactive</publisher-name>
+<comment>Available from: URL:<ext-link xlink:href="http://www.louisharris.com/harris_poll/index.asp?PID=229" ext-link-type="uri">http://www.louisharris.com/harris_poll/index.asp?PID=229</ext-link>
+</comment>
+</element-citation></ref><ref id="B11"><label>11</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Fox</surname><given-names>S</given-names></name><name><surname>Rainie</surname><given-names>L</given-names></name></person-group>
+<source>The Pew Internet and American Life Project</source>
+<article-title>The online health care revolution: how the Web helps Americans take better care of themselves</article-title>
+<year>2000</year>
+<publisher-loc>Washington (DC)</publisher-loc>
+</element-citation></ref><ref id="B12"><label>12</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Holstein</surname><given-names>RC</given-names></name><name><surname>Lundberg</surname><given-names>GD</given-names></name></person-group>
+<article-title>Use of the Internet for health information and communication</article-title>
+<source>JAMA</source>
+<year>2003</year>
+<month>Nov</month>
+<day>5</day>
+<volume>290</volume>
+<issue>17</issue>
+<lpage>2255</lpage>
+</element-citation></ref><ref id="B13"><label>13</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wagner</surname><given-names>TH</given-names></name><name><surname>Hibbard</surname><given-names>JH</given-names></name></person-group>
+<source>Int J Technol Assess Health Care</source>
+<article-title>Who uses self-care books, advice nurses, and computers for health information?</article-title>
+<year>2001</year>
+<volume>17</volume>
+<issue>4</issue>
+<fpage>590</fpage>
+<lpage>600</lpage>
+<pub-id pub-id-type="pmid">11758302</pub-id></element-citation></ref><ref id="B14"><label>14</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Haviland</surname><given-names>MG</given-names></name><name><surname>Pincus</surname><given-names>HA</given-names></name><name><surname>Dial</surname><given-names>TH</given-names></name></person-group>
+<article-title>Type of illness and use of the Internet for health information</article-title>
+<source>Psychiatr Serv</source>
+<year>2003</year>
+<volume>54</volume>
+<issue>9</issue>
+<lpage>1198</lpage>
+</element-citation></ref><ref id="B15"><label>15</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Fox</surname><given-names>S</given-names></name><name><surname>Fallows</surname><given-names>D</given-names></name></person-group>
+<source>The Pew Internet and American Life Project</source>
+<article-title>Internet Health Resources</article-title>
+<year>2003</year>
+<publisher-loc>Washington (DC)</publisher-loc>
+</element-citation></ref><ref id="B16"><label>16</label><element-citation publication-type="book">
+<article-title>American Association for Public Opinion Research. Standard definitions: final dispositions of cases and codes and outcome rates for surveysn</article-title>
+<source>The Association</source>
+<publisher-loc>Lenexa (KS)</publisher-loc>
+<year>2004</year>
+</element-citation></ref><ref id="B17"><label>17</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Baker</surname><given-names>LC</given-names></name><name><surname>Bundorf</surname><given-names>MK</given-names></name><name><surname>Singer</surname><given-names>S</given-names></name><name><surname>Wagner</surname><given-names>TH</given-names></name></person-group>
+<source>Validity of the Survey of Health and Internet and Knowledge Network's Panel and Sampling [Internet]</source>
+<publisher-loc>Stanford (CA)</publisher-loc>
+<publisher-name>Health Economics Resource Center</publisher-name>
+<comment>Available from: <ext-link xlink:href="http://www.herc.research.med.va.gov/wagner_CHI.htm" ext-link-type="uri">http://www.herc.research.med.va.gov/wagner_CHI.htm</ext-link>
+</comment>
+</element-citation></ref><ref id="B18"><label>18</label><element-citation publication-type="other">
+<person-group person-group-type="author"><name><surname>Roan</surname><given-names>S</given-names></name></person-group>
+<article-title>Cyber analysis</article-title>
+<source>Los Angeles Times</source>
+<year>2000</year>
+<month>Mar</month>
+<day>6</day>
+</element-citation></ref><ref id="B19"><label>19</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rostom</surname><given-names>A</given-names></name><name><surname>O'Connor</surname><given-names>A</given-names></name><name><surname>Tugwell</surname><given-names>P</given-names></name><name><surname>Wells</surname><given-names>G</given-names></name></person-group>
+<article-title>A randomized trial of a computerized versus an audio-booklet decision aid for women considering post-menopausal hormone replacement therapy</article-title>
+<source>Patient Educ Couns</source>
+<year>2002</year>
+<month>Jan</month>
+<volume>46</volume>
+<issue>1</issue>
+<fpage>67</fpage>
+<lpage>74</lpage>
+<pub-id pub-id-type="pmid">11804772</pub-id></element-citation></ref><ref id="B20"><label>20</label><element-citation publication-type="journal">
+<person-group person-group-type="editor"><name><surname>Consoli</surname><given-names>SM</given-names></name><name><surname>Ben Said</surname><given-names>M</given-names></name><name><surname>Jean</surname><given-names>J</given-names></name><name><surname>Menard</surname><given-names>J</given-names></name><name><surname>Plouin</surname><given-names>PF</given-names></name><name><surname>Chatellier</surname><given-names>G</given-names></name></person-group>
+<article-title>Benefits of a computer-assisted education program for hypertensive patients compared with standard education tools</article-title>
+<source>Patient Educ Couns</source>
+<year>1995</year>
+<volume>26</volume>
+<issue>1-3</issue>
+<fpage>343</fpage>
+<lpage>347</lpage>
+<pub-id pub-id-type="pmid">7494748</pub-id></element-citation></ref><ref id="B21"><label>21</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Biermann</surname><given-names>JS</given-names></name><name><surname>Golladay</surname><given-names>GJ</given-names></name><name><surname>Greenfield</surname><given-names>ML</given-names></name><name><surname>Baker</surname><given-names>LH</given-names></name></person-group>
+<article-title>Evaluation of cancer information on the internet</article-title>
+<source>Cancer</source>
+<year>1999</year>
+<volume>86</volume>
+<fpage>381</fpage>
+<lpage>390</lpage>
+<pub-id pub-id-type="pmid">10430244</pub-id></element-citation></ref><ref id="B22"><label>22</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schlenger</surname><given-names>WE</given-names></name><name><surname>Caddell</surname><given-names>JM</given-names></name><name><surname>Ebert</surname><given-names>L</given-names></name><name><surname>Jordan</surname><given-names>BK</given-names></name><name><surname>Rourke</surname><given-names>KM</given-names></name><name><surname>Wilson</surname><given-names>D</given-names></name><etal/></person-group>
+<source>JAMA</source>
+<article-title>Psychological reactions to terrorist attacks: findings from the national study of Americans' reactions to September 11</article-title>
+<year>2002</year>
+<month>Aug</month>
+<day>7</day>
+<volume>288</volume>
+<issue>5</issue>
+<fpage>581</fpage>
+<lpage>588</lpage>
+<pub-id pub-id-type="pmid">12150669</pub-id></element-citation></ref><ref id="B23"><label>23</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Silver</surname><given-names>RC</given-names></name><name><surname>Holman</surname><given-names>EA</given-names></name><name><surname>McIntosh</surname><given-names>DN</given-names></name><name><surname>Poulin</surname><given-names>M</given-names></name><name><surname>Gil-Rivas</surname><given-names>V</given-names></name></person-group>
+<source>JAMA</source>
+<article-title>Nationwide longitudinal study of psychological responses to September 11</article-title>
+<year>2002</year>
+<month>Sep</month>
+<day>11</day>
+<volume>288</volume>
+<issue>10</issue>
+<fpage>1235</fpage>
+<lpage>1244</lpage>
+<pub-id pub-id-type="pmid">12215130</pub-id></element-citation></ref><ref id="B24"><label>24</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kleinke</surname><given-names>JD</given-names></name></person-group>
+<source>Health Aff</source>
+<article-title>Vaporware.com: the failed promise of the health care Internet</article-title>
+<year>2000</year>
+<volume>19</volume>
+<issue>6</issue>
+<fpage>57</fpage>
+<lpage>71</lpage>
+</element-citation></ref></ref-list><sec><table-wrap position="float" id="T1"><label>Table 1</label><caption><p>Characteristics of Participants, Survey on Using the Internet for Health Information (n = 1980), United States, 2001&#x02013;2002<xref rid="T1FN1" ref-type="table-fn">a</xref>
+</p></caption><table frame="hsides" rules="groups" border="0" cellspacing="1" width="443" cellpadding="4"><thead><tr><th scope="col" valign="bottom" align="right" rowspan="1" colspan="1"/><th scope="col" valign="bottom" align="right" rowspan="1" colspan="1">
+<bold>n</bold>
+</th><th scope="col" valign="bottom" align="right" rowspan="1" colspan="1">
+<bold>%</bold>
+</th><th scope="col" valign="bottom" align="right" rowspan="1" colspan="1">
+<bold>SE (%)</bold>
+</th></tr></thead><tbody><tr><td colspan="4" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" colspan="4" rowspan="1">
+<bold>Chronic Condition</bold>
+</td></tr><tr><td colspan="4" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Hypertension only</td><td valign="top" align="right" rowspan="1" colspan="1">505</td><td valign="top" align="right" rowspan="1" colspan="1">25.5</td><td valign="top" align="right" rowspan="1" colspan="1">1.4</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Diabetes only</td><td valign="top" align="right" rowspan="1" colspan="1">147</td><td valign="top" align="right" rowspan="1" colspan="1">7.4</td><td valign="top" align="right" rowspan="1" colspan="1">0.9</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Cancer only</td><td valign="top" align="right" rowspan="1" colspan="1">59</td><td valign="top" align="right" rowspan="1" colspan="1">3.0</td><td valign="top" align="right" rowspan="1" colspan="1">0.4</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Heart problems only</td><td valign="top" align="right" rowspan="1" colspan="1">73</td><td valign="top" align="right" rowspan="1" colspan="1">3.7</td><td valign="top" align="right" rowspan="1" colspan="1">0.6</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Depression only</td><td valign="top" align="right" rowspan="1" colspan="1">552</td><td valign="top" align="right" rowspan="1" colspan="1">27.9</td><td valign="top" align="right" rowspan="1" colspan="1">1.6</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Two chronic conditions</td><td valign="top" align="right" rowspan="1" colspan="1">451</td><td valign="top" align="right" rowspan="1" colspan="1">22.8</td><td valign="top" align="right" rowspan="1" colspan="1">1.4</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Three or more chronic conditions</td><td valign="top" align="right" rowspan="1" colspan="1">190</td><td valign="top" align="right" rowspan="1" colspan="1">9.6</td><td valign="top" align="right" rowspan="1" colspan="1">0.8</td></tr><tr><td colspan="4" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" colspan="4" rowspan="1">
+<bold>Age (years)</bold>
+</td></tr><tr><td colspan="4" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">&#x0003c;50</td><td valign="top" align="right" rowspan="1" colspan="1">1131</td><td valign="top" align="right" rowspan="1" colspan="1">57.1</td><td valign="top" align="right" rowspan="1" colspan="1">1.5</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">50-64</td><td valign="top" align="right" rowspan="1" colspan="1">586</td><td valign="top" align="right" rowspan="1" colspan="1">29.6</td><td valign="top" align="right" rowspan="1" colspan="1">1.3</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">65-74</td><td valign="top" align="right" rowspan="1" colspan="1">196</td><td valign="top" align="right" rowspan="1" colspan="1">9.9</td><td valign="top" align="right" rowspan="1" colspan="1">0.7</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">75+</td><td valign="top" align="right" rowspan="1" colspan="1">65</td><td valign="top" align="right" rowspan="1" colspan="1">3.3</td><td valign="top" align="right" rowspan="1" colspan="1">0.4</td></tr><tr><td colspan="4" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" colspan="4" rowspan="1">
+<bold>Education</bold>
+</td></tr><tr><td colspan="4" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">&#x0003c;13 years</td><td valign="top" align="right" rowspan="1" colspan="1">834</td><td valign="top" align="right" rowspan="1" colspan="1">42.1</td><td valign="top" align="right" rowspan="1" colspan="1">1.6</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">13-16 years</td><td valign="top" align="right" rowspan="1" colspan="1">941</td><td valign="top" align="right" rowspan="1" colspan="1">47.5</td><td valign="top" align="right" rowspan="1" colspan="1">1.6</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">17+ years</td><td valign="top" align="right" rowspan="1" colspan="1">208</td><td valign="top" align="right" rowspan="1" colspan="1">10.5</td><td valign="top" align="right" rowspan="1" colspan="1">0.8</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Female</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">1154</td><td valign="top" align="right" rowspan="1" colspan="1">58.3</td><td valign="top" align="right" rowspan="1" colspan="1">1.6</td></tr><tr><td colspan="4" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Total</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">1980</td><td valign="top" align="right" rowspan="1" colspan="1"/><td valign="top" align="right" rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">
+<hr/>
+</td></tr></tbody></table><table-wrap-foot><fn id="T1FN1"><label>a</label><p>All data are weighted.</p></fn></table-wrap-foot></table-wrap><table-wrap position="float" id="T2"><label>Table 2</label><caption><p>Use of Internet for Health Information, Survey Results (n = 1980), United States, 2001&#x02013;2002<xref rid="T2FN1" ref-type="table-fn">a</xref>
+</p></caption><table frame="hsides" rules="groups" border="0" cellspacing="1" width="100%" cellpadding="4"><thead><tr><th valign="bottom" align="left" rowspan="1" colspan="1"/><th scope="col" valign="bottom" colspan="2" rowspan="1">
+<bold>Used Internet for Information or Advice About Health or Health Care</bold>
+</th><th scope="col" valign="bottom" colspan="3" rowspan="1">
+<bold>Used E-mail or Internet in Past Year to Communicate With</bold>
+</th></tr><tr><th colspan="6" rowspan="1">
+<hr/>
+</th></tr><tr><th valign="bottom" align="left" rowspan="1" colspan="1"/><th scope="col" valign="bottom" rowspan="1" colspan="1">
+<bold>Ever in last year</bold>
+</th><th scope="col" valign="bottom" rowspan="1" colspan="1">
+<bold>At least monthly</bold>
+</th><th scope="col" valign="bottom" rowspan="1" colspan="1">
+<bold>Health professional</bold>
+</th><th scope="col" valign="bottom" rowspan="1" colspan="1">
+<bold>Family and friends</bold>
+</th><th scope="col" valign="bottom" rowspan="1" colspan="1">
+<bold>Other patients</bold>
+</th></tr></thead><tbody><tr><td colspan="6" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="col" valign="top" colspan="6" align="left" rowspan="1">
+<bold>Chronic Condition</bold>
+</td></tr><tr><td colspan="6" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Hypertension only</td><td valign="top" align="right" rowspan="1" colspan="1">39.6</td><td valign="top" align="right" rowspan="1" colspan="1">8.5</td><td valign="top" align="right" rowspan="1" colspan="1">4.1</td><td valign="top" align="right" rowspan="1" colspan="1">26.6<xref rid="T2FN4" ref-type="table-fn">d</xref>
+</td><td valign="top" align="right" rowspan="1" colspan="1">10.9</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Diabetes only</td><td valign="top" align="right" rowspan="1" colspan="1">52.0</td><td valign="top" align="right" rowspan="1" colspan="1">14.7</td><td valign="top" align="right" rowspan="1" colspan="1">5.6</td><td valign="top" align="right" rowspan="1" colspan="1">16.6</td><td valign="top" align="right" rowspan="1" colspan="1">13.3</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Cancer only</td><td valign="top" align="right" rowspan="1" colspan="1">42.9</td><td valign="top" align="right" rowspan="1" colspan="1">16.6<xref rid="T2FN3" ref-type="table-fn">c</xref>
+</td><td valign="top" align="right" rowspan="1" colspan="1">11.0<xref rid="T2FN2" ref-type="table-fn">b</xref>,<xref rid="T2FN3" ref-type="table-fn">c</xref>
+</td><td valign="top" align="right" rowspan="1" colspan="1">29.8<xref rid="T2FN4" ref-type="table-fn">d</xref>
+</td><td valign="top" align="right" rowspan="1" colspan="1">16.8<xref rid="T2FN3" ref-type="table-fn">c</xref>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Heart problems only</td><td valign="top" align="right" rowspan="1" colspan="1">33.8</td><td valign="top" align="right" rowspan="1" colspan="1">9.5</td><td valign="top" align="right" rowspan="1" colspan="1">3.7</td><td valign="top" align="right" rowspan="1" colspan="1">29.3<xref rid="T2FN4" ref-type="table-fn">d</xref>
+</td><td valign="top" align="right" rowspan="1" colspan="1">5.6</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Depression only</td><td valign="top" align="right" rowspan="1" colspan="1">51.0</td><td valign="top" align="right" rowspan="1" colspan="1">8.8<xref rid="T2FN3" ref-type="table-fn">c</xref>
+</td><td valign="top" align="right" rowspan="1" colspan="1">10.5<xref rid="T2FN2" ref-type="table-fn">b</xref>,<xref rid="T2FN3" ref-type="table-fn">c</xref>
+</td><td valign="top" align="right" rowspan="1" colspan="1">31.7<xref rid="T2FN4" ref-type="table-fn">d</xref>
+</td><td valign="top" align="right" rowspan="1" colspan="1">13.5</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Two chronic conditions</td><td valign="top" align="right" rowspan="1" colspan="1">47.6</td><td valign="top" align="right" rowspan="1" colspan="1">12.7<xref rid="T2FN3" ref-type="table-fn">c</xref>
+</td><td valign="top" align="right" rowspan="1" colspan="1">6.6</td><td valign="top" align="right" rowspan="1" colspan="1">30.0<xref rid="T2FN4" ref-type="table-fn">d</xref>
+</td><td valign="top" align="right" rowspan="1" colspan="1">12.3</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Three or more chronic conditions</td><td valign="top" align="right" rowspan="1" colspan="1">51.5<xref rid="T2FN2" ref-type="table-fn">b</xref>,<xref rid="T2FN3" ref-type="table-fn">c</xref>
+</td><td valign="top" align="right" rowspan="1" colspan="1">15.3<xref rid="T2FN2" ref-type="table-fn">b</xref>,<xref rid="T2FN3" ref-type="table-fn">c</xref>
+</td><td valign="top" align="right" rowspan="1" colspan="1">9.3<xref rid="T2FN2" ref-type="table-fn">b</xref>,<xref rid="T2FN3" ref-type="table-fn">c</xref>
+</td><td valign="top" align="right" rowspan="1" colspan="1">41.7<xref rid="T2FN2" ref-type="table-fn">b</xref>,<xref rid="T2FN4" ref-type="table-fn">d</xref>
+</td><td valign="top" align="right" rowspan="1" colspan="1">25.6<xref rid="T2FN2" ref-type="table-fn">b</xref>,<xref rid="T2FN3" ref-type="table-fn">c</xref>
+</td></tr><tr><td colspan="6" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Overall</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">45.9</td><td valign="top" align="right" rowspan="1" colspan="1">11.0</td><td valign="top" align="right" rowspan="1" colspan="1">6.6</td><td valign="top" align="right" rowspan="1" colspan="1">30.0</td><td valign="top" align="right" rowspan="1" colspan="1">13.1</td></tr><tr><td rowspan="1" colspan="1">
+<hr/>
+</td></tr></tbody></table><table-wrap-foot><fn id="T2FN1"><label>a</label><p>All figures are percentages. Percentages were calculated from a logistic regression model that included age, sex, and education, and that controlled for the complex design effects. Some totals may not sum to 100% because of rounding.</p></fn><fn id="T2FN2"><label>b</label><p>Significant at 5% (two-tailed) compared to hypertension only.</p></fn><fn id="T2FN3"><label>c</label><p>Significant at 5% (two-tailed) compared to heart problems only.</p></fn><fn id="T2FN4"><label>d</label><p>Significant at 5% (two-tailed) compared to diabetes only.</p></fn></table-wrap-foot></table-wrap><table-wrap position="float" id="T3"><label>Table 3</label><caption><p>Self-reported Effects of Using the Internet for Health Information, Survey Results, United States, 2001&#x02013;2002<xref rid="T3FN1" ref-type="table-fn">a</xref>
+</p></caption><table frame="hsides" rules="groups" border="0" cellspacing="1" width="100%" cellpadding="4"><thead><tr><th scope="col" valign="bottom" align="right" rowspan="1" colspan="1">&#x000a0;</th><th scope="col" valign="bottom" rowspan="1" colspan="1">
+<bold>Improved my under-</bold>
+<break/>
+<bold>standing of X</bold>
+<break/>
+<bold>(n=851)</bold>
+</th><th scope="col" valign="bottom" rowspan="1" colspan="1">
+<bold>Improved my under-</bold>
+<break/>
+<bold>standing of possible treatments for X</bold>
+<break/>
+<bold>(n=851)</bold>
+</th><th scope="col" valign="bottom" rowspan="1" colspan="1">
+<bold>Affected the treat-</bold>
+<break/>
+<bold>ments I am using for X</bold>
+<break/>
+<bold>(n=843)</bold>
+</th><th scope="col" valign="bottom" rowspan="1" colspan="1">
+<bold>Improved my ability to manage my X by myself</bold>
+<break/>
+<bold>(n=831)</bold>
+</th><th scope="col" valign="bottom" rowspan="1" colspan="1">
+<bold>Led me to seek care from different doctors or health care providers for X than I otherwise would have</bold>
+<break/>
+<bold>(n=837)</bold>
+</th><th scope="col" valign="bottom" rowspan="1" colspan="1">
+<bold>Affected the way I eat or exercise</bold>
+<break/>
+<bold>
+(n=847)</bold>
+</th></tr></thead><tbody><tr><td colspan="7" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="col" valign="top" colspan="7" align="left" rowspan="1">
+<bold>Chronic Condition</bold>
+</td></tr><tr><td colspan="7" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Hypertension</td><td valign="top" align="right" rowspan="1" colspan="1">48.1</td><td valign="top" align="right" rowspan="1" colspan="1">45.3</td><td valign="top" align="right" rowspan="1" colspan="1">15.0</td><td valign="top" align="right" rowspan="1" colspan="1">29.1</td><td valign="top" align="right" rowspan="1" colspan="1">6.2</td><td valign="top" align="right" rowspan="1" colspan="1">39.6</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Diabetes</td><td valign="top" align="right" rowspan="1" colspan="1">66.6<xref rid="T3FN2" ref-type="table-fn">b</xref>
+</td><td valign="top" align="right" rowspan="1" colspan="1">67.0<xref rid="T3FN2" ref-type="table-fn">b</xref>
+</td><td valign="top" align="right" rowspan="1" colspan="1">23.5</td><td valign="top" align="right" rowspan="1" colspan="1">38.4</td><td valign="top" align="right" rowspan="1" colspan="1">8.0</td><td valign="top" align="right" rowspan="1" colspan="1">49.2</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Cancer</td><td valign="top" align="right" rowspan="1" colspan="1">62.9</td><td valign="top" align="right" rowspan="1" colspan="1">59.3</td><td valign="top" align="right" rowspan="1" colspan="1">14.5</td><td valign="top" align="right" rowspan="1" colspan="1">25.6</td><td valign="top" align="right" rowspan="1" colspan="1">12.2</td><td valign="top" align="right" rowspan="1" colspan="1">29.7<xref rid="T3FN3" ref-type="table-fn">c</xref>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Heart problems</td><td valign="top" align="right" rowspan="1" colspan="1">79.3<xref rid="T3FN2" ref-type="table-fn">b</xref>
+</td><td valign="top" align="right" rowspan="1" colspan="1">75.8<xref rid="T3FN2" ref-type="table-fn">b</xref>
+</td><td valign="top" align="right" rowspan="1" colspan="1">26.9</td><td valign="top" align="right" rowspan="1" colspan="1">32.6</td><td valign="top" align="right" rowspan="1" colspan="1">11.6</td><td valign="top" align="right" rowspan="1" colspan="1">35.0</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Depression</td><td valign="top" align="right" rowspan="1" colspan="1">47.1</td><td valign="top" align="right" rowspan="1" colspan="1">45.4</td><td valign="top" align="right" rowspan="1" colspan="1">17.8</td><td valign="top" align="right" rowspan="1" colspan="1">22.3<xref rid="T3FN3" ref-type="table-fn">c</xref>
+</td><td valign="top" align="right" rowspan="1" colspan="1">8.3</td><td valign="top" align="right" rowspan="1" colspan="1">31.0<xref rid="T3FN3" ref-type="table-fn">c</xref>
+</td></tr><tr><td colspan="7" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Overall</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">55.8</td><td valign="top" align="right" rowspan="1" colspan="1">53.4</td><td valign="top" align="right" rowspan="1" colspan="1">17.9</td><td valign="top" align="right" rowspan="1" colspan="1">28.3</td><td valign="top" align="right" rowspan="1" colspan="1">7.9</td><td valign="top" align="right" rowspan="1" colspan="1">36.9</td></tr><tr><td rowspan="1" colspan="1">
+<hr/>
+</td></tr></tbody></table><table-wrap-foot><fn id="T3FN1"><label>a</label><p>All figures are percentages. Percentages were calculated from a logistic regression model that included age, sex, and education, and controlled for the complex design effects. People with more than one of the five chronic conditions were randomly assigned to one condition. X indicates a chronic condition. </p></fn><fn id="T3FN2"><label>b</label><p>Significant at 5% (two-tailed) compared to hypertension only.</p></fn><fn id="T3FN3"><label>c</label><p>Significant at 5% (two-tailed) compared to diabetes only.</p></fn></table-wrap-foot></table-wrap></sec><app-group><app id="A1"><title>Appendix. Validity of the Survey of Health and Internet and Knowledge Network's Panel and Sampling</title><p>Our study was conducted using an Internet-based survey methodology that may be unfamiliar to reviewers.&#x000a0;The appendix addresses potential questions reviewers may have.&#x000a0;In particular, we provide more detailed information about Knowledge Networks (KN), the survey research firm conducting the survey, the techniques used in the survey, and results of analyses performed by KN and other researchers, including the authors, regarding the validity of the methodology.</p><p>[Note from the editor: For our readers' convenience, we have converted this appendix into downloadable PDF format. The PDF format simplifies the printing process and maintains the appearance of the original document.]</p><!-- <p>Validity of the Survey of Health and Internet and Knowledge Network's Panel and Sampling (PDF 567K)<media alternate-form-of="A1" position="anchor" mimetype="application" mime-subtype="pdf" xlink:href="04_0004_01.pdf" id="fg1f1m1"/></p>--><media xlink:href="04_0004_01.pdf" id="fg1f1m1" position="anchor"><caption><p>Validity of the Survey of Health and Internet and Knowledge Network's Panel and Sampling (PDF 567K)</p></caption></media></app><app id="A2"><title>Supplemental Tables</title><table-wrap-group position="anchor" id="d95e1774"><table-wrap position="anchor" id="T4"><label>Supplemental Table A</label><caption><p>Internet Use for Health Information in Last Year, Regression Results, United States, 2001&#x02013;2002<xref rid="T4FN1" ref-type="table-fn">a</xref>
+</p></caption><table frame="hsides" rules="groups" cellspacing="1" width="100%" cellpadding="4" border="0"><thead><tr><th scope="col" valign="bottom" rowspan="1" colspan="1"/><th scope="col" valign="bottom" rowspan="1" colspan="1">
+<bold>Used Internet in Last Year for Health Information</bold>
+<break/>
+<bold>OR (95% CI)</bold>
+</th><th scope="col" valign="bottom" rowspan="1" colspan="1">
+<bold>Used Internet Monthly for Health Information</bold>
+<break/>
+<bold>OR (95% CI)</bold>
+</th><th scope="col" valign="bottom" rowspan="1" colspan="1">
+<bold>Communicated With Doctor in Last Year on Health Information</bold>
+<break/>
+<bold>OR (95% CI)</bold>
+</th><th scope="col" valign="bottom" rowspan="1" colspan="1">
+<bold>Communicated With Family Last Year on Health Information</bold>
+<break/>
+<bold>OR (95% CI)</bold>
+</th><th scope="col" valign="bottom" rowspan="1" colspan="1">
+<bold>Communicated With Other Patients in Last Year on Health Information</bold>
+<break/>
+<bold>OR (95% CI)</bold>
+</th></tr></thead><tbody><tr><td colspan="6" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="col" valign="top" colspan="6" align="left" rowspan="1">
+<bold>Chronic Condition</bold>
+</td></tr><tr><td colspan="6" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Hypertension only</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">Ref</td><td valign="top" align="center" rowspan="1" colspan="1">Ref</td><td valign="top" align="center" rowspan="1" colspan="1">Ref</td><td valign="top" align="center" rowspan="1" colspan="1">Ref</td><td valign="top" align="center" rowspan="1" colspan="1">Ref</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Diabetes only</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">1.564 (0.882-2.773)</td><td valign="top" align="right" rowspan="1" colspan="1">1.713 (0.716-4.097)</td><td valign="top" align="right" rowspan="1" colspan="1">1.429 (0.392-5.205)</td><td valign="top" align="right" rowspan="1" colspan="1">0.518<xref rid="T4FN2" ref-type="table-fn">b</xref>(0.277-0.972)</td><td valign="top" align="right" rowspan="1" colspan="1">1.208 (0.496-2.945)</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Cancer only</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">1.174 (0.649-2.124)</td><td valign="top" align="right" rowspan="1" colspan="1">2.338 (0.946-5.781)</td><td valign="top" align="right" rowspan="1" colspan="1">2.990<xref rid="T4FN2" ref-type="table-fn">b</xref> (1.045-8.556)</td><td valign="top" align="right" rowspan="1" colspan="1">1.244 (0.618-2.501)</td><td valign="top" align="right" rowspan="1" colspan="1">1.763 (0.695-4.475)</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Heart problems only</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">0.749 (0.375-1.496)</td><td valign="top" align="right" rowspan="1" colspan="1">1.172 (0.442-3.105)</td><td valign="top" align="right" rowspan="1" colspan="1">0.842 (0.342-2.070)</td><td valign="top" align="right" rowspan="1" colspan="1">1.162(0.523-2.577)</td><td valign="top" align="right" rowspan="1" colspan="1">0.514 (0.192-1.374)</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Depression only</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">1.439 (0.987-2.099)</td><td valign="top" align="right" rowspan="1" colspan="1">0.83 (0.451-1.527)</td><td valign="top" align="right" rowspan="1" colspan="1">2.971<xref rid="T4FN3" ref-type="table-fn">c</xref> (1.427-6.187)</td><td valign="top" align="right" rowspan="1" colspan="1">1.092 (0.722-1.652)</td><td valign="top" align="right" rowspan="1" colspan="1">1.122 (0.626-2.011)</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>2 chronic conditions</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">1.409 (0.970-2.048)</td><td valign="top" align="right" rowspan="1" colspan="1">1.648 (0.899-3.018)</td><td valign="top" align="right" rowspan="1" colspan="1">1.73 (0.778-3.846)</td><td valign="top" align="right" rowspan="1" colspan="1">1.198 (0.802-1.789)</td><td valign="top" align="right" rowspan="1" colspan="1">1.169 (0.663-2.060)</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>3+ chronic conditions</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">1.658<xref rid="T4FN2" ref-type="table-fn"> b</xref> (1.050-2.616)</td><td valign="top" align="right" rowspan="1" colspan="1">2.091<xref rid="T4FN2" ref-type="table-fn">b</xref> (1.039-4.208)</td><td valign="top" align="right" rowspan="1" colspan="1">2.518<xref rid="T4FN2" ref-type="table-fn"> b</xref> (1.191-5.326)</td><td valign="top" align="right" rowspan="1" colspan="1">2.025<xref rid="T4FN3" ref-type="table-fn">c</xref> (1.256-3.267)</td><td valign="top" align="right" rowspan="1" colspan="1">2.923<xref rid="T4FN3" ref-type="table-fn">c</xref> (1.549-5.514)</td></tr><tr><td colspan="6" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="col" valign="top" colspan="6" align="left" rowspan="1">
+<bold>Age (years)</bold>
+</td></tr><tr><td colspan="6" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>&#x0003c;50 </bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">Ref</td><td valign="top" align="center" rowspan="1" colspan="1">Ref</td><td valign="top" align="center" rowspan="1" colspan="1">Ref</td><td valign="top" align="center" rowspan="1" colspan="1">Ref</td><td valign="top" align="center" rowspan="1" colspan="1">Ref</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>50-64</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">1.142 (0.857-1.520)</td><td valign="top" align="right" rowspan="1" colspan="1">0.729 (0.474-1.121)</td><td valign="top" align="right" rowspan="1" colspan="1">0.994 (0.566-1.745)</td><td valign="top" align="right" rowspan="1" colspan="1">1.091 (0.801-1.485)</td><td valign="top" align="right" rowspan="1" colspan="1">0.904 (0.595-1.374)</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>65-74</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">1.023 (0.689-1.518)</td><td valign="top" align="right" rowspan="1" colspan="1">0.656 (0.375-1.147)</td><td valign="top" align="right" rowspan="1" colspan="1">0.787 (0.379-1.636)</td><td valign="top" align="right" rowspan="1" colspan="1">0.763 (0.505-1.153)</td><td valign="top" align="right" rowspan="1" colspan="1">0.626 (0.341-1.150)</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>75+</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">0.544<xref rid="T4FN2" ref-type="table-fn"> b</xref> (0.323-.916)</td><td valign="top" align="right" rowspan="1" colspan="1">0.533 (0.231-1.230)</td><td valign="top" align="right" rowspan="1" colspan="1">0.946 (0.388-2.304)</td><td valign="top" align="right" rowspan="1" colspan="1">0.654 (0.370-1.157)</td><td valign="top" align="right" rowspan="1" colspan="1">0.765 (0.375-1.562)</td></tr><tr><td colspan="6" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="col" valign="top" colspan="6" align="left" rowspan="1">
+<bold>Education (years)</bold>
+</td></tr><tr><td colspan="6" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>&#x0003c;13</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">0.368<xref rid="T4FN3" ref-type="table-fn"> c</xref> (0.245-0.552)</td><td valign="top" align="right" rowspan="1" colspan="1">0.599 (0.330-1.087)</td><td valign="top" align="right" rowspan="1" colspan="1">0.638 (0.329-1.234)</td><td valign="top" align="right" rowspan="1" colspan="1">0.624<xref rid="T4FN2" ref-type="table-fn"> b</xref> (0.409-0.950)</td><td valign="top" align="right" rowspan="1" colspan="1">0.968 (0.578-1.624)</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>13-16 </bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">0.813 (0.562-1.176)</td><td valign="top" align="right" rowspan="1" colspan="1">0.987 (0.587-1.662)</td><td valign="top" align="right" rowspan="1" colspan="1">0.914 (0.529-1.580)</td><td valign="top" align="right" rowspan="1" colspan="1">0.984 (0.674-1.436)</td><td valign="top" align="right" rowspan="1" colspan="1">0.878 (0.547-1.411)</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>&#x0003e;16</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">Ref</td><td valign="top" align="center" rowspan="1" colspan="1">Ref</td><td valign="top" align="center" rowspan="1" colspan="1">Ref</td><td valign="top" align="center" rowspan="1" colspan="1">Ref</td><td valign="top" align="center" rowspan="1" colspan="1">Ref</td></tr><tr><td colspan="6" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="col" valign="top" colspan="6" align="left" rowspan="1">
+<bold>Sex</bold>
+</td></tr><tr><td colspan="6" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Female</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">1.679<xref rid="T4FN3" ref-type="table-fn"> c</xref> (1.297-2.173)</td><td valign="top" align="right" rowspan="1" colspan="1">1.599<xref rid="T4FN2" ref-type="table-fn"> b</xref> (1.054-2.427)</td><td valign="top" align="right" rowspan="1" colspan="1">0.705 (0.418-1.190)</td><td valign="top" align="right" rowspan="1" colspan="1">1.659<xref rid="T4FN3" ref-type="table-fn"> c</xref> (1.248-2.206)</td><td valign="top" align="right" rowspan="1" colspan="1">1.203 (0.813-1.779)</td></tr><tr><td colspan="6" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="col" valign="top" colspan="6" align="left" rowspan="1">
+<bold>Observations</bold>
+</td></tr><tr><td colspan="6" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Weighted</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">1980</td><td valign="top" align="right" rowspan="1" colspan="1">1980</td><td valign="top" align="right" rowspan="1" colspan="1">1980</td><td valign="top" align="right" rowspan="1" colspan="1">1980</td><td valign="top" align="right" rowspan="1" colspan="1">1980</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Unweighted</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">2391</td><td valign="top" align="right" rowspan="1" colspan="1">2391</td><td valign="top" align="right" rowspan="1" colspan="1">2391</td><td valign="top" align="right" rowspan="1" colspan="1">2391</td><td valign="top" align="right" rowspan="1" colspan="1">2391</td></tr></tbody></table><table-wrap-foot><fn id="T4FN1"><label>a</label><p>OR indicates odds ratio; CI indicates confidence interval; Ref indicates reference group. Regressions controlled for the complex design effects.</p></fn><fn id="T4FN2"><label>b</label><p>Significant at 5%.</p></fn><fn id="T4FN3"><label>c</label><p>Significant at 1% (two-tailed).</p></fn></table-wrap-foot></table-wrap><table-wrap position="anchor" id="T5"><label>Supplemental Table B</label><caption><p>Perceptions of Using the Internet Among Individuals Who Use the Internet for Health Information, Regression Results, United States, 2001&#x02013;2002<xref rid="T5FN1" ref-type="table-fn">a</xref>
+</p></caption><table frame="hsides" rules="groups" cellspacing="1" width="100%" cellpadding="4" border="0"><thead><tr><th scope="col" valign="bottom" rowspan="1" colspan="1"/><th scope="col" valign="bottom" rowspan="1" colspan="1">
+<bold>Agree that "It takes too long to find information on Internet"</bold>
+<break/>
+<bold>OR (95% CI)</bold>
+</th><th scope="col" valign="bottom" rowspan="1" colspan="1">
+<bold>Agree that "I cannot trust health information on Internet"</bold>
+<break/>
+<bold>&#x000a0;OR (95% CI)</bold>
+</th><th scope="col" valign="bottom" rowspan="1" colspan="1">
+<bold>Agree that "I can easily understand health information on Internet" </bold>
+<break/>
+<bold>OR (95% CI)</bold>
+</th></tr></thead><tbody><tr><td colspan="4" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="col" valign="top" colspan="4" align="left" rowspan="1">
+<bold>Chronic Condition</bold>
+</td></tr><tr><td colspan="4" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Hypertension only</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">Ref</td><td valign="top" align="center" rowspan="1" colspan="1">Ref</td><td valign="top" align="center" rowspan="1" colspan="1">Ref</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Diabetes only</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">1.826 (0.804-4.145)</td><td valign="top" align="right" rowspan="1" colspan="1">2.133 (0.822-5.537)</td><td valign="top" align="right" rowspan="1" colspan="1">1.175 (0.397-3.480)</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Cancer only</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">1.094 (0.441-2.715)</td><td valign="top" align="right" rowspan="1" colspan="1">0.909 (0.337-2.449)</td><td valign="top" align="right" rowspan="1" colspan="1">1.664 (0.624-4.435)</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Heart problems only</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">0.42 (0.171-1.032)</td><td valign="top" align="right" rowspan="1" colspan="1">0.649 (0.201-2.097)</td><td valign="top" align="right" rowspan="1" colspan="1">1.037 (0.249-4.328)</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Depression only</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">1.532 (0.873-2.689)</td><td valign="top" align="right" rowspan="1" colspan="1">1.802 (0.880-3.689)</td><td valign="top" align="right" rowspan="1" colspan="1">1.116 (0.570-2.186)</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>2 chronic conditions</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">1.217 (0.703-2.106)</td><td valign="top" align="right" rowspan="1" colspan="1">1.566 (0.762-3.219)</td><td valign="top" align="right" rowspan="1" colspan="1">1.325 (0.701-2.503)</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>3+ chronic conditions</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">1.26 (0.677-2.342)</td><td valign="top" align="right" rowspan="1" colspan="1">1.259 (0.586-2.702)</td><td valign="top" align="right" rowspan="1" colspan="1">0.959 (0.490-1.878)</td></tr><tr><td colspan="4" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="col" valign="top" colspan="4" align="left" rowspan="1">
+<bold>Age (years)</bold>
+</td></tr><tr><td colspan="4" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>&#x0003c;50</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">Ref</td><td valign="top" align="center" rowspan="1" colspan="1">Ref</td><td valign="top" align="center" rowspan="1" colspan="1">Ref</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>50-64</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">1.14 (0.756-1.719)</td><td valign="top" align="right" rowspan="1" colspan="1">0.639 (0.382-1.069)</td><td valign="top" align="right" rowspan="1" colspan="1">0.825 (0.505-1.348)</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>65-74</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">1.619 (0.914-2.869)</td><td valign="top" align="right" rowspan="1" colspan="1">0.495<xref rid="T5FN2" ref-type="table-fn">b</xref> (0.249-0.984)</td><td valign="top" align="right" rowspan="1" colspan="1">1.315 (0.656-2.634)</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>75+ </bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">1.819 (0.841-3.938)</td><td valign="top" align="right" rowspan="1" colspan="1">0.652 (0.269-1.580)</td><td valign="top" align="right" rowspan="1" colspan="1">1.558 (0.604-4.017)</td></tr><tr><td colspan="4" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="col" valign="top" colspan="4" align="left" rowspan="1">
+<bold>Education (years)</bold>
+</td></tr><tr><td colspan="4" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>&#x0003c;13</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">1.414 (0.807-2.477)</td><td valign="top" align="right" rowspan="1" colspan="1">1.37 (0.706-2.659)</td><td valign="top" align="right" rowspan="1" colspan="1">0.897 (0.460-1.747)</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>13-16</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">1.214 (0.758-1.946)</td><td valign="top" align="right" rowspan="1" colspan="1">1.348 (0.782-2.323)</td><td valign="top" align="right" rowspan="1" colspan="1">1.232 (0.709-2.140)</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>&#x0003e;16</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">Ref</td><td valign="top" align="center" rowspan="1" colspan="1">Ref</td><td valign="top" align="center" rowspan="1" colspan="1">Ref</td></tr><tr><td colspan="4" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="col" valign="top" colspan="4" align="left" rowspan="1">
+<bold>Sex</bold>
+</td></tr><tr><td colspan="4" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Female</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">0.927 (0.625-1.374)</td><td valign="top" align="right" rowspan="1" colspan="1">0.557<xref rid="T5FN2" ref-type="table-fn">b</xref> (0.344-0.901)</td><td valign="top" align="right" rowspan="1" colspan="1">1.294 (0.817-2.049)</td></tr><tr><td colspan="4" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="col" valign="top" colspan="4" align="left" rowspan="1">
+<bold>Observations</bold>
+</td></tr><tr><td colspan="4" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Weighted</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">894</td><td valign="top" align="right" rowspan="1" colspan="1">887</td><td valign="top" align="right" rowspan="1" colspan="1">893</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Unweighted</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">1125</td><td valign="top" align="right" rowspan="1" colspan="1">1119</td><td valign="top" align="right" rowspan="1" colspan="1">1120</td></tr></tbody></table><table-wrap-foot><fn id="T5FN1"><label>a</label><p>OR indicates odds ratio; CI indicates confidence interval; Ref indicates reference group. Regressions controlled for the complex design effects.</p></fn><fn id="T5FN2"><label>b</label><p>Significant at 5%.</p></fn></table-wrap-foot></table-wrap><table-wrap position="anchor" id="T6"><label>Supplemental Table C</label><caption><p>Effects of Using Internet for Health Information, Regression Results, United States, 2001<xref rid="T6FN1" ref-type="table-fn">a</xref>
+</p></caption><table frame="hsides" rules="groups" cellspacing="1" width="100%" cellpadding="4" border="0"><thead><tr><th scope="col" valign="bottom" rowspan="1" colspan="1"/><th scope="col" valign="bottom" rowspan="1" colspan="1">
+<bold>"Improved my understanding of X"</bold>
+<break/>
+<bold> OR (95% CI)</bold>
+</th><th scope="col" valign="bottom" rowspan="1" colspan="1">
+<bold>"Improved my understanding of possible treatments for X"</bold>
+<break/>
+<bold>OR (95% CI)</bold>
+</th><th scope="col" valign="bottom" rowspan="1" colspan="1">
+<bold>"Affected the treatments I am using for X"</bold>
+<break/>
+<bold>OR (95% CI)</bold>
+</th><th scope="col" valign="bottom" rowspan="1" colspan="1">
+<bold>"Improved my ability to manage my X by myself"</bold>
+<break/>
+<bold>OR (95% CI)</bold>
+</th><th scope="col" valign="bottom" rowspan="1" colspan="1">
+<bold>"Led me to seek care from different doctors or health care
+providers for X than I otherwise would have"</bold>
+<break/>
+<bold>OR (95% CI)</bold>
+</th><th scope="col" valign="bottom" rowspan="1" colspan="1">
+<bold>"Affected the way I eat or exercise"</bold>
+<break/>
+<bold>OR (95% CI)</bold>
+</th></tr></thead><tbody><tr><td colspan="7" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="col" valign="top" colspan="7" align="left" rowspan="1">
+<bold>Chronic Condition</bold>
+</td></tr><tr><td colspan="7" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Hypertension</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">Ref</td><td valign="top" align="center" rowspan="1" colspan="1">Ref</td><td valign="top" align="center" rowspan="1" colspan="1">Ref</td><td valign="top" align="center" rowspan="1" colspan="1">Ref</td><td valign="top" align="center" rowspan="1" colspan="1">Ref</td><td valign="top" align="center" rowspan="1" colspan="1">Ref</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Diabetes only</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">2.137<xref rid="T6FN2" ref-type="table-fn">b</xref> (1.146-3.986)</td><td valign="top" align="right" rowspan="1" colspan="1">2.397<xref rid="T6FN3" ref-type="table-fn">c</xref> (1.291-4.452)</td><td valign="top" align="right" rowspan="1" colspan="1">1.825 (0.842-3.953)</td><td valign="top" align="right" rowspan="1" colspan="1">1.534 (0.787-2.990)</td><td valign="top" align="right" rowspan="1" colspan="1">1.427 (0.442-4.602)</td><td valign="top" align="right" rowspan="1" colspan="1">1.462 (0.781-2.735)</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Cancer only</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">1.801 (0.865-3.748)</td><td valign="top" align="right" rowspan="1" colspan="1">1.723 (0.828-3.585)</td><td valign="top" align="right" rowspan="1" colspan="1">0.936 (0.406-2.157)</td><td valign="top" align="right" rowspan="1" colspan="1">0.942 (0.421-2.105)</td><td valign="top" align="right" rowspan="1" colspan="1">2.187 (0.788-6.072)</td><td valign="top" align="right" rowspan="1" colspan="1">0.675 (0.333-1.367)</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Heart problems only</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">4.174<xref rid="T6FN3" ref-type="table-fn">c</xref> (2.275-7.658)</td><td valign="top" align="right" rowspan="1" colspan="1">3.795<xref rid="T6FN3" ref-type="table-fn">c</xref> (2.052-7.019)</td><td valign="top" align="right" rowspan="1" colspan="1">2.046 (0.964-4.342)</td><td valign="top" align="right" rowspan="1" colspan="1">1.27 (0.595-2.712)</td><td valign="top" align="right" rowspan="1" colspan="1">2.044 (0.762-5.483)</td><td valign="top" align="right" rowspan="1" colspan="1">0.831 (0.435-1.587)</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Depression only</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">0.945 (0.590-1.512)</td><td valign="top" align="right" rowspan="1" colspan="1">0.969 (0.604-1.554)</td><td valign="top" align="right" rowspan="1" colspan="1">1.343 (0.750-2.404)</td><td valign="top" align="right" rowspan="1" colspan="1">0.638 (0.364-1.118)</td><td valign="top" align="right" rowspan="1" colspan="1">1.432 (0.588-3.488)</td><td valign="top" align="right" rowspan="1" colspan="1">0.685 (0.420-1.119)</td></tr><tr><td colspan="7" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="col" valign="top" colspan="7" align="left" rowspan="1">
+<bold>Age (years)</bold>
+</td></tr><tr><td colspan="7" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>&#x0003c;50 </bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">Ref</td><td valign="top" align="center" rowspan="1" colspan="1">Ref</td><td valign="top" align="center" rowspan="1" colspan="1">Ref</td><td valign="top" align="center" rowspan="1" colspan="1">Ref</td><td valign="top" align="center" rowspan="1" colspan="1">Ref</td><td valign="top" align="center" rowspan="1" colspan="1">Ref</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>50-64</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">0.803 (0.537- 1.201)</td><td valign="top" align="right" rowspan="1" colspan="1">0.762 (0.511- 1.136)</td><td valign="top" align="right" rowspan="1" colspan="1">1.274 (0.778-2.085)</td><td valign="top" align="right" rowspan="1" colspan="1">0.797 (0.514-1.237)</td><td valign="top" align="right" rowspan="1" colspan="1">1.044 (0.515-2.117)</td><td valign="top" align="right" rowspan="1" colspan="1">0.93 (0.618-1.399)</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>65-74</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">1.102 (0.615- 1.973)</td><td valign="top" align="right" rowspan="1" colspan="1">1.045 (0.582- 1.877)</td><td valign="top" align="right" rowspan="1" colspan="1">1.184 (0.582-2.407)</td><td valign="top" align="right" rowspan="1" colspan="1">0.617 (0.319-1.195)</td><td valign="top" align="right" rowspan="1" colspan="1">0.641 (0.252-1.633)</td><td valign="top" align="right" rowspan="1" colspan="1">1.324 (0.732-2.392)</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>75+</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">0.916 (0.393- 2.131)</td><td valign="top" align="right" rowspan="1" colspan="1">0.992 (0.423- 2.323)</td><td valign="top" align="right" rowspan="1" colspan="1">1.487 (0.513-4.307)</td><td valign="top" align="right" rowspan="1" colspan="1">0.64 (0.232-1.763)</td><td valign="top" align="right" rowspan="1" colspan="1">1.739 (0.445-6.795)</td><td valign="top" align="right" rowspan="1" colspan="1">0.402<xref rid="T6FN2" ref-type="table-fn">b</xref> (0.181-0.894)</td></tr><tr><td colspan="7" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="col" valign="top" colspan="7" align="left" rowspan="1">
+<bold>Education (years)</bold>
+</td></tr><tr><td colspan="7" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>&#x0003c;13</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">1.094 (0.609-1.967)</td><td valign="top" align="right" rowspan="1" colspan="1">1.003 (0.558- 1.806)</td><td valign="top" align="right" rowspan="1" colspan="1">1.385 (0.688- 2.788)</td><td valign="top" align="right" rowspan="1" colspan="1">1.762 (0.923-3.365)</td><td valign="top" align="right" rowspan="1" colspan="1">1.723 (0.649-4.577)</td><td valign="top" align="right" rowspan="1" colspan="1">1.09 (0.607-1.960)</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>13-16</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">0.993 (0.596-1.656)</td><td valign="top" align="right" rowspan="1" colspan="1">1.105 (0.663-1.842)</td><td valign="top" align="right" rowspan="1" colspan="1">1.011 (0.555- 1.839)</td><td valign="top" align="right" rowspan="1" colspan="1">1.238 (0.716- 2.140)</td><td valign="top" align="right" rowspan="1" colspan="1">0.942 (0.411-2.162)</td><td valign="top" align="right" rowspan="1" colspan="1">1.115 (0.689-1.804)</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>&#x0003e;16</bold>
+</td><td valign="top" align="center" rowspan="1" colspan="1">Ref</td><td valign="top" align="center" rowspan="1" colspan="1">Ref</td><td valign="top" align="center" rowspan="1" colspan="1">Ref</td><td valign="top" align="center" rowspan="1" colspan="1">Ref</td><td valign="top" align="center" rowspan="1" colspan="1">Ref</td><td valign="top" align="center" rowspan="1" colspan="1">Ref</td></tr><tr><td colspan="7" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="col" valign="top" colspan="7" align="left" rowspan="1">
+<bold>Sex</bold>
+</td></tr><tr><td colspan="7" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Female</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">1.014 (0.684-1.504)</td><td valign="top" align="right" rowspan="1" colspan="1">1.08 (0.728-1.604)</td><td valign="top" align="right" rowspan="1" colspan="1">0.856 (0.504- 1.453)</td><td valign="top" align="right" rowspan="1" colspan="1">0.866 (0.551- 1.361)</td><td valign="top" align="right" rowspan="1" colspan="1">0.703 (0.321-1.540)</td><td valign="top" align="right" rowspan="1" colspan="1">0.897 (0.596-1.350)</td></tr><tr><td colspan="7" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="col" valign="top" colspan="7" align="left" rowspan="1">
+<bold>Observations</bold>
+</td></tr><tr><td colspan="7" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Weighted</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">851</td><td valign="top" align="right" rowspan="1" colspan="1">851</td><td valign="top" align="right" rowspan="1" colspan="1">843</td><td valign="top" align="right" rowspan="1" colspan="1">831</td><td valign="top" align="right" rowspan="1" colspan="1">837</td><td valign="top" align="right" rowspan="1" colspan="1">847</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Unweighted</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">1069</td><td valign="top" align="right" rowspan="1" colspan="1">1069</td><td valign="top" align="right" rowspan="1" colspan="1">1055</td><td valign="top" align="right" rowspan="1" colspan="1">1050</td><td valign="top" align="right" rowspan="1" colspan="1">1053</td><td valign="top" align="right" rowspan="1" colspan="1">1059</td></tr></tbody></table><table-wrap-foot><fn id="T6FN1"><label>a</label><p>OR indicates odds ratio; CI indicates confidence interval; Ref indicates reference group; X indicates survey participant&#x02019;s chronic condition. Regressions controlled for the complex design effects.</p></fn><fn id="T6FN2"><label>b</label><p>Significant at 5%.</p></fn><fn id="T6FN3"><label>c</label><p>Significant at 1% (two-tailed).</p></fn></table-wrap-foot></table-wrap></table-wrap-group></app></app-group></back></article>

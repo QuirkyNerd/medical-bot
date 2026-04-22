@@ -1,0 +1,378 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS Pathog</journal-id><journal-id journal-id-type="iso-abbrev">PLoS Pathog</journal-id><journal-id journal-id-type="publisher-id">ppat</journal-id><journal-id journal-id-type="publisher-id">plpa</journal-id><journal-id journal-id-type="pmc">plospath</journal-id><journal-title-group><journal-title>PLoS Pathogens</journal-title></journal-title-group><issn pub-type="ppub">1553-7366</issn><issn pub-type="epub">1553-7374</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">16201017</article-id><article-id pub-id-type="pmc">PMC1238740</article-id><article-id pub-id-type="doi">10.1371/journal.ppat.0010005</article-id><article-id pub-id-type="publisher-id">05-PLPA-RA-0011R2</article-id><article-id pub-id-type="sici">plpa-01-01-03</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group><subj-group subj-group-type="Discipline"><subject>Evolution</subject><subject>Infectious Diseases</subject><subject>Microbiology</subject><subject>Molecular Biology - Structural Biology</subject></subj-group><subj-group subj-group-type="System Taxonomy"><subject>Eubacteria</subject></subj-group></article-categories><title-group><article-title>Ancient Origin and Gene Mosaicism of the Progenitor of <italic>Mycobacterium</italic>
+<italic>tuberculosis</italic>
+</article-title><alt-title alt-title-type="running-head">Origin and Evolution of Tubercle Bacilli</alt-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Gutierrez</surname><given-names>M. Cristina</given-names></name><xref ref-type="aff" rid="aff1">1</xref><xref ref-type="corresp" rid="cor1">&#x0002a;</xref></contrib><contrib contrib-type="author"><name><surname>Brisse</surname><given-names>Sylvain</given-names></name><xref ref-type="aff" rid="aff2">2</xref></contrib><contrib contrib-type="author"><name><surname>Brosch</surname><given-names>Roland</given-names></name><xref ref-type="aff" rid="aff3">3</xref></contrib><contrib contrib-type="author"><name><surname>Fabre</surname><given-names>Michel</given-names></name><xref ref-type="aff" rid="aff4">4</xref></contrib><contrib contrib-type="author"><name><surname>Oma&#x000ef;s</surname><given-names>Bahia</given-names></name><xref ref-type="aff" rid="aff1">1</xref></contrib><contrib contrib-type="author"><name><surname>Marmiesse</surname><given-names>Magali</given-names></name><xref ref-type="aff" rid="aff3">3</xref></contrib><contrib contrib-type="author"><name><surname>Supply</surname><given-names>Philip</given-names></name><xref ref-type="aff" rid="aff5">5</xref></contrib><contrib contrib-type="author"><name><surname>Vincent</surname><given-names>Veronique</given-names></name><xref ref-type="aff" rid="aff1">1</xref></contrib></contrib-group><aff id="aff1">
+<label>1</label> Laboratoire de R&#x000e9;f&#x000e9;rence des Mycobact&#x000e9;ries, Institut Pasteur, Paris, France
+</aff><aff id="aff2">
+<label>2</label> Unit&#x000e9; de Biodiversit&#x000e9; des Bact&#x000e9;ries Pathog&#x000e8;nes Emergentes, Institut Pasteur, Paris, France
+</aff><aff id="aff3">
+<label>3</label> Unit&#x000e9; de G&#x000e9;n&#x000e9;tique Mol&#x000e9;culaire Bact&#x000e9;rienne, Institut Pasteur, Paris, France
+</aff><aff id="aff4">
+<label>4</label> Laboratoire de Biologie Clinique, HIA Percy, Clamart, France
+</aff><aff id="aff5">
+<label>5</label> INSERM U629, Institut Pasteur de Lille, Lille, France
+</aff><contrib-group><contrib contrib-type="editor"><name><surname>Ramakrishnan</surname><given-names>Lalita</given-names></name><role>Editor</role><xref ref-type="aff" rid="edit1"/></contrib></contrib-group><aff id="edit1">University of Washington, United States of America</aff><author-notes><corresp id="cor1">&#x0002a; To whom correspondence should be addressed. E-mail: <email>crisgupe&#x00040;pasteur.fr</email></corresp></author-notes><pub-date pub-type="ppub"><month>9</month><year>2005</year></pub-date><pub-date pub-type="epub"><day>19</day><month>8</month><year>2005</year></pub-date><volume>1</volume><issue>1</issue><elocation-id>e5</elocation-id><history><date date-type="received"><day>28</day><month>3</month><year>2005</year></date><date date-type="accepted"><day>6</day><month>7</month><year>2005</year></date></history><permissions><copyright-statement>Copyright: &#x000a9; 2005 Gutierrez et al.</copyright-statement><copyright-year>2005</copyright-year><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p></license></permissions><abstract><p>The highly successful human pathogen <italic>Mycobacterium tuberculosis</italic> has an extremely low level of genetic variation, which suggests that the entire population resulted from clonal expansion following an evolutionary bottleneck around 35,000 y ago. Here, we show that this population constitutes just the visible tip of a much broader progenitor species, whose extant representatives are human isolates of tubercle bacilli from East Africa. In these isolates, we detected incongruence among gene phylogenies as well as mosaic gene sequences, whose individual elements are retrieved in classical <italic>M. tuberculosis</italic>. Therefore, despite its apparent homogeneity, the <italic>M. tuberculosis</italic> genome appears to be a composite assembly resulting from horizontal gene transfer events predating clonal expansion. The amount of synonymous nucleotide variation in housekeeping genes suggests that tubercle bacilli were contemporaneous with early hominids in East Africa, and have thus been coevolving with their human host much longer than previously thought. These results open novel perspectives for unraveling the molecular bases of <italic>M. tuberculosis</italic> evolutionary success.</p></abstract><abstract abstract-type="synopsis"><title>Synopsis</title><sec id="st1"><title/><p>
+<italic>Mycobacterium tuberculosis,</italic> the agent of tuberculosis, is a highly successful human pathogen and kills nearly 3 million persons each year. This pathogen and its close relatives sum up in a single and compact clonal group dating back only a few tens of thousands of years. Using genetic data, the researchers have discovered that human tubercle bacilli from East Africa represent extant bacteria of a much broader progenitor species from which the <italic>M. tuberculosis</italic> clonal group evolved. They estimate that this progenitor species is as old as 3 million years. This suggests that our remote hominid ancestors may well have already suffered from tuberculosis. In addition, the researchers show that tubercle bacilli are able to exchange parts of their genome with other strains, a process that is known to play a crucial role in adaptation of pathogens to their hosts. Thus, the <italic>M. tuberculosis</italic> genome appears to be a composite assembly, resulting from ancient horizontal DNA exchanges before its clonal expansion. These findings open novel perspectives for unraveling the origin and the molecular bases of <italic>M. tuberculosis</italic> evolutionary success, and lead to reconsideration of the impact of tuberculosis on human natural selection.</p></sec></abstract><custom-meta-group><custom-meta><meta-name>Citation:</meta-name><meta-value>Gutierrez MC, Brisse S, Brosch R, Fabre M, Oma&#x000ef;s B, et al. (2005) Ancient origin and gene mosaicism of the progenitor of <italic>Mycobacterium tuberculosis</italic>. PLoS Pathog 1(1): e5.</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec id="s1"><title>Introduction</title><p>Most bacterial species consist of a wide spectrum of distinct clones or clonal complexes [<xref rid="ppat-0010005-b01" ref-type="bibr">1</xref>&#x02013;<xref rid="ppat-0010005-b03" ref-type="bibr">3</xref>] that differ from one another by 1&#x00025; or more at synonymous nucleotide sites [<xref rid="ppat-0010005-b04" ref-type="bibr">4</xref>,<xref rid="ppat-0010005-b05" ref-type="bibr">5</xref>]. Intraspecies genetic diversity is usually generated both by mutations and by horizontal genetic exchanges. However, some important human pathogens such as <italic>Salmonella enterica</italic> serotype Typhi [<xref rid="ppat-0010005-b06" ref-type="bibr">6</xref>] and <italic>Yersinia pestis</italic> [<xref rid="ppat-0010005-b01" ref-type="bibr">1</xref>] essentially consist of a single specialized clone that recently evolved from a well-known more diversified progenitor species. Members of the <italic>Mycobacterium tuberculosis</italic> complex (MTBC), the agents responsible for tuberculosis, are among the most successful human pathogens. The MTBC as defined here comprises the so-called <italic>M. tuberculosis, M. bovis, M. microti, M. africanum, M. pinnipedii,</italic> and <italic>M. caprae</italic> species. Although the members of the MTBC display different phenotypic characteristics and mammalian host ranges, they represent one of the most extreme examples of genetic homogeneity, with about 0.01&#x00025;&#x02013;0.03&#x00025; synonymous nucleotide variation [<xref rid="ppat-0010005-b07" ref-type="bibr">7</xref>&#x02013;<xref rid="ppat-0010005-b12" ref-type="bibr">12</xref>] and no significant trace of genetic exchange among them [<xref rid="ppat-0010005-b08" ref-type="bibr">8</xref>,<xref rid="ppat-0010005-b13" ref-type="bibr">13</xref>&#x02013;<xref rid="ppat-0010005-b15" ref-type="bibr">15</xref>]. Therefore, it is believed that the members of the MTBC are the clonal progeny of a single successful ancestor, resulting from a recent evolutionary bottleneck that occurred 20,000 to 35,000 y ago [<xref rid="ppat-0010005-b07" ref-type="bibr">7</xref>,<xref rid="ppat-0010005-b08" ref-type="bibr">8</xref>,<xref rid="ppat-0010005-b11" ref-type="bibr">11</xref>,<xref rid="ppat-0010005-b16" ref-type="bibr">16</xref>].</p><p>However, the nature and the boundaries of the bacterial pool that existed prior to the putative bottleneck, as well as the time of the transition to pathogenicity for mammalian hosts, have not yet been identified. A preliminary report suggested that <italic>M. canettii,</italic> a rare tubercle bacillus with an unusual smooth colony phenotype [<xref rid="ppat-0010005-b17" ref-type="bibr">17</xref>], could represent the most ancestral lineage of the MTBC [<xref rid="ppat-0010005-b18" ref-type="bibr">18</xref>]. However, this speculation relied only on the identification of one to four nucleotide polymorphisms in a single gene. Here, based on an extensive genetic analysis including seven genes, we found that <italic>M. canettii</italic> and other smooth tubercle bacilli actually correspond to pre-bottleneck lineages, belonging to a much broader progenitor species from which the MTBC emerged.</p></sec><sec id="s2"><title>Results/Discussion</title><sec id="s2a"><title>Identification of Clonal Groups of Smooth Tubercle Bacilli</title><p>We extensively characterized 37 pulmonary and extra-pulmonary isolates of smooth tubercle bacilli (see <xref ref-type="sec" rid="s3">Material and Methods</xref>; <xref ref-type="supplementary-material" rid="ppat-0010005-st001">Table S1</xref>) from European and African patients, mostly immunocompetent subjects who live or have lived in Djibouti, East Africa. Genotyping with a broad set of repetitive DNA and long sequence polymorphism markers led to recognition of eight clonal groups, designated A to I, within which the markers were virtually identical (<xref ref-type="supplementary-material" rid="ppat-0010005-sg001">Figure S1</xref>; <xref ref-type="supplementary-material" rid="ppat-0010005-st002">Table S2</xref>). According to these markers, only groups A and C/D corresponded to <italic>M. canettii</italic> isolates, as defined by van Soolingen et al. [<xref rid="ppat-0010005-b17" ref-type="bibr">17</xref>] and Brosch et al. [<xref rid="ppat-0010005-b16" ref-type="bibr">16</xref>]. Group B was closely related to <italic>M. canettii</italic> but differed by the presence of <italic>RD12<sup>can</sup>,</italic> characteristically deleted in <italic>M. canettii,</italic> and by the absence of IS<italic>1081</italic> insertion sequence. The five other groups of smooth tubercle bacilli were remarkably distinctive from <italic>M. canettii</italic> and the thousands of MTBC strains globally investigated up to now, notably by lacking IS<italic>1081</italic> and/or the direct repeat (DR) locus [<xref rid="ppat-0010005-b19" ref-type="bibr">19</xref>].</p></sec><sec id="s2b"><title>Smooth Tubercle Bacilli and MTBC Form a Single Mycobacterial Species</title><p>To determine the positions of the smooth tubercle bacilli within the <italic>Mycobacterium</italic> genus, we classically sequenced portions of six housekeeping genes <italic>(katG, gyrB, gyrA, rpoB,</italic>
+<italic>hsp65,</italic> and <italic>sodA)</italic> and the complete 16S rRNA gene of all isolates of groups A, B, E, F, G, H, and I, of representative isolates of group C/D, and of representative strains of the MTBC members (<xref ref-type="supplementary-material" rid="ppat-0010005-st003">Table S3</xref>). Consistent with the analysis involving repetitive DNA and long sequence polymorphism markers, all gene fragments were identical for smooth strains belonging to the same group, but differed between the groups. The comparison of the sequences of 16S rRNA (<xref ref-type="fig" rid="ppat-0010005-g001">Figure 1</xref>) and these housekeeping genes (data not shown) with those of other mycobacterial species demonstrated that the eight groups of the smooth strains and MTBC members form a single species, defined by a compact phylogenetic clade remote from the other species of the <italic>Mycobacterium</italic> genus. The 1,537-bp 16S rRNA sequences of smooth groups E to I were identical to their MTBC counterparts, whereas the sequences of groups A to D differed only by a single nucleotide from the MTBC.</p><fig id="ppat-0010005-g001" position="float"><label>Figure 1</label><caption><title>Phylogenetic Position of the Tubercle Bacilli within the Genus <italic>Mycobacterium</italic>
+</title><p>The blue triangle corresponds to tubercle bacilli sequences that are identical or differing by a single nucleotide. The sequences of the genus <italic>Mycobacterium</italic> that matched most closely to those of <italic>M. tuberculosis</italic> were retrieved from the BIBI database (<ext-link ext-link-type="uri" xlink:href="http://pbil.univ-lyon.fr/bibi/">http://pbil.univ-lyon.fr/bibi/</ext-link>) and aligned with those obtained for 17 smooth and MTBC strains. The unrooted neighbor-joining tree is based on 1,325 aligned nucleotide positions of the 16S rRNA gene. The scale gives the pairwise distances after Jukes-Cantor correction. Bootstrap support values higher than 90&#x00025; are indicated at the nodes.</p></caption><graphic xlink:href="ppat.0010005.g001"/></fig></sec><sec id="s2c"><title>Population Structure of the Tubercle Bacilli Species</title><p>The DNA sequences of multiple housekeeping genes can be used to infer the population structure and the phylogenetic history of bacterial species [<xref rid="ppat-0010005-b01" ref-type="bibr">1</xref>&#x02013;<xref rid="ppat-0010005-b04" ref-type="bibr">4</xref>]. To investigate the population structure of the tubercle bacilli species, we aligned the 3,387 nucleotides sequenced in the six housekeeping genes of the representative smooth and MTBC isolates. The alignment revealed no insertions or deletions. We identified 52 polymorphic nucleotide sites (1.54&#x00025;), of which 46 were synonymous substitutions. Two of the six nonsynonymous sites were located in the <italic>katG</italic> and <italic>gyrA</italic> genes. These two mutations, together with the presence of the <italic>TbD1</italic> and <italic>RD9</italic> genomic regions in all the smooth isolates, classify the smooth strains among the most ancient phylogenetic lineages of tubercle bacilli [<xref rid="ppat-0010005-b07" ref-type="bibr">7</xref>,<xref rid="ppat-0010005-b16" ref-type="bibr">16</xref>].</p><p>Each unique gene sequence was assigned a different allele number, resulting in two to 11 alleles per gene. The distances between the various alleles were calculated using the mean percent divergence at synonymous (Ks) and nonsynonymous sites (Ka). The distances between the alleles of the MTBC strains were always much smaller than those between the alleles of the smooth strains (<xref ref-type="table" rid="ppat-0010005-t001">Table 1</xref>). Furthermore, the distances between the MTBC alleles and the smooth tubercle bacilli alleles were within the range observed in the smooth strains alone, with the minor exception of <italic>hsp65.</italic> These results show that the whole MTBC is only a subset of the larger tubercle bacillus species defined by the smooth groups. Consistently, phylogenetic analysis using a split decomposition graph showed that the MTBC forms a single compact bifurcating branch, rooted within the much larger array constituted by the smooth groups (<xref ref-type="fig" rid="ppat-0010005-g002">Figure 2</xref>).</p><table-wrap id="ppat-0010005-t001" content-type="1col" position="float"><label>Table 1</label><caption><p>Mean Percent Pairwise Differences at Synonymous (Ks) and Nonsynonymous (Ka) Sites</p></caption><graphic xlink:href="ppat.0010005.t001"/><table-wrap-foot><fn id="nt101"><p>DOI: 10.1371/journal.ppat.0010005.t001</p></fn></table-wrap-foot></table-wrap><fig id="ppat-0010005-g002" position="float"><label>Figure 2</label><caption><title>Splits Graph of the 17 Concatenated Sequences of the Six Housekeeping Genes</title><p>The nodes represent strains and are depicted as small red (smooth tubercle bacilli) or blue (MTBC members) squares. The scale bar represents Hamming distance. Numbers at the edges represent the percent bootstrap support of the splits obtained after 1,000 replicates. The fit was 61.7&#x00025;. Note that the branching order of MTBC strains is weakly supported, and it should therefore not be seen as contradicting previous evolutionary hypotheses based on deletion patterns [<xref rid="ppat-0010005-b16" ref-type="bibr">16</xref>].</p></caption><graphic xlink:href="ppat.0010005.g002"/></fig><p>The mean synonymous distance among distinct alleles in the tubercle bacilli (0.0083&#x02013;0.039) was similar to that observed in many bacterial species known to be diverse, such as <italic>Staphylococcus aureus</italic> (0.023&#x02013;0.037) [<xref rid="ppat-0010005-b04" ref-type="bibr">4</xref>,<xref rid="ppat-0010005-b05" ref-type="bibr">5</xref>,<xref rid="ppat-0010005-b20" ref-type="bibr">20</xref>]. Most of the synonymous nucleotide substitutions were found only in the smooth tubercle bacilli (41/46). Our fluctuation tests [<xref rid="ppat-0010005-b21" ref-type="bibr">21</xref>] showed that the frequency of spontaneous drug resistance mutations in the smooth and the MTBC bacilli was similar (data not shown), arguing against the possibility that the observed nucleotide diversity of the smooth bacilli is caused by hypermutation. Likewise, the ratio of synonymous to nonsynonymous substitutions of the smooth tubercle bacilli (Ks/Ka = 33.3) is close to values observed in other bacteria (ranging from 7.2 to 39.6) [<xref rid="ppat-0010005-b22" ref-type="bibr">22</xref>,<xref rid="ppat-0010005-b23" ref-type="bibr">23</xref>], but much higher than the value of 1.6 found when comparing the whole genomes of <italic>M. tuberculosis</italic> CDC1551 and H37Rv strains [<xref rid="ppat-0010005-b10" ref-type="bibr">10</xref>]. This high Ks/Ka value is consistent with purifying selection acting against amino acid changes over long time periods, leading to relative accumulation of synonymous versus nonsynonymous mutations. In contrast, the low Ks/Ka value observed within the MTBC is consistent with recent expansion [<xref rid="ppat-0010005-b04" ref-type="bibr">4</xref>,<xref rid="ppat-0010005-b10" ref-type="bibr">10</xref>].</p><p>These results demonstrate that, similar to <italic>Y. pestis</italic> or <italic>S. enterica</italic> serotype Typhi [<xref rid="ppat-0010005-b01" ref-type="bibr">1</xref>,<xref rid="ppat-0010005-b06" ref-type="bibr">6</xref>], the MTBC consists of a successful clonal population that recently emerged from a much more ancient and large bacterial species, engulfing <italic>M. canettii</italic> and the other smooth groups. This supports the bottleneck hypothesis [<xref rid="ppat-0010005-b07" ref-type="bibr">7</xref>,<xref rid="ppat-0010005-b16" ref-type="bibr">16</xref>]. We propose to name this species <italic>M. prototuberculosis,</italic> to reflect its status as the <italic>M. tuberculosis</italic> progenitor (<xref ref-type="fig" rid="ppat-0010005-g002">Figure 2</xref>).</p></sec><sec id="s2d"><title>Gene Mosaicism of Tubercle Bacilli</title><p>To investigate the contribution of horizontal DNA exchanges to the genetic diversity of <italic>M. prototuberculosis</italic>, we investigated split decomposition of concatenated sequences [<xref rid="ppat-0010005-b24" ref-type="bibr">24</xref>] and the congruence of individual gene phylogenies [<xref rid="ppat-0010005-b25" ref-type="bibr">25</xref>]. The network structure linking the smooth strains in the splits graph (<xref ref-type="fig" rid="ppat-0010005-g002">Figure 2</xref>) revealed incongruence between their gene sequences. We also found strong inconsistencies among phylogenies of individual gene sequences (<xref ref-type="supplementary-material" rid="ppat-0010005-sg002">Figure S2</xref>). Furthermore, the detection of several sequence mosaics in the <italic>gyrB</italic> and <italic>gyrA</italic> gene sequences provided direct evidence of intragenic recombination among the smooth strains (see boxes in <xref ref-type="fig" rid="ppat-0010005-g003">Figure 3</xref>). These two genes form a single operon. As an example of mosaics, the <italic>gyrB</italic> and <italic>gyrA</italic> sequences of smooth groups C/D and E are composed of two large blocks separated by <italic>gyrA</italic> position 461. One of these blocks is almost identical to the sequence of <italic>M. tuberculosis</italic> and the other is identical to the sequence in groups H and I. The significance of sequence mosaicism was supported by maximum chi-square (<italic>p</italic> &#x0003c; 0.005) and Sawyer's (<italic>p</italic> &#x0003c; 0.05) statistical tests. In contrast, the rare minor allele differences among the smooth strains, such as those between <italic>gyrB</italic> alleles 9 and 10, are probably due to point mutations rather than recombination. Altogether, these observations provide evidence that both mutations and DNA recombination have occurred during the evolution of smooth tubercle bacilli.</p><fig id="ppat-0010005-g003" position="float"><label>Figure 3</label><caption><title>Nucleotide Polymorphism Detected in the Six Housekeeping Genes for the 17 Sequenced Strains</title><p>(A) Location of the genes on the genome of <italic>M. tuberculosis</italic> H37Rv. Note that <italic>gyrB</italic> and <italic>gyrA</italic> are adjacent.</p><p>(B) Pattern of polymorphic sites revealing mosaicism of sequences. Colored blocks correspond to sequence stretches in the smooth strains that are similar or identical to the sequences in the MTBC. Boxes correspond to blocks of consecutive nucleotides in smooth strains that differ by at least three nucleotides from <italic>M. tuberculosis</italic> H37Rv. The last column indicates the allele number for each gene. Letters N and s indicate nonsynonymous and synonymous substitutions, respectively.</p></caption><graphic xlink:href="ppat.0010005.g003"/></fig><p>In contrast, using the same analysis, no evidence of recombination was detected among the MTBC strains, consistent with their previously reported clonal population structure [<xref rid="ppat-0010005-b13" ref-type="bibr">13</xref>&#x02013;<xref rid="ppat-0010005-b15" ref-type="bibr">15</xref>]. Remarkably, however, when compared to <italic>M. prototuberculosis,</italic> the concatenated sequences of the six housekeeping genes of the MTBC strains appear to be constituted of a mosaic of patches identical or nearly identical to sequence patches from different smooth groups (see colored blocks in <xref ref-type="fig" rid="ppat-0010005-g003">Figure 3</xref>). This sequence patchwork suggests that the chromosomal framework of the MTBC, despite its present clonal and highly conserved structure, is actually a composite assembly of genetic sequences resulting from multiple remote horizontal gene transfer events. These DNA transfer events likely took place in the pool of the progenitor tubercle bacilli before the expansion of the MTBC clone. Therefore, the apparent absence of recombination among the MTBC strains after the bottleneck could have several potential explanations: the MTBC strains could have lost the capacity of horizontal gene transfer, horizontal gene transfer events are too rare among tubercle bacilli to have occurred since the MTBC bottleneck, or the MTBC ecological niche differs from that of <italic>M. prototuberculosis</italic> and offers no opportunity for recombination events.</p></sec><sec id="s2e"><title>Ancient Origin of the Tubercle Bacilli Species</title><p>Synonymous nucleotide diversity can be used to estimate the minimal age of the last common ancestor of a species [<xref rid="ppat-0010005-b22" ref-type="bibr">22</xref>,<xref rid="ppat-0010005-b23" ref-type="bibr">23</xref>]. The average pairwise difference at synonymous sites (Ks) across the six housekeeping genes for the 17 sequenced strains was 0.0148 (<xref ref-type="supplementary-material" rid="ppat-0010005-sd001">Protocol S1</xref>). Given previous studies that estimated the age of <italic>M. tuberculosis</italic> to be approximately 35,000 y based on bacterial synonymous substitution rates of 0.0044&#x02013;0.0047 per site per million years [<xref rid="ppat-0010005-b11" ref-type="bibr">11</xref>,<xref rid="ppat-0010005-b26" ref-type="bibr">26</xref>,<xref rid="ppat-0010005-b27" ref-type="bibr">27</xref>], we estimated that the minimal time needed to accumulate the observed amount of synonymous divergence in the tubercle bacilli species was between 2.6 and 2.8 million y. As both smooth bacilli and <italic>M. tuberculosis</italic> are isolated from human tuberculosis cases, the most parsimonious hypothesis is that the last common ancestor of the tubercle bacilli species could already have caused human tuberculosis. Therefore, our results change the current paradigm of the recent origin of tuberculosis [<xref rid="ppat-0010005-b07" ref-type="bibr">7</xref>] by suggesting that its causative agent is as old as 3 million years. Tuberculosis could thus be much older than the plague [<xref rid="ppat-0010005-b01" ref-type="bibr">1</xref>], typhoid fever [<xref rid="ppat-0010005-b06" ref-type="bibr">6</xref>], or malaria [<xref rid="ppat-0010005-b28" ref-type="bibr">28</xref>], and might have already affected early hominids. Consistent with this speculative scenario, nearly all smooth tubercle bacilli isolated so far come from East Africa, a region where early hominids were present 3 million years ago [<xref rid="ppat-0010005-b29" ref-type="bibr">29</xref>]. The distribution of diversity between the variable smooth tubercle bacilli from Djibouti and the uniform worldwide MTBC is remarkably reminiscent of the distribution of human genetic diversity among world populations, with larger genetic distances observed within Africa [<xref rid="ppat-0010005-b30" ref-type="bibr">30</xref>]. Our findings thus suggest that, similarly to humans [<xref rid="ppat-0010005-b31" ref-type="bibr">31</xref>], tubercle bacilli emerged in Africa and then underwent early diversification followed by much more recent expansion of a successful clone to the rest of the world, possibly coinciding with the waves of human migration out of Africa. However, we cannot exclude the possibility that the geographical confinement of the smooth bacilli to Africa reflects failure to recognize smooth isolates found elsewhere as being genuine tubercle bacilli.</p></sec><sec id="s2f"><title>Implications for Research</title><p>A longer interaction of tubercle bacilli with humans and the occurrence of recombination among tubercle bacilli have profound implications for debated questions such as the natural selection effect of tuberculosis on human populations, and the way tubercle bacilli have evolved their exceptional ability to persist for decades in host tissues [<xref rid="ppat-0010005-b32" ref-type="bibr">32</xref>&#x02013;<xref rid="ppat-0010005-b34" ref-type="bibr">34</xref>]. These issues should be re-examined in the light of this new evolutionary perspective. Future studies will show whether the extensive sequence polymorphism observed in housekeeping genes goes hand in hand with nonsynonymous mutations in antigen-encoding genes or in genes encoding potential drug or diagnostic targets. Our findings may also have important consequences for strategies of research for immunoprotective and therapeutic targets, which until now have been based on the assumption of the intrinsically confined genetic variation of the pathogen restraining the possibilities of emergence of potential escape variants [<xref rid="ppat-0010005-b07" ref-type="bibr">7</xref>,<xref rid="ppat-0010005-b35" ref-type="bibr">35</xref>]. Comparative and functional genomic analyses of smooth tubercle bacilli, apparently confined to East Africa, and classical tubercle bacilli, found worldwide, will shed light on the selective advantages that led the latter to such a successful clonal expansion.</p></sec></sec><sec id="s3"><title>Materials and Methods</title><sec id="s3a"><title>Mycobacterial isolates.</title><p>The tubercle bacilli isolates used in this study are listed in <xref ref-type="supplementary-material" rid="ppat-0010005-st001">Table S1</xref> (smooth isolates) and <xref ref-type="supplementary-material" rid="ppat-0010005-st003">Table S3</xref> (MTBC isolates). Most of the smooth tubercle isolates were recovered from African or European patients attending two French Military Medical Centres (Bouffard and Paul Faure) in Djibouti, East Africa. Three smooth isolates originally obtained by Georges Canetti and one smooth isolate obtained from Switzerland were included as references [<xref rid="ppat-0010005-b36" ref-type="bibr">36</xref>]. We also included type strains of each member of the MTBC as references.</p></sec><sec id="s3b"><title>Distribution of repetitive DNA sequences and long sequence polymorphism markers<italic>.</italic>
+</title><p>Southern blots of genomic PvuII-digested tubercle bacilli DNA were sequentially probed with probes specific for IS<italic>6110,</italic> IS<italic>1081,</italic> DR region [<xref rid="ppat-0010005-b17" ref-type="bibr">17</xref>], region of difference <italic>RD12<sup>can</sup></italic> [<xref rid="ppat-0010005-b16" ref-type="bibr">16</xref>], and <italic>M. canettii</italic> IS<italic>Myca1</italic> transposase. The probe specific for this transposase is a 650-bp DNA fragment obtained by using 5&#x02032;-CAAGGTCAAGACGCGTACC-3&#x02032; and 5&#x02032;-TGAGCTTGTCGATTTGAGCTT-3&#x02032; primers. PCR amplification of the fragments of IS<italic>Myca1</italic> flanking the transposase was perfomed using 5&#x02032;-CTCGAACAGGTTCTGCTCATC-3&#x02032; and 5&#x02032;-CGAAGTTCCCCCTTGTAGG-3&#x02032; primers. <italic>RD12<sup>can</sup></italic> flanking regions were also amplified as previously described [<xref rid="ppat-0010005-b16" ref-type="bibr">16</xref>] and sequenced. To detect regions of difference <italic>RD9</italic> and <italic>TbD1,</italic> two PCR assays were done for each strain as previously described [<xref rid="ppat-0010005-b16" ref-type="bibr">16</xref>]. MIRU-VNTR analysis was performed via an automated technique using the target loci previously reported [<xref rid="ppat-0010005-b37" ref-type="bibr">37</xref>&#x02013;<xref rid="ppat-0010005-b40" ref-type="bibr">40</xref>].</p></sec><sec id="s3c"><title>DNA sequencing<italic>.</italic>
+</title><p>The whole 16S rRNA gene was amplified by using 5&#x02032;-GCCGTTTGTTTTGTCAGGAT-3&#x02032; and 5&#x02032;-GCTCGCAACCACTATCCAGT-3&#x02032; primers. The resulting product was sequenced using the following primers: 5&#x02032;-GCCGTTTGTTTTGTCAGGAT-3&#x02032;, 5&#x02032;-CTGAGATACGGCCCAGACTC-3&#x02032;, 5&#x02032;-GCGCAGATATCAGGAGGAAC-3&#x02032;, 5&#x02032;-TCATGTTGCCAGCACGTAAT-3&#x02032;, 5&#x02032;-CCTACCGTCAATCCGAGAGA-3&#x02032;, 5&#x02032;-TGCATGTCAAACCCAGGTAA-3&#x02032;, and 5&#x02032;-TTCGGGTGTTACCGACTTTC-3&#x02032;. To analyze polymorphisms in housekeeping genes, fragments of <italic>katG, gyrA, gyrB, hsp65, rpoB,</italic> and <italic>sodA</italic> genes were amplified and sequenced using previously published primers [<xref rid="ppat-0010005-b07" ref-type="bibr">7</xref>,<xref rid="ppat-0010005-b41" ref-type="bibr">41</xref>]. Each experiment was performed three times using different PCR products.</p></sec><sec id="s3d"><title>Phylogenetic analyses.</title><p>Neighbor-joining trees were constructed using PAUP&#x0002a; version 4.0b10 with Jukes-Cantor distance correction (<ext-link ext-link-type="uri" xlink:href="http://paup.csit.fsu.edu/">http://paup.csit.fsu.edu/</ext-link>). Trees were drawn using TreeView version 1.5 (<ext-link ext-link-type="uri" xlink:href="http://taxonomy.zoology.gla.ac.uk/rod/treeview.html">http://taxonomy.zoology.gla.ac.uk/rod/treeview.html</ext-link>). Bootstrap analysis was performed with 1,000 replicates. Numbers of synonymous substitutions per synonymous site (Ks) and nonsynonymous substitutions per nonsynonymous site (Ka) were estimated using DNASP version 4.00, using the Nei and Gojobori method after Jukes-Cantor correction for multiple substitutions [<xref rid="ppat-0010005-b42" ref-type="bibr">42</xref>]. The program RDP version 2 [<xref rid="ppat-0010005-b43" ref-type="bibr">43</xref>] was used to detect mosaic sequences using the Sawyer's and chi-square methods. The RDP GENECONV algorithm (which looks for regions within a sequence alignment in which sequence pairs are sufficiently similar to suspect recombination) was used for Sawyer's test, with a <italic>g</italic>-scale parameter of one and using both sequence triplets or sequence pairs scanning methods. <italic>p</italic>-Values were obtained with the KA method. The chi-square method was implemented using the MaxChi algorithm of RDP. Given an alignment, MaxChi examines sequence pairs and seeks recombination breakpoints by comparing the number of variable and nonvariable sites on both sides of the breakpoint. Split decomposition analysis was performed using SplitsTree version 4b06 [<xref rid="ppat-0010005-b24" ref-type="bibr">24</xref>].</p></sec></sec><sec sec-type="supplementary-material" id="s4"><title>Supporting Information</title><supplementary-material content-type="local-data" id="ppat-0010005-sg001"><label>Figure S1</label><caption><title>Genotypic Patterns of 37 Smooth Tubercle Bacilli</title><p>Lanes 1 to 37 correspond to strains 1 to 37, respectively; line 38 corresponds to the reference strain <italic>M. tuberculosis</italic> Mt14323. Strains 1 and 6 are the reference strains <italic>M. canettii</italic> 140010059 and NZM 217/94, respectively; strains 8 and 17 are previously reported <italic>M. canettii</italic> strains (see <xref ref-type="supplementary-material" rid="ppat-0010005-st001">Table S1</xref>). Lane groups A to I indicate the groups with identical genotypic patterns.</p><p>(A) DR region analysis by spoligotyping.</p><p>(B&#x02013;E) Southern blot analysis with DNA probes against (B) the DR region, (C) IS<italic>1081,</italic> (D) IS<italic>6110,</italic> and (E) IS<italic>Myca1,</italic> a 1.8-kb insertion sequence related to the IS4 family (see <xref ref-type="supplementary-material" rid="ppat-0010005-sd002">Protocol S2</xref>).</p><p>(F) Southern blot analysis with a DNA probe directed against region <italic>RD12<sup>can</sup>.</italic> PCR using primers targeting the regions flanking <italic>RD12<sup>can</sup></italic> and further sequencing of these amplification products demonstrated an identical deletion in groups A, C/D, E, and H, whereas deletion in group F overlapped <italic>RD12<sup>can</sup>.</italic>
+</p><p>(373 KB DOC)</p></caption><media xlink:href="ppat.0010005.sg001.doc"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="ppat-0010005-sg002"><label>Figure S2</label><caption><title>Gene Phylogenies of <italic>gyrA, gyrB, hsp65, katG,</italic> and <italic>rpoB</italic> Sequences from the Eight Smooth Tubercle Bacilli Groups and the MTBC Members</title><p>The unrooted trees were obtained using Megalign version 5.53 (DNASTAR, Madison, Wisconsin, United States).</p><p>(343 KB DOC)</p></caption><media xlink:href="ppat.0010005.sg002.doc"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="ppat-0010005-sd001"><label>Protocol S1</label><caption><title>Estimation of Ks Value</title><p>(25 KB DOC)</p></caption><media xlink:href="ppat.0010005.sd001.doc"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="ppat-0010005-sd002"><label>Protocol S2</label><caption><title>IS<italic>Myca1,</italic> a New Insertion Sequence</title><p>(27 KB DOC)</p></caption><media xlink:href="ppat.0010005.sd002.doc"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="ppat-0010005-st001"><label>Table S1</label><caption><title>Strains of Smooth Tubercle Bacilli</title><p>(57 KB DOC)</p></caption><media xlink:href="ppat.0010005.st001.doc"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="ppat-0010005-st002"><label>Table S2</label><caption><title>MIRU-VNTR Patterns of Smooth Tubercle Bacilli</title><p>(361 KB DOC)</p></caption><media xlink:href="ppat.0010005.st002.doc"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="ppat-0010005-st003"><label>Table S3</label><caption><title>MTBC Strains Used in This Study</title><p>(26 KB DOC)</p></caption><media xlink:href="ppat.0010005.st003.doc"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><sec id="s4a"><title>Accession Numbers</title><p>The EMBL (<ext-link ext-link-type="uri" xlink:href="http://www.ebi.ac.uk/embl/">http://www.ebi.ac.uk/embl/</ext-link>) accession numbers for the sequenced portions of <italic>katG, gyrB, gyrA, rpoB,</italic> and <italic>hsp65</italic> genes of the smooth tubercle bacilli are AJ749904&#x02013;AJ749948. The <italic>M. canettii</italic> IS<italic>Myca1</italic> sequence has been deposited in the EMBL database under accession number AJ619854.</p></sec></sec></body><back><ack><p>We thank Mark Achtman, Stewart T. Cole, and Genevieve Milon for critical reading of the manuscript, and Marie Gon&#x000e7;alvez, Eve Willery, and Sarah Lesjean-Pottier for excellent technical assistance. This study was supported in part by the Projet Transversal de Recherche Programme from the Institut Pasteur (PTR35). PS is a researcher of the Centre National de la Recherche Scientifique.</p></ack><fn-group><fn id="ack1" fn-type="COI-statement"><p>
+<bold>Competing interests.</bold> The authors have declared that no competing interests exist.</p></fn><fn id="ack2" fn-type="con"><p>
+<bold>Author contributions.</bold> MCG and VV conceived and designed the experiments. MCG, BO, MM, and PS performed the experiments. MCG and SB analyzed the data. MCG, SB, RB, MF, and VV contributed reagents/materials/analysis tools. MCG, SB, RB, PS, and VV wrote the paper.</p></fn></fn-group><glossary><title>Abbreviations</title><def-list><def-item><term>DR</term><def><p>direct repeat</p></def></def-item><def-item><term>MTBC</term><def><p>
+<italic>Mycobacterium tuberculosis</italic> complex</p></def></def-item></def-list></glossary><ref-list><title>References</title><ref id="ppat-0010005-b01"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Achtman</surname><given-names>M</given-names></name><name><surname>Zurth</surname><given-names>K</given-names></name><name><surname>Morelli</surname><given-names>G</given-names></name><name><surname>Torrea</surname><given-names>G</given-names></name><name><surname>Guiyoule</surname><given-names>A</given-names></name><etal/></person-group>
+<year>1999</year>
+<article-title>
+<italic>Yersinia pestis,</italic> the cause of plague, is a recently emerged clone of <italic>Yersinia pseudotuberculosis</italic>
+</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>96</volume>
+<fpage>14043</fpage>
+<lpage>14048</lpage>
+<pub-id pub-id-type="pmid">10570195</pub-id></element-citation></ref><ref id="ppat-0010005-b02"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Spratt</surname><given-names>BG</given-names></name></person-group>
+<year>2004</year>
+<article-title>Exploring the concept of clonality in bacteria</article-title>
+<source>Methods Mol Biol</source>
+<volume>266</volume>
+<fpage>323</fpage>
+<lpage>352</lpage>
+<pub-id pub-id-type="pmid">15148426</pub-id></element-citation></ref><ref id="ppat-0010005-b03"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Maiden</surname><given-names>MC</given-names></name></person-group>
+<year>2000</year>
+<article-title>High-throughput sequencing in the population analysis of bacterial pathogens of humans</article-title>
+<source>Int J Med Microbiol</source>
+<volume>290</volume>
+<fpage>183</fpage>
+<lpage>190</lpage>
+<pub-id pub-id-type="pmid">11045923</pub-id></element-citation></ref><ref id="ppat-0010005-b04"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Feil</surname><given-names>EJ</given-names></name><name><surname>Spratt</surname><given-names>BG</given-names></name></person-group>
+<year>2001</year>
+<article-title>Recombination and the population structures of bacterial pathogens</article-title>
+<source>Annu Rev Microbiol</source>
+<volume>55</volume>
+<fpage>561</fpage>
+<lpage>590</lpage>
+<pub-id pub-id-type="pmid">11544367</pub-id></element-citation></ref><ref id="ppat-0010005-b05"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Palys</surname><given-names>T</given-names></name><name><surname>Nakamura</surname><given-names>LK</given-names></name><name><surname>Cohan</surname><given-names>FM</given-names></name></person-group>
+<year>1997</year>
+<article-title>Discovery and classification of ecological diversity in the bacterial world: The role of DNA sequence data</article-title>
+<source>Int J Syst Bacteriol</source>
+<volume>47</volume>
+<fpage>1145</fpage>
+<lpage>1156</lpage>
+<pub-id pub-id-type="pmid">9336922</pub-id></element-citation></ref><ref id="ppat-0010005-b06"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kidgell</surname><given-names>C</given-names></name><name><surname>Reichard</surname><given-names>U</given-names></name><name><surname>Wain</surname><given-names>J</given-names></name><name><surname>Linz</surname><given-names>B</given-names></name><name><surname>Torpdahl</surname><given-names>M</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>
+<italic>Salmonella typhi,</italic> the causative agent of typhoid fever, is approximately 50,000 years old</article-title>
+<source>Infect Genet Evol</source>
+<volume>2</volume>
+<fpage>39</fpage>
+<lpage>45</lpage>
+<pub-id pub-id-type="pmid">12797999</pub-id></element-citation></ref><ref id="ppat-0010005-b07"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sreevatsan</surname><given-names>S</given-names></name><name><surname>Pan</surname><given-names>X</given-names></name><name><surname>Stockbauer</surname><given-names>KE</given-names></name><name><surname>Connell</surname><given-names>ND</given-names></name><name><surname>Kreiswirth</surname><given-names>BN</given-names></name><etal/></person-group>
+<year>1997</year>
+<article-title>Restricted structural gene polymorphism in the <italic>Mycobacterium tuberculosis</italic> complex indicates evolutionarily recent global dissemination</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>94</volume>
+<fpage>9869</fpage>
+<lpage>9874</lpage>
+<pub-id pub-id-type="pmid">9275218</pub-id></element-citation></ref><ref id="ppat-0010005-b08"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gutacker</surname><given-names>MM</given-names></name><name><surname>Smoot</surname><given-names>JC</given-names></name><name><surname>Migliaccio</surname><given-names>CA</given-names></name><name><surname>Ricklefs</surname><given-names>SM</given-names></name><name><surname>Hua</surname><given-names>S</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>Genome-wide analysis of synonymous single nucleotide polymorphisms in <italic>Mycobacterium tuberculosis</italic> complex organisms: Resolution of genetic relationships among closely related microbial strains</article-title>
+<source>Genetics</source>
+<volume>162</volume>
+<fpage>1533</fpage>
+<lpage>1543</lpage>
+<pub-id pub-id-type="pmid">12524330</pub-id></element-citation></ref><ref id="ppat-0010005-b09"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cole</surname><given-names>ST</given-names></name><name><surname>Brosch</surname><given-names>R</given-names></name><name><surname>Parkhill</surname><given-names>J</given-names></name><name><surname>Garnier</surname><given-names>T</given-names></name><name><surname>Churcher</surname><given-names>C</given-names></name><etal/></person-group>
+<year>1998</year>
+<article-title>Deciphering the biology of <italic>Mycobacterium tuberculosis</italic> from the complete genome sequence</article-title>
+<source>Nature</source>
+<volume>393</volume>
+<fpage>537</fpage>
+<lpage>544</lpage>
+<pub-id pub-id-type="pmid">9634230</pub-id></element-citation></ref><ref id="ppat-0010005-b10"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fleischmann</surname><given-names>RD</given-names></name><name><surname>Alland</surname><given-names>D</given-names></name><name><surname>Eisen</surname><given-names>JA</given-names></name><name><surname>Carpenter</surname><given-names>L</given-names></name><name><surname>White</surname><given-names>O</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>Whole-genome comparison of <italic>Mycobacterium tuberculosis</italic> clinical and laboratory strains</article-title>
+<source>J Bacteriol</source>
+<volume>184</volume>
+<fpage>5479</fpage>
+<lpage>5490</lpage>
+<pub-id pub-id-type="pmid">12218036</pub-id></element-citation></ref><ref id="ppat-0010005-b11"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hughes</surname><given-names>AL</given-names></name><name><surname>Friedman</surname><given-names>R</given-names></name><name><surname>Murray</surname><given-names>M</given-names></name></person-group>
+<year>2002</year>
+<article-title>Genomewide pattern of synonymous nucleotide substitution in two complete genomes of <italic>Mycobacterium tuberculosis</italic>
+</article-title>
+<source>Emerg Infect Dis</source>
+<volume>8</volume>
+<fpage>1342</fpage>
+<lpage>1346</lpage>
+<pub-id pub-id-type="pmid">12453367</pub-id></element-citation></ref><ref id="ppat-0010005-b12"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Garnier</surname><given-names>T</given-names></name><name><surname>Eiglmeier</surname><given-names>K</given-names></name><name><surname>Camus</surname><given-names>JC</given-names></name><name><surname>Medina</surname><given-names>N</given-names></name><name><surname>Mansoor</surname><given-names>H</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>The complete genome sequence of <italic>Mycobacterium bovis</italic>
+</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>100</volume>
+<fpage>7877</fpage>
+<lpage>7882</lpage>
+<pub-id pub-id-type="pmid">12788972</pub-id></element-citation></ref><ref id="ppat-0010005-b13"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Smith</surname><given-names>NH</given-names></name><name><surname>Dale</surname><given-names>J</given-names></name><name><surname>Inwald</surname><given-names>J</given-names></name><name><surname>Palmer</surname><given-names>S</given-names></name><name><surname>Gordon</surname><given-names>SV</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>The population structure of <italic>Mycobacterium bovis</italic> in Great Britain: Clonal expansion</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>100</volume>
+<fpage>15271</fpage>
+<lpage>15275</lpage>
+<pub-id pub-id-type="pmid">14657373</pub-id></element-citation></ref><ref id="ppat-0010005-b14"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Supply</surname><given-names>P</given-names></name><name><surname>Warren</surname><given-names>RM</given-names></name><name><surname>Banuls</surname><given-names>AL</given-names></name><name><surname>Lesjean</surname><given-names>S</given-names></name><name><surname>Van Der Spuy</surname><given-names>GD</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>Linkage disequilibrium between minisatellite loci supports clonal evolution of <italic>Mycobacterium tuberculosis</italic> in a high tuberculosis incidence area</article-title>
+<source>Mol Microbiol</source>
+<volume>47</volume>
+<fpage>529</fpage>
+<lpage>538</lpage>
+<pub-id pub-id-type="pmid">12519202</pub-id></element-citation></ref><ref id="ppat-0010005-b15"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hirsh</surname><given-names>AE</given-names></name><name><surname>Tsolaki</surname><given-names>AG</given-names></name><name><surname>DeRiemer</surname><given-names>K</given-names></name><name><surname>Feldman</surname><given-names>MW</given-names></name><name><surname>Small</surname><given-names>PM</given-names></name></person-group>
+<year>2004</year>
+<article-title>Stable association between strains of <italic>Mycobacterium tuberculosis</italic> and their human host populations</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>101</volume>
+<fpage>4871</fpage>
+<lpage>4876</lpage>
+<pub-id pub-id-type="pmid">15041743</pub-id></element-citation></ref><ref id="ppat-0010005-b16"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Brosch</surname><given-names>R</given-names></name><name><surname>Gordon</surname><given-names>SV</given-names></name><name><surname>Marmiesse</surname><given-names>M</given-names></name><name><surname>Brodin</surname><given-names>P</given-names></name><name><surname>Buchrieser</surname><given-names>C</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>A new evolutionary scenario for the <italic>Mycobacterium tuberculosis</italic> complex</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>99</volume>
+<fpage>3684</fpage>
+<lpage>3689</lpage>
+<pub-id pub-id-type="pmid">11891304</pub-id></element-citation></ref><ref id="ppat-0010005-b17"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>van Soolingen</surname><given-names>D</given-names></name><name><surname>Hoogenboezem</surname><given-names>T</given-names></name><name><surname>de Haas</surname><given-names>PE</given-names></name><name><surname>Hermans</surname><given-names>PW</given-names></name><name><surname>Koedam</surname><given-names>MA</given-names></name><etal/></person-group>
+<year>1997</year>
+<article-title>A novel pathogenic taxon of the <italic>Mycobacterium tuberculosis</italic> complex, Canetti: Characterization of an exceptional isolate from Africa</article-title>
+<source>Int J Syst Bacteriol</source>
+<volume>47</volume>
+<fpage>1236</fpage>
+<lpage>1245</lpage>
+<pub-id pub-id-type="pmid">9336935</pub-id></element-citation></ref><ref id="ppat-0010005-b18"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fabre</surname><given-names>M</given-names></name><name><surname>Koeck</surname><given-names>JL</given-names></name><name><surname>Le Fleche</surname><given-names>P</given-names></name><name><surname>Simon</surname><given-names>F</given-names></name><name><surname>Herve</surname><given-names>V</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>High genetic diversity revealed by variable-number tandem repeat genotyping and analysis of hsp65 gene polymorphism in a large collection of <italic>&#x0201c;Mycobacterium canettii&#x0201d;</italic> strains indicates that the <italic>M. tuberculosis</italic> complex is a recently emerged clone of <italic>&#x0201c;M. canettii&#x0201d;</italic>
+</article-title>
+<source>J Clin Microbiol</source>
+<volume>42</volume>
+<fpage>3248</fpage>
+<lpage>3255</lpage>
+<pub-id pub-id-type="pmid">15243089</pub-id></element-citation></ref><ref id="ppat-0010005-b19"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kamerbeek</surname><given-names>J</given-names></name><name><surname>Schouls</surname><given-names>L</given-names></name><name><surname>Kolk</surname><given-names>A</given-names></name><name><surname>van Agterveld</surname><given-names>M</given-names></name><name><surname>van Soolingen</surname><given-names>D</given-names></name><etal/></person-group>
+<year>1997</year>
+<article-title>Simultaneous detection and strain differentiation of <italic>Mycobacterium tuberculosis</italic> for diagnosis and epidemiology</article-title>
+<source>J Clin Microbiol</source>
+<volume>35</volume>
+<fpage>907</fpage>
+<lpage>914</lpage>
+<pub-id pub-id-type="pmid">9157152</pub-id></element-citation></ref><ref id="ppat-0010005-b20"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Enright</surname><given-names>MC</given-names></name><name><surname>Robinson</surname><given-names>DA</given-names></name><name><surname>Randle</surname><given-names>G</given-names></name><name><surname>Feil</surname><given-names>EJ</given-names></name><name><surname>Grundmann</surname><given-names>H</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>The evolutionary history of methicillin-resistant <italic>Staphylococcus aureus</italic> (MRSA)</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>99</volume>
+<fpage>7687</fpage>
+<lpage>7692</lpage>
+<pub-id pub-id-type="pmid">12032344</pub-id></element-citation></ref><ref id="ppat-0010005-b21"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>David</surname><given-names>HL</given-names></name></person-group>
+<year>1970</year>
+<article-title>Probability distribution of drug-resistant mutants in unselected populations of <italic>Mycobacterium tuberculosis</italic>
+</article-title>
+<source>Appl Microbiol</source>
+<volume>20</volume>
+<fpage>810</fpage>
+<lpage>814</lpage>
+<pub-id pub-id-type="pmid">4991927</pub-id></element-citation></ref><ref id="ppat-0010005-b22"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Falush</surname><given-names>D</given-names></name><name><surname>Kraft</surname><given-names>C</given-names></name><name><surname>Taylor</surname><given-names>NS</given-names></name><name><surname>Correa</surname><given-names>P</given-names></name><name><surname>Fox</surname><given-names>JG</given-names></name><etal/></person-group>
+<year>2001</year>
+<article-title>Recombination and mutation during long-term gastric colonization by <italic>Helicobacter pylori:</italic> Estimates of clock rates, recombination size, and minimal age</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>98</volume>
+<fpage>15056</fpage>
+<lpage>15061</lpage>
+<pub-id pub-id-type="pmid">11742075</pub-id></element-citation></ref><ref id="ppat-0010005-b23"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ochman</surname><given-names>H</given-names></name><name><surname>Elwyn</surname><given-names>S</given-names></name><name><surname>Moran</surname><given-names>NA</given-names></name></person-group>
+<year>1999</year>
+<article-title>Calibrating bacterial evolution</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>96</volume>
+<fpage>12638</fpage>
+<lpage>12643</lpage>
+<pub-id pub-id-type="pmid">10535975</pub-id></element-citation></ref><ref id="ppat-0010005-b24"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Huson</surname><given-names>DH</given-names></name></person-group>
+<year>1998</year>
+<article-title>SplitsTree: Analyzing and visualizing evolutionary data</article-title>
+<source>Bioinformatics</source>
+<volume>14</volume>
+<fpage>68</fpage>
+<lpage>73</lpage>
+<pub-id pub-id-type="pmid">9520503</pub-id></element-citation></ref><ref id="ppat-0010005-b25"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dykhuizen</surname><given-names>DE</given-names></name><name><surname>Green</surname><given-names>L</given-names></name></person-group>
+<year>1991</year>
+<article-title>Recombination in <italic>Escherichia coli</italic> and the definition of biological species</article-title>
+<source>J Bacteriol</source>
+<volume>173</volume>
+<fpage>7257</fpage>
+<lpage>7268</lpage>
+<pub-id pub-id-type="pmid">1938920</pub-id></element-citation></ref><ref id="ppat-0010005-b26"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sharp</surname><given-names>PM</given-names></name></person-group>
+<year>1991</year>
+<article-title>Determinants of DNA sequence divergence between <italic>Escherichia coli</italic> and <italic>Salmonella typhimurium:</italic> Codon usage, map position, and concerted evolution</article-title>
+<source>J Mol Evol</source>
+<volume>33</volume>
+<fpage>23</fpage>
+<lpage>33</lpage>
+<pub-id pub-id-type="pmid">1909371</pub-id></element-citation></ref><ref id="ppat-0010005-b27"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Smith</surname><given-names>NG</given-names></name><name><surname>Eyre-Walker</surname><given-names>A</given-names></name></person-group>
+<year>2001</year>
+<article-title>Nucleotide substitution rate estimation in enterobacteria: Approximate and maximum-likelihood methods lead to similar conclusions</article-title>
+<source>Mol Biol Evol</source>
+<volume>18</volume>
+<fpage>2124</fpage>
+<lpage>2126</lpage>
+<pub-id pub-id-type="pmid">11606709</pub-id></element-citation></ref><ref id="ppat-0010005-b28"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Joy</surname><given-names>DA</given-names></name><name><surname>Feng</surname><given-names>X</given-names></name><name><surname>Mu</surname><given-names>J</given-names></name><name><surname>Furuya</surname><given-names>T</given-names></name><name><surname>Chotivanich</surname><given-names>K</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>Early origin and recent expansion of <italic>Plasmodium falciparum</italic>
+</article-title>
+<source>Science</source>
+<volume>300</volume>
+<fpage>318</fpage>
+<lpage>321</lpage>
+<pub-id pub-id-type="pmid">12690197</pub-id></element-citation></ref><ref id="ppat-0010005-b29"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Semaw</surname><given-names>S</given-names></name><name><surname>Simpson</surname><given-names>SW</given-names></name><name><surname>Quade</surname><given-names>J</given-names></name><name><surname>Renne</surname><given-names>PR</given-names></name><name><surname>Butler</surname><given-names>RF</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Early Pliocene hominids from Gona, Ethiopia</article-title>
+<source>Nature</source>
+<volume>433</volume>
+<fpage>301</fpage>
+<lpage>305</lpage>
+<pub-id pub-id-type="pmid">15662421</pub-id></element-citation></ref><ref id="ppat-0010005-b30"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yu</surname><given-names>N</given-names></name><name><surname>Chen</surname><given-names>FC</given-names></name><name><surname>Ota</surname><given-names>S</given-names></name><name><surname>Jorde</surname><given-names>LB</given-names></name><name><surname>Pamilo</surname><given-names>P</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>Larger genetic differences within Africans than between Africans and Eurasians</article-title>
+<source>Genetics</source>
+<volume>161</volume>
+<fpage>269</fpage>
+<lpage>274</lpage>
+<pub-id pub-id-type="pmid">12019240</pub-id></element-citation></ref><ref id="ppat-0010005-b31"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Templeton</surname><given-names>A</given-names></name></person-group>
+<year>2002</year>
+<article-title>Out of Africa again and again</article-title>
+<source>Nature</source>
+<volume>416</volume>
+<fpage>45</fpage>
+<lpage>51</lpage>
+<pub-id pub-id-type="pmid">11882887</pub-id></element-citation></ref><ref id="ppat-0010005-b32"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sousa</surname><given-names>AO</given-names></name><name><surname>Salem</surname><given-names>JI</given-names></name><name><surname>Lee</surname><given-names>FK</given-names></name><name><surname>Vercosa</surname><given-names>MC</given-names></name><name><surname>Cruaud</surname><given-names>P</given-names></name><etal/></person-group>
+<year>1997</year>
+<article-title>An epidemic of tuberculosis with a high rate of tuberculin anergy among a population previously unexposed to tuberculosis, the Yanomami Indians of the Brazilian Amazon</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>94</volume>
+<fpage>13227</fpage>
+<lpage>13232</lpage>
+<pub-id pub-id-type="pmid">9371828</pub-id></element-citation></ref><ref id="ppat-0010005-b33"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lipsitch</surname><given-names>M</given-names></name><name><surname>Sousa</surname><given-names>AO</given-names></name></person-group>
+<year>2002</year>
+<article-title>Historical intensity of natural selection for resistance to tuberculosis</article-title>
+<source>Genetics</source>
+<volume>161</volume>
+<fpage>1599</fpage>
+<lpage>1607</lpage>
+<pub-id pub-id-type="pmid">12196403</pub-id></element-citation></ref><ref id="ppat-0010005-b34"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lillebaek</surname><given-names>T</given-names></name><name><surname>Dirksen</surname><given-names>A</given-names></name><name><surname>Baess</surname><given-names>I</given-names></name><name><surname>Strunge</surname><given-names>B</given-names></name><name><surname>Thomsen</surname><given-names>VO</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>Molecular evidence of endogenous reactivation of <italic>Mycobacterium tuberculosis</italic> after 33 years of latent infection</article-title>
+<source>J Infect Dis</source>
+<volume>185</volume>
+<fpage>401</fpage>
+<lpage>404</lpage>
+<pub-id pub-id-type="pmid">11807725</pub-id></element-citation></ref><ref id="ppat-0010005-b35"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Musser</surname><given-names>JM</given-names></name><name><surname>Amin</surname><given-names>A</given-names></name><name><surname>Ramaswamy</surname><given-names>S</given-names></name></person-group>
+<year>2000</year>
+<article-title>Negligible genetic diversity of <italic>Mycobacterium tuberculosis</italic> host immune system protein targets: Evidence of limited selective pressure</article-title>
+<source>Genetics</source>
+<volume>155</volume>
+<fpage>7</fpage>
+<lpage>16</lpage>
+<pub-id pub-id-type="pmid">10790380</pub-id></element-citation></ref><ref id="ppat-0010005-b36"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pfyffer</surname><given-names>GE</given-names></name><name><surname>Auckenthaler</surname><given-names>R</given-names></name><name><surname>van Embden</surname><given-names>JD</given-names></name><name><surname>van Soolingen</surname><given-names>D</given-names></name></person-group>
+<year>1998</year>
+<article-title>
+<italic>Mycobacterium canettii,</italic> the smooth variant of <italic>M. tuberculosis,</italic> isolated from a Swiss patient exposed in Africa</article-title>
+<source>Emerg Infect Dis</source>
+<volume>4</volume>
+<fpage>631</fpage>
+<lpage>634</lpage>
+<pub-id pub-id-type="pmid">9866740</pub-id></element-citation></ref><ref id="ppat-0010005-b37"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Supply</surname><given-names>P</given-names></name><name><surname>Lesjean</surname><given-names>S</given-names></name><name><surname>Savine</surname><given-names>E</given-names></name><name><surname>Kremer</surname><given-names>K</given-names></name><name><surname>van Soolingen</surname><given-names>D</given-names></name><etal/></person-group>
+<year>2001</year>
+<article-title>Automated high-throughput genotyping for study of global epidemiology of <italic>Mycobacterium tuberculosis</italic> based on mycobacterial interspersed repetitive units</article-title>
+<source>J Clin Microbiol</source>
+<volume>39</volume>
+<fpage>3563</fpage>
+<lpage>3571</lpage>
+<pub-id pub-id-type="pmid">11574573</pub-id></element-citation></ref><ref id="ppat-0010005-b38"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Le Fleche</surname><given-names>P</given-names></name><name><surname>Fabre</surname><given-names>M</given-names></name><name><surname>Denoeud</surname><given-names>F</given-names></name><name><surname>Koeck</surname><given-names>JL</given-names></name><name><surname>Vergnaud</surname><given-names>G</given-names></name></person-group>
+<year>2002</year>
+<article-title>High resolution, on-line identification of strains from the <italic>Mycobacterium tuberculosis</italic> complex based on tandem repeat typing</article-title>
+<source>BMC Microbiol</source>
+<volume>2</volume>
+<fpage>37</fpage>
+<pub-id pub-id-type="pmid">12456266</pub-id></element-citation></ref><ref id="ppat-0010005-b39"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Frothingham</surname><given-names>R</given-names></name><name><surname>Meeker-O'Connell</surname><given-names>WA</given-names></name></person-group>
+<year>1998</year>
+<article-title>Genetic diversity in the <italic>Mycobacterium tuberculosis</italic> complex based on variable numbers of tandem DNA repeats</article-title>
+<source>Microbiology</source>
+<volume>144</volume>
+<fpage>1189</fpage>
+<lpage>1196</lpage>
+<pub-id pub-id-type="pmid">9611793</pub-id></element-citation></ref><ref id="ppat-0010005-b40"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Roring</surname><given-names>S</given-names></name><name><surname>Scott</surname><given-names>A</given-names></name><name><surname>Brittain</surname><given-names>D</given-names></name><name><surname>Walker</surname><given-names>I</given-names></name><name><surname>Hewinson</surname><given-names>G</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>Development of variable-number tandem repeat typing of <italic>Mycobacterium bovis:</italic> Comparison of results with those obtained by using existing exact tandem repeats and spoligotyping</article-title>
+<source>J Clin Microbiol</source>
+<volume>40</volume>
+<fpage>2126</fpage>
+<lpage>2133</lpage>
+<pub-id pub-id-type="pmid">12037076</pub-id></element-citation></ref><ref id="ppat-0010005-b41"><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Vincent</surname><given-names>V</given-names></name><name><surname>Brown-Elliot</surname><given-names>B</given-names></name><name><surname>Jost</surname><given-names>K</given-names></name><name><surname>Wallace</surname><given-names>R</given-names></name></person-group>
+<year>2003</year>
+<article-title>
+<italic>Mycobacterium:</italic> Phenotypic and genotypic identification</article-title>
+<person-group person-group-type="editor"><name><surname>Murray</surname><given-names>P</given-names></name></person-group>
+<source>Manual of clinical microbiology</source>
+<publisher-loc>Washington (DC)</publisher-loc>
+<publisher-name>ASM Press</publisher-name>
+<fpage>560</fpage>
+<lpage>584</lpage>
+</element-citation></ref><ref id="ppat-0010005-b42"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rozas</surname><given-names>J</given-names></name><name><surname>Sanchez-DelBarrio</surname><given-names>JC</given-names></name><name><surname>Messeguer</surname><given-names>X</given-names></name><name><surname>Rozas</surname><given-names>R</given-names></name></person-group>
+<year>2003</year>
+<article-title>DnaSP, DNA polymorphism analyses by the coalescent and other methods</article-title>
+<source>Bioinformatics</source>
+<volume>19</volume>
+<fpage>2496</fpage>
+<lpage>2497</lpage>
+<pub-id pub-id-type="pmid">14668244</pub-id></element-citation></ref><ref id="ppat-0010005-b43"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Martin</surname><given-names>DP</given-names></name><name><surname>Williamson</surname><given-names>C</given-names></name><name><surname>Posada</surname><given-names>D</given-names></name></person-group>
+<year>2005</year>
+<article-title>RDP2: Recombination detection and analysis from sequence alignments</article-title>
+<source>Bioinformatics</source>
+<volume>21</volume>
+<fpage>260</fpage>
+<lpage>262</lpage>
+<pub-id pub-id-type="pmid">15377507</pub-id></element-citation></ref></ref-list></back></article>

@@ -1,0 +1,687 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="review-article"><?properties open_access?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS Comput Biol</journal-id><journal-id journal-id-type="iso-abbrev">PLoS Comput. Biol</journal-id><journal-id journal-id-type="publisher-id">pcbi</journal-id><journal-id journal-id-type="publisher-id">plcb</journal-id><journal-id journal-id-type="pmc">ploscomp</journal-id><journal-title-group><journal-title>PLoS Computational Biology</journal-title></journal-title-group><issn pub-type="ppub">1553-734X</issn><issn pub-type="epub">1553-7358</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">16201007</article-id><article-id pub-id-type="pmc">PMC1239902</article-id><article-id pub-id-type="doi">10.1371/journal.pcbi.0010042</article-id><article-id pub-id-type="publisher-id">05-PLCB-RV-0136R1</article-id><article-id pub-id-type="sici">plcb-01-04-08</article-id><article-categories><subj-group subj-group-type="heading"><subject>Review</subject></subj-group><subj-group subj-group-type="Discipline"><subject>Bioinformatics - Computational Biology</subject><subject>Neuroscience</subject><subject>Psychology</subject><subject>Systems Biology</subject></subj-group><subj-group subj-group-type="System Taxonomy"><subject>Homo (Human)</subject><subject>Primates</subject><subject>Mammals</subject><subject>Rattus (Rat)</subject><subject>Mus (Mouse)</subject></subj-group></article-categories><title-group><article-title>The Human Connectome: A Structural Description of the Human Brain</article-title><alt-title alt-title-type="running-head">Review</alt-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Sporns</surname><given-names>Olaf</given-names></name><xref ref-type="corresp" rid="cor1">*</xref><xref ref-type="author-notes" rid="n103"/></contrib><contrib contrib-type="author"><name><surname>Tononi</surname><given-names>Giulio</given-names></name><xref ref-type="author-notes" rid="n103"/></contrib><contrib contrib-type="author"><name><surname>K&#x000f6;tter</surname><given-names>Rolf</given-names></name><xref ref-type="author-notes" rid="n103"/></contrib></contrib-group><author-notes><fn fn-type="current-aff" id="n103"><p>Olaf Sporns is in the Department of Psychology and Programs in Neuroscience and Cognitive Science, Indiana University, Bloomington, Indiana, United States of America. Giulio Tononi is in the Department of Psychiatry, University of Wisconsin, Madison, Wisconsin, United States of America. Rolf K&#x000f6;tter is at C. and O. Vogt Brain Research Institute and Institute of Anatomy II, Heinrich Heine University, D&#x000fc;sseldorf, Germany.</p></fn><corresp id="cor1">*To whom correspondence should be addressed. E-mail: <email>osporns@indiana.edu</email></corresp></author-notes><pub-date pub-type="ppub"><month>9</month><year>2005</year></pub-date><pub-date pub-type="epub"><day>30</day><month>9</month><year>2005</year></pub-date><volume>1</volume><issue>4</issue><elocation-id>e42</elocation-id><permissions><copyright-statement>Copyright: &#x000a9; 2005 Sporns et al.</copyright-statement><copyright-year>2005</copyright-year><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p></license></permissions><abstract><title>ABSTRACT</title><p>The connection matrix of the human brain (the human &#x0201c;connectome&#x0201d;) represents an indispensable foundation for basic and applied neurobiological research. However, the network of anatomical connections linking the neuronal elements of the human brain is still largely unknown. While some databases or collations of large-scale anatomical connection patterns exist for other mammalian species, there is currently no connection matrix of the human brain, nor is there a coordinated research effort to collect, archive, and disseminate this important information. We propose a research strategy to achieve this goal, and discuss its potential impact.</p></abstract><custom-meta-group><custom-meta><meta-name>Citation:</meta-name><meta-value>Sporns O, Tononi G, K&#x000f6;tter R (2005) The human connectome: A structural description of the human brain. PLoS Comput Biol 1(4): e42.</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec id="s1"><title>Introduction</title><p>To understand the functioning of a network, one must know its elements and their interconnections. The purpose of this article is to discuss research strategies aimed at a comprehensive structural description of the network of elements and connections forming the human brain. We propose to call this dataset the human &#x0201c;connectome,&#x0201d; and we argue that it is fundamentally important in cognitive neuroscience and neuropsychology. The connectome will significantly increase our understanding of how functional brain states emerge from their underlying structural substrate, and will provide new mechanistic insights into how brain function is affected if this structural substrate is disrupted. It will provide a unified, time-invariant, and readily available neuroinformatics resource that could be used in virtually all areas of experimental and theoretical neuroscience.</p><p>Recent research in neuroscience has resulted in a rapid proliferation of neuroscience datasets and in the arrival of a new discipline, neuroinformatics [<xref rid="pcbi-0010042-b01" ref-type="bibr">1</xref>&#x02013;<xref rid="pcbi-0010042-b04" ref-type="bibr">4</xref>]. Despite considerable advances in experimental techniques and computational paradigms, we still have an incomplete understanding of how human cognitive function emerges from neuronal structure and dynamics. Here, we focus on the relative lack of information about the different types of neural elements and their neural connections in the human brain. While a larger number of anatomical studies of the human brain have been carried out at the macroscopic (cerebral lobes, surface landmarks, and white matter tracts) or microscopic (cytoarchitectonics, myeloarchitectonics, chemoarchitectonics, etc.) anatomical level, there is virtually no information on the finer connectivity patterns, including neuronal connection densities or laminar projection patterns in relation to anatomically segregated cortical areas or intraregional differentiation. Furthermore, none of the available information is deposited in a single standardized data format, nor can it be accessed through a public database.</p><p>Experimental approaches to human cognition have been significantly enhanced by the arrival of functional neuroimaging [<xref rid="pcbi-0010042-b05" ref-type="bibr">5</xref>], a set of techniques that can be applied to study a broad range of cognitive functions, with ever-increasing spatial and temporal resolution. But the mechanistic interpretation of neuroimaging data is limited, in part due to a severe lack of information on the structure and dynamics of the networks that generate the observed activation patterns. A potential theoretical framework for conceptualizing cognition as a network phenomenon is based on two main organizational principles found in the cerebral cortex, functional segregation, and functional integration [<xref rid="pcbi-0010042-b06" ref-type="bibr">6</xref>,<xref rid="pcbi-0010042-b07" ref-type="bibr">7</xref>]. Emerging network theories of cognition emphasize the contextual [<xref rid="pcbi-0010042-b08" ref-type="bibr">8</xref>], distributed [<xref rid="pcbi-0010042-b09" ref-type="bibr">9</xref>], dynamic [<xref rid="pcbi-0010042-b10" ref-type="bibr">10</xref>], and degenerate [<xref rid="pcbi-0010042-b11" ref-type="bibr">11</xref>,<xref rid="pcbi-0010042-b12" ref-type="bibr">12</xref>] nature of structure&#x02013;function mappings in the brain. To successfully map structure to function in the human brain, we urgently need a comprehensive, detailed structural model of neuronal units and their connections. Connectional models of the human brain are scarce and poorly defined [<xref rid="pcbi-0010042-b13" ref-type="bibr">13</xref>], and they are largely based on extrapolating anatomical information from other primate species such as the macaque monkey, an approach that is problematic [<xref rid="pcbi-0010042-b14" ref-type="bibr">14</xref>], in part, because of our incomplete understanding of evolutionary changes.</p><p>Our proposal to assemble the human connectome has several components. First, we attempt to define a level of scale at which a first draft of the human connectome might be assembled. We consider several potential experimental and neuroinformatics approaches for creating this first draft. We then discuss potential problems and limitations of the connectome, including the central issues of individual variability and development. Finally, we sketch out the potential impact of the connectome in computational and cognitive neuroscience.</p></sec><sec id="s2"><title>Scales and Levels of Structural Description</title><p>The human genome is composed of approximately 3 &#x000d7; 10<sup>9</sup> base pairs, containing around 20,000&#x02013;30,000 genes [<xref rid="pcbi-0010042-b15" ref-type="bibr">15</xref>]. The compilation of the genome was aided by the fact that base pairs and genes are relatively straightforward choices as basic structural elements. The connectome will consist of two main descriptors defining its network architecture: neural elements and neural connections. Data fields for these elements specify superordinate or subordinate structures, a normalized position within a standard coordinate system, and additional parameters such as physiological/biophysical metadata that are crucial for specifying neural dynamics. The set of all <italic>N</italic> elements constitutes the columns (targets) and rows (sources) of an <italic>N<sup>2</sup></italic>&#x02013;<italic>N</italic> connection matrix A, whose <italic>a<sub>ij</sub></italic> entries represent connections between individual elements <italic>i</italic> and <italic>j</italic>. In keeping with conventions adopted by other authors [<xref rid="pcbi-0010042-b16" ref-type="bibr">16</xref>,<xref rid="pcbi-0010042-b17" ref-type="bibr">17</xref>], confirmed absence of a connection is denoted by <italic>a<sub>ij</sub></italic> = 0, while confirmed presence of a connection (irrespective of its strength or physiological characteristics) results in <italic>a<sub>ij</sub></italic> = 1. Once a connection is confirmed to be present, its nonzero matrix element receives additional data entries cataloguing a range of structural and physiological parameters, such as fiber direction, connection density, strength, sign (excitatory/inhibitory), conduction delay, potential modulatory effects (voltage dependence), etc. The union of the binary connection matrix and connection-specific physiological data then results in a structural description that combines connection topology and biophysics.</p><p>Compiling the connectome faces two significant challenges not shared by other natural or technological networks. First, the human brain is a highly complex organ with a great number of structurally distinct, heterogeneous, yet interconnected components. Because a primary application of the connectome will likely be a structural substrate for understanding human cognitive function and interpreting neuroimaging studies, a first draft of the connectome may focus on the structural description of the corticothalamic system, including all regions of the cortex and their associated thalamic nuclei. Extensions of this first draft might include additional connected regions (striatum, cerebellum, etc.), with the ultimate aim of compiling the connectome of the whole brain.</p><p>A second challenge is that basic structural elements of the human brain, in terms of network nodes and connections, are difficult to define. Different kinds of structural descriptions could target at least three rather distinct levels of organization. At opposite ends of the scale are the level of single neurons and synapses (microscale) and the level of anatomically distinct brain regions and inter-regional pathways (macroscale). Between these two levels is the level of neuronal groups or populations (mesoscale). It is important to determine which level of description is the most appropriate for a first draft of the human connectome.</p><sec id="s2a"><title>
+<bold>Microscale: Single Neurons and Synapses</bold>
+</title><p>Attempting to assemble the human connectome at the level of single neurons is unrealistic and will remain infeasible at least in the near future. With single neurons as the basic element, the size of the connectome would be several orders of magnitude larger than that of the genome, comprising an estimated 10<sup>11</sup> neurons, with 10<sup>15</sup> connections between them (approximately 10<sup>10</sup> neurons and 10<sup>13</sup> connections in the cortex alone) [<xref rid="pcbi-0010042-b18" ref-type="bibr">18</xref>,<xref rid="pcbi-0010042-b19" ref-type="bibr">19</xref>]. Recording or tracing 10<sup>15</sup> connections is not only technically impossible, it may also be unnecessary. While a genomic mutation in a single base pair can have dramatic consequences, alterations of single synapses or cells have not been shown to have similar macroscopic effects. Instead, there is overwhelming evidence that human cognitive functions depend on the activity and coactivity of large populations of neurons in distributed networks, including the corticothalamic system [<xref rid="pcbi-0010042-b20" ref-type="bibr">20</xref>]. Furthermore, individual neurons and connections are subject to rapid plastic changes. These changes include synaptic weights as well as structural remodeling of dendritic spines and presynaptic boutons [<xref rid="pcbi-0010042-b21" ref-type="bibr">21</xref>], possibly switching synaptic connections between large numbers of potential synaptic sites [<xref rid="pcbi-0010042-b22" ref-type="bibr">22</xref>,<xref rid="pcbi-0010042-b23" ref-type="bibr">23</xref>]. We suggest that the vast number, high variability, and fast dynamics of individual neurons and synapses render them inappropriate as basic elements for an initial draft of the connectome.</p></sec><sec id="s2b"><title>
+<bold>Macroscale: Brain Regions and Pathways</bold>
+</title><p>An advantage of single neurons is that the elements themselves are relatively easily demarcated and well defined. In contrast, brain areas and neuronal populations are more difficult to delineate. No single universally accepted parcellation scheme currently exists for human brain regions (e.g., areas of the cerebral cortex), posing a significant obstacle to creating a unified resource such as the connectome. In the human cerebral cortex, neurons are arranged in an unknown number of anatomically distinct regions and areas, perhaps on the order of 100 [<xref rid="pcbi-0010042-b24" ref-type="bibr">24</xref>] or more. Different subdivisions of the human brain (e.g., brain stem, thalamus, cerebellum, or cortex) may require different criteria for parcellation.</p><p>Nonetheless, anatomically distinct brain regions and inter-regional pathways represent perhaps the most feasible organizational level for compiling a first draft of the human connectome. Several neuroinformatics resources recording large-scale connection patterns in the cerebral cortex of various mammalian species already exist, for example, for most cortical regions of the macaque monkey [<xref rid="pcbi-0010042-b16" ref-type="bibr">16</xref>,<xref rid="pcbi-0010042-b17" ref-type="bibr">17</xref>,<xref rid="pcbi-0010042-b25" ref-type="bibr">25</xref>], cat [<xref rid="pcbi-0010042-b26" ref-type="bibr">26</xref>], and rat [<xref rid="pcbi-0010042-b27" ref-type="bibr">27</xref>]. Computational analyses of these datasets have revealed a broad range of network characteristics [<xref rid="pcbi-0010042-b28" ref-type="bibr">28</xref>], including the existence of clusters of brain regions [<xref rid="pcbi-0010042-b29" ref-type="bibr">29</xref>], hierarchical organization [<xref rid="pcbi-0010042-b30" ref-type="bibr">30</xref>,<xref rid="pcbi-0010042-b31" ref-type="bibr">31</xref>], small-world attributes [<xref rid="pcbi-0010042-b32" ref-type="bibr">32</xref>,<xref rid="pcbi-0010042-b33" ref-type="bibr">33</xref>], distinct functional streams [<xref rid="pcbi-0010042-b34" ref-type="bibr">34</xref>], motifs [<xref rid="pcbi-0010042-b35" ref-type="bibr">35</xref>], and areal contributions to global network measures [<xref rid="pcbi-0010042-b36" ref-type="bibr">36</xref>].</p><p>A broad range of experimental approaches exist at the macroscale. Cerebral white matter has traditionally been taken as a marker of the amount of connectivity within a cortical system. The relative contribution of cerebral white matter has increased throughout phylogeny to such an extent that its volume and metabolic requirements may present a limitation to further increases in connectional complexity [<xref rid="pcbi-0010042-b37" ref-type="bibr">37</xref>]. The structural organization of white matter has been investigated by dissection, histological staining, degeneration methods, and axonal tracing [<xref rid="pcbi-0010042-b38" ref-type="bibr">38</xref>]. Axonal tracing methods are the main basis for existing mammalian large-scale connection matrices [<xref rid="pcbi-0010042-b16" ref-type="bibr">16</xref>,<xref rid="pcbi-0010042-b25" ref-type="bibr">25</xref>&#x02013;<xref rid="pcbi-0010042-b27" ref-type="bibr">27</xref>], and their systematic compilation is currently being refined [<xref rid="pcbi-0010042-b17" ref-type="bibr">17</xref>,<xref rid="pcbi-0010042-b39" ref-type="bibr">39</xref>] to extract more sophisticated data, perhaps with the help of automated text analysis. In the human brain, postmortem tracing with carbocyanine dyes has provided details of connectivity within and between adjacent areas [<xref rid="pcbi-0010042-b40" ref-type="bibr">40</xref>,<xref rid="pcbi-0010042-b41" ref-type="bibr">41</xref>]. However, because of the slow transport and the length of fibers in the human brain, this method fails to reveal more remote connections. Another tracing method employs the in vivo detection by magnetic resonance imaging of high-contrast rare earth ions (e.g., manganese [<xref rid="pcbi-0010042-b42" ref-type="bibr">42</xref>]) that have been injected into fiber tracts or inhaled, and taken up by neurons. The invasive nature and potential toxicity of the procedure makes it an unlikely candidate for human connectivity analyses.</p><p>Recent noninvasive imaging methods (diffusion tensor imaging [DTI] in its several variants, commonly followed by computational tractography) have been shown to produce results that are consistent with known pathways formed by major fiber tracts in the human brain [<xref rid="pcbi-0010042-b43" ref-type="bibr">43</xref>&#x02013;<xref rid="pcbi-0010042-b45" ref-type="bibr">45</xref>], although there continues to be some limitations in data acquisition and processing algorithms [<xref rid="pcbi-0010042-b46" ref-type="bibr">46</xref>]. To disambiguate signals produced by crossing or intersecting fibers, advances in diffusion imaging technology may allow the resolution of multiple axonal pathways within a single image voxel [<xref rid="pcbi-0010042-b47" ref-type="bibr">47</xref>,<xref rid="pcbi-0010042-b48" ref-type="bibr">48</xref>]. Despite the promise of diffusion imaging, a systematic atlas of DTI-based neuroanatomy, including probabilistic data gathered from individual brains, has not yet been produced, and the relationship among tensor fields, fiber tracts, and neuronal connections remains controversial. This controversy is likely to be resolved only through a combination of anatomical tracing techniques with noninvasive diffusion and functional imaging.</p><p>Perhaps the most promising avenue for compiling the human connectome originates from the notion that individual brain regions maintain individual connection profiles. What defines a segregated brain region is that all its structural elements share highly similar long-range connectivity patterns, and that these patterns are dissimilar between brain regions. These connectivity patterns determine the region's functional properties [<xref rid="pcbi-0010042-b49" ref-type="bibr">49</xref>], and also allow their anatomical delineation and mapping. Diffusion imaging can be used to identify borders between cortical areas [<xref rid="pcbi-0010042-b50" ref-type="bibr">50</xref>], most clearly on the basis of differences in long-range connections to the thalamus [<xref rid="pcbi-0010042-b51" ref-type="bibr">51</xref>,<xref rid="pcbi-0010042-b52" ref-type="bibr">52</xref>]. The idea that patterns of connectivity can be used to identify areal boundaries has also been tested in a combination of functional imaging and DTI/tractography in the human medial frontal cortex [<xref rid="pcbi-0010042-b53" ref-type="bibr">53</xref>]. First, connection probabilities from voxels within the medial frontal cortex to all other voxels in the rest of the brain were obtained. Binarized connection patterns were then used to calculate a cross-correlation matrix, which was examined for the existence of distinct clusters of voxels with shared connection patterns. Such clusters were taken to represent anatomically segregated areas corresponding to human supplementary motor area and pre- supplementary motor area, respectively. Functional mapping revealed close correspondence between DTI and functional activation patterns. While this combined structural&#x02013;functional approach is computationally intensive, nothing prevents its application to the entire corticothalamic system. We suggest that the correlated use of noninvasive structural and functional imaging methods offers the most promising experimental route toward the human connectome.</p><p>Structural connection data obtained using this combined methodology can in principle be validated by histological or tracing methods. Likely, no single method will turn out to be sufficiently powerful or comprehensive. A systematic application of sophisticated diffusion-weighted imaging combined with spatially registered high-resolution anatomical or spectroscopic imaging, regional activation, and coactivation data (e.g., electroencephalography, magnetoencephalography) obtained within the same individual subject, may offer the most feasible strategy for mapping the human connectome at the macroscale. This first draft of the human connectome would take the form of a probabilistic map of voxel-by-voxel connectivity embedded within standard coordinates containing approximately 10<sup>4</sup>&#x02013;10<sup>5</sup> elements and approximately 10<sup>5</sup>&#x02013;10<sup>7</sup> structural connections. It would not only provide information on the large-scale connection patterns within the corticothalamic system, but also on parcellation of human cortex into distinct areas based on a combination of structural and functional data in the same individual. Since this connectivity matrix is voxel-based, it can be cross-referenced with existing reference templates and with population-based brain atlases.</p></sec><sec id="s2c"><title>
+<bold>Mesoscale: Minicolumns and Their Connection Patterns</bold>
+</title><p>A first draft of the corticothalamic connectome at the macroscale might provide a comprehensive dataset comprising several hundred brain regions and thousands of pathways, but it does not incorporate information on functional subdivisions or segregated subcircuits within each brain region. While such a macroscale description will provide many fundamental insights into the large-scale organization of human cortex, it is an insufficient basis for a complete understanding of the human brain's functional dynamics and information processing capacities. A further step in this direction involves the characterization of connection patterns among elementary processing units, corresponding to local populations of neurons such as cortical minicolumns. Mountcastle [<xref rid="pcbi-0010042-b54" ref-type="bibr">54</xref>,<xref rid="pcbi-0010042-b55" ref-type="bibr">55</xref>] originally proposed the cortical minicolumn as a basic functional unit of mammalian cerebral cortex. While details of minicolumn architecture are likely to vary across different brain regions [<xref rid="pcbi-0010042-b56" ref-type="bibr">56</xref>&#x02013;<xref rid="pcbi-0010042-b58" ref-type="bibr">58</xref>], minicolumns generally contain approximately 80&#x02013;100 neurons, spanning all cortical layers, with a diameter of approximately 30&#x02013;50 &#x003bc;m [<xref rid="pcbi-0010042-b55" ref-type="bibr">55</xref>]. Minicolumns may possess relatively stereotypic internal processing, and maintain generic patterns of inputs and outputs with minicolumns in other regions [<xref rid="pcbi-0010042-b56" ref-type="bibr">56</xref>&#x02013;<xref rid="pcbi-0010042-b59" ref-type="bibr">59</xref>].</p><p>Recent studies have provided evidence for functionally specialized and precisely wired subnetworks of neurons coexisting within single cortical columns [<xref rid="pcbi-0010042-b60" ref-type="bibr">60</xref>,<xref rid="pcbi-0010042-b61" ref-type="bibr">61</xref>]. These studies have shown that cortical columns may contain segregated subnetworks, corresponding to minicolumns, which promote greater intracolumnar functional independence and informational heterogeneity. The members of such subnetworks are selectively interconnected with each other, indicating that connections within and between minicolumns follow more complex rules than simple random patterns or Gaussian (distance-dependent) connection profiles.</p><p>Minicolumns may be a sensible choice for neural elements at the mesoscale of the connectome because they may represent basic functional elements that are crucial for cortical information processing. While tracing or recording all minicolumns in an individual brain is still impossible, it may be feasible to collect data on minicolumn anatomy for selected brain regions, which can then be &#x0201c;fit&#x0201d; into the appropriate positions within the macroscale connection matrix. Functional imaging at columnar resolution has been carried out in animal experiments using high field strength [<xref rid="pcbi-0010042-b62" ref-type="bibr">62</xref>], and may be facilitated in the future through selective imaging of fast and spatially precise capillary cerebral blood flow response components [<xref rid="pcbi-0010042-b63" ref-type="bibr">63</xref>]. Especially important for determining functional responses of brain regions are connection patterns between each region's constituent elements. Axonal tracing methods have revealed specific patterns of horizontal connections between individual cells and cell populations within a brain region, which are often found to preferentially link cells with similar response characteristics [<xref rid="pcbi-0010042-b64" ref-type="bibr">64</xref>,<xref rid="pcbi-0010042-b65" ref-type="bibr">65</xref>], resulting in clustered intra-areal connectivity. Such patterns might also be accessible in the human brain [<xref rid="pcbi-0010042-b40" ref-type="bibr">40</xref>], and regional variations in such patterns may provide important clues regarding the way in which information is processed within each region.</p><p>The axonal tracing approach delivers minicolumn maps for each distinct brain region, including information on their functional segregation and local (intra-areal) interconnectivity. While parcellated brain regions at the macroscale can be identified across individuals, we have no means to resolve the locations of corresponding minicolumns across different brains. The mapping of smaller-than-macroscopic units, therefore, requires coordinate-independent mapping approaches [<xref rid="pcbi-0010042-b66" ref-type="bibr">66</xref>], which preserve the anatomical relationships and basic physiological properties of these units. Thus, macroscale and minicolumn descriptions deliver complementary datasets that need cross-level integration to achieve a single mesoscale version of the connectome. Effectively, minicolumn maps need to be mapped onto brain region&#x02013;specific voxel sets rather than individual voxels, with voxel sets providing spatial embedding and probabilistic long-range connections, and minicolumn maps providing local connectivity, processing, and coding information. The minicolumn description provides a functionally heterogeneous architecture that is unique to each parcellated brain region, with specific (probabilistic) patterns of intra-areal and interareal minicolumn connections. A crucial task will be to convert long-range, nondirected voxel-by-voxel connectivity into directed, functionally heterogeneous long-range minicolumn interconnectivity. This requires intermediate descriptive levels such as stripes, bands, and blobs in the early visual system, for which specific connection patterns have been demonstrated across areal boundaries. When accomplished, this cross-level integration will result in a mesoscale connection matrix of the human brain that might comprise as many as 10<sup>7</sup>&#x02013;10<sup>8</sup> structural elements (comparable in size to the 2005 World Wide Web), with minicolumn elements directly cross-referenced to voxels in the macroscale map.</p></sec></sec><sec id="s3"><title>Individual Variability and Development</title><p>The large-scale connectivity structure of the brain above the synaptic level represents a relatively invariant characteristic of our species. Once the elements and connections in the human brain are recorded, this dataset will remain stable, essentially forever. However, as in the case of the genome, the precise combinations and patterns of elements and their connections exhibit significant variations between individuals, at all levels of scale. Some individual variations may be due to genetic differences, others may be the result of developmental and experiential history, gender differences, pathologies, or responses to injury. To complicate matters further, the human connectome undergoes development through time, from early stages of the embryo to adolescence to adult age. Incorporating individual variations and developmental stages is absolutely crucial in rendering the connectome an effective resource.</p><p>Anatomical and imaging studies have revealed significant interindividual variability in the size and location of brain areas, as well as in the relationship between macrostructures (e.g., the cortical gyrification pattern) and microstructures (e.g., cytoarchitectonics and cytochemistry). Statistical analysis of variations in macroscopic surface features of the human brain, for example its sulcal geometry [<xref rid="pcbi-0010042-b67" ref-type="bibr">67</xref>], demonstrates the extent to which even large-scale features of cortical morphology vary between individuals, possibly as a result of genetic differences [<xref rid="pcbi-0010042-b68" ref-type="bibr">68</xref>]. An anatomical study of Broca's area in ten postmortem human brains revealed significant variations in size as well as in the area's relation to sulcal landmarks [<xref rid="pcbi-0010042-b69" ref-type="bibr">69</xref>]. Applying structural magnetic resonance imaging to map the boundaries of the planum temporale has demonstrated significant variations in its size and position across 50 individuals [<xref rid="pcbi-0010042-b70" ref-type="bibr">70</xref>]. Functional neuroimaging studies have also revealed significant interindividual differences, for example, in the location and extent of area MT/V5 [<xref rid="pcbi-0010042-b71" ref-type="bibr">71</xref>] and other visual cortical areas [<xref rid="pcbi-0010042-b72" ref-type="bibr">72</xref>]. These functional differences are presumably due to variations in underlying structural (cytoarchitectonic and connectional) substrates.</p><p>The presence of significant interindividual variability in structural connection patterns, even at the macroscale level, and the fundamentally probabilistic nature of connectivity datasets provided in the connectome may be viewed as fundamental weaknesses of the proposal, undermining its comprehensive goal of a definitive structural description of the human brain. However, we should consider the fact that there is also clear interindividual variability in the human genome. Nevertheless, the first draft with a DNA sequence obtained from cells from only a few individuals [<xref rid="pcbi-0010042-b15" ref-type="bibr">15</xref>] has proven immensely useful for gaining insights into general organizational features of the human genome. Mapping of interindividual variability in the connectome is a necessary further step, but does not detract from the potential insights gained from a first draft that does not yet systematically incorporate these differences.</p></sec><sec id="s4"><title>Steps Toward the Human Connectome: Its Compilation, Assembly, and Integration</title><p>Based on a combination of functional and diffusion-weighted imaging, we outline the following five-step strategy for compiling a first draft of the human connectome at the macroscale.</p><p>Step 1 is to perform diffusion-weighted imaging followed by probabilistic tractography of thalamocortical tracts as well as corticocortical interareal pathways, using correlations in connectivity profiles to assist in parcellating human cortical regions. The end result is a voxel-wise probabilistic all-to-all structural connectivity matrix for the human brain. Step 2 is to perform a correlation analysis of spatially registered, equally resolved resting activity and/or multistimulus/multitask activation data (functional magnetic resonance imaging and/or magnetoencephalography) recorded in the same person [<xref rid="pcbi-0010042-b73" ref-type="bibr">73</xref>], emphasizing strong functional relationships that are consistent across tasks [<xref rid="pcbi-0010042-b74" ref-type="bibr">74</xref>]. The end result is a voxel-wise all-to-all functional connectivity matrix for the human brain. Step 3 is to perform a cluster analysis of correspondences between the structural and functional connectivity matrix obtained under steps 1 and 2, with the goal of identifying regions of consistent structure&#x02013;function relationships in the human brain, possibly involving indirect projections [<xref rid="pcbi-0010042-b75" ref-type="bibr">75</xref>]. Step 4 is to compare the results obtained by cluster analysis (step 3) with macaque data in order to identify correspondences (e.g., in visuomotor pathways) and deviations (e.g., in structures such as the fasciculus arcuatus). Step 5 is to validate the strongest predictions generated by assembling the final combined structural&#x02013;functional connectivity matrix using custom-designed stimuli and perturbational techniques such as transcranial magnetic stimulation.</p><p>The following three steps represent additional stages designed to further test and verify the human connectome, including population analyses of individual variability and pathology. Step 6 is to perform a population analysis of healthy subjects and spatial registration to standard brain coordinates for probabilistic statements about data from steps 1&#x02013;5. Step 7 is to compare population data on clustered brain regions to histologically identified regions in a probabilistic human brain atlas to assess correspondence. Step 8 is to compare population data between healthy individuals and patient groups with specific pathologies, to identify connectional differences.</p><p>Ultimately, the connectome will likely describe connectivity patterns at multiple levels of scale, for example, by incorporating linkages between the macroscale of brain regions and pathways in more elementary mesoscale functional units such as minicolumns and their patterns of interconnectivity. As experimental techniques mature, the connectome will gradually evolve through different stages of assembly as it is refined, updated, cross-validated, and &#x0201c;filled in.&#x0201d; Standardization of parcellation schemes, elimination of unreliable data, and incorporation of additional structural levels above and below the one chosen for the initial draft will drive this effort. An additional driving force is the continued innovation in data acquisition and analysis techniques, particularly in diffusion-weighted imaging and tractography, which will result in progressive revision, refinement, and extension of the connectome. To become a useful research tool, the connectome must be linked to other databases (compiled in parallel efforts) that record additional information mapped across the human brain, such as receptor distributions or gene expression patterns. We expect that assembling even the first draft of the connectome will require significant experimental and computational resources over an extended period of time. Compilation, assembly, and integration efforts are likely to be extensive tasks, requiring large-scale collaboration, coordinated data collection and dissemination, and the establishment of new computational methods, data standards, and mechanisms for controlled validation and quality assurance.</p></sec><sec id="s5"><title>Conclusions: The Potential Impact of the Connectome</title><p>How can the connectome be used to map brain structure to function? The step from structure to function is essential for understanding how cognitive processes emerge from their morphological substrates. Our central motivating hypothesis is that the pattern of elements and connections as captured in the connectome places specific constraints on brain dynamics, and thus shapes the operations and processes of human cognition. In turn, data recording the activity of the human brain in combination with the structural model provided by the connectome will help to discern causal interactions in large-scale brain networks (e.g., [<xref rid="pcbi-0010042-b76" ref-type="bibr">76</xref>&#x02013;<xref rid="pcbi-0010042-b78" ref-type="bibr">78</xref>]). We emphasize that structure&#x02013;function relationships are not directly evident from the connectional dataset itself. Rather, their elucidation will require further intense empirical and computational study. Depending on sensory input, global brain state, or learning, the same structural network can support a wide range of dynamic and cognitive states. This should not, however, discourage the effort to assemble the connectome. Similar difficulties in mapping structure to function exist in the case of the genome, although they generally were not foreseen when the project was initiated. Highly complex transcriptional regulatory networks, signaling pathways, mechanical forces, and elaborate mechanisms of gene expression all play essential roles in translating base sequences into functioning cells, tissues, and organisms. Both genome and connectome constitute complex networks [<xref rid="pcbi-0010042-b79" ref-type="bibr">79</xref>], whose functions are not fully understood even if their structural substrates are fully catalogued.</p><p>An obvious and related use of the human connectome would be providing structural information that can be implemented as part of large-scale computational models [<xref rid="pcbi-0010042-b80" ref-type="bibr">80</xref>,<xref rid="pcbi-0010042-b81" ref-type="bibr">81</xref>]. If the connectome is sufficiently comprehensive and accessible, it could also provide a set of structural benchmarks that might facilitate the comparison and integration of the numerous specialized and structurally based models that have already been proposed in computational neuroscience. Drawing upon human connectional datasets would help ground modeling efforts aimed specifically at brain mechanisms of human cognitive function (e.g., language). Other computational applications of the connectome are topological analyses of network structure [<xref rid="pcbi-0010042-b28" ref-type="bibr">28</xref>], perturbational studies aiming at mapping structural disruption to functional defects, and synthetic brain imaging [<xref rid="pcbi-0010042-b82" ref-type="bibr">82</xref>&#x02013;<xref rid="pcbi-0010042-b84" ref-type="bibr">84</xref>].</p><p>The human connectome could potentially have a major impact on our understanding of brain damage and subsequent recovery. The effects of developmental variations or abnormalities, traumatic brain injury, or neurodegenerative disease can all be captured as specific structural variants of the human connectome. The functional consequences of network perturbations will allow a better understanding of structural causes of dysfunction, and may permit the design of strategies for recovery based on network analysis. Understanding the basic network causes of brain diseases may also open new avenues for therapy and prevention by harnessing inherent network mechanisms that ensure robustness and compensation.</p><p>There are many structural and functional aspects that the human connectome, as envisioned in this article, does not contain or address. For example, it does not explicitly capture or catalogue the rich variety of neuronal morphologies, the diversity of physiological and biochemical neural subtypes, glial cells, or brain vascularization. Its first draft does not capture synaptic plasticity and remodeling, nonsynaptic communication, hormonal regulation, or degenerative processes. We do not view these issues as shortcomings that fundamentally undermine the usefulness or potential impact of the connectome. Rather, they illustrate the open-ended, integrative nature of the proposed research effort. The connectome will represent a foundational resource and a central reference point for a broad range of specialized databases [<xref rid="pcbi-0010042-b85" ref-type="bibr">85</xref>], thus making federating these databases more effective. Most importantly, the connectome will provide an important tool for mechanistic modeling and interpretation of human functional brain data.&#x02002;</p></sec></body><back><ack><p>OS was supported by National Institutes of Health National Institute on Drug Abuse grant 1R21DA15647&#x02013;01. RK was supported by the Deutsche Forschungsgemeinschaft (Graduate School 320 and KO 1560/6&#x02013;2). Core ideas were developed at a workshop sponsored by the James S. McDonnell Foundation. The authors thank M. Arbib, K. Friston, R. McIntosh, B. Horwitz, and T. Behrens for comments and suggestions.</p></ack><ref-list><title>References</title><ref id="pcbi-0010042-b01"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>K&#x000f6;tter</surname><given-names>R</given-names></name></person-group>
+<year>2001</year>
+<article-title>Neuroscience databases: Tools for exploring brain structure function relationships</article-title>
+<source>Phil Trans R Soc Lond B Biol Sci</source>
+<volume>356</volume>
+<fpage>1111</fpage>
+<lpage>1120</lpage>
+<pub-id pub-id-type="pmid">11545693</pub-id></element-citation></ref><ref id="pcbi-0010042-b02"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Amari</surname><given-names>S</given-names></name><name><surname>Arbib</surname><given-names>MA</given-names></name><name><surname>K&#x000f6;tter</surname><given-names>R</given-names></name></person-group>
+<year>2003</year>
+<article-title>Special issue: Neuroinformatics</article-title>
+<source>Neural Netw</source>
+<volume>16</volume>
+<fpage>1235</fpage>
+<lpage>1398</lpage>
+</element-citation></ref><ref id="pcbi-0010042-b03"><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Koslow</surname><given-names>SH</given-names></name><name><surname>Subramanian</surname><given-names>S</given-names></name></person-group>
+<year>2005</year>
+<source>Databasing the brain: From data to knowledge</source>
+<publisher-loc>Hoboken (New Jersey)</publisher-loc>
+<publisher-name>Wiley</publisher-name>
+<size units="page">466</size>
+<comment>p.</comment>
+</element-citation></ref><ref id="pcbi-0010042-b04"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Insel</surname><given-names>TR</given-names></name><name><surname>Volkow</surname><given-names>ND</given-names></name><name><surname>Li</surname><given-names>TK</given-names></name><name><surname>Battey</surname><given-names>JF</given-names></name><name><surname>Landis</surname><given-names>SC</given-names></name></person-group>
+<year>2003</year>
+<article-title>Neuroscience networks: Data sharing in an information age</article-title>
+<source>PLoS Biol</source>
+<volume>1</volume>
+<elocation-id>e17.</elocation-id>
+<comment>DOI: <ext-link ext-link-type="doi" xlink:href="10.1371/journal.pbio.0000017">10.1371/journal.pbio.0000017</ext-link></comment>
+<pub-id pub-id-type="pmid">14551914</pub-id></element-citation></ref><ref id="pcbi-0010042-b05"><element-citation publication-type="book">
+<person-group person-group-type="editor"><name><surname>Frackowiak</surname><given-names>RSJ</given-names></name><name><surname>Friston</surname><given-names>KJ</given-names></name><name><surname>Frith</surname><given-names>C</given-names></name><name><surname>Dolan</surname><given-names>R</given-names></name><name><surname>Price</surname><given-names>CJ</given-names></name><etal/></person-group>
+<year>2003</year>
+<source>Human brain function, 2nd ed</source>
+<publisher-loc>New York</publisher-loc>
+<publisher-name>Academic Press</publisher-name>
+<comment>1,144 p.</comment>
+</element-citation></ref><ref id="pcbi-0010042-b06"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tononi</surname><given-names>G</given-names></name><name><surname>Edelman</surname><given-names>GM</given-names></name><name><surname>Sporns</surname><given-names>O</given-names></name></person-group>
+<year>1998</year>
+<article-title>Complexity and the integration of information in the brain</article-title>
+<source>Trends Cogn Sci</source>
+<volume>2</volume>
+<fpage>44</fpage>
+<lpage>52</lpage>
+</element-citation></ref><ref id="pcbi-0010042-b07"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Friston</surname><given-names>KJ</given-names></name></person-group>
+<year>2002</year>
+<article-title>Beyond phrenology: What can neuroimaging tell us about distributed circuitry?</article-title>
+<source>Annu Rev Neurosci</source>
+<volume>25</volume>
+<fpage>221</fpage>
+<lpage>250</lpage>
+<pub-id pub-id-type="pmid">12052909</pub-id></element-citation></ref><ref id="pcbi-0010042-b08"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>McIntosh</surname><given-names>AR</given-names></name></person-group>
+<year>2000</year>
+<article-title>Towards a network theory of cognition</article-title>
+<source>Neural Netw</source>
+<volume>13</volume>
+<fpage>861</fpage>
+<lpage>870</lpage>
+<pub-id pub-id-type="pmid">11156197</pub-id></element-citation></ref><ref id="pcbi-0010042-b09"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bressler</surname><given-names>SL</given-names></name></person-group>
+<year>1995</year>
+<article-title>Large-scale cortical networks and cognition</article-title>
+<source>Brain Res Brain Res Rev</source>
+<volume>20</volume>
+<fpage>288</fpage>
+<lpage>304</lpage>
+<pub-id pub-id-type="pmid">7550362</pub-id></element-citation></ref><ref id="pcbi-0010042-b10"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bressler</surname><given-names>SL</given-names></name><name><surname>Kelso</surname><given-names>JAS</given-names></name></person-group>
+<year>2001</year>
+<article-title>Cortical coordination dynamics and cognition</article-title>
+<source>Trends Cogn Sci</source>
+<volume>5</volume>
+<fpage>26</fpage>
+<lpage>36</lpage>
+<pub-id pub-id-type="pmid">11164733</pub-id></element-citation></ref><ref id="pcbi-0010042-b11"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tononi</surname><given-names>G</given-names></name><name><surname>Sporns</surname><given-names>O</given-names></name><name><surname>Edelman</surname><given-names>GM</given-names></name></person-group>
+<year>1999</year>
+<article-title>Measures of degeneracy and redundancy in biological networks</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>96</volume>
+<fpage>3257</fpage>
+<lpage>3262</lpage>
+<pub-id pub-id-type="pmid">10077671</pub-id></element-citation></ref><ref id="pcbi-0010042-b12"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Price</surname><given-names>CJ</given-names></name><name><surname>Friston</surname><given-names>KJ</given-names></name></person-group>
+<year>2002</year>
+<article-title>Degeneracy and cognitive anatomy</article-title>
+<source>Trends Cogn Sci</source>
+<volume>6</volume>
+<fpage>416</fpage>
+<lpage>421</lpage>
+<pub-id pub-id-type="pmid">12413574</pub-id></element-citation></ref><ref id="pcbi-0010042-b13"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Crick</surname><given-names>F</given-names></name><name><surname>Jones</surname><given-names>E</given-names></name></person-group>
+<year>1993</year>
+<article-title>The backwardness of human neuroanatomy</article-title>
+<source>Nature</source>
+<volume>361</volume>
+<fpage>109</fpage>
+<lpage>110</lpage>
+<pub-id pub-id-type="pmid">8421513</pub-id></element-citation></ref><ref id="pcbi-0010042-b14"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tootell</surname><given-names>RBH</given-names></name><name><surname>Tsao</surname><given-names>D</given-names></name><name><surname>Vanduffel</surname><given-names>W</given-names></name></person-group>
+<year>2003</year>
+<article-title>Neuroimaging weighs in: Humans meet macaques in &#x0201c;primate&#x0201d; visual cortex</article-title>
+<source>J Neurosci</source>
+<volume>23</volume>
+<fpage>3981</fpage>
+<lpage>3989</lpage>
+<pub-id pub-id-type="pmid">12764082</pub-id></element-citation></ref><ref id="pcbi-0010042-b15"><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Venter</surname><given-names>JC</given-names></name><name><surname>Adams</surname><given-names>MD</given-names></name><name><surname>Myers</surname><given-names>EW</given-names></name><name><surname>Li</surname><given-names>PW</given-names></name><name><surname>Mural</surname><given-names>RJ</given-names></name><etal/></person-group>
+<year>2001</year>
+<source>The sequence of the human genome</source>
+<publisher-loc>Science</publisher-loc>
+<fpage>1304</fpage>
+<lpage>1351</lpage>
+</element-citation></ref><ref id="pcbi-0010042-b16"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Young</surname><given-names>MP</given-names></name></person-group>
+<year>1993</year>
+<article-title>The organization of neural systems in the primate cerebral cortex</article-title>
+<source>Proc R Soc Lond B Biol Sci</source>
+<volume>252</volume>
+<fpage>13</fpage>
+<lpage>18</lpage>
+</element-citation></ref><ref id="pcbi-0010042-b17"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Stephan</surname><given-names>KE</given-names></name><name><surname>Kamper</surname><given-names>L</given-names></name><name><surname>Bozkurt</surname><given-names>A</given-names></name><name><surname>Burns</surname><given-names>GA</given-names></name><name><surname>Young</surname><given-names>MP</given-names></name><etal/></person-group>
+<year>2001</year>
+<article-title>Advanced database methodology for the collation of the connectivity data on the macaque brain (CoCoMac)</article-title>
+<source>Philos Trans R Soc Lond B Biol Sci</source>
+<volume>356</volume>
+<fpage>1159</fpage>
+<lpage>1186</lpage>
+<pub-id pub-id-type="pmid">11545697</pub-id></element-citation></ref><ref id="pcbi-0010042-b18"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Murre</surname><given-names>JMJ</given-names></name><name><surname>Sturdy</surname><given-names>DPF</given-names></name></person-group>
+<year>1995</year>
+<article-title>The connectivity of the brain: Multi-level quantitative analysis</article-title>
+<source>Biol Cybern</source>
+<volume>73</volume>
+<fpage>529</fpage>
+<lpage>545</lpage>
+<pub-id pub-id-type="pmid">8527499</pub-id></element-citation></ref><ref id="pcbi-0010042-b19"><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Braitenberg</surname><given-names>V</given-names></name><name><surname>Sch&#x000fc;z</surname><given-names>A</given-names></name></person-group>
+<year>1991</year>
+<source>Anatomy of the cortex: Statistics and geometry</source>
+<publisher-loc>Berlin</publisher-loc>
+<publisher-name>Springer</publisher-name>
+<size units="page">249</size>
+<comment>p.</comment>
+</element-citation></ref><ref id="pcbi-0010042-b20"><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Mountcastle</surname><given-names>VB</given-names></name></person-group>
+<year>1998</year>
+<source>Perceptual neuroscience: The cerebral cortex</source>
+<publisher-loc>Boston</publisher-loc>
+<publisher-name>Harvard University Press</publisher-name>
+<size units="page">512</size>
+<comment>p.</comment>
+</element-citation></ref><ref id="pcbi-0010042-b21"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Engert</surname><given-names>F</given-names></name><name><surname>Bonhoeffer</surname><given-names>T</given-names></name></person-group>
+<year>1999</year>
+<article-title>Dendritic spine changes associated with hippocampal long-term synaptic plasticity</article-title>
+<source>Nature</source>
+<volume>399</volume>
+<fpage>66</fpage>
+<lpage>70</lpage>
+<pub-id pub-id-type="pmid">10331391</pub-id></element-citation></ref><ref id="pcbi-0010042-b22"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Stepanyants</surname><given-names>A</given-names></name><name><surname>Hof</surname><given-names>PR</given-names></name><name><surname>Chklovskii</surname><given-names>DB</given-names></name></person-group>
+<year>2002</year>
+<article-title>Geometry and structural plasticity of synaptic connectivity</article-title>
+<source>Neuron</source>
+<volume>34</volume>
+<fpage>275</fpage>
+<lpage>288</lpage>
+<pub-id pub-id-type="pmid">11970869</pub-id></element-citation></ref><ref id="pcbi-0010042-b23"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kalisman</surname><given-names>N</given-names></name><name><surname>Silberberg</surname><given-names>G</given-names></name><name><surname>Markram</surname><given-names>H</given-names></name></person-group>
+<year>2005</year>
+<article-title>The neocortical microcircuit as a tabula rasa</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>102</volume>
+<fpage>880</fpage>
+<lpage>885</lpage>
+<pub-id pub-id-type="pmid">15630093</pub-id></element-citation></ref><ref id="pcbi-0010042-b24"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Van Essen</surname><given-names>DC</given-names></name><name><surname>Drury</surname><given-names>HA</given-names></name><name><surname>Joshi</surname><given-names>S</given-names></name><name><surname>Miller</surname><given-names>MI</given-names></name></person-group>
+<year>1998</year>
+<article-title>Functional and structural mapping of human cerebral cortex: Solutions are in the surfaces</article-title>
+<source>Proc Natl Acad U S A</source>
+<volume>95</volume>
+<fpage>788</fpage>
+<lpage>795</lpage>
+</element-citation></ref><ref id="pcbi-0010042-b25"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Felleman</surname><given-names>DJ</given-names></name><name><surname>Van Essen</surname><given-names>DC</given-names></name></person-group>
+<year>1991</year>
+<article-title>Distributed hierarchical processing in the primate cerebral cortex</article-title>
+<source>Cereb Cortex</source>
+<volume>1</volume>
+<fpage>1</fpage>
+<lpage>47</lpage>
+<pub-id pub-id-type="pmid">1822724</pub-id></element-citation></ref><ref id="pcbi-0010042-b26"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Scannell</surname><given-names>JW</given-names></name><name><surname>Burns</surname><given-names>GAPC</given-names></name><name><surname>Hilgetag</surname><given-names>CC</given-names></name><name><surname>O'Neil</surname><given-names>MA</given-names></name><name><surname>Young</surname><given-names>MP</given-names></name></person-group>
+<year>1999</year>
+<article-title>The connectional organization of the cortico-thalamic system of the cat</article-title>
+<source>Cereb Cortex</source>
+<volume>9</volume>
+<fpage>277</fpage>
+<lpage>299</lpage>
+<pub-id pub-id-type="pmid">10355908</pub-id></element-citation></ref><ref id="pcbi-0010042-b27"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Burns</surname><given-names>GAPC</given-names></name><name><surname>Young</surname><given-names>MP</given-names></name></person-group>
+<year>2000</year>
+<article-title>Analysis of the connectional organisation of neural systems associated with the hippocampus in rats</article-title>
+<source>Phil Trans R Soc Lond B Biol Sci</source>
+<volume>355</volume>
+<fpage>55</fpage>
+<lpage>70</lpage>
+<pub-id pub-id-type="pmid">10703044</pub-id></element-citation></ref><ref id="pcbi-0010042-b28"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sporns</surname><given-names>O</given-names></name><name><surname>Chialvo</surname><given-names>D</given-names></name><name><surname>Kaiser</surname><given-names>M</given-names></name><name><surname>Hilgetag</surname><given-names>CC</given-names></name></person-group>
+<year>2004</year>
+<article-title>Organization, development and function of complex brain networks</article-title>
+<source>Trends Cogn Sci</source>
+<volume>8</volume>
+<fpage>418</fpage>
+<lpage>425</lpage>
+<pub-id pub-id-type="pmid">15350243</pub-id></element-citation></ref><ref id="pcbi-0010042-b29"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hilgetag</surname><given-names>CC</given-names></name><name><surname>Burns</surname><given-names>GAPC</given-names></name><name><surname>O'Neill</surname><given-names>MA</given-names></name><name><surname>Scannell</surname><given-names>JW</given-names></name><name><surname>Young</surname><given-names>MP</given-names></name></person-group>
+<year>2000</year>
+<article-title>Anatomical connectivity defines the organization of clusters of cortical areas in the macaque monkey and the cat</article-title>
+<source>Phil Trans R Soc Lond B Biol Sci</source>
+<volume>355</volume>
+<fpage>91</fpage>
+<lpage>110</lpage>
+<pub-id pub-id-type="pmid">10703046</pub-id></element-citation></ref><ref id="pcbi-0010042-b30"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hilgetag</surname><given-names>CC</given-names></name><name><surname>O'Neill</surname><given-names>MA</given-names></name><name><surname>Young</surname><given-names>MP</given-names></name></person-group>
+<year>2000</year>
+<article-title>Hierarchical organisation of macaque and cat cortical sensory systems explored with a novel network processor</article-title>
+<source>Phil Trans R Soc Lond B Biol Sci</source>
+<volume>355</volume>
+<fpage>71</fpage>
+<lpage>90</lpage>
+<pub-id pub-id-type="pmid">10703045</pub-id></element-citation></ref><ref id="pcbi-0010042-b31"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hilgetag</surname><given-names>CC</given-names></name><name><surname>O'Neill</surname><given-names>MA</given-names></name><name><surname>Young</surname><given-names>MP</given-names></name></person-group>
+<year>1996</year>
+<article-title>Indeterminate organization of the visual system</article-title>
+<source>Science</source>
+<volume>271</volume>
+<fpage>776</fpage>
+<lpage>777</lpage>
+<pub-id pub-id-type="pmid">8628990</pub-id></element-citation></ref><ref id="pcbi-0010042-b32"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sporns</surname><given-names>O</given-names></name><name><surname>Tononi</surname><given-names>G</given-names></name><name><surname>Edelman</surname><given-names>GM</given-names></name></person-group>
+<year>2000</year>
+<article-title>Theoretical neuroanatomy: Relating anatomical and functional connectivity in graphs and cortical connection matrices</article-title>
+<source>Cereb Cortex</source>
+<volume>10</volume>
+<fpage>127</fpage>
+<lpage>141</lpage>
+<pub-id pub-id-type="pmid">10667981</pub-id></element-citation></ref><ref id="pcbi-0010042-b33"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sporns</surname><given-names>O</given-names></name><name><surname>Zwi</surname><given-names>J</given-names></name></person-group>
+<year>2004</year>
+<article-title>The small world of the cerebral cortex</article-title>
+<source>Neuroinformatics</source>
+<volume>2</volume>
+<fpage>145</fpage>
+<lpage>162</lpage>
+<pub-id pub-id-type="pmid">15319512</pub-id></element-citation></ref><ref id="pcbi-0010042-b34"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Young</surname><given-names>MP</given-names></name></person-group>
+<year>1992</year>
+<article-title>Objective analysis of the topological organization of the primate cortical visual system</article-title>
+<source>Nature</source>
+<volume>358</volume>
+<fpage>152</fpage>
+<lpage>155</lpage>
+<pub-id pub-id-type="pmid">1614547</pub-id></element-citation></ref><ref id="pcbi-0010042-b35"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sporns</surname><given-names>O</given-names></name><name><surname>K&#x000f6;tter</surname><given-names>R</given-names></name></person-group>
+<year>2004</year>
+<article-title>Motifs in brain networks</article-title>
+<source>PLoS Biol</source>
+<volume>2</volume>
+<elocation-id>e369.</elocation-id>
+<comment>DOI: <ext-link ext-link-type="doi" xlink:href="10.1371/journal.pbio.0020369">10.1371/journal.pbio.0020369</ext-link></comment>
+<pub-id pub-id-type="pmid">15510229</pub-id></element-citation></ref><ref id="pcbi-0010042-b36"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>K&#x000f6;tter</surname><given-names>R</given-names></name><name><surname>Stephan</surname><given-names>KE</given-names></name></person-group>
+<year>2003</year>
+<article-title>Network participation indices: Characterizing component roles for information processing in neural networks</article-title>
+<source>Neural Netw</source>
+<volume>16</volume>
+<fpage>1261</fpage>
+<lpage>1275</lpage>
+<pub-id pub-id-type="pmid">14622883</pub-id></element-citation></ref><ref id="pcbi-0010042-b37"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chklovskii</surname><given-names>DB</given-names></name><name><surname>Schikorski</surname><given-names>T</given-names></name><name><surname>Stevens</surname><given-names>CF</given-names></name></person-group>
+<year>2002</year>
+<article-title>Wiring optimization in cortical circuits</article-title>
+<source>Neuron</source>
+<volume>34</volume>
+<fpage>341</fpage>
+<lpage>347</lpage>
+<pub-id pub-id-type="pmid">11988166</pub-id></element-citation></ref><ref id="pcbi-0010042-b38"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>K&#x000f6;bbert</surname><given-names>C</given-names></name><name><surname>Apps</surname><given-names>R</given-names></name><name><surname>Bechmann</surname><given-names>I</given-names></name><name><surname>Lanciego</surname><given-names>JL</given-names></name><name><surname>Mey</surname><given-names>J</given-names></name><etal/></person-group>
+<year>2000</year>
+<article-title>Current concepts in neuroanatomical tracing</article-title>
+<source>Prog Neurobiol</source>
+<volume>62</volume>
+<fpage>327</fpage>
+<lpage>351</lpage>
+<pub-id pub-id-type="pmid">10856608</pub-id></element-citation></ref><ref id="pcbi-0010042-b39"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>K&#x000f6;tter</surname><given-names>R</given-names></name></person-group>
+<year>2004</year>
+<article-title>Online retrieval, processing, and visualization of primate connectivity data from the CoCoMac database</article-title>
+<source>Neuroinformatics</source>
+<volume>2</volume>
+<fpage>127</fpage>
+<lpage>144</lpage>
+<pub-id pub-id-type="pmid">15319511</pub-id></element-citation></ref><ref id="pcbi-0010042-b40"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Galuske</surname><given-names>RA</given-names></name><name><surname>Schlote</surname><given-names>W</given-names></name><name><surname>Bratzke</surname><given-names>H</given-names></name><name><surname>Singer</surname><given-names>W</given-names></name></person-group>
+<year>2000</year>
+<article-title>Interhemispheric asymmetries of the modular structure in human temporal cortex</article-title>
+<source>Science</source>
+<volume>289</volume>
+<fpage>1946</fpage>
+<lpage>1949</lpage>
+<pub-id pub-id-type="pmid">10988077</pub-id></element-citation></ref><ref id="pcbi-0010042-b41"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tardif</surname><given-names>E</given-names></name><name><surname>Clarke</surname><given-names>S</given-names></name></person-group>
+<year>2001</year>
+<article-title>Intrinsic connectivity of human auditory areas: A tracing study with DiI</article-title>
+<source>Eur J Neurosci</source>
+<volume>13</volume>
+<fpage>1045</fpage>
+<lpage>1050</lpage>
+<pub-id pub-id-type="pmid">11264678</pub-id></element-citation></ref><ref id="pcbi-0010042-b42"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Saleem</surname><given-names>KS</given-names></name><name><surname>Pauls</surname><given-names>JM</given-names></name><name><surname>Augath</surname><given-names>M</given-names></name><name><surname>Trinath</surname><given-names>T</given-names></name><name><surname>Prause</surname><given-names>BA</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>Magnetic resonance imaging of neuronal connections in the macaque monkey</article-title>
+<source>Neuron</source>
+<volume>34</volume>
+<fpage>685</fpage>
+<lpage>700</lpage>
+<pub-id pub-id-type="pmid">12062017</pub-id></element-citation></ref><ref id="pcbi-0010042-b43"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Conturo</surname><given-names>TE</given-names></name><name><surname>Lori</surname><given-names>NF</given-names></name><name><surname>Cull</surname><given-names>TS</given-names></name><name><surname>Akbudak</surname><given-names>E</given-names></name><name><surname>Snyder</surname><given-names>AZ</given-names></name><etal/></person-group>
+<year>1999</year>
+<article-title>Tracking neuronal fiber pathways in the living human brain</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>96</volume>
+<fpage>10422</fpage>
+<lpage>10427</lpage>
+<pub-id pub-id-type="pmid">10468624</pub-id></element-citation></ref><ref id="pcbi-0010042-b44"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>LeBihan</surname><given-names>D</given-names></name></person-group>
+<year>2003</year>
+<article-title>Looking into the functional architecture of the brain with diffusion MRI</article-title>
+<source>Nature Rev Neurosci</source>
+<volume>4</volume>
+<fpage>469</fpage>
+<lpage>480</lpage>
+<pub-id pub-id-type="pmid">12778119</pub-id></element-citation></ref><ref id="pcbi-0010042-b45"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Catani</surname><given-names>M</given-names></name><name><surname>Jones</surname><given-names>DK</given-names></name><name><surname>Donato</surname><given-names>R</given-names></name><name><surname>Ffytche</surname><given-names>DH</given-names></name></person-group>
+<year>2003</year>
+<article-title>Occipito-temporal connections in the human brain</article-title>
+<source>Brain</source>
+<volume>126</volume>
+<fpage>2093</fpage>
+<lpage>2107</lpage>
+<pub-id pub-id-type="pmid">12821517</pub-id></element-citation></ref><ref id="pcbi-0010042-b46"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dougherty</surname><given-names>RF</given-names></name><name><surname>Ben-Shachar</surname><given-names>M</given-names></name><name><surname>Bammer</surname><given-names>R</given-names></name><name><surname>Brewer</surname><given-names>AA</given-names></name><name><surname>Wandell</surname><given-names>BA</given-names></name></person-group>
+<year>2005</year>
+<article-title>Functional organization of human occipital-callosal fiber tracts</article-title>
+<source>Proc Natl Acad Sci USA</source>
+<volume>102</volume>
+<fpage>7350</fpage>
+<lpage>7355</lpage>
+<pub-id pub-id-type="pmid">15883384</pub-id></element-citation></ref><ref id="pcbi-0010042-b47"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tuch</surname><given-names>DS</given-names></name><name><surname>Reese</surname><given-names>TG</given-names></name><name><surname>Wiegell</surname><given-names>MR</given-names></name><name><surname>Wedeen</surname><given-names>VJ</given-names></name></person-group>
+<year>2003</year>
+<article-title>Diffusion MRI of complex neural architecture</article-title>
+<source>Neuron</source>
+<volume>40</volume>
+<fpage>885</fpage>
+<lpage>895</lpage>
+<pub-id pub-id-type="pmid">14659088</pub-id></element-citation></ref><ref id="pcbi-0010042-b48"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tuch</surname><given-names>DS</given-names></name><name><surname>Wisco</surname><given-names>JJ</given-names></name><name><surname>Khatchaturian</surname><given-names>MH</given-names></name><name><surname>Ekstrom</surname><given-names>LB</given-names></name><name><surname>K&#x000f6;tter</surname><given-names>R</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Q-Ball imaging of macaque white matter architecture</article-title>
+<source>Phil Trans R Soc B Biol Sci</source>
+<volume>360</volume>
+<fpage>869</fpage>
+<lpage>879</lpage>
+</element-citation></ref><ref id="pcbi-0010042-b49"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Passingham</surname><given-names>RE</given-names></name><name><surname>Stephan</surname><given-names>KE</given-names></name><name><surname>K&#x000f6;tter</surname><given-names>R</given-names></name></person-group>
+<year>2002</year>
+<article-title>The anatomical basis of functional localization in the cortex</article-title>
+<source>Nat Rev Neurosci</source>
+<volume>3</volume>
+<fpage>606</fpage>
+<lpage>616</lpage>
+<pub-id pub-id-type="pmid">12154362</pub-id></element-citation></ref><ref id="pcbi-0010042-b50"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Behrens</surname><given-names>TEJ</given-names></name><name><surname>Johansen-Berg</surname><given-names>H</given-names></name></person-group>
+<year>2005</year>
+<article-title>Relating connectional architecture to grey matter function using diffusion imaging</article-title>
+<source>Phil Trans R Soc B Biol Sci</source>
+<volume>360</volume>
+<fpage>903</fpage>
+<lpage>911</lpage>
+</element-citation></ref><ref id="pcbi-0010042-b51"><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Jones</surname><given-names>EG</given-names></name></person-group>
+<person-group person-group-type="editor"><name><surname>Adelman</surname><given-names>G</given-names></name><name><surname>Smith</surname><given-names>B</given-names></name></person-group>
+<year>1998</year>
+<article-title>Brodmann's areas and cerebral cortex</article-title>
+<source>Encyclopedia of neuroscience</source>
+<publisher-loc>New York</publisher-loc>
+<publisher-name>Elsevier</publisher-name>
+<comment>pp. 294&#x02013;296, 339&#x02013;341.</comment>
+</element-citation></ref><ref id="pcbi-0010042-b52"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Behrens</surname><given-names>TEJ</given-names></name><name><surname>Johansen-Berg</surname><given-names>H</given-names></name><name><surname>Woolrich</surname><given-names>MW</given-names></name><name><surname>Smith</surname><given-names>SM</given-names></name><name><surname>Wheeler-Kingshott</surname><given-names>CAM</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>Non-invasive mapping of connections between human thalamus and cortex using diffusion imaging</article-title>
+<source>Nat Neurosci</source>
+<volume>6</volume>
+<fpage>750</fpage>
+<lpage>757</lpage>
+<pub-id pub-id-type="pmid">12808459</pub-id></element-citation></ref><ref id="pcbi-0010042-b53"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Johansen-Berg</surname><given-names>H</given-names></name><name><surname>Behrens</surname><given-names>TEJ</given-names></name><name><surname>Robson</surname><given-names>MD</given-names></name><name><surname>Drobnjak</surname><given-names>I</given-names></name><name><surname>Rushworth</surname><given-names>MFS</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Changes in connectivity profiles define functionally distinct regions in human medial frontal cortex</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>101</volume>
+<fpage>13335</fpage>
+<lpage>13340</lpage>
+<pub-id pub-id-type="pmid">15340158</pub-id></element-citation></ref><ref id="pcbi-0010042-b54"><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Mountcastle</surname><given-names>VB</given-names></name></person-group>
+<year>1978</year>
+<article-title>An organizing principle for cerebral function</article-title>
+<person-group person-group-type="editor"><name><surname>Edelman</surname><given-names>GM</given-names></name><name><surname>Mountcastle</surname><given-names>VB</given-names></name></person-group>
+<source>The mindful brain</source>
+<publisher-loc>Cambridge</publisher-loc>
+<publisher-name>MIT Press</publisher-name>
+<fpage>7</fpage>
+<lpage>50</lpage>
+</element-citation></ref><ref id="pcbi-0010042-b55"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mountcastle</surname><given-names>VB</given-names></name></person-group>
+<year>1997</year>
+<article-title>The columnar organization of the neocortex</article-title>
+<source>Brain</source>
+<volume>120</volume>
+<fpage>701</fpage>
+<lpage>722</lpage>
+<pub-id pub-id-type="pmid">9153131</pub-id></element-citation></ref><ref id="pcbi-0010042-b56"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Buxhoeveden</surname><given-names>DP</given-names></name><name><surname>Casanova</surname><given-names>MF</given-names></name></person-group>
+<year>2002</year>
+<article-title>The minicolumn hypothesis in neuroscience</article-title>
+<source>Brain</source>
+<volume>125</volume>
+<fpage>935</fpage>
+<lpage>951</lpage>
+<pub-id pub-id-type="pmid">11960884</pub-id></element-citation></ref><ref id="pcbi-0010042-b57"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rockland</surname><given-names>KS</given-names></name><name><surname>Ichinohe</surname><given-names>N</given-names></name></person-group>
+<year>2004</year>
+<article-title>Some thoughts on cortical minicolumns</article-title>
+<source>Exp Brain Res</source>
+<volume>158</volume>
+<fpage>265</fpage>
+<lpage>277</lpage>
+<pub-id pub-id-type="pmid">15365664</pub-id></element-citation></ref><ref id="pcbi-0010042-b58"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jones</surname><given-names>EG</given-names></name></person-group>
+<year>2000</year>
+<article-title>Microcolumns in the cerebral cortex</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>97</volume>
+<fpage>5019</fpage>
+<lpage>5021</lpage>
+<pub-id pub-id-type="pmid">10805761</pub-id></element-citation></ref><ref id="pcbi-0010042-b59"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Douglas</surname><given-names>RJ</given-names></name><name><surname>Martin</surname><given-names>KA</given-names></name></person-group>
+<year>1991</year>
+<article-title>A functional microcircuit for cat visual cortex</article-title>
+<source>J Physiol</source>
+<volume>440</volume>
+<fpage>735</fpage>
+<lpage>769</lpage>
+<pub-id pub-id-type="pmid">1666655</pub-id></element-citation></ref><ref id="pcbi-0010042-b60"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yoshimura</surname><given-names>Y</given-names></name><name><surname>Dantzker</surname><given-names>JLM</given-names></name><name><surname>Callaway</surname><given-names>EM</given-names></name></person-group>
+<year>2005</year>
+<article-title>Excitatory cortical neurons form fine-scale functional networks</article-title>
+<source>Nature</source>
+<volume>433</volume>
+<fpage>868</fpage>
+<lpage>873</lpage>
+<pub-id pub-id-type="pmid">15729343</pub-id></element-citation></ref><ref id="pcbi-0010042-b61"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ohki</surname><given-names>K</given-names></name><name><surname>Chung</surname><given-names>S</given-names></name><name><surname>Ch'ng</surname><given-names>YH</given-names></name><name><surname>Kara</surname><given-names>P</given-names></name><name><surname>Reid</surname><given-names>C</given-names></name></person-group>
+<year>2005</year>
+<article-title>Functional imaging with cellular resolution reveals precise microarchitecture in visual cortex</article-title>
+<source>Nature</source>
+<volume>433</volume>
+<fpage>597</fpage>
+<lpage>603</lpage>
+<pub-id pub-id-type="pmid">15660108</pub-id></element-citation></ref><ref id="pcbi-0010042-b62"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zhao</surname><given-names>F</given-names></name><name><surname>Wang</surname><given-names>P</given-names></name><name><surname>Hendrich</surname><given-names>K</given-names></name><name><surname>Kim</surname><given-names>SG</given-names></name></person-group>
+<year>2005</year>
+<article-title>Spatial specificity of cerebral blood volume-weighted fMRI responses at columnar resolution</article-title>
+<source>Neuroimage</source>
+<volume>27</volume>
+<fpage>416</fpage>
+<lpage>424</lpage>
+<pub-id pub-id-type="pmid">15923128</pub-id></element-citation></ref><ref id="pcbi-0010042-b63"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Vanzetta</surname><given-names>I</given-names></name><name><surname>Slovin</surname><given-names>H</given-names></name><name><surname>Omer</surname><given-names>DB</given-names></name><name><surname>Grinvald</surname><given-names>A</given-names></name></person-group>
+<year>2004</year>
+<article-title>Columnar resolution of blood volume and oximetry functional maps in the behaving monkey: Implications for fMRI</article-title>
+<source>Neuron</source>
+<volume>42</volume>
+<fpage>843</fpage>
+<lpage>854</lpage>
+<pub-id pub-id-type="pmid">15182722</pub-id></element-citation></ref><ref id="pcbi-0010042-b64"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Callaway</surname><given-names>EM</given-names></name><name><surname>Katz</surname><given-names>LC</given-names></name></person-group>
+<year>1990</year>
+<article-title>Emergence and refinement of clustered horizontal connections in cat striate cortex</article-title>
+<source>J Neurosci</source>
+<volume>10</volume>
+<fpage>1134</fpage>
+<lpage>1153</lpage>
+<pub-id pub-id-type="pmid">2329372</pub-id></element-citation></ref><ref id="pcbi-0010042-b65"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Amirikian</surname><given-names>B</given-names></name><name><surname>Georgopoulos</surname><given-names>AP</given-names></name></person-group>
+<year>2003</year>
+<article-title>Modular organization of directionally tuned cells in the motor cortex: Is there a short-range order?</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>100</volume>
+<fpage>12474</fpage>
+<lpage>12479</lpage>
+<pub-id pub-id-type="pmid">14523235</pub-id></element-citation></ref><ref id="pcbi-0010042-b66"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>K&#x000f6;tter</surname><given-names>R</given-names></name><name><surname>Wanke</surname><given-names>E</given-names></name></person-group>
+<year>2005</year>
+<article-title>Mapping brains without coordinates</article-title>
+<source>Phil Trans R Soc Lond B Biol Sci</source>
+<volume>360</volume>
+<fpage>751</fpage>
+<lpage>766</lpage>
+<pub-id pub-id-type="pmid">15971361</pub-id></element-citation></ref><ref id="pcbi-0010042-b67"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Thompson</surname><given-names>PM</given-names></name><name><surname>Schwartz</surname><given-names>C</given-names></name><name><surname>Lin</surname><given-names>RT</given-names></name><name><surname>Khan</surname><given-names>AA</given-names></name><name><surname>Toga</surname><given-names>AW</given-names></name></person-group>
+<year>1996</year>
+<article-title>Three-dimensional statistical analysis of sulcal variability in the human brain</article-title>
+<source>J Neurosci</source>
+<volume>16</volume>
+<fpage>4261</fpage>
+<lpage>4274</lpage>
+<pub-id pub-id-type="pmid">8753887</pub-id></element-citation></ref><ref id="pcbi-0010042-b68"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Thompson</surname><given-names>P</given-names></name><name><surname>Cannon</surname><given-names>TD</given-names></name><name><surname>Narr</surname><given-names>KL</given-names></name><name><surname>van Erp</surname><given-names>T</given-names></name><name><surname>Poutanen</surname><given-names>VP</given-names></name><etal/></person-group>
+<year>2001</year>
+<article-title>Genetic influences on brain structure</article-title>
+<source>Nat Neurosci</source>
+<volume>4</volume>
+<fpage>1</fpage>
+<lpage>6</lpage>
+<pub-id pub-id-type="pmid">11135631</pub-id></element-citation></ref><ref id="pcbi-0010042-b69"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Amunts</surname><given-names>K</given-names></name><name><surname>Schleicher</surname><given-names>A</given-names></name><name><surname>B&#x000fc;rgel</surname><given-names>U</given-names></name><name><surname>Mohlberg</surname><given-names>H</given-names></name><name><surname>Uylings</surname><given-names>HBM</given-names></name><etal/></person-group>
+<year>1999</year>
+<article-title>Broca's region revisited: Cytoarchitecture and intersubject variability</article-title>
+<source>J Comp Neurol</source>
+<volume>412</volume>
+<fpage>319</fpage>
+<lpage>341</lpage>
+<pub-id pub-id-type="pmid">10441759</pub-id></element-citation></ref><ref id="pcbi-0010042-b70"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Westbury</surname><given-names>CF</given-names></name><name><surname>Zatorre</surname><given-names>RJ</given-names></name><name><surname>Evans</surname><given-names>AC</given-names></name></person-group>
+<year>1999</year>
+<article-title>Quantifying variability in the planum temporale: A probability map</article-title>
+<source>Cereb Cortex</source>
+<volume>9</volume>
+<fpage>392</fpage>
+<lpage>405</lpage>
+<pub-id pub-id-type="pmid">10426418</pub-id></element-citation></ref><ref id="pcbi-0010042-b71"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Watson</surname><given-names>JD</given-names></name><name><surname>Myers</surname><given-names>R</given-names></name><name><surname>Frackowiak</surname><given-names>RS</given-names></name><name><surname>Hajnal</surname><given-names>JV</given-names></name><name><surname>Woods</surname><given-names>RP</given-names></name><etal/></person-group>
+<year>1993</year>
+<article-title>Area V5 of the human brain: Evidence from a combined study using positron emission tomography and magnetic resonance imaging</article-title>
+<source>Cereb Cortex</source>
+<volume>3</volume>
+<fpage>79</fpage>
+<lpage>94</lpage>
+<pub-id pub-id-type="pmid">8490322</pub-id></element-citation></ref><ref id="pcbi-0010042-b72"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hasnain</surname><given-names>MK</given-names></name><name><surname>Fox</surname><given-names>PT</given-names></name><name><surname>Woldorff</surname><given-names>MG</given-names></name></person-group>
+<year>1998</year>
+<article-title>Intersubject variability of functional areas in the human visual cortex</article-title>
+<source>Hum Brain Mapp</source>
+<volume>6</volume>
+<fpage>301</fpage>
+<lpage>315</lpage>
+<pub-id pub-id-type="pmid">9704267</pub-id></element-citation></ref><ref id="pcbi-0010042-b73"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lahaye</surname><given-names>PJ</given-names></name><name><surname>Poline</surname><given-names>JB</given-names></name><name><surname>Flandin</surname><given-names>G</given-names></name><name><surname>Dodel</surname><given-names>S</given-names></name><name><surname>Garnero</surname><given-names>L</given-names></name></person-group>
+<year>2003</year>
+<article-title>Functional connectivity: Studying nonlinear, delayed interactions between BOLD signals</article-title>
+<source>Neuroimage</source>
+<volume>20</volume>
+<fpage>962</fpage>
+<lpage>974</lpage>
+<pub-id pub-id-type="pmid">14568466</pub-id></element-citation></ref><ref id="pcbi-0010042-b74"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bartels</surname><given-names>A</given-names></name><name><surname>Zeki</surname><given-names>S</given-names></name></person-group>
+<year>2005</year>
+<article-title>Brain dynamics during natural viewing conditions&#x02014;A new guide for mapping connectivity in vivo</article-title>
+<source>Neuroimage</source>
+<volume>24</volume>
+<fpage>339</fpage>
+<lpage>349</lpage>
+<pub-id pub-id-type="pmid">15627577</pub-id></element-citation></ref><ref id="pcbi-0010042-b75"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Stephan</surname><given-names>KE</given-names></name><name><surname>Hilgetag</surname><given-names>CC</given-names></name><name><surname>Burns</surname><given-names>GAPC</given-names></name><name><surname>O'Neill</surname><given-names>MA</given-names></name><name><surname>Young</surname><given-names>MP</given-names></name><etal/></person-group>
+<year>2000</year>
+<article-title>Computational analysis of functional connectivity between areas of primate cerebral cortex</article-title>
+<source>Phil Trans R Soc Lond B Biol Sci</source>
+<volume>355</volume>
+<fpage>111</fpage>
+<lpage>126</lpage>
+<pub-id pub-id-type="pmid">10703047</pub-id></element-citation></ref><ref id="pcbi-0010042-b76"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>K&#x000f6;tter</surname><given-names>R</given-names></name><name><surname>Sommer</surname><given-names>F</given-names></name></person-group>
+<year>2000</year>
+<article-title>Global relationship between anatomical connectivity and activity propagation in the cerebral cortex</article-title>
+<source>Phil Trans R Soc Lond B Biol Sci</source>
+<volume>355</volume>
+<fpage>127</fpage>
+<lpage>134</lpage>
+<pub-id pub-id-type="pmid">10703048</pub-id></element-citation></ref><ref id="pcbi-0010042-b77"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>McIntosh</surname><given-names>AR</given-names></name><name><surname>Gonzalez-Lima</surname><given-names>F</given-names></name></person-group>
+<year>1994</year>
+<article-title>Structural equation modeling and its application to network analysis in functional brain imaging</article-title>
+<source>Hum Brain Mapp</source>
+<volume>2</volume>
+<fpage>2</fpage>
+<lpage>22</lpage>
+</element-citation></ref><ref id="pcbi-0010042-b78"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Friston</surname><given-names>KJ</given-names></name><name><surname>Harrison</surname><given-names>L</given-names></name><name><surname>Penny</surname><given-names>W</given-names></name></person-group>
+<year>2003</year>
+<article-title>Dynamic causal modeling</article-title>
+<source>Neuroimage</source>
+<volume>19</volume>
+<fpage>1273</fpage>
+<lpage>1302</lpage>
+<pub-id pub-id-type="pmid">12948688</pub-id></element-citation></ref><ref id="pcbi-0010042-b79"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bota</surname><given-names>M</given-names></name><name><surname>Dong</surname><given-names>HW</given-names></name><name><surname>Swanson</surname><given-names>LW</given-names></name></person-group>
+<year>2003</year>
+<article-title>From gene networks to brain networks</article-title>
+<source>Nat Neuroscience</source>
+<volume>6</volume>
+<fpage>795</fpage>
+<lpage>799</lpage>
+<pub-id pub-id-type="pmid">12886225</pub-id></element-citation></ref><ref id="pcbi-0010042-b80"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Horwitz</surname><given-names>B</given-names></name><name><surname>Sporns</surname><given-names>O</given-names></name></person-group>
+<year>1994</year>
+<article-title>Neural modeling and functional neuroimaging</article-title>
+<source>Hum Brain Mapp</source>
+<volume>1</volume>
+<fpage>269</fpage>
+<lpage>283</lpage>
+<pub-id pub-id-type="pmid">24591196</pub-id></element-citation></ref><ref id="pcbi-0010042-b81"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Horwitz</surname><given-names>B</given-names></name><name><surname>Tagamets</surname><given-names>MA</given-names></name><name><surname>McIntosh</surname><given-names>AR</given-names></name></person-group>
+<year>1999</year>
+<article-title>Neural modeling, functional brain imaging, and cognition</article-title>
+<source>Trends Cogn Sci</source>
+<volume>3</volume>
+<fpage>91</fpage>
+<lpage>98</lpage>
+<pub-id pub-id-type="pmid">10322460</pub-id></element-citation></ref><ref id="pcbi-0010042-b82"><element-citation publication-type="journal">
+<collab>Arbib MA, Bischoff A, Fagg AH, Grafton S T</collab>
+<year>1994</year>
+<article-title>Synthetic PET: Analyzing large-scale properties of neural networks</article-title>
+<source>Hum Brain Mapp</source>
+<volume>2</volume>
+<fpage>225</fpage>
+<lpage>233</lpage>
+</element-citation></ref><ref id="pcbi-0010042-b83"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Horwitz</surname><given-names>B</given-names></name></person-group>
+<year>2004</year>
+<article-title>Relating fMRI and PET signals to neural activity by means of large-scale neural models</article-title>
+<source>Neuroinformatics</source>
+<volume>2</volume>
+<fpage>251</fpage>
+<lpage>266</lpage>
+<pub-id pub-id-type="pmid">15319520</pub-id></element-citation></ref><ref id="pcbi-0010042-b84"><element-citation publication-type="other">
+<person-group person-group-type="author"><name><surname>Chadderdon</surname><given-names>G</given-names></name><name><surname>Sporns</surname><given-names>O</given-names></name></person-group>
+<year>2005</year>
+<article-title>A large-scale neurocomputational model of task-oriented behavior selection and working memory in prefrontal cortex</article-title>
+<source>J Cogn Neurosci</source>
+<comment>In press.</comment>
+</element-citation></ref><ref id="pcbi-0010042-b85"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bota</surname><given-names>M</given-names></name><name><surname>Arbib</surname><given-names>MA</given-names></name></person-group>
+<year>2004</year>
+<article-title>Integrating databases and expert systems for the analysis of brain structures: connections, similarities, and homologies</article-title>
+<source>Neuroinformatics</source>
+<volume>2</volume>
+<fpage>19</fpage>
+<lpage>58</lpage>
+<pub-id pub-id-type="pmid">15067167</pub-id></element-citation></ref></ref-list><glossary><title>Abbreviation</title><def-list><def-item><term>DTI</term><def><p>diffusion tensor imaging</p></def></def-item></def-list></glossary></back></article>

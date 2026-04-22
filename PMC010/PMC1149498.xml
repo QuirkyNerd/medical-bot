@@ -1,0 +1,166 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Archiving and Interchange DTD v2.3 20070202//EN" "archivearticle.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" article-type="editorial"><?properties open_access?><front><journal-meta><journal-id journal-id-type="nlm-ta">BMC Bioinformatics</journal-id><journal-title>BMC Bioinformatics</journal-title><issn pub-type="epub">1471-2105</issn><publisher><publisher-name>BioMed Central</publisher-name><publisher-loc>London</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">15941469</article-id><article-id pub-id-type="pmc">PMC1149498</article-id><article-id pub-id-type="publisher-id">1471-2105-6-140</article-id><article-id pub-id-type="doi">10.1186/1471-2105-6-140</article-id><article-categories><subj-group subj-group-type="heading"><subject>Editorial</subject></subj-group></article-categories><title-group><article-title>BMC Bioinformatics comes of age </article-title></title-group><contrib-group><contrib corresp="yes" contrib-type="author"><name><surname>Cockerill</surname><given-names>Matthew J</given-names></name><xref ref-type="aff" rid="I1">1</xref><email>matt@biomedcentral.com</email></contrib></contrib-group><aff id="I1"><label>1</label>Director of Operations, BioMed Central Ltd, Middlesex House, 34-42 Cleveland Street, London, W1T 4LB, UK</aff><pub-date pub-type="collection"><year>2005</year></pub-date><pub-date pub-type="epub"><day>7</day><month>6</month><year>2005</year></pub-date><volume>6</volume><fpage>140</fpage><lpage>140</lpage><ext-link ext-link-type="uri" xlink:href="http://www.biomedcentral.com/1471-2105/6/140"/><history><date date-type="received"><day>26</day><month>5</month><year>2005</year></date><date date-type="accepted"><day>7</day><month>6</month><year>2005</year></date></history><copyright-statement>Copyright &#x000a9; 2005 Cockerill; licensee BioMed Central Ltd.</copyright-statement><license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/2.0"><p>This is an Open Access article distributed under the terms of the Creative Commons Attribution License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/2.0"/>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</p></license></article-meta></front><body><sec><title></title><p>Almost exactly five years ago, in early June 2000, BMC Bioinformatics received its first submission. Five years on, it has received over a thousand submissions, and the journal is continuing to grow rapidly (Figure <xref ref-type="fig" rid="F1">1</xref>).</p><p>In the past few months, developments have included a refreshed international <ext-link ext-link-type="uri" xlink:href="http://www.biomedcentral.com/bmcbioinformatics/edboard">editorial board</ext-link>, which now consists of over 50 leaders in the field, and a <ext-link ext-link-type="uri" xlink:href="http://www.biomedcentral.com/gateways/bioinformaticsgenomics/">Bioinformatics and Genomics gateway</ext-link> that brings together relevant content from across BioMed Central's 130+ Open Access journals. And by the time you read this,  <italic>BMC Bioinformatics</italic> should have its first official ISI Impact Factor. Impact factors certainly have their problems &#x02013; a previous editorial in this journal[<xref ref-type="bibr" rid="B1">1</xref>] discussed the arbitrariness of the process by which ISI selects journals for tracking, and the resulting unnecessary time delay before Impact Factors become available. One thing is clear though &#x02013; with <italic>BMC Bioinformatics</italic> having an Impact Factor, there are more reasons than ever to make it the first choice for your research.</p></sec><sec><title>Five years in bioinformatics</title><p>Looking back over the first 5 years of the journal, are any significant trends evident? One thing that is noticeable is the prevalence of the open-source model of software development. In fact more than 10% of all BMC Bioinformatics articles include the term "open-source". Hundreds of open-source bioinformatics projects are now hosted on sites such as <ext-link ext-link-type="uri" xlink:href="http://bioinformatics.org">bioinformatics.org</ext-link> and <ext-link ext-link-type="uri" xlink:href="http://sourceforge.net/softwaremap/trove_list.php?form_cat=252">sourceforge.net</ext-link>. No doubt the similar philosophies of open-source software and Open Access publishing have been a factor in making <italic>BMC Bioinformatics</italic> one of BioMed Central's most successful journals. 
+
+Two other emerging trends are, firstly, an increasing use of web service technology to connect disparate tools into analysis pipelines, and secondly, the development of systems to allow biological knowledge to be modelled and expressed in structured form. The linking factor between both these trends is that increasingly, as the data deluge continues, the 'users' of bioinformatics tools and the 'readers' of the biological literature, are likely to be computer systems rather than human beings. </p></sec><sec><title>Web services and data analysis pipelines</title><p>As bioinformatics tools have proliferated, the complexity of data analysis has increased. Often, a sequence of analysis steps each using different tools must be carried out one after the other. This might be done manually or by using a monolithic system that is capable of carrying out multiple analyses, or, more flexibly, by writing special 'glue code', often in Perl, to connect together multiple tools into a pipeline.
+
+The problem with the latter approach, though, is that in the absence of defined standards for the input and output of different tools, lots of glue code has to be written in order to create each new pipeline. Worse, systems built in this way tend  to be fragile, since at any time one of the tools in the pipeline may change the format of its input or output (breaking the system), because there is no explicit 'contract' between the various tools as to what input and output formats each will support. Web services [<xref ref-type="bibr" rid="B2">2</xref>], and more generally, 'Service Oriented Architectures' [<xref ref-type="bibr" rid="B3">3</xref>] promise to provide a solution by providing a means for codifying standard interfaces that can be used to expose bioinformatics tools over the web. Projects such as MyGrid [<xref ref-type="bibr" rid="B4">4</xref>] have then built on these standards to provide biologists with graphical user interfaces that can be used to build new analysis pipelines interactively, without needing to write code. <italic>BMC Bioinformatics</italic> has published several articles on the use of Web Service technologies such as the Simple Object Access Protocol (SOAP) - if you are interested, try searching the journal for: <ext-link ext-link-type="uri" xlink:href="http://www.biomedcentral.com/search/results.asp?drpField1=&#x00026;txtSearch1=SOAP+OR+%22web+services%22&#x00026;drpPhrase1=and&#x00026;drpField2=%5BTI%5D&#x00026;txtSearch2=&#x00026;drpPhrase2=and&#x00026;drpField3=%5BAU%5D&#x00026;txtSearch3=&#x00026;drpPhrase3=and&#x00026;drpField4=%5BTIAB%5D&#x00026;txtSearch4=&#x00026;drpPhrase4">SOAP OR "web services"</ext-link></p></sec><sec><title>Text mining and biological semantics</title><p>Another growth area in bioinformatics has been the structured representation and modelling of biological knowledge. The Gene Ontology project [<xref ref-type="bibr" rid="B5">5</xref>] has provided an important foundation for much of this work, defining a set of controlled vocabularies that allow biological concepts and relationships to be expressed in a standard way.
+</p><p>
+Much of the initial work on modelling biological knowledge has explored the use of text-mining techniques to automatically derive structured semantic information from the relatively unstructured text of scientific research articles. <ext-link ext-link-type="uri" xlink:href="http://www.biomedcentral.com/info/about/datamining">BioMed Central's Open Access corpus</ext-link>[<xref ref-type="bibr" rid="B6">6</xref>] is now rapidly approaching 10,000 articles and provides ideal raw material for such research.. It is already being used by many researchers, both in industry and academia.
+</p><p><italic>BMC Bioinformatics</italic> publishes many  papers on text-mining topics, including the recently published supplement [<xref ref-type="bibr" rid="B7">7</xref>], which consists of papers presented at last year's BioCreAtIvE text-mining workshop in Granada, Spain. Text mining has its limits, however. Imagine what could be achieved if articles, rather than consisting entirely of free-form natural language, contained explicit assertions about biological knowledge in unambiguous, machine-readable form. This is the oft-vaunted promise of the &#x02018;Semantic Web&#x02019; [<xref ref-type="bibr" rid="B8">8</xref>], but it has proved to be very difficult to realize in practice. 
+</p><p>
+Some recent developments, however, suggest that progress is being made. For example, this editorial was created using <ext-link ext-link-type="uri" xlink:href="http://www.biomedcentral.com/info/ifora/publicon">Publicon</ext-link>[<xref ref-type="bibr" rid="B9">9</xref>]- a new breed of scientific authoring tool developed by Wolfram Research with input from BioMed Central. Publicon is easy to use, but it is also a highly structured authoring environment. It can not only output BioMed Central's native article XML format, but also embed mathematical equations as 'islands' of semantically-rich MathML [<xref ref-type="bibr" rid="B10">10</xref>].  
+This structured mathematical information is then preserved throughout the publication process, from the author's computer right through to the reader's desktop with no intermediate unstructured version along the way that might cause information to be lost.
+</p><p>
+So, for example, if you are accessing this editorial online using a suitable browser, you should be able to cut and paste the equation below into any MathML-aware application, as a mathematically meaningful equation rather than an image.</p><disp-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M1" name="1471-2105-6-140-i1" overflow="scroll">
+            <mml:mrow>
+               <mml:mrow>
+                  <mml:mrow>
+                     <mml:mo>(</mml:mo>
+                     <mml:mrow>
+                        <mml:mi>i</mml:mi>
+                        <mml:mo>&#x000a0;</mml:mo>
+                        <mml:mrow>
+                           <mml:mo>&#x02207;</mml:mo>
+                           <mml:mrow>
+                              <mml:mo>-</mml:mo>
+                              <mml:mi>m</mml:mi>
+                           </mml:mrow>
+                        </mml:mrow>
+                     </mml:mrow>
+                     <mml:mo>)</mml:mo>
+                  </mml:mrow>
+                  <mml:mo>&#x000a0;</mml:mo>
+                  <mml:mrow>
+                     <mml:msub>
+                        <mml:mi>&#x003a6;</mml:mi>
+                        <mml:msup>
+                           <mml:mi>e</mml:mi>
+                           <mml:mn>2</mml:mn>
+                        </mml:msup>
+                     </mml:msub>
+                     <mml:mo>[</mml:mo>
+                     <mml:mrow>
+                        <mml:mi>B</mml:mi>
+                        <mml:mo>,</mml:mo>
+                        <mml:mi>x</mml:mi>
+                     </mml:mrow>
+                     <mml:mo>]</mml:mo>
+                  </mml:mrow>
+               </mml:mrow>
+               <mml:mo>=</mml:mo>
+               <mml:mrow>
+                  <mml:mrow>
+                     <mml:mrow>
+                        <mml:mi>B</mml:mi>
+                        <mml:mo>&#x02061;</mml:mo>
+                        <mml:mo>(</mml:mo>
+                        <mml:mi>x</mml:mi>
+                        <mml:mo>)</mml:mo>
+                     </mml:mrow>
+                     <mml:mo>&#x000a0;</mml:mo>
+                     <mml:mrow>
+                        <mml:msub>
+                           <mml:mi>&#x003a6;</mml:mi>
+                           <mml:msup>
+                              <mml:mi>e</mml:mi>
+                              <mml:mn>2</mml:mn>
+                           </mml:msup>
+                        </mml:msub>
+                        <mml:mo>[</mml:mo>
+                        <mml:mrow>
+                           <mml:mi>B</mml:mi>
+                           <mml:mo>,</mml:mo>
+                           <mml:mi>x</mml:mi>
+                        </mml:mrow>
+                        <mml:mo>]</mml:mo>
+                     </mml:mrow>
+                  </mml:mrow>
+                  <mml:mo>+</mml:mo>
+                  <mml:mrow>
+                     <mml:mi>i</mml:mi>
+                     <mml:mo>&#x000a0;</mml:mo>
+                     <mml:mtext/>
+                     <mml:msup>
+                        <mml:mi>e</mml:mi>
+                        <mml:mn>2</mml:mn>
+                     </mml:msup>
+                     <mml:mo>&#x000a0;</mml:mo>
+                     <mml:msub>
+                        <mml:mi>&#x003b3;</mml:mi>
+                        <mml:mi>&#x003bc;</mml:mi>
+                     </mml:msub>
+                     <mml:mo>&#x000a0;</mml:mo>
+                     <mml:mrow>
+                        <mml:mo stretchy="true">&#x0222b;</mml:mo>
+                        <mml:mrow>
+                           <mml:mrow>
+                              <mml:msub>
+                                 <mml:mi>&#x003b4;</mml:mi>
+                                 <mml:mo>+</mml:mo>
+                              </mml:msub>
+                              <mml:mo>(</mml:mo>
+                              <mml:msubsup>
+                                 <mml:mi>s</mml:mi>
+                                 <mml:mrow>
+                                    <mml:mi>x</mml:mi>
+                                    <mml:mo>&#x000a0;</mml:mo>
+                                    <mml:mn>1</mml:mn>
+                                 </mml:mrow>
+                                 <mml:mn>2</mml:mn>
+                              </mml:msubsup>
+                              <mml:mo>)</mml:mo>
+                           </mml:mrow>
+                           <mml:mo>&#x000a0;</mml:mo>
+                           <mml:mrow>
+                              <mml:mo>(</mml:mo>
+                              <mml:mrow>
+                                 <mml:mrow>
+                                    <mml:mrow>
+                                       <mml:msub>
+                                          <mml:mi>&#x003b4;&#x003a6;</mml:mi>
+                                          <mml:msup>
+                                             <mml:mi>e</mml:mi>
+                                             <mml:mn>2</mml:mn>
+                                          </mml:msup>
+                                       </mml:msub>
+                                       <mml:mo>[</mml:mo>
+                                       <mml:mrow>
+                                          <mml:mi>B</mml:mi>
+                                          <mml:mo>,</mml:mo>
+                                          <mml:mi>x</mml:mi>
+                                       </mml:mrow>
+                                       <mml:mo>]</mml:mo>
+                                    </mml:mrow>
+                                    <mml:mo>/</mml:mo>
+                                    <mml:mi>&#x003b4;</mml:mi>
+                                 </mml:mrow>
+                                 <mml:mo>&#x000a0;</mml:mo>
+                                 <mml:mrow>
+                                    <mml:msub>
+                                       <mml:mi>B</mml:mi>
+                                       <mml:mi>&#x003bc;</mml:mi>
+                                    </mml:msub>
+                                    <mml:mo>(</mml:mo>
+                                    <mml:mn>1</mml:mn>
+                                    <mml:mo>)</mml:mo>
+                                 </mml:mrow>
+                              </mml:mrow>
+                              <mml:mo>)</mml:mo>
+                           </mml:mrow>
+                           <mml:mo>&#x000a0;</mml:mo>
+                           <mml:mrow>
+                              <mml:mo>&#x02146;</mml:mo>
+                              <mml:msub>
+                                 <mml:mi>&#x003c4;</mml:mi>
+                                 <mml:mn>1</mml:mn>
+                              </mml:msub>
+                           </mml:mrow>
+                        </mml:mrow>
+                     </mml:mrow>
+                  </mml:mrow>
+               </mml:mrow>
+            </mml:mrow>
+         </mml:math></disp-formula><p>In two accompanying Commentaries, the issues associated with capturing and representing biological knowledge are discussed further. Murray-Rust <italic>et al.</italic>[<xref ref-type="bibr" rid="B11">11</xref>] consider how chemical information can best be represented within scientific articles, and what bioinformaticists and chemists can learn from one another. Meanwhile, Mons [<xref ref-type="bibr" rid="B12">12</xref>] explores in more detail how smart authoring tools can enrich the scientific literature by allowing authors to express themselves unambiguously, avoiding the 'data burying' that makes text mining necessary in the first place.</p></sec></body><back><ref-list><ref id="B1"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Cockerill</surname><given-names>MJ</given-names></name></person-group><article-title>Delayed impact: ISI's citation tracking choices are keeping scientists in the dark</article-title><source>BMC Bioinformatics</source><year>2004</year><volume>5</volume><fpage>93</fpage><pub-id pub-id-type="pmid">15248902</pub-id><pub-id pub-id-type="doi">10.1186/1471-2105-5-93</pub-id></citation></ref><ref id="B2"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Stein</surname><given-names>L</given-names></name></person-group><article-title>Creating a bioinformatics nation</article-title><source>Nature</source><year>2002</year><volume>417</volume><fpage>119</fpage><lpage>120</lpage><pub-id pub-id-type="pmid">12000935</pub-id><pub-id pub-id-type="doi">10.1038/417119a</pub-id></citation></ref><ref id="B3"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Foster</surname><given-names>I</given-names></name></person-group><article-title>Service-Oriented Science</article-title><source>Science</source><year>2005</year><volume>308</volume><fpage>814</fpage><lpage>817</lpage><pub-id pub-id-type="pmid">15879208</pub-id><pub-id pub-id-type="doi">10.1126/science.1110411</pub-id></citation></ref><ref id="B4"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Hey</surname><given-names>T</given-names></name><name><surname>Trefethen</surname><given-names>AE</given-names></name></person-group><article-title>Cyberinfrastructure for e-Science</article-title><source>Science</source><year>2005</year><volume>308</volume><fpage>817</fpage><lpage>821</lpage><pub-id pub-id-type="pmid">15879209</pub-id><pub-id pub-id-type="doi">10.1126/science.1110410</pub-id></citation></ref><ref id="B5"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Lewis</surname><given-names>SE</given-names></name></person-group><article-title>Gene Ontology: looking backwards and forwards </article-title><source>Genome Biol </source><year>2004</year><volume>6</volume><fpage>103</fpage><pub-id pub-id-type="pmid">15642104</pub-id><pub-id pub-id-type="doi">10.1186/gb-2004-6-1-103</pub-id></citation></ref><ref id="B6"><citation citation-type="other"><article-title>BioMed Central data mining page</article-title><ext-link ext-link-type="uri" xlink:href="http://www.biomedcentral.com/info/about/datamining"/></citation></ref><ref id="B7"><citation citation-type="journal"><article-title>A critical assessment of text mining methods in molecular biology</article-title><source>BMC Bioinformatics</source><year>2005</year><volume>6</volume><fpage>S1</fpage><lpage>S23</lpage><pub-id pub-id-type="pmid">15960821</pub-id><pub-id pub-id-type="doi">10.1186/1471-2105-6-S1-S1</pub-id></citation></ref><ref id="B8"><citation citation-type="other"><person-group person-group-type="author"><name><surname>Berners-Lee</surname><given-names>T</given-names></name><name><surname>Hendler</surname><given-names>J</given-names></name><name><surname>Lassila</surname><given-names>O</given-names></name></person-group><article-title>The semantic web</article-title><source>Sci Am</source><year>2001</year><fpage>34</fpage><lpage>43</lpage></citation></ref><ref id="B9"><citation citation-type="other"><article-title>Publicon</article-title><ext-link ext-link-type="uri" xlink:href="http://www.biomedcentral.com/info/ifora/publicon"/></citation></ref><ref id="B10"><citation citation-type="other"><article-title>MathML</article-title><ext-link ext-link-type="uri" xlink:href="http://www.w3.org/Math/"/></citation></ref><ref id="B11"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Murray-Rust</surname><given-names>P</given-names></name><name><surname>Mitchell</surname><given-names>JB</given-names></name><name><surname>Rzepa</surname><given-names>HS</given-names></name></person-group><article-title>Chemistry in bioinformatics</article-title><source>BMC Bioinformatics</source><year>2005</year><volume>6</volume><fpage>141</fpage><pub-id pub-id-type="pmid">15941476</pub-id><pub-id pub-id-type="doi">10.1186/1471-2105-6-141</pub-id></citation></ref><ref id="B12"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Mons</surname><given-names>B</given-names></name></person-group><article-title>What gene did you mean?</article-title><source>BMC Bioinformatics </source><year>2005</year><volume>6</volume><fpage>142</fpage><pub-id pub-id-type="pmid">15941477</pub-id><pub-id pub-id-type="doi">10.1186/1471-2105-6-142</pub-id></citation></ref></ref-list><sec sec-type="display-objects"><title>Figures and Tables</title><fig position="float" id="F1"><label>Figure 1</label><caption><p>Number of submissions to BMC Bioinformatics. The figure for 2005 represents a conservative projection based on the rate of growth of submissions during the first half of the year.</p></caption><graphic xlink:href="1471-2105-6-140-1"/></fig></sec></back></article>
+
+
+

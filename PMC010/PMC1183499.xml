@@ -1,0 +1,423 @@
+<!-- edited with XMLSPY v2004 rel. 3 U (http://www.xmlspy.com) by CDC (private) -->
+<!DOCTYPE article
+PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.3 20210610//EN" "JATS-archivearticle1-3-mathml3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article"><?properties open_access?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Prev Chronic Dis</journal-id><journal-id journal-id-type="iso-abbrev">Prev Chronic Dis</journal-id><journal-title-group><journal-title>Preventing Chronic Disease</journal-title></journal-title-group><issn pub-type="epub">1545-1151</issn><publisher><publisher-name>Centers for Disease Control and Prevention</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">15663883</article-id><article-id pub-id-type="pmc">PMC1183499</article-id><article-id pub-id-type="publisher-id">PCDv12_03_0009</article-id><article-categories><subj-group subj-group-type="heading"><subject>Original Research</subject></subj-group><series-title>Peer Reviewed</series-title></article-categories><title-group><article-title>Pediatric Hospitalizations for Asthma: Use of a Linked File to Separate Person-level Risk and Readmission</article-title></title-group><contrib-group><contrib contrib-type="author" corresp="yes"><name><surname>Wallace</surname><given-names>Jonathan C.</given-names></name><degrees>MA, MPH</degrees><aff>Maternal and Child Health Epidemiology Program, New Jersey Department of Health and Senior Services</aff><address><addr-line>PO Box 364, Trenton, NJ 08625</addr-line><email>Jonathan.Wallace@doh.state.nj.us</email><phone>609-292-5656</phone></address></contrib><contrib contrib-type="author"><name><surname>Denk</surname><given-names>Charles E.</given-names></name><degrees>PhD</degrees><aff>Maternal and Child Health Epidemiology Program, New Jersey Department of Health and Senior Services, Trenton, NJ</aff></contrib><contrib contrib-type="author"><name><surname>Kruse</surname><given-names>Lakota K.</given-names></name><degrees>MD, MPH</degrees><aff>Maternal and Child Health Epidemiology Program, New Jersey Department of Health and Senior Services, Trenton, NJ</aff></contrib></contrib-group><pub-date pub-type="collection"><month>4</month><year>2004</year></pub-date><pub-date pub-type="epub"><day>15</day><month>3</month><year>2004</year></pub-date><volume>1</volume><issue>2</issue><elocation-id>A07</elocation-id><permissions><copyright-year>2004</copyright-year><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is a publication of the U.S. Government. This publication is in the public domain and is therefore without copyright. All text from this work may be reprinted freely. Use of these materials should be properly cited.</license-p></license></permissions><abstract abstract-type="key-points"><sec sec-type="intro"><title>Introduction</title><p>Disparities in asthma hospitalization by gender, age, and race/ethnicity are thought to be driven by a combination of 2 factors: disease severity and inadequate health care. Hospitalization data that fail to differentiate between numbers of admissions and numbers of individuals limit the ability to derive accurate conclusions about disparities and risks.</p></sec><sec sec-type="methods"><title>Methods</title><p>Hospitalization records for pediatric asthma patients (aged one to 14 years) were extracted from New Jersey Hospital Discharge Files (for the years 1994 through 2000) and then linked by patient identifiers using a probabilistic matching algorithm. The analysis file contained 30,400 hospital admissions for 21,016 children. Hospitalization statistics were decomposed into persons hospitalized and number of hospitalizations. Analysis of readmission within 180 days of discharge used additional records from 2001 to avoid bias due to truncated observation.</p></sec><sec sec-type="results"><title>Results</title><p>Overall, 22.9% of children in our analysis had repeat asthma admissions within the same age interval, accounting for 30.9% of all hospitalizations. Also among all children, 11.7% had at least one readmission within 180 days of a prior discharge. The risk of hospitalization was higher for boys, decreased by age for both genders, was lowest for white children and highest for black children. Readmission rates were higher for black and Hispanic girls than boys in older age groups, but were otherwise relatively uniform by gender and age.</p></sec><sec sec-type="conclusions"><title>Conclusion</title><p>Decomposition of ratios of total hospitalizations to population illuminates components of risk and suggests specific causes of disparity.</p></sec></abstract></article-meta></front><body><sec sec-type="intro"><title>Introduction</title><p>Asthma is one of the most common chronic conditions in the United States and is often cited as the most frequent reason for preventable hospital admissions among children (<xref rid="B1" ref-type="bibr">1</xref>-<xref rid="B4" ref-type="bibr">4</xref>). The United States Department of Health and Human Services' <italic>Healthy People 2010: Objectives for Improving Health</italic> established a goal to "reduce asthma morbidity, as measured by a reduction in hospitalizations" (<xref rid="B5" ref-type="bibr">5</xref>).</p><p>The Asthma and Allergy Foundation of America estimates that there are 142,000 children with asthma in New Jersey (<xref rid="B6" ref-type="bibr">6</xref>). Hospital discharge data from 1985 through 2000 indicate that asthma is a major cause of hospitalization for all ages in New Jersey, accounting for approximately 1% of New Jersey's average 1.4 million hospital discharges each year (<xref rid="B7" ref-type="bibr">7</xref>). New Jersey mirrors national disparities in asthma hospitalization rates among various population groups by age, gender, and race (<xref rid="B1" ref-type="bibr">1</xref>,<xref rid="B2" ref-type="bibr">2</xref>).</p><p>Few state asthma surveillance systems to date differentiate between the number of individuals hospitalized and the number of admissions, the latter of which can be numerous during an individual's lifetime. The difference between the number of individuals hospitalized and the number of admissions can lead to several forms of bias. First, total hospital admissions overstate the number of individuals affected by severe asthma. Second, the repeat admissions of some individuals may obscure the true sociodemographic distribution of severe disease. Third, routine inference from hospitalizations to individuals implicitly assumes that patterns of readmission reinforce sociodemographic differences in person-level risk or are neutral. Hospitalization for asthma implies more severe disease, less adequate preventive care, or both. Failure to distinguish persons from hospitalizations undermines inferences about the contribution of either of these 2 classes of causation.</p><p>The objectives of this study were to use linked hospital asthma admission data for children to accomplish the following: 1) deduplicate records of asthma hospitalizations and assess the scope of readmissions; 2) investigate relative risks of ever being hospitalized; and 3) examine the frequency of hospitalization for each individual admitted and assess the risk of readmission for asthma within 180 days of a prior discharge.</p></sec><sec sec-type="methods"><title>Methods</title><p>The study population was defined as all asthma hospitalizations experienced by New Jersey resident children aged one to 14 years from 1994 through 2000. Records from New Jersey Hospital Discharge Files (UB-92) were linked to identify patients with multiple asthma hospitalizations. Asthma hospitalizations were defined using the Centers for Disease Control and Prevention case definition: a primary diagnosis of ICD-9 Code 493 (<xref rid="B8" ref-type="bibr">8</xref>). AutoMatch, a probabilistic matching program, was used to link patients with more than one hospitalization in the data subset (<xref rid="B9" ref-type="bibr">9</xref>,<xref rid="B10" ref-type="bibr">10</xref>). Variables used in the linking process included the following: last name, first name, date of birth, municipality, zip code, race/Hispanic origin, hospital, medical record number, and insurer identification number. In probabilistic matching for deduplication, pools of candidate matches are identified by one or more variables such as last name and birth date. A second set of variables is used to score the similarity of each candidate pair, and the highest scored candidates are linked subject to a minimum cutoff score. The linkage process is iterative, so that variables used to identify candidate matches at one stage were used for confirmatory scoring in other stages and vice versa.</p><p>Hospitalization records identified the patient's age, gender, and race/ethnicity. Patient ages were grouped into the following age categories at each hospital admission: one to 4 years, 5 to 9 years, and 10 to 14 years. Children younger than one year were excluded because of issues of uncertainty among physicians surrounding the diagnosis and coding of asthma for children at this age. After age and calendar time exclusions, 32,825 hospitalization records representing 22,990 individuals were available. However, 399 records (1.2%) had missing data for race/ethnicity, and 615 additional persons (3.1%) had inconsistent data across multiple records. In both cases, all records for each person were coded using the following hierarchy:</p><list list-type="bullet"><list-item><p>If any records indicated race as Hispanic, then the person was coded "Hispanic" for all hospitalizations.</p></list-item><list-item><p>If any records indicated race as black, then the person was coded "black" for all hospitalizations.</p></list-item><list-item><p>If no records contradicted race as white, then the person was coded "white" for all hospitalizations.</p></list-item></list><p>The final data extract had 30,400 hospitalization records representing 21,016 white, black, and Hispanic persons. Asian and other non-Hispanic individuals were not included in this analysis because of the relatively small number of hospitalizations.</p><p>For our analysis, <italic>hospitalization ratios</italic> are defined as the number of hospitalizations in a population subgroup, including multiple readmissions of the same patient. They were calculated using data on age, gender, and ethnic origin from the 2000 Census as the denominator. Intercensal estimates would not enhance the analysis. Because 7 years of hospitalization records were extracted, census denominators were multiplied by 7.</p><p>
+<italic>Person-level hospitalization rates</italic> are defined as the number of distinct individuals hospitalized within a population subgroup (including age groups), and used the same 2000 Census denominators (age, gender, and ethnic origin) as hospitalization ratios. Records shared a common person identifier within the linked file. We were thus able to count the number of unique individuals hospitalized within any population subgroup. Individuals who were hospitalized at ages in different categories were counted once per age group. The <italic>frequency of admission per child</italic> is the ratio of total admissions within an age group to the number of individual children in the age group &#x02014; essentially, the average number of admissions per individual child.</p><p>For a more precise analysis of readmissions, we treated each admission as a prospective opportunity for readmission and checked for a succeeding admission for that individual within 180 days from the date of discharge. We also accessed records from the first half of 2001, so that loss to follow-up would not occur for admissions late in 2000. Age group was classified by the <italic>earlier admission in each potential pair</italic>, and the entire 180-day readmission window was used even if the child aged out of his or her original age group. <italic>Readmission rates</italic> are the proportion of admissions in each subpopulation with a succeeding readmission in the time window. Although it departs from the logic of decomposing hospitalization ratios, the analysis of readmission events over a fixed period, constructed to minimize censoring bias, is a stronger approach with fewer inherent limitations.</p><p>We judged that the period of 180 days was an appropriate window for clinical follow-up of a chronic condition compared, for example, to much shorter times required for complications from surgical procedures. Also, since aggregate rates of asthma hospitalization have a strong annual cycle, we wanted an interval short enough to avoid confounding with that periodicity. Analysis using other time intervals did not yield substantially different results.</p><p>All analysis was performed using SAS Release 8.01 (<xref rid="B11" ref-type="bibr">11</xref>). Since the data set captures virtually all persons and hospitalizations for the period examined, statistical inferences based on sampling variability are not applicable. Systematic errors of omission, classification, linkage, and other biases do not follow the same statistical laws as sampling errors. The practical significance of subgroup differences, and whether they exceed expectations of error, must be judged on external rather than statistical criteria.</p></sec><sec sec-type="results"><title>Results</title><p>From 1994 through 2000, 21,016 New Jersey children accounted for 30,400 asthma hospitalizations in New Jersey (<xref rid="T1" ref-type="table">Table 1</xref>). Overall, 4808 children (22.9% of all children hospitalized for asthma in New Jersey) experienced multiple admissions; their 9384 duplicate admissions accounted for 30.9% of all pediatric asthma admissions. Within this group, 2459 children (11.7% of all children hospitalized for asthma in New Jersey) experienced at least one readmission within 180 days of a prior asthma discharge, totaling 4340 admissions. These latter readmissions, however, accounted for 14.3% of all childhood/pediatric hospitalizations for asthma in New Jersey.</p><p>
+<xref rid="T2" ref-type="table">Table 2</xref> presents the decomposition of hospitalization ratios into components by gender, age, and race/ethnicity. To illuminate the most salient points of <xref rid="T2" ref-type="table">Table 2</xref>, we constructed Figures 1-3.</p><p>
+<xref rid="F1" ref-type="fig">Figure 1</xref> presents person-level hospitalization rates for all individual children (per thousand population) hospitalized for asthma in New Jersey by age, sex and race/ethnicity. Rates are generally higher for boys than girls. For example, rates for boys are approximately twice the rates for girls among white children aged one to 4 years; the difference varies somewhat by age and race/ethnicity. Rates decline with age, especially between the ages of one to 4 years and 5 to 9 years. For example, rates for white girls drop from 1.8 to 0.7 per 1000 between ages one to 4 years and ages 5 to 9 years, and rates for white boys drop from 3.5 to 1.2 per 1,000 for the same age groups. White children experience the lowest rates, black children the highest, and rates for Hispanic children rates fall in between. Generally, black children have about 4 times the risk of hospitalization compared to white children of comparable age and gender; Hispanic children have about twice the risk compared to their white peers.</p><fig position="float" id="F1" fig-type="diagram"><label>Figure 1</label><caption><p>Person-level hospitalization rates for asthma by age, gender, race/ethnicity, New Jersey, 1994&#x02013;2000. NH indicates non-Hispanic.</p></caption><alt-text>Person-level hospitalization rates for asthma by age, gender, race/ethnicity, New Jersey, 1994&#x02013;2000. NH indicates non-Hispanic.</alt-text><graphic xlink:href="PCD12A07s1" position="float"/></fig><p>
+<xref rid="F2" ref-type="fig">Figure 2</xref> presents the frequency of admissions per child who has ever been hospitalized for asthma in New Jersey by age, gender, and race/ethnicity. The qualitative differences in relationships compared to the previous figure are striking; in contrast to person-level hospitalization rates, the frequency of admissions is roughly uniform by age for white children and increases by age for black and Hispanic children. Admission frequencies vary for white girls from 1.21 (ages one to 4 years) to 1.18 (ages 5 to 9 years) to 1.27 (ages 10 to 14 years), but for black girls, admission frequencies increase from 1.35 to 1.44 to 1.72 for the same age groups. Generally, the frequency of admission for boys and girls is equal for white children, although girls have higher averages than boys among older blacks and Hispanics. For example, among white children aged one to 4 years ever hospitalized for asthma, girls experience an average of 1.21 admissions while boys have an average of 1.19; the same comparison for Hispanic children ages 10 to 14 years is 1.70 (girls) vs 1.47 (boys). Finally, compared to the relative advantage of Hispanics over blacks in Figure 1, that trend is eliminated or reversed for frequency of admission, depending on the age group.</p><fig position="float" id="F2" fig-type="diagram"><label>Figure 2</label><caption><p>Average admissions per child hospitalized for asthma by age, gender, and race/ethnicity, New Jersey, 1994&#x02013;2000. NH indicates non-Hispanic.</p></caption><alt-text>Average admissions per child hospitalized for asthma by age, gender, and race/ethnicity, New Jersey, 1994&#x02013;2000. NH indicates non-Hispanic.</alt-text><graphic xlink:href="PCD12A07s2" position="float"/></fig><p>
+<xref rid="F3" ref-type="fig">Figure 3</xref> presents our analysis of readmission rates more precisely calculated as readmission within 180 days of prior discharge and displays the same general patterns as the admission frequencies in Figure 2 with respect to gender, age and race/ethnicity. Again, readmission rates are roughly uniform by age for white children and increase by age for black and Hispanic girls only. Readmission rates vary for white girls from 11% (ages one to 4 years) to 8% (ages 5 to 9 years) and 10% (ages 10 to 14 years), but for black girls they increase from 16% to 20% to 29% (same age groups). Generally, readmission rates for boys and girls are equal for white children, although girls have higher rates than boys among older black and Hispanic children. For example, among white children ages one to 4 years ever hospitalized for asthma, girls experience a readmission rate of 11% while boys have an average of 10%; the same comparison for Hispanic children ages 10 to 14 years is 21% (girls) vs 17% (boys). Black girls ages 10 to 14 years have a very distinctive spike compared to boys and to Hispanic girls of the same age.</p><fig position="float" id="F3" fig-type="diagram"><label>Figure 3</label><caption><p>Readmission rates within 180 days of prior asthma discharge by age, gender, and race/ethnicity, New Jersey, 1994&#x02013;2000. NH indicates non-Hispanic.</p></caption><alt-text>Readmission rates within 180 days of prior asthma discharge by age, gender, and race/ethnicity, New Jersey, 1994&#x02013;2000. NH indicates non-Hispanic.</alt-text><graphic xlink:href="PCD12A07s3" position="float"/></fig><p>To underscore the comparisons discussed above, <xref rid="T3" ref-type="table">Table 3</xref> transforms the measures in <xref rid="T2" ref-type="table">Table 2</xref> into relative risks and similar ratios. The first 4 columns contrast younger age groups against the 10-to-14 years age group. These columns most clearly support our generalizations and distinctions about age and race/ethnicity. Hospitalization ratios and person-level rates decline dramatically with age across all race/ethnic groups, with slightly larger declines for boys. Admission frequencies and readmission rates have much weaker and usually opposite effects. It is important to note that wherever age has opposite effects on person-level admission and readmission, the overall hospitalization ratio will be smaller than the person-level admission rate. The last 4 columns of <xref rid="T3" ref-type="table">Table 3</xref> contrast black and Hispanic children against whites. In general, both person-level hospitalization and readmission components are substantial and in the same direction, which produces even larger relative differentials in hospitalization ratios. The difference between black and Hispanic children is largely a function of person-level hospitalization &#x02014; every other ratio in these columns is very similar between the two.</p></sec><sec sec-type="discussion"><title>Discussion</title><p>Hospitalization ratios in New Jersey have associations with gender, age, and race/ethnicity that are comparable to other recent reports (<xref rid="B12" ref-type="bibr">12</xref>-<xref rid="B17" ref-type="bibr">17</xref>). Repeat hospitalizations for asthma are a common event for New Jersey children, accounting for almost one third of all admissions for asthma. Much epidemiological evidence and clinical experience suggests that hospitalization for asthma is a mixture of biological disease factors and failures of preventive care. We believe that the significant qualitative differences between person-level hospitalization rates and readmissions provide important leverage to distinguish the influences of the two.</p><p>Person-level hospitalization rates give a more precise accounting of how the burden of severe asthma is distributed across individuals (rather than the burden of hospitalization as a distinct event). This is the main implication of the differences between hospitalization ratios and person-level rates in <xref rid="T3" ref-type="table">Table 3</xref>. On the other hand, readmissions are more than residual events to be eliminated in deduplication. Readmission rates are arguably more driven by issues of disease management, since children in that analysis are more homogeneous &#x02014; they all have a degree of disease severe enough to require hospitalization. The 2 rates in combination &#x02014; person-level and readmission &#x02014; tell the same story as hospitalization ratios, but in a more focused and coherent way.</p><p>In general, our findings on readmission rates fit with very simple hypotheses about barriers to appropriate preventive care. Based solely on socioeconomic barriers to access, we would expect comparatively little variation by gender and age (of children, not adults), and we would expect black and Hispanic children to be similar to each other. These expectations are generally met by our data. Person-level rates clearly are more complex, and it would be helpful if we could assess the relative contribution of access and other factors.</p><p>For example, numerous studies have documented age and race/ethnic disparities in asthma hospitalization (<xref rid="B12" ref-type="bibr">12</xref>-<xref rid="B18" ref-type="bibr">18</xref>). Variations in the accessibility and quality of preventive asthma care have been linked to race/ethnicity (<xref rid="B19" ref-type="bibr">19</xref>-<xref rid="B22" ref-type="bibr">22</xref>). A recent study that explicitly addresses financial access still finds disparities in processes of asthma care such as the use of controller medications (<xref rid="B23" ref-type="bibr">23</xref>). Risk factors for asthma morbidity &#x02014; such as outdoor environment, family smoking, and physical activity &#x02014; have been well demonstrated to vary by racial and ethnic groups. Less is known about potential biologic factors such as genetic, physiological, pharmacogenomic, and/or environmental-genetic interactions.</p><p>In New Jersey, person-level hospitalization rates for black children are 3.2 to 4.3 times higher than for white children (stratified by age and gender, <xref rid="T3" ref-type="table">Table 3</xref>). This ratio is about twice the disparity in person-level rates experienced by Hispanic children and also twice the disparity in readmission rates for both black and Hispanic children. On the basis of this outsized differential, we observe, as others have, that there could be a biological difference in disease etiology for black children (<xref rid="B24" ref-type="bibr">24</xref>,<xref rid="B25" ref-type="bibr">25</xref>). Regardless of the cause(s), this disparity demands further investigation.</p><p>Numerous studies have documented higher hospitalization ratios for preschool-age children (<xref rid="B12" ref-type="bibr">12</xref>-<xref rid="B16" ref-type="bibr">16</xref>). In New Jersey, children ages one to 4 years have threefold higher person-level hospitalization rates than preadolescents among girls and more than fourfold higher rates among boys. This differential does not exist at all for readmission rates, contrary to To's findings from Canada (<xref rid="B12" ref-type="bibr">12</xref>). This would seem to undermine the hypothesis that preschool-age children present special challenges for home management and lends more support to the distinctive nature of early onset asthma (<xref rid="B26" ref-type="bibr">26</xref>,<xref rid="B27" ref-type="bibr">27</xref>). On the other hand, there is an anomalous spike in readmission rates for black girls ages 10 to 14 years, which is not mirrored in person-level rates or in black boys or Hispanic girls of the same age. It is more likely that this anomaly is related to asthma management and use of controller medications (<xref rid="B28" ref-type="bibr">28</xref>).</p><p>Our analysis of linked hospitalizations does not allow us, unfortunately, to explore some issues typical in a cohort analysis. For example, we cannot describe age-specific onset or population prevalence of severe asthma. Since we cannot in most cases identify the first hospitalization for each child, we can only generalize about readmissions by assuming independence among the intervals between hospitalizations.</p><p>Matching of annual files does not lend itself, in this case, to the construction and analysis of age cohorts of children. The optimal timeframe for a longitudinal file is limited by the comparability of files over many years and a natural decay in expected matching accuracy. True cohort data, with complete histories from both inpatient and outpatient management, would obviously be much more powerful.</p><p>State-level asthma hospitalization surveillance systems like New Jersey's address 2 objectives, both incompletely. Trends in asthma hospitalizations can inform us about prevalence and distribution of the severest forms of the disease. Surveillance of asthma readmissions especially informs us about the effectiveness of asthma care &#x02014; accessibility of care, management of environmental triggers, and appropriate preventive asthma management. For both objectives, racial and ethnic disparities and age-specific differences are critically important.</p></sec></body><back><ack><p>This research was supported by the <italic>Addressing Asthma from a Public Health Perspective</italic> grant from the Centers for Disease Control and Prevention. The analysis and conclusions expressed here are those of the authors.</p></ack><fn-group><fn><p>The opinions expressed by authors contributing to this journal do not necessarily reflect the opinions of the U.S. Department of Health and Human Services, the Public Health Service, Centers for Disease Control and Prevention, or the authors' affiliated institutions. Use of trade names is for identification only and does not imply endorsement by any of the groups named above.</p></fn><fn><p>
+<italic>Suggested citation for this article</italic>: Wallace JC, Denk CE, Kruse LK. Pediatric hospitalizations for asthma: use of a linked file to separate person-level risk and readmission. Prev Chronic Dis [serial online] 2004 Apr [date cited]. Available from: URL: <ext-link xlink:href="http://www.cdc.gov/pcd/issues/2004/apr/03_0009.htm" ext-link-type="uri">http://www.cdc.gov/pcd/issues/2004/apr/03_0009.htm</ext-link>.</p></fn></fn-group><ref-list><ref id="B1"><label>1</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Miller</surname><given-names>J</given-names></name></person-group>
+<article-title>The effects of race/ethnicity and income on early childhood asthma prevalence and health care use</article-title>
+<source>Am J Public Health</source>
+<year>2000</year>
+<month>Mar</month>
+<volume>90</volume>
+<issue>3</issue>
+<fpage>428</fpage>
+<lpage>430</lpage>
+<pub-id pub-id-type="pmid">10705865</pub-id></element-citation></ref><ref id="B2"><label>2</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mannino</surname><given-names>DM</given-names></name><name><surname>Homa</surname><given-names>DM</given-names></name><name><surname>Akinbami</surname><given-names>LJ</given-names></name><name><surname>Moorman</surname><given-names>JE</given-names></name><name><surname>Gwynn</surname><given-names>C</given-names></name><name><surname>Redd</surname><given-names>SC</given-names></name></person-group>
+<article-title>Surveillance for asthma &#x02014; United States, 1980-1999</article-title>
+<source>MMWR Surveill Summ</source>
+<year>2002</year>
+<month>Mar</month>
+<day>29</day>
+<volume>51</volume>
+<issue>1</issue>
+<fpage>1</fpage>
+<lpage>13</lpage>
+</element-citation></ref><ref id="B3"><label>3</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fiore</surname><given-names>BJ</given-names></name><name><surname>Olson</surname><given-names>JA</given-names></name><name><surname>Hanrahan</surname><given-names>LP</given-names></name><name><surname>Anderson</surname><given-names>HA</given-names></name></person-group>
+<article-title>Asthma hospitalizations in Wisconsin: a missed opportunity for prevention</article-title>
+<source>WMJ</source>
+<year>2000</year>
+<month>Nov</month>
+<volume>99</volume>
+<issue>8</issue>
+<fpage>52</fpage>
+<lpage>56</lpage>
+</element-citation></ref><ref id="B4"><label>4</label><element-citation publication-type="journal">
+<article-title>Asthma hospitalizations and readmissions among children and young adults &#x02014; Wisconsin, 1991-19951</article-title>
+<source>MMWR Morb Mortal Wkly Rep</source>
+<year>1997</year>
+<month>Aug</month>
+<day>8</day>
+<volume>46</volume>
+<issue>31</issue>
+<fpage>726</fpage>
+<lpage>729</lpage>
+<pub-id pub-id-type="pmid">9262074</pub-id></element-citation></ref><ref id="B5"><label>5</label><element-citation publication-type="book">
+<collab>U.S. Department of Health and Human Services</collab>
+<source>Healthy People 2010: With understanding and improving health and objectives for improving health. 2 vols</source>
+<publisher-loc>Washington (DC)</publisher-loc>
+<publisher-name>U.S. Government Printing Office</publisher-name>
+<year>2000</year>
+<month>Nov</month>
+</element-citation></ref><ref id="B6"><label>6</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Weiss</surname><given-names>KB</given-names></name><name><surname>Sullivan</surname><given-names>SD</given-names></name><name><surname>Lyttle</surname><given-names>CS</given-names></name></person-group>
+<article-title>Trends in the costs of asthma in the United States, 1985-1994</article-title>
+<source>J Allergy Clin Immunol</source>
+<year>2000</year>
+<month>Sep</month>
+<volume>106</volume>
+<issue>3</issue>
+<fpage>493</fpage>
+<lpage>499</lpage>
+<pub-id pub-id-type="pmid">10984369</pub-id></element-citation></ref><ref id="B7"><label>7</label><element-citation publication-type="book">
+<year>2002</year>
+<month>Jan</month>
+<fpage>29</fpage>
+<source>Asthma in New Jersey</source>
+<edition>286</edition>
+<publisher-loc>Trenton (NJ)</publisher-loc>
+<publisher-name>New Jersey Department of Health and Senior Services, Division of Family Health Services</publisher-name>
+</element-citation></ref><ref id="B8"><label>8</label><element-citation publication-type="book">
+<source>Centers for Disease Control and Prevention. Council of State and Territorial Epidemiologists asthma surveillance definition</source>
+<publisher-name>U.S. Department of Health and Human Services, CDC, National Center for Environmental Health</publisher-name>
+<publisher-loc>Atlanta (GA)</publisher-loc>
+<year>2001</year>
+</element-citation></ref><ref id="B9"><label>9</label><element-citation publication-type="book">
+<source>AutoMatch: Generalized Record Linkage System [computer program]. Version 4.2</source>
+<year>1998</year>
+<publisher-loc>Kennebunkport (ME)</publisher-loc>
+<publisher-name>Matchware Technologies Inc</publisher-name>
+</element-citation></ref><ref id="B10"><label>10</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jaro</surname><given-names>MA</given-names></name></person-group>
+<article-title>Probabilistic linkage of large public health data files</article-title>
+<source>Stat Med</source>
+<year>1995</year>
+<month>Mar</month>
+<day>15</day>
+<volume>14 (5-7)</volume>
+<fpage>491</fpage>
+<lpage>498</lpage>
+<pub-id pub-id-type="pmid">7792443</pub-id></element-citation></ref><ref id="B11"><label>11</label><element-citation publication-type="book">
+<source>SAS: System for Windows [computer program]. Version 8</source>
+<year>1998</year>
+<publisher-loc>Cary (NC)</publisher-loc>
+<publisher-name>SAS Institute Inc</publisher-name>
+</element-citation></ref><ref id="B12"><label>12</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>To</surname><given-names>T</given-names></name><name><surname>Dick</surname><given-names>P</given-names></name><name><surname>Feldman</surname><given-names>W</given-names></name><name><surname>Hernandez</surname><given-names>R</given-names></name></person-group>
+<article-title>A cohort study on childhood asthma admissions and readmissions</article-title>
+<source>Pediatrics</source>
+<year>1996</year>
+<month>Aug</month>
+<volume>98 (2 Pt 1)</volume>
+<fpage>191</fpage>
+<lpage>195</lpage>
+<pub-id pub-id-type="pmid">8692616</pub-id></element-citation></ref><ref id="B13"><label>13</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jonasson</surname><given-names>G</given-names></name><name><surname>Lodrup Carlsen</surname><given-names>KC</given-names></name><name><surname>Leegaard</surname><given-names>J</given-names></name><name><surname>Carlsen</surname><given-names>K-H</given-names></name><name><surname>Mowinckel</surname><given-names>P</given-names></name><name><surname>Halvorsen</surname><given-names>KS</given-names></name></person-group>
+<article-title> Trends in hospital admissions for childhood asthma in Oslo, Norway, 1980-95</article-title>
+<source>Allergy</source>
+<year>2000</year>
+<month>Mar</month>
+<volume>55</volume>
+<issue>3</issue>
+<fpage>232</fpage>
+<lpage>239</lpage>
+<pub-id pub-id-type="pmid">10753013</pub-id></element-citation></ref><ref id="B14"><label>14</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Korhonen</surname><given-names>K</given-names></name><name><surname>Reijonen</surname><given-names>TM</given-names></name><name><surname>Malmstrom</surname><given-names>K</given-names></name><name><surname>Klaukka</surname><given-names>T</given-names></name><name><surname>Remes</surname><given-names>K</given-names></name><name><surname>Korppi</surname><given-names>M</given-names></name></person-group>
+<article-title>Hospitalization trends for paediatric asthma in eastern Finland: a 10-yr survey</article-title>
+<source>Eur Respir J</source>
+<year>2002</year>
+<month>Jun</month>
+<volume>19</volume>
+<issue>6</issue>
+<fpage>1035</fpage>
+<lpage>1039</lpage>
+<pub-id pub-id-type="pmid">12108853</pub-id></element-citation></ref><ref id="B15"><label>15</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Engelsvold</surname><given-names>DH</given-names></name><name><surname>Oymar</surname><given-names>K</given-names></name></person-group>
+<article-title>Hospital admissions for childhood asthma in Rogaland, Norway, from 1984 to 2000</article-title>
+<source>Acta Paediatr</source>
+<year>2003</year>
+<month>May</month>
+<volume>92</volume>
+<issue>5</issue>
+<fpage>610</fpage>
+<lpage>616</lpage>
+<pub-id pub-id-type="pmid">12839293</pub-id></element-citation></ref><ref id="B16"><label>16</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Akinbami</surname><given-names>LJ</given-names></name><name><surname>Schoendorf</surname><given-names>KC</given-names></name></person-group>
+<article-title>Trends in childhood asthma: prevalence, health care utilization, and mortality</article-title>
+<source>Pediatrics</source>
+<year>2002</year>
+<month>Aug</month>
+<volume>110 (2 Pt 1)</volume>
+<fpage>315</fpage>
+<lpage>322</lpage>
+<pub-id pub-id-type="pmid">12165584</pub-id></element-citation></ref><ref id="B17"><label>17</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Senthilselvan</surname><given-names>A</given-names></name></person-group>
+<article-title>Strong in body and spirit: lifestyle intervention for Native American adults with diabetes in New Mexico</article-title>
+<source>Thorax</source>
+<year>1995</year>
+<month>Sep&#x0003e;</month>
+<volume>50</volume>
+<issue>9</issue>
+<fpage>934</fpage>
+<lpage>936</lpage>
+<pub-id pub-id-type="pmid">8539671</pub-id></element-citation></ref><ref id="B18"><label>18</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Aligne</surname><given-names>CA</given-names></name><name><surname>Auinger</surname><given-names>P</given-names></name><name><surname>Byrd</surname><given-names>RS</given-names></name><name><surname>Weitzman</surname><given-names>M</given-names></name></person-group>
+<article-title>Risk factors for pediatric asthma. Contributions of poverty, race, and urban residence</article-title>
+<source>Am J Respir Crit Care Med</source>
+<year>2000</year>
+<month>Sep</month>
+<volume>162 (3 Pt 1)</volume>
+<fpage>873</fpage>
+<lpage>877</lpage>
+<pub-id pub-id-type="pmid">10988098</pub-id></element-citation></ref><ref id="B19"><label>19</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Halterman</surname><given-names>JS</given-names></name><name><surname>Aligne</surname><given-names>CA</given-names></name><name><surname>Auinger</surname><given-names>P</given-names></name><name><surname>McBride</surname><given-names>JT</given-names></name><name><surname>Szilagyi</surname><given-names>PG</given-names></name></person-group>
+<article-title>Inadequate therapy for asthma among children in the United States</article-title>
+<source>Pediatrics</source>
+<year>2000</year>
+<month>Jan</month>
+<volume>105 (1 Pt 3)</volume>
+<fpage>272</fpage>
+<lpage>276</lpage>
+<pub-id pub-id-type="pmid">10617735</pub-id></element-citation></ref><ref id="B20"><label>20</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Finkelstein</surname><given-names>JA</given-names></name><name><surname>Brown</surname><given-names>RW</given-names></name><name><surname>Schneider</surname><given-names>LC</given-names></name><name><surname>Weiss</surname><given-names>ST</given-names></name><name><surname>Quintana</surname><given-names>JM</given-names></name><name><surname>Goldmann</surname><given-names>DA</given-names></name><etal/></person-group>
+<article-title>Quality of care for preschool children with asthma: the role of social factors and practice setting</article-title>
+<source>Pediatrics</source>
+<year>1995</year>
+<volume>95</volume>
+<issue>3</issue>
+<fpage>389</fpage>
+<lpage>394</lpage>
+<pub-id pub-id-type="pmid">7862478</pub-id></element-citation></ref><ref id="B21"><label>21</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Homer</surname><given-names>CJ</given-names></name><name><surname>Szilagyi</surname><given-names>P</given-names></name><name><surname>Rodewald</surname><given-names>L</given-names></name><name><surname>Bloom</surname><given-names>SR</given-names></name><name><surname>Greenspan</surname><given-names>P</given-names></name><name><surname>Yazdgerdi</surname><given-names>S</given-names></name><etal/></person-group>
+<article-title>Does quality of care affect rates of hospitalization for childhood asthma</article-title>
+<source>Pediatrics</source>
+<year>1996</year>
+<month>Jul</month>
+<volume>98</volume>
+<issue>1</issue>
+<fpage>18</fpage>
+<lpage>23</lpage>
+<pub-id pub-id-type="pmid">8668406</pub-id></element-citation></ref><ref id="B22"><label>22</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Perrin</surname><given-names>JM</given-names></name><name><surname>Homer</surname><given-names>CJ</given-names></name><name><surname>Berwick</surname><given-names>DM</given-names></name><name><surname>Woolf</surname><given-names>AD</given-names></name><name><surname>Freeman</surname><given-names>JL</given-names></name><name><surname>Wennberg</surname><given-names>JE</given-names></name></person-group>
+<article-title>Variations in rates of hospitalization of children in three urban communities</article-title>
+<source>N Engl J Med</source>
+<year>1989</year>
+<month>May</month>
+<day>4</day>
+<volume>320</volume>
+<issue>18</issue>
+<fpage>1183</fpage>
+<lpage>1187</lpage>
+<pub-id pub-id-type="pmid">2710191</pub-id></element-citation></ref><ref id="B23"><label>23</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lieu</surname><given-names>TA</given-names></name><name><surname>Lozano</surname><given-names>P</given-names></name><name><surname>Finkelstein</surname><given-names>JA</given-names></name><name><surname>Chi</surname><given-names>FW</given-names></name><name><surname>Jensvold</surname><given-names>NG</given-names></name><name><surname>Capra</surname><given-names>AM</given-names></name><etal/></person-group>
+<article-title>Racial/ethnic variation in asthma status and management practices among children in managed Medicaid</article-title>
+<source>Pediatrics</source>
+<year>2002</year>
+<month>May</month>
+<volume>109</volume>
+<issue>5</issue>
+<fpage>857</fpage>
+<lpage>865</lpage>
+<pub-id pub-id-type="pmid">11986447</pub-id></element-citation></ref><ref id="B24"><label>24</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nelson</surname><given-names>DA</given-names></name><name><surname>Johnson</surname><given-names>CC</given-names></name><name><surname>Divine</surname><given-names>DW</given-names></name><name><surname>Strauchman</surname><given-names>C</given-names></name><name><surname>Joseph</surname><given-names>CL</given-names></name><name><surname>Owenby</surname><given-names>DR</given-names></name></person-group>
+<article-title>Ethnic differences in the prevalence of asthma in middle class children</article-title>
+<source>Ann Allergy Asthma Immunol</source>
+<year>1997</year>
+<month>Jan</month>
+<volume>78</volume>
+<issue>1</issue>
+<fpage>21</fpage>
+<lpage>26</lpage>
+<pub-id pub-id-type="pmid">9012615</pub-id></element-citation></ref><ref id="B25"><label>25</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nimmagadda</surname><given-names>SR</given-names></name><name><surname>Evans</surname><given-names>R</given-names></name></person-group>
+<article-title>Allergy: etiology and epidemiology</article-title>
+<source>Pediatr Rev</source>
+<year>1999</year>
+<month>Apr</month>
+<volume>20</volume>
+<issue>4</issue>
+<fpage>111</fpage>
+<lpage>116</lpage>
+<pub-id pub-id-type="pmid">10208083</pub-id></element-citation></ref><ref id="B26"><label>26</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sears</surname><given-names>MR</given-names></name><name><surname>Greene</surname><given-names>JM</given-names></name><name><surname>Willan</surname><given-names>AR</given-names></name><name><surname>Wiecek</surname><given-names>EM</given-names></name><name><surname>Taylor</surname><given-names>DR</given-names></name><name><surname>Flannery</surname><given-names>EM</given-names></name><etal/></person-group>
+<article-title>A longitudinal, population-based, cohort study of childhood asthma followed to adulthood</article-title>
+<source>N Engl J Med</source>
+<year>2003</year>
+<month>Oct</month>
+<day>9</day>
+<volume>349</volume>
+<issue>15</issue>
+<fpage>1414</fpage>
+<lpage>1422</lpage>
+<pub-id pub-id-type="pmid">14534334</pub-id></element-citation></ref><ref id="B27"><label>27</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Martinez</surname><given-names>F</given-names></name></person-group>
+<article-title>Toward asthma prevention &#x02014; does all that really matters happen before we learn to read?</article-title>
+<source>N Engl J Med</source>
+<year>2003</year>
+<month>Oct</month>
+<day>9</day>
+<volume>349</volume>
+<issue>15</issue>
+<fpage>1473</fpage>
+<lpage>1475</lpage>
+<pub-id pub-id-type="pmid">14534342</pub-id></element-citation></ref><ref id="B28"><label>28</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lozano</surname><given-names>P</given-names></name><name><surname>Finkelstein</surname><given-names>JA</given-names></name><name><surname>Hecht</surname><given-names>J</given-names></name><name><surname>Shulruff</surname><given-names>R</given-names></name><name><surname>Weiss</surname><given-names>KB</given-names></name></person-group>
+<article-title>Asthma medication use and disease burden in children in a primary care population</article-title>
+<source>Arch Pediatr Adolesc Med</source>
+<year>2003</year>
+<month>Jan</month>
+<volume>157</volume>
+<issue>1</issue>
+<fpage>81</fpage>
+<lpage>88</lpage>
+<pub-id pub-id-type="pmid">12517200</pub-id></element-citation></ref></ref-list><sec><table-wrap position="float" id="T1"><label>Table 1</label><caption><p>Hospitalization Records for Pediatric Asthma Admissions, New Jersey, 1994&#x02013;2000</p></caption><table frame="hsides" rules="groups" border="0" cellspacing="1" cellpadding="4" width="100%"><thead><tr><th rowspan="1" colspan="1"/><th scope="col" valign="bottom" align="center" colspan="2" rowspan="1">
+<bold>Admissions</bold>
+</th><th scope="col" valign="bottom" align="center" colspan="2" rowspan="1">
+<bold>Children</bold>
+</th><th scope="col" valign="bottom" align="center" rowspan="1" colspan="1">
+<bold>Admissions per Child</bold>
+</th></tr><tr><th colspan="6" rowspan="1">
+<hr/>
+</th></tr><tr><th rowspan="1" colspan="1"/><th scope="col" valign="bottom" align="center" rowspan="1" colspan="1">
+<bold>n</bold>
+</th><th scope="col" valign="bottom" align="center" rowspan="1" colspan="1">
+<bold>%</bold>
+</th><th scope="col" valign="bottom" align="center" rowspan="1" colspan="1">
+<bold>n</bold>
+</th><th scope="col" valign="bottom" align="center" rowspan="1" colspan="1">
+<bold>%</bold>
+</th><th rowspan="1" colspan="1"/></tr></thead><tbody><tr><th scope="row" valign="bottom" align="left" rowspan="1" colspan="1">All pediatric asthma admissions</th><td valign="bottom" align="right" rowspan="1" colspan="1">30,400</td><td valign="bottom" align="right" rowspan="1" colspan="1">100.0</td><td valign="bottom" align="right" rowspan="1" colspan="1">21,016</td><td valign="bottom" align="right" rowspan="1" colspan="1">100.0</td><td valign="bottom" align="center" rowspan="1" colspan="1">1.45</td></tr><tr><th scope="row" valign="bottom" align="left" rowspan="1" colspan="1">Repeat asthma admissions within same age interval</th><td valign="bottom" align="right" rowspan="1" colspan="1">9,384</td><td valign="bottom" align="right" rowspan="1" colspan="1">30.9</td><td valign="bottom" align="right" rowspan="1" colspan="1">4,808</td><td valign="bottom" align="right" rowspan="1" colspan="1">22.9</td><td valign="bottom" align="center" rowspan="1" colspan="1">2.95</td></tr><tr><th scope="row" valign="bottom" align="left" rowspan="1" colspan="1">Readmissions within 180 days of previous
+discharge<xref rid="T1FN1" ref-type="table-fn">a</xref>
+</th><td valign="bottom" align="right" rowspan="1" colspan="1">4,340</td><td valign="bottom" align="right" rowspan="1" colspan="1">14.3</td><td valign="bottom" align="right" rowspan="1" colspan="1">2,459</td><td valign="bottom" align="right" rowspan="1" colspan="1">11.7</td><td valign="bottom" align="center" rowspan="1" colspan="1">2.76</td></tr></tbody></table><table-wrap-foot><fn id="T1FN1"><label>a</label><p>Analysis of readmissions within 180 days of discharge used additional
+records from 2001 to avoid censoring bias.</p></fn></table-wrap-foot></table-wrap><table-wrap position="float" id="T2"><label>Table 2</label><caption><p>Pediatric Asthma Hospitalizations and Readmissions by Race/Ethnicity, Age, and Gender, New Jersey, 1994&#x02013;2000</p></caption><table frame="hsides" rules="groups"><thead><tr><th scope="col" valign="bottom" align="left" rowspan="1" colspan="1">
+<bold>Race/Ethnicity</bold>
+</th><th scope="col" valign="bottom" align="right" rowspan="1" colspan="1">
+<bold>Age (years)</bold>
+</th><th scope="col" valign="bottom" align="right" rowspan="1" colspan="1">
+<bold>Pediatric Asthma Admissions (n)</bold>
+</th><th scope="col" valign="bottom" align="right" rowspan="1" colspan="1">
+<bold>Children Admitted for Asthma (n)</bold>
+</th><th scope="col" valign="bottom" align="right" rowspan="1" colspan="1">
+<bold>2000 Census (n)</bold>
+</th><th scope="col" valign="bottom" align="right" rowspan="1" colspan="1">
+<bold>Hospitalization Ratio<xref rid="T2FN1" ref-type="table-fn">a</xref>
+</bold>
+</th><th scope="col" valign="bottom" align="right" rowspan="1" colspan="1">
+<bold>Person-level Hospitalization Rate<xref rid="T2FN2" ref-type="table-fn">b</xref>
+</bold>
+</th><th scope="col" valign="bottom" align="right" rowspan="1" colspan="1">
+<bold>Mean Hospitalizations per Child Ever Hospitalized for Asthma<xref rid="T2FN3" ref-type="table-fn">c</xref>
+</bold>
+</th><th scope="col" valign="bottom" align="right" rowspan="1" colspan="1">
+<bold>Readmission Within 180 Days of Prior Discharge<xref rid="T2FN4" ref-type="table-fn">d</xref>(%)</bold>
+</th></tr></thead><tbody><tr><th scope="col" colspan="9" valign="bottom" align="left" rowspan="1">
+<bold>Female</bold>
+</th></tr><tr><th colspan="9" rowspan="1">
+<hr/>
+</th></tr><tr><th scope="row" rowspan="3" valign="top" align="left" colspan="1">
+<bold>White</bold>
+</th><td valign="bottom" align="right" rowspan="1" colspan="1">1-4</td><td valign="bottom" align="right" rowspan="1" colspan="1">2006</td><td valign="bottom" align="right" rowspan="1" colspan="1">1655</td><td valign="bottom" align="right" rowspan="1" colspan="1">127,941</td><td valign="bottom" align="right" rowspan="1" colspan="1">2.2</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.8</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.21</td><td valign="bottom" align="right" rowspan="1" colspan="1">11</td></tr><tr><td valign="bottom" align="right" rowspan="1" colspan="1">5-9</td><td valign="bottom" align="right" rowspan="1" colspan="1">1028</td><td valign="bottom" align="right" rowspan="1" colspan="1">871</td><td valign="bottom" align="right" rowspan="1" colspan="1">174,845</td><td valign="bottom" align="right" rowspan="1" colspan="1">0.8</td><td valign="bottom" align="right" rowspan="1" colspan="1">0.7</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.18</td><td valign="bottom" align="right" rowspan="1" colspan="1">8</td></tr><tr><td valign="bottom" align="right" rowspan="1" colspan="1">10-14</td><td valign="bottom" align="right" rowspan="1" colspan="1">921</td><td valign="bottom" align="right" rowspan="1" colspan="1">726</td><td valign="bottom" align="right" rowspan="1" colspan="1">174,529</td><td valign="bottom" align="right" rowspan="1" colspan="1">0.8</td><td valign="bottom" align="right" rowspan="1" colspan="1">0.6</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.27</td><td valign="bottom" align="right" rowspan="1" colspan="1">10</td></tr><tr><th scope="row" rowspan="3" valign="top" align="left" colspan="1">
+<bold>Black</bold>
+</th><td valign="bottom" align="right" rowspan="1" colspan="1">1-4</td><td valign="bottom" align="right" rowspan="1" colspan="1">2353</td><td valign="bottom" align="right" rowspan="1" colspan="1">1746</td><td valign="bottom" align="right" rowspan="1" colspan="1">33,352</td><td valign="bottom" align="right" rowspan="1" colspan="1">10.1</td><td valign="bottom" align="right" rowspan="1" colspan="1">7.5</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.35</td><td valign="bottom" align="right" rowspan="1" colspan="1">16</td></tr><tr><td valign="bottom" align="right" rowspan="1" colspan="1">5-9</td><td valign="bottom" align="right" rowspan="1" colspan="1">1447</td><td valign="bottom" align="right" rowspan="1" colspan="1">1002</td><td valign="bottom" align="right" rowspan="1" colspan="1">47,256</td><td valign="bottom" align="right" rowspan="1" colspan="1">4.4</td><td valign="bottom" align="right" rowspan="1" colspan="1">3.0</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.44</td><td valign="bottom" align="right" rowspan="1" colspan="1">20</td></tr><tr><td valign="bottom" align="right" rowspan="1" colspan="1">10-14</td><td valign="bottom" align="right" rowspan="1" colspan="1">1071</td><td valign="bottom" align="right" rowspan="1" colspan="1">621</td><td valign="bottom" align="right" rowspan="1" colspan="1">46,114</td><td valign="bottom" align="right" rowspan="1" colspan="1">3.3</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.9</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.72</td><td valign="bottom" align="right" rowspan="1" colspan="1">29</td></tr><tr><th scope="row" rowspan="3" valign="top" align="left" colspan="1">
+<bold>Hispanic</bold>
+</th><td valign="bottom" align="right" rowspan="1" colspan="1">1-4</td><td valign="bottom" align="right" rowspan="1" colspan="1">1283</td><td valign="bottom" align="right" rowspan="1" colspan="1">909</td><td valign="bottom" align="right" rowspan="1" colspan="1">38,335</td><td valign="bottom" align="right" rowspan="1" colspan="1">4.8</td><td valign="bottom" align="right" rowspan="1" colspan="1">3.4</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.41</td><td valign="bottom" align="right" rowspan="1" colspan="1">17</td></tr><tr><td valign="bottom" align="right" rowspan="1" colspan="1">5-9</td><td valign="bottom" align="right" rowspan="1" colspan="1">795</td><td valign="bottom" align="right" rowspan="1" colspan="1">526</td><td valign="bottom" align="right" rowspan="1" colspan="1">47,347</td><td valign="bottom" align="right" rowspan="1" colspan="1">2.4</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.6</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.51</td><td valign="bottom" align="right" rowspan="1" colspan="1">21</td></tr><tr><td valign="bottom" align="right" rowspan="1" colspan="1">10-14</td><td valign="bottom" align="right" rowspan="1" colspan="1">565</td><td valign="bottom" align="right" rowspan="1" colspan="1">333</td><td valign="bottom" align="right" rowspan="1" colspan="1">44,174</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.8</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.1</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.70</td><td valign="bottom" align="right" rowspan="1" colspan="1">21</td></tr><tr><th colspan="9" rowspan="1">
+<hr/>
+</th></tr><tr><th scope="col" colspan="9" valign="bottom" align="left" rowspan="1">
+<bold>Male</bold>
+</th></tr><tr><th colspan="9" rowspan="1">
+<hr/>
+</th></tr><tr><th scope="row" rowspan="3" valign="top" align="left" colspan="1">
+<bold>White</bold>
+</th><td valign="bottom" align="right" rowspan="1" colspan="1">1-4</td><td valign="bottom" align="right" rowspan="1" colspan="1">3914</td><td valign="bottom" align="right" rowspan="1" colspan="1">3283</td><td valign="bottom" align="right" rowspan="1" colspan="1">134,718</td><td valign="bottom" align="right" rowspan="1" colspan="1">4.2</td><td valign="bottom" align="right" rowspan="1" colspan="1">3.5</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.19</td><td valign="bottom" align="right" rowspan="1" colspan="1">10</td></tr><tr><td valign="bottom" align="right" rowspan="1" colspan="1">5-9</td><td valign="bottom" align="right" rowspan="1" colspan="1">1782</td><td valign="bottom" align="right" rowspan="1" colspan="1">1570</td><td valign="bottom" align="right" rowspan="1" colspan="1">183,919</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.4</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.2</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.14</td><td valign="bottom" align="right" rowspan="1" colspan="1">7</td></tr><tr><td valign="bottom" align="right" rowspan="1" colspan="1">10-14</td><td valign="bottom" align="right" rowspan="1" colspan="1">1191</td><td valign="bottom" align="right" rowspan="1" colspan="1">953</td><td valign="bottom" align="right" rowspan="1" colspan="1">184,884</td><td valign="bottom" align="right" rowspan="1" colspan="1">0.9</td><td valign="bottom" align="right" rowspan="1" colspan="1">0.7</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.25</td><td valign="bottom" align="right" rowspan="1" colspan="1">11</td></tr><tr><th scope="row" rowspan="3" valign="top" align="left" colspan="1">
+<bold>Black</bold>
+</th><td valign="bottom" align="right" rowspan="1" colspan="1">1-4</td><td valign="bottom" align="right" rowspan="1" colspan="1">4160</td><td valign="bottom" align="right" rowspan="1" colspan="1">3050</td><td valign="bottom" align="right" rowspan="1" colspan="1">34,456</td><td valign="bottom" align="right" rowspan="1" colspan="1">17.2</td><td valign="bottom" align="right" rowspan="1" colspan="1">12.6</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.36</td><td valign="bottom" align="right" rowspan="1" colspan="1">16</td></tr><tr><td valign="bottom" align="right" rowspan="1" colspan="1">5-9</td><td valign="bottom" align="right" rowspan="1" colspan="1">2311</td><td valign="bottom" align="right" rowspan="1" colspan="1">1688</td><td valign="bottom" align="right" rowspan="1" colspan="1">49,335</td><td valign="bottom" align="right" rowspan="1" colspan="1">6.7</td><td valign="bottom" align="right" rowspan="1" colspan="1">4.9</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.37</td><td valign="bottom" align="right" rowspan="1" colspan="1">15</td></tr><tr><td valign="bottom" align="right" rowspan="1" colspan="1">10-14</td><td valign="bottom" align="right" rowspan="1" colspan="1">1385</td><td valign="bottom" align="right" rowspan="1" colspan="1">894</td><td valign="bottom" align="right" rowspan="1" colspan="1">47,466</td><td valign="bottom" align="right" rowspan="1" colspan="1">4.2</td><td valign="bottom" align="right" rowspan="1" colspan="1">2.7</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.55</td><td valign="bottom" align="right" rowspan="1" colspan="1">20</td></tr><tr><th scope="row" rowspan="3" valign="top" align="left" colspan="1">
+<bold>Hispanic</bold>
+</th><td valign="bottom" align="right" rowspan="1" colspan="1">1-4</td><td valign="bottom" align="right" rowspan="1" colspan="1">2339</td><td valign="bottom" align="right" rowspan="1" colspan="1">1691</td><td valign="bottom" align="right" rowspan="1" colspan="1">39,977</td><td valign="bottom" align="right" rowspan="1" colspan="1">8.4</td><td valign="bottom" align="right" rowspan="1" colspan="1">6.0</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.38</td><td valign="bottom" align="right" rowspan="1" colspan="1">17</td></tr><tr><td valign="bottom" align="right" rowspan="1" colspan="1">5-9</td><td valign="bottom" align="right" rowspan="1" colspan="1">1257</td><td valign="bottom" align="right" rowspan="1" colspan="1">886</td><td valign="bottom" align="right" rowspan="1" colspan="1">49,711</td><td valign="bottom" align="right" rowspan="1" colspan="1">3.6</td><td valign="bottom" align="right" rowspan="1" colspan="1">2.5</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.42</td><td valign="bottom" align="right" rowspan="1" colspan="1">17</td></tr><tr><td valign="bottom" align="right" rowspan="1" colspan="1">10-14</td><td valign="bottom" align="right" rowspan="1" colspan="1">592</td><td valign="bottom" align="right" rowspan="1" colspan="1">403</td><td valign="bottom" align="right" rowspan="1" colspan="1">45,770</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.8</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.3</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.47</td><td valign="bottom" align="right" rowspan="1" colspan="1">17</td></tr><tr><th colspan="9" rowspan="1">
+<hr/>
+</th></tr><tr><th scope="row" valign="bottom" align="left" rowspan="1" colspan="1">
+<bold>Total</bold>
+</th><td valign="bottom" align="right" rowspan="1" colspan="1">&#x000a0;</td><td valign="bottom" align="right" rowspan="1" colspan="1">30,400</td><td valign="bottom" align="right" rowspan="1" colspan="1">21,016</td><td valign="bottom" align="right" rowspan="1" colspan="1">1,504,129</td><td valign="bottom" align="right" rowspan="1" colspan="1">N/A</td><td valign="bottom" align="right" rowspan="1" colspan="1">N/A</td><td valign="bottom" align="right" rowspan="1" colspan="1">N/A</td><td valign="bottom" align="right" rowspan="1" colspan="1">N/A</td></tr><tr><th colspan="9" rowspan="1">
+<hr/>
+</th></tr><tr><th scope="row" valign="bottom" align="left" rowspan="1" colspan="1">
+<bold>Average</bold>
+</th><td valign="bottom" align="right" rowspan="1" colspan="1">&#x000a0;</td><td valign="bottom" align="right" rowspan="1" colspan="1">N/A</td><td valign="bottom" align="right" rowspan="1" colspan="1">N/A</td><td valign="bottom" align="right" rowspan="1" colspan="1">N/A</td><td valign="bottom" align="right" rowspan="1" colspan="1">N/A</td><td valign="bottom" align="right" rowspan="1" colspan="1">2.0</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.45</td><td valign="bottom" align="right" rowspan="1" colspan="1">15</td></tr></tbody></table><table-wrap-foot><fn id="T2FN1"><label>a</label><p>Per 1000 population. Hospital ratios are defined as the number of pediatric asthma admissions in a population subgroup, including multiple readmissions of the same patient, divided by the number of individuals in a population subgroup, as determined by the 2000 Census, multiplied by 7.</p></fn><fn id="T2FN2"><label>b</label><p>Per 1000 population. Person-level hospitalization rates are defined as the number of pediatric asthma individuals hospitalized within a population subgroup, divided by the number of individuals in a population subgroup, as determined by the 2000 Census, multiplied by 7.</p></fn><fn id="T2FN3"><label>c</label><p>Mean number of hospitalizations per child ever hospitalized for asthma was calculated by dividing the number of pediatric asthma admissions by the number of children admitted for asthma.</p></fn><fn id="T2FN4"><label>d</label><p>Analysis of readmissions within 180 days of discharge used additional records from 2001 to avoid censoring bias.</p></fn></table-wrap-foot></table-wrap><table-wrap position="float" id="T3"><label>Table 3</label><caption><p>Relative Risk Ratios, Pediatric Asthma Hospitalizations and Readmissions by Race/Ethnicity, Age, and Gender, New Jersey, 1994-2000</p></caption><table frame="hsides" rules="groups" border="0" cellspacing="1" cellpadding="4" width="100%"><thead><tr><th rowspan="1" colspan="1"/><th rowspan="1" colspan="1"/><th scope="col" colspan="4" valign="top" align="center" rowspan="1">
+<bold>Relative risk ratio by age<xref rid="T3FN1" ref-type="table-fn">a</xref>
+</bold>
+</th></tr><tr><th scope="col" valign="bottom" align="left" rowspan="1" colspan="1">
+<bold>Race/Ethnicity</bold>
+</th><th scope="col" valign="bottom" align="right" rowspan="1" colspan="1">
+<bold>Age (years)</bold>
+</th><th scope="col" valign="bottom" align="right" rowspan="1" colspan="1">
+<bold>Hospitalization Ratio<xref rid="T3FN2" ref-type="table-fn">b</xref>
+</bold>
+</th><th scope="col" valign="bottom" align="right" rowspan="1" colspan="1">
+<bold>Person-level Hospitalization Rate<xref rid="T3FN3" ref-type="table-fn">c</xref>
+</bold>
+</th><th scope="col" valign="bottom" align="right" rowspan="1" colspan="1">
+<bold>Mean Hospitalizations per Child Ever Hospitalized for Asthma<xref rid="T3FN4" ref-type="table-fn">d</xref>
+</bold>
+</th><th scope="col" valign="bottom" align="right" rowspan="1" colspan="1">
+<bold>Readmission Within 180 Days of Prior Discharge<xref rid="T3FN5" ref-type="table-fn">e</xref>
+</bold>
+</th></tr></thead><tbody><tr><th colspan="6" rowspan="1">
+<hr/>
+</th></tr><tr><th scope="col" colspan="6" valign="bottom" align="left" rowspan="1">
+<bold>Female</bold>
+</th></tr><tr><th colspan="6" rowspan="1">
+<hr/>
+</th></tr><tr><th scope="row" rowspan="3" valign="top" align="left" colspan="1">
+<bold>White</bold>
+</th><td valign="bottom" align="right" rowspan="1" colspan="1">1-4</td><td valign="bottom" align="right" rowspan="1" colspan="1">3.0</td><td valign="bottom" align="right" rowspan="1" colspan="1">3.1</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.0</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.1</td></tr><tr><td valign="bottom" align="right" rowspan="1" colspan="1">5-9</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.1</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.2</td><td valign="bottom" align="right" rowspan="1" colspan="1">0.9</td><td valign="bottom" align="right" rowspan="1" colspan="1">0.8</td></tr><tr><td valign="bottom" align="right" rowspan="1" colspan="1">10-14</td><td valign="bottom" align="right" rowspan="1" colspan="1">--</td><td valign="bottom" align="right" rowspan="1" colspan="1">--</td><td valign="bottom" align="right" rowspan="1" colspan="1">--</td><td valign="bottom" align="right" rowspan="1" colspan="1">--</td></tr><tr><th scope="row" rowspan="3" valign="top" align="left" colspan="1">
+<bold>Black</bold>
+</th><td valign="bottom" align="right" rowspan="1" colspan="1">1-4</td><td valign="bottom" align="right" rowspan="1" colspan="1">3.0</td><td valign="bottom" align="right" rowspan="1" colspan="1">3.9</td><td valign="bottom" align="right" rowspan="1" colspan="1">0.8</td><td valign="bottom" align="right" rowspan="1" colspan="1">0.6</td></tr><tr><td valign="bottom" align="right" rowspan="1" colspan="1">5-9</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.3</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.6</td><td valign="bottom" align="right" rowspan="1" colspan="1">0.8</td><td valign="bottom" align="right" rowspan="1" colspan="1">0.7</td></tr><tr><td valign="bottom" align="right" rowspan="1" colspan="1">10-14</td><td valign="bottom" align="right" rowspan="1" colspan="1">--</td><td valign="bottom" align="right" rowspan="1" colspan="1">--</td><td valign="bottom" align="right" rowspan="1" colspan="1">--</td><td valign="bottom" align="right" rowspan="1" colspan="1">--</td></tr><tr><th scope="row" rowspan="3" valign="top" align="left" colspan="1">
+<bold>Hispanic</bold>
+</th><td valign="bottom" align="right" rowspan="1" colspan="1">1-4</td><td valign="bottom" align="right" rowspan="1" colspan="1">2.6</td><td valign="bottom" align="right" rowspan="1" colspan="1">3.1</td><td valign="bottom" align="right" rowspan="1" colspan="1">0.8</td><td valign="bottom" align="right" rowspan="1" colspan="1">0.8</td></tr><tr><td valign="bottom" align="right" rowspan="1" colspan="1">5-9</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.3</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.5</td><td valign="bottom" align="right" rowspan="1" colspan="1">0.9</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.0</td></tr><tr><td valign="bottom" align="right" rowspan="1" colspan="1">10-14</td><td valign="bottom" align="right" rowspan="1" colspan="1">--</td><td valign="bottom" align="right" rowspan="1" colspan="1">--</td><td valign="bottom" align="right" rowspan="1" colspan="1">--</td><td valign="bottom" align="right" rowspan="1" colspan="1">--</td></tr><tr><th colspan="6" rowspan="1">
+<hr/>
+</th></tr><tr><th scope="col" colspan="6" valign="bottom" align="left" rowspan="1">
+<bold>Male</bold>
+</th></tr><tr><th colspan="6" rowspan="1">
+<hr/>
+</th></tr><tr><th scope="row" rowspan="3" valign="top" align="left" colspan="1">
+<bold>White</bold>
+</th><td valign="bottom" align="right" rowspan="1" colspan="1">1-4</td><td valign="bottom" align="right" rowspan="1" colspan="1">4.5</td><td valign="bottom" align="right" rowspan="1" colspan="1">4.7</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.0</td><td valign="bottom" align="right" rowspan="1" colspan="1">0.9</td></tr><tr><td valign="bottom" align="right" rowspan="1" colspan="1">5-9</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.5</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.7</td><td valign="bottom" align="right" rowspan="1" colspan="1">0.9</td><td valign="bottom" align="right" rowspan="1" colspan="1">0.7</td></tr><tr><td valign="bottom" align="right" rowspan="1" colspan="1">10-14</td><td valign="bottom" align="right" rowspan="1" colspan="1">--</td><td valign="bottom" align="right" rowspan="1" colspan="1">--</td><td valign="bottom" align="right" rowspan="1" colspan="1">--</td><td valign="bottom" align="right" rowspan="1" colspan="1">--</td></tr><tr><th scope="row" rowspan="3" valign="top" align="left" colspan="1">
+<bold>Black</bold>
+</th><td valign="bottom" align="right" rowspan="1" colspan="1">1-4</td><td valign="bottom" align="right" rowspan="1" colspan="1">4.1</td><td valign="bottom" align="right" rowspan="1" colspan="1">4.7</td><td valign="bottom" align="right" rowspan="1" colspan="1">0.9</td><td valign="bottom" align="right" rowspan="1" colspan="1">0.8</td></tr><tr><td valign="bottom" align="right" rowspan="1" colspan="1">5-9</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.6</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.8</td><td valign="bottom" align="right" rowspan="1" colspan="1">0.9</td><td valign="bottom" align="right" rowspan="1" colspan="1">0.8</td></tr><tr><td valign="bottom" align="right" rowspan="1" colspan="1">10-14</td><td valign="bottom" align="right" rowspan="1" colspan="1">--</td><td valign="bottom" align="right" rowspan="1" colspan="1">--</td><td valign="bottom" align="right" rowspan="1" colspan="1">--</td><td valign="bottom" align="right" rowspan="1" colspan="1">--</td></tr><tr><th scope="row" rowspan="3" valign="top" align="left" colspan="1">
+<bold>Hispanic</bold>
+</th><td valign="bottom" align="right" rowspan="1" colspan="1">1-4</td><td valign="bottom" align="right" rowspan="1" colspan="1">4.5</td><td valign="bottom" align="right" rowspan="1" colspan="1">4.8</td><td valign="bottom" align="right" rowspan="1" colspan="1">0.9</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.0</td></tr><tr><td valign="bottom" align="right" rowspan="1" colspan="1">5-9</td><td valign="bottom" align="right" rowspan="1" colspan="1">2.0</td><td valign="bottom" align="right" rowspan="1" colspan="1">2.0</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.0</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.0</td></tr><tr><td valign="bottom" align="right" rowspan="1" colspan="1">10-14</td><td valign="bottom" align="right" rowspan="1" colspan="1">--</td><td valign="bottom" align="right" rowspan="1" colspan="1">--</td><td valign="bottom" align="right" rowspan="1" colspan="1">--</td><td valign="bottom" align="right" rowspan="1" colspan="1">--</td></tr></tbody></table><table frame="hsides" rules="groups"><thead><tr><th colspan="6" rowspan="1">
+<hr/>
+</th></tr><tr><th rowspan="1" colspan="1"/><th scope="col" colspan="4" valign="top" align="center" rowspan="1">
+<bold>Relative risk ratio by race/ethnicity<xref rid="T3FN6" ref-type="table-fn">f</xref>
+</bold>
+</th></tr><tr><th scope="col" valign="bottom" align="left" rowspan="1" colspan="1">
+<bold>Race/Ethnicity</bold>
+</th><th scope="col" valign="bottom" align="right" rowspan="1" colspan="1">
+<bold>Age(years)</bold>
+</th><th scope="col" valign="bottom" align="right" rowspan="1" colspan="1">
+<bold>Hospitalization Ratio</bold>
+</th><th scope="col" valign="bottom" align="right" rowspan="1" colspan="1">
+<bold>Person-level Hospitalization Rate</bold>
+</th><th scope="col" valign="bottom" align="right" rowspan="1" colspan="1">
+<bold>Mean Hospitalizations per Child Ever Hospitalized for Asthma</bold>
+</th><th scope="col" valign="bottom" align="right" rowspan="1" colspan="1">
+<bold>Readmission Within 180 Days of Prior Discharge</bold>
+</th></tr></thead><tbody><tr><th colspan="6" rowspan="1">
+<hr/>
+</th></tr><tr><th scope="col" colspan="6" valign="bottom" align="left" rowspan="1">
+<bold>Female</bold>
+</th></tr><tr><th colspan="6" rowspan="1">
+<hr/>
+</th></tr><tr><th scope="row" rowspan="3" valign="top" align="left" colspan="1">
+<bold>White</bold>
+</th><td valign="bottom" align="right" rowspan="1" colspan="1">1-4</td><td valign="bottom" align="right" rowspan="1" colspan="1">--</td><td valign="bottom" align="right" rowspan="1" colspan="1">--</td><td valign="bottom" align="right" rowspan="1" colspan="1">--</td><td valign="bottom" align="right" rowspan="1" colspan="1">--</td></tr><tr><td valign="bottom" align="right" rowspan="1" colspan="1">5-9</td><td valign="bottom" align="right" rowspan="1" colspan="1">--</td><td valign="bottom" align="right" rowspan="1" colspan="1">--</td><td valign="bottom" align="right" rowspan="1" colspan="1">--</td><td valign="bottom" align="right" rowspan="1" colspan="1">--</td></tr><tr><td valign="bottom" align="right" rowspan="1" colspan="1">10-14</td><td valign="bottom" align="right" rowspan="1" colspan="1">--</td><td valign="bottom" align="right" rowspan="1" colspan="1">--</td><td valign="bottom" align="right" rowspan="1" colspan="1">--</td><td valign="bottom" align="right" rowspan="1" colspan="1">--</td></tr><tr><th scope="row" rowspan="3" valign="top" align="left" colspan="1">
+<bold>Black</bold>
+</th><td valign="bottom" align="right" rowspan="1" colspan="1">1-4</td><td valign="bottom" align="right" rowspan="1" colspan="1">4.5</td><td valign="bottom" align="right" rowspan="1" colspan="1">4.0</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.1</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.6</td></tr><tr><td valign="bottom" align="right" rowspan="1" colspan="1">5-9</td><td valign="bottom" align="right" rowspan="1" colspan="1">5.2</td><td valign="bottom" align="right" rowspan="1" colspan="1">4.3</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.2</td><td valign="bottom" align="right" rowspan="1" colspan="1">2.4</td></tr><tr><td valign="bottom" align="right" rowspan="1" colspan="1">10-14</td><td valign="bottom" align="right" rowspan="1" colspan="1">4.4</td><td valign="bottom" align="right" rowspan="1" colspan="1">3.2</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.4</td><td valign="bottom" align="right" rowspan="1" colspan="1">3.0</td></tr><tr><th scope="row" rowspan="3" valign="top" align="left" colspan="1">
+<bold>Hispanic</bold>
+</th><td valign="bottom" align="right" rowspan="1" colspan="1">1-4</td><td valign="bottom" align="right" rowspan="1" colspan="1">2.1</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.8</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.2</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.7</td></tr><tr><td valign="bottom" align="right" rowspan="1" colspan="1">5-9</td><td valign="bottom" align="right" rowspan="1" colspan="1">2.9</td><td valign="bottom" align="right" rowspan="1" colspan="1">2.2</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.3</td><td valign="bottom" align="right" rowspan="1" colspan="1">2.5</td></tr><tr><td valign="bottom" align="right" rowspan="1" colspan="1">10-14</td><td valign="bottom" align="right" rowspan="1" colspan="1">2.4</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.8</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.3</td><td valign="bottom" align="right" rowspan="1" colspan="1">2.2</td></tr><tr><th colspan="6" rowspan="1">
+<hr/>
+</th></tr><tr><th scope="col" colspan="6" valign="bottom" align="left" rowspan="1">
+<bold>Male</bold>
+</th></tr><tr><th colspan="6" rowspan="1">
+<hr/>
+</th></tr><tr><th scope="row" rowspan="3" valign="top" align="left" colspan="1">
+<bold>White</bold>
+</th><td valign="bottom" align="right" rowspan="1" colspan="1">1-4</td><td valign="bottom" align="right" rowspan="1" colspan="1">--</td><td valign="bottom" align="right" rowspan="1" colspan="1">--</td><td valign="bottom" align="right" rowspan="1" colspan="1">--</td><td valign="bottom" align="right" rowspan="1" colspan="1">--</td></tr><tr><td valign="bottom" align="right" rowspan="1" colspan="1">5-9</td><td valign="bottom" align="right" rowspan="1" colspan="1">--</td><td valign="bottom" align="right" rowspan="1" colspan="1">--</td><td valign="bottom" align="right" rowspan="1" colspan="1">--</td><td valign="bottom" align="right" rowspan="1" colspan="1">--</td></tr><tr><td valign="bottom" align="right" rowspan="1" colspan="1">10-14</td><td valign="bottom" align="right" rowspan="1" colspan="1">--</td><td valign="bottom" align="right" rowspan="1" colspan="1">--</td><td valign="bottom" align="right" rowspan="1" colspan="1">--</td><td valign="bottom" align="right" rowspan="1" colspan="1">--</td></tr><tr><th scope="row" rowspan="3" valign="top" align="left" colspan="1">
+<bold>Black</bold>
+</th><td valign="bottom" align="right" rowspan="1" colspan="1">1-4</td><td valign="bottom" align="right" rowspan="1" colspan="1">4.2</td><td valign="bottom" align="right" rowspan="1" colspan="1">3.6</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.1</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.7</td></tr><tr><td valign="bottom" align="right" rowspan="1" colspan="1">5-9</td><td valign="bottom" align="right" rowspan="1" colspan="1">4.8</td><td valign="bottom" align="right" rowspan="1" colspan="1">4.0</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.2</td><td valign="bottom" align="right" rowspan="1" colspan="1">2.1</td></tr><tr><td valign="bottom" align="right" rowspan="1" colspan="1">10-14</td><td valign="bottom" align="right" rowspan="1" colspan="1">4.5</td><td valign="bottom" align="right" rowspan="1" colspan="1">3.7</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.2</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.9</td></tr><tr><th scope="row" rowspan="3" valign="top" align="left" colspan="1">
+<bold>Hispanic</bold>
+</th><td valign="bottom" align="right" rowspan="1" colspan="1">1-4</td><td valign="bottom" align="right" rowspan="1" colspan="1">2.0</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.7</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.2</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.7</td></tr><tr><td valign="bottom" align="right" rowspan="1" colspan="1">5-9</td><td valign="bottom" align="right" rowspan="1" colspan="1">2.6</td><td valign="bottom" align="right" rowspan="1" colspan="1">2.1</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.2</td><td valign="bottom" align="right" rowspan="1" colspan="1">2.4</td></tr><tr><td valign="bottom" align="right" rowspan="1" colspan="1">10-14</td><td valign="bottom" align="right" rowspan="1" colspan="1">2.0</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.7</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.2</td><td valign="bottom" align="right" rowspan="1" colspan="1">1.6</td></tr></tbody></table><table-wrap-foot><fn id="T3FN1"><label>a</label><p>1-4 year and 5-9 year age groups are compared to 10-14 year age group.</p></fn><fn id="T3FN2"><label>b</label><p>Hospital ratios are defined as the number of pediatric asthma admissions in a population subgroup, including multiple readmissions of the same patient, divided by the number of individuals in a population subgroup, as determined by the 2000 Census, multiplied by 7.</p></fn><fn id="T3FN3"><label>c</label><p>Person-level hospitalization rates are defined as the number of pediatric asthma individuals hospitalized within a population subgroup, divided by the number of individuals in a population subgroup, as determined by the 2000 Census, multiplied by 7.</p></fn><fn id="T3FN4"><label>d</label><p>Mean number of hospitalizations per child ever hospitalized for asthma was calculated by dividing the number of pediatric asthma admissions by the number of children admitted for asthma.</p></fn><fn id="T3FN5"><label>e</label><p>Analysis of readmissions within 180 days of discharge used additional records from 2001 to avoid censoring bias.</p></fn><fn id="T3FN6"><label>f</label><p>Black and Hispanic children are compared to white children.</p></fn></table-wrap-foot></table-wrap></sec></back></article>

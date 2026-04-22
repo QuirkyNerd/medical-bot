@@ -1,0 +1,422 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="other"><?properties open_access?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS Comput Biol</journal-id><journal-id journal-id-type="iso-abbrev">PLoS Comput. Biol</journal-id><journal-id journal-id-type="publisher-id">pcbi</journal-id><journal-id journal-id-type="publisher-id">plcb</journal-id><journal-id journal-id-type="pmc">ploscomp</journal-id><journal-title-group><journal-title>PLoS Computational Biology</journal-title></journal-title-group><issn pub-type="ppub">1553-734X</issn><issn pub-type="epub">1553-7358</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">16110332</article-id><article-id pub-id-type="pmc">PMC1185644</article-id><article-id pub-id-type="doi">10.1371/journal.pcbi.0010018</article-id><article-id pub-id-type="publisher-id">05-PLCB-PV-0115R1</article-id><article-id pub-id-type="sici">plcb-01-02-06</article-id><article-categories><subj-group subj-group-type="heading"><subject>Perspectives</subject></subj-group><subj-group subj-group-type="Discipline"><subject>Bioinformatics - Computational Biology</subject><subject>Ecology</subject></subj-group><subj-group subj-group-type="System Taxonomy"><subject>None</subject></subj-group></article-categories><title-group><article-title>Computational Ecology: From the Complex to the Simple and Back</article-title><alt-title alt-title-type="running-head">Perspectives</alt-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Pascual</surname><given-names>Mercedes</given-names></name></contrib></contrib-group><author-notes><corresp id="cor1">Mercedes Pascual is in the Department of Ecology and Evolutionary Biology, University of Michigan, Ann Arbor, Michigan, United States of America. E-mail: <email>pascual@umich.edu</email></corresp></author-notes><pub-date pub-type="ppub"><month>7</month><year>2005</year></pub-date><pub-date pub-type="epub"><day>29</day><month>7</month><year>2005</year></pub-date><volume>1</volume><issue>2</issue><elocation-id>e18</elocation-id><permissions><copyright-statement>Copyright: &#x000a9; 2005 Mercedes Pascual.</copyright-statement><copyright-year>2005</copyright-year><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p></license></permissions><custom-meta-group><custom-meta><meta-name>Citation:</meta-name><meta-value>Pascual M (2005) Computational ecology: From the complex to the simple and back. PLoS Comp Biol 1(2): e18.</meta-value></custom-meta></custom-meta-group></article-meta></front><body><p>In 1958, when ecology was a young science and mathematical models for ecological systems were in their infancy, Elton [<xref rid="pcbi-0010018-b01" ref-type="bibr">1</xref>] wrote of the &#x0201c;neolithic days of animal ecology, that is to say about twenty-five years ago.&#x0201d; Acknowledging the influence of Lotka and Volterra, he noted, &#x0201c;Being mathematicians, they did not attempt to contemplate a whole food-chain with all the complications of five stages. They took two: a predator and its prey.&#x0201d;</p><p>Today, in the era of computational ecological modeling, deterministic systems for two variables&#x02014;and even a whole food chain&#x02014;appear like simple idealizations well removed from the complexity of nature. We now consider predator&#x02013;prey interactions as &#x0201c;consumer&#x02013;resource&#x0201d; interactions embedded within the large ecological networks that underlie biodiversity (<xref ref-type="fig" rid="pcbi-0010018-g001">Figure 1</xref>) [<xref rid="pcbi-0010018-b02" ref-type="bibr">2</xref>]. Consequently, the scale of the problems we model has grown to reflect the world as we now need to observe it. For example, the interplay between ecosystem dynamics and the physical environment that influences global change occurs over a tremendous range of spatial and organizational scales (e.g., [<xref rid="pcbi-0010018-b03" ref-type="bibr">3</xref>]). Similarly, the population dynamics of the transmission of infectious diseases often involve spatial or social networks with large numbers of individuals, but the interactions of each individual involve only a subset of the network and can span from local to global distances (e.g., [<xref rid="pcbi-0010018-b04" ref-type="bibr">4</xref>&#x02013;<xref rid="pcbi-0010018-b06" ref-type="bibr">6</xref>]).</p><fig id="pcbi-0010018-g001" position="float"><label>Figure 1</label><caption><title>The Network of Trophic Interactions for Little Rock Lake, Wisconsin</title><p>Figure shows 997 feedings links (lines) among 92 taxa (nodes) [<xref rid="pcbi-0010018-b02" ref-type="bibr">2</xref>]. The node color indicates the trophic level of the taxon, including (from bottom to top) algae, zooplankton, insects, and fishes; the link color corresponds to the type of feeding link, including herbivory and primary and secondary carnivory. This image was produced using FoodWeb3D software written by R. J. Williams and provided by the Pacific Ecoinformatics and Computational Ecology Lab (<ext-link ext-link-type="uri" xlink:href="www.foodwebs.org">www.foodwebs.org</ext-link>).</p></caption><graphic xlink:href="pcbi.0010018.g001"/></fig><p>These examples illustrate the current view of ecological systems as complex adaptive systems [<xref rid="pcbi-0010018-b07" ref-type="bibr">7</xref>,<xref rid="pcbi-0010018-b08" ref-type="bibr">8</xref>]. Complex adaptive systems are distinguished not only by the multiplicity of components within them, but also by interactions that can be local or distributed among these components and whose rates vary as nonlinear functions of the state of the system itself. One obvious role of computation in the science of complex systems is simply one of synthesis: to reconstruct the whole from the parts as we learn more and more about the components and their interactions. There are obvious limitations to this approach, evident in the famous image of those imperial cartographers who produced a map of the empire of the same size as the empire itself [<xref rid="pcbi-0010018-b09" ref-type="bibr">9</xref>]. I argue here that an alternative and more useful role of computation is to address questions on the relationship between dynamics at different temporal, spatial, and organizational scales, that is, to address the importance of variability at small, local scales to the dynamics of aggregated quantities measured at large, global scales. If small-scale &#x0201c;details&#x0201d; matter, we need to ask how much complexity we need to incorporate into large-scale models if we seek to both understand and predict the dynamics of global quantities.</p><p>Is it possible to incorporate the effect of small-scale variability without resorting to the &#x0201c;brute force&#x0201d; approach of using higher and higher resolution? I start with examples from theoretical ecology that illustrate problems and approaches related to these scaling questions; I then present more specific examples related to global change and ecosystem dynamics, and end with a series of related problems on the dynamics of large food webs, the ultimate networks of ecological interactions.</p><sec id="s2"><title>From Individuals to Populations: How Local Effects Translate into Global Results</title><p>Lotka&#x02013;Volterra equations and their many descendants assume that individuals are well mixed and interact at mean population abundances. They are mean-field equations that use the mass-action law to describe the dynamics of interacting populations, and ignore both the scale of individual interactions and their spatial distribution. A key question therefore is: can the spatial variability generated at small, individual scales influence the dynamics at larger, population scales? If so, can the effect of smaller scales be represented by simply modifying mean-field models?</p><p>Stochastic models such as interacting particle systems [<xref rid="pcbi-0010018-b10" ref-type="bibr">10</xref>] can help us examine approaches for scaling up individual-based dynamics [<xref rid="pcbi-0010018-b04" ref-type="bibr">4</xref>,<xref rid="pcbi-0010018-b11" ref-type="bibr">11</xref>&#x02013;<xref rid="pcbi-0010018-b14" ref-type="bibr">14</xref>]. One of the most useful lessons learned from scaling up detailed models is also pertinent to the related but opposite problem: the formulation of simple models for global variables that still account for the effects of local interactions but do not represent them explicitly (<xref ref-type="fig" rid="pcbi-0010018-g002">Figure 2</xref>). In particular, can we formulate these systems without having to first simplify detailed models? The problem with simplification is that it assumes we know about the components and interactions at &#x0201c;microscopic&#x0201d; levels, but, unfortunately, this information is not often available. For example, we may know that the social network underlying the propagation of an infectious disease is important, but we may not know all the interactions and the specific contacts that led to transmission of the disease from one individual to another. If we were to start with an aggregated model at the population level (one in which the population is aggregated into a few variables describing the total number of infected, susceptible, and immune individuals), how would we formulate it to incorporate variability at spatial or organizational levels that are not explicitly represented?</p><fig id="pcbi-0010018-g002" position="float"><label>Figure 2</label><caption><title>Bridging Dynamics across Organizational Scales</title><p>On the left is a detailed model in which individual interactions in a network are described explicitly. On the right, typical &#x0201c;mean field&#x0201d; models aggregate the population into compartments (here for the three subpopulations of susceptible, infected, and recovered individuals in the dynamics of an infectious disease with permanent immunity). Computational approaches can help us understand the relationship between dynamics at these two different scales, from the individual to the population level. We can start with a stochastic individual-based model and develop approximations that simplify it (A). From this process, we can learn about the opposite direction of formulating simple models directly without sufficient knowledge to first specify the detailed interactions and components (B). These simple models represent implicitly the effect of smaller scale variability.</p></caption><graphic xlink:href="pcbi.0010018.g002"/></fig><p>Recent findings on individual-based models for predator&#x02013;prey dynamics in a spatial lattice indicate that simpler, low-dimensional models can still be applied at the population level [<xref rid="pcbi-0010018-b13" ref-type="bibr">13</xref>,<xref rid="pcbi-0010018-b14" ref-type="bibr">14</xref>]. Specifically, the temporal dynamics of global population abundances, aggregated over the whole lattice, can be approximated by mean-field-type equations in which the functional forms specifying the rates of growth and interaction have been modified as power functions. Similar results hold for disease dynamics on spatial and social networks ([<xref rid="pcbi-0010018-b15" ref-type="bibr">15</xref>]; M. M. Maule and J. A. N. Filipe, unpublished data; M. Roy and M. Pascual, unpublished data). The rates of transmission of the original mean-field equation are modified to account for deviations from mass action by incorporating nonlinear mixing terms between susceptible and infected populations in which global abundances are raised to a power. Thus, the effect of interactions at local, individual scales can be represented implicitly by changing the shape of the functions describing interactions at global, population levels; that is, the modified framework is structured as if mass action applied when in fact it does not, yet the subtleties of nonrandom mixing are captured at the higher scale. The generality of these findings and the reasons why power-law functional forms yield successful approximations remain to be determined. Another approach based on moment closure techniques has been applied to simplify detailed models by incorporating the effects of variances and covariances on the dynamics of mean (global) quantities [<xref rid="pcbi-0010018-b05" ref-type="bibr">5</xref>,<xref rid="pcbi-0010018-b11" ref-type="bibr">11</xref>,<xref rid="pcbi-0010018-b16" ref-type="bibr">16</xref>&#x02013;<xref rid="pcbi-0010018-b18" ref-type="bibr">18</xref>]; here again, the utility of this approach when the details at small scales are not known remains to be examined, as does the development of statistical methods to fit the models when data are only available for aggregated &#x0201c;mean&#x0201d; quantities.</p></sec><sec id="s3"><title>From Physiology to Ecosystem Dynamics: Global Change Ecology</title><p>The problem of incorporating sub-grid-scale processes into large-scale models is found in many other scientific fields in which nonlinearity allows variability to interact across spatial or organizational scales. It also applies to other ecological contexts, in particular to global change ecology and to the spatiotemporal ecosystem models used to represent feedbacks between the biota and the physical environment. At large spatial and temporal scales, the question of essential biological detail quickly becomes computationally intractable. In a recent review on ecosystem&#x02013;atmosphere interactions, Moorcroft [<xref rid="pcbi-0010018-b03" ref-type="bibr">3</xref>] emphasized the problem of scaling from the level of plant physiology to ecosystem-level dynamics to address global climate change questions. One limitation of existing approaches is that within the typical grid cell of existing models, different types of plants compete for resources that are highly homogeneous or averaged over space, generating a tendency for monocultures in the simulated biology [<xref rid="pcbi-0010018-b03" ref-type="bibr">3</xref>]. This means that the fine-scale heterogeneity present in real plant communities, which is important for buffering the systems against perturbations, is lost [<xref rid="pcbi-0010018-b03" ref-type="bibr">3</xref>,<xref rid="pcbi-0010018-b19" ref-type="bibr">19</xref>,<xref rid="pcbi-0010018-b20" ref-type="bibr">20</xref>]. Such heterogeneity is generated by small-scale ecological interactions among individuals and their interplay with stochastic physical disturbances, such as fire and gap formation from fallen adult trees. While models that simulate patterns of species community composition from individual plant interactions have been created, their application to ecosystem&#x02013;atmosphere interactions is computationally prohibitive. To circumvent this problem, approximations to these individual-based models have been formulated in the form of size- and age-structured partial differential equations [<xref rid="pcbi-0010018-b21" ref-type="bibr">21</xref>], which are close in spirit to the ideas discussed in the previous section (see also [<xref rid="pcbi-0010018-b22" ref-type="bibr">22</xref>]).</p><p>Similar connections are being addressed in aquatic environments for phytoplankton, the unicellular primary producers of lakes and oceans estimated to contribute 45% of global net primary production (i.e., the amount of carbon fixed by plants per unit area over time via photosynthesis; E. A. Litchman, C. A. Klausmeier, J. R. Miller, O. Schofield, P. G. Falkowski, unpublished data). The amount of net primary production depends on biological heterogeneity in the form of a taxonomically diverse group of species [<xref rid="pcbi-0010018-b23" ref-type="bibr">23</xref>]. A recently developed ecosystem model incorporates different phytoplankton functional groups and their competition for light and multiple nutrients (E. A. Litchman, C. A. Klausmeier, J. R. Miller, O. Schofield, P. G. Falkowski, unpublished data). Simulations of the model at specific sites to explore future scenarios suggest that global environmental change, including global-warming-induced changes, will alter phytoplankton community structure and hence alter global biogeochemical cycles (A. Litchman, C. A. Klausmeier, J. R. Miller, O. Schofield, P. G. Falkowski, unpublished data). The coupling of this type of ecosystem model to global climate models raises again a series of open questions on model complexity and relevant spatial scales of resolution. In fact, similar questions arise not just in the context of climate change but for the general coupling of ecosystem models to large-scale physical models of ocean circulation (e.g., [<xref rid="pcbi-0010018-b24" ref-type="bibr">24</xref>]; <xref ref-type="fig" rid="pcbi-0010018-g003">Figure 3</xref>).</p><fig id="pcbi-0010018-g003" position="float"><label>Figure 3</label><caption><title>Phytoplankton Biomass Generated with a Coupled Biological&#x02013;Physical Model Developed to Examine the Impact of Nitrogen Fixation in the Atlantic Ocean</title><p>In this large simulation [<xref rid="pcbi-0010018-b24" ref-type="bibr">24</xref>], the ecosystem model consists of six variables and includes two different functional groups within the phytoplankton, for nitrogen and non-nitrogen fixers. The physical model includes 19 vertical layers but only a coarse horizontal resolution (2&#x000b0; &#x000d7; 2&#x000b0;). In particular, it does not resolve the mesoscale variability of the flows, at characteristic scales of 1 to 100 km, known as the &#x0201c;weather&#x0201d; of the ocean. The lower left panel illustrates the variability of phytoplankton at these smaller turbulent scales, with a simulation of a coupled ecosystem&#x02013;eddy model (K. Boushaba, G. Flierl, and M. Pascual, unpublished data). We can ask how the effects of these smaller scales can be incorporated in models with a coarser resolution for larger oceanic regions. Even more fundamentally, what are the relevant spatial scales of coupling?</p></caption><graphic xlink:href="pcbi.0010018.g003"/></fig><p>In short, the computational and conceptual challenge is to bridge not only highly disparate temporal and spatial scales, but also organizational ones, from individual physiology to ecosystem biogeochemistry, via community structure and functional diversity (<xref ref-type="fig" rid="pcbi-0010018-g003">Figure 3</xref>). An understanding of how the structure of ecological communities, composed of a diverse array of species, responds to perturbations is a critical intermediate step, which brings me to the next section.</p></sec><sec id="s4"><title>From Structure to Dynamics in Large Ecological Networks</title><p>The nonlinear dynamics of large networks is a major challenge in computational biology and complex systems in general [<xref rid="pcbi-0010018-b25" ref-type="bibr">25</xref>]. In ecology, the study of networks of species interactions, particularly food webs composed of trophic links, has a long history at the interface of theory and empirical patterns [<xref rid="pcbi-0010018-b26" ref-type="bibr">26</xref>&#x02013;<xref rid="pcbi-0010018-b30" ref-type="bibr">30</xref>]. Food webs are the subject of renewed attention today, with improved datasets and the explosion of research on network structure across science (see [<xref rid="pcbi-0010018-b31" ref-type="bibr">31</xref>] for a review in ecology). However, the relationship between structure and dynamics in systems that are not just nonlinear and high-dimensional, but also adaptive, remains poorly understood. Food web structure includes the diversity of species, the patterns of connections among them, and the distribution of interaction strengths on these patterns; dynamics encompasses different measures of stability that describe the response of the system to perturbations such as robustness and resilience, which impact the persistence of species [<xref rid="pcbi-0010018-b32" ref-type="bibr">32</xref>,<xref rid="pcbi-0010018-b33" ref-type="bibr">33</xref>]. This is not a new area but many open questions remain [<xref rid="pcbi-0010018-b34" ref-type="bibr">34</xref>]. For example, do rare species and those that interact weakly with others matter to overall species persistence in ecosystems? Simple models with only a few players suggest that rare or weakly interacting species can be important [<xref rid="pcbi-0010018-b35" ref-type="bibr">35</xref>]; however, whether these findings still hold true in the bigger, more complex networks we observe in nature is not yet clear. Recent findings suggest a more complex picture in which not just the intensity of interactions, but also their location in the network, matters to (linear) stability and to the invasibility of the community by other species [<xref rid="pcbi-0010018-b36" ref-type="bibr">36</xref>,<xref rid="pcbi-0010018-b37" ref-type="bibr">37</xref>]. Another recent development is the consideration of other kinds of interactions such as mutualism and parasitism, which can play an important role in ecosystem persistence and bioenergetics [<xref rid="pcbi-0010018-b38" ref-type="bibr">38</xref>,<xref rid="pcbi-0010018-b39" ref-type="bibr">39</xref>]. The adaptive character of interactions via phenotypic plasticity and evolutionary change challenges traditional dynamical models and our view of structure itself. Adaptive change in the interactions between species influences dynamics and species' persistence, but again, this has been shown primarily in small networks with only a few players [<xref rid="pcbi-0010018-b40" ref-type="bibr">40</xref>,<xref rid="pcbi-0010018-b41" ref-type="bibr">41</xref>] (but see [<xref rid="pcbi-0010018-b42" ref-type="bibr">42</xref>,<xref rid="pcbi-0010018-b43" ref-type="bibr">43</xref>]). The spatial dimension has been largely ignored in the dynamics of large ecological networks, although it is clearly a key component of habitat loss and habitat fragmentation (but see [<xref rid="pcbi-0010018-b44" ref-type="bibr">44</xref>] for a static treatment).</p><p>Stochastic assembly models are perhaps the best candidates to develop a general dynamical theory not only to address open questions on the relationship between structure and dynamics, but also to generate the macroscopic community patterns that ecologists observe in nature and characterize diversity (such as species&#x02013;area curves and species-rank abundance curves). In these models, macroscopic patterns in diversity arise from the dynamic tension between extinction (as the result of ecological interactions and environmental perturbations) and innovation (as the result of evolution and the immigration of new species from outside the system) (e.g., [<xref rid="pcbi-0010018-b45" ref-type="bibr">45</xref>]). Instability at one level of organization can provide the basis for robustness to change at higher levels. For example, in the species assembly model of Sol&#x000e9; et al. [<xref rid="pcbi-0010018-b45" ref-type="bibr">45</xref>], macroscopic quantities, such as the number of species, reach a stationary state, while at the microscopic level instability is rampant, with recurrent species extinctions and unpredictable population fluctuations. Computational developments are needed to tackle the large parameter space of this type of model and to study the model's behavior using methods that interface mathematical analysis and numerical simulation. Similar issues arise in complementary approaches to link structure and dynamics in food webs, including those that map nonlinear dynamical equations upon a static structure of links between species [<xref rid="pcbi-0010018-b46" ref-type="bibr">46</xref>,<xref rid="pcbi-0010018-b47" ref-type="bibr">47</xref>]. One promising direction to help us constrain parameter space and build more realistic models involves another fundamental area of ecology, the study of allometric scalings (e.g., [<xref rid="pcbi-0010018-b48" ref-type="bibr">48</xref>]). Allometric scalings describe how biological rates vary as a function of size and can be used in the formulation of dynamical models for ecological interactions [<xref rid="pcbi-0010018-b49" ref-type="bibr">49</xref>,<xref rid="pcbi-0010018-b50" ref-type="bibr">50</xref>]. Ultimately, a better understanding of the critical properties of ecological networks that sustain diverse ecosystems and their functions is of fundamental importance, particularly at this time of rapid environmental change, when perturbations of structure and loss of biological diversity are unavoidable.</p><p>The topics described here only begin to illustrate some of the many rich areas for research in computational ecology. We have moved beyond learning more details about the components of complex systems in order to reconstruct their dynamics. Instead, a more fundamental role for computation is found in exploring the relationship between dynamics across scales, in the constant dialogue between simplicity and complexity. Perhaps this is best expressed by what a famous mathematician had to say about a famous macroscopic law of physics: &#x0201c;If our means of investigation became more and more incisive, we would discover the simple under the complex, then the complex under the simple, then again the simple under the complex, and so on, without being able to predict which state would ultimately prevail&#x0201d; [<xref rid="pcbi-0010018-b51" ref-type="bibr">51</xref>].&#x02002;</p></sec></body><back><ack><p>I thank Simon Levin and Andy Dobson for comments on an earlier version of this manuscript, the Pacific Ecoinformatics and Computational Ecology Lab for the food web image, and Victoria Coles, Khalid Boushaba, and Manojit Roy for their help with the other figures. I also thank the James S. McDonnell Foundation for a Centennial Fellowship on Global and Complex Systems.</p></ack><ref-list><title>References</title><ref id="pcbi-0010018-b01"><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Elton</surname><given-names>CS</given-names></name></person-group>
+<year>1958</year>
+<source>The ecology of invasions by animal and plants</source>
+<publisher-loc>Chicago</publisher-loc>
+<publisher-name>University of Chicago Press</publisher-name>
+<size units="page">181</size>
+<comment>p.</comment>
+</element-citation></ref><ref id="pcbi-0010018-b02"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Martinez</surname><given-names>ND</given-names></name></person-group>
+<year>1991</year>
+<article-title>Artifacts or attributes? Effects of resolution on the Little Rock Lake food web</article-title>
+<source>Ecol Monogr</source>
+<volume>61</volume>
+<fpage>367</fpage>
+<lpage>392</lpage>
+</element-citation></ref><ref id="pcbi-0010018-b03"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Moorcroft</surname><given-names>PR</given-names></name></person-group>
+<year>2003</year>
+<article-title>Recent advances in ecosystem&#x02013;atmosphere interactions: An ecological perspective</article-title>
+<source>Proc R Soc Lond B Biol Sci</source>
+<volume>270</volume>
+<fpage>1215</fpage>
+<lpage>1227</lpage>
+</element-citation></ref><ref id="pcbi-0010018-b04"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Eames</surname><given-names>KT</given-names></name><name><surname>Keeling</surname><given-names>MJ</given-names></name></person-group>
+<year>2003</year>
+<article-title>Contact tracing and disease control</article-title>
+<source>Proc R Soc Lond B Biol Sci</source>
+<volume>270</volume>
+<fpage>2565</fpage>
+<lpage>2571</lpage>
+</element-citation></ref><ref id="pcbi-0010018-b05"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Eames</surname><given-names>KT</given-names></name><name><surname>Keeling</surname><given-names>MJ</given-names></name></person-group>
+<year>2002</year>
+<article-title>Modeling dynamic and network heterogeneities in the spread of sexually transmitted diseases</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>99</volume>
+<fpage>13330</fpage>
+<lpage>13335</lpage>
+<pub-id pub-id-type="pmid">12271127</pub-id></element-citation></ref><ref id="pcbi-0010018-b06"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Meyers</surname><given-names>LA</given-names></name><name><surname>Pourbohloul</surname><given-names>B</given-names></name><name><surname>Newman</surname><given-names>MEJ</given-names></name><name><surname>Skowronski</surname><given-names>DM</given-names></name><name><surname>Brunham</surname><given-names>RC</given-names></name></person-group>
+<year>2005</year>
+<article-title>Network theory and SARS: Predicting outbreak diversity</article-title>
+<source>J Theor Biol</source>
+<volume>232</volume>
+<fpage>71</fpage>
+<lpage>81</lpage>
+<pub-id pub-id-type="pmid">15498594</pub-id></element-citation></ref><ref id="pcbi-0010018-b07"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Levin</surname><given-names>SA</given-names></name></person-group>
+<year>1998</year>
+<article-title>Ecosystems and the biosphere as complex adaptive systems</article-title>
+<source>Ecosystems</source>
+<volume>1</volume>
+<fpage>431</fpage>
+<lpage>436</lpage>
+</element-citation></ref><ref id="pcbi-0010018-b08"><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Levin</surname><given-names>SA</given-names></name></person-group>
+<year>1999</year>
+<source>Fragile dominion: Complexity and the commons</source>
+<publisher-loc>Reading (Massachusetts)</publisher-loc>
+<publisher-name>Perseus Books Group</publisher-name>
+<size units="page">250</size>
+<comment>p.</comment>
+</element-citation></ref><ref id="pcbi-0010018-b09"><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Borges</surname><given-names>JL</given-names></name></person-group>
+<year>1964</year>
+<source>Dreamtigers. Boyer M, Morland H, translators</source>
+<publisher-loc>Austin</publisher-loc>
+<publisher-name>University of Texas Press</publisher-name>
+<size units="page">95</size>
+<comment>p.</comment>
+</element-citation></ref><ref id="pcbi-0010018-b10"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Durrett</surname><given-names>R</given-names></name><name><surname>Levin</surname><given-names>SA</given-names></name></person-group>
+<year>1994</year>
+<article-title>On the importance of being discrete and (spatial)</article-title>
+<source>Theor Popul Biol</source>
+<volume>46</volume>
+<fpage>363</fpage>
+<lpage>394</lpage>
+</element-citation></ref><ref id="pcbi-0010018-b11"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Keeling</surname><given-names>MJ</given-names></name></person-group>
+<year>1999</year>
+<article-title>Correlation equations for endemic diseases</article-title>
+<source>Proc R Soc Lond B Biol Sci</source>
+<volume>266</volume>
+<fpage>953</fpage>
+<lpage>961</lpage>
+</element-citation></ref><ref id="pcbi-0010018-b12"><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Iwasa</surname><given-names>Y</given-names></name></person-group>
+<year>2000</year>
+<article-title>Lattice models in ecology and pair-approximation analysis</article-title>
+<person-group person-group-type="editor"><name><surname>Dieckmann</surname><given-names>U</given-names></name><name><surname>Law</surname><given-names>R</given-names></name><name><surname>Metz</surname><given-names>JAJ</given-names></name></person-group>
+<source>The geometry of ecological interactions: Simplifying ecological complexity</source>
+<publisher-loc>Cambridge</publisher-loc>
+<publisher-name>Cambridge University Press</publisher-name>
+<fpage>227</fpage>
+<lpage>251</lpage>
+</element-citation></ref><ref id="pcbi-0010018-b13"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pascual</surname><given-names>M</given-names></name><name><surname>Mazzega</surname><given-names>P</given-names></name><name><surname>Levin</surname><given-names>S</given-names></name></person-group>
+<year>2001</year>
+<article-title>Oscillatory dynamics and spatial scale in ecological systems: The role of noise and unresolved pattern</article-title>
+<source>Ecology</source>
+<volume>82</volume>
+<fpage>2357</fpage>
+<lpage>2369</lpage>
+</element-citation></ref><ref id="pcbi-0010018-b14"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pascual</surname><given-names>M</given-names></name><name><surname>Roy</surname><given-names>M</given-names></name><name><surname>Franc</surname><given-names>A</given-names></name></person-group>
+<year>2002</year>
+<article-title>Simple models for ecological systems with complex spatial patterns</article-title>
+<source>Ecol Lett</source>
+<volume>5</volume>
+<fpage>412</fpage>
+<lpage>419</lpage>
+</element-citation></ref><ref id="pcbi-0010018-b15"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gubbins</surname><given-names>S</given-names></name><name><surname>Gilligan</surname><given-names>CA</given-names></name></person-group>
+<year>1997</year>
+<article-title>A test of heterogeneous mixing as a mechanism for ecological persistence in a disturbed environment</article-title>
+<source>Proc R Soc Lond B Biol Sci</source>
+<volume>264</volume>
+<fpage>227</fpage>
+<lpage>232</lpage>
+</element-citation></ref><ref id="pcbi-0010018-b16"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bolker</surname><given-names>B</given-names></name><name><surname>Pacala</surname><given-names>SW</given-names></name></person-group>
+<year>1997</year>
+<article-title>Using moment equations to understand stochastically driven spatial pattern formation in ecological systems</article-title>
+<source>Theor Popul Biol</source>
+<volume>52</volume>
+<fpage>179</fpage>
+<lpage>197</lpage>
+<pub-id pub-id-type="pmid">9466960</pub-id></element-citation></ref><ref id="pcbi-0010018-b17"><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Pacala</surname><given-names>SW</given-names></name><name><surname>Levin</surname><given-names>SA</given-names></name></person-group>
+<year>1997</year>
+<article-title>Biologically generated spatial pattern and the coexistence of competing species</article-title>
+<person-group person-group-type="editor"><name><surname>Tilman</surname><given-names>D</given-names></name><name><surname>Kareiva</surname><given-names>P</given-names></name></person-group>
+<source>Spatial ecology: The role of space in population dynamics and interspecific interactions</source>
+<publisher-loc>Princeton (New Jersey)</publisher-loc>
+<publisher-name>Princeton University Press</publisher-name>
+<fpage>185</fpage>
+<lpage>203</lpage>
+</element-citation></ref><ref id="pcbi-0010018-b18"><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Law</surname><given-names>R</given-names></name><name><surname>Dieckmann</surname><given-names>U</given-names></name></person-group>
+<year>2000</year>
+<article-title>Moment approximations of individual-based models</article-title>
+<person-group person-group-type="editor"><name><surname>Dieckmann</surname><given-names>U</given-names></name><name><surname>Law</surname><given-names>R</given-names></name><name><surname>Metz</surname><given-names>JAJ</given-names></name></person-group>
+<source>The geometry of ecological interactions: Simplifying ecological complexity</source>
+<publisher-loc>Cambridge</publisher-loc>
+<publisher-name>Cambridge University Press</publisher-name>
+<fpage>252</fpage>
+<lpage>269</lpage>
+</element-citation></ref><ref id="pcbi-0010018-b19"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tilman</surname><given-names>D</given-names></name><name><surname>Knops</surname><given-names>J</given-names></name><name><surname>Wedin</surname><given-names>D</given-names></name><name><surname>Reich</surname><given-names>P</given-names></name><name><surname>Ritchie</surname><given-names>M</given-names></name><etal/></person-group>
+<year>1997</year>
+<article-title>The influence of functional diversity and composition on ecosystem processes</article-title>
+<source>Science</source>
+<volume>277</volume>
+<fpage>1300</fpage>
+<lpage>1302</lpage>
+</element-citation></ref><ref id="pcbi-0010018-b20"><element-citation publication-type="book">
+<person-group person-group-type="editor"><name><surname>Kinzig</surname><given-names>AP</given-names></name><name><surname>Pacala</surname><given-names>SW</given-names></name><name><surname>Tilman</surname><given-names>D</given-names></name></person-group>
+<year>2001</year>
+<source>The functional consequences of biodiversity: Empirical progress and theoretical extensions</source>
+<publisher-loc>Princeton (New Jersey)</publisher-loc>
+<publisher-name>Princeton University Press</publisher-name>
+<size units="page">365</size>
+<comment>p.</comment>
+</element-citation></ref><ref id="pcbi-0010018-b21"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Moorcroft</surname><given-names>PR</given-names></name><name><surname>Hurtt</surname><given-names>GC</given-names></name><name><surname>Pacala</surname><given-names>SW</given-names></name></person-group>
+<year>2001</year>
+<article-title>A method for scaling vegetation dynamics: The ecosystem demography model (ED)</article-title>
+<source>Ecol Monogr</source>
+<volume>71</volume>
+<fpage>557</fpage>
+<lpage>586</lpage>
+</element-citation></ref><ref id="pcbi-0010018-b22"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pascual</surname><given-names>M</given-names></name><name><surname>Levin</surname><given-names>SA</given-names></name></person-group>
+<year>1999</year>
+<article-title>Spatial scaling in a benthic population model with density-dependent disturbance</article-title>
+<source>Theor Popul Biol</source>
+<volume>56</volume>
+<fpage>106</fpage>
+<lpage>122</lpage>
+<pub-id pub-id-type="pmid">10438672</pub-id></element-citation></ref><ref id="pcbi-0010018-b23"><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Falkowski</surname><given-names>PG</given-names></name><name><surname>Laws</surname><given-names>EA</given-names></name><name><surname>Barber</surname><given-names>RT</given-names></name><name><surname>Murray</surname><given-names>JW</given-names></name></person-group>
+<year>2003</year>
+<source>Phytoplankton and their role in primary, new, and export production In: Fasham MJR, editor</source>
+<publisher-loc>Ocean biogeochemistry</publisher-loc>
+<publisher-name>The role of the ocean carbon cycle in global change</publisher-name>
+<fpage>99</fpage>
+<lpage>121</lpage>
+</element-citation></ref><ref id="pcbi-0010018-b24"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Coles</surname><given-names>VJ</given-names></name><name><surname>Hood</surname><given-names>RR</given-names></name><name><surname>Pascual</surname><given-names>M</given-names></name><name><surname>Capone</surname><given-names>DG</given-names></name></person-group>
+<year>2004</year>
+<article-title>Modeling the impact of <italic>Trichodesmium</italic> and nitrogen fixation in the Atlantic Ocean</article-title>
+<source>J Geophys Res</source>
+<volume>109</volume>
+<fpage>C06007</fpage>
+</element-citation></ref><ref id="pcbi-0010018-b25"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Strogatz</surname><given-names>SH</given-names></name></person-group>
+<year>2001</year>
+<article-title>Exploring complex networks</article-title>
+<source>Nature</source>
+<volume>410</volume>
+<fpage>268</fpage>
+<lpage>275</lpage>
+<pub-id pub-id-type="pmid">11258382</pub-id></element-citation></ref><ref id="pcbi-0010018-b26"><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>May</surname><given-names>RM</given-names></name></person-group>
+<year>2001</year>
+<source>Stability and complexity in model ecosystems, 1st Princeton landmarks in biology ed</source>
+<publisher-loc>Princeton (New Jersey)</publisher-loc>
+<publisher-name>Princeton University Press</publisher-name>
+<size units="page">265</size>
+<comment>p.</comment>
+</element-citation></ref><ref id="pcbi-0010018-b27"><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Cohen</surname><given-names>JE</given-names></name></person-group>
+<year>1978</year>
+<source>Food webs and niche space</source>
+<publisher-loc>Princeton (New Jersey)</publisher-loc>
+<publisher-name>Princeton University Press</publisher-name>
+<size units="page">189</size>
+<comment>p.</comment>
+</element-citation></ref><ref id="pcbi-0010018-b28"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yodzis</surname><given-names>P</given-names></name></person-group>
+<year>1981</year>
+<article-title>The stability of real ecosystems</article-title>
+<source>Nature</source>
+<volume>289</volume>
+<fpage>674</fpage>
+<lpage>676</lpage>
+</element-citation></ref><ref id="pcbi-0010018-b29"><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Pimm</surname><given-names>SL</given-names></name></person-group>
+<year>2002</year>
+<source>Food webs</source>
+<publisher-loc>Chicago</publisher-loc>
+<publisher-name>University of Chicago Press</publisher-name>
+<size units="page">219</size>
+<comment>p.</comment>
+</element-citation></ref><ref id="pcbi-0010018-b30"><element-citation publication-type="book">
+<person-group person-group-type="editor"><name><surname>Polis</surname><given-names>GA</given-names></name><name><surname>Winemiller</surname><given-names>KO</given-names></name></person-group>
+<year>1996</year>
+<source>Food webs: Integration of patterns and dynamics</source>
+<publisher-loc>New York</publisher-loc>
+<publisher-name>Chapman and Hall</publisher-name>
+<size units="page">472</size>
+<comment>p.</comment>
+</element-citation></ref><ref id="pcbi-0010018-b31"><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Dunne</surname><given-names>JA</given-names></name></person-group>
+<year>2005</year>
+<article-title>The network structure of food webs</article-title>
+<person-group person-group-type="editor"><name><surname>Pascual</surname><given-names>M</given-names></name><name><surname>Dunne</surname><given-names>JA</given-names></name></person-group>
+<source>Ecological networks: Linking structure to dynamics in food webs</source>
+<publisher-loc>Oxford</publisher-loc>
+<publisher-name>Oxford University Press</publisher-name>
+<comment>In press.</comment>
+</element-citation></ref><ref id="pcbi-0010018-b32"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pimm</surname><given-names>SL</given-names></name><name><surname>Lawton</surname><given-names>JH</given-names></name><name><surname>Cohen</surname><given-names>JE</given-names></name></person-group>
+<year>1991</year>
+<article-title>Food web patterns and their consequences</article-title>
+<source>Nature</source>
+<volume>350</volume>
+<fpage>669</fpage>
+<lpage>674</lpage>
+</element-citation></ref><ref id="pcbi-0010018-b33"><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Holling</surname><given-names>CS</given-names></name><name><surname>Gunderson</surname><given-names>LH</given-names></name></person-group>
+<year>2002</year>
+<article-title>Resilience and adaptive cycles</article-title>
+<person-group person-group-type="editor"><name><surname>Gunderson</surname><given-names>LH</given-names></name><name><surname>Holling</surname><given-names>CS</given-names></name></person-group>
+<source>Panarchy: Understanding transformations in human and natural systems</source>
+<publisher-loc>Washington (DC)</publisher-loc>
+<publisher-name>Island Press</publisher-name>
+<fpage>25</fpage>
+<lpage>62</lpage>
+</element-citation></ref><ref id="pcbi-0010018-b34"><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Pascual</surname><given-names>M</given-names></name><name><surname>Dunne</surname><given-names>J</given-names></name><name><surname>Levin</surname><given-names>SA</given-names></name></person-group>
+<year>2005</year>
+<article-title>Challenges for the future: Integrating ecological structure and dynamics</article-title>
+<person-group person-group-type="editor"><name><surname>Pascual</surname><given-names>M</given-names></name><name><surname>Dunne</surname><given-names>JA</given-names></name></person-group>
+<source>Ecological networks: Linking structure to dynamics in food webs</source>
+<publisher-loc>Oxford</publisher-loc>
+<publisher-name>Oxford University Press</publisher-name>
+<comment>In press.</comment>
+</element-citation></ref><ref id="pcbi-0010018-b35"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>McCann</surname><given-names>K</given-names></name><name><surname>Hastings</surname><given-names>A</given-names></name><name><surname>Huxel</surname><given-names>G</given-names></name></person-group>
+<year>1998</year>
+<article-title>Weak trophic interactions and the balance of nature</article-title>
+<source>Nature</source>
+<volume>395</volume>
+<fpage>794</fpage>
+<lpage>798</lpage>
+</element-citation></ref><ref id="pcbi-0010018-b36"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kokkoris</surname><given-names>GD</given-names></name><name><surname>Jansen</surname><given-names>VAA</given-names></name><name><surname>Loreau</surname><given-names>M</given-names></name><name><surname>Troumbis</surname><given-names>AY</given-names></name></person-group>
+<year>2002</year>
+<article-title>Variability in interaction strength and implications for biodiversity</article-title>
+<source>J Anim Ecol</source>
+<volume>71</volume>
+<fpage>362</fpage>
+<lpage>371</lpage>
+</element-citation></ref><ref id="pcbi-0010018-b37"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Neutel</surname><given-names>AM</given-names></name><name><surname>Heesterbeek</surname><given-names>JAP</given-names></name><name><surname>de Ruiter</surname><given-names>PC</given-names></name></person-group>
+<year>2002</year>
+<article-title>Stability in real food webs: Weak links in long loops</article-title>
+<source>Science</source>
+<volume>296</volume>
+<fpage>1120</fpage>
+<lpage>1123</lpage>
+<pub-id pub-id-type="pmid">12004131</pub-id></element-citation></ref><ref id="pcbi-0010018-b38"><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Lafferty</surname><given-names>KD</given-names></name><name><surname>Hechinger</surname><given-names>RF</given-names></name><name><surname>Shaw</surname><given-names>JC</given-names></name><name><surname>Whitney</surname><given-names>KL</given-names></name><name><surname>Kuris</surname><given-names>AM</given-names></name></person-group>
+<year>2005</year>
+<article-title>Food webs and parasites in a salt marsh ecosystem</article-title>
+<person-group person-group-type="editor"><name><surname>Collinge</surname><given-names>S</given-names></name><name><surname>Ray</surname><given-names>C</given-names></name></person-group>
+<source>Disease ecology: Community structure and pathogen dynamics</source>
+<publisher-loc>Oxford</publisher-loc>
+<publisher-name>Oxford University Press</publisher-name>
+<comment>In press.</comment>
+</element-citation></ref><ref id="pcbi-0010018-b39"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bascompte</surname><given-names>J</given-names></name><name><surname>Jordano</surname><given-names>P</given-names></name><name><surname>Meli&#x000e1;n</surname><given-names>CJ</given-names></name><name><surname>Olesen</surname><given-names>JM</given-names></name></person-group>
+<year>2003</year>
+<article-title>The nested assembly of plant&#x02013;animal mutualistic networks</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>100</volume>
+<fpage>9383</fpage>
+<lpage>9387</lpage>
+<pub-id pub-id-type="pmid">12881488</pub-id></element-citation></ref><ref id="pcbi-0010018-b40"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hartvigsen</surname><given-names>G</given-names></name><name><surname>Levin</surname><given-names>SA</given-names></name></person-group>
+<year>1997</year>
+<article-title>Evolution and spatial structure interact to influence plant&#x02013;herbivore population and community dynamics</article-title>
+<source>Proc R Soc Lond B Biol Sci</source>
+<volume>264</volume>
+<fpage>1677</fpage>
+<lpage>1685</lpage>
+</element-citation></ref><ref id="pcbi-0010018-b41"><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Peacor</surname><given-names>S</given-names></name><name><surname>Riolo</surname><given-names>RL</given-names></name><name><surname>Pascual</surname><given-names>M</given-names></name></person-group>
+<year>2005</year>
+<article-title>Phenotypic plasticity and species coexistence: Modeling food webs as complex adaptive systems</article-title>
+<person-group person-group-type="editor"><name><surname>Pascual</surname><given-names>M</given-names></name><name><surname>Dunne</surname><given-names>JA</given-names></name></person-group>
+<source>Ecological networks: Linking structure to dynamics in food webs</source>
+<publisher-loc>Oxford</publisher-loc>
+<publisher-name>Oxford University Press</publisher-name>
+<comment>In press.</comment>
+</element-citation></ref><ref id="pcbi-0010018-b42"><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>McKane</surname><given-names>AJ</given-names></name><name><surname>Drossel</surname><given-names>B</given-names></name></person-group>
+<year>2005</year>
+<article-title>Models of food web evolution</article-title>
+<person-group person-group-type="editor"><name><surname>Pascual</surname><given-names>M</given-names></name><name><surname>Dunne</surname><given-names>JA</given-names></name></person-group>
+<source>Ecological networks: Linking structure to dynamics in food webs</source>
+<publisher-loc>Oxford</publisher-loc>
+<publisher-name>Oxford University Press</publisher-name>
+<comment>In press.</comment>
+</element-citation></ref><ref id="pcbi-0010018-b43"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kondoh</surname><given-names>M</given-names></name></person-group>
+<year>2003</year>
+<article-title>Foraging adaptation and the relationship between food-web complexity and stability</article-title>
+<source>Science</source>
+<volume>299</volume>
+<fpage>1388</fpage>
+<lpage>1391</lpage>
+<pub-id pub-id-type="pmid">12610303</pub-id></element-citation></ref><ref id="pcbi-0010018-b44"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Brose</surname><given-names>U</given-names></name><name><surname>Ostling</surname><given-names>A</given-names></name><name><surname>Harrison</surname><given-names>K</given-names></name><name><surname>Martinez</surname><given-names>ND</given-names></name></person-group>
+<year>2004</year>
+<article-title>Unified spatial scaling of species and their trophic interactions</article-title>
+<source>Nature</source>
+<volume>428</volume>
+<fpage>167</fpage>
+<lpage>171</lpage>
+<pub-id pub-id-type="pmid">15014497</pub-id></element-citation></ref><ref id="pcbi-0010018-b45"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sol&#x000e9;</surname><given-names>RV</given-names></name><name><surname>Alonso</surname><given-names>D</given-names></name><name><surname>McKane</surname><given-names>A</given-names></name></person-group>
+<year>2002</year>
+<article-title>Self-organized instability in complex ecosystems</article-title>
+<source>Philos Trans R Soc Lond B Biol Sci</source>
+<volume>357</volume>
+<fpage>667</fpage>
+<lpage>671</lpage>
+<pub-id pub-id-type="pmid">12079528</pub-id></element-citation></ref><ref id="pcbi-0010018-b46"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chen</surname><given-names>X</given-names></name><name><surname>Cohen</surname><given-names>JE</given-names></name></person-group>
+<year>2001</year>
+<article-title>Global stability, local stability and permanence in model food webs</article-title>
+<source>J Theor Biol</source>
+<volume>212</volume>
+<fpage>223</fpage>
+<lpage>235</lpage>
+<pub-id pub-id-type="pmid">11531387</pub-id></element-citation></ref><ref id="pcbi-0010018-b47"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Williams</surname><given-names>RJ</given-names></name><name><surname>Martinez</surname><given-names>ND</given-names></name></person-group>
+<year>2004</year>
+<article-title>Stabilization of chaotic and non-permanent food-web dynamics</article-title>
+<source>Eur Phys J B</source>
+<volume>38</volume>
+<fpage>297</fpage>
+<lpage>303</lpage>
+</element-citation></ref><ref id="pcbi-0010018-b48"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Enquist</surname><given-names>BJ</given-names></name><name><surname>Brown</surname><given-names>JH</given-names></name><name><surname>West</surname><given-names>GB</given-names></name></person-group>
+<year>1998</year>
+<article-title>Allometric scaling of plant energetics and population density</article-title>
+<source>Nature</source>
+<volume>395</volume>
+<fpage>163</fpage>
+<lpage>166</lpage>
+</element-citation></ref><ref id="pcbi-0010018-b49"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>De Leo</surname><given-names>GA</given-names></name><name><surname>Dobson</surname><given-names>AP</given-names></name></person-group>
+<year>1996</year>
+<article-title>Allometry and simple epidemic models for microparasites</article-title>
+<source>Nature</source>
+<volume>379</volume>
+<fpage>720</fpage>
+<lpage>722</lpage>
+<pub-id pub-id-type="pmid">8602216</pub-id></element-citation></ref><ref id="pcbi-0010018-b50"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Emmerson</surname><given-names>MC</given-names></name><name><surname>Rafaelli</surname><given-names>D</given-names></name></person-group>
+<year>2004</year>
+<article-title>Predator&#x02013;prey body size, interaction strength and the stability of a real food web</article-title>
+<source>J Anim Ecol</source>
+<volume>73</volume>
+<fpage>399</fpage>
+<lpage>409</lpage>
+</element-citation></ref><ref id="pcbi-0010018-b51"><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Poincar&#x000e9;</surname><given-names>H</given-names></name></person-group>
+<year>1902</year>
+<source>Science et hypoth&#x000e8;se</source>
+<publisher-loc>Paris</publisher-loc>
+<publisher-name>Flammarion</publisher-name>
+<size units="page">252</size>
+<comment>p.</comment>
+</element-citation></ref></ref-list></back></article>

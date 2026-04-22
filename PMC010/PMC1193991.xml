@@ -1,0 +1,440 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS Comput Biol</journal-id><journal-id journal-id-type="iso-abbrev">PLoS Comput. Biol</journal-id><journal-id journal-id-type="publisher-id">pcbi</journal-id><journal-id journal-id-type="publisher-id">plcb</journal-id><journal-id journal-id-type="pmc">ploscomp</journal-id><journal-title-group><journal-title>PLoS Computational Biology</journal-title></journal-title-group><issn pub-type="ppub">1553-734X</issn><issn pub-type="epub">1553-7358</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">16158095</article-id><article-id pub-id-type="pmc">PMC1193991</article-id><article-id pub-id-type="doi">10.1371/journal.pcbi.0010032</article-id><article-id pub-id-type="publisher-id">05-PLCB-RA-0076R3</article-id><article-id pub-id-type="sici">plcb-01-03-07</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group><subj-group subj-group-type="Discipline"><subject>Bioinformatics - Computational Biology</subject><subject>Evolution</subject><subject>Genetics/Population Genetics</subject><subject>Genetics/Evolution</subject></subj-group><subj-group subj-group-type="System Taxonomy"><subject>None</subject></subj-group></article-categories><title-group><article-title>Evolution of Genetic Potential</article-title><alt-title alt-title-type="running-head">Evolution of Genetic Potential</alt-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Ancel Meyers</surname><given-names>Lauren</given-names></name><xref ref-type="aff" rid="aff1">1</xref><xref ref-type="aff" rid="aff2">2</xref><xref ref-type="corresp" rid="cor1">*</xref></contrib><contrib contrib-type="author"><name><surname>Ancel</surname><given-names>Fredric D</given-names></name><xref ref-type="aff" rid="aff3">3</xref></contrib><contrib contrib-type="author"><name><surname>Lachmann</surname><given-names>Michael</given-names></name><xref ref-type="aff" rid="aff4">4</xref></contrib></contrib-group><aff id="aff1"><label>1</label> Section of Integrative Biology, Institute for Cellular and Molecular Biology, University of Texas, Austin, Texas, United States of America
+</aff><aff id="aff2"><label>2</label> Santa Fe Institute, Santa Fe, New Mexico, United States of America
+</aff><aff id="aff3"><label>3</label> Department of Mathematical Sciences, University of Wisconsin, Milwaukee, Wisconsin, United States of America
+</aff><aff id="aff4"><label>4</label> Max Planck Institute for Evolutionary Anthropology, Leipzig, Germany
+</aff><contrib-group><contrib contrib-type="editor"><name><surname>Holmes</surname><given-names>Eddie</given-names></name><role>Editor</role><xref ref-type="aff" rid="edit1"/></contrib></contrib-group><aff id="edit1">Pennsylvania State University, United States of America</aff><author-notes><corresp id="cor1">*To whom correspondence should be addressed. E-mail: <email>laurenmeyers@mail.utexas.edu</email></corresp></author-notes><pub-date pub-type="ppub"><month>8</month><year>2005</year></pub-date><pub-date pub-type="epub"><day>26</day><month>8</month><year>2005</year></pub-date><volume>1</volume><issue>3</issue><elocation-id>e32</elocation-id><history><date date-type="received"><day>15</day><month>4</month><year>2005</year></date><date date-type="accepted"><day>22</day><month>7</month><year>2005</year></date></history><permissions><copyright-statement>Copyright: &#x000a9; 2005 Meyers et al.</copyright-statement><copyright-year>2005</copyright-year><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p></license></permissions><abstract><p>Organisms employ a multitude of strategies to cope with the dynamical environments in which they live. Homeostasis and physiological plasticity buffer changes within the lifetime of an organism, while stochastic developmental programs and hypermutability track changes on longer timescales. An alternative long-term mechanism is &#x0201c;genetic potential&#x0201d;<italic>&#x02014;</italic>a heightened sensitivity to the effects of mutation that facilitates rapid evolution to novel states. Using a transparent mathematical model, we illustrate the concept of genetic potential and show that as environmental variability decreases, the evolving population reaches three distinct steady state conditions: (1) organismal flexibility, (2) genetic potential, and (3) genetic robustness. As a specific example of this concept we examine fluctuating selection for hydrophobicity in a single amino acid. We see the same three stages, suggesting that environmental fluctuations can produce allele distributions that are distinct not only from those found under constant conditions, but also from the transient allele distributions that arise under isolated selective sweeps.</p></abstract><abstract abstract-type="synopsis"><title>Synopsis</title><sec id="st1"><title/><p>Variation is the fuel of natural selection. Understanding the mutational processes that underlie evolution has long been a central objective of population genetics. Today, amidst a computational revolution in biology, such understanding is pivotal to progress in many biological disciplines. For example, neutral mutations make the molecular clock tick, and this clock is fundamental to reconstructing phylogenies, measuring recombination rates, and detecting genetic functionality. In this manuscript, the researchers provide an original perspective on a long-standing question in evolutionary biology: to what extent do mutation rates evolve? They argue that to cope with environmental fluctuation, populations can evolve their phenotypic mutation rate without changing their genetic mutation rate. That is, populations can evolve &#x0201c;genetic potential&#x0201d;&#x02014;a heightened sensitivity to the effects of mutation. The researchers use a simple mathematical model of amino acid evolution to illustrate the evolution of genetic potential, and show that as environmental variability decreases, evolving populations reach three distinct states. In a rapidly fluctuating environment, organisms evolve the flexibility to cope with variation within an individual lifetime; in moderately variable environments, populations evolve the ability to evolve rapidly; and in fairly constant environments, populations evolve robustness against the adverse effects of mutation.</p></sec></abstract><custom-meta-group><custom-meta><meta-name>Citation:</meta-name><meta-value>Meyers LA, Ancel FD, Lachmann M (2005) Evolution of genetic potential. PLoS Comp Biol 1(3): e32.</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec id="s1"><title>
+<bold>Introduction</bold>
+</title><p>Recent work in evolutionary biology has highlighted the degeneracy of the relationship between genes and traits [<xref rid="pcbi-0010032-b01" ref-type="bibr">1</xref>]. For any particular trait value, there will exist a large set of genotypes that give rise to that value. A mutation from one such genotype to another will be neutral, having no noticeable impact on the physiology, behavior, or fitness of organisms. Metaphorically, one can imagine a population moving via mutation through a region of genotype space that maps to a neutral plateau in phenotype space. Near the periphery, mutations are likely to produce different (usually worse and occasionally better) phenotypes, whereas near the center of the neutral plateau, mutations have little impact on the phenotype. Evolutionary theory suggests that populations can harness this variation to achieve phenotypic stability under steady conditions through either mutational insensitivity [<xref rid="pcbi-0010032-b02" ref-type="bibr">2</xref>,<xref rid="pcbi-0010032-b03" ref-type="bibr">3</xref>] or mutational hypersensitivity [<xref rid="pcbi-0010032-b04" ref-type="bibr">4</xref>], or to facilitate phenotypic exploration during adaptation [<xref rid="pcbi-0010032-b05" ref-type="bibr">5</xref>,<xref rid="pcbi-0010032-b06" ref-type="bibr">6</xref>].</p><p>A separate body of evolutionary theory addresses adaptation under fluctuating conditions [<xref rid="pcbi-0010032-b07" ref-type="bibr">7</xref>,<xref rid="pcbi-0010032-b08" ref-type="bibr">8</xref>]. The rate of the fluctuations will influence the resulting response. If the environment changes rapidly relative to the average generation time, populations may evolve mechanisms such as physiological plasticity and learning by which individual organisms can respond to their conditions [<xref rid="pcbi-0010032-b09" ref-type="bibr">9</xref>,<xref rid="pcbi-0010032-b10" ref-type="bibr">10</xref>]. As environmental change slows down, viable strategies include stochastic or directed heterogeneity in developmental pathways that give rise to phenotypic variation on the order of once per generation [<xref rid="pcbi-0010032-b11" ref-type="bibr">11</xref>]. For even slower rates of change, mutations may produce novel phenotypes at a sufficiently high rate. Hypermutable lineages can produce novelty every few generations, as has been observed in viruses and mutator strains of bacteria [<xref rid="pcbi-0010032-b12" ref-type="bibr">12</xref>,<xref rid="pcbi-0010032-b13" ref-type="bibr">13</xref>]. When environmental fluctuations are rare, populations may experience extended epochs of directional selection and thus have sufficient time to achieve genetic robustness for any given state. Immediately following an environmental shift, however, such populations may pass through transitional periods of within-individual or between-generation plasticity before completely losing the previously favored phenotype in favor of a currently favored phenotype. This evolutionary transformation&#x02014;from a trait that is acquired through phenotypic plasticity to a genetically determined version of the same trait&#x02014;is known as the Baldwin Effect [<xref rid="pcbi-0010032-b09" ref-type="bibr">9</xref>,<xref rid="pcbi-0010032-b14" ref-type="bibr">14</xref>].</p><p>In this paper we show that genetic degeneracy may give rise to an alternative outcome under fluctuating conditions: the evolution of genotypes with heightened sensitivity to mutation. We introduce the term &#x0201c;genetic potential&#x0201d; to describe this state. Metaphorically, populations with genetic potential lie near the edge of neutral plateaus. Although the rate of mutation is unchanged, the likelihood that mutations produce beneficial variation increases. Heightened sensitivity to mutations has been recognized as a critical and transient phase of adaptive evolution [<xref rid="pcbi-0010032-b05" ref-type="bibr">5</xref>,<xref rid="pcbi-0010032-b15" ref-type="bibr">15</xref>,<xref rid="pcbi-0010032-b16" ref-type="bibr">16</xref>]. Here we argue that genetic potential can be a stable condition for a population evolving under changing selection pressures. Using a simple mathematical model, we show that as environmental variability increases, natural selection at first moves populations between genetically robust states, then increasingly favors genetic potential, and ultimately produces mechanisms for environmental robustness within individual organisms.</p><p>We then present a more biological example of this phenomenon using a model of amino acid evolution. There is evidence that, within viral pathogens, the physiochemical properties of amino acids found within epitopes&#x02014;regions of proteins that directly interact with the host immune system&#x02014;can rapidly evolve [<xref rid="pcbi-0010032-b17" ref-type="bibr">17</xref>,<xref rid="pcbi-0010032-b18" ref-type="bibr">18</xref>]. Likewise, highly evolvable codons have been identified in bacteriophage experiencing shifting hosts [<xref rid="pcbi-0010032-b19" ref-type="bibr">19</xref>] and in enzymes experiencing shifting substrates [<xref rid="pcbi-0010032-b20" ref-type="bibr">20</xref>]. Motivated by these observations, we model codon evolution at a single amino acid site under fluctuating selection for hydrophobicity. As in the first model, natural selection produces three distinct outcomes with increasing environmental variability. Each outcome corresponds to distinct expectations about the distribution of amino acids and their codons at selected sites.</p><p>Under infrequent environmental change, populations evolve from one mutationally robust phenotype to another, briefly passing through genotypes that can easily mutate to either state. One might therefore be tempted to equate genetic potential with confinement to the intermediate steps on a path from robustness for one phenotype to robustness for another (<xref ref-type="fig" rid="pcbi-0010032-g001">Figure 1</xref>). While this is true in our simple model, the codon model illustrates that fluctuating environments may drive populations towards significantly greater genetic potential than found during these transient stages of isolated selective sweeps.</p><fig id="pcbi-0010032-g001" position="float"><label>Figure 1</label><caption><title>Evolution of Genetic Potential</title><p>The gray regions represent neutral networks&#x02014;sets of genotypes that give rise to each phenotype. The degree of shading indicates the likelihood that mutations will impact phenotype, where darker regions are robust to mutations. Under constant conditions, populations evolve toward the most robust regions of neutral networks. Under variable conditions, populations may evolve toward genotypes that easily mutate from one phenotype to the other. These regions of genetic potential do not always lie on the evolutionary path between the equilibrium states for constant environments (arrow).</p></caption><graphic xlink:href="pcbi.0010032.g001"/></fig></sec><sec id="s2"><title>Results</title><sec id="s2a"><title>Description of Models</title><sec id="s2a1"><title>The simple model.</title><p>We consider the evolution of a trait in an environment that alternates between two states (E<sub>A</sub> and E<sub>B</sub>), spending exactly &#x003bb; generations per state between shifts. The simple model includes three phenotypes&#x02014;one optimal phenotype for each of the two environments (A and B) and a third that has intermediate quality in both environments (V)<italic>&#x02014;</italic>and a minimal amount of degeneracy in the relationship between the genotype and the phenotype. In particular, there is a single genetic locus, and five allelic possibilities at that locus (<xref ref-type="fig" rid="pcbi-0010032-g002">Figure 2</xref>A). Three of the alleles, <italic>g</italic>
+<sub>0</sub>, <italic>g</italic>
+<sub>1</sub>, and <italic>g</italic>
+<sub>2</sub>, give rise to phenotype A, the fourth, <italic>g</italic>
+<sub>3</sub>, gives rise to phenotype V, and the fifth, <italic>g</italic>
+<sub>4</sub>, gives rise to phenotype B. The mutational structure is a pentagon in which <italic>g<sub>i</sub></italic> can mutate to <italic>g</italic>
+<sub>(<italic>i &#x02212;</italic> 1) mod 5</sub> or <italic>g</italic>
+<sub>(<italic>i</italic> + 1) mod 5</sub> for <italic>i</italic> &#x02208; {0,1,2,3,4}.</p><fig id="pcbi-0010032-g002" position="float"><label>Figure 2</label><caption><title>Mutational Networks</title><p>(A) Five alleles lie on a mutational pentagon with genetic degeneracy for the A phenotype. Colors indicate phenotypes with blue for A, yellow for B, and gray for V. Edges indicate that an allele on one side can mutate to the allele on the other side. Arrows illustrate the dynamics in equation 2.</p><p>(B) Each vertex represents an amino acid. The size of the vertex indicates the number of codons coding for the amino acid. Edges indicate point mutations between hydrophobicity classes. Mutations that preserve hydrophobicity class, including those that preserve the amino acid, are included in the model but not depicted here. The color of the vertex corresponds to the hydrophobicity class: blue indicates hydrophobic, yellow indicates hydrophilic, green indicates intermediate, and red indicates stop codons [<xref rid="pcbi-0010032-b21" ref-type="bibr">21</xref>]. This network was drawn with PAJEK [<xref rid="pcbi-0010032-b50" ref-type="bibr">50</xref>].</p></caption><graphic xlink:href="pcbi.0010032.g002"/></fig><p>The fitness function changes with the environment such that</p><disp-formula id="pcbi-0010032-e001"><graphic xlink:href="pcbi.0010032.e001.jpg" mimetype="image" position="float"/></disp-formula><p>where <italic>w</italic>
+<sub>A</sub> and <italic>w</italic>
+<sub>B</sub> are the fitnesses in environments E<sub>A</sub> and E<sub>B</sub>, respectively, <italic>s</italic> &#x0003e; 0 is the fitness advantage for the specialized phenotype (A or B) in its preferred environment, and 0 &#x02264; <italic>k</italic> &#x02264; 1 determines the intermediacy of the V phenotype.</p><p>We can write the full model as a set of difference equations</p><disp-formula id="pcbi-0010032-e002"><graphic xlink:href="pcbi.0010032.e002.jpg" mimetype="image" position="float"/></disp-formula><p>for <italic>i</italic> &#x02208; {0,1,2,3,4}, where &#x003bc; is the mutation rate and <italic>w<sub>t</sub></italic> denotes the fitness in the current environment (<xref ref-type="fig" rid="pcbi-0010032-g002">Figure 2A</xref>). The number of individuals with genotype <italic>g<sub>i</sub></italic> at time <italic>t</italic> is denoted by <italic>g<sub>i,t</sub></italic>. The changing environment is governed by the following rule:</p><disp-formula id="pcbi-0010032-e003"><graphic xlink:href="pcbi.0010032.e003.jpg" mimetype="image" position="float"/></disp-formula><p>To simplify the analysis, this model tracks changes in the absolute population sizes of the various genotypes rather than their relative frequencies. Since the dynamics scale linearly with the total population size, one can achieve the same population dynamics by replacing the absolute sizes with relative frequencies and normalizing appropriately.</p></sec><sec id="s2a2"><title>Variations on the simple model.</title><p>There are exactly 14 unique mutational networks consisting of five alleles on a pentagon, with at least one encoding A and at least one encoding B (see <xref ref-type="sec" rid="s4">Materials and Methods</xref>). These include, for example, the pentagon with four consecutive alleles coding for A and one for B and the pentagon with alleles alternating in phenotype-A-B-A-V-B-. We are presenting analysis of the -A-A-A-V-B- model because it gives rise to some of the most interesting and generic dynamics found among these 14 models.</p></sec><sec id="s2a3"><title>The codon model.</title><p>The previous model offers a transparent illustration of evolutionary dynamics under different rates of environmental change. Although somewhat simplistic, we believe that the qualitative predictions of the model will hold for a wide range of more plausible genotype&#x02013;phenotype maps. To demonstrate this, we consider the evolution of a single amino acid site under fluctuating conditions. In this model, the genotypes<inline-formula id="pcbi-0010032-m001"><inline-graphic xlink:href="pcbi.0010032.m001.jpg" mimetype="image"/></inline-formula>
+are the 64 codons in the standard genetic code and the phenotypes are hydrophobicities of the corresponding amino acids [<xref rid="pcbi-0010032-b21" ref-type="bibr">21</xref>]. The environment alternately favors hydrophobic and hydrophilic amino acids. There are three classes of amino acids&#x02014;hydrophobic, intermediate, and hydrophilic&#x02014;and all amino acids in a class share the same fitness. The fitnesses are determined as in equation 1, with the fitnesses of all three stop codons equal to zero.
+</p><p>Each codon is mutationally connected to the nine others to which it can mutate via point mutation. This gives rise to the genetic network depicted in <xref ref-type="fig" rid="pcbi-0010032-g002">Figure 2</xref>B and the dynamics given by</p><disp-formula id="pcbi-0010032-e004"><graphic xlink:href="pcbi.0010032.e004.jpg" mimetype="image" position="float"/></disp-formula><p>for 1 &#x02264; <italic>i</italic> &#x02264; 64, where &#x003bc; is the overall mutation rate, &#x003b2; is the transition/transversion ratio (2&#x003b2; is the transition/transversion rate ratio), &#x003a6;<italic><sub>i</sub></italic> is the set of three transition point mutations of codon <italic>i,</italic> and &#x00393;<italic><sub>i</sub></italic> is the set of six transversion point mutations of codon <italic>i.</italic>
+</p></sec></sec><sec id="s2b"><title>Analysis of the Simple Model</title><p>We provide an intuitive perspective on evolution in fluctuating environments using the simple model and then demonstrate the generality of the results in the codon model. The first results assume a mutation rate &#x003bc; = 0.01, and fitnesses 1, 1.5, and 2 for the unfavored, intermediate, and favored phenotypes, respectively. In a constant environment, a population will equilibrate on genotypes that encode the optimal phenotype. In environment E<sub>A</sub>, the equilibrium relative frequencies of <italic>g</italic>
+<sub>0</sub>, <italic>g</italic>
+<sub>1</sub>, <italic>g</italic>
+<sub>2</sub>, <italic>g</italic>
+<sub>3</sub>, and <italic>g</italic>
+<sub>4</sub> are 0.291, 0.412, 0.292, 0.003, and 0.002, respectively, and in environment E<sub>B</sub>, they are 0.005, 0.000, 0.000, 0.010, and 0.985, respectively. When there is degeneracy, as there is for phenotype A, the populations evolve genetic robustness, that is, more mutationally protected genotypes appear in higher frequency. In particular, <italic>g</italic>
+<sub>1</sub>, which lies in the center of the three genotypes that code for A, appears in higher frequency than either genotype on the edge of the neutral network for A (<italic>g</italic>
+<sub>0</sub> and <italic>g</italic>
+<sub>2</sub>) at equilibrium in E<sub>A</sub>. In the absence of degeneracy (phenotype B), we observe a mutation&#x02013;selection balance around the single optimal genotype. These findings are consistent with and provide a transparent example of the extensive theory on mutation&#x02013;selection balance, quasi-species, and the evolution of genetic robustness in neutral networks [<xref rid="pcbi-0010032-b02" ref-type="bibr">2</xref>,<xref rid="pcbi-0010032-b22" ref-type="bibr">22</xref>&#x02013;<xref rid="pcbi-0010032-b24" ref-type="bibr">24</xref>].</p><p>Under rapid environmental fluctuations, populations do not have time to reach a stable allele distribution. As the environment becomes more variable, the distributions of alleles go through three distinct phases. <xref ref-type="fig" rid="pcbi-0010032-g003">Figure 3</xref> shows the frequency of every allele averaged over each environmental condition after the population has reached steady oscillations. For relatively stable environments, the populations swing back and forth between near equilibrium conditions for E<sub>A</sub> and E<sub>B</sub>, thereby alternating between genetic robustness for A and a mutation&#x02013;selection balance around the single allele for B. At intermediate rates of fluctuation, populations hover near <italic>g</italic>
+<sub>4</sub> and <italic>g</italic>
+<sub>0</sub>, where the genotypes for A abut the genotype for B. Thus, mutation between the two phenotypes occurs frequently. We call this outcome genetic potential because of the enhanced potential for mutations to give rise to novel (beneficial) phenotypes. Finally, for highly variable environments, the populations converge on the phenotype V, which has unchanging, intermediate fitness in both environments. Phenotype V corresponds to organismal flexibility&#x02014;individual organisms tolerate both conditions, but neither one exceptionally well. There are a variety of mechanisms that can give rise to an intermediate phenotype including homeostasis, somatic evolution, physiological plasticity, and behavioral plasticity [<xref rid="pcbi-0010032-b07" ref-type="bibr">7</xref>,<xref rid="pcbi-0010032-b08" ref-type="bibr">8</xref>]. As originally predicted by Dempster [<xref rid="pcbi-0010032-b25" ref-type="bibr">25</xref>], the ascent of V under rapid fluctuations only occurs if the fitness of V is greater than the geometric mean fitness over time for either A or B.</p><fig id="pcbi-0010032-g003" position="float"><label>Figure 3</label><caption><title>Allele Distributions under Environmental Fluctuations</title><p>The graphs show the stationary allele distributions averaged over an E<sub>A</sub> epoch (top) and an E<sub>B</sub> epoch (bottom) as a function of the variability of the environment. As environmental variability decreases, the population moves from the intermediate phenotype to the genetic boundary between the A and B phenotypes, and eventually to an oscillation between the center of the network for A and the gene for B. Diagrams above the graphs illustrate the frequency distributions in each of the three phases. Vertex areas are proportional to the average frequencies for each allele. (For the data depicted in this figure, <italic>s</italic> = 1, <italic>k</italic> = 0.5, and &#x003bc; = 0.01.)</p></caption><graphic xlink:href="pcbi.0010032.g003"/></fig></sec><sec id="s2c"><title>Anaylsis of the Codon Model</title><p>The codon model gives rise to similar oscillations (<xref ref-type="fig" rid="pcbi-0010032-g004">Figure 4</xref>). Here we have assumed a transition/transversion ratio &#x003b2; = 2, mutation rate &#x003bc; = 10<sup>&#x02212;5</sup>, and fitnesses 1, 1.5, and 2 for the unfavored, intermediate, and favored phenotypes, respectively. (We address the impact of mutation rate in the Discussion.) Whereas in the simple model only one of the three phenotypes had multiple genotypes, in this model all three phenotypic classes have genetic degeneracy, and thus can evolve genetic robustness (<xref ref-type="fig" rid="pcbi-0010032-g004">Figure 4</xref>A). For highly variable environments, codons for amino acids with intermediate hydrophobicity dominate, and in particular, those that are least likely to mutate to one of the other two classes (<xref ref-type="fig" rid="pcbi-0010032-g004">Figure 4</xref>B). In a moderately variable environment, the populations exhibit genetic potential, hovering near the edges of the neutral networks for the two extreme classes, thereby enabling rapid evolution upon environmental transitions (<xref ref-type="fig" rid="pcbi-0010032-g004">Figure 4</xref>C). In relatively constant environments, we find alternating genetic robustness for the two extreme classes (<xref ref-type="fig" rid="pcbi-0010032-g004">Figure 4</xref>D).</p><fig id="pcbi-0010032-g004" position="float"><label>Figure 4</label><caption><title>Codon Distributions under Environmental Fluctuations</title><p>(A) gives the robustness for each codon, that is, the fraction of all possible point mutations that leave the hydrophobicity class unchanged. The codons have been ordered to reflect roughly the mutational adjacency of the hydrophobicity classes.</p><p>(B&#x02013;D) show the average codon frequency distribution for each epoch type after the population has reached stationary oscillation. These show frequencies for environmental epochs of exactly &#x003bb; generations (thick lines) and epochs of random duration&#x02014;Poisson distributed with mean &#x003bb; (thin lines). Black corresponds to epochs favoring hydrophobicity and gray corresponds to epochs favoring hydrophilicity. The rate of environmental fluctuations is decreasing from (B) to (D) (&#x003bb; = 10, 10<sup>2</sup>, and 10<sup>6</sup>, respectively).</p></caption><graphic xlink:href="pcbi.0010032.g004"/></fig><p>The genetic potential of a population can be estimated by the probability that a currently favored codon in the population will mutate to a currently unfavored or intermediate codon. This indicates the capacity to bounce back (via mutation and selection) if and when the environment reverts. For populations that have equilibrated in a constant environment and have recently experienced an environmental shift, genetic potential will decrease as the population becomes increasingly robust to the effects of mutation (<xref ref-type="fig" rid="pcbi-0010032-g005">Figure 5</xref>). For populations that have evolved under moderately fluctuating conditions, genetic potential remains noticeably higher. This suggests that the regular oscillations of such populations involve distributions of codons that are quite different (more mutable) than those found during the early stages of adaptation in an isolated selective sweep.</p><fig id="pcbi-0010032-g005" position="float"><label>Figure 5</label><caption><title>Faster Environmental Fluctuations Yield Greater Genetic Potential</title><p>Genetic potential is the likelihood that a mutation to a gene coding for the currently favored phenotype will produce the intermediate or unfavored phenotype. Thick lines correspond to populations that have reached stable oscillations when &#x003bb; = 100, and thin lines correspond to populations that experience a single environmental shift after having equilibrated in a constant environment. The maximum genetic potential after a single shift is significantly less than the minimum under persistent fluctuations.</p></caption><graphic xlink:href="pcbi.0010032.g005"/></fig><p>This difference also appears in the distributions of amino acids. We calculated the genetic potential in each generation of a population experiencing fluctuations every &#x003bb; = 10<sup>2</sup> generations. <xref ref-type="fig" rid="pcbi-0010032-g006">Figure 6</xref> (left) depicts the amino acid distributions for the generations that have the highest genetic potential in E<sub>A</sub> and E<sub>B</sub>. We then compared these two distributions to the evolving amino acid distribution in a population that equilibrates in one of the two environments and then faces an environmental shift. <xref ref-type="fig" rid="pcbi-0010032-g006">Figure 6</xref> (right) shows the steady state distributions for this population and the transitional distributions that are most similar (i.e., smallest average squared difference in relative frequencies) to those depicted in <xref ref-type="fig" rid="pcbi-0010032-g006">Figure 6</xref> (left). The distributions of amino acids in regions of genetic potential are strikingly different than those realized in populations evolving after an isolated environmental shift.</p><fig id="pcbi-0010032-g006" position="float"><label>Figure 6</label><caption><title>Amino Acid Distributions Reflect Genetic Potential</title><p>The left figure illustrates amino acid distribution in the generations with greatest genetic potential during each of the two epochs for &#x003bb; = 100. Vertex area is proportional to the relative frequency of an amino acid. The right figure gives the amino acid distributions at equilibrium in the two environments (far left and right networks), and the transitional amino acid distributions that are most similar to those depicted for &#x003bb; = 100 (left). Similarity is measured as mean squared difference in frequencies across all amino acids. The amino acid networks were drawn with PAJEK [<xref rid="pcbi-0010032-b50" ref-type="bibr">50</xref>].</p></caption><graphic xlink:href="pcbi.0010032.g006"/></fig></sec></sec><sec id="s3"><title>Discussion</title><p>We have provided an intuitive framework for studying the evolutionary implications of heterogeneous environments. Although much is known independently about the evolution of genetic robustness [<xref rid="pcbi-0010032-b03" ref-type="bibr">3</xref>] and organismal flexibility [<xref rid="pcbi-0010032-b07" ref-type="bibr">7</xref>,<xref rid="pcbi-0010032-b08" ref-type="bibr">8</xref>], this model demonstrates that the extent of environmental variability may determine which of these two states evolves, and suggests the possibility of an intermediate state of heightened mutability. The transition points among the three states will be functions of both the environment and the mutation rate. In particular, increasing (decreasing) the mutation rate (within a moderate range) has the same qualitative effect as increasing (decreasing) the duration of an environmental epoch. As the mutation rate decreases, populations take longer to achieve genetic robustness, and therefore evolve genetic potential (rather than robustness) over large ranges of environmental variability. For example, at a mutation rate of &#x003bc; = 10<sup>&#x02212;5</sup> in the codon model, populations evolve genetic potential when environment varies at rates of 10<sup>1</sup> &#x0003c; &#x003bb; &#x0003c; 10<sup>6</sup> generations, approximately (<xref ref-type="fig" rid="pcbi-0010032-g004">Figure 4</xref>). If the mutation rate increases to &#x003bc; = 10<sup>&#x02212;2</sup>, the qualitative results are similar, with populations evolving genetic potential when the environmental variability is in the more limited range of 10<sup>0</sup> &#x0003c; &#x003bb; &#x0003c; 10<sup>3</sup> generations, approximately. If, instead, the mutation rate decreases to &#x003bc; = 10<sup>&#x02212;9</sup>, then adaptation to genetic robustness proceeds at an exceedingly slow pace, yielding genetic potential throughout the extended range of 10<sup>2</sup> &#x0003c; &#x003bb; &#x0003c; 10<sup>10</sup> generations, approximately. To understand the comparable roles of mutation and environmental variability, note that the model includes three time-dependent processes&#x02014;mutation, environmental change, and population growth. If one of these rates is changed, the other two can be modified to achieve identical system behavior on a shifted time scale. Since the dynamics only weakly depend on the force of selection, we can change the mutation rate and then scale the rate of environmental change to produce the original qualitative results. The connection between environmental variability and mutation has been noted before, with theory predicting that the optimal mutation rate under fluctuating environmental conditions is &#x003bc; = 1/&#x003bb; [<xref rid="pcbi-0010032-b26" ref-type="bibr">26</xref>,<xref rid="pcbi-0010032-b27" ref-type="bibr">27</xref>].</p><p>Our results suggest an alternative perspective on the evolution of mutation rates. Theory suggests that the optimal mutation rate should correspond to the rate of environmental change [<xref rid="pcbi-0010032-b26" ref-type="bibr">26</xref>,<xref rid="pcbi-0010032-b28" ref-type="bibr">28</xref>], yet the extent to which mutation rate can evolve is unclear [<xref rid="pcbi-0010032-b12" ref-type="bibr">12</xref>,<xref rid="pcbi-0010032-b13" ref-type="bibr">13</xref>,<xref rid="pcbi-0010032-b29" ref-type="bibr">29</xref>]. Here we suggest that the genotypic mutation rate need not evolve as long as the phenotypic or effective mutation rate evolves. By evolving toward genotypes with higher genetic potential, populations increase the rate of phenotypically consequential mutations without modifications to the underlying genetic mutational processes.</p><p>We would like to emphasize that our second model is intended as one possible example of fluctuating selection among many thought to exist in nature. Whether or not one has much confidence in the particular evolutionary scenario, the qualitatively similar outcomes for the simple and complex models presented here suggest that the results may hold for a large class of systems in which there is redundancy in the relationship between genotype and phenotype. Hydrophobicity is just one of several physicochemical properties thought to play a role in the shifting functional demands on amino acids [<xref rid="pcbi-0010032-b17" ref-type="bibr">17</xref>&#x02013;<xref rid="pcbi-0010032-b20" ref-type="bibr">20</xref>]. Another example is phase-shifting bacteria that have mutational mechanisms, for example, inversions in promoter regions [<xref rid="pcbi-0010032-b30" ref-type="bibr">30</xref>] and slip-stranded mispairing within microsatellites [<xref rid="pcbi-0010032-b12" ref-type="bibr">12</xref>], that lead to variation in functionally important phenotypes. The remarkable suitability of the phase-shifting variants to the diverse conditions experienced by the bacteria suggests that phase shifting may have evolved as a mechanism for genetic potential. We hypothesize that the major histocompatibility complex (MHC), which is the component of the immune system responsible for recognizing and binding foreign particles, may also have evolved genetic potential as a by-product of the flucuations arising out of coevolution with pathogens [<xref rid="pcbi-0010032-b31" ref-type="bibr">31</xref>]. Studies suggest that several components of the immune system exhibit high overall rates of genetic change. In particular, there are specific amino acid sites within the MHC complex that seem to have experienced rapid evolutionary change [<xref rid="pcbi-0010032-b32" ref-type="bibr">32</xref>]. One possible explanation is that each MHC gene as a whole, and these sites in particular, have a history of rapid adaptation to changing distributions of potential antigens. We therefore predict that such sites may have evolved genetic potential.</p><p>Evolvability has been defined as a population's ability to respond to selection [<xref rid="pcbi-0010032-b06" ref-type="bibr">6</xref>,<xref rid="pcbi-0010032-b33" ref-type="bibr">33</xref>]. Although the term has only recently taken root, ideas concerning the evolution of evolvability itself date back to the Fisher&#x02013;Wright debate over the evolution of dominance [<xref rid="pcbi-0010032-b34" ref-type="bibr">34</xref>,<xref rid="pcbi-0010032-b35" ref-type="bibr">35</xref>] and include the large body of theory on the evolution of mutation rates and recombination [<xref rid="pcbi-0010032-b36" ref-type="bibr">36</xref>,<xref rid="pcbi-0010032-b37" ref-type="bibr">37</xref>]. Developmental biologists have begun to identify genetic architectures that promote diversification [<xref rid="pcbi-0010032-b38" ref-type="bibr">38</xref>] and buffering mechanisms, such as heat shock proteins, that allow the accumulation of cryptic variation [<xref rid="pcbi-0010032-b39" ref-type="bibr">39</xref>]. Although one can think of genetic potential as an abstraction of all mechanisms that increase the likelihood that a mutation will have a phenotypic effect, the genetic potential that evolves in our models is a very simple form of evolvability that exploits redundancy in the map from genotype to phenotype.</p><p>Genetic potential evolves in our models because prior and future environments are identical. If, instead, the environment continually shifts to completely novel states, the evolutionary history of a population may not prepare it for future adaptation. We speculate that some degree of genetic potential may still evolve if there exist genotypes on the periphery of neutral networks with broad phenotypic lability.</p><p>Biologists often refer to phenotypic plasticity, learning, and other forms of organismal flexibility as &#x0201c;adaptations&#x0201d; for coping with environmental heterogeneity [<xref rid="pcbi-0010032-b07" ref-type="bibr">7</xref>,<xref rid="pcbi-0010032-b08" ref-type="bibr">8</xref>]. Should genetic potential be seen as an alternative &#x0201c;solution,&#x0201d; or should it be viewed as simply a product of fluctuating selection? Although we remain agnostic, we note that this question might be asked of all forms of adaptive variation. Whether or not genetic potential should be viewed as an evolved strategy, we emphasize that it is not simply the truncation of the adaptive path a population follows from the equilibrium state in one constant environment to the equilibrium state in the other. In the codon model, intermediate rates of environmental fluctuations push the population into regions of the codon network where genetic potential is consistently higher than the regions of network through which a population crosses after an isolated environmental shift (<xref ref-type="fig" rid="pcbi-0010032-g001">Figures 1</xref>, <xref ref-type="fig" rid="pcbi-0010032-g005">5</xref>, and 6).</p><p>A long-standing technique for identifying selected genes is to compare the frequencies of nonsynonymous and synonymous substitutions <italic>(K<sub>a</sub></italic>/<italic>K<sub>s</sub>)</italic> [<xref rid="pcbi-0010032-b40" ref-type="bibr">40</xref>]. Genes experiencing frequent selective sweeps should have relatively large amounts of variation in sites that modify amino acids. Such genes might be in the process of evolving a new function or, more likely, involved in an evolutionary arms race, for example, epitopes in human pathogens [<xref rid="pcbi-0010032-b31" ref-type="bibr">31</xref>,<xref rid="pcbi-0010032-b41" ref-type="bibr">41</xref>] or genes involved in sperm competition [<xref rid="pcbi-0010032-b42" ref-type="bibr">42</xref>]. In the latter case, our model suggests that, in addition to an elevated <italic>K<sub>a</sub></italic>/<italic>K<sub>s</sub></italic>, such genes should employ a distinct set of codons with high genetic potential. Note that this type of genetic potential is not equivalent to codon bias, but rather implies changes in the actual distribution of amino acids.</p><p>A similar argument also underlies the recent use of codon distributions for detecting genetic loci under directional selection [<xref rid="pcbi-0010032-b43" ref-type="bibr">43</xref>]. Codon volatility&#x02014;the probability that a codon will mutate to a different amino acid class, relative to that probability for all codons in the same amino acid class&#x02014;is a measure of genetic potential. Genes with significantly heightened volatility will be more sensitive to mutation. Our model suggests a different explanation for codon volatility than that presented in [<xref rid="pcbi-0010032-b43" ref-type="bibr">43</xref>]: volatility may indicate a history of fluctuating selection rather than an isolated evolutionary event. If true, then we would not expect the codon distribution to reflect a transient out-of-equilibrium distribution as the population is moving from one constant environment to another [<xref rid="pcbi-0010032-b16" ref-type="bibr">16</xref>]. Instead, we expect the distribution to reflect the stationary level of genetic potential that corresponds to variability in the selective environment for that gene. On a practical level, therefore, the isolated selective sweep model assumed in [<xref rid="pcbi-0010032-b43" ref-type="bibr">43</xref>] may misestimate the expected volatility at such sites. Codon volatility, however, can arise as a by-product of processes other than positive (or fluctuating) selection. It has been noted that codon volatility may instead reflect selection for translation efficiency, relaxed negative selection, strong frequency-dependent selection, an abundance of repetitive DNA, or simple amino acid biases [<xref rid="pcbi-0010032-b44" ref-type="bibr">44</xref>&#x02013;<xref rid="pcbi-0010032-b48" ref-type="bibr">48</xref>]. Therefore, the presence of codon volatility by itself may not be a reliable indicator of either recent directional selection or fluctuating selection.</p><p>We would like to emphasize that the goal of this study was not to develop a new method for detecting positive (or fluctuating) selection, but rather to develop a theoretical framework for considering the multiple outcomes of evolution under fluctuating conditions. We conclude by suggesting an empirical method to identify loci that have evolved genetic potential under such conditions as distinct from those that have experienced a recent selective sweep. Suppose that a gene experiences fluctuations at a characteristic rate across many species. Furthermore, suppose that multiple sites within the gene are influenced by such fluctuations. For example, there may be fluctuating selection for molecular hydropathy, charge, size, or polarity, and several sites within the gene may contribute to these properties. Such sites should evolve in tandem and equilibrate on similar levels of genetic potential, and thus exhibit similar codon (and amino acid) distributions across species. In contrast, if a gene experiences isolated selective sweeps, then the variation at all sites should correspond to both the history of selective events and the species phylogeny, and the amino acid distributions at sites should correlate only when sites functionally mirror each other. Thus, one can seek evidence for the evolution of genetic potential as follows. First, identify genes that are rapidly evolving, perhaps by calculating <italic>K<sub>a</sub></italic>/<italic>K<sub>s</sub></italic> ratios. Such sites have been identified, for example, in human class I MHC genes, the HIV envelop gene, and a gene from a human T cell lymphotropic virus (HTLV-1) [<xref rid="pcbi-0010032-b31" ref-type="bibr">31</xref>,<xref rid="pcbi-0010032-b32" ref-type="bibr">32</xref>]. Within these genes, search for sites for which there is minimal correlation between the species tree and the amino acid distribution. Our model predicts that some of these sites should share similar distributions of amino acids across species.</p></sec><sec id="s4"><title>Materials and Methods</title><sec id="s4a"><title>Mathematical analysis of models.</title><p>For the two models, we calculate the deterministic, infinite population allele frequency distributions in constant and fluctuating environments. Let <bold>M</bold>
+<sub>A</sub> and <bold>M</bold>
+<sub>B</sub> be the normalized transition matrices that govern changes in the allele frequencies in E<sub>A</sub> and E<sub>B</sub> epochs, respectively. The entries in these matrices are defined by equations 2 and 4. The left leading eigenvectors for <bold>M</bold>
+<sub>A</sub> and <bold>M</bold>
+<sub>B</sub> give the equilibrium frequency distributions of alleles in each of the two constant environments, respectively. Under fluctuating conditions with epoch duration of &#x003bb; generations, we iteratively apply the matrices, and then compute the left leading eigenvector of <inline-formula id="pcbi-0010032-m002"><inline-graphic xlink:href="pcbi.0010032.m002.jpg" mimetype="image"/></inline-formula>
+. This vector, which we call <bold><italic>v</italic></bold>
+<sub>B</sub>, gives the allele frequency distribution at the end of an E<sub>A</sub> epoch followed by an E<sub>B</sub> epoch.
+</p><p>We are interested not only in the final allele distributions, but also in the dynamics throughout each epoch. Thus, we calculate the average frequency of each allele across a single E<sub>A</sub> epoch by</p><disp-formula id="pcbi-0010032-e005"><graphic xlink:href="pcbi.0010032.e005.jpg" mimetype="image" position="float"/></disp-formula><p>where <italic>G</italic> is the total number of alleles in the model (<italic>G</italic> = 5 for the simple model and <italic>G</italic> = 64 for the codon model) and the subscript <italic>k</italic> indicates the <italic>k</italic>th entry in the vector. Similarly, the average distribution across an E<sub>B</sub> epoch is given by</p><disp-formula id="pcbi-0010032-e006"><graphic xlink:href="pcbi.0010032.e006.jpg" mimetype="image" position="float"/></disp-formula><p>where <bold><italic>v</italic></bold>
+<sub>A</sub> is the allele frequency distribution at the end of an E<sub>B</sub> epoch followed by an E<sub>A</sub> epoch and is equal to the left leading eigenvalue of <inline-formula id="pcbi-0010032-m003"><inline-graphic xlink:href="pcbi.0010032.m003.jpg" mimetype="image"/></inline-formula>
+</p><p>For the codon model, we compare these calculations that assume a regularly fluctuating environment to numerical simulations that assume a Poisson distribution of epoch lengths. In each generation of the simulations, the environmental state switches with probability 1/&#x003bb; and the codon frequencies are then multiplied by the appropriate transition matrix.</p></sec><sec id="s4b"><title>Proof of 14 unique pentagonal networks.</title><p>We use an elementary group theoretic result known as Burnside's Lemma [<xref rid="pcbi-0010032-b49" ref-type="bibr">49</xref>] to prove that there are 14 distinct mutational networks consisting of five alleles on a pentagon that map to the set of phenotypes {A, B, V} and contain at least one of each specialist phenotype (A and B) (<xref ref-type="fig" rid="pcbi-0010032-g007">Figure 7</xref>). We assume that all rotations and reflections of a network are equivalent to the original network, and that A and B are interchangeable. For example, the six networks with phenotypes -A-A-A-B-B-, -B-A-A-A-B-, -B-B-A-A-A-, -B-B-B-A-A-, -A-B-B-B-A-, and -A-A-B-B-B- are equivalent.</p><fig id="pcbi-0010032-g007" position="float"><label>Figure 7</label><caption><title>Pentagonal Mutational Networks</title><p>These are the 14 possible pentagonal mutational networks consisting of five alleles producing phenotypes A, B, or V, with at least one encoding A and one encoding B.</p></caption><graphic xlink:href="pcbi.0010032.g007"/></fig><p>Let <italic>X</italic> be the set of all pentagons with vertices labeled {A, B, V} having at least one A vertex and at least one B vertex. The size of <italic>X</italic> is the number of all pentagons with labels {A, B, V} minus the number of pentagons with labels {A, V} or {B, V}, that is, |<italic>X</italic>| = 3<sup>5</sup> &#x02212; (2 &#x000b7; 2<sup>5</sup> &#x02212; 1) = 180.</p><p>We define the group <italic>G</italic> of all actions on <italic>X</italic> that produce equivalent pentagons (as specified above). <italic>G</italic> is made up of (1) the identity, (2) the four rotations and five reflections of the pentagon, (3) interchanging all As and Bs, and (4) all the combinations of the above actions. Thus <italic>G</italic> is equal to the 20-member group {&#x003b9;, &#x003c1;, &#x003c1;<sup>2</sup>, &#x003c1;<sup>3</sup>, &#x003c1;<sup>4</sup>, &#x003c3;<sub>0</sub>, &#x003c3;<sub>1</sub>, &#x003c3;<sub>2</sub>, &#x003c3;<sub>3</sub>, &#x003c3;<sub>4</sub>, &#x003b1;, &#x003b1;&#x003c1;, &#x003b1;&#x003c1;<sup>2</sup>, &#x003b1;&#x003c1;<sup>3</sup>, &#x003b1;&#x003c1;<sup>4</sup>, &#x003b1;&#x003c3;<sub>0</sub>, &#x003b1;&#x003c3;<sub>1</sub>, &#x003b1;&#x003c3;<sub>2</sub>, &#x003b1;&#x003c3;<sub>3</sub>, &#x003b1;&#x003c3;<sub>4</sub>} where &#x003b9; is the identity, &#x003c1; is a single (72&#x000b0;) rotation, &#x003c3;<italic><sub>i</sub></italic> is a reflection through vertex <italic>i,</italic> and &#x003b1; is replacement of all As with Bs and all Bs with As. (Note that the reflections are rotations of each other, for example, &#x003c1;<sup>2</sup>&#x003c3;<sub>0</sub> = &#x003c3;<sub>1</sub>.)</p><p>The number of distinct mutational networks is equal to the number of orbits of <italic>G</italic> on <italic>X</italic>. Burnside's Lemma tells us that this number is</p><disp-formula id="pcbi-0010032-e007"><graphic xlink:href="pcbi.0010032.e007.jpg" mimetype="image" position="float"/></disp-formula><p>where <italic>F</italic>(<italic>g</italic>) = {<italic>x</italic> &#x02208; <italic>X</italic> | <italic>gx</italic> = <italic>x</italic>} is the set of fixed points of <italic>g</italic>. For each of the twenty elements of <italic>G</italic>, we exhaustively count <italic>F</italic>(<italic>g</italic>).</p><p>The identity fixes all elements of <italic>X,</italic> that is, <italic>F</italic>(&#x003b9;) = <italic>X</italic>. Each of the various rotations of a pentagon (through 72&#x000b0;, 144&#x000b0;, 216&#x000b0;, and 288&#x000b0;) has the property that its iterations move a given vertex to every other vertex of the pentagon without changing the letter assigned to that vertex. The same is true of the square of the product of any rotation and an A&#x02013;B flip. Hence, any fixed point of one of these elements of the group <italic>G</italic> would necessarily have the same label at each vertex of the pentagon. Since every labeled pentagon in <italic>X</italic> has at least one A label and at least one B label, then no element of <italic>X</italic> has the same label at each vertex. Thus, the fixed point set of every rotation and of every product of a rotation and an A&#x02013;B flip must be empty, that is, <italic>F</italic>(&#x003c1;<italic><sup>n</sup></italic>) = <italic>F</italic>(&#x003b1;&#x003c1;<italic><sup>n</sup></italic>) = &#x02205;&#x0fe00; for all <italic>n</italic>. By a similar argument, the simple A&#x02013;B flip also has no fixed points. Every reflection fixes 12 elements of <italic>X,</italic> for example,</p><disp-formula id="pcbi-0010032-e008"><graphic xlink:href="pcbi.0010032.e008.jpg" mimetype="image" position="float"/></disp-formula><p>and every product of a reflection and an A&#x02013;B flip fixes eight elements of <italic>X,</italic> for example,</p><disp-formula id="pcbi-0010032-e009"><graphic xlink:href="pcbi.0010032.e009.jpg" mimetype="image" position="float"/></disp-formula><p>In sum, all eight group elements that involve rotations fix no elements of <italic>X,</italic> all five reflections fix 12 elements of <italic>X,</italic> and all five combinations of a reflection and an A&#x02013;B exchange fix eight elements of <italic>X</italic>. Thus,</p><disp-formula id="pcbi-0010032-e010"><graphic xlink:href="pcbi.0010032.e010.jpg" mimetype="image" position="float"/></disp-formula></sec></sec></body><back><ack><p>We thank Carl Bergstrom and Jim Bull for their valuable insights and comments on the manuscript.</p></ack><fn-group><fn id="ack1" fn-type="COI-statement"><p>
+<bold>Competing interests</bold>. The authors have declared that no competing interests exist.</p></fn><fn id="ack2" fn-type="con"><p>
+<bold>Author contributions</bold>. LAM and ML conceived and designed the experiments. LAM performed the experiments. LAM, FDA, and ML analyzed the data and contributed reagents/materials/analysis tools. LAM and ML wrote the paper.</p></fn></fn-group><glossary><title>Abbreviation</title><def-list><def-item><term>MHC</term><def><p>major histocompatibility</p></def></def-item></def-list></glossary><ref-list><title>References</title><ref id="pcbi-0010032-b01"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Huynen</surname><given-names>MA</given-names></name><name><surname>Stadler</surname><given-names>PF</given-names></name><name><surname>Fontana</surname><given-names>W</given-names></name></person-group>
+<year>1996</year>
+<article-title>Smoothness within ruggedness: The role of neutrality in adaptation</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>93</volume>
+<fpage>397</fpage>
+<lpage>401</lpage>
+<pub-id pub-id-type="pmid">8552647</pub-id></element-citation></ref><ref id="pcbi-0010032-b02"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>van Nimwegen</surname><given-names>E</given-names></name><name><surname>Crutchfield</surname><given-names>JP</given-names></name><name><surname>Huynen</surname><given-names>MA</given-names></name></person-group>
+<year>1999</year>
+<article-title>Neutral evolution of mutational robustness</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>96</volume>
+<fpage>9716</fpage>
+<lpage>9720</lpage>
+<pub-id pub-id-type="pmid">10449760</pub-id></element-citation></ref><ref id="pcbi-0010032-b03"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>De Visser</surname><given-names>JAGM</given-names></name><name><surname>Hermisson</surname><given-names>J</given-names></name><name><surname>Wagner</surname><given-names>GP</given-names></name><name><surname>Meyers</surname><given-names>LA</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>Perspective: Evolution and detection of genetic robustness</article-title>
+<source>Evolution</source>
+<volume>57</volume>
+<fpage>1959</fpage>
+<lpage>1972</lpage>
+<pub-id pub-id-type="pmid">14575319</pub-id></element-citation></ref><ref id="pcbi-0010032-b04"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Krakauer</surname><given-names>DC</given-names></name><name><surname>Plotkin</surname><given-names>JB</given-names></name></person-group>
+<year>2002</year>
+<article-title>Redundancy, antiredundancy, and the robustness of genomes</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>99</volume>
+<fpage>1405</fpage>
+<lpage>1409</lpage>
+<pub-id pub-id-type="pmid">11818563</pub-id></element-citation></ref><ref id="pcbi-0010032-b05"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ancel</surname><given-names>LW</given-names></name><name><surname>Fontana</surname><given-names>W</given-names></name></person-group>
+<year>2000</year>
+<article-title>Plasticity, evolvability, and modularity in RNA</article-title>
+<source>J Exp Zool</source>
+<volume>288</volume>
+<fpage>242</fpage>
+<lpage>283</lpage>
+<pub-id pub-id-type="pmid">11069142</pub-id></element-citation></ref><ref id="pcbi-0010032-b06"><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Schlichting</surname><given-names>C</given-names></name><name><surname>Murren</surname><given-names>C</given-names></name></person-group>
+<year>2004</year>
+<article-title>Evolvability and the raw materials for adaptation</article-title>
+<person-group person-group-type="editor"><name><surname>Taylor</surname><given-names>I</given-names></name></person-group>
+<source>Plant adaptation: Molecular biology and ecology</source>
+<publisher-loc>Vancouver</publisher-loc>
+<publisher-name>NRC Canada Research Press</publisher-name>
+<fpage>18</fpage>
+<lpage>29</lpage>
+</element-citation></ref><ref id="pcbi-0010032-b07"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Meyers</surname><given-names>LA</given-names></name><name><surname>Bull</surname><given-names>JJ</given-names></name></person-group>
+<year>2002</year>
+<article-title>Fighting change with change: Adaptive variation in an uncertain world</article-title>
+<source>Trends Ecol Evol</source>
+<volume>17</volume>
+<fpage>551</fpage>
+<lpage>557</lpage>
+</element-citation></ref><ref id="pcbi-0010032-b08"><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Schlichting</surname><given-names>CD</given-names></name><name><surname>Pigliucci</surname><given-names>M</given-names></name></person-group>
+<year>1998</year>
+<source>Phenotypic evolution&#x02014;A reaction norm perspective</source>
+<publisher-loc>Sunderland (Massachusetts)</publisher-loc>
+<publisher-name>Sinauer Associates</publisher-name>
+<size units="page">387</size>
+<comment>p.</comment>
+</element-citation></ref><ref id="pcbi-0010032-b09"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ancel</surname><given-names>LW</given-names></name></person-group>
+<year>1999</year>
+<article-title>A quantitative model of the Simpson-Baldwin effect</article-title>
+<source>J Theor Biol</source>
+<volume>196</volume>
+<fpage>197</fpage>
+<lpage>209</lpage>
+<pub-id pub-id-type="pmid">9990740</pub-id></element-citation></ref><ref id="pcbi-0010032-b10"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kawecki</surname><given-names>TJ</given-names></name></person-group>
+<year>2000</year>
+<article-title>The evolution of genetic canalization under fluctuating selection</article-title>
+<source>Evolution</source>
+<volume>54</volume>
+<fpage>1</fpage>
+<lpage>12</lpage>
+<pub-id pub-id-type="pmid">10937177</pub-id></element-citation></ref><ref id="pcbi-0010032-b11"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bull</surname><given-names>JJ</given-names></name></person-group>
+<year>1987</year>
+<article-title>Evolution of phenotypic variance</article-title>
+<source>Evolution</source>
+<volume>41</volume>
+<fpage>303</fpage>
+<lpage>315</lpage>
+</element-citation></ref><ref id="pcbi-0010032-b12"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Moxon</surname><given-names>ER</given-names></name><name><surname>Rainey</surname><given-names>PB</given-names></name><name><surname>Nowak</surname><given-names>MA</given-names></name><name><surname>Lenski</surname><given-names>RE</given-names></name></person-group>
+<year>1994</year>
+<article-title>Adaptive evolution of highly mutable loci in pathogenic bacteria</article-title>
+<source>Curr Biol</source>
+<volume>4</volume>
+<fpage>24</fpage>
+<lpage>33</lpage>
+<pub-id pub-id-type="pmid">7922307</pub-id></element-citation></ref><ref id="pcbi-0010032-b13"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Miller</surname><given-names>JH</given-names></name></person-group>
+<year>1998</year>
+<article-title>Mutators in <italic>Escherichia coli</italic>
+</article-title>
+<source>Mutat Res</source>
+<volume>409</volume>
+<fpage>99</fpage>
+<lpage>106</lpage>
+<pub-id pub-id-type="pmid">9875286</pub-id></element-citation></ref><ref id="pcbi-0010032-b14"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Baldwin</surname><given-names>JM</given-names></name></person-group>
+<year>1896</year>
+<article-title>A new factor in evolution</article-title>
+<source>Am Nat</source>
+<volume>30</volume>
+<fpage>441</fpage>
+<lpage>451</lpage>
+</element-citation></ref><ref id="pcbi-0010032-b15"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fontana</surname><given-names>W</given-names></name><name><surname>Schuster</surname><given-names>P</given-names></name></person-group>
+<year>1998</year>
+<article-title>Continuity in evolution: On the nature of transitions</article-title>
+<source>Science</source>
+<volume>280</volume>
+<fpage>1451</fpage>
+<lpage>1455</lpage>
+<pub-id pub-id-type="pmid">9603737</pub-id></element-citation></ref><ref id="pcbi-0010032-b16"><element-citation publication-type="other">
+<person-group person-group-type="author"><name><surname>Plotkin</surname><given-names>J</given-names></name><name><surname>Dushoff</surname><given-names>J</given-names></name><name><surname>Deasai</surname><given-names>M</given-names></name><name><surname>Fraser</surname><given-names>H</given-names></name></person-group>
+<year>2004</year>
+<source>Synonymous codon usage and selection on proteins. Arxiv.org E-Print Archives</source>
+<comment>Available: <ext-link ext-link-type="uri" xlink:href="http://arxiv.org/PS_cache/q-bio/pdf/0410/0410013.pdf">http://arxiv.org/PS_cache/q-bio/pdf/0410/0410013.pdf</ext-link>. Accessed 3 August 2005.</comment>
+</element-citation></ref><ref id="pcbi-0010032-b17"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yang</surname><given-names>W</given-names></name><name><surname>Bielawski</surname><given-names>JP</given-names></name><name><surname>Yang</surname><given-names>Z</given-names></name></person-group>
+<year>2003</year>
+<article-title>Widespread adaptive evolution in the human immunodeficiency virus type 1 genome</article-title>
+<source>J Mol Evol</source>
+<volume>57</volume>
+<fpage>212</fpage>
+<lpage>221</lpage>
+<pub-id pub-id-type="pmid">14562964</pub-id></element-citation></ref><ref id="pcbi-0010032-b18"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bush</surname><given-names>R</given-names></name><name><surname>Bender</surname><given-names>C</given-names></name><name><surname>Subbarao</surname><given-names>K</given-names></name><name><surname>Cox</surname><given-names>N</given-names></name><name><surname>Fitch</surname><given-names>W</given-names></name></person-group>
+<year>1999</year>
+<article-title>Predicting the evolution of human influenza A</article-title>
+<source>Science</source>
+<volume>286</volume>
+<fpage>1921</fpage>
+<lpage>1925</lpage>
+<pub-id pub-id-type="pmid">10583948</pub-id></element-citation></ref><ref id="pcbi-0010032-b19"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Crill</surname><given-names>WD</given-names></name><name><surname>Wichman</surname><given-names>HA</given-names></name><name><surname>Bull</surname><given-names>JJ</given-names></name></person-group>
+<year>2000</year>
+<article-title>Evolutionary reversals during viral adaptation to alternating hosts</article-title>
+<source>Genetics</source>
+<volume>154</volume>
+<fpage>27</fpage>
+<lpage>37</lpage>
+<pub-id pub-id-type="pmid">10628966</pub-id></element-citation></ref><ref id="pcbi-0010032-b20"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Matsumura</surname><given-names>I</given-names></name><name><surname>Ellington</surname><given-names>AD</given-names></name></person-group>
+<year>2001</year>
+<article-title>In vitro evolution of beta-glucuronidase into a beta-galactosidase proceeds through non-specific intermediates</article-title>
+<source>J Mol Biol</source>
+<volume>305</volume>
+<fpage>331</fpage>
+<lpage>339</lpage>
+<pub-id pub-id-type="pmid">11124909</pub-id></element-citation></ref><ref id="pcbi-0010032-b21"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kyte</surname><given-names>J</given-names></name><name><surname>Doolittle</surname><given-names>RF</given-names></name></person-group>
+<year>1982</year>
+<article-title>A simple method for displaying the hydropathic character of a protein</article-title>
+<source>J Mol Biol</source>
+<volume>157</volume>
+<fpage>105</fpage>
+<lpage>132</lpage>
+<pub-id pub-id-type="pmid">7108955</pub-id></element-citation></ref><ref id="pcbi-0010032-b22"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Eigen</surname><given-names>M</given-names></name><name><surname>McCaskill</surname><given-names>JS</given-names></name><name><surname>Schuster</surname><given-names>P</given-names></name></person-group>
+<year>1989</year>
+<article-title>The molecular quasispecies</article-title>
+<source>Adv Chem Phys</source>
+<volume>75</volume>
+<fpage>149</fpage>
+<lpage>263</lpage>
+</element-citation></ref><ref id="pcbi-0010032-b23"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wagner</surname><given-names>GP</given-names></name><name><surname>Booth</surname><given-names>G</given-names></name><name><surname>Bagheri-Chaichian</surname><given-names>H</given-names></name></person-group>
+<year>1997</year>
+<article-title>A population genetic theory of canalization</article-title>
+<source>Evolution</source>
+<volume>51</volume>
+<fpage>329</fpage>
+<lpage>347</lpage>
+</element-citation></ref><ref id="pcbi-0010032-b24"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wagner</surname><given-names>A</given-names></name><name><surname>Stadler</surname><given-names>PF</given-names></name></person-group>
+<year>1999</year>
+<article-title>Viral RNA and evolved mutational robustness</article-title>
+<source>J Exp Zool</source>
+<volume>285</volume>
+<fpage>119</fpage>
+<lpage>127</lpage>
+<pub-id pub-id-type="pmid">10440723</pub-id></element-citation></ref><ref id="pcbi-0010032-b25"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dempster</surname><given-names>E</given-names></name></person-group>
+<year>1955</year>
+<article-title>Maintenance of genetic heterogeneity</article-title>
+<source>Cold Spring Harb Symp Quant Biol</source>
+<volume>20</volume>
+<fpage>25</fpage>
+<lpage>32</lpage>
+<pub-id pub-id-type="pmid">13433552</pub-id></element-citation></ref><ref id="pcbi-0010032-b26"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lachmann</surname><given-names>M</given-names></name><name><surname>Jablonka</surname><given-names>E</given-names></name></person-group>
+<year>1996</year>
+<article-title>The inheritance of phenotypes: An adaptation to fluctuating environments</article-title>
+<source>J Theor Biol</source>
+<volume>181</volume>
+<fpage>1</fpage>
+<lpage>9</lpage>
+<pub-id pub-id-type="pmid">8796186</pub-id></element-citation></ref><ref id="pcbi-0010032-b27"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Leigh</surname><given-names>EG</given-names></name></person-group>
+<year>1973</year>
+<article-title>The evolution of mutation rates</article-title>
+<source>Genetics</source>
+<volume>73</volume>
+<fpage>1</fpage>
+<lpage>18</lpage>
+<pub-id pub-id-type="pmid">4265784</pub-id></element-citation></ref><ref id="pcbi-0010032-b28"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Meyers</surname><given-names>LA</given-names></name><name><surname>Levin</surname><given-names>BR</given-names></name><name><surname>Richardson</surname><given-names>AR</given-names></name><name><surname>Stojiljkovic</surname><given-names>I</given-names></name></person-group>
+<year>2003</year>
+<article-title>Epidemiology, hypermutation, within-host evolution, and the virulence of <italic>Neisseria meningitidis</italic>
+</article-title>
+<source>Proc R Soc Lond B Biol Sci</source>
+<volume>270</volume>
+<fpage>1667</fpage>
+<lpage>1677</lpage>
+</element-citation></ref><ref id="pcbi-0010032-b29"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Drake</surname><given-names>JW</given-names></name><name><surname>Charlesworth</surname><given-names>B</given-names></name><name><surname>Charlesworth</surname><given-names>D</given-names></name><name><surname>Crow</surname><given-names>JF</given-names></name></person-group>
+<year>1998</year>
+<article-title>Rates of spontaneous mutation</article-title>
+<source>Genetics</source>
+<volume>148</volume>
+<fpage>1667</fpage>
+<lpage>1686</lpage>
+<pub-id pub-id-type="pmid">9560386</pub-id></element-citation></ref><ref id="pcbi-0010032-b30"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lederberg</surname><given-names>J</given-names></name><name><surname>Iino</surname><given-names>T</given-names></name></person-group>
+<year>1956</year>
+<article-title>Phase variation in salmonella</article-title>
+<source>Genetics</source>
+<volume>41</volume>
+<fpage>743</fpage>
+<lpage>757</lpage>
+<pub-id pub-id-type="pmid">17247660</pub-id></element-citation></ref><ref id="pcbi-0010032-b31"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nielsen</surname><given-names>R</given-names></name><name><surname>Yang</surname><given-names>Z</given-names></name></person-group>
+<year>1998</year>
+<article-title>Likelihood models for detecting positively selected amino acid sites and applications to the HIV-1 envelope gene</article-title>
+<source>Genetics</source>
+<volume>148</volume>
+<fpage>929</fpage>
+<lpage>936</lpage>
+<pub-id pub-id-type="pmid">9539414</pub-id></element-citation></ref><ref id="pcbi-0010032-b32"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yang</surname><given-names>Z</given-names></name><name><surname>Wong</surname><given-names>WSW</given-names></name><name><surname>Nielsen</surname><given-names>R</given-names></name></person-group>
+<year>2005</year>
+<article-title>Bayes empirical Bayes inference of amino acid sites under positive selection</article-title>
+<source>Mol Biol Evol</source>
+<volume>22</volume>
+<fpage>1107</fpage>
+<lpage>1118</lpage>
+<pub-id pub-id-type="pmid">15689528</pub-id></element-citation></ref><ref id="pcbi-0010032-b33"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wagner</surname><given-names>GP</given-names></name><name><surname>Altenberg</surname><given-names>L</given-names></name></person-group>
+<year>1996</year>
+<article-title>Perspective: Complex adaptations and the evolution of evolvability</article-title>
+<source>Evolution</source>
+<volume>50</volume>
+<fpage>967</fpage>
+<lpage>976</lpage>
+</element-citation></ref><ref id="pcbi-0010032-b34"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fisher</surname><given-names>RA</given-names></name></person-group>
+<year>1922</year>
+<article-title>On the dominance ratio</article-title>
+<source>Proc R Soc Edinb</source>
+<volume>42</volume>
+<fpage>321</fpage>
+<lpage>341</lpage>
+</element-citation></ref><ref id="pcbi-0010032-b35"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wright</surname><given-names>S</given-names></name></person-group>
+<year>1934</year>
+<article-title>Physiological and evolutionary theories of dominance</article-title>
+<source>Am Nat</source>
+<volume>68</volume>
+<fpage>24</fpage>
+<lpage>53</lpage>
+</element-citation></ref><ref id="pcbi-0010032-b36"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sniegowski</surname><given-names>PD</given-names></name><name><surname>Gerrish</surname><given-names>PJ</given-names></name><name><surname>Johnson</surname><given-names>T</given-names></name><name><surname>Shaver</surname><given-names>A</given-names></name></person-group>
+<year>2000</year>
+<article-title>The evolution of mutation rates: Separating causes from consequences</article-title>
+<source>Bioessays</source>
+<volume>22</volume>
+<fpage>1057</fpage>
+<lpage>1066</lpage>
+<pub-id pub-id-type="pmid">11084621</pub-id></element-citation></ref><ref id="pcbi-0010032-b37"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Feldman</surname><given-names>MW</given-names></name><name><surname>Otto</surname><given-names>SP</given-names></name><name><surname>Christiansen</surname><given-names>FB</given-names></name></person-group>
+<year>1997</year>
+<article-title>Population genetic perspectives on the evolution of recombinations</article-title>
+<source>Annu Rev Genet</source>
+<volume>30</volume>
+<fpage>261</fpage>
+<lpage>295</lpage>
+</element-citation></ref><ref id="pcbi-0010032-b38"><element-citation publication-type="book">
+<person-group person-group-type="editor"><name><surname>Schlosser</surname><given-names>G</given-names></name><name><surname>Wagner</surname><given-names>GP</given-names></name></person-group>
+<year>2004</year>
+<source>Modularity in development and evolution</source>
+<publisher-loc>Chicago</publisher-loc>
+<publisher-name>University of Chicago Press</publisher-name>
+<size units="page">600</size>
+<comment>p.</comment>
+</element-citation></ref><ref id="pcbi-0010032-b39"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rutherford</surname><given-names>SL</given-names></name><name><surname>Lindquist</surname><given-names>S</given-names></name></person-group>
+<year>1998</year>
+<article-title>Hsp90 as a capacitor for morphological evolution</article-title>
+<source>Nature</source>
+<volume>396</volume>
+<fpage>336</fpage>
+<lpage>342</lpage>
+<pub-id pub-id-type="pmid">9845070</pub-id></element-citation></ref><ref id="pcbi-0010032-b40"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yang</surname><given-names>Z</given-names></name><name><surname>Bielawski</surname><given-names>J</given-names></name></person-group>
+<year>2000</year>
+<article-title>Statistical methods for detecting molecular adaptation</article-title>
+<source>Trends Ecol Evol</source>
+<volume>15</volume>
+<fpage>496</fpage>
+<lpage>503</lpage>
+<pub-id pub-id-type="pmid">11114436</pub-id></element-citation></ref><ref id="pcbi-0010032-b41"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Endo</surname><given-names>T</given-names></name><name><surname>Ikeo</surname><given-names>K</given-names></name><name><surname>Gojobori</surname><given-names>T</given-names></name></person-group>
+<year>1996</year>
+<article-title>Large-scale search for genes on which positive selection may operate</article-title>
+<source>Mol Biol Evol</source>
+<volume>13</volume>
+<fpage>685</fpage>
+<lpage>690</lpage>
+<pub-id pub-id-type="pmid">8676743</pub-id></element-citation></ref><ref id="pcbi-0010032-b42"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Torgerson</surname><given-names>DG</given-names></name><name><surname>Kulathinal</surname><given-names>RJ</given-names></name><name><surname>Singh</surname><given-names>RS</given-names></name></person-group>
+<year>2002</year>
+<article-title>Mammalian sperm proteins are rapidly evolving: Evidence of positive selection in functionally diverse genes</article-title>
+<source>Mol Biol Evol</source>
+<volume>19</volume>
+<fpage>1973</fpage>
+<lpage>1980</lpage>
+<pub-id pub-id-type="pmid">12411606</pub-id></element-citation></ref><ref id="pcbi-0010032-b43"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Plotkin</surname><given-names>JB</given-names></name><name><surname>Dushoff</surname><given-names>J</given-names></name><name><surname>Fraser</surname><given-names>HB</given-names></name></person-group>
+<year>2004</year>
+<article-title>Detecting selection using a single genome sequence of <italic>M. tuberculosis</italic> and <italic>P. falciparum</italic>
+</article-title>
+<source>Nature</source>
+<volume>428</volume>
+<fpage>942</fpage>
+<lpage>945</lpage>
+<pub-id pub-id-type="pmid">15118727</pub-id></element-citation></ref><ref id="pcbi-0010032-b44"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dagan</surname><given-names>T</given-names></name><name><surname>Graur</surname><given-names>D</given-names></name></person-group>
+<year>2005</year>
+<article-title>The comparative method rules! Codon volatility cannot detect positive Darwinian selection using a single genome sequence</article-title>
+<source>Mol Biol Evol</source>
+<volume>22</volume>
+<fpage>496</fpage>
+<lpage>500</lpage>
+<pub-id pub-id-type="pmid">15525696</pub-id></element-citation></ref><ref id="pcbi-0010032-b45"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hahn</surname><given-names>MW</given-names></name><name><surname>Mezey</surname><given-names>JG</given-names></name><name><surname>Begun</surname><given-names>DJ</given-names></name><name><surname>Gillespie</surname><given-names>JH</given-names></name><name><surname>Kern</surname><given-names>AD</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Evolutionary genomics: Codon bias and selection on single genomes</article-title>
+<source>Nature</source>
+<volume>433</volume>
+<fpage>E5</fpage>
+<lpage>E6</lpage>
+<pub-id pub-id-type="pmid">15662370</pub-id></element-citation></ref><ref id="pcbi-0010032-b46"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nielsen</surname><given-names>R</given-names></name><name><surname>Hubisz</surname><given-names>MJ</given-names></name></person-group>
+<year>2005</year>
+<article-title>Evolutionary genomics: Detecting selection needs comparative data</article-title>
+<source>Nature</source>
+<volume>433</volume>
+<fpage>E6</fpage>
+</element-citation></ref><ref id="pcbi-0010032-b47"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sharp</surname><given-names>PM</given-names></name></person-group>
+<year>2005</year>
+<article-title>Gene &#x0201c;volatility&#x0201d; is most unlikely to reveal adaptation</article-title>
+<source>Mol Biol Evol</source>
+<volume>22</volume>
+<fpage>807</fpage>
+<lpage>809</lpage>
+<pub-id pub-id-type="pmid">15616138</pub-id></element-citation></ref><ref id="pcbi-0010032-b48"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zhang</surname><given-names>J</given-names></name></person-group>
+<year>2005</year>
+<article-title>On the evolution of codon volatility</article-title>
+<source>Genetics</source>
+<volume>169</volume>
+<fpage>495</fpage>
+<lpage>501</lpage>
+<pub-id pub-id-type="pmid">15466418</pub-id></element-citation></ref><ref id="pcbi-0010032-b49"><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Martin</surname><given-names>G</given-names></name></person-group>
+<year>2001</year>
+<source>Counting: The art of enumerative combinatorics</source>
+<publisher-loc>New York</publisher-loc>
+<publisher-name>Springer-Verlag</publisher-name>
+</element-citation></ref><ref id="pcbi-0010032-b50"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Batagelj</surname><given-names>V</given-names></name><name><surname>Mrvar</surname><given-names>A</given-names></name></person-group>
+<year>1998</year>
+<article-title>PAJEK&#x02014;Program for large network analysis</article-title>
+<source>Connections</source>
+<volume>21</volume>
+<fpage>47</fpage>
+<lpage>57</lpage>
+</element-citation></ref></ref-list></back></article>

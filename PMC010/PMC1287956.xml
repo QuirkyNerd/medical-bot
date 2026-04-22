@@ -1,0 +1,537 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS Genet</journal-id><journal-id journal-id-type="iso-abbrev">PLoS Genet</journal-id><journal-id journal-id-type="publisher-id">pgen</journal-id><journal-id journal-id-type="publisher-id">plge</journal-id><journal-id journal-id-type="pmc">plosgen</journal-id><journal-title-group><journal-title>PLoS Genetics</journal-title></journal-title-group><issn pub-type="ppub">1553-7390</issn><issn pub-type="epub">1553-7404</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">16311627</article-id><article-id pub-id-type="pmc">PMC1287956</article-id><article-id pub-id-type="doi">10.1371/journal.pgen.0010069</article-id><article-id pub-id-type="sici">plge-01-05-12</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title>Increased Life Span due to Calorie Restriction in Respiratory-Deficient Yeast</article-title><alt-title alt-title-type="running-head">Calorie Restriction in Yeast</alt-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Kaeberlein</surname><given-names>Matt</given-names></name><xref ref-type="aff" rid="aff1">1</xref><xref ref-type="corresp" rid="cor1">*</xref></contrib><contrib contrib-type="author"><name><surname>Hu</surname><given-names>Di</given-names></name><xref ref-type="aff" rid="aff2">2</xref></contrib><contrib contrib-type="author"><name><surname>Kerr</surname><given-names>Emily O</given-names></name><xref ref-type="aff" rid="aff2">2</xref></contrib><contrib contrib-type="author"><name><surname>Tsuchiya</surname><given-names>Mitsuhiro</given-names></name><xref ref-type="aff" rid="aff2">2</xref></contrib><contrib contrib-type="author"><name><surname>Westman</surname><given-names>Eric A</given-names></name><xref ref-type="aff" rid="aff2">2</xref></contrib><contrib contrib-type="author"><name><surname>Dang</surname><given-names>Nick</given-names></name><xref ref-type="aff" rid="aff2">2</xref></contrib><contrib contrib-type="author"><name><surname>Fields</surname><given-names>Stanley</given-names></name><xref ref-type="aff" rid="aff1">1</xref><xref ref-type="aff" rid="aff3">3</xref></contrib><contrib contrib-type="author"><name><surname>Kennedy</surname><given-names>Brian K</given-names></name><xref ref-type="aff" rid="aff2">2</xref><xref ref-type="corresp" rid="cor1">*</xref></contrib></contrib-group><aff id="aff1"><label>1</label> Departments of Genome Sciences and Medicine, University of Washington, Seattle, Washington, United States of America
+</aff><aff id="aff2"><label>2</label> Department of Biochemistry, University of Washington, Seattle, Washington, United States of America
+</aff><aff id="aff3"><label>3</label> Howard Hughes Medical Institute, University of Washington, Seattle, Washington, United States of America
+</aff><contrib-group><contrib contrib-type="editor"><name><surname>Kim</surname><given-names>Stuart</given-names></name><role>Editor</role><xref ref-type="aff" rid="edit1"/></contrib></contrib-group><aff id="edit1">Stanford University School of Medicine, United States of America</aff><author-notes><corresp id="cor1">*To whom correspondence should be addressed. E-mail: <email>kaeber@u.washington.edu</email> (MK), <email>bkenn@u.washington.edu</email> (BKK)</corresp></author-notes><pub-date pub-type="ppub"><month>11</month><year>2005</year></pub-date><pub-date pub-type="epub"><day>25</day><month>11</month><year>2005</year></pub-date><pub-date pub-type="epreprint"><day>25</day><month>10</month><year>2005</year></pub-date><volume>1</volume><issue>5</issue><elocation-id>e69</elocation-id><history><date date-type="received"><day>7</day><month>7</month><year>2005</year></date><date date-type="accepted"><day>24</day><month>10</month><year>2005</year></date></history><permissions><copyright-statement>Copyright: &#x000a9; 2005 Kaeberlein et al.</copyright-statement><copyright-year>2005</copyright-year><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p></license></permissions><!--<related-article preprintresearch10.1371/journal.pgen.0010069.eorsimple>
+				        Increased Life Span due to Calorie Restriction in Respiratory-Deficient Yeast 
+			      </related-article>--><abstract><p>A model for replicative life span extension by calorie restriction (CR) in yeast has been proposed whereby reduced glucose in the growth medium leads to activation of the NAD<sup>+</sup>&#x02013;dependent histone deacetylase Sir2. One mechanism proposed for this putative activation of Sir2 is that CR enhances the rate of respiration, in turn leading to altered levels of NAD<sup>+</sup> or NADH, and ultimately resulting in enhanced Sir2 activity. An alternative mechanism has been proposed in which CR decreases levels of the Sir2 inhibitor nicotinamide through increased expression of the gene coding for nicotinamidase, <italic>PNC1</italic>. We have previously reported that life span extension by CR is not dependent on Sir2 in the long-lived BY4742 strain background. Here we have determined the requirement for respiration and the effect of nicotinamide levels on life span extension by CR. We find that CR confers robust life span extension in respiratory-deficient cells independent of strain background, and moreover, suppresses the premature mortality associated with loss of mitochondrial DNA in the short-lived PSY316 strain. Addition of nicotinamide to the medium dramatically shortens the life span of wild type cells, due to inhibition of Sir2. However, even in cells lacking both Sir2 and the replication fork block protein Fob1, nicotinamide partially prevents life span extension by CR. These findings (1) demonstrate that respiration is not required for the longevity benefits of CR in yeast, (2) show that nicotinamide inhibits life span extension by CR through a Sir2-independent mechanism, and (3) suggest that CR acts through a conserved, Sir2-independent mechanism in both PSY316 and BY4742.</p></abstract><abstract abstract-type="synopsis"><title>Synopsis</title><p>Calorie restriction slows aging and increases life span in nearly every organism studied. The mechanism by which this occurs is one of the most important unanswered questions in biogerontology. One popular theory, based on work from the budding yeast <italic>Saccharomyces cerevisiae,</italic> proposes that calorie restriction works by causing a metabolic shift toward increased mitochondrial respiration, resulting in activation of a family of proteins known as Sirtuins. This study demonstrates that life span extension by calorie restriction does not require respiration and occurs even in cells completely lacking mitochondrial DNA. Interestingly, calorie restriction protects yeast cells against a severe longevity defect associated with absence of mitochondrial DNA, suggesting the possibility that the consequences of age-associated mitochondrial dysfunction might be alleviated or prevented by calorie restriction.</p></abstract><counts><page-count count="8"/></counts><custom-meta-group><custom-meta><meta-name>Citation:</meta-name><meta-value>Kaeberlein M, Hu D, Kerr EO, Tsuchiya M, Westman EA, et al. (2005) Increased life span due to calorie restriction in respiratory-deficient yeast. PLoS Genet 1(5): e69.</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec id="s1"><title>Introduction</title><p>Calorie restriction (CR) has been shown to slow aging in evolutionarily divergent species, including yeast, worms, flies, and rodents [<xref rid="pgen-0010069-b001" ref-type="bibr">1</xref>&#x02013;<xref rid="pgen-0010069-b005" ref-type="bibr">5</xref>]. In addition to increasing longevity, CR is reported to cause additional phenotypes, including increased resistance to oxidative stress [<xref rid="pgen-0010069-b006" ref-type="bibr">6</xref>&#x02013;<xref rid="pgen-0010069-b008" ref-type="bibr">8</xref>], enhanced DNA damage repair [<xref rid="pgen-0010069-b009" ref-type="bibr">9</xref>,<xref rid="pgen-0010069-b010" ref-type="bibr">10</xref>], decreased levels of oxidatively damaged proteins [<xref rid="pgen-0010069-b011" ref-type="bibr">11</xref>&#x02013;<xref rid="pgen-0010069-b013" ref-type="bibr">13</xref>], improved glucose homeostasis and insulin sensitivity [<xref rid="pgen-0010069-b014" ref-type="bibr">14</xref>&#x02013;<xref rid="pgen-0010069-b016" ref-type="bibr">16</xref>], altered levels of apoptosis [<xref rid="pgen-0010069-b017" ref-type="bibr">17</xref>], and delayed onset of a number of age-related diseases [<xref rid="pgen-0010069-b018" ref-type="bibr">18</xref>&#x02013;<xref rid="pgen-0010069-b021" ref-type="bibr">21</xref>]. Although it has been known for more than 70 y that calorie restriction can increase life span in mammals [<xref rid="pgen-0010069-b022" ref-type="bibr">22</xref>], a mechanistic understanding of this phenomenon has remained elusive. It seems clear that nutrient and growth factor responsive pathways, such as those mediated by insulin, IGF-1, TOR, and Akt, are likely to represent important conduits through which these signals affect the aging rate. CR mediates enhancement of stress response pathways in mammals [<xref rid="pgen-0010069-b023" ref-type="bibr">23</xref>,<xref rid="pgen-0010069-b024" ref-type="bibr">24</xref>], and signaling through the insulin-like pathway in worms coordinates expression of a variety of antioxidant, chaperone, and anti-bacterial stress response proteins [<xref rid="pgen-0010069-b025" ref-type="bibr">25</xref>&#x02013;<xref rid="pgen-0010069-b027" ref-type="bibr">27</xref>]. Similarly, TOR-mediated regulation of translational machinery appears to play a role in the response to nutrient deprivation in yeast [<xref rid="pgen-0010069-b028" ref-type="bibr">28</xref>], worms [<xref rid="pgen-0010069-b029" ref-type="bibr">29</xref>,<xref rid="pgen-0010069-b030" ref-type="bibr">30</xref>], flies [<xref rid="pgen-0010069-b031" ref-type="bibr">31</xref>], and mammals [<xref rid="pgen-0010069-b032" ref-type="bibr">32</xref>]. Finally, models postulating a role for Sir2-like protein deacetylases in CR-mediated life span extension have gained popularity for yeast [<xref rid="pgen-0010069-b033" ref-type="bibr">33</xref>], flies [<xref rid="pgen-0010069-b034" ref-type="bibr">34</xref>], and mammals, as well [<xref rid="pgen-0010069-b004" ref-type="bibr">4</xref>,<xref rid="pgen-0010069-b035" ref-type="bibr">35</xref>].</p><p>In the budding yeast <italic>Saccharomyces cerevisiae,</italic> CR can be imposed by reducing the concentration of glucose in the growth medium, resulting in a 20%&#x02013;40% increase in replicative life span in multiple strain backgrounds [<xref rid="pgen-0010069-b033" ref-type="bibr">33</xref>,<xref rid="pgen-0010069-b036" ref-type="bibr">36</xref>,<xref rid="pgen-0010069-b037" ref-type="bibr">37</xref>]. In addition, genetic models of CR include deletion of the gene coding for hexokinase, <italic>HXK2,</italic> and mutations that decrease signaling through the cAMP-dependent protein kinase, PKA, such as deletion of the genes coding for the glucose sensing proteins <italic>GPA2</italic> or <italic>GPR1,</italic> and temperature-sensitive alleles of adenylate cyclase <italic>(cdc35&#x02013;1)</italic> or the RAS-associated GTPase <italic>(cdc25&#x02013;10)</italic> [<xref rid="pgen-0010069-b033" ref-type="bibr">33</xref>].</p><p>CR has been proposed to increase yeast replicative life span by a mechanism involving activation of Sir2 [<xref rid="pgen-0010069-b033" ref-type="bibr">33</xref>], an NAD<sup>+</sup>&#x02013;dependent histone deacetylase [<xref rid="pgen-0010069-b038" ref-type="bibr">38</xref>&#x02013;<xref rid="pgen-0010069-b040" ref-type="bibr">40</xref>] that inhibits the formation of extrachromosomal rDNA circles (ERCs) [<xref rid="pgen-0010069-b041" ref-type="bibr">41</xref>]. ERCs are self-replicating DNA molecules that accumulate in the mother-cell nucleus with age and are thought to cause senescence [<xref rid="pgen-0010069-b042" ref-type="bibr">42</xref>]. Overexpression of Sir2 increases life span in multiple strain backgrounds [<xref rid="pgen-0010069-b036" ref-type="bibr">36</xref>,<xref rid="pgen-0010069-b041" ref-type="bibr">41</xref>,<xref rid="pgen-0010069-b043" ref-type="bibr">43</xref>], and deletion of Sir2 shortens life span by about 50% [<xref rid="pgen-0010069-b041" ref-type="bibr">41</xref>,<xref rid="pgen-0010069-b044" ref-type="bibr">44</xref>]. CR fails to increase the life span of short-lived <italic>sir2</italic>&#x00394; cells [<xref rid="pgen-0010069-b033" ref-type="bibr">33</xref>], consistent with the idea that CR could be acting by a mechanism involving Sir2.</p><p>The question of how CR might activate Sir2 has been a source of considerable controversy [<xref rid="pgen-0010069-b045" ref-type="bibr">45</xref>]. <italic>Saccharomyces cerevisiae</italic> is a facultative anaerobe that, under standard laboratory growth conditions (2% glucose), generates ATP largely by fermentation. Under conditions of reduced glucose, such as CR, <italic>S. cerevisiae</italic> shifts from fermentation to respiration, resulting in increased transcription of respiratory genes and a higher rate of oxygen consumption [<xref rid="pgen-0010069-b046" ref-type="bibr">46</xref>]. In models put forth by Lin et al., this metabolic shift results in activation of Sir2, either through increased cellular NAD<sup>+</sup> [<xref rid="pgen-0010069-b046" ref-type="bibr">46</xref>] or decreased cellular NADH [<xref rid="pgen-0010069-b047" ref-type="bibr">47</xref>]. Alternatively, Anderson et al. have reported that CR does not alter NAD<sup>+</sup> levels [<xref rid="pgen-0010069-b048" ref-type="bibr">48</xref>], but leads to enhanced expression of <italic>PNC1</italic> and a reduction in cellular nicotinamide [<xref rid="pgen-0010069-b049" ref-type="bibr">49</xref>]. Since nicotinamide is an inhibitor of the Sir2 deacetylation reaction, its decreased concentration could result in enhanced Sir2 activity [<xref rid="pgen-0010069-b050" ref-type="bibr">50</xref>,<xref rid="pgen-0010069-b051" ref-type="bibr">51</xref>]. Overexpression of Pnc1 suppresses the effect of exogenously added nicotinamide on Sir2-dependent silencing at HM loci, telomeres, and rDNA [<xref rid="pgen-0010069-b052" ref-type="bibr">52</xref>]; there are conflicting reports, however, on whether Pnc1 overexpression alters Sir2 activity at endogenous levels of nicotinamide [<xref rid="pgen-0010069-b049" ref-type="bibr">49</xref>,<xref rid="pgen-0010069-b052" ref-type="bibr">52</xref>].</p><p>More recently, we have questioned the importance of Sir2 in life span extension by CR [<xref rid="pgen-0010069-b028" ref-type="bibr">28</xref>,<xref rid="pgen-0010069-b053" ref-type="bibr">53</xref>]. In a long-lived strain background, BY4742, CR increases life span to a greater extent in cells lacking both Sir2 and the replication fork barrier protein Fob1 than in wild-type cells [<xref rid="pgen-0010069-b036" ref-type="bibr">36</xref>]. Based on this observation, and the fact that deletion of <italic>SIR2</italic> shortens life span by approximately 50%, we proposed a model whereby the inability of CR to increase life span in <italic>sir2</italic>&#x00394; <italic>FOB1</italic> cells is explained as an indirect effect, resulting from the hyperaccumulation of ERCs [<xref rid="pgen-0010069-b036" ref-type="bibr">36</xref>]. Deletion of <italic>FOB1</italic> in a <italic>sir2</italic>&#x00394; background suppresses the hyperaccumulation of ERCs, as well as the longevity defect [<xref rid="pgen-0010069-b041" ref-type="bibr">41</xref>], thus allowing CR to dramatically increase the life span of cells in the absence of Sir2 [<xref rid="pgen-0010069-b036" ref-type="bibr">36</xref>].</p><p>Much of the early work suggesting a link between CR and Sir2 was carried out in the PSY316 strain background [33,37,46,47,49,50,54], a strain in which, paradoxically, overexpression of Sir2 fails to increase life span [<xref rid="pgen-0010069-b055" ref-type="bibr">55</xref>]. Guarente and Picard [<xref rid="pgen-0010069-b035" ref-type="bibr">35</xref>] have proposed that CR might act via different mechanisms in the BY4742 and PSY316 strain backgrounds. In order to further clarify the molecular mechanism(s) underlying replicative life span extension by calorie restriction in yeast, we have sought to directly test key components of the models for Sir2-dependent CR in both of these strains. Here, we examine in detail the role of respiratory metabolism in life span extension by CR, finding that (1) respiration is not required for life span extension by CR; and (2) CR suppresses the enhanced early mortality, only apparent in PSY316, due to loss of mitochondrial DNA. In contrast, exogenous addition of nicotinamide partially, but not completely, blocks Sir2-independent life span extension by CR.</p></sec><sec id="s2"><title>Results</title><sec id="s2a"><title>Life Span Extension by CR Is Independent of Respiration in BY4742</title><p>A central facet of the Sir2-dependent models for life span extension by CR is that a metabolic shift from fermentation to respiration in response to CR results in activation of Sir2 [<xref rid="pgen-0010069-b046" ref-type="bibr">46</xref>,<xref rid="pgen-0010069-b047" ref-type="bibr">47</xref>]. Since Sir2 is not required for life span extension by CR in BY4742 [<xref rid="pgen-0010069-b036" ref-type="bibr">36</xref>], we wished to determine whether respiration was also dispensable. The effect of CR in the absence of respiratory capacity was examined using rho<sup>0</sup> cells, which completely lack mitochondrial DNA. Rho<sup>0</sup> yeast lack three cytochrome c oxidase subunits <italic>(COX1, COX2,</italic> and <italic>COX3)</italic>, three ATP synthase subunits <italic>(ATP6, ATP8,</italic> and <italic>ATP9)</italic>, and apocytochrome b <italic>(CYTB)</italic>, and are therefore incapable of respiratory metabolism [<xref rid="pgen-0010069-b056" ref-type="bibr">56</xref>,<xref rid="pgen-0010069-b057" ref-type="bibr">57</xref>]. BY4742 rho<sup>0</sup> cells were generated (see <xref ref-type="sec" rid="s4">Materials and Methods</xref>), and the absence of mitochondrial DNA was verified by staining cells with DAPI (<xref ref-type="fig" rid="pgen-0010069-g001">Figure 1</xref>A). Lack of respiratory capacity in rho<sup>0</sup> cells was confirmed by inability to grow on the non-fermentable carbon source, glycerol (<xref ref-type="fig" rid="pgen-0010069-g001">Figure 1</xref>B). As previously observed [<xref rid="pgen-0010069-b058" ref-type="bibr">58</xref>], replicative life span under standard conditions (2% glucose) was not altered by loss of mitochondrial DNA in this strain (<xref ref-type="fig" rid="pgen-0010069-g001">Figure 1</xref>C). CR (0.05% glucose) significantly enhanced the life span of both wild-type and rho<sup>0</sup> cells to a comparable degree. Thus, respiration is not required for life span extension by CR in the long-lived BY4742 strain background.</p><fig id="pgen-0010069-g001" position="float"><label>Figure 1</label><caption><title>Respiration Is Not Required for Life Span Extension by CR in BY4742</title><p>(A) BY4742 rho<sup>0</sup> strains lack mitochondrial DNA. DAPI staining of BY4742 (i) wild-type or (ii) rho<sup>0</sup> cells grown under standard conditions (2% glucose) and calorie-restricted (iii) wild-type or (iv) rho<sup>0</sup> cells (CR = 0.05% glucose).</p><p>(B) BY4742 rho<sup>0</sup> strains are unable to grow on glycerol as the sole carbon source. (i) BY4742 wild-type or (ii) rho<sup>0</sup> cells on YEP supplemented with 2% glucose or 3% glycerol.</p><p>(C) CR increase life span in BY4742 rho<sup>0</sup> cells. Replicative life span analysis for BY4742 wild-type and rho<sup>0</sup> cells on 2% glucose and 0.05% glucose (CR). Mean life span is shown in parentheses.</p></caption><graphic xlink:href="pgen.0010069.g001"/></fig></sec><sec id="s2b"><title>Life Span Extension by CR Is Independent of Respiration in PSY316</title><p>Previous work indicating that life span extension by CR is dependent on respiration was carried out in the PSY316 strain background, in which it was reported that deletion of the gene coding for cytochrome c1, <italic>CYT1,</italic> prevents life span extension by CR [<xref rid="pgen-0010069-b046" ref-type="bibr">46</xref>]. In order to address whether life span extension by CR in mutants incapable of respiratory metabolism is specific to BY4742, we generated respiratory-deficient <italic>cyt1</italic>&#x00394; and rho<sup>0</sup> variants in the PSY316 background (<xref ref-type="fig" rid="pgen-0010069-g002">Figure 2</xref>A and <xref ref-type="fig" rid="pgen-0010069-g002">2</xref>B) and measured life span on medium containing either 2% or 0.05% glucose. As in BY4742 rho<sup>0</sup> cells, CR significantly increased both mean and maximum life span in PSY316 rho<sup>0</sup> (<xref ref-type="fig" rid="pgen-0010069-g002">Figure 2</xref>C) and <italic>cyt1</italic>&#x00394; cells (<xref ref-type="fig" rid="pgen-0010069-g002">Figure 2</xref>D).</p><fig id="pgen-0010069-g002" position="float"><label>Figure 2</label><caption><title>Respiration Is Not Required for Life Span Extension by CR in PSY316</title><p>(A) PSY316AUT rho<sup>0</sup> strains lack mitochondrial DNA. DAPI staining of PSY316 (i) wild-type or (ii) rho<sup>0</sup> cells grown under standard conditions (2% glucose) and calorie-restricted (iii) wild-type or (iv) rho<sup>0</sup> cells (CR = 0.05% glucose).</p><p>(B) PSY316AUT rho<sup>0</sup> strains are unable to grow on glycerol as the sole carbon source. (i) PSY316AUT wild-type, (ii) <italic>cyt1</italic>&#x00394; rho<sup>0</sup>, (iii) <italic>cyt1</italic>&#x00394;<italic>,</italic> or (iv) rho<sup>0</sup> cells on YEP supplemented with 2% glucose or 3% glycerol.</p><p>(C) CR increases life span in PSY316AUT rho<sup>0</sup> cells. Replicative life span analysis for PSY316AUT wild-type and rho<sup>0</sup> cells on 2% glucose and 0.05% glucose (CR). Mean life span is shown in parentheses.</p><p>(D) CR increases the life span of <italic>cyt1</italic>&#x00394; cells. Replicative life span analysis for PSY316AUT wild-type and <italic>cyt1</italic>&#x00394; cells on 2% glucose and 0.05% glucose (CR). Mean life span is shown in parentheses.</p><p>(E) CR increases the life span of <italic>cyt1</italic>&#x00394; rho<sup>0</sup> cells. Replicative life span analysis for PSY316AUT wild-type and <italic>cyt1</italic>&#x00394; rho<sup>0</sup> cells on 2% glucose and <italic>cyt1</italic>&#x00394; rho<sup>0</sup> cells on 0.05% glucose (CR). Mean life span is shown in parentheses.</p></caption><graphic xlink:href="pgen.0010069.g002"/></fig><p>Unlike the case in BY4742 in which deletion of mitochondrial DNA has no effect on life span, PSY316 rho<sup>0</sup> variants exhibited a profound increase in early mortality under standard growth conditions. This phenotype was not observed in <italic>cyt1</italic>&#x00394; cells, indicating that loss of mitochondrial DNA, rather than general respiratory deficiency, is responsible for the life span defect. Deletion of <italic>CYT1</italic> in cells lacking mitochondrial DNA, however, resulted in a short life span comparable to that of rho<sup>0</sup> cells (<xref ref-type="fig" rid="pgen-0010069-g002">Figure 2</xref>E), demonstrating that rho<sup>0</sup> is epistatic to <italic>cyt1</italic>&#x00394; for this phenotype. As observed for rho<sup>0</sup> cells, CR more than doubled the short life span of <italic>cyt1</italic>&#x00394; rho<sup>0</sup> cells, which contain both nuclear and mitochondrial mutations that prevent respiration.</p><p>Our observation that CR increased life span in PSY316 cells lacking <italic>CYT1</italic> is in contrast to a previous report [<xref rid="pgen-0010069-b046" ref-type="bibr">46</xref>]. A potential explanation for this difference is that 0.5% glucose was used for CR in the prior study, rather than the 0.05% glucose concentration used in this study. We therefore measured the life span of respiratory deficient rho<sup>0</sup> and <italic>cyt1</italic>&#x00394; cells grown on 0.5% glucose. As we observed for cells grown on 0.05% glucose, growth on 0.5% glucose increased the life span of rho<sup>0</sup> and <italic>cyt1</italic>&#x00394; cells, although the magnitude of life span extension is reduced relative to 0.05% glucose (<xref ref-type="fig" rid="pgen-0010069-g003">Figure 3</xref>A). Thus, the use of a non-optimal level of CR may have precluded detection of life span extension by CR in <italic>cyt1</italic>&#x00394; mutants in the prior study.</p><fig id="pgen-0010069-g003" position="float"><label>Figure 3</label><caption><title>Effect of Glucose Concentration on Life Span and Sir2 Activity in Respiratory-Deficient Mutants</title><p>(A) Mean replicative life span is significantly increased in PSY316 AUT <italic>cyt1</italic>&#x00394; and rho<sup>0</sup> cells as the glucose concentration is decreased to either 0.5% or 0.05%, relative to life span on 2% glucose. *<italic>p</italic> &#x0003c; 0.05, **<italic>p</italic> &#x0003c; 0.01.</p><p>(B) Sir2 activity is not increased by CR but is responsive to increased expression of Sir2 or to addition of exogenous nicotinamide. Transcriptional silencing of the telomeric <italic>URA3</italic> marker in PSY316AUT (WT) was monitored by the survival of cells plated onto medium containing 5-FOA.</p><p>(C) Sir2 activity is not altered in respiratory deficient <italic>cyt1</italic>&#x00394; cells and is unaffected by CR. Transcriptional silencing of the telomeric <italic>URA3</italic> marker in PSY316AUT (WT) was monitored by the survival of cells plated onto medium containing 5-FOA.</p></caption><graphic xlink:href="pgen.0010069.g003"/></fig><p>We also examined the effect of CR on Sir2 activity in respiratory-deficient PSY316 cells. The PSY316AUT variant has both <italic>URA3</italic> and <italic>ADE2</italic> marker genes integrated near telomeres, thus allowing for efficient determination of Sir2-dependent telomeric silencing in response to genetic or environmental perturbations [<xref rid="pgen-0010069-b055" ref-type="bibr">55</xref>]. As previously reported, increased Sir2 activity can be achieved by overexpression of <italic>SIR2</italic> in the PSY316 strain background [<xref rid="pgen-0010069-b055" ref-type="bibr">55</xref>], significantly enhancing telomere silencing and survival on FOA, while inhibition of Sir2 by addition of 5 mM nicotinamide to the medium decreased telomere silencing (<xref ref-type="fig" rid="pgen-0010069-g003">Figure 3</xref>B). CR, however, had no detectable effect on Sir2-dependent silencing at telomeres. Similarly, respiratory deficiency caused by deletion of <italic>CYT1</italic> also fails to impact Sir2-dependent silencing at either 2% or 0.05% glucose (<xref ref-type="fig" rid="pgen-0010069-g003">Figure 3</xref>C). A decrease in survival on FOA was observed in rho<sup>0</sup> cells relative to wild-type or <italic>cyt1</italic>&#x00394; cells at 2% glucose (<xref ref-type="supplementary-material" rid="pgen-0010069-sg001">Figure S1</xref>); however, CR failed to result in a detectable increase in Sir2 activity in respiratory deficient or respiratory competent cells. Therefore, we find no evidence that a metabolic shift from fermentation toward respiration is involved in life span extension by CR or that Sir2 is activated in response to CR.</p></sec><sec id="s2c"><title>Nicotinamide Blocks Life Span Extension by CR</title><p>CR has also been proposed to activate Sir2 by reducing cellular pools of nicotinamide, a Sir2 inhibitor [<xref rid="pgen-0010069-b050" ref-type="bibr">50</xref>]. Addition of 5 mM nicotinamide to the medium prevents life span extension by CR in wild-type mother cells [<xref rid="pgen-0010069-b049" ref-type="bibr">49</xref>]; however, interpretation of this experiment is complicated by the fact that, like deletion of <italic>SIR2</italic>, high levels of nicotinamide result in a dramatically shortened life span. We took advantage of the fact that deletion of <italic>FOB1</italic> suppresses the short life span and ERC hyperaccumulation phenotypes associated with deletion or inhibition of Sir2 [<xref rid="pgen-0010069-b041" ref-type="bibr">41</xref>] to ask whether nicotinamide could inhibit the longevity effect of calorie restriction, even in the absence of Sir2. As expected, growth on 5 mM nicotinamide reduced the life span of wild-type cells to a level not significantly different from that of <italic>sir2</italic>&#x00394; cells (<xref ref-type="fig" rid="pgen-0010069-g004">Figure 4</xref>A). The very short life span of <italic>sir2</italic>&#x00394; cells or nicotinamide-treated wild-type cells is most likely due to the hyperaccumulation of ERCs in cells lacking Sir2 activity [<xref rid="pgen-0010069-b036" ref-type="bibr">36</xref>,<xref rid="pgen-0010069-b041" ref-type="bibr">41</xref>]. Also as expected, nicotinamide had no effect on the life span of <italic>sir2</italic>&#x00394; <italic>fob1</italic>&#x00394; double mutants (<xref ref-type="fig" rid="pgen-0010069-g004">Figure 4</xref>B), because Sir2 is already absent from these cells. CR dramatically increased the life span of <italic>sir2</italic>&#x00394; <italic>fob1</italic>&#x00394; double mutants, but, unexpectedly, addition of nicotinamide decreased the magnitude of life span extension conferred by CR (<xref ref-type="fig" rid="pgen-0010069-g004">Figure 4</xref>B). Thus, Sir2-independent life span extension by CR is partially prevented by nicotinamide.</p><fig id="pgen-0010069-g004" position="float"><label>Figure 4</label><caption><title>Effect of Nicotinamide on Life Span Extension by CR</title><p>(A) Nicotinamide shortens the life span of wild-type cells. Replicative life span analysis for BY4742 wild-type and <italic>sir2</italic>&#x00394; cells on 2% glucose containing or lacking 5 mM nicotinamide (nic). Mean life span is shown in parentheses.</p><p>(B) Nicotinamide partially prevents Sir2-independent life span extension by CR. Replicative life span analysis for BY4742 wild type on 2% glucose, along with <italic>sir2</italic>&#x00394; <italic>fob1</italic>&#x00394; double mutant cells on 2% glucose or 0.05% glucose (CR) containing or lacking 5 mM nicotinamide (nic). Mean life span is shown in parentheses.</p></caption><graphic xlink:href="pgen.0010069.g004"/></fig></sec></sec><sec id="s3"><title>Discussion</title><sec id="s3a"><title>Role of Respiration and Nicotinamide in Life Span Extension by CR</title><p>Sir2 is dispensable for life span extension by CR in yeast [<xref rid="pgen-0010069-b036" ref-type="bibr">36</xref>]. It remains possible, however, that under some conditions, CR might be mediated by Sir2. Central to this possibility is the premise that CR results in activation of Sir2. One mechanism by which CR has been hypothesized to activate Sir2 involves altered levels of the nicotinamide adenine dinucleotide cofactors NAD<sup>+</sup> and NADH, resulting from a metabolic shift toward increased respiration in response to CR [<xref rid="pgen-0010069-b046" ref-type="bibr">46</xref>,<xref rid="pgen-0010069-b047" ref-type="bibr">47</xref>]. The other mechanism by which CR has been suggested to activate Sir2 is through a reduction in nicotinamide levels [<xref rid="pgen-0010069-b049" ref-type="bibr">49</xref>].</p><p>An important test of the respiration-dependent model for CR is whether CR can increase life span in cells that are incapable of respiration. Contradictory to the prediction from this model, we find that respiration is dispensable for enhanced longevity in response to CR. Growth on reduced glucose resulted in increased life span in two distinct models of respiratory deficiency, <italic>cyt1</italic>&#x00394; and rho<sup>0</sup> (see <xref ref-type="fig" rid="pgen-0010069-g001">Figures 1</xref>C and <xref ref-type="fig" rid="pgen-0010069-g002">2</xref>C&#x02013;<xref ref-type="fig" rid="pgen-0010069-g002">2</xref>E<bold>).</bold> These data, combined with the observation that inhibition of Sir2 cannot account for the effect of nicotinamide on life span extension by CR (<xref ref-type="fig" rid="pgen-0010069-g004">Figure 4</xref>B), call into question the proposed molecular explanations for activation of Sir2 in response to CR. Further, we find no evidence that Sir2 activity is altered either by CR or by respiratory deficiency, as measured by Sir2-dependent transcriptional silencing near telomeres (see <xref ref-type="fig" rid="pgen-0010069-g003">Figure 3</xref>B and <xref ref-type="fig" rid="pgen-0010069-g003">3</xref>C). This result does not rule out the possibility that CR specifically enhances Sir2 activity at the rDNA; however, like the case at telomeres, Sir2-dependent silencing of a modified <italic>URA3</italic> marker gene inserted into the rDNA is not enhanced by CR (J. Smith, personal communication). Thus, we propose that life span extension by CR occurs through a conserved Sir2-independent, respiration-independent mechanism (<xref ref-type="fig" rid="pgen-0010069-g005">Figure 5</xref>).</p><fig id="pgen-0010069-g005" position="float"><label>Figure 5</label><caption><title>Genetic Pathways Determining Replicative Life Span in Yeast</title><p>Sir2 and CR act in parallel pathways to slow aging. Both pathways are affected by nicotinamide levels.</p></caption><graphic xlink:href="pgen.0010069.g005"/></fig><p>It should be noted that our results do not contradict previous findings that increased respiration correlates with replicative life span in PSY316. Overexpression of the <italic>HAP4</italic> transcription factor, which results in transcriptional up-regulation of respiratory genes and increased oxygen consumption, or overexpression of a mitochondrial NADH oxidoreductase, are reported to increase life span in PSY316 [<xref rid="pgen-0010069-b046" ref-type="bibr">46</xref>,<xref rid="pgen-0010069-b047" ref-type="bibr">47</xref>]. It remains possible that these interventions do indeed activate Sir2 by altering levels of NAD<sup>+</sup> or NADH, as proposed. Alternatively, these interventions may behave as genetic mimics of CR, increasing life span through a Sir2-independent mechanism.</p><p>Our data suggest that high levels of nicotinamide can alter the response of yeast cells to CR. How might nicotinamide interfere with life span extension by CR? We can imagine at least three possible models. First, nicotinamide could partially block CR by inhibiting the activity of the other yeast Sirtuins (Hst1&#x02013;4). This model seems unlikely because CR increases the life span of yeast cells lacking both Sir2 and either Hst1, Hst2, Hst3, or Hst4, and CR increases the life span of a <italic>sir2</italic>&#x00394; <italic>fob1</italic>&#x00394; <italic>hst1</italic>&#x00394; <italic>hst2</italic>&#x00394; quadruple mutant by greater than 50% (unpublished data). Second, nicotinamide could specifically interfere with the longevity benefits of CR, but through a mechanism unrelated to Sirtuin action. Nicotinamide, conventionally classified as a vitamin, participates in many biological processes distinct from Sirtuins [<xref rid="pgen-0010069-b059" ref-type="bibr">59</xref>], and could conceivably alter the activity of any NAD<sup>+</sup>&#x02013;binding protein in the cell. Third, a reduction in nicotinamide levels conferred by CR might be important to offset detrimental effects, resulting from growth on reduced glucose medium, that are themselves unrelated to replicative aging, but may shorten life span to an extent that it masks life span extension by CR. Further study will be required to distinguish between these models.</p></sec><sec id="s3b"><title>Mitochondrial Defects, CR, and Longevity</title><p>Defects in mitochondrial function cause several human diseases, and mutation of mitochondrial DNA has been suggested to result in age-associated phenotypes in mammals [<xref rid="pgen-0010069-b060" ref-type="bibr">60</xref>&#x02013;<xref rid="pgen-0010069-b062" ref-type="bibr">62</xref>]. Yeast provides a unique model in which to study the phenotypic consequences of mutation to the mitochondrial genome. With respect to replicative life span, complete deletion of the mitochondrial genome (rho<sup>0</sup>) results in different phenotypic outcomes depending on the genetic background of the strain [<xref rid="pgen-0010069-b058" ref-type="bibr">58</xref>,<xref rid="pgen-0010069-b063" ref-type="bibr">63</xref>]. Indeed, we report here that rho<sup>0</sup> cells of BY4742 have a life span comparable to that of wild-type cells, whereas, rho<sup>0</sup> cells of PSY316 are extremely short-lived (compare <xref ref-type="fig" rid="pgen-0010069-g001">Figure 1</xref>C with <xref ref-type="fig" rid="pgen-0010069-g002">Figure 2</xref>C). Presumably, this difference is the result of polymorphisms present in the nuclear genomes of these strains. Interestingly, in the PSY316 strain background, a nuclear mutation (<italic>cyt1</italic>&#x00394;) that prevents respiration results in a life span comparable to that of wild-type cells (see <xref ref-type="fig" rid="pgen-0010069-g002">Figure 2</xref>D). Thus, the short life span of PSY316 rho<sup>0</sup> cells is apparently caused by loss of mitochondrial DNA rather than a general consequence of respiratory deficiency.</p><p>Although the PSY316 rho<sup>0</sup> variant is extremely short-lived, CR by growth on low glucose is capable of increasing the life span of these cells by more than 100% (see <xref ref-type="fig" rid="pgen-0010069-g003">Figure 3</xref>A). In fact, CR increases life span of the rho<sup>0</sup> strain to a level that is comparable to calorie-restricted wild-type cells. To the best of our knowledge, this is the first indication, in any organism, that CR has a beneficial effect on defects caused by deletion of mitochondrial DNA. It will be of interest to understand the molecular basis for this effect and to determine whether this is a general feature of CR in multicellular eukaryotes.</p></sec><sec id="s3c"><title>Conclusion</title><p>Three competing models of life span extension by CR in yeast have been put forward: (1) Sir2 activation through a metabolic shift to respiration [<xref rid="pgen-0010069-b046" ref-type="bibr">46</xref>,<xref rid="pgen-0010069-b047" ref-type="bibr">47</xref>], (2) Sir2 activation by decreased nicotinamide levels [<xref rid="pgen-0010069-b049" ref-type="bibr">49</xref>], and (3) Sir2-independent life span extension [<xref rid="pgen-0010069-b028" ref-type="bibr">28</xref>,<xref rid="pgen-0010069-b036" ref-type="bibr">36</xref>]. Although CR can increase life span by a Sir2-independent mechanism [<xref rid="pgen-0010069-b036" ref-type="bibr">36</xref>], it remains to be determined whether either of the Sir2-dependent models account for a portion of the longevity benefits of CR under any conditions. We show here that in two different strain backgrounds, one of which is the PSY316 strain background used to generate the data supporting the Sir2-dependent models, life span extension by CR does not require respiration. We also show that the partial inhibition of CR by addition of exogenous nicotinamide does not act through Sir2. Thus, activation of Sir2 through a metabolic shift to respiration or through depletion of intracellular nicotinamide cannot explain CR-mediated increases in longevity.</p></sec></sec><sec id="s4"><title>Materials and Methods</title><sec id="s4a"><title>Strains and media.</title><p>Unless otherwise stated, all yeast strains were derived from the parent strain for the haploid yeast open reading frame (ORF) deletion collection [<xref rid="pgen-0010069-b064" ref-type="bibr">64</xref>], BY4742 (obtained from Research Genetics, Invitrogen, Carlsbad, California, United States) or from PSY316AUT [<xref rid="pgen-0010069-b055" ref-type="bibr">55</xref>]. Strains used in this study are listed in <xref ref-type="table" rid="pgen-0010069-t001">Table 1</xref>. Gene disruptions were carried out by transforming yeast with PCR-amplified deletion constructs containing 45 nucleotides of homology to regions flanking the ORF to be deleted and either <italic>HIS3, LEU2,</italic> or <italic>URA3</italic> amplified from pRS403, pRS405, or pRS406 [<xref rid="pgen-0010069-b065" ref-type="bibr">65</xref>], respectively. In each case, the entire ORF of the deleted gene was removed. All gene disruptions were verified by PCR. Medium used for life span studies was YEP (2% bacto peptone, 1% yeast extract) supplemented with filter-sterilized glucose at the designated concentration. For nicotinamide supplementation experiments, nicotinamide was added to YEP from a 500 mM nicotinamide (100&#x000d7;) filter sterilized stock solution to a final concentration of 5 mM just prior to pouring plates. Nicotinamide was obtained from Sigma (St. Louis, Missouri, United States).</p><table-wrap id="pgen-0010069-t001" content-type="2col" position="float"><label>Table 1</label><caption><p>Yeast Strains Used in This Study</p></caption><graphic xlink:href="pgen.0010069.t001"/></table-wrap></sec><sec id="s4b"><title>Generation of rho<sup>0</sup> strains and verification by DAPI staining.</title><p>The rho<sup>0</sup> strains used for life span analysis were generated by treatment with ethidium bromide. In each case, life span was determined for more than one rho<sup>0</sup> isolate in order to verify the observed phenotype. In the case of PSY316AUT rho<sup>0</sup>, four different rho<sup>0</sup> isolates were examined, and the severe shortening in life span was observed in all four cases. Life span was also determined for spontaneously arising PSY316AUT rho<sup>0</sup> cells, which showed a life span defect similar to that of rho<sup>0</sup> cells generated by ethidium bromide. Absence of mitochondrial DNA was verified by fluorescence microscopy of log phase cells stained with DAPI.</p></sec><sec id="s4c"><title>Replicative life span analysis.</title><p>Replicative life span analysis was carried out as described [<xref rid="pgen-0010069-b058" ref-type="bibr">58</xref>]. For all life span experiments, strains were coded such that the researcher performing the life span experiment had no knowledge of the strain genotypes. Unless otherwise stated, standard life span medium was YEP + 2% glucose (YPD) and CR medium was YEP + 0.05% glucose. Life span experiments in the presence of nicotinamide were carried out at a final concentration of 5 mM nicotinamide in the plates. Cells were grown on experimental medium for at least 8 h prior to microdissection. Wilcoxon <italic>p</italic>-values were calculated using the MATLAB &#x0201c;ranksum&#x0201d; function, and strains are stated to have a significant difference in life span for <italic>p</italic> &#x0003c; 0.05.</p></sec><sec id="s4d"><title>FOA telomere silencing assays.</title><p>For the silencing experiment shown in <xref ref-type="fig" rid="pgen-0010069-g003">Figure 3</xref>B and <xref ref-type="supplementary-material" rid="pgen-0010069-sg001">Figure S1</xref>, three independent cultures were inoculated from single colonies into liquid YPD for each genotype and grown overnight. The next morning, each overnight culture was diluted 1:100 into YPD or CR medium and grown for 4 h in a shaking incubator. Cultures were then diluted to a cell density of approximately 2 &#x000d7; 10<sup>3</sup> cells/ml in water, and plated in 100-&#x003bc;l aliquots onto synthetic complete (SC) or FOA medium, containing either 2% or 0.05% glucose, such that cells cultured in 2% glucose were plated onto 2% glucose plates and cells cultured in CR medium were plated onto 0.05% glucose plates (CR plates). Percent survival was calculated as the number of colonies arising on FOA medium divided by the number of colonies arising on SC medium. Nicotinamide silencing experiments were carried out as above, except that after the overnight culture, cells were preincubated for 4 h in YPD + 5 mM nicotinamide and plated onto SC + 5 mM nicotinamide or FOA + 5 mM nicotinamide.</p><p>For the silencing experiment shown in <xref ref-type="fig" rid="pgen-0010069-g003">Figure 3</xref>C, cultures of wild-type or <italic>cyt1</italic>&#x00394; cells were inoculated from single colonies into liquid YPD or CR medium. The next morning, each overnight culture was diluted 1:1000 into fresh control or CR medium, such that cells grown overnight in control medium were diluted in control medium and cells grown overnight in CR medium were diluted into CR medium, and grown for 8 h in a shaking incubator. Cell cycle division time for BY4742 control cells was approximately 95 min and for BY4742 CR cells was approximately 105 min. After outgrowth, cultures were then diluted to a cell density of approximately 2 &#x000d7; 10<sup>3</sup> cells/ml in water, and plated in 100-&#x003bc;l aliquots onto SC or FOA medium, containing either 2% or 0.05% glucose, such that cells cultured in 2% glucose were plated onto 2% glucose plates and cells cultured in CR medium were plated onto CR plates. Percent survival was calculated as the number of colonies arising on FOA medium divided by the number of colonies arising on SC medium.</p></sec></sec><sec sec-type="supplementary-material" id="s5"><title>Supporting Information</title><supplementary-material content-type="local-data" id="pgen-0010069-sg001"><label>Figure S1</label><caption><title>CR Has No Effect on Sir2 Activity in Respiratory-Competent or Respiratory-Deficient Cells</title><p>Transcriptional silencing of the telomeric URA3 marker in PSY316AUT was monitored by the survival of cells plated onto medium containing 5-FOA.</p><p>(42 KB PDF)</p></caption><media xlink:href="pgen.0010069.sg001.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack><p>We would like to thank J. Smith, D. Gottschling, and T. Powers for helpful discussion. This work has been funded by a grant from the Ellison Medical Foundation. Support for this work has also been provided by the American Federation for Aging Research and the University of Washington Nathan Shock Center of Excellence for the Basic Biology of Aging. MK is supported by National Institutes of Health training grant P30 AG013280. SF is an investigator of the Howard Hughes Medical Institute. BKK is a Searle Scholar.</p></ack><fn-group><fn id="ack1" fn-type="COI-statement"><p>
+<bold>Competing interests.</bold> The authors have declared that no competing interests exist.</p></fn><fn id="ack2" fn-type="con"><p>
+<bold>Author contributions.</bold> MK, SF, and BKK conceived and designed the experiments. MK, DH, EOK, MT, ND, and BKK performed the experiments. MK and BKK analyzed the data. MK, DH, EAW, and BKK contributed reagents/materials/analysis tools. MK and BKK wrote the paper.</p></fn><fn id="n104" fn-type="previously-at"><p>A previous version of this article appeared as an Early Online Release on October 25, 2005 (DOI: <ext-link ext-link-type="doi" xlink:href="10.1371/journal.pgen.0010069.eor">10.1371/journal.pgen.0010069.eor</ext-link>).</p></fn></fn-group><glossary><title>Abbreviations</title><def-list><def-item><term>CR</term><def><p>calorie restriction</p></def></def-item><def-item><term>ERC</term><def><p>extrachromosomal rDNA circles</p></def></def-item><def-item><term>ORF</term><def><p>open reading frame</p></def></def-item><def-item><term>SC</term><def><p>synthetic complete</p></def></def-item></def-list></glossary><ref-list><title>References</title><ref id="pgen-0010069-b001"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Walker</surname><given-names>G</given-names></name><name><surname>Houthoofd</surname><given-names>K</given-names></name><name><surname>Vanfleteren</surname><given-names>JR</given-names></name><name><surname>Gems</surname><given-names>D</given-names></name></person-group>
+<year>2005</year>
+<article-title>Dietary restriction in <italic>C. elegans:</italic> From rate-of-living effects to nutrient sensing pathways</article-title>
+<source>Mech Ageing Dev</source>
+<volume>126</volume>
+<fpage>929</fpage>
+<lpage>937</lpage>
+<pub-id pub-id-type="pmid">15896824</pub-id></element-citation></ref><ref id="pgen-0010069-b002"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Merry</surname><given-names>BJ</given-names></name></person-group>
+<year>2005</year>
+<article-title>Dietary restriction in rodents&#x02014;Delayed or retarded ageing</article-title>
+<source>Mech Ageing Dev</source>
+<volume>126</volume>
+<fpage>951</fpage>
+<lpage>959</lpage>
+<pub-id pub-id-type="pmid">15893804</pub-id></element-citation></ref><ref id="pgen-0010069-b003"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Partridge</surname><given-names>L</given-names></name><name><surname>Piper</surname><given-names>MDW</given-names></name><name><surname>Mair</surname><given-names>W</given-names></name></person-group>
+<year>2005</year>
+<article-title>Dietary restriction in <italic>Drosophila</italic>
+</article-title>
+<source>Mech Ageing Dev</source>
+<volume>126</volume>
+<fpage>938</fpage>
+<lpage>950</lpage>
+<pub-id pub-id-type="pmid">15935441</pub-id></element-citation></ref><ref id="pgen-0010069-b004"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sinclair</surname><given-names>DA</given-names></name></person-group>
+<year>2005</year>
+<article-title>Toward a unified theory of caloric restriction and longevity regulation</article-title>
+<source>Mech Ageing Dev</source>
+<volume>126</volume>
+<fpage>987</fpage>
+<lpage>1002</lpage>
+<pub-id pub-id-type="pmid">15893363</pub-id></element-citation></ref><ref id="pgen-0010069-b005"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Guarente</surname><given-names>L</given-names></name></person-group>
+<year>2005</year>
+<article-title>Calorie restriction and SIR2 genes: Towards a mechanism</article-title>
+<source>Mech Ageing Dev</source>
+<volume>126</volume>
+<fpage>923</fpage>
+<lpage>928</lpage>
+<pub-id pub-id-type="pmid">15941577</pub-id></element-citation></ref><ref id="pgen-0010069-b006"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Merry</surname><given-names>BJ</given-names></name></person-group>
+<year>2004</year>
+<article-title>Oxidative stress and mitochondrial function with aging&#x02014;The effects of calorie restriction</article-title>
+<source>Aging Cell</source>
+<volume>3</volume>
+<fpage>7</fpage>
+<lpage>12</lpage>
+<pub-id pub-id-type="pmid">14965349</pub-id></element-citation></ref><ref id="pgen-0010069-b007"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Armeni</surname><given-names>T</given-names></name><name><surname>Pieri</surname><given-names>C</given-names></name><name><surname>Marra</surname><given-names>M</given-names></name><name><surname>Saccucci</surname><given-names>F</given-names></name><name><surname>Principato</surname><given-names>G</given-names></name></person-group>
+<year>1998</year>
+<article-title>Studies on the life prolonging effect of food restriction: Glutathione levels and glyoxylase enzymes in rat liver</article-title>
+<source>Mech Ageing Dev</source>
+<volume>101</volume>
+<fpage>101</fpage>
+<lpage>110</lpage>
+<pub-id pub-id-type="pmid">9593316</pub-id></element-citation></ref><ref id="pgen-0010069-b008"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>De Cabo</surname><given-names>R</given-names></name><name><surname>Cabello</surname><given-names>R</given-names></name><name><surname>Rios</surname><given-names>M</given-names></name><name><surname>Lopez-Lluch</surname><given-names>G</given-names></name><name><surname>Ingram</surname><given-names>DK</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Calorie restriction attenuates age-related alterations in the plasma membrane antioxidant system in rat liver</article-title>
+<source>Exp Gerontol</source>
+<volume>39</volume>
+<fpage>297</fpage>
+<lpage>304</lpage>
+<pub-id pub-id-type="pmid">15036389</pub-id></element-citation></ref><ref id="pgen-0010069-b009"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Guo</surname><given-names>Z</given-names></name><name><surname>Heydari</surname><given-names>A</given-names></name><name><surname>Richardson</surname><given-names>A</given-names></name></person-group>
+<year>1998</year>
+<article-title>Nucleotide excision repair of actively transcribed versus nontranscribed DNA in rat hepatocytes: Effect of age and dietary restriction</article-title>
+<source>Exp Cell Res</source>
+<volume>245</volume>
+<fpage>228</fpage>
+<lpage>238</lpage>
+<pub-id pub-id-type="pmid">9828120</pub-id></element-citation></ref><ref id="pgen-0010069-b010"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rao</surname><given-names>KS</given-names></name></person-group>
+<year>2003</year>
+<article-title>Dietary calorie restriction, DNA repair and brain aging</article-title>
+<source>Mol Cell Biochem</source>
+<volume>253</volume>
+<fpage>313</fpage>
+<lpage>318</lpage>
+<pub-id pub-id-type="pmid">14619982</pub-id></element-citation></ref><ref id="pgen-0010069-b011"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yu</surname><given-names>BP</given-names></name></person-group>
+<year>1996</year>
+<article-title>Aging and oxidative stress: Modulation by dietary restriction</article-title>
+<source>Free Radic Biol Med</source>
+<volume>21</volume>
+<fpage>651</fpage>
+<lpage>668</lpage>
+<pub-id pub-id-type="pmid">8891668</pub-id></element-citation></ref><ref id="pgen-0010069-b012"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Youngman</surname><given-names>LD</given-names></name><name><surname>Park</surname><given-names>JY</given-names></name><name><surname>Ames</surname><given-names>BN</given-names></name></person-group>
+<year>1992</year>
+<article-title>Protein oxidation associated with aging is reduced by dietary restriction of protein or calories</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>89</volume>
+<fpage>9112</fpage>
+<lpage>9116</lpage>
+<pub-id pub-id-type="pmid">1409611</pub-id></element-citation></ref><ref id="pgen-0010069-b013"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sohol</surname><given-names>RS</given-names></name><name><surname>Weindruch</surname><given-names>R</given-names></name></person-group>
+<year>1996</year>
+<article-title>Oxidative stress, caloric restriction, aging</article-title>
+<source>Science</source>
+<volume>273</volume>
+<fpage>59</fpage>
+<lpage>63</lpage>
+<pub-id pub-id-type="pmid">8658196</pub-id></element-citation></ref><ref id="pgen-0010069-b014"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Masoro</surname><given-names>EJ</given-names></name><name><surname>Katz</surname><given-names>MS</given-names></name><name><surname>McMahan</surname><given-names>CA</given-names></name></person-group>
+<year>1989</year>
+<article-title>Evidence for the glycation hypothesis of aging from the food-restricted rodent model</article-title>
+<source>J Gerontol</source>
+<volume>44</volume>
+<fpage>B20</fpage>
+<lpage>B22</lpage>
+<pub-id pub-id-type="pmid">2910985</pub-id></element-citation></ref><ref id="pgen-0010069-b015"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Masoro</surname><given-names>EJ</given-names></name><name><surname>McCarter</surname><given-names>RJM</given-names></name><name><surname>Katz</surname><given-names>MS</given-names></name><name><surname>McMahan</surname><given-names>CA</given-names></name></person-group>
+<year>1992</year>
+<article-title>Dietary restriction alters the characteristics of glucose fuel use</article-title>
+<source>J Gerontol</source>
+<volume>47</volume>
+<fpage>B202</fpage>
+<lpage>B208</lpage>
+<pub-id pub-id-type="pmid">1430849</pub-id></element-citation></ref><ref id="pgen-0010069-b016"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kemnitz</surname><given-names>JW</given-names></name><name><surname>Roecker</surname><given-names>EB</given-names></name><name><surname>Weindruch</surname><given-names>R</given-names></name><name><surname>Elson</surname><given-names>DF</given-names></name><name><surname>Baum</surname><given-names>ST</given-names></name><etal/></person-group>
+<year>1994</year>
+<article-title>Dietary restriction increases insulin sensitivity and lowers blood glucose in rhesus monkeys</article-title>
+<source>Am J Physiol</source>
+<volume>266</volume>
+<fpage>E540</fpage>
+<lpage>E547</lpage>
+<pub-id pub-id-type="pmid">8178974</pub-id></element-citation></ref><ref id="pgen-0010069-b017"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zhang</surname><given-names>Y</given-names></name><name><surname>Herman</surname><given-names>B</given-names></name></person-group>
+<year>2002</year>
+<article-title>Ageing and apoptosis</article-title>
+<source>Mech Ageing Dev</source>
+<volume>123</volume>
+<fpage>245</fpage>
+<lpage>260</lpage>
+<pub-id pub-id-type="pmid">11744038</pub-id></element-citation></ref><ref id="pgen-0010069-b018"><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Weindruch</surname><given-names>R</given-names></name><name><surname>Walford</surname><given-names>RL</given-names></name></person-group>
+<year>1988</year>
+<source>The retardation of aging and disease by dietary restriction</source>
+<publisher-loc>Springfield (Illinois)</publisher-loc>
+<publisher-name>Charles C. Thomas</publisher-name>
+<size units="page">436</size>
+<comment>p.</comment>
+</element-citation></ref><ref id="pgen-0010069-b019"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jolly</surname><given-names>CA</given-names></name></person-group>
+<year>2005</year>
+<article-title>Diet manipulation and prevention of aging, cancer, and autoimmune disease</article-title>
+<source>Curr Opin Clin Nutr Metab Care</source>
+<volume>8</volume>
+<fpage>382</fpage>
+<lpage>387</lpage>
+<pub-id pub-id-type="pmid">15930962</pub-id></element-citation></ref><ref id="pgen-0010069-b020"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mattson</surname><given-names>MP</given-names></name></person-group>
+<year>2000</year>
+<article-title>Emerging neuroprotective strategies for Alzheimer's disease: Dietary restriction, telomerase activation, and stem cell therapy</article-title>
+<source>Exp Gerontol</source>
+<volume>35</volume>
+<fpage>489</fpage>
+<lpage>502</lpage>
+<pub-id pub-id-type="pmid">10959037</pub-id></element-citation></ref><ref id="pgen-0010069-b021"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Saffrey</surname><given-names>MJ</given-names></name></person-group>
+<year>2004</year>
+<article-title>Ageing of the enteric nervous system</article-title>
+<source>Mech Ageing Dev</source>
+<volume>125</volume>
+<fpage>899</fpage>
+<lpage>906</lpage>
+<pub-id pub-id-type="pmid">15563936</pub-id></element-citation></ref><ref id="pgen-0010069-b022"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>McCay</surname><given-names>CM</given-names></name><name><surname>Crowell</surname><given-names>MF</given-names></name><name><surname>Maynard</surname><given-names>LA</given-names></name></person-group>
+<year>1935</year>
+<article-title>The effect of retarded growth upon the length of life and upon ultimate size</article-title>
+<source>J Nutr</source>
+<volume>10</volume>
+<fpage>63</fpage>
+<lpage>79</lpage>
+</element-citation></ref><ref id="pgen-0010069-b023"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Masoro</surname><given-names>EJ</given-names></name></person-group>
+<year>1998</year>
+<article-title>Influence of caloric intake on aging and on the response to stressors</article-title>
+<source>J Toxicol Environ Health B Crit Rev</source>
+<volume>1</volume>
+<fpage>243</fpage>
+<lpage>257</lpage>
+<pub-id pub-id-type="pmid">9644329</pub-id></element-citation></ref><ref id="pgen-0010069-b024"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mattson</surname><given-names>MP</given-names></name><name><surname>Duan</surname><given-names>W</given-names></name><name><surname>Guo</surname><given-names>Z</given-names></name></person-group>
+<year>2003</year>
+<article-title>Meal size and frequency affect neuronal plasticity and vulnerability to disease: Cellular and molecular mechanisms</article-title>
+<source>J Neurochem</source>
+<volume>84</volume>
+<fpage>417</fpage>
+<lpage>431</lpage>
+<pub-id pub-id-type="pmid">12558961</pub-id></element-citation></ref><ref id="pgen-0010069-b025"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Murphy</surname><given-names>CT</given-names></name><name><surname>McCarroll</surname><given-names>SA</given-names></name><name><surname>Bargmann</surname><given-names>CI</given-names></name><name><surname>Fraser</surname><given-names>A</given-names></name><name><surname>Kamath</surname><given-names>RS</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>Genes that act downstream of DAF-16 to influence the lifespan of <italic>Caenorhabditis elegans</italic>
+</article-title>
+<source>Nature</source>
+<volume>424</volume>
+<fpage>277</fpage>
+<lpage>283</lpage>
+<pub-id pub-id-type="pmid">12845331</pub-id></element-citation></ref><ref id="pgen-0010069-b026"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kenyon</surname><given-names>C</given-names></name></person-group>
+<year>2005</year>
+<article-title>The plasticity of aging: Insights from long-lived mutants</article-title>
+<source>Cell</source>
+<volume>120</volume>
+<fpage>449</fpage>
+<lpage>460</lpage>
+<pub-id pub-id-type="pmid">15734678</pub-id></element-citation></ref><ref id="pgen-0010069-b027"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Braeckman</surname><given-names>BP</given-names></name><name><surname>Houthoofd</surname><given-names>K</given-names></name><name><surname>Vanfleteren</surname><given-names>JR</given-names></name></person-group>
+<year>2001</year>
+<article-title>Insulin-like signaling, metabolism, stress resistance and aging in <italic>Caenorhabditis elegans</italic>
+</article-title>
+<source>Mech Ageing Dev</source>
+<volume>122</volume>
+<fpage>673</fpage>
+<lpage>693</lpage>
+<pub-id pub-id-type="pmid">11322992</pub-id></element-citation></ref><ref id="pgen-0010069-b028"><element-citation publication-type="other">
+<person-group person-group-type="author"><name><surname>Kaeberlein</surname><given-names>M</given-names></name><name><surname>Powers</surname><given-names>RW</given-names></name><name><surname>Steffen</surname><given-names>KK</given-names></name><name><surname>Westman</surname><given-names>EA</given-names></name><name><surname>Hu</surname><given-names>D</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Regulation of yeast replicative life span by Tor and Sch9 in response to nutrients</article-title>
+<source>Science</source>
+<comment>In press.</comment>
+</element-citation></ref><ref id="pgen-0010069-b029"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Meissner</surname><given-names>B</given-names></name><name><surname>Boll</surname><given-names>M</given-names></name><name><surname>Daniel</surname><given-names>H</given-names></name><name><surname>Baumeister</surname><given-names>R</given-names></name></person-group>
+<year>2004</year>
+<article-title>Deletion of the intestinal peptide transporter affects insulin and TOR signaling in <italic>Caenorhabditis elegans</italic>
+</article-title>
+<source>J Biol Chem</source>
+<volume>279</volume>
+<fpage>36739</fpage>
+<lpage>36745</lpage>
+<pub-id pub-id-type="pmid">15155758</pub-id></element-citation></ref><ref id="pgen-0010069-b030"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Vellai</surname><given-names>T</given-names></name><name><surname>Takacs-Vellai</surname><given-names>K</given-names></name><name><surname>Zhang</surname><given-names>Y</given-names></name><name><surname>Kovacs</surname><given-names>AL</given-names></name><name><surname>Orosz</surname><given-names>L</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>Genetics: Influence of TOR kinase on lifespan in <italic>C. elegans</italic>
+</article-title>
+<source>Nature</source>
+<volume>426</volume>
+<fpage>620</fpage>
+</element-citation></ref><ref id="pgen-0010069-b031"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kapahi</surname><given-names>P</given-names></name><name><surname>Zid</surname><given-names>BM</given-names></name><name><surname>Harper</surname><given-names>T</given-names></name><name><surname>Koslover</surname><given-names>D</given-names></name><name><surname>Sapin</surname><given-names>V</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Regulation of lifespan in <italic>Drosophila</italic> by modulation of genes in the TOR signaling pathway</article-title>
+<source>Curr Biol</source>
+<volume>14</volume>
+<fpage>885</fpage>
+<lpage>890</lpage>
+<pub-id pub-id-type="pmid">15186745</pub-id></element-citation></ref><ref id="pgen-0010069-b032"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sharp</surname><given-names>ZD</given-names></name><name><surname>Bartke</surname><given-names>A</given-names></name></person-group>
+<year>2005</year>
+<article-title>Evidence for down-regulation of phosphoinositide 3-kinase/Akt/mammalian target of rapamycin (PI3K/Akt/mTOR)-dependent translation regulatory signaling pathways in Ames dwarf mice</article-title>
+<source>J Gerontol A Biol Sci Med Sci</source>
+<volume>60</volume>
+<fpage>293</fpage>
+<lpage>300</lpage>
+<pub-id pub-id-type="pmid">15860463</pub-id></element-citation></ref><ref id="pgen-0010069-b033"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lin</surname><given-names>SJ</given-names></name><name><surname>Defossez</surname><given-names>PA</given-names></name><name><surname>Guarente</surname><given-names>L</given-names></name></person-group>
+<year>2000</year>
+<article-title>Requirement of NAD and SIR2 for life-span extension by calorie restriction in <italic>Saccharomyces cerevisiae</italic>
+</article-title>
+<source>Science</source>
+<volume>289</volume>
+<fpage>2126</fpage>
+<lpage>2128</lpage>
+<pub-id pub-id-type="pmid">11000115</pub-id></element-citation></ref><ref id="pgen-0010069-b034"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rogina</surname><given-names>B</given-names></name><name><surname>Helfand</surname><given-names>SL</given-names></name></person-group>
+<year>2004</year>
+<article-title>Sir2 mediates longevity in the fly through a pathway related to calorie restriction</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>101</volume>
+<fpage>15998</fpage>
+<lpage>16003</lpage>
+<pub-id pub-id-type="pmid">15520384</pub-id></element-citation></ref><ref id="pgen-0010069-b035"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Guarente</surname><given-names>L</given-names></name><name><surname>Picard</surname><given-names>F</given-names></name></person-group>
+<year>2005</year>
+<article-title>Calorie restriction&#x02014;The SIR2 connection</article-title>
+<source>Cell</source>
+<volume>120</volume>
+<fpage>473</fpage>
+<lpage>482</lpage>
+<pub-id pub-id-type="pmid">15734680</pub-id></element-citation></ref><ref id="pgen-0010069-b036"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kaeberlein</surname><given-names>M</given-names></name><name><surname>Kirkland</surname><given-names>KT</given-names></name><name><surname>Fields</surname><given-names>S</given-names></name><name><surname>Kennedy</surname><given-names>BK</given-names></name></person-group>
+<year>2004</year>
+<article-title>Sir2-independent life span extension by calorie restriction in yeast</article-title>
+<source>PLoS Biol</source>
+<volume>2</volume>
+<fpage>E296</fpage>
+<pub-id pub-id-type="pmid">15328540</pub-id></element-citation></ref><ref id="pgen-0010069-b037"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kaeberlein</surname><given-names>M</given-names></name><name><surname>Andalis</surname><given-names>AA</given-names></name><name><surname>Fink</surname><given-names>GR</given-names></name><name><surname>Guarente</surname><given-names>L</given-names></name></person-group>
+<year>2002</year>
+<article-title>High osmolarity extends life span in <italic>Saccharomyces cerevisiae</italic> by a mechanism related to calorie restriction</article-title>
+<source>Mol Cell Biol</source>
+<volume>22</volume>
+<fpage>8056</fpage>
+<lpage>8066</lpage>
+<pub-id pub-id-type="pmid">12391171</pub-id></element-citation></ref><ref id="pgen-0010069-b038"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Smith</surname><given-names>JS</given-names></name><name><surname>Brachmann</surname><given-names>CB</given-names></name><name><surname>Celic</surname><given-names>I</given-names></name><name><surname>Kenna</surname><given-names>MA</given-names></name><name><surname>Muhammad</surname><given-names>S</given-names></name><etal/></person-group>
+<year>2000</year>
+<article-title>A phylogenetically conserved NAD<sup>+</sup>-dependent protein deacetylase activity in the Sir2 protein family</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>97</volume>
+<fpage>6658</fpage>
+<lpage>6663</lpage>
+<pub-id pub-id-type="pmid">10841563</pub-id></element-citation></ref><ref id="pgen-0010069-b039"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Landry</surname><given-names>J</given-names></name><name><surname>Sutton</surname><given-names>A</given-names></name><name><surname>Tafrov</surname><given-names>ST</given-names></name><name><surname>Heller</surname><given-names>RC</given-names></name><name><surname>Stebbins</surname><given-names>J</given-names></name><etal/></person-group>
+<year>2000</year>
+<article-title>The silencing protein SIR2 and its homologs are NAD-dependent protein deacetylases</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>97</volume>
+<fpage>5807</fpage>
+<lpage>5811</lpage>
+<pub-id pub-id-type="pmid">10811920</pub-id></element-citation></ref><ref id="pgen-0010069-b040"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Imai</surname><given-names>S</given-names></name><name><surname>Armstrong</surname><given-names>CM</given-names></name><name><surname>Kaeberlein</surname><given-names>M</given-names></name><name><surname>Guarente</surname><given-names>L</given-names></name></person-group>
+<year>2000</year>
+<article-title>Transcriptional silencing and longevity protein Sir2 is an NAD-dependent histone deacetylase</article-title>
+<source>Nature</source>
+<volume>403</volume>
+<fpage>795</fpage>
+<lpage>800</lpage>
+<pub-id pub-id-type="pmid">10693811</pub-id></element-citation></ref><ref id="pgen-0010069-b041"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kaeberlein</surname><given-names>M</given-names></name><name><surname>McVey</surname><given-names>M</given-names></name><name><surname>Guarente</surname><given-names>L</given-names></name></person-group>
+<year>1999</year>
+<article-title>The SIR2/3/4 complex and SIR2 alone promote longevity in <italic>Saccharomyces cerevisiae</italic> by two different mechanisms</article-title>
+<source>Genes Dev</source>
+<volume>13</volume>
+<fpage>2570</fpage>
+<lpage>2580</lpage>
+<pub-id pub-id-type="pmid">10521401</pub-id></element-citation></ref><ref id="pgen-0010069-b042"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sinclair</surname><given-names>DA</given-names></name><name><surname>Guarente</surname><given-names>L</given-names></name></person-group>
+<year>1997</year>
+<article-title>Extrachromosomal rDNA circles&#x02014;A cause of aging in yeast</article-title>
+<source>Cell</source>
+<volume>91</volume>
+<fpage>1033</fpage>
+<lpage>1042</lpage>
+<pub-id pub-id-type="pmid">9428525</pub-id></element-citation></ref><ref id="pgen-0010069-b043"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Michel</surname><given-names>AH</given-names></name><name><surname>Kornmann</surname><given-names>B</given-names></name><name><surname>Dubrana</surname><given-names>K</given-names></name><name><surname>Shore</surname><given-names>D</given-names></name></person-group>
+<year>2005</year>
+<article-title>Spontaneous rDNA copy number variation modulates Sir2 levels and epigenetic gene silencing</article-title>
+<source>Genes Dev</source>
+<volume>19</volume>
+<fpage>1199</fpage>
+<lpage>1210</lpage>
+<pub-id pub-id-type="pmid">15905408</pub-id></element-citation></ref><ref id="pgen-0010069-b044"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kennedy</surname><given-names>BK</given-names></name><name><surname>Austriaco</surname><given-names>NR</given-names></name><name><surname>Zhang</surname><given-names>J</given-names></name><name><surname>Guarente</surname><given-names>L</given-names></name></person-group>
+<year>1995</year>
+<article-title>Mutation in the silencing gene SIR4 can delay aging in <italic>S. cerevisiae</italic>
+</article-title>
+<source>Cell</source>
+<volume>80</volume>
+<fpage>485</fpage>
+<lpage>496</lpage>
+<pub-id pub-id-type="pmid">7859289</pub-id></element-citation></ref><ref id="pgen-0010069-b045"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Couzin</surname><given-names>J</given-names></name></person-group>
+<year>2004</year>
+<article-title>Scientific community. Aging research's family feud</article-title>
+<source>Science</source>
+<volume>303</volume>
+<fpage>1276</fpage>
+<lpage>1279</lpage>
+<pub-id pub-id-type="pmid">14988530</pub-id></element-citation></ref><ref id="pgen-0010069-b046"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lin</surname><given-names>SJ</given-names></name><name><surname>Kaeberlein</surname><given-names>M</given-names></name><name><surname>Andalis</surname><given-names>AA</given-names></name><name><surname>Sturtz</surname><given-names>LA</given-names></name><name><surname>Defossez</surname><given-names>PD</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>Calorie restriction extends <italic>Saccharomyces cerevisiae</italic> life span by increasing respiration</article-title>
+<source>Nature</source>
+<volume>418</volume>
+<fpage>344</fpage>
+<lpage>348</lpage>
+<pub-id pub-id-type="pmid">12124627</pub-id></element-citation></ref><ref id="pgen-0010069-b047"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lin</surname><given-names>SJ</given-names></name><name><surname>Ford</surname><given-names>E</given-names></name><name><surname>Haigis</surname><given-names>M</given-names></name><name><surname>Liszt</surname><given-names>G</given-names></name><name><surname>Guarente</surname><given-names>L</given-names></name></person-group>
+<year>2004</year>
+<article-title>Calorie restriction extends yeast life span by lowering the level of NADH</article-title>
+<source>Genes Dev</source>
+<volume>18</volume>
+<fpage>12</fpage>
+<lpage>16</lpage>
+<pub-id pub-id-type="pmid">14724176</pub-id></element-citation></ref><ref id="pgen-0010069-b048"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Anderson</surname><given-names>RM</given-names></name><name><surname>Latorre-Esteves</surname><given-names>M</given-names></name><name><surname>Neves</surname><given-names>AR</given-names></name><name><surname>Lavu</surname><given-names>S</given-names></name><name><surname>Medvedik</surname><given-names>O</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>Yeast life-span extension by calorie restriction is independent of NAD fluctuation</article-title>
+<source>Science</source>
+<volume>302</volume>
+<fpage>2124</fpage>
+<lpage>2126</lpage>
+<pub-id pub-id-type="pmid">14605207</pub-id></element-citation></ref><ref id="pgen-0010069-b049"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Anderson</surname><given-names>RM</given-names></name><name><surname>Bitterman</surname><given-names>KJ</given-names></name><name><surname>Wood</surname><given-names>JG</given-names></name><name><surname>Medvedik</surname><given-names>O</given-names></name><name><surname>Sinclair</surname><given-names>DA</given-names></name></person-group>
+<year>2003</year>
+<article-title>Nicotinamide and PNC1 govern lifespan extension by calorie restriction in <italic>Saccharomyces cerevisiae</italic>
+</article-title>
+<source>Nature</source>
+<volume>423</volume>
+<fpage>181</fpage>
+<lpage>185</lpage>
+<pub-id pub-id-type="pmid">12736687</pub-id></element-citation></ref><ref id="pgen-0010069-b050"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bitterman</surname><given-names>KJ</given-names></name><name><surname>Anderson</surname><given-names>RM</given-names></name><name><surname>Cohen</surname><given-names>HY</given-names></name><name><surname>Latorre-Esteves</surname><given-names>M</given-names></name><name><surname>Sinclair</surname><given-names>DA</given-names></name></person-group>
+<year>2002</year>
+<article-title>Inhibition of silencing and accelerated aging by nicotinamide, a putative negative regulator of yeast sir2 and human SIRT1</article-title>
+<source>J Biol Chem</source>
+<volume>277</volume>
+<fpage>45099</fpage>
+<lpage>45107</lpage>
+<pub-id pub-id-type="pmid">12297502</pub-id></element-citation></ref><ref id="pgen-0010069-b051"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Landry</surname><given-names>J</given-names></name><name><surname>Slama</surname><given-names>JT</given-names></name><name><surname>Sternglanz</surname><given-names>R</given-names></name></person-group>
+<year>2000</year>
+<article-title>Role of NAD(+) in the deacetylase activity of the SIR2-like proteins</article-title>
+<source>Biochem Biophys Res Comm</source>
+<volume>278</volume>
+<fpage>685</fpage>
+<lpage>690</lpage>
+<pub-id pub-id-type="pmid">11095969</pub-id></element-citation></ref><ref id="pgen-0010069-b052"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gallo</surname><given-names>CM</given-names></name><name><surname>Smith</surname><given-names>DL</given-names><suffix>Jr.</suffix></name><name><surname>Smith</surname><given-names>JS</given-names></name></person-group>
+<year>2004</year>
+<article-title>Nicotinamide clearance by Pnc1 directly regulates Sir2-mediated silencing and longevity</article-title>
+<source>Mol Cell Biol</source>
+<volume>24</volume>
+<fpage>1301</fpage>
+<lpage>1312</lpage>
+<pub-id pub-id-type="pmid">14729974</pub-id></element-citation></ref><ref id="pgen-0010069-b053"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kaeberlein</surname><given-names>M</given-names></name><name><surname>Kennedy</surname><given-names>BK</given-names></name></person-group>
+<year>2005</year>
+<article-title>Large-scale identification in yeast of conserved ageing genes</article-title>
+<source>Mech Ageing Dev</source>
+<volume>126</volume>
+<fpage>17</fpage>
+<lpage>21</lpage>
+<pub-id pub-id-type="pmid">15610758</pub-id></element-citation></ref><ref id="pgen-0010069-b054"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kaeberlein</surname><given-names>M</given-names></name><name><surname>Andalis</surname><given-names>AA</given-names></name><name><surname>Liszt</surname><given-names>G</given-names></name><name><surname>Fink</surname><given-names>GR</given-names></name><name><surname>Guarente</surname><given-names>L</given-names></name></person-group>
+<year>2004</year>
+<article-title>
+<italic>Saccharomyces cerevisiae</italic> SSD1-V confers longevity by a Sir2p-independent mechanism</article-title>
+<source>Genetics</source>
+<volume>166</volume>
+<fpage>1661</fpage>
+<lpage>1672</lpage>
+<pub-id pub-id-type="pmid">15126388</pub-id></element-citation></ref><ref id="pgen-0010069-b055"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kaeberlein</surname><given-names>M</given-names></name><name><surname>McDonagh</surname><given-names>T</given-names></name><name><surname>Heltweg</surname><given-names>B</given-names></name><name><surname>Hixon</surname><given-names>J</given-names></name><name><surname>Westman</surname><given-names>EA</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Substrate-specific activation of sirtuins by resveratrol</article-title>
+<source>J Biol Chem</source>
+<volume>280</volume>
+<fpage>17038</fpage>
+<lpage>17045</lpage>
+<pub-id pub-id-type="pmid">15684413</pub-id></element-citation></ref><ref id="pgen-0010069-b056"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tzagoloff</surname><given-names>A</given-names></name><name><surname>Myers</surname><given-names>AM</given-names></name></person-group>
+<year>1986</year>
+<article-title>Genetics of mitochondrial biogenesis</article-title>
+<source>Annu Rev Biochem</source>
+<volume>55</volume>
+<fpage>249</fpage>
+<lpage>285</lpage>
+<pub-id pub-id-type="pmid">2427014</pub-id></element-citation></ref><ref id="pgen-0010069-b057"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>de Zamaroczy</surname><given-names>M</given-names></name><name><surname>Bernardi</surname><given-names>G</given-names></name></person-group>
+<year>1986</year>
+<article-title>The primary structure of the mitochondrial genome of <italic>Saccharomyces cerevisiae</italic>
+</article-title>
+<source>Gene</source>
+<volume>47</volume>
+<fpage>155</fpage>
+<lpage>177</lpage>
+<pub-id pub-id-type="pmid">3549452</pub-id></element-citation></ref><ref id="pgen-0010069-b058"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kaeberlein</surname><given-names>M</given-names></name><name><surname>Kirkland</surname><given-names>KT</given-names></name><name><surname>Fields</surname><given-names>S</given-names></name><name><surname>Kennedy</surname><given-names>BK</given-names></name></person-group>
+<year>2005</year>
+<article-title>Genes determining yeast replicative life span in a long-lived genetic background</article-title>
+<source>Mech Ageing Dev</source>
+<volume>126</volume>
+<fpage>491</fpage>
+<lpage>504</lpage>
+<pub-id pub-id-type="pmid">15722108</pub-id></element-citation></ref><ref id="pgen-0010069-b059"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Williams</surname><given-names>AC</given-names></name><name><surname>Ramsden</surname><given-names>DB</given-names></name></person-group>
+<year>2005</year>
+<article-title>Nicotinamide homeostasis: A xenobiotic pathway that is key to development and degenerative diseases</article-title>
+<source>Med Hypotheses</source>
+<volume>65</volume>
+<fpage>353</fpage>
+<lpage>362</lpage>
+<pub-id pub-id-type="pmid">15922112</pub-id></element-citation></ref><ref id="pgen-0010069-b060"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wallace</surname><given-names>DC</given-names></name></person-group>
+<year>2001</year>
+<article-title>A mitochondrial paradigm for degenerative diseases and ageing</article-title>
+<source>Novartis Found Symp</source>
+<volume>235</volume>
+<fpage>247</fpage>
+<lpage>266</lpage>
+<pub-id pub-id-type="pmid">11280029</pub-id></element-citation></ref><ref id="pgen-0010069-b061"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wallace</surname><given-names>DC</given-names></name><name><surname>Shoffner</surname><given-names>JM</given-names></name><name><surname>Trounce</surname><given-names>I</given-names></name><name><surname>Brown</surname><given-names>MD</given-names></name><name><surname>Ballinger</surname><given-names>SW</given-names></name><etal/></person-group>
+<year>1995</year>
+<article-title>Mitochondrial DNA mutations in human degenerative diseases and aging</article-title>
+<source>Biochim Biophys Acta</source>
+<volume>1271</volume>
+<fpage>141</fpage>
+<lpage>151</lpage>
+<pub-id pub-id-type="pmid">7599200</pub-id></element-citation></ref><ref id="pgen-0010069-b062"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Taylor</surname><given-names>RW</given-names></name><name><surname>Turnbull</surname><given-names>DM</given-names></name></person-group>
+<year>2005</year>
+<article-title>Mitochondrial DNA mutations in human disease</article-title>
+<source>Nat Rev Genet</source>
+<volume>6</volume>
+<fpage>389</fpage>
+<lpage>402</lpage>
+<pub-id pub-id-type="pmid">15861210</pub-id></element-citation></ref><ref id="pgen-0010069-b063"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kirchman</surname><given-names>PA</given-names></name><name><surname>Kim</surname><given-names>S</given-names></name><name><surname>Lai</surname><given-names>CY</given-names></name><name><surname>Jazwinski</surname><given-names>SM</given-names></name></person-group>
+<year>1999</year>
+<article-title>Interorganelle signaling is a determinant of longevity in <italic>Saccharomyces cerevisiae</italic>
+</article-title>
+<source>Genetics</source>
+<volume>152</volume>
+<fpage>179</fpage>
+<lpage>190</lpage>
+<pub-id pub-id-type="pmid">10224252</pub-id></element-citation></ref><ref id="pgen-0010069-b064"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Winzeler</surname><given-names>EA</given-names></name><name><surname>Shoemaker</surname><given-names>DD</given-names></name><name><surname>Astromoff</surname><given-names>A</given-names></name><name><surname>Liang</surname><given-names>H</given-names></name><name><surname>Anderson</surname><given-names>K</given-names></name><etal/></person-group>
+<year>1999</year>
+<article-title>Functional characterization of the <italic>S. cerevisiae</italic> genome by gene deletion and parallel analysis</article-title>
+<source>Science</source>
+<volume>285</volume>
+<fpage>901</fpage>
+<lpage>906</lpage>
+<pub-id pub-id-type="pmid">10436161</pub-id></element-citation></ref><ref id="pgen-0010069-b065"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sikorski</surname><given-names>RS</given-names></name><name><surname>Hieter</surname><given-names>P</given-names></name></person-group>
+<year>1989</year>
+<article-title>A system of shuttle vectors and yeast host strains designed for efficient manipulation of DNA in <italic>Saccharomyces cerevisiae</italic>
+</article-title>
+<source>Genetics</source>
+<volume>122</volume>
+<fpage>19</fpage>
+<lpage>27</lpage>
+<pub-id pub-id-type="pmid">2659436</pub-id></element-citation></ref></ref-list></back></article>

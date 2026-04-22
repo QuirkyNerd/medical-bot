@@ -1,0 +1,1665 @@
+<!-- edited with XMLSPY v2004 rel. 3 U (http://www.xmlspy.com) by CDC (private) -->
+<!DOCTYPE article
+PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.3 20210610//EN" "JATS-archivearticle1-3-mathml3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="review-article"><?properties open_access?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Prev Chronic Dis</journal-id><journal-id journal-id-type="iso-abbrev">Prev Chronic Dis</journal-id><journal-title-group><journal-title>Preventing Chronic Disease</journal-title></journal-title-group><issn pub-type="epub">1545-1151</issn><publisher><publisher-name>Centers for Disease Control and Prevention</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">15670447</article-id><article-id pub-id-type="pmc">PMC1277955</article-id><article-id pub-id-type="publisher-id">PCDv14_04_0019</article-id><article-categories><subj-group subj-group-type="heading"><subject>Special Topics in Public Health</subject></subj-group><series-title>Peer Reviewed</series-title></article-categories><title-group><article-title>What Do We Mean by Internet Access? A Framework for Health Researchers</article-title></title-group><contrib-group><contrib contrib-type="author" corresp="yes"><name><surname>Bush</surname><given-names>Nigel E.</given-names></name><degrees>PhD</degrees><aff>Fred Hutchinson Cancer Research Center</aff><address><addr-line>1100 Fairview Ave N, M3-B232, Seattle, WA 98109-1024</addr-line><phone>206-667-5688</phone><email>nbush@fhcrc.org</email></address></contrib><contrib contrib-type="author"><name><surname>Bowen</surname><given-names>Deborah J</given-names></name><degrees>PhD</degrees><aff>Fred Hutchinson Cancer Research Center, Seattle, Washh</aff></contrib><contrib contrib-type="author"><name><surname>Wooldridge</surname><given-names>Jean</given-names></name><degrees>MPH</degrees><aff>Fred Hutchinson Cancer Research Center, Seattle, Wash</aff></contrib><contrib contrib-type="author"><name><surname>Ludwig</surname><given-names>Abi</given-names></name><degrees>BS</degrees><aff>Fred Hutchinson Cancer Research Center, Seattle, Wash</aff></contrib><contrib contrib-type="author"><name><surname>Robbins</surname><given-names>Robert</given-names></name><degrees>MPH</degrees><aff>Fred Hutchinson Cancer Research Center, Seattle, Washh</aff></contrib><contrib contrib-type="author"><name><surname>Meischke</surname><given-names>Hendrika</given-names></name><degrees>PhD</degrees><aff>University of Washington, Seattle, Wash</aff></contrib></contrib-group><pub-date pub-type="collection"><month>10</month><year>2004</year></pub-date><pub-date pub-type="epub"><day>15</day><month>9</month><year>2004</year></pub-date><volume>1</volume><issue>4</issue><elocation-id>A15</elocation-id><permissions><copyright-year>2004</copyright-year><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is a publication of the U.S. Government. This publication is in the public domain and is therefore without copyright. All text from this work may be reprinted freely. Use of these materials should be properly cited.</license-p></license></permissions><abstract abstract-type="key-points"><p>Much is written about Internet access, Web access, Web site accessibility, and access to online health information. The term <italic>access</italic> has, however, a variety of meanings to authors in different contexts when applied to the Internet, the Web, and interactive health communication. We have summarized those varied uses and definitions and consolidated them into a framework that defines Internet and Web access issues for health researchers. We group issues into two categories: connectivity and human interface. Our focus is to conceptualize access as a multicomponent issue that can either reduce or enhance the public health utility of electronic communications.</p></abstract></article-meta></front><body><sec><title>Introduction</title><p>The Internet and World Wide Web (Web) have rapidly become ubiquitous in the lives of the majority of Americans. By March 2004, three fourths of Americans were able to use the Internet from home (<xref rid="B1" ref-type="bibr">1</xref>). Americans routinely turn to the Web for information, entertainment, merchandise, and communication.&#x000a0;In particular, the Internet has become a prime source of health information for consumers (<xref rid="B2" ref-type="bibr">2</xref>,<xref rid="B3" ref-type="bibr">3</xref>). Although the Internet has potential as a tool for health improvement, its impact hinges on issues of access. Access is an issue that affects people at home, at school, and in the community at large (<xref rid="B4" ref-type="bibr">4</xref>). Even where access to basic Internet infrastructure exists or is provided, further access to Internet use is often limited by other factors (<xref rid="B5" ref-type="bibr">5</xref>). A more global concept of Internet access encompasses a spectrum of narrower, interrelated factors described by Eng et al as "the ability to access, comprehend, and utilize information and support appropriate to one's personal characteristics" (<xref rid="B6" ref-type="bibr">6</xref>).</p><p>In this article, we document the myriad uses and definitions of Internet access from a wide variety of sources and consolidate them into a single, comprehensive, cohesive framework suitable for health research and practice. We believe the proposed framework will provide researchers a clearer and more thorough understanding of Internet access, whether they design Web-based interventions, implement electronic outcomes assessments, develop online educational resources, or otherwise incorporate interactive health communications (IHC) components in their research endeavors.</p><sec><title>Need for clarifying and specifying terms</title><p>Our own research experience illustrates the difficulties of the issues of access. We recently conducted pilot research on communicating breast cancer risk to low-income, predominantly African American, elderly, inner-city women. As part of this research, we tested a computer and Internet education and training program in local church community centers among a sample of our target audience. One of our first steps was to identify a group of Web <italic>nonusers</italic>, or novices, through telephone questionnaires. We had to revise our initial questionnaire several times before we were able to define and isolate our target group. Who exactly was a nonuser? Was a nonuser someone who had never used the Internet or Web, someone who may have used it occasionally but not recently, or someone who used it frequently but stopped? What did we mean by occasionally or recently? What degree of use determined a user? Did occasional e-mailing with help from another person constitute Internet experience? Should we include women who were computer users but who had little or no Internet experience? Was a nonuser also someone who had no access to an Internet connection? By "no access" did we mean no easy or convenient access? If so, how did we define ease or convenience and what was our cut-off criterion? Was it availability in the home only or availability within easy walking distance from the home (e.g., church, community center)? The permutations were endless.</p><p>The details of our final framework are based both on our own experience and on the findings of other Web-based health research projects (<xref rid="B7" ref-type="bibr">7</xref>,<xref rid="B8" ref-type="bibr">8</xref>) and are described below.&#x000a0;</p></sec></sec><sec><title>Methods</title><sec><title>Distinguishing between the Internet and the Web</title><p>Within the technology community, a clear demarcation exists between the Internet and the Web. In common usage, however, the two are often confused, with Internet and Web frequently used interchangeably as if they were the same entity. Motive, a New Zealand-based Internet communication design company, defines the Internet in relatively lay terms as "a global network of interconnected computers. This is the infrastructure through which applications such as e-mail, chat rooms and instant messaging operate" (<xref rid="B9" ref-type="bibr">9</xref>). Motive goes on to distinguish the Internet from the Web: "Thus, the Web is an example of an Internet application. The Web is accessed through a browser which can display text, images, and time-based media and allow a user to access applications" (<xref rid="B9" ref-type="bibr">9</xref>).&#x000a0;December Communications, a Web-based communications company, reminds us in more technical terms that "[t]he Web is not the Internet itself. The Web is not a proprietary system like AOL. Instead, the Web is a system of clients (Web browsers) and servers that uses the Internet for its data exchange" (<xref rid="B10" ref-type="bibr">10</xref>). Foldoc, an online dictionary of computing, similarly describes a Web browser: "The client program (known as a browser), e.g., Netscape Navigator, runs on the user's computer and provides two basic navigation operations: to follow a link or to send a query to a server" (<xref rid="B11" ref-type="bibr">11</xref>).</p></sec><sec><title>Information source</title><p>We explored three overlapping information sources that cover the various uses of Internet and Web access: 1) the academic, medical, and health literature, 2) the Web itself, including recent Internet usage surveys, and 3) seminal reports on eHealth and online health consumers. Searches of Medline and PubMed for the words "Internet" and "Web" in any field each yielded more than 3000 articles, and more than 1500 hits resulted when we combined the two search terms. Searches for "World Wide Web" produced more than 500 results. These three searches produced results that were beyond the scope of this summary paper, so we then narrowed our search to articles published in the last five years with the words "Internet" or "Web and Access" in their titles and abstracts. This more focused search generated a more wieldy 200 articles. We also searched the Web for definitions and examples of Web access, Internet access, and variations on those themes in the commercial and private sector using search engines such as Google (<xref rid="B12" ref-type="bibr">12</xref>) and WebFerret (<xref rid="B13" ref-type="bibr">13</xref>). In addition, we reviewed recent Internet communication and survey sites including the Pew Internet and American Life Project (<xref rid="B14" ref-type="bibr">14</xref>), Nielsen//NetRatings (<xref rid="B15" ref-type="bibr">15</xref>), Harris Interactive (<xref rid="B16" ref-type="bibr">16</xref>), and Nua Internet Surveys (<xref rid="B17" ref-type="bibr">17</xref>). Finally, for definitions, uses, and terminology, we inspected a selection of recent seminal reports on e-health, online health, and the "digital divide," including <italic>Healthy People 2010</italic> (<xref rid="B18" ref-type="bibr">18</xref>), <italic>The eHealth Landscape</italic> (<xref rid="B5" ref-type="bibr">5</xref>), <italic>Wired for Health</italic> (<xref rid="B19" ref-type="bibr">19</xref>), <italic>A Nation Online</italic> (<xref rid="B20" ref-type="bibr">20</xref>), <italic>Falling through the Net</italic> (<xref rid="B21" ref-type="bibr">21</xref>), and <italic>The UCLA Internet Report</italic> (<xref rid="B22" ref-type="bibr">22</xref>).</p></sec></sec><sec><title>Results</title><sec><title>A health researcher's framework of Internet and Web access</title><p>
+<xref rid="F1" ref-type="fig">Figures 1</xref> and <xref rid="F2" ref-type="fig">2</xref> present our proposed framework for describing Internet and Web access. In the process of consolidating results from our search of the literature, Web, and other sources, we sorted the disparate and varied uses and definitions of access into coherent unifying clusters, or collective grouping, based on similar meanings and usages.&#x000a0;Initially, we created a relatively large number of small clusters, with individual examples often allocated to more than one cluster.&#x000a0;We then progressively combined clusters that we judged to share similar overriding characteristics into fewer, more broadly descriptive and exclusive groupings. Finally, we assigned our final clusters to one of two global categories. We propose that issues of Internet and Web access can be catalogued as either connectivity (<xref rid="F1" ref-type="fig">Figure 1</xref>) or human interface (<xref rid="F2" ref-type="fig">Figure 2</xref>) issues. These global categories are not mutually exclusive, and many of the examples within each category interact and co-vary with others to different extents; we believe, however, the two global categories offer a simple and convenient descriptive framework.</p><boxed-text position="float"><fig position="float" id="F1" fig-type="illustration"><label>Figure 1</label><caption><p>Examples of elements of connectivity, which is defined as &#x0201c;connecting or being connected to the Internet, the Web, a Web site, Web page, or Web subcomponent; having the functionality and content of the Internet and/or Web physically available.&#x0201d; The categories above provide noninclusive lists of examples.</p></caption><alt-text>Examples of elements of connectivity</alt-text><graphic xlink:href="PCD14A15s1" position="float"/><graphic xlink:href="PCD14A15s2" position="float"/></fig></boxed-text><boxed-text position="float"><fig position="float" id="F2" fig-type="illustration"><label>Figure 2</label><caption><p>Examples of elements of human interface, which is defined as &#x0201c;those factors relating to user demographics and characteristics, such as literacy, language, education, race, ethnicity and culture, income, disability and age, experience and familiarity, and skill and training, which determine or restrict level of access to Internet/Web and content.&#x0201d; The categories above provide noninclusive lists of examples.</p></caption><alt-text>Examples of elements of human interface</alt-text><graphic xlink:href="PCD14A15s3" position="float"/><graphic xlink:href="PCD14A15s4" position="float"/></fig></boxed-text></sec><sec><title>Connectivity</title><p>We broadly define <italic>connectivity</italic>&#x000a0;as "connecting or being connected to the Internet, the Web, a Web site, Web page, or Web subcomponent; having the functionality and content of the Internet and/or Web physically available." A number of sources in the academic literature describe access simply as being connected to the Internet or Web (<xref rid="B23" ref-type="bibr">23</xref>-<xref rid="B54" ref-type="bibr">54</xref>). We found, for example, references to free Internet access (<xref rid="B49" ref-type="bibr">49</xref>), access to the Internet during dentist visits (<xref rid="B55" ref-type="bibr">55</xref>), Internet access through an employer (<xref rid="B41" ref-type="bibr">41</xref>), use of touch-screen kiosks to provide Internet access (<xref rid="B56" ref-type="bibr">56</xref>,<xref rid="B57" ref-type="bibr">57</xref>), degree or quality of connectivity (e.g., Broadband service) (<xref rid="B24" ref-type="bibr">24</xref>), and common places of access, such as home&#x000a0;(<xref rid="B58" ref-type="bibr">58</xref>,<xref rid="B59" ref-type="bibr">59</xref>) or work (<xref rid="B43" ref-type="bibr">43</xref>).&#x000a0;Predominantly commercial Web sites and Web surveys also focused primarily on this kind of basic connectivity. SearchVB.com described access in this way: "Web access means having a connection to the World Wide Web through an access provider or an online service provider such as America Online" (<xref rid="B60" ref-type="bibr">60</xref>). In addition, theDirectory.org described Internet access providers as "companies that provide connections to the Internet for businesses and individuals" (<xref rid="B61" ref-type="bibr">61</xref>).&#x000a0;Nielsen//NetRatings Audience Measurement Service reports Internet usage estimates based on a sample of households that have access to the Internet. The Nielsen//NetRatings Internet universe is defined as all members of U.S. households (aged two years or older) that currently have access to the Internet (<xref rid="B62" ref-type="bibr">62</xref>).&#x000a0;Harris Interactive seems to define access as "computer users who are online." For example, "Two-thirds (66%) of all adults are now online. This includes more than half (55%) of all adults who access the Internet from home, almost a third (30%) who access it from work, and almost one in five adults who go online from a school, library, cyber caf&#x000e9; or other location" (<xref rid="B63" ref-type="bibr">63</xref>). In addition, Systems Computing Services distinguishes between connection and access: "When connected to the Internet, you have access to several kinds of resources"&#x000a0;(<xref rid="B64" ref-type="bibr">64</xref>).</p><boxed-text position="float"><glossary><title>Glossary</title><glossary content-type="gloss-group"><def-list><def-item><term>Browser</term><def><p>a software application used to find and display Web pages.</p></def></def-item><def-item><term>Kiosk</term><def><p>a stand-alone booth providing a computer-related service. Kiosks must be easy to use (without training or documentation), and the hardware must be capable of operating unattended for long periods of time. Examples of kiosks include automated teller machines and tourist information booths.</p></def></def-item><def-item><term>Firewall</term><def><p>a barrier designed to protect a private network from unauthorized access. Information going through the firewall in either direction is examined to make sure it meets security criteria. Firewalls can be implemented in hardware, software, or both.</p></def></def-item><def-item><term>Plug-in</term><def><p>a piece of hardware or software that adds a specific feature or service to a larger system. The idea is that the new component simply plugs into the existing system, but it must be installed separately from the existing system.</p></def></def-item><def-item><term>Intranet</term><def><p>a private network that operates like the Internet but is accessible only to a limited group of users, such as a company&#x02019;s employees. Many intranets are also connected to the Internet, but they are protected by a firewall.</p></def></def-item><def-item><term>Functionality</term><def><p>what the features of hardware or software enable a user to do.</p></def></def-item><def-item><term>Application</term><def><p>software applications are the programs (or groups of programs) that enable users to accomplish tasks. Examples include word processing and spreadsheet programs as well as e-mail programs and Web browsers.</p></def></def-item><def-item><term>Networking</term><def><p>connecting two or more computers together so they can communicate with each other.</p></def></def-item><def-item><term>Bandwidth</term><def><p>the amount of data (pieces of information) that can be transmitted in a fixed amount of time.</p></def></def-item><def-item><term>Coding</term><def><p>writing the instructions for a computer program. There are many different types of code as well as computer languages in which they can be written.</p></def></def-item><def-item><term>RAM</term><def><p>(Random Access Memory) &#x02014; the type of memory, or data storage, used for storing data temporarily while working on a computer. RAM is volatile, which means that when the power is turned off, the contents stored in RAM are lost. Computer memory can be thought of as boxes, each of which holds a single byte of information. If a computer has 8MB RAM, then eight million bytes of memory are available for programs to use.</p></def></def-item></def-list></glossary></glossary></boxed-text><p>Other varied references to access as basic connectivity included:</p><list list-type="bullet"><list-item><p>"Internet access from home: To reach the Internet the user needs service from 1) a communications company (i.e., a telephone, cable television, or wireless company)"Internet access from home: To reach the Internet the user needs service from 1) a communications company (i.e., a telephone, cable television, or wireless company) providing a transport service to physically transmit data to and from the consumer's home and 2) an ISP [Internet Service Provider] providing access to the Internet" (<xref rid="B65" ref-type="bibr">65</xref>).&#x000a0;</p></list-item><list-item><p>"80 percent of Americans access the Internet through dial-up service," and "Internet access is more frequently occurring outside the home, at such locations [defined] as work, school, public libraries, community centers, someone else's house, and somewhere else" (<xref rid="B20" ref-type="bibr">20</xref>).</p></list-item><list-item><p>"Americans bought home computers and hooked them up to the Internet at a remarkable rate between December 1998 and August 2000.&#x000a0;Virtually every group has participated in the sharp upward trend of Americans connecting their homes to the Internet" (<xref rid="B66" ref-type="bibr">66</xref>).&#x000a0;</p></list-item><list-item><p>"Interactive health communication (IHC): the interaction of an individual &#x02014; consumer, patient, caregiver, or professional &#x02014; with or through an electronic device or communication technology to access or transmit health information, or to receive or provide guidance and support on a health-related issue" (<xref rid="B19" ref-type="bibr">19</xref>).&#x000a0;</p></list-item></list><p>The majority of sources in the academic literature also describe Web or Internet access as opening, using, or getting to content, documents, and applications and collecting data (<xref rid="B31" ref-type="bibr">31</xref>,<xref rid="B36" ref-type="bibr">36</xref>,<xref rid="B37" ref-type="bibr">37</xref>,<xref rid="B48" ref-type="bibr">48</xref>,<xref rid="B67" ref-type="bibr">67</xref>&#x02013;<xref rid="B110" ref-type="bibr">110</xref>). This description is necessarily broad and encompasses a variety of types of access and types of content accessed. General examples include access to patient/medical records and clinical information (111&#x02013;125); a variety of online databases (<xref rid="B126" ref-type="bibr">126</xref>&#x02013;<xref rid="B148" ref-type="bibr">148</xref>), including blood bank (<xref rid="B149" ref-type="bibr">149</xref>) and sperm bank (<xref rid="B150" ref-type="bibr">150</xref>) information; teaching and education syllabi (<xref rid="B151" ref-type="bibr">151</xref>,<xref rid="B152" ref-type="bibr">152</xref>); other computer systems (<xref rid="B153" ref-type="bibr">153</xref>,<xref rid="B154" ref-type="bibr">154</xref>), such as libraries (<xref rid="B155" ref-type="bibr">155</xref>); continuously acquired physiological patient data (<xref rid="B156" ref-type="bibr">156</xref>) or real-time diagnoses (<xref rid="B157" ref-type="bibr">157</xref>) by physicians; medical expertise (<xref rid="B88" ref-type="bibr">88</xref>,<xref rid="B158" ref-type="bibr">158</xref>,<xref rid="B159" ref-type="bibr">159</xref>); online patient decision-support tool (<xref rid="B160" ref-type="bibr">160</xref>); specific, sometimes difficult-to-find populations (<xref rid="B75" ref-type="bibr">75</xref>); and populations for online surveys (<xref rid="B161" ref-type="bibr">161</xref>).</p><p>
+<italic>Availability</italic>.&#x000a0;We first qualify connectivity in terms of its availability. The location and availability of the connection device are important in determining degree, ease, and convenience of access. For example, we may describe a group of users as having home Internet access because a survey tells us that each individual within the group has a home computer connected by telephone modem to an ISP. The single question, "Do you have a computer at home connected by telephone modem to an ISP?," however, tells us little about the availability of Internet access. In one home, a single occupant may be the sole user of the Internet connection. In another home, availability of the home Internet connection may be much more restricted &#x02014; use may be shared, regulated, severely limited or even denied, perhaps by some other person in the house. Both examples depict home Internet access but vary considerably in degree.</p><p>Also critical in determining access is the availability of local ISPs (not requiring a long-distance call), and, more frequently, adequate quality of connection (bandwidth and choice of medium). Both factors vary greatly with geography, especially between urban and rural areas. For example, a potential user in a more remote rural area simply may not have available high-speed Internet service (<xref rid="B21" ref-type="bibr">21</xref>,<xref rid="B162" ref-type="bibr">162</xref>).</p><p>The location of the connection device must also be considered when defining availability of access. Connections to the Internet are commonly made from the home, from work or school, or from local communal points such as community centers, church halls, public libraries, or Internet caf&#x000e9; Internet users without home connections may also connect from other people's homes, an option often forgotten in access surveys. And the Internet now can be reached via mobile or portable devices without fixed locations.</p><p>Connection at and between each location varies in the degree of availability, convenience, and ease of access. Availability might be restricted because of multiple users (i.e., the obligation to share the connection with one or more other users). Availability might also be restricted if the connection uses the only telephone line available at that location (i.e., sharing a voice line). At work, the connection device might be located in an office with restricted physical access. At school, the device might be in a computer lab with availability rigorously scheduled (i.e., limited times and hours). Finally, the connection location itself might be inconvenient. In some urban areas, a connection location outside of the home, work, or school can often be found within a few blocks; in other locales, the nearest place to go online may be preclusively distant.</p><p>The implication of describing Web site availability is that some restriction may prevent users from opening or using the site. For example, describing a Web site as "publicly accessible" (<xref rid="B163" ref-type="bibr">163</xref>) implies that other sites may not be accessible by the general public but are limited to designated users; security measures may be employed to limit access to a site or to specific site content (<xref rid="B164" ref-type="bibr">164</xref>) or to a computer system (<xref rid="B154" ref-type="bibr">154</xref>). One of the most common examples in this context is the privileged (restricted to authorized users only) access to medical records (<xref rid="B90" ref-type="bibr">90</xref>,<xref rid="B113" ref-type="bibr">113</xref>,<xref rid="B121" ref-type="bibr">121</xref>,<xref rid="B122" ref-type="bibr">122</xref>,<xref rid="B125" ref-type="bibr">125</xref>,<xref rid="B141" ref-type="bibr">141</xref>,<xref rid="B165" ref-type="bibr">165</xref>). Alternately, a site, or information within it, may be inaccessible because of design or coding issues; for example, specific content or sites may be inaccessible to search engines (<xref rid="B166" ref-type="bibr">166</xref>,<xref rid="B167" ref-type="bibr">167</xref>). Access and use also may be hindered by navigational challenges due to numerous design features (e.g., disorganization, technical language, lack of permanence [<xref rid="B70" ref-type="bibr">70</xref>], or simple download time [<xref rid="B168" ref-type="bibr">168</xref>]).</p><p>
+<italic>Capability</italic>.&#x000a0;We further qualify connectivity in terms of capability. The capability (and configuration) of both hardware and software determines how efficiently the content and functionality of the Internet or Web is accessed and how comprehensively the content and functionality&#x000a0;are made available. With lesser capability, some content or functionality will not be accessible or available.</p><p>Hardware capability and configuration can determine how much of a Web page is visible, the quality or resolution of that view, or how many Web pages can be opened at one time. For example, a PDA (personal digital assistant) with 8MB (megabytes) of RAM and small monochrome display is considerably less capable of opening, displaying, and manipulating a typical Web page than is a late-model desktop computer. Hardware capability also determines to some extent software capability. More powerful and fully featured software applications typically require more RAM, larger hard-drive storage capacity, and faster computer processing speed and power to function optimally. Less capable hardware can diminish software performance. Additionally, Internet and Web content and functionality may be optimized for, or even require, specific versions and types of software. For example, many multimedia Web pages can only be optimally opened, viewed, and manipulated using a recent-version Web browser of a specific brand and third-party software plug-ins.</p><p>The capability of the connection between the access device, such as a computer, and the Internet and/or Web is also critically important to overall access. Most home Internet users connect from a desktop computer via modem and standard telephone line to an ISP. An increasing number of users connect via faster telephone connections called DSL (digital subscriber line), which allows data transmission without interfering with telephone voice service, while a few home users and many people at work use much faster dedicated cable or T1 lines. The bandwidth of the connection and/or the speed of the modem determine how quickly Web content and other data download from the Internet to the user device. For example, a Web page containing large files such as graphic elements or audio-video features, because of prohibitive download times, may be largely inaccessible to a user with a slow telephone connection.</p><p>We distinguished previously between the Internet and the Web. Some Internet users do not connect to or use the Web; instead, they use non-Web networking to access and transmit data. Examples include Pine<sup>&#x000ae;</sup>, an electronic messaging program that does not use the Web, but connects to the Internet, and FTP (file transfer protocol), which allows users to transfer files over the Internet without using the Web. Internet users may also use private or proprietary sets of networked tools and they may share applications. These users may have Internet access, but not Web access. Most home consumers, however, do connect to the Internet and to the special Internet application known as the Web. There are, therefore, varying degrees of network connectivity, including 1) intranets shared by or accessible to only a limited groups of users, 2) restricted or relatively unrestricted use of the Internet, and 3) the Web. We can specify degree of network connectivity more precisely by assessing availability of specific Web sites or even components of Web pages. Connections to both the Internet and the Web and their various components frequently are restricted by firewalls, ISP limitations and policies, content filters, passwords, and other boundaries. Availability of some Web sites may also be limited by their obscurity to search engines. Thus, Internet or Web access is related to the type and degree of network availability. When we say someone has "full Web access," we mean it only in the most generic terms. We assume that the user has functionality as well as availability to general Web content, but we also presume that specific sites and content are unavailable on a case-by-case basis or by type (e.g., pornography filtered by ISP or public library).&#x000a0;</p></sec><sec><title>Human interface</title><p>We define the <italic>human interface</italic> category of Internet access as "those factors relating to user demographics and characteristics, such as literacy, language, education, race, ethnicity and culture, income, disability and age, experience and familiarity, and skill and training, which determine or restrict level of access to Internet/Web and content"&#x000a0;(<xref rid="B5" ref-type="bibr">5</xref>,<xref rid="B169" ref-type="bibr">169</xref>). Again, many of these factors are not mutually exclusive but interact and covary with each other. Not surprisingly, our various sources contained frequent references to the relationships among Internet/Web access, health disparities, and individual, personal, or demographic limitations &#x02014; the digital divide.&#x000a0;</p><p>To some extent, our human interface factors encompass, but are not confined to, issues commonly considered when assessing usability. Usability of a product or application typically refers to the quality of a user experience when interacting with the product or application, with an emphasis on behavior rather than opinion or recollection. Usability measures learnability, memorability, efficiency, frequency and severity of errors, and user satisfaction. Having evolved from observational methodology and ergonomics, the study of Web site usability has focused increasingly on human limitations, such as disability and literacy (<xref rid="B170" ref-type="bibr">170</xref>&#x02013;<xref rid="B174" ref-type="bibr">174</xref>). We list and describe below human interface accessibility factors.</p><p>
+<italic>Literacy</italic>. For the content of a Web site to be accessible, it must be readable. A health-related Web site written at a college-graduate&#x02013;level of literacy is inaccessible to a reader with a sixth-grade reading level&#x000a0; (<xref rid="B168" ref-type="bibr">168</xref>,<xref rid="B175" ref-type="bibr">175</xref>&#x02013;<xref rid="B178" ref-type="bibr">178</xref>).</p><p>
+<italic>Language</italic>. The ability to read content is also determined by the user's language skills. A site written in English obviously is inaccessible to a monolingual native-French speaker, however rudimentary the written literacy level (<xref rid="B48" ref-type="bibr">48</xref>,<xref rid="B168" ref-type="bibr">168</xref>).</p><p>
+<italic>Education</italic>. For the content of a Web site to be accessible, it must also be understandable once it is read. We suggest that educational level may be the closest analog of the ability to understand information, especially health-related material (<xref rid="B179" ref-type="bibr">179</xref>).</p><p>
+<italic>Race, ethnicity, and culture</italic>.&#x000a0;The content of a Web site may be both readable and understandable to a user, but at the same time it could also be culturally or ethnically insensitive, inappropriate, or irrelevant to the user and, therefore, relatively inaccessible. For example, a cancer-prevention&#x02013;related Web site might illustrate quite vividly a cervical screening procedure that white individuals may deem acceptable, but that other readers (e.g., women with a traditional southeast Asian background) might find offensively candid (<xref rid="B4" ref-type="bibr">4</xref>,<xref rid="B5" ref-type="bibr">5</xref>,<xref rid="B48" ref-type="bibr">48</xref>,<xref rid="B162" ref-type="bibr">162</xref>,<xref rid="B178" ref-type="bibr">178</xref>,<xref rid="B180" ref-type="bibr">180</xref>).</p><p>
+<italic>Income</italic>. Income appears to predict Internet access even more than race and ethnicity (<xref rid="B39" ref-type="bibr">39</xref>). People of lower income are less likely to be able to afford either a home Internet connection device such as a computer or the regular subscription costs to an ISP. Lower-income people who connect to the Internet from home are less likely to afford a higher (faster) bandwidth connection or live in an area where it is available. Although other avenues of access are available in the community, they are less convenient than the home and, consequently, less often used. And the workplaces and schools of lower-income people are less likely to provide Internet connectivity (<xref rid="B38" ref-type="bibr">38</xref>-<xref rid="B40" ref-type="bibr">40</xref>,<xref rid="B48" ref-type="bibr">48</xref>,<xref rid="B181" ref-type="bibr">181</xref>-<xref rid="B183" ref-type="bibr">183</xref>).</p><p>
+<italic>Disability and age</italic>.&#x000a0;We take for granted many of the skills and abilities necessary to access the Internet. We turn on a computer and manipulate a pointing device such as a mouse to open a connection to an ISP. We recall our private password and user name, type a Web address on the keyboard, and open a Web page. We read the text, look at the images, perhaps listen to audio; these tasks are denied to users with certain disabilities. And while these disabilities may be due to non-age&#x02013;related causes, they most commonly are associated with advancing age. Thus, physical disability might restrict mobility (reaching the computer) or dexterity (accurate or speedy use of keyboard and mouse). Visual impairments such as myopia or color-blindness affect easy reading of text, which may vary in font size or color, or viewing of images. Hearing deficiency further restricts access to multimedia. Cognitive disability such as problems with memory and concentration limit the effectiveness of training, recall of passwords and educational content, navigation, and so on (<xref rid="B21" ref-type="bibr">21</xref>,<xref rid="B170" ref-type="bibr">170</xref>,<xref rid="B184" ref-type="bibr">184</xref>).</p><p>
+<italic>Experience and familiarity</italic>.&#x000a0;A primary factor determining the level or degree of access to Internet and Web content and functionality is the user experience and familiarity with all the various aspects of connecting to the Internet and Web and navigating, manipulating, and otherwise using the Internet and Web once connected.&#x000a0;We further distinguish between experience and familiarity with the connection device, usually a computer, and experience and familiarity with the Internet and Web once connected.&#x000a0;By experience and familiarity, we mean how often and for what duration the individual has been exposed, either by personal use or vicariously, to the device and the Internet. Device experience and Internet experience are frequently but not necessarily related. A computer novice is unlikely to be an experienced Internet user; however, an individual may be a relatively experienced computer user but quite unfamiliar with the Web and largely unable to avail himself or herself of its features (<xref rid="B18" ref-type="bibr">18</xref>,<xref rid="B48" ref-type="bibr">48</xref>,<xref rid="B182" ref-type="bibr">182</xref>&#x02013;<xref rid="B185" ref-type="bibr">185</xref>).</p><p>
+<italic>Skill and training</italic>.&#x000a0;The issue of perception of skill often, but not necessarily, overlaps with experience and familiarity in affecting levels of Internet access. Our own anecdotal evidence suggests that some individuals may report considerable computer experience but judge themselves to be only moderately computer literate or skillful. We believe that technical knowledge and skills determine to some extent the degree of access to the Internet and Web. For example, a good working knowledge of computer and Web applications might better enable routine maintenance of the connection device or the installation of third party plug-in software when required for Web site access. Again, we relate skill separately to the connection device and to the Internet and Web.&#x000a0;</p></sec><sec><title>Applying the framework</title><p>In our introduction, we described briefly our recent pilot research on communicating breast cancer risk. The initial difficulty in defining nonuser in our screening questionnaire was one of the factors that stimulated the writing of this paper and the development of our framework. Subsequently, we applied the framework as a guide to designing our final project procedures and the breast cancer risk Web site itself. Our target audience was low-income, predominantly African American, elderly, inner-city&#x000a0;women in Seattle, Wash, who, to be eligible, had no Internet access and who were computer and Internet novices.&#x000a0;Referring to our framework in our approach phone calls and screening questionnaires, we first considered <italic>connectivity</italic>.&#x000a0;Because we were looking for nonusers, the capability of any connectivity was less relevant than <italic>availability, </italic>and we chose the general infrastructure of our target location to be urban-underserved and therefore unlikely to be "wired."&#x000a0; We first ascertained that each candidate had no home or convenient local availability of a computer or Internet connection (<italic>locale</italic> and <italic>degree of availability</italic>).&#x000a0;We then turned to <italic>human interface</italic> factors and concurrently determined that each candidate had little or no <italic>experience and familiarity</italic> or <italic>skill</italic> with computers and the Web. We ensured that each candidate could minimally read and write in English (<italic>language</italic>). We then tailored our church-based training program and test Web site functionality and content to participant <italic>literacy</italic>, <italic>education</italic>, <italic>race/ethnicity/culture</italic>, and <italic>disability/age</italic>.</p></sec></sec><sec><title>Discussion</title><p>This paper has focused exclusively on a discussion of access, including access to the Internet and Web, content accessibility, and restrictions to access. We are well aware that the complexities of IHC go beyond mere access; they include the countless ways people use, interact with, and potentially benefit from new media. Established models of information processing, such as cognitive style preferences for perceiving, remembering, organizing, processing, thinking, and problem solving&#x000a0;(<xref rid="B186" ref-type="bibr">186</xref>), are being newly applied to emerging technology applications such as the Web but are beyond the scope of this paper. In future papers, we will delve deeper into the intricacies of usability, learning style, and other issues (<xref rid="B170" ref-type="bibr">170</xref>-<xref rid="B174" ref-type="bibr">174</xref>).</p><p>Before we conclude, however, there is one factor relating to access that is often ignored: the possibility that many people do not use the Internet not because they lack access but simply because they do not want to use it or do not see a need to use it. This has serious implications for health care infrastructure spending, especially among the underserved. Current efforts on the digital divide have focused largely on providing access to computers and the Internet and to hardware and software training. One of the most popular access enhancement models is the establishment of community computer/Internet centers in lower-income neighborhoods, which have been supported by various foundations, corporations, local businesses, and government agencies (<xref rid="B5" ref-type="bibr">5</xref>). Yet despite gains in computer and Internet access reported early in 2002 by the Department of Commerce (<xref rid="B20" ref-type="bibr">20</xref>), a significant divide continues based on income, education and literacy, race and ethnicity, age, gender, geography, and disability (<xref rid="B177" ref-type="bibr">177</xref>,<xref rid="B187" ref-type="bibr">187</xref>,<xref rid="B188" ref-type="bibr">188</xref>).&#x000a0;What remains unclear is to what extent the divide is due to poor access to information technology and how much it is due to low adoption of the technology where access exists. Conventional wisdom suggests that disparities in Internet use emanate from inequalities in infrastructure access, primarily in connectivity, and that providing access to the underserved alleviates the inequality. However, in many cultures, computers are simply not valued and may be resisted as poor alternatives to face-to-face communication (<xref rid="B177" ref-type="bibr">177</xref>). In our own city (Seattle), 82% of residents have access to the Internet, and yet adoption or use remains low, especially in some underserved communities (<xref rid="B187" ref-type="bibr">187</xref>). Although there are still local disparities in access, apparent lack of interest or perceived need is often cited as one of the highest barriers to Internet use (<xref rid="B22" ref-type="bibr">22</xref>,<xref rid="B95" ref-type="bibr">95</xref>), which may be mediated by ignorance of what the Internet has to offer (<xref rid="B8" ref-type="bibr">8</xref>).</p><p>We have described in significant detail a range of definitions for, myriad determinants of, and restrictions to Internet and Web access. We do not claim to have constructed the definitive taxonomy; in fact, that may be a futile goal given the rapid and unpredictable progress of IHC.&#x000a0;We hope our efforts may, however, make health researchers more aware of the need for specificity and consistency in their reporting of Internet access-related topics and provide them with some choices.</p></sec></body><back><ack><p>This activity was supported, in part, by National Cancer Institute grants #CA070866, #CA78164, #CA82894, and #CA82569.</p></ack><fn-group><fn><p>The opinions expressed by authors contributing to this journal do not necessarily reflect the opinions of the U.S. Department of Health and Human Services, the Public Health Service, Centers for Disease Control and Prevention, or the authors' affiliated institutions. Use of trade names is for identification only and does not imply endorsement by any of the groups named above.</p></fn><fn><p>
+<italic>Suggested citation for this article</italic>: Bush NE, Bowen DJ, Wooldridge J, Ludwig A, Meischke H, Robbins R. What do we mean by Internet access? A framework for health researchers. Prev Chronic Dis [serial online] 2004 Oct [date cited]. Available from: <ext-link xlink:href="http://www.cdc.gov/pcd/issues/2004/oct/04_0019.htm" ext-link-type="uri">http://www.cdc.gov/pcd/issues/2004/oct/04_0019.htm</ext-link>.</p></fn></fn-group><ref-list><ref id="B1"><label>1</label><element-citation publication-type="book">
+<source>Nielsen//NetRatings. Three out of four Americans have access to the internet [Internet]</source>
+<date-in-citation content-type="access-date">cited April 27, 2004</date-in-citation>
+<publisher-loc>New York</publisher-loc>
+<publisher-name>Nielsen Media Research</publisher-name>
+<year>2004</year>
+<comment>Available from:<ext-link xlink:href="http://www.nielsen-netratings.com/pr/pr_040318.pdf" ext-link-type="uri">http://www.nielsen-netratings.com/pr/pr_040318.pdf</ext-link>
+</comment>
+</element-citation></ref><ref id="B2"><label>2</label><element-citation publication-type="book">
+<source>WebMD Corporation. Research reveals that Internet has become primary means by which consumers access health information [Internet]</source>
+<date-in-citation content-type="access-date">cited April 29, 2003</date-in-citation>
+<publisher-loc>San Diego (CA)</publisher-loc>
+<publisher-name>The Corporation</publisher-name>
+<year>2003</year>
+<comment>Available from:<ext-link xlink:href="http://www.webmd.com/corporate/content/news/2003/02/021003_pr.htm" ext-link-type="uri">http://www.webmd.com/corporate/content/news/ 2003/02/021003_pr.htm</ext-link>
+</comment>
+</element-citation></ref><ref id="B3"><label>3</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Baker</surname><given-names>L</given-names></name><name><surname>Wagner</surname><given-names>TH</given-names></name><name><surname>Singer</surname><given-names>S</given-names></name><name><surname>Bundorf</surname><given-names>MK</given-names></name></person-group>
+<article-title>Use of the Internet and e-mail for health care information: results from a national survey</article-title>
+<source>JAMA</source>
+<year>2003</year>
+<volume>289</volume>
+<issue>18</issue>
+<fpage>2400</fpage>
+<lpage>2406</lpage>
+<pub-id pub-id-type="pmid">12746364</pub-id></element-citation></ref><ref id="B4"><label>4</label><element-citation publication-type="book">
+<source>Digital Divide Network. Digital Divide Network [homepage on the Internet]</source>
+<date-in-citation content-type="access-date">cited October 10, 2002</date-in-citation>
+<publisher-loc>Newton (MA)</publisher-loc>
+<publisher-name>The Network</publisher-name>
+<year>2004</year>
+<comment>Available from:<ext-link xlink:href="http://www.digitaldividenetwork.org/" ext-link-type="uri">http://www.digitaldividenetwork.org/</ext-link>
+</comment>
+</element-citation></ref><ref id="B5"><label>5</label><element-citation publication-type="book">
+<source>Metamend. How big is the Internet? How fast is the Internet growing [Internet]?</source>
+<date-in-citation content-type="access-date">cited 2004 May 19</date-in-citation>
+<publisher-loc>Victoria, British Columbia (Canada)</publisher-loc>
+<publisher-name>Metamend Software &#x00026; Design Ltd</publisher-name>
+<year>2004</year>
+<comment>Available from:<ext-link xlink:href="http://www.metamend.com/internet-growth.html" ext-link-type="uri">http://www.metamend.com/internet-growth.html</ext-link>
+</comment>
+</element-citation></ref><ref id="B6"><label>6</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Eng</surname><given-names>TR</given-names></name><name><surname>Maxfield</surname><given-names>A</given-names></name><name><surname>Patrick</surname><given-names>K</given-names></name><name><surname>Deering</surname><given-names>MJ</given-names></name><name><surname>Ratzan</surname><given-names>SC</given-names></name><name><surname>Gustafson</surname><given-names>DH</given-names></name></person-group>
+<article-title>Access to health information and support: a public highway or a private road?</article-title>
+<source>JAMA</source>
+<year>1998</year>
+<volume>280</volume>
+<issue>15</issue>
+<fpage>1371</fpage>
+<lpage>1375</lpage>
+<pub-id pub-id-type="pmid">9794322</pub-id></element-citation></ref><ref id="B7"><label>7</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bowen</surname><given-names>DJ</given-names></name><name><surname>Ludwig</surname><given-names>A</given-names></name><name><surname>Bush</surname><given-names>N</given-names></name><name><surname>Unruh</surname><given-names>HK</given-names></name><name><surname>Meischke</surname><given-names>H</given-names></name><name><surname>Wooldridge</surname><given-names>J</given-names></name><etal/></person-group>
+<article-title>Early experience with a Web-based intervention to inform risk of breast cancer</article-title>
+<source>J Health Psychol</source>
+<year>2003</year>
+<volume>8</volume>
+<fpage>175</fpage>
+<lpage>186</lpage>
+<pub-id pub-id-type="pmid">22113909</pub-id></element-citation></ref><ref id="B8"><label>8</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bush</surname><given-names>NE</given-names></name><name><surname>Wooldridge</surname><given-names>J</given-names></name><name><surname>Foster</surname><given-names>V</given-names></name><name><surname>Shaw</surname><given-names>K</given-names></name><name><surname>Brown</surname><given-names>P</given-names></name></person-group>
+<article-title>Web site design and development issues: the Washington State Breast and Cervical Health Program Web Site Demonstration Project</article-title>
+<source>Oncol Nurs Forum</source>
+<year>1999</year>
+<volume>26</volume>
+<issue>5</issue>
+<fpage>857</fpage>
+<lpage>865</lpage>
+<pub-id pub-id-type="pmid">10382184</pub-id></element-citation></ref><ref id="B9"><label>9</label><element-citation publication-type="book">
+<source>Motive Ltd. The Motive Internet glossary [Internet]</source>
+<date-in-citation content-type="access-date">cited October 14, 2002</date-in-citation>
+<publisher-loc>Wellington South (New Zealand)</publisher-loc>
+<publisher-name>Net Communications with Intent</publisher-name>
+<year>2002</year>
+<comment>Available from:<ext-link xlink:href="http://www.motive.co.nz/glossary/" ext-link-type="uri">http://www.motive.co.nz/glossary/</ext-link>
+</comment>
+</element-citation></ref><ref id="B10"><label>10</label><element-citation publication-type="book">
+<source>December Communications Inc. Introduction to Internet WWW: Definitions [Internet]</source>
+<date-in-citation content-type="access-date">cited October 14, 2002</date-in-citation>
+<publisher-loc>Milwaukee (WI)</publisher-loc>
+<publisher-name>The Company</publisher-name>
+<year>2002</year>
+<comment>Available from:<ext-link xlink:href="http://www.december.com/web/text/tutor/defs.html" ext-link-type="uri">http://www.december.com/web/text/tutor/defs.html</ext-link>
+</comment>
+</element-citation></ref><ref id="B11"><label>11</label><element-citation publication-type="book">
+<source>Foldoc. Foldoc Free Online Dictionary of Computing [Internet]</source>
+<date-in-citation content-type="access-date">cited October 14, 2002</date-in-citation>
+<publisher-loc>London (England)</publisher-loc>
+<publisher-name>Imperial College Department of Computing</publisher-name>
+<year>2002</year>
+<comment>Available from:<ext-link xlink:href="http://foldoc.doc.ic.ac.uk/foldoc/index.html" ext-link-type="uri">http://foldoc.doc.ic.ac.uk/foldoc/index.html</ext-link>
+</comment>
+</element-citation></ref><ref id="B12"><label>12</label><element-citation publication-type="book">
+<source>Google Inc. The Google Search Appliance [Internet]</source>
+<date-in-citation content-type="access-date">cited October 10, 2002</date-in-citation>
+<publisher-loc>Mountain View (CA)</publisher-loc>
+<publisher-name>Google Inc.</publisher-name>
+<year>2002</year>
+<comment>Available from:<ext-link xlink:href="http://www.google.com/" ext-link-type="uri">http://www.google.com/</ext-link>
+</comment>
+</element-citation></ref><ref id="B13"><label>13</label><element-citation publication-type="book">
+<source>ZD Inc. FerretSoft. WebFerret [Internet]</source>
+<date-in-citation content-type="access-date">cited October 10, 2002</date-in-citation>
+<publisher-loc>San Francisco (CA)</publisher-loc>
+<publisher-name>CNET Networks</publisher-name>
+<year>2002</year>
+<comment>Available from:<ext-link xlink:href="http://www.zdnet.com/ferret/" ext-link-type="uri">http://www.zdnet.com/ferret/</ext-link>
+</comment>
+</element-citation></ref><ref id="B14"><label>14</label><element-citation publication-type="book">
+<source>Pew Research Center for People and the Press. Pew Internet and American Life Project [Internet]</source>
+<date-in-citation content-type="access-date">cited October 10, 2002</date-in-citation>
+<publisher-loc>Washington (DC)</publisher-loc>
+<publisher-name>The Center</publisher-name>
+<year>2002</year>
+<comment>Available from:<ext-link xlink:href="http://www.pewinternet.org/" ext-link-type="uri">http://www.pewinternet.org/</ext-link>
+</comment>
+</element-citation></ref><ref id="B15"><label>15</label><element-citation publication-type="book">
+<source>Nielsen//NetRatings. Neilsen//NetRatings [homepage on the Internet]</source>
+<date-in-citation content-type="access-date">cited October 10, 2002</date-in-citation>
+<publisher-loc>New York</publisher-loc>
+<publisher-name>Nielsen Media Research</publisher-name>
+<year>2002</year>
+<comment>Available from:<ext-link xlink:href="http://www.nielsen-netratings.com/" ext-link-type="uri">http://www.nielsen-netratings.com/</ext-link>
+</comment>
+</element-citation></ref><ref id="B16"><label>16</label><element-citation publication-type="book">
+<source>Harris Interactive. Harris Interactive [homepage on the Internet]</source>
+<date-in-citation content-type="access-date">cited October 10, 2002</date-in-citation>
+<publisher-loc>Rochester (NY)</publisher-loc>
+<publisher-name>Harris Interactive</publisher-name>
+<year>2002</year>
+<comment>Available from:<ext-link xlink:href="http://www.harrisinteractive.com/" ext-link-type="uri">http://www.harrisinteractive.com/</ext-link>
+</comment>
+</element-citation></ref><ref id="B17"><label>17</label><element-citation publication-type="book">
+<source>NUA. NUA Internet surveys [Internet]</source>
+<date-in-citation content-type="access-date">cited October 10, 2002</date-in-citation>
+<publisher-loc>Bradenton (FL)</publisher-loc>
+<publisher-name>Scope Communications USA Limited</publisher-name>
+<year>2002</year>
+<comment>Available from:<ext-link xlink:href="http://www.nua.ie/surveys/" ext-link-type="uri">http://www.nua.ie/surveys/</ext-link>
+</comment>
+</element-citation></ref><ref id="B18"><label>18</label><element-citation publication-type="book">
+<article-title>U.S. Department of Health and Human Services. Healthy people 2010: understanding and improving health</article-title>
+<year>2000</year>
+<publisher-loc>Washington (DC)</publisher-loc>
+<publisher-name>U.S. Government Printing Office</publisher-name>
+<date-in-citation content-type="access-date">cited September 23, 2002</date-in-citation>
+<comment>Available from:<ext-link xlink:href="http://www.health.gov/healthypeople/document/" ext-link-type="uri">http://www.health.gov/healthypeople/document/</ext-link>
+</comment>
+</element-citation></ref><ref id="B19"><label>19</label><element-citation publication-type="book">
+<source>US Department of Health and Human Services. Wired for health and well-being: the emergence of interactive health communication [Internet]</source>
+<date-in-citation content-type="access-date">cited September 23, 2002</date-in-citation>
+<publisher-loc>Washington (DC)</publisher-loc>
+<publisher-name>Science Panel on Interactive Communication and Health, U.S. Government Printing Office</publisher-name>
+<year>1999</year>
+<comment>Available from:<ext-link xlink:href="http://www.health.gov/scipich/pubs/finalreport.htm" ext-link-type="uri">http://www.health.gov/scipich/pubs/finalreport.htm</ext-link>
+</comment>
+</element-citation></ref><ref id="B20"><label>20</label><element-citation publication-type="book">
+<source>National Telecommunications and Information Administration. A nation online: how Americans are expanding their use of the Internet [Internet]</source>
+<date-in-citation content-type="access-date">cited April 15, 2002</date-in-citation>
+<publisher-loc>Washington (DC)</publisher-loc>
+<publisher-name>U.S. Department of Commerce</publisher-name>
+<year>2002</year>
+<comment>Available from:<ext-link xlink:href="http://www.ntia.doc.gov/ntiahome/dn/html/anationonline2.htm" ext-link-type="uri">http://www.ntia.doc.gov/ntiahome/dn/html/anationonline2.htm</ext-link>
+</comment>
+</element-citation></ref><ref id="B21"><label>21</label><element-citation publication-type="book">
+<source>National Telecommunications and Information Administration. Falling through the net: toward digital inclusion [Internet]</source>
+<date-in-citation content-type="access-date">cited April 15, 2002</date-in-citation>
+<publisher-loc>Washington (DC)</publisher-loc>
+<publisher-name>U.S. Department of Commerce</publisher-name>
+<year>2000</year>
+<comment>Available from:<ext-link xlink:href="http://www.ntia.doc.gov/ntiahome/digitaldivide/" ext-link-type="uri">http://www.ntia.doc.gov/ntiahome/digitaldivide/</ext-link>
+</comment>
+</element-citation></ref><ref id="B22"><label>22</label><element-citation publication-type="book">
+<source>UCLA Center for Communication Policy. The UCLA Internet report: surveying the digital future year two [Internet]</source>
+<date-in-citation content-type="access-date">cited September 23, 2002</date-in-citation>
+<publisher-loc>Los Angeles (CA)</publisher-loc>
+<publisher-name>The Center</publisher-name>
+<year>2001</year>
+<comment>Available from:<ext-link xlink:href="http://ccp.ucla.edu/pages/internet-report.asp" ext-link-type="uri">http://ccp.ucla.edu/pages/internet-report.asp</ext-link>
+</comment>
+</element-citation></ref><ref id="B23"><label>23</label><element-citation publication-type="journal">
+<source>Comput Nurs</source>
+<article-title>RNdex case management offers Internet access</article-title>
+<year>1997</year>
+<volume>15</volume>
+<issue>1</issue>
+<fpage>3</fpage>
+<lpage>11</lpage>
+<page-range>5, 11, 3</page-range>
+</element-citation></ref><ref id="B24"><label>24</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Demiris</surname><given-names>G</given-names></name><name><surname>Speedie</surname><given-names>SM</given-names></name><name><surname>Finkelstein</surname><given-names>S</given-names></name></person-group>
+<source>Telemed J E Health</source>
+<article-title>Change of patients' perceptions of TeleHomeCare</article-title>
+<year>2001</year>
+<volume>7</volume>
+<issue>3</issue>
+<fpage>241</fpage>
+<lpage>248</lpage>
+<pub-id pub-id-type="pmid">11564360</pub-id></element-citation></ref><ref id="B25"><label>25</label><element-citation publication-type="confproc">
+<person-group person-group-type="author"><name><surname>Bell</surname><given-names>DS</given-names></name><name><surname>Kahn</surname><given-names>CE</given-names><suffix>Jr.</suffix></name></person-group>
+<article-title>Health status assessment via the World Wide Web</article-title>
+<conf-name>Proc AMIA Annu Fall Symp</conf-name>
+<year>1996</year>
+<fpage>338</fpage>
+<lpage>342</lpage>
+</element-citation></ref><ref id="B26"><label>26</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Anthony</surname><given-names>D</given-names></name></person-group>
+<article-title>Immediate access. The clinical nurse needs the Internet just as much as any academice</article-title>
+<source>Nurs Stand</source>
+<year>2000</year>
+<volume>14</volume>
+<issue>43</issue>
+<lpage>27</lpage>
+</element-citation></ref><ref id="B27"><label>27</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Biro</surname><given-names>G</given-names></name><name><surname>Bukovinszky</surname><given-names>A</given-names></name><name><surname>Martin</surname><given-names>D</given-names></name></person-group>
+<article-title>[Dr. Quiz: a program of medical question-data bank with access to Internet]</article-title>
+<source>Orv Hetil</source>
+<year>1999</year>
+<volume>140 </volume>
+<issue>33</issue>
+<fpage>1847</fpage>
+<lpage>1850</lpage>
+<pub-id pub-id-type="pmid">10489785</pub-id></element-citation></ref><ref id="B28"><label>28</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Carnall</surname><given-names>D</given-names></name></person-group>
+<article-title>NHS librarians cannot access the internet</article-title>
+<source>BMJ</source>
+<year>1999</year>
+<volume>319</volume>
+<issue>7201</issue>
+<lpage>10</lpage>
+</element-citation></ref><ref id="B29"><label>29</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Durkin</surname><given-names>C</given-names></name></person-group>
+<article-title>Researching rare diseases and genetic disorders on the Internet</article-title>
+<source>Nat Netw</source>
+<year>2000</year>
+<volume>24</volume>
+<issue>2</issue>
+<fpage>22</fpage>
+<lpage>23</lpage>
+</element-citation></ref><ref id="B30"><label>30</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Flatley-Brennan</surname><given-names>P</given-names></name></person-group>
+<article-title>Computer network home care demonstration: a randomized trial in persons living with AIDS</article-title>
+<source>Comput Biol Med</source>
+<year>1998</year>
+<volume>28</volume>
+<issue>5</issue>
+<fpage>489</fpage>
+<lpage>508</lpage>
+<pub-id pub-id-type="pmid">9861507</pub-id></element-citation></ref><ref id="B31"><label>31</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gee</surname><given-names>PM</given-names></name></person-group>
+<article-title>The Internet. Part-II. A home care nursing clinical resource</article-title>
+<source>Home Healthc Nurse</source>
+<year>1997</year>
+<volume>15</volume>
+<issue>3</issue>
+<fpage>175</fpage>
+<lpage>180</lpage>
+<pub-id pub-id-type="pmid">9110680</pub-id></element-citation></ref><ref id="B32"><label>32</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Giedd</surname><given-names>JN</given-names></name><name><surname>Allen</surname><given-names>AJ</given-names></name><name><surname>Behr</surname><given-names>R</given-names></name></person-group>
+<article-title>Opportunities on the Internet for child and adolescent psychopharmacologists: net access and mailing lists</article-title>
+<source>J Child Adolesc Psychopharmacol</source>
+<year>1996</year>
+<volume>6</volume>
+<issue>2</issue>
+<fpage>147</fpage>
+<lpage>150</lpage>
+<pub-id pub-id-type="pmid">9231307</pub-id></element-citation></ref><ref id="B33"><label>33</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Harrison</surname><given-names>J</given-names></name><name><surname>Morris-Docker</surname><given-names>S</given-names></name><name><surname>Tod</surname><given-names>A</given-names></name></person-group>
+<article-title>Internet access: the impact on nurses and PAMs</article-title>
+<source>Nurs Stand</source>
+<year>2000</year>
+<volume>15</volume>
+<issue>7</issue>
+<fpage>33</fpage>
+<lpage>34</lpage>
+</element-citation></ref><ref id="B34"><label>34</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jones</surname><given-names>CM</given-names></name></person-group>
+<article-title>The Internet access breakthrough. Bringing healthcare home</article-title>
+<source>Healthc Inform</source>
+<year>1997</year>
+<volume>14</volume>
+<issue>7</issue>
+<fpage>62</fpage>
+<lpage>64</lpage>
+<page-range>62, 64</page-range>
+</element-citation></ref><ref id="B35"><label>35</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kaiser</surname><given-names>F</given-names></name></person-group>
+<article-title>Maximizing Internet access</article-title>
+<source>Mich Health Hosp</source>
+<year>1998</year>
+<volume>34</volume>
+<issue>5</issue>
+<lpage>28</lpage>
+</element-citation></ref><ref id="B36"><label>36</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lipp</surname><given-names>ER</given-names></name></person-group>
+<article-title>Web resources for patients with prostate cancer: a starting point</article-title>
+<source>Semin Urol Oncol</source>
+<year>2002</year>
+<volume>20</volume>
+<issue>1</issue>
+<fpage>32</fpage>
+<lpage>38</lpage>
+<pub-id pub-id-type="pmid">11828355</pub-id></element-citation></ref><ref id="B37"><label>37</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>London</surname><given-names>JW</given-names></name><name><surname>Morton</surname><given-names>DE</given-names></name><name><surname>Marinucci</surname><given-names>D</given-names></name><name><surname>Catalano</surname><given-names>R</given-names></name><name><surname>Comis</surname><given-names>RL</given-names></name></person-group>
+<article-title>Cost effective Internet access and video conferencing for a community cancer network</article-title>
+<source>Proc Annu Symp Comput Appl Med Care</source>
+<year>1995</year>
+<fpage>781</fpage>
+<lpage>784</lpage>
+<pub-id pub-id-type="pmid">8563397</pub-id></element-citation></ref><ref id="B38"><label>38</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lyon</surname><given-names>BJ</given-names></name><name><surname>Stavri</surname><given-names>PZ</given-names></name><name><surname>Hochstein</surname><given-names>DC</given-names></name><name><surname>Nardini</surname><given-names>HG</given-names></name></person-group>
+<article-title>Internet access in the libraries of the National Network of Libraries of Medicine</article-title>
+<source>Bull Med Libr Assoc</source>
+<year>1998</year>
+<volume>86</volume>
+<issue>4</issue>
+<fpage>486</fpage>
+<lpage>490</lpage>
+<pub-id pub-id-type="pmid">9803289</pub-id></element-citation></ref><ref id="B39"><label>39</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mandl</surname><given-names>KD</given-names></name><name><surname>Feit</surname><given-names>S</given-names></name><name><surname>Pena</surname><given-names>BM</given-names></name><name><surname>Kohane</surname><given-names>IS</given-names></name></person-group>
+<article-title>Growth and determinants of access in patient e-mail and Internet use</article-title>
+<source>Arch Pediatr Adolesc Med</source>
+<year>2000</year>
+<volume>154</volume>
+<issue>5</issue>
+<fpage>508</fpage>
+<lpage>511</lpage>
+<pub-id pub-id-type="pmid">10807304</pub-id></element-citation></ref><ref id="B40"><label>40</label><element-citation publication-type="journal">
+<person-group person-group-type="editor"><name><surname>Mandl</surname><given-names>KD</given-names></name><name><surname>Katz</surname><given-names>SB</given-names></name><name><surname>Kohane</surname><given-names>IS</given-names></name></person-group>
+<article-title>Social equity and access to the World Wide Web and E-mail: implications for design and implementation of medical applications</article-title>
+<source>Proc AMIA Symp</source>
+<year>1998</year>
+<fpage>215</fpage>
+<lpage>219</lpage>
+<pub-id pub-id-type="pmid">9929213</pub-id></element-citation></ref><ref id="B41"><label>41</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Matarrese</surname><given-names>P</given-names></name><name><surname>Helwig</surname><given-names>A</given-names></name></person-group>
+<article-title>The development and assessment of Web-based health information for a corporate Intranet--a pilot study</article-title>
+<source>Proc AMIA Symp</source>
+<year>2000</year>
+<fpage>551</fpage>
+<lpage>555</lpage>
+<pub-id pub-id-type="pmid">11079944</pub-id></element-citation></ref><ref id="B42"><label>42</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mihaescu</surname><given-names>T</given-names></name></person-group>
+<source>BMJ</source>
+<article-title>The Internet. Access is now available in Romania</article-title>
+<year>1996</year>
+<volume>312</volume>
+<issue>7036</issue>
+<lpage>978</lpage>
+</element-citation></ref><ref id="B43"><label>43</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nylenna</surname><given-names>M</given-names></name><name><surname>Aasland</surname><given-names>OG</given-names></name></person-group>
+<source>Tidsskr Nor Laegeforen</source>
+<article-title>[Nine out of ten Norwegian physicians have access to the Internet]</article-title>
+<year>2000</year>
+<volume>120</volume>
+<issue>27</issue>
+<fpage>3280</fpage>
+<lpage>3282</lpage>
+<pub-id pub-id-type="pmid">11187169</pub-id></element-citation></ref><ref id="B44"><label>44</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Patrikios</surname><given-names>H</given-names></name></person-group>
+<source>BMJ</source>
+<article-title>Global health research. Internet access is not yet universal</article-title>
+<year>2001</year>
+<volume>322</volume>
+<issue>7279</issue>
+<lpage>173</lpage>
+</element-citation></ref><ref id="B45"><label>45</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pealer</surname><given-names>LN</given-names></name><name><surname>Weiler</surname><given-names>RM</given-names></name><name><surname>Pigg</surname><given-names>RM</given-names><suffix>Jr</suffix></name><name><surname>Miller</surname><given-names>D</given-names></name><name><surname>Dorman</surname><given-names>SM</given-names></name></person-group>
+<source>Health Educ Behav</source>
+<article-title>The feasibility of a web-based surveillance system to collect health risk behavior data from college students</article-title>
+<year>2001</year>
+<volume>28</volume>
+<issue>5</issue>
+<fpage>547</fpage>
+<lpage>559</lpage>
+<pub-id pub-id-type="pmid">11575685</pub-id></element-citation></ref><ref id="B46"><label>46</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Peckham</surname><given-names>B</given-names></name></person-group>
+<article-title>Internet access for ESRD patients gives new meaning to "Sleepless in Seattle". Northwest kidney centers wire all stations at newest unit</article-title>
+<source>Nephrol News Issues</source>
+<year>1999</year>
+<volume>13</volume>
+<issue>1</issue>
+<fpage>18</fpage>
+<lpage>19</lpage>
+</element-citation></ref><ref id="B47"><label>47</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Price</surname><given-names>WS</given-names></name></person-group>
+<article-title>Superhighway: NMA's access to the Internet</article-title>
+<source>J Natl Med Assoc</source>
+<year>1996</year>
+<volume>88</volume>
+<issue>1</issue>
+<fpage>15</fpage>
+<lpage>16</lpage>
+<pub-id pub-id-type="pmid">8583485</pub-id></element-citation></ref><ref id="B48"><label>48</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Uhlenhopp</surname><given-names>MB</given-names></name><name><surname>Fliedner</surname><given-names>MC</given-names></name><name><surname>Morris</surname><given-names>P</given-names></name><name><surname>Van Boxtel</surname><given-names>T</given-names></name></person-group>
+<article-title> A global perspective on nurses' Internet access and information utilization</article-title>
+<source>Oncol Nurs Forum</source>
+<year>1998</year>
+<volume>25</volume>
+<issue>10 Suppl</issue>
+<fpage>27</fpage>
+<lpage>32</lpage>
+<pub-id pub-id-type="pmid">9826849</pub-id></element-citation></ref><ref id="B49"><label>49</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Usatine</surname><given-names>RP</given-names></name><name><surname>Lin</surname><given-names>K</given-names></name></person-group>
+<article-title>Free Internet access for community preceptors</article-title>
+<source>Acad Med</source>
+<year>1999</year>
+<volume>74</volume>
+<issue>3</issue>
+<fpage>204</fpage>
+<lpage>205</lpage>
+<pub-id pub-id-type="pmid">10099634</pub-id></element-citation></ref><ref id="B50"><label>50</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Walker</surname><given-names>TJ</given-names></name></person-group>
+<article-title>Authors willing to pay for instant web access</article-title>
+<source>Nature</source>
+<year>2001</year>
+<volume>411</volume>
+<issue>6837</issue>
+<fpage>521</fpage>
+<lpage>522</lpage>
+</element-citation></ref><ref id="B51"><label>51</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>White</surname><given-names>H</given-names></name><name><surname>McConnell</surname><given-names>E</given-names></name><name><surname>Clipp</surname><given-names>E</given-names></name><name><surname>Branch</surname><given-names>LG</given-names></name><name><surname>Sloane</surname><given-names>R</given-names></name><name><surname>Pieper</surname><given-names>C</given-names></name><etal/></person-group>
+<article-title>A randomized controlled trial of the psychosocial impact of providing internet training and access to older adults</article-title>
+<source>Aging Ment Health</source>
+<year>2002</year>
+<volume>6</volume>
+<issue>3</issue>
+<fpage>213</fpage>
+<lpage>221</lpage>
+<pub-id pub-id-type="pmid">12217089</pub-id></element-citation></ref><ref id="B52"><label>52</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wilkins</surname><given-names>AS</given-names></name></person-group>
+<article-title>Expanding Internet access for health care consumers</article-title>
+<source>Health Care Manage Rev</source>
+<year>1999</year>
+<volume>24</volume>
+<issue>3</issue>
+<fpage>30</fpage>
+<lpage>41</lpage>
+<pub-id pub-id-type="pmid">10463105</pub-id></element-citation></ref><ref id="B53"><label>53</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Williams</surname><given-names>A</given-names></name></person-group>
+<article-title>Surfing over sixty. Making Internet access available helps residents stay connected</article-title>
+<source>Provider</source>
+<year>1999</year>
+<volume>25</volume>
+<issue>8</issue>
+<fpage>69</fpage>
+<lpage>72</lpage>
+<page-range>69, 71-2</page-range>
+<pub-id pub-id-type="pmid">10747614</pub-id></element-citation></ref><ref id="B54"><label>54</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wirtz</surname><given-names>P</given-names></name></person-group>
+<article-title>Costs and benefits of Web access to museum data</article-title>
+<source>Trends Ecol Evol</source>
+<year>2000</year>
+<volume>15</volume>
+<issue>9</issue>
+<fpage>374</fpage>
+<lpage>375</lpage>
+</element-citation></ref><ref id="B55"><label>55</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Anderson</surname><given-names>CV</given-names></name></person-group>
+<article-title>Office web site. Patients can access the Internet during their dentist visits</article-title>
+<source>Mo Dent J</source>
+<year>1996</year>
+<volume>76</volume>
+<issue>5</issue>
+<fpage>19</fpage>
+<lpage>24</lpage>
+<page-range>19-21, 3-4</page-range>
+<pub-id pub-id-type="pmid">9564327</pub-id></element-citation></ref><ref id="B56"><label>56</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jones</surname><given-names>RB</given-names></name><name><surname>Balfour</surname><given-names>F</given-names></name><name><surname>Gillies</surname><given-names>M</given-names></name><name><surname>Stobo</surname><given-names>D</given-names></name><name><surname>Cawsey</surname><given-names>AJ</given-names></name><name><surname>Donaldson</surname><given-names>K</given-names></name></person-group>
+<article-title>The accessibility of computer-based health information for patients: kiosks and the web</article-title>
+<source>Medinfo</source>
+<year>2001</year>
+<volume>10</volume>
+<issue>Pt 2</issue>
+<fpage>1469</fpage>
+<lpage>1473</lpage>
+</element-citation></ref><ref id="B57"><label>57</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nicholas</surname><given-names>D</given-names></name><name><surname>Huntington</surname><given-names>P</given-names></name><name><surname>Williams</surname><given-names>P</given-names></name></person-group>
+<article-title>Comparing Web and touch screen transaction log files</article-title>
+<source>J Med Internet Res</source>
+<year>2001</year>
+<volume>3</volume>
+<issue>2</issue>
+<lpage>E18</lpage>
+</element-citation></ref><ref id="B58"><label>58</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ikemba</surname><given-names>CM</given-names></name><name><surname>Kozinetz</surname><given-names>CA</given-names></name><name><surname>Feltes</surname><given-names>TF</given-names></name><name><surname>Fraser</surname><given-names>CD</given-names><suffix>Jr</suffix></name><name><surname>McKenzie</surname><given-names>ED</given-names></name><name><surname>Shah</surname><given-names>N</given-names></name><etal/></person-group>
+<article-title>Internet use in families with children requiring cardiac surgery for congenital heart disease</article-title>
+<source>Pediatrics</source>
+<year>2002</year>
+<volume>109</volume>
+<issue>3</issue>
+<fpage>419</fpage>
+<lpage>422</lpage>
+<pub-id pub-id-type="pmid">11875135</pub-id></element-citation></ref><ref id="B59"><label>59</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Smith-Barbaro</surname><given-names>PA</given-names></name><name><surname>Licciardone</surname><given-names>JC</given-names></name><name><surname>Clarke</surname><given-names>HF</given-names></name><name><surname>Coleridge</surname><given-names>ST</given-names></name></person-group>
+<article-title>Factors associated with intended use of a Web site among family practice patients</article-title>
+<source>J Med Internet Res</source>
+<year>2001</year>
+<volume>3</volume>
+<issue>2</issue>
+<lpage>E17</lpage>
+</element-citation></ref><ref id="B60"><label>60</label><element-citation publication-type="book">
+<source>searchVB.com. searchVB.com definitions [Internet]</source>
+<date-in-citation content-type="access-date">cited October 10, 2002</date-in-citation>
+<publisher-loc>Needham (MA)</publisher-loc>
+<publisher-name>TechTarget</publisher-name>
+<year>2002</year>
+<comment>Available from:<ext-link xlink:href="http://searchvb.techtarget.com/sDefinition/0,,sid8_gci211510,00.htmll" ext-link-type="uri">http://searchvb.techtarget.com/sDefinition/ 0,,sid8_gci211510,00.html</ext-link>
+</comment>
+</element-citation></ref><ref id="B61"><label>61</label><element-citation publication-type="webpage">
+<source>theDirectory of Internet Service Providers and Web Hosting Companies. theDirectory definitions [Internet]</source>
+<date-in-citation content-type="access-date">cited October 10, 2002</date-in-citation>
+<year>2002</year>
+<comment>Available from:<ext-link xlink:href="http://www.thedirectory.org/define.htm" ext-link-type="uri">http://www.thedirectory.org/define.htm</ext-link>
+</comment>
+</element-citation></ref><ref id="B62"><label>62</label><element-citation publication-type="book">
+<source>Nielsen//NetRatings. Average Web usage [Internet]</source>
+<date-in-citation content-type="access-date">cited October 14, 2002</date-in-citation>
+<publisher-loc>New York</publisher-loc>
+<publisher-name>Nielsen Media Research</publisher-name>
+<year>2002</year>
+<comment>Available from:<ext-link xlink:href="http://reports.netratings.com/nnpm/owa/NRpublicreports.usageweekly" ext-link-type="uri">http://reports.netratings.com/nnpm/owa/ NRpublicreports.usageweekly</ext-link>
+</comment>
+</element-citation></ref><ref id="B63"><label>63</label><element-citation publication-type="book">
+<source>Harris Interactive. Internet penetration at 66% of adults (137 million) nationwide [Internet]</source>
+<date-in-citation content-type="access-date">cited October 14, 2002</date-in-citation>
+<publisher-loc>Rochester (NY)</publisher-loc>
+<publisher-name>The Company</publisher-name>
+<year>2002</year>
+<comment>Available from:<ext-link xlink:href="http://www.harrisinteractive.com/harris_poll/index.asp?PID=295" ext-link-type="uri">http://www.harrisinteractive.com/harris_poll/ index.asp?PID=295</ext-link>
+</comment>
+</element-citation></ref><ref id="B64"><label>64</label><element-citation publication-type="book">
+<source>System Computing Services. Tutorial for newcomers to the Internet [Internet]</source>
+<date-in-citation content-type="access-date">cited October 10, 2002</date-in-citation>
+<publisher-loc>Las Vegas (NV)</publisher-loc>
+<publisher-name>University and College System of Nevada</publisher-name>
+<year>1999</year>
+<comment>Available from:<ext-link xlink:href="http://www.scs.nevada.edu/cs/tutorials/nettutor/4-resources.html" ext-link-type="uri">http://www.scs.nevada.edu/cs/tutorials/nettutor/4-resources.html</ext-link>
+</comment>
+</element-citation></ref><ref id="B65"><label>65</label><element-citation publication-type="book">
+<source>United States General Accounting Office. Report to the Ranking Minority Member, Subcommittee on Telecommunications, Committee on Energy and Commerce, House of Representatives. Characteristics and choices of Internet users [Internet]</source>
+<date-in-citation content-type="access-date">cited September 23, 2002</date-in-citation>
+<publisher-loc>Washington (DC)</publisher-loc>
+<publisher-name>United States Department of Commerce</publisher-name>
+<year>2001</year>
+<comment>Available from:<ext-link xlink:href="http://www.gao.gov/new.items/d01345.pdf" ext-link-type="uri">http://www.gao.gov/new.items/d01345.pdf</ext-link>
+</comment>
+</element-citation></ref><ref id="B66"><label>66</label><element-citation publication-type="journal">
+<article-title>Patients justified in their concern about privacy of health Web sites, study finds</article-title>
+<source>Health Care Strateg Manage</source>
+<year>2000</year>
+<volume>18</volume>
+<issue>3</issue>
+<fpage>9</fpage>
+<lpage>10</lpage>
+<pub-id pub-id-type="pmid">10787670</pub-id></element-citation></ref><ref id="B67"><label>67</label><element-citation publication-type="journal">
+<article-title>Internet surfing for ease of access to AHCPR-clinical practice guidelines</article-title>
+<source>Home Healthc Nurse</source>
+<year>1996</year>
+<volume>14</volume>
+<issue>7</issue>
+<lpage>560</lpage>
+</element-citation></ref><ref id="B68"><label>68</label><element-citation publication-type="journal">
+<article-title>How the Internet can be used to access current information for use in nursing practice</article-title>
+<source>AARN News Lett</source>
+<year>1997</year>
+<volume>53</volume>
+<issue>3</issue>
+<lpage>24</lpage>
+</element-citation></ref><ref id="B69"><label>69</label><element-citation publication-type="journal">
+<article-title>WHO and six publishers launch Access to Research, internet initiative for developing countries</article-title>
+<source>Ann Oncol</source>
+<year>2002</year>
+<volume>13</volume>
+<issue>5</issue>
+<lpage>641</lpage>
+</element-citation></ref><ref id="B70"><label>70</label><element-citation publication-type="journal">
+<person-group person-group-type="editor"><name><surname>Cline</surname><given-names>RJ</given-names></name><name><surname>Haynes</surname><given-names>KM</given-names></name></person-group>
+<article-title>Consumer health information seeking on the Internet: the state of the art</article-title>
+<source>Health Educ Res</source>
+<year>2001</year>
+<volume>16</volume>
+<issue>6</issue>
+<fpage>671</fpage>
+<lpage>692</lpage>
+<pub-id pub-id-type="pmid">11780707</pub-id></element-citation></ref><ref id="B71"><label>71</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>De Ruiter</surname><given-names>HP</given-names></name><name><surname>Larsen</surname><given-names>KE</given-names></name></person-group>
+<volume>13</volume>
+<issue>1</issue>
+<year>2002</year>
+<fpage>61</fpage>
+<lpage>67</lpage>
+<source>J Transcult Nurs</source>
+<article-title>Developing a transcultural patient care Web site</article-title>
+<pub-id pub-id-type="pmid">11776019</pub-id></element-citation></ref><ref id="B72"><label>72</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>DiGiorgio</surname><given-names>CJ</given-names></name><name><surname>Richert</surname><given-names>CA</given-names></name><name><surname>Klatt</surname><given-names>E</given-names></name><name><surname>Becich</surname><given-names>MJ</given-names></name></person-group>
+<volume>11</volume>
+<issue>14</issue>
+<year>1994</year>
+<fpage>294</fpage>
+<lpage>304</lpage>
+<source>Semin Diagn Pathol</source>
+<article-title>E-mail, the Internet, and information access technology in pathology</article-title>
+<pub-id pub-id-type="pmid">7878305</pub-id></element-citation></ref><ref id="B73"><label>73</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Doyle</surname><given-names>MD</given-names></name><name><surname>Ang</surname><given-names>CS</given-names></name><name><surname>Martin</surname><given-names>DC</given-names></name><name><surname>Noe</surname><given-names>A</given-names></name></person-group>
+<volume>20</volume>
+<issue>6</issue>
+<year>1996</year>
+<fpage>423</fpage>
+<lpage>431</lpage>
+<source>Comput Med Imaging Graph</source>
+<article-title>The visible embryo project: embedded program objects for knowledge access, creation and management through the World Wide Web</article-title>
+<pub-id pub-id-type="pmid">9007210</pub-id></element-citation></ref><ref id="B74"><label>74</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Duffy</surname><given-names>M</given-names></name></person-group>
+<volume>10</volume>
+<issue>2</issue>
+<year>2000</year>
+<fpage>45</fpage>
+<lpage>49</lpage>
+<source>Can Oncol Nurs J</source>
+<article-title>Web-based research: an innovative method for nursing research</article-title>
+<pub-id pub-id-type="pmid">11022438</pub-id></element-citation></ref><ref id="B75"><label>75</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Duffy</surname><given-names>ME</given-names></name></person-group>
+<volume>34</volume>
+<issue>1</issue>
+<year>2002</year>
+<fpage>83</fpage>
+<lpage>88</lpage>
+<source>J Nurs Scholarsh</source>
+<article-title>Methodological issues in Web-based research</article-title>
+<pub-id pub-id-type="pmid">11901974</pub-id></element-citation></ref><ref id="B76"><label>76</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Durkin</surname><given-names>C</given-names></name></person-group>
+<volume>22</volume>
+<issue>1</issue>
+<year>1997</year>
+<fpage>10</fpage>
+<source>Natl Netw</source>
+<article-title>Government Web sites facilitate access to a wealth of medical information</article-title>
+<pub-id pub-id-type="pmid">10169022</pub-id></element-citation></ref><ref id="B77"><label>77</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gilchrist</surname><given-names>L</given-names></name></person-group>
+<volume>191</volume>
+<issue>3</issue>
+<year>2001</year>
+<fpage>117</fpage>
+<source>Br Dent J</source>
+<article-title>Internet access to dental register</article-title>
+</element-citation></ref><ref id="B78"><label>78</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gomella</surname><given-names>LG</given-names></name></person-group>
+<volume>18</volume>
+<year>2000</year>
+<fpage>167</fpage>
+<lpage>171</lpage>
+<source>Semin Urol Oncol</source>
+<article-title>The wild, wild Web: resources for counseling patients with prostate cancer in the information age</article-title>
+<pub-id pub-id-type="pmid">10975486</pub-id></element-citation></ref><ref id="B79"><label>79</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gomez</surname><given-names>E</given-names></name></person-group>
+<volume>13</volume>
+<issue>12</issue>
+<month>Dec</month>
+<year>1998</year>
+<fpage>11</fpage>
+<source>ONS News</source>
+<article-title>Web sites help oncology nurses to strengthen leadership positions, easily access resources</article-title>
+</element-citation></ref><ref id="B80"><label>80</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Grannis</surname><given-names>FW</given-names><suffix>Jr</suffix></name></person-group>
+<volume>8</volume>
+<issue>5</issue>
+<month>Sep-Oct</month>
+<year>2001</year>
+<fpage>333</fpage>
+<lpage>337</lpage>
+<source>Can Respir J</source>
+<article-title>The Lung Cancer and Cigarette Smoking Web page: a pilot study in telehealth promotion on the World Wide Web</article-title>
+<pub-id pub-id-type="pmid">11694913</pub-id></element-citation></ref><ref id="B81"><label>81</label><element-citation publication-type="journal">
+<!-- <label>81</label> -->
+<person-group person-group-type="author"><name><surname>Graves</surname><given-names>GR</given-names></name></person-group>
+<volume>15</volume>
+<issue>9</issue>
+<month>Sep</month>
+<year>2000</year>
+<fpage>374</fpage>
+<source>Trends Ecol Evol</source>
+<article-title>Costs and benefits of Web access to museum data</article-title>
+</element-citation></ref><ref id="B82"><label>82</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gupta</surname><given-names>SC</given-names></name><name><surname>Mehl</surname><given-names>DC</given-names></name><name><surname>Verdi</surname><given-names>MG</given-names></name><name><surname>Barker</surname><given-names>JH</given-names></name><name><surname>Klein</surname><given-names>SA</given-names></name></person-group>
+<volume>29</volume>
+<year>1996</year>
+<fpage>630</fpage>
+<lpage>641</lpage>
+<source>Stud Health Technol Inform</source>
+<article-title>Simplified access to medical resources on the Internet. How to get clinicians on the Web</article-title>
+<pub-id pub-id-type="pmid">10163788</pub-id></element-citation></ref><ref id="B83"><label>83</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Guttmacher</surname><given-names>AE</given-names></name></person-group>
+<volume>2</volume>
+<year>2001</year>
+<fpage>213</fpage>
+<lpage>233</lpage>
+<source>Annu Rev Genomics Hum Genet</source>
+<article-title>Human genetics on the Web</article-title>
+<pub-id pub-id-type="pmid">11701649</pub-id></element-citation></ref><ref id="B84"><label>84</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hay</surname><given-names>SI</given-names></name><name><surname>Rogers</surname><given-names>DJ</given-names></name><name><surname>Toomer</surname><given-names>JF</given-names></name><name><surname>Snow</surname><given-names>RW</given-names></name></person-group>
+<volume>94</volume>
+<issue>2</issue>
+<month>Mar-Apr</month>
+<year>2000</year>
+<fpage>113</fpage>
+<lpage>127</lpage>
+<source>Trans R Soc Trop Med Hyg</source>
+<article-title>Annual Plasmodium falciparum entomological inoculation rates (EIR) across Africa: literature survey, Internet access and review</article-title>
+<pub-id pub-id-type="pmid">10897348</pub-id></element-citation></ref><ref id="B85"><label>85</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hoffman-Goetz</surname><given-names>L</given-names></name><name><surname>Clarke</surname><given-names>JN</given-names></name></person-group>
+<volume>91</volume>
+<issue>4</issue>
+<month>Jul-Aug</month>
+<year>2000</year>
+<fpage>281</fpage>
+<lpage>284</lpage>
+<source>Can J Public Health</source>
+<article-title>Quality of breast cancer sites on the World Wide Web</article-title>
+<pub-id pub-id-type="pmid">10986787</pub-id></element-citation></ref><ref id="B86"><label>86</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Holbrooks</surname><given-names>MZ</given-names></name></person-group>
+<volume>19</volume>
+<issue>1</issue>
+<season>Spring</season>
+<year>2000</year>
+<fpage>59</fpage>
+<lpage>71</lpage>
+<source>Med Ref Serv Q</source>
+<article-title>An introduction to minority health resources on the World Wide Web</article-title>
+</element-citation></ref><ref id="B87"><label>87</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lindberg</surname><given-names>DA</given-names></name></person-group>
+<volume>3</volume>
+<issue>5</issue>
+<month>Sep-Oct</month>
+<year>2000</year>
+<fpage>256</fpage>
+<lpage>260</lpage>
+<source>Eff Clin Pract</source>
+<article-title>Internet access to the National Library of Medicine</article-title>
+<pub-id pub-id-type="pmid">11185333</pub-id></element-citation></ref><ref id="B88"><label>88</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Madan</surname><given-names>S</given-names></name><name><surname>Bodagh</surname><given-names>IY</given-names></name></person-group>
+<volume>31</volume>
+<issue>1</issue>
+<month>Jan</month>
+<year>2002</year>
+<fpage>70</fpage>
+<lpage>74</lpage>
+<source>Age Ageing</source>
+<article-title>Dedicated to elderly care: geriatric medicine on the internet</article-title>
+<pub-id pub-id-type="pmid">11850312</pub-id></element-citation></ref><ref id="B89"><label>89</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mascarini</surname><given-names>C</given-names></name><name><surname>Ratib</surname><given-names>O</given-names></name><name><surname>Trayser</surname><given-names>G</given-names></name><name><surname>Ligier</surname><given-names>Y</given-names></name><name><surname>Appel</surname><given-names>RD</given-names></name></person-group>
+<volume>22</volume>
+<issue>3</issue>
+<month>Jun</month>
+<year>1996</year>
+<fpage>218</fpage>
+<lpage>220</lpage>
+<source>Eur J Radiol</source>
+<article-title>In-house access to PACS images and related data through World Wide Web</article-title>
+<pub-id pub-id-type="pmid">8832236</pub-id></element-citation></ref><ref id="B90"><label>90</label><element-citation publication-type="confproc">
+<person-group person-group-type="author"><name><surname>Masys</surname><given-names>DR</given-names></name><name><surname>Baker</surname><given-names>DB</given-names></name></person-group>
+<source>Proc AMIA Annu Fall Symp</source>
+<article-title>Patient-Centered Access to Secure Systems Online (PCASSO): a secure approach to clinical data access via the World Wide Web</article-title>
+<year>1997</year>
+<fpage>340</fpage>
+<lpage>343</lpage>
+<pub-id pub-id-type="pmid">9357644</pub-id></element-citation></ref><ref id="B91"><label>91</label><element-citation publication-type="confproc">
+<person-group person-group-type="author"><name><surname>McColligan</surname><given-names>EE</given-names></name><name><surname>Samuell</surname><given-names>RL</given-names><suffix>3rd</suffix></name><name><surname>Jones</surname><given-names>WT</given-names></name><name><surname>Moon</surname><given-names>WA</given-names></name><name><surname>Pretnar</surname><given-names>SZ</given-names></name><name><surname>Johns</surname><given-names>ML</given-names></name></person-group>
+<source>Proc Annu Symp Comput Appl Med Care</source>
+<article-title>Providing access to healthcare information resources using Internet Gopher technology as a part of a state-wide medical information network</article-title>
+<year>1994</year>
+<fpage>990</fpage>
+<pub-id pub-id-type="pmid">7950095</pub-id></element-citation></ref><ref id="B92"><label>92</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>McCormick</surname><given-names>KA</given-names></name><name><surname>Cohen</surname><given-names>E</given-names></name><name><surname>Reed</surname><given-names>M</given-names></name><name><surname>Sparks</surname><given-names>S</given-names></name><name><surname>Wasem</surname><given-names>C</given-names></name></person-group>
+<volume>14</volume>
+<issue>6</issue>
+<month>Nov-Dec</month>
+<year>1996</year>
+<fpage>315</fpage>
+<lpage>322</lpage>
+<source>Comput Nurs</source>
+<article-title>Funding nursing informatics activities. Internet access to announcements of government funding</article-title>
+<pub-id pub-id-type="pmid">8972985</pub-id></element-citation></ref><ref id="B93"><label>93</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>McGinty</surname><given-names>P</given-names></name></person-group>
+<volume>4</volume>
+<issue>3</issue>
+<month>Jul-Sep</month>
+<year>1998</year>
+<fpage>98</fpage>
+<lpage>99</lpage>
+<source>Int J Trauma Nurs</source>
+<article-title>Internet access to nursing and related health associations, Part 2: International</article-title>
+<pub-id pub-id-type="pmid">9855976</pub-id></element-citation></ref><ref id="B94"><label>94</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>McGinty</surname><given-names>P</given-names></name></person-group>
+<volume>4</volume>
+<issue>2</issue>
+<month>Apr-Jun</month>
+<year>1998</year>
+<fpage>52</fpage>
+<source>Int J Trauma Nurs</source>
+<article-title>Internet access to nursing associations, Part 1: United States</article-title>
+<pub-id pub-id-type="pmid">9855966</pub-id></element-citation></ref><ref id="B95"><label>95</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Murphy</surname><given-names>MA</given-names></name><name><surname>Joyce</surname><given-names>WP</given-names></name></person-group>
+<volume>167</volume>
+<issue>10</issue>
+<month>Oct</month>
+<year>2001</year>
+<fpage>728</fpage>
+<lpage>733</lpage>
+<source>Eur J Surg</source>
+<article-title>Information for surgical patients: implications of the World Wide Web</article-title>
+<pub-id pub-id-type="pmid">11775723</pub-id></element-citation></ref><ref id="B96"><label>96</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>O'Kane</surname><given-names>KC</given-names></name><name><surname>McColligan</surname><given-names>EE</given-names></name></person-group>
+<volume>55</volume>
+<issue>2</issue>
+<month>Feb</month>
+<year>1998</year>
+<fpage>85</fpage>
+<lpage>97</lpage>
+<source>Comput Methods Programs Biomed</source>
+<article-title>A Web access script language to support clinical application development</article-title>
+<pub-id pub-id-type="pmid">9568381</pub-id></element-citation></ref><ref id="B97"><label>97</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Patterson</surname><given-names>J</given-names></name><name><surname>Hakkinen</surname><given-names>PJ</given-names></name><name><surname>Wullenweber</surname><given-names>AE</given-names></name></person-group>
+<volume>173</volume>
+<issue>1-2</issue>
+<month>Apr</month>
+<year>2002</year>
+<fpage>123</fpage>
+<lpage>143</lpage>
+<source>Toxicology</source>
+<article-title>Human health risk assessment: selected Internet and World Wide Web resources</article-title>
+<pub-id pub-id-type="pmid">11955689</pub-id></element-citation></ref><ref id="B98"><label>98</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ralston</surname><given-names>MD</given-names></name><name><surname>Coleman</surname><given-names>R</given-names></name><name><surname>Scrutchfield</surname><given-names>KM</given-names></name></person-group>
+<year>2002</year>
+<fpage>162</fpage>
+<lpage>165</lpage>
+<volume>15</volume>
+<issue>Suppl 1</issue>
+<source>J Digit Imaging</source>
+<article-title>An organized pilot program promoting web access to picture archiving and communications system data: emphasis on offices outside the host institution</article-title>
+<pub-id pub-id-type="pmid">12105719</pub-id></element-citation></ref><ref id="B99"><label>99</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rhodes</surname><given-names>E</given-names></name></person-group>
+<volume>13</volume>
+<issue>1</issue>
+<season>Spring</season>
+<year>2000</year>
+<fpage>33</fpage>
+<lpage>42</lpage>
+<source>Nursingconnections</source>
+<article-title>Consumer informatics: helping patients to access health information via the Internet</article-title>
+<pub-id pub-id-type="pmid">12016658</pub-id></element-citation></ref><ref id="B100"><label>100</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rideout</surname><given-names>V</given-names></name></person-group>
+<volume>22</volume>
+<season>Spring</season>
+<issue>1</issue>
+<year>2002</year>
+<fpage>26</fpage>
+<lpage>30</lpage>
+<source>Mark Health Serv</source>
+<article-title>Generation Rx.com. What are young people really doing online?</article-title>
+<pub-id pub-id-type="pmid">11881541</pub-id></element-citation></ref><ref id="B101"><label>101</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ruskin</surname><given-names>KJ</given-names></name></person-group>
+<volume>10</volume>
+<issue>6</issue>
+<month>Nov</month>
+<year>1994</year>
+<fpage>371</fpage>
+<lpage>372</lpage>
+<source>J Clin Monit</source>
+<article-title>How to access Journal of Clinical Monitoring abstracts on the Internet</article-title>
+<pub-id pub-id-type="pmid">7836970</pub-id></element-citation></ref><ref id="B102"><label>102</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Stein</surname><given-names>LD</given-names></name></person-group>
+<volume>15</volume>
+<issue>10</issue>
+<month>Oct</month>
+<year>1999</year>
+<fpage>425</fpage>
+<lpage>427</lpage>
+<source>Trends Genet</source>
+<article-title>Internet access to the C. elegans genome</article-title>
+<pub-id pub-id-type="pmid">10498939</pub-id></element-citation></ref><ref id="B103"><label>103</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Steuer</surname><given-names>J</given-names></name></person-group>
+<volume>36</volume>
+<issue>7</issue>
+<month>Jul</month>
+<year>1995</year>
+<fpage>24N</fpage>
+<source>J Nucl Med</source>
+<article-title>How to access images on the Internet</article-title>
+</element-citation></ref><ref id="B104"><label>104</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tabozzi</surname><given-names>M</given-names></name><name><surname>Osele</surname><given-names>S</given-names></name></person-group>
+<volume>11</volume>
+<issue>3</issue>
+<month>Sep</month>
+<year>1999</year>
+<fpage>363</fpage>
+<lpage>367</lpage>
+<source>Sante Publique</source>
+<article-title>[The internet and public health: access to information]</article-title>
+<pub-id pub-id-type="pmid">10667062</pub-id></element-citation></ref><ref id="B105"><label>105</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Teasdale</surname><given-names>K</given-names></name><name><surname>Teasdale</surname><given-names>S</given-names></name></person-group>
+<volume>12</volume>
+<issue>3</issue>
+<month>Dec</month>
+<year>1996</year>
+<fpage>181</fpage>
+<lpage>184</lpage>
+<source>Prof Nurse</source>
+<article-title>Nursing on the Internet</article-title>
+<pub-id pub-id-type="pmid">9128664</pub-id></element-citation></ref><ref id="B106"><label>106</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Thoma</surname><given-names>GR</given-names></name><name><surname>Long</surname><given-names>LR</given-names></name><name><surname>Berman</surname><given-names>LE</given-names></name></person-group>
+<volume>20</volume>
+<issue>4</issue>
+<month>Jul-Aug</month>
+<year>1996</year>
+<fpage>259</fpage>
+<lpage>268</lpage>
+<source>Comput Med Imaging Graph</source>
+<article-title>A client/server system for Internet access to biomedical text/image databanks</article-title>
+<pub-id pub-id-type="pmid">8954233</pub-id></element-citation></ref><ref id="B107"><label>107</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Unsworth</surname><given-names>J</given-names></name><name><surname>Boon</surname><given-names>H</given-names></name></person-group>
+<volume>9</volume>
+<issue>4</issue>
+<month>Oct</month>
+<year>1999</year>
+<fpage>117</fpage>
+<lpage>119</lpage>
+<source>J Tissue Viability</source>
+<article-title>Access all areas: wound care resources on the Internet</article-title>
+<pub-id pub-id-type="pmid">10808840</pub-id></element-citation></ref><ref id="B108"><label>108</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Voge</surname><given-names>S</given-names></name></person-group>
+<volume>86</volume>
+<issue>3</issue>
+<month>Jul</month>
+<year>1998</year>
+<fpage>326</fpage>
+<lpage>334</lpage>
+<source>Bull Med Libr Assoc</source>
+<article-title>NOAH--New York Online Access to Health: library collaboration for bilingual consumer health information on the Internet</article-title>
+<pub-id pub-id-type="pmid">9681167</pub-id></element-citation></ref><ref id="B109"><label>109</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Winker</surname><given-names>MA</given-names></name><name><surname>Flanagin</surname><given-names>A</given-names></name><name><surname>Chi-Lum</surname><given-names>B</given-names></name><name><surname>White</surname><given-names>J</given-names></name><name><surname>Andrews</surname><given-names>K</given-names></name><name><surname>Kennett</surname><given-names>RL</given-names></name><etal/></person-group>
+<volume>283</volume>
+<issue>12</issue>
+<month>Mar</month>
+<year>2000</year>
+<fpage>1600</fpage>
+<lpage>1606</lpage>
+<source>JAMA</source>
+<article-title>Guidelines for medical and health information sites on the internet: principles governing AMA Web sites. American Medical Association</article-title>
+<pub-id pub-id-type="pmid">10735398</pub-id></element-citation></ref><ref id="B110"><label>110</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wootton</surname><given-names>JC</given-names></name></person-group>
+<volume>6</volume>
+<issue>5</issue>
+<month>Oct</month>
+<year>1997</year>
+<fpage>575</fpage>
+<lpage>581</lpage>
+<source>J Womens Health</source>
+<article-title>The quality of information on women's health on the Internet</article-title>
+<pub-id pub-id-type="pmid">9356981</pub-id></element-citation></ref><ref id="B111"><label>111</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chadwick</surname><given-names>DW</given-names></name><name><surname>Crook</surname><given-names>PJ</given-names></name><name><surname>Young</surname><given-names>AJ</given-names></name><name><surname>McDowell</surname><given-names>DM</given-names></name><name><surname>Dornan</surname><given-names>TL</given-names></name><name><surname>New</surname><given-names>JP</given-names></name></person-group>
+<volume>321</volume>
+<issue>7261</issue>
+<month>Sep</month>
+<year>2000</year>
+<fpage>612</fpage>
+<lpage>614</lpage>
+<source>BMJ</source>
+<article-title>Using the Internet to access confidential patient records: a case study</article-title>
+<pub-id pub-id-type="pmid">10977842</pub-id></element-citation></ref><ref id="B112"><label>112</label><element-citation publication-type="confproc">
+<person-group person-group-type="author"><name><surname>Cimino</surname><given-names>JJ</given-names></name><name><surname>Li</surname><given-names>J</given-names></name><name><surname>Mendonca</surname><given-names>EA</given-names></name><name><surname>Sengupta</surname><given-names>S</given-names></name><name><surname>Patel</surname><given-names>VL</given-names></name><name><surname>Kushniruk</surname><given-names>AW</given-names></name></person-group>
+<source>Proc AMIA Symp</source>
+<article-title>An evaluation of patient access to their electronic medical records via the World Wide Web</article-title>
+<year>2000</year>
+<fpage>151</fpage>
+<lpage>155</lpage>
+<pub-id pub-id-type="pmid">11079863</pub-id></element-citation></ref><ref id="B113"><label>113</label><element-citation publication-type="confproc">
+<person-group person-group-type="author"><name><surname>Cimino</surname><given-names>JJ</given-names></name><name><surname>Sengupta</surname><given-names>S</given-names></name><name><surname>Clayton</surname><given-names>PD</given-names></name><name><surname>Patel</surname><given-names>VL</given-names></name><name><surname>Kushniruk</surname><given-names>A</given-names></name><name><surname>Huang</surname><given-names>X</given-names></name></person-group>
+<source>Proc AMIA Symp</source>
+<article-title>Architecture for a Web-based clinical information system that keeps the design open and the access closed</article-title>
+<year>1998</year>
+<fpage>121</fpage>
+<lpage>125</lpage>
+<pub-id pub-id-type="pmid">9929194</pub-id></element-citation></ref><ref id="B114"><label>114</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cross</surname><given-names> MA</given-names></name></person-group>
+<volume>5</volume>
+<issue>11</issue>
+<month>Nov</month>
+<year>1997</year>
+<fpage>56</fpage>
+<lpage>58</lpage>
+<page-range>56,58</page-range>
+<source>Health Data Manag</source>
+<article-title>Provider automation. Using the Internet to access records</article-title>
+</element-citation></ref><ref id="B115"><label>115</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Eysenbach</surname><given-names>G</given-names></name><name><surname>Kohler</surname><given-names>C</given-names></name><name><surname>Yihune</surname><given-names>G</given-names></name><name><surname>Lampe</surname><given-names>K</given-names></name><name><surname>Cross</surname><given-names>P</given-names></name><name><surname>Brickley</surname><given-names>D</given-names></name></person-group>
+<volume>10</volume>
+<issue>Pt 2</issue>
+<year>2001</year>
+<fpage>1450</fpage>
+<lpage>1454</lpage>
+<source>Medinfo</source>
+<article-title>A framework for improving the quality of health information on the World-Wide-Web and bettering public (e-)health: the MedCERTAIN approach</article-title>
+</element-citation></ref><ref id="B116"><label>116</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Goldberg</surname><given-names>HI</given-names></name><name><surname>Tarczy-Hornoch</surname><given-names>P</given-names></name><name><surname>Stephens</surname><given-names>K</given-names></name><name><surname>Larson</surname><given-names>EB</given-names></name><name><surname>LoGerfo</surname><given-names>JP</given-names></name></person-group>
+<volume>351</volume>
+<issue>9118</issue>
+<month>Jun</month>
+<year>1998</year>
+<fpage>1811</fpage>
+<source>Lancet</source>
+<article-title>Internet access to patients' records</article-title>
+</element-citation></ref><ref id="B117"><label>117</label><element-citation publication-type="confproc">
+<person-group person-group-type="author"><name><surname>Hinds</surname><given-names>A</given-names></name><name><surname>Greenspun</surname><given-names>P</given-names></name><name><surname>Kohane</surname><given-names>IS</given-names></name></person-group>
+<source>Proc Annu Symp Comput Appl Med Care</source>
+<article-title>WHAM!: a forms constructor for medical record access via the World Wide Web</article-title>
+<year>1995</year>
+<fpage>116</fpage>
+<lpage>120</lpage>
+<pub-id pub-id-type="pmid">8563248</pub-id></element-citation></ref><ref id="B118"><label>118</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kelly</surname><given-names>B</given-names></name></person-group>
+<volume>10</volume>
+<issue>3</issue>
+<month>Mar</month>
+<year>2002</year>
+<fpage>32</fpage>
+<lpage>33</lpage>
+<source>Health Data Manag</source>
+<article-title>Cutting ties with phone lines. Delivery system's physicians remotely access its hospital information system via the Internet, saving thousands of dollars</article-title>
+</element-citation></ref><ref id="B119"><label>119</label><element-citation publication-type="confproc">
+<person-group person-group-type="author"><name><surname>Klimczak</surname><given-names>JC</given-names></name><name><surname>Witten</surname><given-names>DM</given-names><suffix>2nd</suffix></name><name><surname>Ruiz</surname><given-names>M</given-names></name><name><surname>Mitchell</surname><given-names>JA</given-names></name><name><surname>Brilhart</surname><given-names>JG</given-names></name><name><surname>Frankenberger</surname><given-names>ML</given-names></name></person-group>
+<source>Proc AMIA Annu Fall Symp</source>
+<article-title>Providing location-independent access to patient clinical narratives using Web browsers and a tiered server approach</article-title>
+<year>1996</year>
+<fpage>623</fpage>
+<lpage>627</lpage>
+<pub-id pub-id-type="pmid">8947741</pub-id></element-citation></ref><ref id="B120"><label>120</label><element-citation publication-type="confproc">
+<person-group person-group-type="author"><name><surname>Kushniruk</surname><given-names>AW</given-names></name><name><surname>Patel</surname><given-names>VL</given-names></name><name><surname>Cimino</surname><given-names>JJ</given-names></name></person-group>
+<source>Proc AMIA Symp</source>
+<article-title>Evaluation of Web-based patient information resources: application in the assessment of a patient clinical information system</article-title>
+<year>2000</year>
+<fpage>443</fpage>
+<lpage>447</lpage>
+<pub-id pub-id-type="pmid">11079922</pub-id></element-citation></ref><ref id="B121"><label>121</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Masys</surname><given-names>D</given-names></name><name><surname>Baker</surname><given-names>D</given-names></name><name><surname>Butros</surname><given-names>A</given-names></name><name><surname>Cowles</surname><given-names>KE</given-names></name></person-group>
+<volume>9</volume>
+<issue>2</issue>
+<month>Mar-Apr</month>
+<year>2002</year>
+<fpage>181</fpage>
+<lpage>191</lpage>
+<source>J Am Med Inform Assoc</source>
+<article-title>Giving patients access to their medical records via the internet: the PCASSO experience</article-title>
+<pub-id pub-id-type="pmid">11861633</pub-id></element-citation></ref><ref id="B122"><label>122</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Masys</surname><given-names>DR</given-names></name><name><surname>Baker</surname><given-names>DB</given-names></name><name><surname>Barnhart</surname><given-names>R</given-names></name><name><surname>Buss</surname><given-names>T</given-names></name></person-group>
+<volume>9</volume>
+<issue>Pt 2</issue>
+<year>1998</year>
+<fpage>1130</fpage>
+<lpage>1134</lpage>
+<source>Medinfo</source>
+<article-title>PCASSO: a secure architecture for access to clinical data via the Internet</article-title>
+</element-citation></ref><ref id="B123"><label>123</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sherter</surname><given-names>AL</given-names></name></person-group>
+<volume>5</volume>
+<issue>8</issue>
+<month>Aug</month>
+<year>1997</year>
+<fpage>33</fpage>
+<lpage>37</lpage>
+<page-range>33-4, 7</page-range>
+<source>Health Data Manag</source>
+<article-title>Internet/intranets. Providing easier access to clinical data</article-title>
+</element-citation></ref><ref id="B124"><label>124</label><element-citation publication-type="confproc">
+<person-group person-group-type="author"><name><surname>Tarczy-Hornoch</surname><given-names>P</given-names></name><name><surname>Kwan-Gett</surname><given-names>TS</given-names></name><name><surname>Fouche</surname><given-names>L</given-names></name><name><surname>Hoath</surname><given-names>J</given-names></name><name><surname>Fuller</surname><given-names>S</given-names></name><name><surname>Ibrahim</surname><given-names>KN</given-names></name><etal/></person-group>
+<source>Proc AMIA Annu Fall Symp</source>
+<article-title>Meeting clinician information needs by integrating access to the medical record and knowledge resources via the Web</article-title>
+<year>1997</year>
+<fpage>809</fpage>
+<lpage>813</lpage>
+<pub-id pub-id-type="pmid">9357737</pub-id></element-citation></ref><ref id="B125"><label>125</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Walker</surname><given-names>SN</given-names></name></person-group>
+<volume>322</volume>
+<issue>7288</issue>
+<month>Mar</month>
+<year>2001</year>
+<fpage>731</fpage>
+<source>BMJ</source>
+<article-title>Using Internet to access confidential patient records. Information about NHSnet was incorrect</article-title>
+</element-citation></ref><ref id="B126"><label>126</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chen</surname><given-names>X</given-names></name><name><surname>Liu</surname><given-names>M</given-names></name><name><surname>Gilson</surname><given-names>MK</given-names></name></person-group>
+<volume>4</volume>
+<issue>8</issue>
+<month>Dec</month>
+<year>2001</year>
+<fpage>719</fpage>
+<lpage>725</lpage>
+<source>Comb Chem High Throughput Screen</source>
+<article-title>BindingDB: a Web-accessible molecular recognition database</article-title>
+<pub-id pub-id-type="pmid">11812264</pub-id></element-citation></ref><ref id="B127"><label>127</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lenert</surname><given-names>LA</given-names></name></person-group>
+<volume>9</volume>
+<issue>7</issue>
+<year>2000</year>
+<fpage>811</fpage>
+<lpage>817</lpage>
+<source>Qual Life Res</source>
+<article-title>The reliability and internal consistency of an Internet-capable computer program for measuring utilities</article-title>
+<pub-id pub-id-type="pmid">11297023</pub-id></element-citation></ref><ref id="B128"><label>128</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yan</surname><given-names>Q</given-names></name><name><surname>Sadee</surname><given-names>W</given-names></name></person-group>
+<volume>2</volume>
+<issue>3</issue>
+<year>2000</year>
+<fpage>E20</fpage>
+<source>AAPS PharmSci</source>
+<article-title>Human membrane transporter database: a Web-accessible relational database for drug transport studies and pharmacogenomics</article-title>
+<pub-id pub-id-type="pmid">11741236</pub-id></element-citation></ref><ref id="B129"><label>129</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Allen</surname><given-names>GK</given-names></name><name><surname>Patrick</surname><given-names>TB</given-names></name><name><surname>Murtaugh</surname><given-names>MP</given-names></name></person-group>
+<source>Proc AMIA Annu Fall Symp</source>
+<article-title>World Wide Web-based access to heterogenous information resources for cytokine research and education</article-title>
+<year>1996</year>
+<fpage>393</fpage>
+<lpage>397</lpage>
+<pub-id pub-id-type="pmid">8947695</pub-id></element-citation></ref><ref id="B130"><label>130</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Angood</surname><given-names>PB</given-names></name></person-group>
+<volume>25</volume>
+<issue>11</issue>
+<month>Nov</month>
+<year>2001</year>
+<fpage>1449</fpage>
+<lpage>1457</lpage>
+<source>World J Surg</source>
+<article-title>Telemedicine, the Internet, and World Wide Web: overview, current status, and relevance to surgeons</article-title>
+<pub-id pub-id-type="pmid">11760749</pub-id></element-citation></ref><ref id="B131"><label>131</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Balbach</surname><given-names>ED</given-names></name><name><surname>Gasior</surname><given-names>RJ</given-names></name><name><surname>Barbeau</surname><given-names>EM</given-names></name></person-group>
+<volume>11</volume>
+<issue>1</issue>
+<month>Mar</month>
+<year>2002</year>
+<fpage>68</fpage>
+<lpage>72</lpage>
+<source>Tob Control</source>
+<article-title>Tobacco industry documents: comparing the Minnesota Depository and Internet access</article-title>
+<pub-id pub-id-type="pmid">11891371</pub-id></element-citation></ref><ref id="B132"><label>132</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Baur</surname><given-names>C</given-names></name><name><surname>Kranawetter</surname><given-names>M</given-names></name><name><surname>Weiss-Kubat</surname><given-names>S</given-names></name><name><surname>Georgieff</surname><given-names>M</given-names></name><name><surname>Lehmann-Horn</surname><given-names>F</given-names></name><name><surname>Schiebe</surname><given-names>M</given-names></name></person-group>
+<volume>33</volume>
+<issue>4</issue>
+<month>Apr</month>
+<year>1998</year>
+<fpage>232</fpage>
+<lpage>237</lpage>
+<source>Anasthesiol Intensivmed Notfallmed Schmerzther</source>
+<article-title>[A remote access system for inquiry of centrally stored data on patients suspected of malignant hyperthermia . A prototypical development for the Internet]</article-title>
+<pub-id pub-id-type="pmid">9617421</pub-id></element-citation></ref><ref id="B133"><label>133</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bazzoli</surname><given-names>F</given-names></name></person-group>
+<volume>7</volume>
+<issue>10</issue>
+<month>Oct</month>
+<year>1999</year>
+<fpage>34</fpage>
+<lpage>39</lpage>
+<page-range>34-6,38-9</page-range>
+<source>Health Data Manag</source>
+<article-title>The data has left the building. Software vendors hope physicians will turn to the Internet to access applications and store information</article-title>
+</element-citation></ref><ref id="B134"><label>134</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bergh</surname><given-names>B</given-names></name><name><surname>Thomsen</surname><given-names>J</given-names></name><name><surname>Felix</surname><given-names>R</given-names></name></person-group>
+<year>1998</year>
+<fpage>170</fpage>
+<lpage>176</lpage>
+<source>Stud Health Technol Inform</source>
+<volume>56</volume>
+<article-title>World Wide Web based access to clinical and radiological patient data</article-title>
+<pub-id pub-id-type="pmid">10351867</pub-id></element-citation></ref><ref id="B135"><label>135</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Besson</surname><given-names>A</given-names></name></person-group>
+<volume>15</volume>
+<issue>1</issue>
+<month>Mar</month>
+<year>1998</year>
+<fpage>63</fpage>
+<lpage>67</lpage>
+<source>Health Libr Rev</source>
+<article-title>Document access over the Web--an intranet solution</article-title>
+<pub-id pub-id-type="pmid">10179241</pub-id></element-citation></ref><ref id="B136"><label>136</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Blythe</surname><given-names>J</given-names></name><name><surname>Royle</surname><given-names>JA</given-names></name><name><surname>Oolup</surname><given-names>P</given-names></name><name><surname>Potvin</surname><given-names>C</given-names></name><name><surname>Smith</surname><given-names>SD</given-names></name></person-group>
+<volume>43</volume>
+<issue>6</issue>
+<month>Jun</month>
+<year>1995</year>
+<fpage>342</fpage>
+<lpage>345</lpage>
+<source>AAOHN J</source>
+<article-title>Linking the professional literature to nursing practice: challenges and opportunities</article-title>
+<pub-id pub-id-type="pmid">7772214</pub-id></element-citation></ref><ref id="B137"><label>137</label><element-citation publication-type="confproc">
+<person-group person-group-type="author"><name><surname>Bowles</surname><given-names>KH</given-names></name><name><surname>Naylor</surname><given-names>MD</given-names></name><name><surname>Peng</surname><given-names>T</given-names></name><name><surname>Qian</surname><given-names>R</given-names></name></person-group>
+<source>Proc AMIA Symp</source>
+<year>2001</year>
+<fpage>66</fpage>
+<lpage>70</lpage>
+<article-title>Informatics application provides instant research to practice benefits</article-title>
+<pub-id pub-id-type="pmid">11825156</pub-id></element-citation></ref><ref id="B138"><label>138</label><element-citation publication-type="confproc">
+<person-group person-group-type="author"><name><surname>Bradley</surname><given-names>SW</given-names></name><name><surname>Rosse</surname><given-names>C</given-names></name><name><surname>Brinkley</surname><given-names>JF</given-names></name></person-group>
+<source>Proc Annu Symp Comput Appl Med Care</source>
+<article-title>Web-based access to an online atlas of anatomy: the digital anatomist Common Gateway Interface</article-title>
+<year>1995</year>
+<fpage>512</fpage>
+<lpage>516</lpage>
+<pub-id pub-id-type="pmid">8563336</pub-id></element-citation></ref><ref id="B139"><label>139</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Brown</surname><given-names>KM</given-names></name></person-group>
+<volume>75</volume>
+<issue>1</issue>
+<year>2001</year>
+<fpage>39</fpage>
+<lpage>44</lpage>
+<season>Winter</season>
+<source>J Dent Hyg</source>
+<article-title>Using the Internet to access oral health information</article-title>
+<pub-id pub-id-type="pmid">11314224</pub-id></element-citation></ref><ref id="B140"><label>140</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bult</surname><given-names>CJ</given-names></name><name><surname>Krupke</surname><given-names>DM</given-names></name><name><surname>Naf</surname><given-names>D</given-names></name><name><surname>Sundberg</surname><given-names>JP</given-names></name><name><surname>Eppig</surname><given-names>JT</given-names></name></person-group>
+<volume>29</volume>
+<issue>1</issue>
+<month>Jan</month>
+<year>2001</year>
+<fpage>95</fpage>
+<lpage>97</lpage>
+<source>Nucleic Acids Res</source>
+<article-title>Web-based access to mouse models of human cancers: the Mouse Tumor Biology (MTB) Database</article-title>
+<pub-id pub-id-type="pmid">11125059</pub-id></element-citation></ref><ref id="B141"><label>141</label><element-citation publication-type="confproc">
+<person-group person-group-type="author"><name><surname>Duncan</surname><given-names>RG</given-names></name><name><surname>Saperia</surname><given-names>D</given-names></name><name><surname>Dulbandzhyan</surname><given-names>R</given-names></name><name><surname>Shabot</surname><given-names>MM</given-names></name><name><surname>Polaschek</surname><given-names>JX</given-names></name><name><surname>Jones</surname><given-names>DT</given-names></name></person-group>
+<source>Proc AMIA Symp</source>
+<article-title>Integrated Web-based viewing and secure remote access to a clinical data repository and diverse clinical systems</article-title>
+<year>2001</year>
+<fpage>149</fpage>
+<lpage>153</lpage>
+<pub-id pub-id-type="pmid">11825172</pub-id></element-citation></ref><ref id="B142"><label>142</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Harper</surname><given-names>R</given-names></name></person-group>
+<volume>5</volume>
+<issue>1</issue>
+<month>Feb</month>
+<year>1994</year>
+<fpage>4</fpage>
+<lpage>18</lpage>
+<source>Curr Opin Biotechnol</source>
+<article-title>Access to DNA and protein databases on the Internet</article-title>
+<pub-id pub-id-type="pmid">7764641</pub-id></element-citation></ref><ref id="B143"><label>143</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kempner</surname><given-names>ME</given-names></name><name><surname>Felder</surname><given-names>RA</given-names></name></person-group>
+<volume>21</volume>
+<issue>5</issue>
+<month>Jun</month>
+<year>2002</year>
+<fpage>8</fpage>
+<lpage>12</lpage>
+<source>Am Clin Lab</source>
+<article-title>LabAutomation 2002: Internet access to health data: elder-care, home-care, and self-care programs--Part 4</article-title>
+</element-citation></ref><ref id="B144"><label>144</label><element-citation publication-type="confproc">
+<person-group person-group-type="author"><name><surname>Kindler</surname><given-names>H</given-names></name><name><surname>Fliedner</surname><given-names>TM</given-names></name><name><surname>Densow</surname><given-names>D</given-names></name></person-group>
+<source>Proc AMIA Annu Fall Symp</source>
+<article-title>Internet access to a medical case repository for teaching and analysis</article-title>
+<year>1997</year>
+<fpage>543</fpage>
+<lpage>547</lpage>
+<pub-id pub-id-type="pmid">9357685</pub-id></element-citation></ref><ref id="B145"><label>145</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nguyen</surname><given-names>A</given-names></name><name><surname>Wu</surname><given-names>S</given-names></name><name><surname>Jalali</surname><given-names>M</given-names></name><name><surname>Uthman</surname><given-names>M</given-names></name><name><surname>Johnson</surname><given-names>K</given-names></name><name><surname>Banez</surname><given-names>E</given-names></name></person-group>
+<volume>26</volume>
+<issue>4</issue>
+<month>Oct-Dec</month>
+<year>2001</year>
+<fpage>309</fpage>
+<lpage>323</lpage>
+<source>Med Inform Internet Med</source>
+<article-title>A Web-based database for diagnosis of haematologic neoplasms using immunophenotyping by flow cytometry</article-title>
+<pub-id pub-id-type="pmid">11783714</pub-id></element-citation></ref><ref id="B146"><label>146</label><element-citation publication-type="confproc">
+<person-group person-group-type="author"><name><surname>Sanders</surname><given-names>NW</given-names></name><name><surname>Mann</surname><given-names>NH</given-names><suffix>3rd</suffix></name><name><surname>Spengler</surname><given-names>DM</given-names></name></person-group>
+<source>Proc AMIA Annu Fall Symp</source>
+<article-title>Web client and ODBC access to legacy database information: a low cost approach</article-title>
+<year>1997</year>
+<fpage>799</fpage>
+<lpage>803</lpage>
+<pub-id pub-id-type="pmid">9357735</pub-id></element-citation></ref><ref id="B147"><label>147</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Scoble</surname><given-names>MJ</given-names></name></person-group>
+<volume>15</volume>
+<issue>9</issue>
+<month>Sep</month>
+<year>2000</year>
+<fpage>374</fpage>
+<source>Trends Ecol Evol </source>
+<article-title>Costs and benefits of Web access to museum data</article-title>
+</element-citation></ref><ref id="B148"><label>148</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tamaoka</surname><given-names>K</given-names></name><name><surname>Kirsner</surname><given-names>K</given-names></name><name><surname>Yanase</surname><given-names>Y</given-names></name><name><surname>Miyaoka</surname><given-names>Y</given-names></name><name><surname>Kawakami</surname><given-names>M</given-names></name></person-group>
+<volume>34</volume>
+<issue>2</issue>
+<month>May</month>
+<year>2002</year>
+<fpage>260</fpage>
+<lpage>275</lpage>
+<source>Behav Res Methods Instrum Comput</source>
+<article-title>A Web-accessible database of characteristics of the 1,945 basic Japanese kanji</article-title>
+<pub-id pub-id-type="pmid">12109023</pub-id></element-citation></ref><ref id="B149"><label>149</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Afrin</surname><given-names>LB</given-names></name></person-group>
+<volume>93</volume>
+<issue>7</issue>
+<month>Apr</month>
+<year>1999</year>
+<fpage>2425</fpage>
+<lpage>2426</lpage>
+<source>Blood</source>
+<article-title>Web access to the American Society of Hematology slide bank</article-title>
+<pub-id pub-id-type="pmid">10215352</pub-id></element-citation></ref><ref id="B150"><label>150</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Aiton</surname><given-names>JF</given-names></name><name><surname>McDonough</surname><given-names>A</given-names></name><name><surname>McLachlan</surname><given-names>JC</given-names></name><name><surname>Smart</surname><given-names>SD</given-names></name><name><surname>Whiten</surname><given-names>SC</given-names></name></person-group>
+<volume>190</volume>
+<issue> Pt 1</issue>
+<month>Jan</month>
+<year>1997</year>
+<fpage>149</fpage>
+<lpage>154</lpage>
+<source>J Anat</source>
+<article-title>World Wide Web access to the British Universities Human Embryo Database</article-title>
+<pub-id pub-id-type="pmid">9034891</pub-id></element-citation></ref><ref id="B151"><label>151</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hardison</surname><given-names>RC</given-names></name><name><surname>Chui</surname><given-names>DH</given-names></name><name><surname>Riemer</surname><given-names>CR</given-names></name><name><surname>Miller</surname><given-names>W</given-names></name><name><surname>Carver</surname><given-names>MF</given-names></name><name><surname>Molchanova</surname><given-names>TP</given-names></name><etal/></person-group>
+<volume>22</volume>
+<issue>2</issue>
+<month>mar</month>
+<year>1998</year>
+<fpage>113</fpage>
+<lpage>127</lpage>
+<source>Hemoglobin</source>
+<article-title>Access to a syllabus of human hemoglobin variants (1996) via the World Wide Web</article-title>
+<pub-id pub-id-type="pmid">9576329</pub-id></element-citation></ref><ref id="B152"><label>152</label><element-citation publication-type="confproc">
+<person-group person-group-type="author"><name><surname>Patrick</surname><given-names>TB</given-names></name><name><surname>Worth</surname><given-names>ER</given-names></name><name><surname>Hardin</surname><given-names>LE</given-names></name></person-group>
+<source>Proc AMIA Annu Fall Symp</source>
+<article-title>Using concept maps on the World-Wide Web to access a curriculum database for problem-based learning</article-title>
+<year>1996</year>
+<fpage>32</fpage>
+<lpage>36</lpage>
+<pub-id pub-id-type="pmid">8947622</pub-id></element-citation></ref><ref id="B153"><label>153</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Turisco</surname><given-names>F</given-names></name></person-group>
+<volume>53</volume>
+<issue>5</issue>
+<month>May</month>
+<year>1999</year>
+<fpage>86</fpage>
+<source>Healthc Financ Manage</source>
+<article-title>Using Internet technology to extend access to legacy systems</article-title>
+</element-citation></ref><ref id="B154"><label>154</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Vazquez-Naya</surname><given-names>J</given-names></name><name><surname>Loureiro</surname><given-names>J</given-names></name><name><surname>Calle</surname><given-names>J</given-names></name><name><surname>Vidal</surname><given-names>J</given-names></name><name><surname>Sierra</surname><given-names>A</given-names></name></person-group>
+<year>2002</year>
+<fpage>107</fpage>
+<lpage>111</lpage>
+<volume>15</volume>
+<issue>Suppl 1</issue>
+<source>J Digit Imaging</source>
+<article-title>Necessary security mechanisms in a PACS DICOM access system with Web technology</article-title>
+<pub-id pub-id-type="pmid">12105707</pub-id></element-citation></ref><ref id="B155"><label>155</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rousseau</surname><given-names>GK</given-names></name><name><surname>Jamieson</surname><given-names>BA</given-names></name><name><surname>Rogers</surname><given-names>WA</given-names></name><name><surname>Mead</surname><given-names>SE</given-names></name><name><surname>Sit</surname><given-names>RA</given-names></name></person-group>
+<year>1998</year>
+<volume>17</volume>
+<fpage>274</fpage>
+<lpage>281</lpage>
+<source>Behaviour &#x00026; Information Technology</source>
+<article-title>Assessing the usability of on-line library systems</article-title>
+</element-citation></ref><ref id="B156"><label>156</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nenov</surname><given-names>V</given-names></name><name><surname>Klopp</surname><given-names>J</given-names></name></person-group>
+<year>1996</year>
+<volume>29</volume>
+<fpage>242</fpage>
+<lpage>249</lpage>
+<source>Stud Health Technol Inform</source>
+<article-title>Remote access to neurosurgical ICU physiological data using the World Wide Web</article-title>
+<pub-id pub-id-type="pmid">10163756</pub-id></element-citation></ref><ref id="B157"><label>157</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pan</surname><given-names>CC</given-names></name><name><surname>Liang</surname><given-names>WY</given-names></name><name><surname>Huang</surname><given-names>CW</given-names></name><name><surname>Chiang</surname><given-names>H</given-names></name></person-group>
+<volume>33</volume>
+<issue>2</issue>
+<month>Feb</month>
+<year>2002</year>
+<fpage>242</fpage>
+<lpage>246</lpage>
+<source>Hum Pathol</source>
+<article-title>Diagnosing minimal adenocarcinoma on prostate needle biopsy by real-time dynamic telepathology through the internet: evaluation of an economic technology for remote consultation</article-title>
+<pub-id pub-id-type="pmid">11957152</pub-id></element-citation></ref><ref id="B158"><label>158</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sargsyan</surname><given-names>AE</given-names></name><name><surname>Doarn</surname><given-names>CR</given-names></name><name><surname>Simmons</surname><given-names>SC</given-names></name></person-group>
+<volume>94</volume>
+<issue>2</issue>
+<month>Feb</month>
+<year>1998</year>
+<fpage>75</fpage>
+<lpage>80</lpage>
+<source>Tex Med</source>
+<article-title>Internet and World Wide Web technologies for medical data management and remote access to clinical expertise</article-title>
+<pub-id pub-id-type="pmid">9492608</pub-id></element-citation></ref><ref id="B159"><label>159</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sargsyan</surname><given-names>AE</given-names></name><name><surname>Doarn</surname><given-names>CR</given-names></name><name><surname>Simmons</surname><given-names>SC</given-names></name></person-group>
+<volume>70</volume>
+<issue>2</issue>
+<month>Feb</month>
+<year>1999</year>
+<fpage>185</fpage>
+<lpage>190</lpage>
+<source>Aviat Space Environ Med</source>
+<article-title>Internet and World Wide Web technologies for medical data management and remote access to clinical expertise</article-title>
+<pub-id pub-id-type="pmid">10206940</pub-id></element-citation></ref><ref id="B160"><label>160</label><element-citation publication-type="confproc">
+<person-group person-group-type="author"><name><surname>Scott</surname><given-names>GC</given-names></name><name><surname>Cher</surname><given-names>DJ</given-names></name><name><surname>Lenert</surname><given-names>LA</given-names></name></person-group>
+<source>Proc AMIA Annu Fall Symp</source>
+<article-title>SecondOpinion: interactive Web-based access to a decision model</article-title>
+<year>1997</year>
+<fpage>769</fpage>
+<lpage>773</lpage>
+<pub-id pub-id-type="pmid">9357729</pub-id></element-citation></ref><ref id="B161"><label>161</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Houston</surname><given-names>JD</given-names></name><name><surname>Fiore</surname><given-names>DC</given-names></name></person-group>
+<volume>15</volume>
+<issue>2</issue>
+<month>Mar-Apr</month>
+<year>1998</year>
+<fpage>116</fpage>
+<lpage>120</lpage>
+<source>MD Comput</source>
+<article-title>Online medical surveys: using the Internet as a research tool</article-title>
+<pub-id pub-id-type="pmid">9540325</pub-id></element-citation></ref><ref id="B162"><label>162</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Becht</surname><given-names>D</given-names></name><name><surname>Taglang</surname><given-names>K</given-names></name><name><surname>Wilhelm</surname><given-names>A</given-names></name></person-group>
+<source>The Digital Divide and the U.S. Hispanic population [Internet]</source>
+<publisher-loc>Newton (MA)</publisher-loc>
+<publisher-name>Digital Beat-Benton Foundation</publisher-name>
+<year>1999</year>
+<date-in-citation content-type="access-date">[cited October 10, 2002]</date-in-citation>
+<comment>Available from:<ext-link xlink:href="http://www.benton.org/DigitalBeat/db080699.html" ext-link-type="uri"> http://www.benton.org/DigitalBeat/db080699.html</ext-link>
+</comment>
+</element-citation></ref><ref id="B163"><label>163</label><element-citation publication-type="confproc">
+<person-group person-group-type="author"><name><surname>Lenert</surname><given-names>LA</given-names></name></person-group>
+<source>iMPACT3: online tools for development of web sites for the study of patients' preferences and utilities</source>
+<article-title>Proc AMIA Symp</article-title>
+<year>2000</year>
+<lpage>1172</lpage>
+</element-citation></ref><ref id="B164"><label>164</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Marshall</surname><given-names>WW</given-names></name><name><surname>Haley</surname><given-names>RW</given-names></name></person-group>
+<volume>284</volume>
+<issue>14</issue>
+<month>Oct</month>
+<year>2000</year>
+<fpage>1843</fpage>
+<lpage>1849</lpage>
+<source>JAMA</source>
+<article-title>Use of a secure Internet Web site for collaborative medical research</article-title>
+<pub-id pub-id-type="pmid">11025839</pub-id></element-citation></ref><ref id="B165"><label>165</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Clark</surname><given-names>B</given-names></name><name><surname>Bresee</surname><given-names>J</given-names></name></person-group>
+<volume>12</volume>
+<issue>1</issue>
+<fpage>69</fpage>
+<lpage>79</lpage>
+<source>Healthc Inf Manage</source>
+<article-title>Secure Internet access to patient medical information</article-title>
+<year>1998</year>
+<season>Spring</season>
+<pub-id pub-id-type="pmid">10179269</pub-id></element-citation></ref><ref id="B166"><label>166</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Greenberg</surname><given-names>GN</given-names></name></person-group>
+<volume>173</volume>
+<issue>1-2</issue>
+<month>Apr</month>
+<year>2002</year>
+<fpage>145</fpage>
+<lpage>152</lpage>
+<source>Toxicology</source>
+<article-title>Internet resources for occupational and environmental health professionals</article-title>
+<pub-id pub-id-type="pmid">11955690</pub-id></element-citation></ref><ref id="B167"><label>167</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Griffiths</surname><given-names>KM</given-names></name><name><surname>Christensen</surname><given-names>H</given-names></name></person-group>
+<month>May</month>
+<year>2002</year>
+<volume>176</volume>
+<issue>Suppl</issue>
+<fpage>S97</fpage>
+<lpage>S104</lpage>
+<source>Med J Aust</source>
+<article-title>The quality and accessibility of Australian depression sites on the World Wide Web</article-title>
+<pub-id pub-id-type="pmid">12065004</pub-id></element-citation></ref><ref id="B168"><label>168</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Croft</surname><given-names>DR</given-names></name><name><surname>Peterson</surname><given-names>MW</given-names></name></person-group>
+<volume>121</volume>
+<issue>4</issue>
+<month>Apr</month>
+<year>2002</year>
+<fpage>1301</fpage>
+<lpage>1307</lpage>
+<source>Chest</source>
+<article-title>An evaluation of the quality and contents of asthma education on the World Wide Web</article-title>
+<pub-id pub-id-type="pmid">11948066</pub-id></element-citation></ref><ref id="B169"><label>169</label><element-citation publication-type="book">
+<source>Science Panel on Interactive Communication and Health. Wired for health and well-being: the emergence of interactive health communication. [Internet]</source>
+<publisher-loc>Washington (DC)</publisher-loc>
+<publisher-name>U.S. Department of Health and Human Services, U.S. Government Printing Office</publisher-name>
+<year>1999</year>
+<date-in-citation content-type="access-date">cited August 15, 2002</date-in-citation>
+<comment>Available from: <ext-link xlink:href="http://www.health.gov/scipich/pubs/finalreport.htm" ext-link-type="uri">http://www.health.gov/scipich/pubs/finalreport.htm</ext-link>
+</comment>
+</element-citation></ref><ref id="B170"><label>170</label><element-citation publication-type="book">
+<source>U.S. Department of Health and Human Services. Usability.Gov:&#x000a0;your resource for designing usable, useful and accessible web sites and user interfaces [Internet]</source>
+<publisher-loc>Bethesda (MD)</publisher-loc>
+<publisher-name>The Department, Communication Technologies Branch</publisher-name>
+<year>2001</year>
+<date-in-citation content-type="access-date">cited April 15, 2002</date-in-citation>
+</element-citation></ref><ref id="B171"><label>171</label><element-citation publication-type="book">
+<source>The World Wide Web Consortium (W3C). Web accessibility initiative (WAI) [Internet]</source>
+<publisher-loc>Cambridge (MA)</publisher-loc>
+<publisher-name>The Consortium</publisher-name>
+<year>2003</year>
+<date-in-citation content-type="access-date">[cited June 3, 2003]</date-in-citation>
+<comment>Available from:<ext-link xlink:href="http://www.w3.org/WAI/" ext-link-type="uri"> http://www.w3.org/WAI/</ext-link>
+</comment>
+</element-citation></ref><ref id="B172"><label>172</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Instone</surname><given-names>K</given-names></name></person-group>
+<article-title>Usability engineering for the Web [Internet]</article-title>
+<source>World Wide Web Journal</source>
+<season>Winter</season>
+<year>1997</year>
+<volume>2</volume>
+<issue>1</issue>
+<date-in-citation content-type="access-date">[cited April 15, 2002]</date-in-citation>
+<comment>Available from:<ext-link xlink:href="http://www.w3j.com/5/s3.instone.html" ext-link-type="uri"> http://www.w3j.com/5/s3.instone.html</ext-link>
+</comment>
+</element-citation></ref><ref id="B173"><label>173</label><element-citation publication-type="confproc">
+<person-group person-group-type="author"><name><surname>McCray</surname><given-names>AT</given-names></name><name><surname>Dorfman</surname><given-names>E</given-names></name><name><surname>Ripple</surname><given-names>A</given-names></name><name><surname>Ide</surname><given-names>NC</given-names></name><name><surname>Jha</surname><given-names>M</given-names></name><name><surname>Katz</surname><given-names>DG</given-names></name><etal/></person-group>
+<source>Proc AMIA Symp</source>
+<article-title>Usability issues in developing a Web-based consumer health site</article-title>
+<year>2000</year>
+<fpage>556</fpage>
+<lpage>560</lpage>
+<pub-id pub-id-type="pmid">11079945</pub-id></element-citation></ref><ref id="B174"><label>174</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Murray</surname><given-names>G</given-names></name><name><surname>Costanzo</surname><given-names>T</given-names></name></person-group>
+<source>Usability and the Web: an overview [Internet]</source>
+<publisher-loc>Ottowa (Canada)</publisher-loc>
+<publisher-name>National Library of Canada</publisher-name>
+<date-in-citation content-type="access-date">cited April 15, 2002</date-in-citation>
+<comment>Available from:<ext-link xlink:href="http://www.nlc-bnc.ca/publications/1/p1-260-e.html" ext-link-type="uri"> http://www.nlc-bnc.ca/publications/1/p1-260-e.html</ext-link>
+</comment>
+</element-citation></ref><ref id="B175"><label>175</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wallendorf</surname><given-names>M</given-names></name></person-group>
+<year>2001</year>
+<volume>27</volume>
+<fpage>505</fpage>
+<lpage>511</lpage>
+<source>J Consumer Research</source>
+<article-title>Literally literacy</article-title>
+</element-citation></ref><ref id="B176"><label>176</label><element-citation publication-type="book">
+<source>The Children's Partnership. Online content for low-income and underserved Americans: the digital divide's new frontier finds that the information identified as useful by low-income and other traditionally underserved Americans either doesn't exist or is extremely difficult to find on the Internet [Internet]</source>
+<publisher-loc>Washington (DC)</publisher-loc>
+<publisher-name>The Partnership</publisher-name>
+<year>2000</year>
+<date-in-citation content-type="access-date">cited October 10, 2002</date-in-citation>
+<comment>Available from:<ext-link xlink:href="http://www.childrenspartnership.org/pub/low_income/index" ext-link-type="uri"> http://www.childrenspartnership.org/pub/ low_income/index</ext-link>
+</comment>
+</element-citation></ref><ref id="B177"><label>177</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cullen</surname><given-names>R</given-names></name></person-group>
+<year>2001</year>
+<volume>25</volume>
+<fpage>311</fpage>
+<lpage>320</lpage>
+<source>Online Information Review</source>
+<article-title>Addressing the digital divide</article-title>
+</element-citation></ref><ref id="B178"><label>178</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wilson</surname><given-names>FL</given-names></name><name><surname>Baker</surname><given-names>LM</given-names></name><name><surname>Brown-Syed</surname><given-names>C</given-names></name><name><surname>Gollop</surname><given-names>C</given-names></name></person-group>
+<volume>27</volume>
+<issue>9</issue>
+<month>Oct</month>
+<year>2000</year>
+<fpage>1403</fpage>
+<lpage>1409</lpage>
+<source>Oncol Nurs Forum</source>
+<article-title>An analysis of the readability and cultural sensitivity of information on the National Cancer Institute's Web site: CancerNet</article-title>
+<pub-id pub-id-type="pmid">11058972</pub-id></element-citation></ref><ref id="B179"><label>179</label><element-citation publication-type="webpage">
+<person-group person-group-type="author"><name><surname>Hoffman</surname><given-names>DL</given-names></name><name><surname>Novak</surname><given-names>TP</given-names></name><name><surname>Schlosser</surname><given-names>AE</given-names></name></person-group>
+<article-title>The evolution of the digital divide: how gaps in Internet access may impact electronic commerce [Internet]</article-title>
+<source>Journal of Computer-Mediated Communication</source>
+<year>2000</year>
+<issue>5</issue>
+</element-citation></ref><ref id="B180"><label>180</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Anderson</surname><given-names>R</given-names></name></person-group>
+<source>Native Americans and the Digital Divide [Internet]</source>
+<publisher-loc>Washington (DC)</publisher-loc>
+<publisher-name>Benton Foundation, Digital Beat</publisher-name>
+<year>1999</year>
+<date-in-citation content-type="access-date">cited October 10, 2002</date-in-citation>
+<comment>Available from:<ext-link xlink:href="http://www.benton.org/DigitalBeat/db101499" ext-link-type="uri"> http://www.benton.org/DigitalBeat/db101499</ext-link>
+</comment>
+</element-citation></ref><ref id="B181"><label>181</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Robinson</surname><given-names>C</given-names></name><name><surname>Flowers</surname><given-names>CW</given-names></name><name><surname>Alperson</surname><given-names>BL</given-names></name><name><surname>Norris</surname><given-names>KC</given-names></name></person-group>
+<volume>281</volume>
+<issue>11</issue>
+<month>Mar</month>
+<year>1999</year>
+<fpage>988</fpage>
+<lpage>989</lpage>
+<source>JAMA</source>
+<article-title>Internet access and use among disadvantaged inner-city patients</article-title>
+</element-citation></ref><ref id="B182"><label>182</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kalichman</surname><given-names>SC</given-names></name><name><surname>Weinhardt</surname><given-names>L</given-names></name><name><surname>Benotsch</surname><given-names>E</given-names></name><name><surname>Cherry</surname><given-names>C</given-names></name></person-group>
+<volume>14</volume>
+<issue>4</issue>
+<month>Aug</month>
+<year>2002</year>
+<fpage>523</fpage>
+<lpage>537</lpage>
+<source>AIDS Care</source>
+<article-title>Closing the digital divide in HIV/AIDS care: development of a theory-based intervention to increase Internet access</article-title>
+<pub-id pub-id-type="pmid">12204154</pub-id></element-citation></ref><ref id="B183"><label>183</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kalichman</surname><given-names>SC</given-names></name><name><surname>Weinhardt</surname><given-names>L</given-names></name><name><surname>Benotsch</surname><given-names>E</given-names></name><name><surname>DiFonzo</surname><given-names>K</given-names></name><name><surname>Luke</surname><given-names>W</given-names></name><name><surname>Austin</surname><given-names>J</given-names></name></person-group>
+<volume>46</volume>
+<issue>2</issue>
+<month>Feb</month>
+<year>2002</year>
+<fpage>109</fpage>
+<lpage>116</lpage>
+<source>Patient Educ Couns</source>
+<article-title>Internet access and Internet use for health information among people living with HIV-AIDS</article-title>
+<pub-id pub-id-type="pmid">11867240</pub-id></element-citation></ref><ref id="B184"><label>184</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Morrell</surname><given-names>RW</given-names></name><name><surname>Mayhorn</surname><given-names>CB</given-names></name><name><surname>Bennett</surname><given-names>J</given-names></name></person-group>
+<volume>42</volume>
+<issue>2</issue>
+<season>Summer</season>
+<year>2000</year>
+<fpage>175</fpage>
+<lpage>182</lpage>
+<source>Hum Factors</source>
+<article-title>A survey of World Wide Web use in middle-aged and older adults</article-title>
+<pub-id pub-id-type="pmid">11022878</pub-id></element-citation></ref><ref id="B185"><label>185</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Buller</surname><given-names>DB</given-names></name><name><surname>Woodall</surname><given-names>WG</given-names></name><name><surname>Zimmerman</surname><given-names>DE</given-names></name><name><surname>Heimendinger</surname><given-names>J</given-names></name><name><surname>Rogers</surname><given-names>EM</given-names></name><name><surname>Slater</surname><given-names>MD</given-names></name><etal/></person-group>
+<volume>24</volume>
+<issue>3</issue>
+<month>Oct</month>
+<year>2001</year>
+<fpage>1</fpage>
+<lpage>12</lpage>
+<source>Fam Community Health</source>
+<article-title>Formative research activities to provide Web-based nutrition education to adults in the Upper Rio Grande Valley</article-title>
+</element-citation></ref><ref id="B186"><label>186</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lee</surname><given-names>Y</given-names></name><name><surname>Geller</surname><given-names>J</given-names></name></person-group>
+<volume>2</volume>
+<year>2003</year>
+<fpage>33</fpage>
+<lpage>45</lpage>
+<source>International Journal on E-Learning</source>
+<article-title>A collaborative and Shareable Web-based learning system</article-title>
+</element-citation></ref><ref id="B187"><label>187</label><element-citation publication-type="book">
+<source>City of Seattle Information Technology Indicators Program. Residential technology survey [Internet]</source>
+<publisher-loc>Seattle (WA)</publisher-loc>
+<publisher-name>City of Seattle Community Technology Initiative</publisher-name>
+<year>2000</year>
+<date-in-citation content-type="access-date">cited July 29, 2002</date-in-citation>
+<comment>Available from:<ext-link xlink:href="http://www.cityofseattle.net/tech/indicators/data20collection.htm" ext-link-type="uri"> http://www.cityofseattle.net/tech/indicators/ data20collection.htm</ext-link>
+</comment>
+</element-citation></ref><ref id="B188"><label>188</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Light</surname><given-names>JS</given-names></name></person-group>
+<year>2001</year>
+<volume>71</volume>
+<fpage>709</fpage>
+<lpage>733</lpage>
+<source>Harvard Educational Review</source>
+<article-title>Rethinking the Digital Divide</article-title>
+</element-citation></ref></ref-list></back></article>

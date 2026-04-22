@@ -1,0 +1,768 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS Pathog</journal-id><journal-id journal-id-type="iso-abbrev">PLoS Pathog</journal-id><journal-id journal-id-type="publisher-id">ppat</journal-id><journal-id journal-id-type="publisher-id">plpa</journal-id><journal-id journal-id-type="pmc">plospath</journal-id><journal-title-group><journal-title>PLoS Pathogens</journal-title></journal-title-group><issn pub-type="ppub">1553-7366</issn><issn pub-type="epub">1553-7374</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">16201011</article-id><article-id pub-id-type="pmc">PMC1238745</article-id><article-id pub-id-type="doi">10.1371/journal.ppat.0010010</article-id><article-id pub-id-type="publisher-id">05-PLPA-RA-0038R1</article-id><article-id pub-id-type="sici">plpa-01-01-08</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group><subj-group subj-group-type="Discipline"><subject>Molecular Biology - Structural Biology</subject><subject>Virology</subject></subj-group><subj-group subj-group-type="System Taxonomy"><subject>Viruses</subject><subject>Mus (Mouse)</subject></subj-group></article-categories><title-group><article-title>A Surface Groove Essential for Viral Bcl-2 Function During Chronic Infection In Vivo</article-title><alt-title alt-title-type="running-head">Role of Viral Bcl-2 BH1 Domain In Vivo</alt-title></title-group><contrib-group><contrib contrib-type="author" equal-contrib="yes"><name><surname>Loh</surname><given-names>Joy</given-names></name><xref ref-type="aff" rid="aff1">1</xref></contrib><contrib contrib-type="author" equal-contrib="yes"><name><surname>Huang</surname><given-names>Qiulong</given-names></name><xref ref-type="aff" rid="aff2">2</xref></contrib><contrib contrib-type="author"><name><surname>Petros</surname><given-names>Andrew M</given-names></name><xref ref-type="aff" rid="aff2">2</xref></contrib><contrib contrib-type="author"><name><surname>Nettesheim</surname><given-names>David</given-names></name><xref ref-type="aff" rid="aff2">2</xref></contrib><contrib contrib-type="author"><name><surname>van Dyk</surname><given-names>Linda F.</given-names></name><xref ref-type="aff" rid="aff3">3</xref></contrib><contrib contrib-type="author"><name><surname>Labrada</surname><given-names>Lucia</given-names></name><xref ref-type="aff" rid="aff4">4</xref></contrib><contrib contrib-type="author"><name><surname>Speck</surname><given-names>Samuel H</given-names></name><xref ref-type="aff" rid="aff5">5</xref></contrib><contrib contrib-type="author"><name><surname>Levine</surname><given-names>Beth</given-names></name><xref ref-type="aff" rid="aff6">6</xref></contrib><contrib contrib-type="author" equal-contrib="yes"><name><surname>Olejniczak</surname><given-names>Edward T</given-names></name><xref ref-type="aff" rid="aff2">2</xref></contrib><contrib contrib-type="author" equal-contrib="yes"><name><surname>Virgin</surname><given-names>Herbert W.</given-names><suffix>IV</suffix></name><xref ref-type="aff" rid="aff1">1</xref><xref ref-type="corresp" rid="cor1">&#x0002a;</xref></contrib></contrib-group><aff id="aff1">
+<label>1</label> Departments of Pathology and Immunology and Molecular Microbiology, Washington University School of Medicine, St. Louis, Missouri, United States of America
+</aff><aff id="aff2">
+<label>2</label> Pharmaceutical Discovery Division, Abbott Laboratories, Abbott Park, Illinois, United States of America
+</aff><aff id="aff3">
+<label>3</label> Department of Microbiology, University of Colorado Health Science Center, Aurora, Colorado, United States of America
+</aff><aff id="aff4">
+<label>4</label> Department of Medicine, Columbia College of Physicians and Surgeons, New York, New York, United States of America
+</aff><aff id="aff5">
+<label>5</label> Division of Microbiology and Immunology, Yerkes Regional Primate Center, Emory University, Atlanta, Georgia, United States of America
+</aff><aff id="aff6">
+<label>6</label> Departments of Internal Medicine and Microbiology, University of Texas Southwestern Medical Center, Dallas, Texas, United States of America
+</aff><contrib-group><contrib contrib-type="editor"><name><surname>McFadden</surname><given-names>Grant</given-names></name><role>Editor</role><xref ref-type="aff" rid="edit1"/></contrib></contrib-group><aff id="edit1">University of Western Ontario, Canada</aff><author-notes><corresp id="cor1">&#x0002a;To whom correspondence should be addressed. E-mail: <email>virgin&#x00040;wustl.edu</email></corresp></author-notes><pub-date pub-type="ppub"><month>9</month><year>2005</year></pub-date><pub-date pub-type="epub"><day>30</day><month>9</month><year>2005</year></pub-date><volume>1</volume><issue>1</issue><elocation-id>e10</elocation-id><history><date date-type="received"><day>5</day><month>5</month><year>2005</year></date><date date-type="accepted"><day>8</day><month>8</month><year>2005</year></date></history><permissions><copyright-statement>Copyright: &#x000a9; 2005 Loh et al.</copyright-statement><copyright-year>2005</copyright-year><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p></license></permissions><abstract><p>Antiapoptotic Bcl-2 family proteins inhibit apoptosis in cultured cells by binding BH3 domains of proapoptotic Bcl-2 family members via a hydrophobic BH3 binding groove on the protein surface. We investigated the physiological importance of the BH3 binding groove of an antiapoptotic Bcl-2 protein in mammals in vivo by analyzing a viral Bcl-2 family protein. We show that the &#x003b3;-herpesvirus 68 (&#x003b3;HV68) Bcl-2 family protein (&#x003b3;HV68 v-Bcl-2), which is known to inhibit apoptosis in cultured cells, inhibits both apoptosis in primary lymphocytes and Bax toxicity in yeast. Nuclear magnetic resonance determination of the &#x003b3;HV68 v-Bcl-2 structure revealed a BH3 binding groove that binds BH3 domain peptides from proapoptotic Bcl-2 family members Bax and Bak via a molecular mechanism shared with host Bcl-2 family proteins, involving a conserved arginine in the BH3 peptide binding groove. Mutations of this conserved arginine and two adjacent amino acids to alanine (SGR to AAA) within the BH3 binding groove resulted in a properly folded protein that lacked the capacity of the wild-type &#x003b3;HV68 v-Bcl-2 to bind Bax BH3 peptide and to block Bax toxicity in yeast. We tested the physiological importance of this v-Bcl-2 domain during viral infection by engineering viral mutants encoding a v-Bcl-2 containing the SGR to AAA mutation. This mutation resulted in a virus defective for both efficient reactivation of &#x003b3;HV68 from latency and efficient persistent &#x003b3;HV68 replication. These studies demonstrate an essential functional role for amino acids in the BH3 peptide binding groove of a viral Bcl-2 family member during chronic infection.</p></abstract><abstract abstract-type="synopsis"><title>Synopsis</title><sec id="st1"><title/><p>Viruses can manipulate their hosts by expressing proteins that structurally and functionally resemble host cellular proteins. One important cellular process manipulated by viruses is apoptosis, a cell death program that is regulated by a family of Bcl-2-like proapoptotic and antiapoptotic proteins. Gammaherpesviruses encode Bcl-2 family proteins (v-Bcl-2) that may contribute to their ability to cause tumors and persist for the lifetime of their hosts. The authors solved the structure of the murine &#x003b3;-herpesvirus 68 (&#x003b3;HV68) v-Bcl-2 and found that it is similar to cellular antiapoptotic proteins and that v-Bcl-2 uses the same mechanism as cellular Bcl-2 to bind to peptides from proapoptotic Bcl-2 family proteins. Furthermore, they found that a &#x003b3;HV68 virus expressing a mutated form of v-Bcl-2 that cannot bind to peptides from proapoptotic Bcl-2 family proteins is defective in its ability to cause chronic viral infection in mice. Thus, a specific structural feature and molecular mechanism of the v-Bcl-2 that is shared with host antiapoptotic Bcl-2 proteins is important for the function of this protein during viral infection. These findings enhance our understanding of the molecular mechanisms of chronic &#x003b3;-herpesvirus infection, and suggest that targeting the functions of the v-Bcl-2 protein might have therapeutic benefit.</p></sec></abstract><custom-meta-group><custom-meta><meta-name>Citation:</meta-name><meta-value>Loh J, Huang Q, Petros AM, Nettesheim D, van Dyk LF, et al. (2005) A surface groove essential for viral Bcl-2 function during chronic infection in vivo. PLoS Pathog 1(1): e10.</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec id="s1"><title>Introduction</title><p>Bcl-2 family proteins are important regulators of cell death and other aspects of cell physiology such as glycolysis and calcium metabolism [<xref rid="ppat-0010010-b01" ref-type="bibr">1</xref>&#x02013;<xref rid="ppat-0010010-b05" ref-type="bibr">5</xref>]. The Bcl-2 family can be divided into antiapoptotic proteins, which have in common four Bcl-2 homology domains (BH1&#x02013;4), and proapoptotic proteins, which have either BH1&#x02013;3 domains or only a BH3 domain [<xref rid="ppat-0010010-b02" ref-type="bibr">2</xref>&#x02013;<xref rid="ppat-0010010-b04" ref-type="bibr">4</xref>,<xref rid="ppat-0010010-b06" ref-type="bibr">6</xref>&#x02013;<xref rid="ppat-0010010-b08" ref-type="bibr">8</xref>]. A key mechanism by which this family regulates cell death in cultured cells involves a binding interaction between a hydrophobic groove on the surface of the antiapoptotic family protein and the BH3 domain of proapoptotic family members [<xref rid="ppat-0010010-b02" ref-type="bibr">2</xref>&#x02013;<xref rid="ppat-0010010-b04" ref-type="bibr">4</xref>,<xref rid="ppat-0010010-b09" ref-type="bibr">9</xref>&#x02013;<xref rid="ppat-0010010-b13" ref-type="bibr">13</xref>]. Furthermore, the importance of BH3 binding domains of antiapoptotic proteins has been shown in vivo in nematodes [<xref rid="ppat-0010010-b14" ref-type="bibr">14</xref>,<xref rid="ppat-0010010-b15" ref-type="bibr">15</xref>]. However, antiapoptotic Bcl-2 family proteins also interact with proteins outside of the Bcl-2 family, such as Aven, Apaf-1, Btf, Beclin1, Raf-1, calcineurin, tissue transglutaminase, FAST, and p53 [<xref rid="ppat-0010010-b06" ref-type="bibr">6</xref>,<xref rid="ppat-0010010-b16" ref-type="bibr">16</xref>&#x02013;<xref rid="ppat-0010010-b26" ref-type="bibr">26</xref>]. The structural basis for interactions between these proteins and Bcl-2 family members, and the functional significance of these interactions, is less well understood than the structural basis and functional importance of interactions among Bcl-2 family members.</p><p>Certain viruses have acquired during evolution host genes that confer selective advantages. Viral proteins encoded by these genes often retain or even enhance advantageous functions of their host counterparts and lose functions that do not benefit the virus. Importantly, many viruses encode antiapoptotic Bcl-2 family proteins [<xref rid="ppat-0010010-b07" ref-type="bibr">7</xref>,<xref rid="ppat-0010010-b27" ref-type="bibr">27</xref>,<xref rid="ppat-0010010-b28" ref-type="bibr">28</xref>]. For example, viral Bcl-2 family proteins are encoded by all &#x003b3;-herpesviruses, including the human viruses Epstein-Barr virus (EBV) and Kaposi's sarcoma-associated herpesvirus (KSHV), and the murine virus &#x003b3;-herpesvirus 68 (&#x003b3;HV68) [<xref rid="ppat-0010010-b07" ref-type="bibr">7</xref>,<xref rid="ppat-0010010-b27" ref-type="bibr">27</xref>].</p><p>The conservation of v-Bcl-2 genes across the &#x003b3;-herpesviruses suggests that these proteins play an important and evolutionarily conserved role in the pathogenesis of &#x003b3;-herpesvirus infection. EBV, KSHV, and &#x003b3;HV68 all latently infect B cells [<xref rid="ppat-0010010-b29" ref-type="bibr">29</xref>&#x02013;<xref rid="ppat-0010010-b31" ref-type="bibr">31</xref>], reactivate from latency, persistently replicate in both normal and immunocompromised hosts, and induce B cell lymphomas during chronic infection ([<xref rid="ppat-0010010-b32" ref-type="bibr">32</xref>] and unpublished data). The capacity to establish and reactivate from viral latency is essential for maintaining the lifelong infection that is characteristic of &#x003b3;-herpesviruses. In addition, the capacity to persistently replicate at a low level despite the presence of active host immunity is a critically important aspect of &#x003b3;-herpesvirus pathogenesis. Persistent replication contributes to viral spread from chronically infected hosts to new hosts, and may well contribute to tumorigenesis [<xref rid="ppat-0010010-b33" ref-type="bibr">33</xref>&#x02013;<xref rid="ppat-0010010-b35" ref-type="bibr">35</xref>].</p><p>An in vivo role during infection has been demonstrated only for the &#x003b3;HV68 v-Bcl-2 [<xref rid="ppat-0010010-b36" ref-type="bibr">36</xref>]. The &#x003b3;HV68 v-Bcl-2 protein has been shown to inhibit apoptosis induced by Fas, TNF&#x003b1;, and Sindbis virus infection [<xref rid="ppat-0010010-b37" ref-type="bibr">37</xref>&#x02013;<xref rid="ppat-0010010-b39" ref-type="bibr">39</xref>]. It is expressed during latency and has critical roles in reactivation from latency, the capacity to persistently replicate in immunocompromised mice such as those lacking interferon-&#x003b3; (IFN&#x003b3;), and in determining the number of latent cells early after infection [<xref rid="ppat-0010010-b36" ref-type="bibr">36</xref>,<xref rid="ppat-0010010-b40" ref-type="bibr">40</xref>,<xref rid="ppat-0010010-b41" ref-type="bibr">41</xref>]. Surprisingly, the &#x003b3;HV68 v-Bcl-2 has no role during acute infection of fibroblast cells in vitro or in vivo [<xref rid="ppat-0010010-b36" ref-type="bibr">36</xref>]. These data suggest that viral regulation of apoptosis is more important during chronic than acute &#x003b3;HV68 infection. Further support for this concept comes from studies showing that proapoptotic host molecules such as perforin, granzymes, and caspase 3 are unimportant during acute &#x003b3;HV68 infection but are critically important for limiting the amount of latent &#x003b3;HV68 infection [<xref rid="ppat-0010010-b42" ref-type="bibr">42</xref>,<xref rid="ppat-0010010-b43" ref-type="bibr">43</xref>]. Together, these data suggest that regulation of apoptosis by host and viral genes plays a critical role specific to chronic &#x003b3;HV68 infection.</p><p>These observations demonstrate a physiological role for a v-Bcl-2 family member in reactivation from viral latency and in persistent replication. The molecular mechanisms responsible for this role in vivo can be defined by evaluating the phenotypes of viruses expressing mutant forms of the v-Bcl-2 protein. We reasoned that analysis of a viral Bcl-2 protein using a combination of structural, biochemical, and pathogenesis studies would reveal whether viral and host Bcl-2 family members might function via the same mechanisms, and would clarify the importance of those mechanisms during infection. In this study, we identified the structure and biochemical function of a domain in &#x003b3;HV68 v-Bcl-2 predicted to be important for v-Bcl-2 function, and then tested the role of this domain in vivo<italic>.</italic> The &#x003b3;HV68 v-Bcl-2 shared with host antiapoptotic Bcl-2 family proteins the capacity to block apoptosis in primary lymphocytes induced by antigen receptor signaling, corticosteroids, and &#x003b3;-irradiation, and to inhibit Bax toxicity in yeast. Solving the three-dimensional structure of the v-Bcl-2 revealed a functional hydrophobic surface groove that binds Bax and Bak BH3 peptides via a mechanism shared with host anti-apoptotic Bcl-2 family members. Mutations within this BH3 binding groove significantly decreased binding affinity for Bax peptide, abrogated inhibition of Bax toxicity in yeast, and ablated v-Bcl-2 function during chronic infection. These studies are the first to identify a specific domain of a viral Bcl-2 family protein that is essential for a physiological activity in vivo.</p></sec><sec id="s2"><title>Results</title><sec id="s2a"><title>&#x003b3;HV68 v-Bcl-2 Inhibits Apoptosis Induced by Diverse Apoptotic Stimuli in Primary Lymphocytes</title><p>The &#x003b3;HV68 v-Bcl-2 has been shown to block apoptosis in cultured cells in response to several proapoptotic stimuli [<xref rid="ppat-0010010-b37" ref-type="bibr">37</xref>&#x02013;<xref rid="ppat-0010010-b39" ref-type="bibr">39</xref>]. We evaluated the antiapoptotic activity of the &#x003b3;HV68 v-Bcl-2 in vivo in primary cells by generating transgenic mice expressing v-Bcl-2 in thymocytes under the control of the <italic>lck</italic> proximal promoter (<xref ref-type="fig" rid="ppat-0010010-g001">Figure 1</xref>A). While this approach can determine the effect of only ectopically expressed v-Bcl-2 in T lymphocytes, it has been successfully used to show the activity of both Bcl-2 and Bcl-x<sub>L</sub> in primary cells in vivo [<xref rid="ppat-0010010-b44" ref-type="bibr">44</xref>,<xref rid="ppat-0010010-b45" ref-type="bibr">45</xref>]. An added advantage of this system is the ability to study the activity of the v-Bcl-2 using multiple well-characterized lymphotoxic stimuli that have been shown to induce apoptotic cell death [<xref rid="ppat-0010010-b46" ref-type="bibr">46</xref>&#x02013;<xref rid="ppat-0010010-b51" ref-type="bibr">51</xref>]. No antibodies for the &#x003b3;HV68 v-Bcl-2 are available, so we used quantitative RT-PCR to demonstrate specific &#x003b3;HV68 v-Bcl-2 mRNA expression in two transgenic mouse lines (v-Bcl-2A and v-Bcl-2B). v-Bcl-2A mice had 4- to 6-fold higher v-Bcl-2 expression in thymus and spleen than v-Bcl-2B mice (<xref ref-type="fig" rid="ppat-0010010-g001">Figure 1</xref>B).</p><fig id="ppat-0010010-g001" position="float"><label>Figure 1</label><caption><title>Transgenic Expression of v-Bcl-2 in Thymocytes</title><p>(A) Schematic illustration of the &#x003b3;HV68 genome, v-Bcl-2 genomic region, and transgene construct.</p><p>(B) Real-time RT-PCR quantitation of v-Bcl-2 expression in transgenic thymocytes (left) and splenocytes (right).</p><p>(C) Total number of thymocytes in v-Bcl-2 transgenic and nontransgenic mice.</p><p>(D) Percentage of CD4 or CD8 single-positive, double-positive (DP) and double-negative (DN) thymocytes in v-Bcl-2 transgenic and nontransgenic mice.</p></caption><graphic xlink:href="ppat.0010010.g001"/></fig><p>&#x003b3;HV68 v-Bcl-2 transgenic mice had higher numbers of total thymocytes than nontransgenic mice (<xref ref-type="fig" rid="ppat-0010010-g001">Figure 1</xref>C), consistent with an effect of v-Bcl-2 on cell survival. However, v-Bcl-2 transgenic mice displayed no abnormalities in CD4 and CD8 T cell development in the thymus (<xref ref-type="fig" rid="ppat-0010010-g001">Figures 1</xref>D and S1), nor were there any alterations in thymic architecture (unpublished data). Additionally, v-Bcl-2 transgenic thymocytes did not survive longer in explant culture than control cells (unpublished data). We next determined whether &#x003b3;HV68 v-Bcl-2 inhibits cell death induced by three diverse apoptotic stimuli in vivo. &#x003b3;HV68 v-Bcl-2 transgenic double-positive thymocytes were significantly more resistant than control thymocytes to apoptosis induced by dexamethasone, &#x003b3;-irradiation, and CD3&#x0025b; ligation (<xref ref-type="fig" rid="ppat-0010010-g002">Figures 2</xref> and S1). The increase in survival of transgenic double-positive thymocytes exceeds, and is therefore not attributable to, the slight increase in total thymocyte number in transgenic mice. Transgenic thymocytes from v-Bcl-2A mice were more resistant to dexamethasone than those from v-Bcl-2B mice, particularly at the highest doses of dexamethasone, consistent with higher levels of expression of v-Bcl-2 in these cells (see <xref ref-type="fig" rid="ppat-0010010-g001">Figure 1</xref>B). No depletion of double-positive thymocytes was observed in transgenic or nontransgenic mice treated with vehicle or isotype antibody controls (unpublished data).</p><fig id="ppat-0010010-g002" position="float"><label>Figure 2</label><caption><title>v-Bcl-2 Inhibits Cell Death in Thymocytes</title><p>(A) Survival of DP thymocytes from v-Bcl-2A (left) and v-Bcl-2B (right) mice 48 h following intraperitoneal injection with various doses of dexamethasone.</p><p>(B and C) Survival of DP thymocytes from v-Bcl-2A and v-Bcl-2B mice 48 h following (B) 250 rads of &#x003b3;-irradiation and (C) intraperitoneal injection with 30 &#x003bc;g of anti-CD3&#x0025b; antibody.</p></caption><graphic xlink:href="ppat.0010010.g002"/></fig><p>These results are similar to those previously found using host Bcl-2 and Bcl-x<sub>L</sub> transgenic mice [<xref rid="ppat-0010010-b44" ref-type="bibr">44</xref>,<xref rid="ppat-0010010-b45" ref-type="bibr">45</xref>,<xref rid="ppat-0010010-b52" ref-type="bibr">52</xref>] and show that the &#x003b3;HV68 v-Bcl-2 shares with its cellular counterparts the capacity to inhibit apoptosis induced by diverse proapoptotic stimuli in primary thymocytes. Together with previous studies in cultured cells [<xref rid="ppat-0010010-b37" ref-type="bibr">37</xref>&#x02013;<xref rid="ppat-0010010-b39" ref-type="bibr">39</xref>], these data strongly support the concept that the &#x003b3;HV68 v-Bcl-2 blocks apoptosis by targeting a step or steps common to the death programs triggered by multiple cellular signals.</p></sec><sec id="s2b"><title>&#x003b3;HV68 v-Bcl-2 Is Structurally Homologous to Bcl-2 and Bcl-x<sub>L</sub>
+</title><p>The &#x003b3;HV68 v-Bcl-2 has limited amino acid homology to host Bcl-2 family proteins outside of the BH1 domain. Therefore, to understand the molecular basis of v-Bcl-2 function and the relationship between the &#x003b3;HV68 v-Bcl-2 and host Bcl-2 family members, we expressed and purified the protein and determined its structure by nuclear magnetic resonance (NMR) spectroscopy. For structural studies, we expressed amino acids 1&#x02013;137 of the v-Bcl-2, removing the carboxy-terminal hydrophobic domain. The overall fold of v-Bcl-2 (<xref ref-type="fig" rid="ppat-0010010-g003">Figure 3</xref>) was very similar to that of Bcl-x<sub>L</sub> (<xref ref-type="fig" rid="ppat-0010010-g003">Figure 3</xref>B) [<xref rid="ppat-0010010-b53" ref-type="bibr">53</xref>] and other Bcl-2 family proteins [<xref rid="ppat-0010010-b02" ref-type="bibr">2</xref>]. The core of v-Bcl-2 was formed by two predominantly hydrophobic central helices, &#x003b1;5 and &#x003b1;6, which were flanked on one side by &#x003b1;3 and &#x003b1;4 and on the other side by &#x003b1;1, &#x003b1;2, and &#x003b1;7. The average minimized coordinates for the &#x003b3;HV68 v-Bcl-2 have been deposited with the Protein Data Bank (PDB [<ext-link ext-link-type="uri" xlink:href="http://www.rcsb.org/pdb/">http://www.rcsb.org/pdb/</ext-link>] accession code 2ABO).</p><fig id="ppat-0010010-g003" position="float"><label>Figure 3</label><caption><title>Solution Structure of &#x003b3;HV68 v-Bcl-2</title><p>(A and B) Ribbon representation of (A) &#x003b3;HV68 v-Bcl-2 and (B) Bcl-x<sub>L</sub> with BH1, BH2, BH3, and BH4 regions in magenta, red, green, and yellow, respectively. Helices are numbered with respect to Bcl-x<sub>L</sub>.</p><p>(C) Connolly surface for &#x003b3;HV68 v-Bcl-2 calculated using a probe radius of 1.4 &#x000c5;. Residues are colored as follows: Leu, Val, Ile, Phe, Tyr, Trp, Met, and Ala in yellow; Arg, Lys, and His in blue; Asp and Glu in red; all others in gray. The hydrophobic groove is indicated by an arrow.</p><p>(D) Structural and sequence alignment of KSHV and &#x003b3;HV68 v-Bcl-2 proteins with Bcl-2 and Bcl-x<sub>L</sub>.</p></caption><graphic xlink:href="ppat.0010010.g003"/></fig><p>v-Bcl-2 clearly contained structural elements corresponding to the BH1, BH2, BH3, and BH4 regions of Bcl-x<sub>L</sub>, despite the fact that the v-Bcl-2 BH4 region was not readily apparent in sequence alignments with Bcl-x<sub>L</sub> (<xref ref-type="fig" rid="ppat-0010010-g003">Figure 3</xref>D). The BH1 region (in magenta) was composed of the carboxy-terminal end of &#x003b1;4, the loop connecting &#x003b1;4 to &#x003b1;5, and the amino-terminal end of &#x003b1;5. The BH2 region (in red; <xref ref-type="fig" rid="ppat-0010010-g003">Figure 3</xref>D) was composed of &#x003b1;7, and the BH3 (in green) and BH4 (in yellow) regions were composed of &#x003b1;2 and &#x003b1;1, respectively. The two side chain conformations of Trp10 in &#x003b1;1 generated two distinct sets of resonances for residues in this region, and the resonances corresponding to the predominant conformation were used for these analyses. One notable difference between the &#x003b3;HV68 and KSHV v-Bcl-2 proteins and host antiapoptotic Bcl-2 family proteins is the lack of an extended loop between &#x003b1;1 and &#x003b1;2, which in host Bcl-2 contains sites for caspase cleavage and regulatory phosphorylation [<xref rid="ppat-0010010-b01" ref-type="bibr">1</xref>,<xref rid="ppat-0010010-b02" ref-type="bibr">2</xref>,<xref rid="ppat-0010010-b54" ref-type="bibr">54</xref>].</p><p>An alignment revealing the structural and amino acid conservation between Bcl-2, Bcl-x<sub>L</sub>, the &#x003b3;HV68 v-Bcl-2, and the KSHV v-Bcl-2 proteins is shown in <xref ref-type="fig" rid="ppat-0010010-g003">Figure 3</xref>D. Aside from the lack of the &#x003b1;1/&#x003b1;2 loop in the v-Bcl-2, this structural alignment reveals how a similar overall structure relates to relatively poor amino acid homology in regions outside of the BH1 domain. This striking conservation of structure between v-Bcl-2 and other Bcl-2 family members, despite only low-level amino acid homology outside of the BH1 domain, supports the concept that strong evolutionary pressure has led to retention of the overall structure, and suggests that the mechanisms of v-Bcl-2 action might therefore be similar to those of its cellular counterparts.</p></sec><sec id="s2c"><title>&#x003b3;HV68 v-Bcl-2, Like Antiapoptotic Host Bcl-2 Family Proteins, Has a Hydrophobic Surface Groove and Binds BH3 Peptides from Proapoptotic Bcl-2 Family Members</title><p>&#x003b3;HV68 v-Bcl-2 had an elongated surface hydrophobic groove composed of amino acid residues from &#x003b1;2, &#x003b1;3, &#x003b1;4, and &#x003b1;5, similar to the groove observed on Bcl-2 and Bcl-x<sub>L</sub> (<xref ref-type="fig" rid="ppat-0010010-g003">Figures 3</xref>C and <xref ref-type="supplementary-material" rid="ppat-0010010-sg002">S2</xref>). The orientation of &#x003b1;3 and &#x003b1;4 defined the bottom of this groove, which is the predicted binding site for BH3 domains of proapoptotic Bcl-2 family proteins [<xref rid="ppat-0010010-b02" ref-type="bibr">2</xref>,<xref rid="ppat-0010010-b53" ref-type="bibr">53</xref>]. Conservation of this hydrophobic groove in the &#x003b3;HV68 v-Bcl-2 suggests that it may, like host Bcl-2, bind BH3 domains of proapoptotic Bcl-2 family proteins. One approach to defining the biochemical properties of the surface groove of an antiapoptotic Bcl-2 family member is to measure the affinity of the protein for BH3 peptides from proapoptotic Bcl-2 family members [<xref rid="ppat-0010010-b02" ref-type="bibr">2</xref>&#x02013;<xref rid="ppat-0010010-b04" ref-type="bibr">4</xref>]. For example, the BH3 domain of Bak is necessary and sufficient for effecting cell death, and mutations in Bak BH3 peptide that reduce binding to Bcl-x<sub>L</sub> also abrogate interaction of full-length Bak with Bcl-x<sub>L</sub> [<xref rid="ppat-0010010-b55" ref-type="bibr">55</xref>,<xref rid="ppat-0010010-b56" ref-type="bibr">56</xref>].</p><p>We therefore used NMR to analyze binding of BH3 peptides from proapoptotic Bcl-2 family proteins Bax, Bak, and Bad to purified &#x003b3;HV68 v-Bcl-2. We focused on Bak and Bax, since &#x003b3;HV68 v-Bcl-2 blocks apoptosis induced by diverse stimuli (see <xref ref-type="fig" rid="ppat-0010010-g002">Figure 2</xref>), and Bak and Bax are essential for cell death induced by many stimuli [<xref rid="ppat-0010010-b57" ref-type="bibr">57</xref>&#x02013;<xref rid="ppat-0010010-b59" ref-type="bibr">59</xref>]. We selected the Bad BH3 peptide for analysis since Bad is a potently proapoptotic BH3-only Bcl-2 family member that induces cell death via interaction with antiapoptotic Bcl-2 family members [<xref rid="ppat-0010010-b08" ref-type="bibr">8</xref>]. Both Bax and Bak peptides were in slow exchange with &#x003b3;HV68 v-Bcl-2 on the NMR timescale, indicating K<sub>d</sub> values of less than 5 &#x003bc;M. In contrast, Bad BH3 peptide bound weakly to &#x003b3;HV68 v-Bcl-2, with a K<sub>d</sub> of greater than 300 &#x003bc;M. &#x003b3;HV68 v-Bcl-2 therefore differs significantly from Bcl-2 and Bcl-x<sub>L</sub>, which bind the Bad BH3 peptide with an affinity of 0.6&#x02013;15 nM [<xref rid="ppat-0010010-b09" ref-type="bibr">9</xref>]. These results show that the &#x003b3;HV68-v-Bcl2 binds BH3 peptides from some, but not all, BH3 domain containing proapoptotic Bcl-2 family members.</p></sec><sec id="s2d"><title>A Common Mechanism for Binding of BH3 Peptides by &#x003b3;HV68 v-Bcl-2 and Bcl-x<sub>L</sub>
+</title><p>The retention of a hydrophobic groove and the capacity to bind BH3 peptides by &#x003b3;HV68 v-Bcl-2 suggested that &#x003b3;HV68 v-Bcl-2 shares with Bcl-2 and Bcl-x<sub>L</sub> a common capacity for binding BH3 peptides. However, the lack of Bad BH3 peptide binding led us to question whether the mechanism of BH3 peptide binding is shared between host Bcl-2 family proteins and the &#x003b3;HV68 v-Bcl-2. To directly address this question, we used nuclear Overhauser effect (NOE) experiments (<xref ref-type="fig" rid="ppat-0010010-g004">Figure 4</xref>). We found that the Bak BH3 peptide bound to &#x003b3;HV68 v-Bcl-2 and Bcl-x<sub>L</sub> in the same orientation ([<xref rid="ppat-0010010-b53" ref-type="bibr">53</xref>] and unpublished data), with contact occurring primarily between hydrophobic residues of v-Bcl-2 and Bak peptide. &#x003b3;HV68 v-Bcl-2 residues with NOE contacts to the Bak peptide (<xref ref-type="fig" rid="ppat-0010010-g004">Figure 4</xref>A) were structurally homologous to those in the complex of Bcl-x<sub>L</sub> and Bak peptide, in which Arg139 of Bcl-x<sub>L</sub> forms a key contact with Asp83 of the Bak peptide [<xref rid="ppat-0010010-b53" ref-type="bibr">53</xref>].</p><fig id="ppat-0010010-g004" position="float"><label>Figure 4</label><caption><title>Mutagenesis of &#x003b3;HV68 v-Bcl-2 BH3 Binding Groove</title><p>(A) Ribbon representation of &#x003b3;HV68 v-Bcl-2 showing residues that contact Bak peptide (in green and R87) and the SGR residues that were mutated (in magenta).</p><p>(B) Growth of yeast following transformation with the indicated constructs (above, bar graph) and Western blot of SGR/AAA and wild-type v-Bcl-2 from transformed yeast (below, blot).</p><p>(C) Overlay of the <sup>15</sup>N-HSQC spectra of SGR/AAA (red contours) and wild-type (black contours) v-Bcl-2 showing conservation of structure between mutant and wild-type proteins.</p></caption><graphic xlink:href="ppat.0010010.g004"/></fig><p>Arg139 is highly conserved among Bcl-2 family proteins, and mutation of Asp83 in the Bak peptide to alanine (D83A) reduces its affinity for Bcl-x<sub>L</sub> by more than 120-fold. The &#x003b3;HV68 v-Bcl-2 residue that is structurally homologous to Arg139 of Bcl-x<sub>L</sub> is Arg87, which is a conserved amino acid in the v-Bcl-2 BH1 domain (see <xref ref-type="fig" rid="ppat-0010010-g003">Figure 3</xref>D). We tested the importance of this Arg:Asp interaction in the binding of &#x003b3;HV68 v-Bcl-2 to Bak peptide in an NMR-based titration of v-Bcl-2 with D83A mutant Bak peptide. We observed no binding of D83A mutant Bak peptide to &#x003b3;HV68 v-Bcl-2 over the concentration range of the titration, indicating a K<sub>d</sub> of more than 300 &#x003bc;M. Thus, Arg87 of &#x003b3;HV68 v-Bcl-2 played a key role, similar to that of Bcl-x<sub>L</sub> Arg139, in binding to Asp83 of the Bak BH3 peptide. These data show that the molecular mechanisms of BH3 peptide binding are shared between &#x003b3;HV68 v-Bcl-2 and host antiapoptotic proteins.</p></sec><sec id="s2e"><title>Residues in the &#x003b3;HV68 v-Bcl-2 BH3 Binding Groove Are Required for v-Bcl-2 Binding to BH3 Peptides and Inhibition of Bax Toxicity in Yeast</title><p>The conservation of the mechanism by which &#x003b3;HV68 and host Bcl-2 family members bind BH3 peptides suggested that the &#x003b3;HV68 v-Bcl-2 would also inhibit the function of proapoptotic Bcl-2 family members. We tested this hypothesis using a Bax toxicity assay in yeast (<xref ref-type="fig" rid="ppat-0010010-g004">Figure 4</xref>). Inhibition of Bax toxicity in yeast by Bcl-2 family proteins depends on amino acids within the BH3 binding groove of the antiapoptotic family member and, at least in part, on heterodimerization with Bax [<xref rid="ppat-0010010-b60" ref-type="bibr">60</xref>&#x02013;<xref rid="ppat-0010010-b63" ref-type="bibr">63</xref>].</p><p>The &#x003b3;HV68 v-Bcl-2 inhibited Bax-mediated death as effectively as Bcl-2 (<xref ref-type="fig" rid="ppat-0010010-g004">Figure 4</xref>B). No inhibition of Bax-mediated death was observed in empty vector control transformations (unpublished data). Because structural data suggested the importance of the v-Bcl-2 Arg87, we tested the effect of mutating Arg87 and two adjacent residues (i.e., Ser85-Gly86-Arg87; in magenta in <xref ref-type="fig" rid="ppat-0010010-g004">Figure 4</xref>A) to alanine (hereafter termed SGR/AAA) on the capacity of the v-Bcl-2 to inhibit Bax-mediated death. Mutations in this region have been shown to alter the antiapoptotic activity of both host and other viral Bcl-2 proteins [<xref rid="ppat-0010010-b03" ref-type="bibr">3</xref>,<xref rid="ppat-0010010-b04" ref-type="bibr">4</xref>,<xref rid="ppat-0010010-b07" ref-type="bibr">7</xref>,<xref rid="ppat-0010010-b27" ref-type="bibr">27</xref>]. We mutated all three amino acids based on preliminary studies demonstrating partial effects of single mutations in this region (unpublished data). The SGR/AAA mutation abrogated &#x003b3;HV68 v-Bcl-2 inhibition of Bax-mediated toxicity in yeast despite equivalent expression levels of wild-type and SGR/AAA mutant v-Bcl-2 protein (<xref ref-type="fig" rid="ppat-0010010-g004">Figure 4</xref>B). Moreover, SGR/AAA mutant &#x003b3;HV68 v-Bcl-2 bound Bax peptide at least 1500-fold less well than wild-type &#x003b3;HV68 v-Bcl-2, as measured by NMR (K<sub>d</sub> of greater than 300 &#x003bc;M compared to less than 5 &#x003bc;M for wild-type &#x003b3;HV68 v-Bcl-2). Analogous mutations in Bcl-2 and Bcl-x<sub>L</sub> similarly abrogate antiapoptotic activity and binding to proapoptotic proteins [<xref rid="ppat-0010010-b64" ref-type="bibr">64</xref>,<xref rid="ppat-0010010-b65" ref-type="bibr">65</xref>]. Importantly, a comparison of the <sup>15</sup>N- heteronuclear single-quantum coherence (HSQC) spectra of wild-type and SGR/AAA mutant &#x003b3;HV68 v-Bcl-2 confirmed that SGR/AAA mutant v-Bcl-2 retains the overall fold of wild-type v-Bcl-2 (<xref ref-type="fig" rid="ppat-0010010-g004">Figure 4</xref>C), indicating that functional defects in SGR/AAA mutant &#x003b3;HV68 v-Bcl-2 are attributable specifically to alterations in the BH3 binding groove rather than to misfolding of the mutant protein. Thus, residues that lie in the &#x003b3;HV68 v-Bcl-2 BH3-binding groove were essential for both binding of Bax BH3 peptide and for inhibition of Bax-mediated toxicity in yeast.</p></sec><sec id="s2f"><title>A Functional BH3 Binding Groove Is Essential for Efficient Reactivation of &#x003b3;HV68 from Latency and for Persistent &#x003b3;HV68 Replication</title><p>The conservation of the structure and function of the &#x003b3;HV68 v-Bcl-2 BH3 binding groove led us to hypothesize that this groove, and the conserved Arg87 required for interaction with BH3 peptides from proapoptotic Bcl-2 proteins and for inhibition of Bax toxicity in yeast, would be essential for the function of the v-Bcl-2 in vivo during &#x003b3;HV68 infection. To test this hypothesis, we compared the phenotypes of wild-type &#x003b3;HV68 virus, a &#x003b3;HV68 virus lacking the entire v-Bcl-2 due to a null mutation in the <italic>M11</italic> gene encoding v-Bcl-2 (&#x00394;v-Bcl-2) [<xref rid="ppat-0010010-b36" ref-type="bibr">36</xref>], and &#x003b3;HV68 viruses expressing the SGR/AAA mutant form of the v-Bcl-2.</p><p>We generated two independent isolates of &#x003b3;HV68 containing the SGR/AAA mutation in the <italic>M11</italic> gene (SGR/AAA.1 and SGR/AAA.2; <xref ref-type="fig" rid="ppat-0010010-g005">Figure 5</xref>A and <xref ref-type="fig" rid="ppat-0010010-g005">5</xref>B). SGR/AAA v-Bcl-2 mutant viruses displayed normal growth in fibroblast cells in vitro (<xref ref-type="fig" rid="ppat-0010010-g005">Figure 5</xref>C), and replicated normally in the spleen (<xref ref-type="fig" rid="ppat-0010010-g005">Figure 5</xref>D) and liver (unpublished data) of infected mice at 4 and 9 d post-infection (dpi). These results were expected, because the &#x00394;v-Bcl-2 &#x003b3;HV68 mutant virus, which lacks v-Bcl-2 expression, also exhibits completely normal replication during acute infection [<xref rid="ppat-0010010-b36" ref-type="bibr">36</xref>]. Together, these data indicate that the v-Bcl-2 does not have an essential function during &#x003b3;HV68 acute infection. The use of two independently generated mutants to analyze the phenotype attributable to the SGR/AAA mutation is an accepted standard in the field [<xref rid="ppat-0010010-b36" ref-type="bibr">36</xref>,<xref rid="ppat-0010010-b66" ref-type="bibr">66</xref>&#x02013;<xref rid="ppat-0010010-b68" ref-type="bibr">68</xref>]. The equivalent phenotypes of SGR/AAA.1 and SGR/AAA.2 in multiple assays argues against the possibility that these phenotypes are due to chance mutations elsewhere in the viral genome.</p><fig id="ppat-0010010-g005" position="float"><label>Figure 5</label><caption><title>SGR/AAA Mutant Viruses Replicate Normally In Vitro and In Vivo</title><p>(A) Shown are schematic illustrations of the genomes of &#x003b3;HV68, v-cyclin.LacZ, and SGR/AAA mutant viruses with the engineered PstI site underlined, and v-Bcl-2 containing the SGR/AAA mutation.</p><p>(B) Southern blot of &#x003b3;HV68, v-cyclin.LacZ, and SGR/AAA mutant viruses. Expected bands (kb) for PstI/BamHI digest: &#x003b3;HV68, 1.5, 1.3, and 1.2; v-cyclin.LacZ, 1.3, 1.2, 1.1, and 0.05; and SGR/AAA, 1.5, 1.2, 0.8, and 0.6. Expected bands (kb) for PstI/HindIII digest: &#x003b3;HV68, 7.5, 1.2, 0.9, and 0.4; v-cyclin.LacZ, 7.1, 4.3, 1.2, 0.9, 0.4, and 0.07; and SGR/AAA, 7.5, 1.2, 0.6, 0.39, and 0.36.</p><p>(C) Multistep growth curves of SGR/AAA mutants and &#x003b3;HV68.</p><p>(D) Acute splenic titers at 4 or 9 dpi from mice infected with SGR/AAA mutants.</p></caption><graphic xlink:href="ppat.0010010.g005"/></fig><p>As the &#x00394;v-Bcl-2 mutant &#x003b3;HV68 virus has defects in reactivation from latency and in persistent replication [<xref rid="ppat-0010010-b36" ref-type="bibr">36</xref>], we tested the effects of the SGR/AAA v-Bcl-2 mutation on chronic &#x003b3;HV68 infection of IFN&#x003b3;<sup>&#x02212;/&#x02212;</sup> mice. IFN&#x003b3;<sup>&#x02212;/&#x02212;</sup> mice clear acute &#x003b3;HV68 infection normally [<xref rid="ppat-0010010-b42" ref-type="bibr">42</xref>,<xref rid="ppat-0010010-b69" ref-type="bibr">69</xref>], but exhibit increases in persistent replication and in the efficiency with which latently infected cells reactivate virus ex vivo [<xref rid="ppat-0010010-b36" ref-type="bibr">36</xref>,<xref rid="ppat-0010010-b42" ref-type="bibr">42</xref>]. Both &#x00394;v-Bcl-2 and SGR/AAA mutant &#x003b3;HV68 viruses exhibited small but statistically significant decreases in the frequency of cells that reactivate from viral latency ex vivo compared to wild-type &#x003b3;HV68 (<xref ref-type="fig" rid="ppat-0010010-g006">Figure 6</xref>, <xref ref-type="table" rid="ppat-0010010-t001">Table 1</xref>). Furthermore, SGR/AAA mutant &#x003b3;HV68 viruses, like the &#x00394;v-Bcl-2 mutant &#x003b3;HV68 virus, showed no persistent replication at 42 dpi (<xref ref-type="fig" rid="ppat-0010010-g006">Figure 6</xref>B, <xref ref-type="table" rid="ppat-0010010-t001">Table 1</xref>). The effect of the SGR/AAA v-Bcl-2 mutation on persistent &#x003b3;HV68 virus replication was significant, but less than the effect of a null mutation in the gene at 16 dpi. This partial phenotype was not due to reversion of the mutation in vivo, since 20 individual SGR/AAA mutant &#x003b3;HV68 viruses present in these mice were confirmed to have the mutation by nucleotide sequencing (unpublished data). Together, these data demonstrate that amino acids that are critical for the capacity of &#x003b3;HV68 v-Bcl-2 to bind BH3 peptides via the BH3 binding groove are essential for optimal reactivation from latency and for the capacity to persistently replicate in tissues at a low level after acute viral infection is contained by the immune response.</p><fig id="ppat-0010010-g006" position="float"><label>Figure 6</label><caption><title>SGR/AAA Mutant Viruses Exhibit Defects in Chronic Infection In Vivo</title><p>Ex vivo reactivation (A) and persistent replication (B) of &#x003b3;HV68, &#x00394;v-Bcl-2, or SGR/AAA mutant viruses at 16 or 42 dpi of IFN&#x003b3;<sup>&#x02212;/&#x02212;</sup> mice. No significant differences were observed between the two independent isolates of SGR/AAA mutants, and data from these two groups were pooled.</p></caption><graphic xlink:href="ppat.0010010.g006"/></fig><table-wrap id="ppat-0010010-t001" content-type="1col" position="float"><label>Table 1</label><caption><p>Summary of Chronic Infection Results</p></caption><graphic xlink:href="ppat.0010010.t001"/></table-wrap></sec></sec><sec id="s3"><title>Discussion</title><p>In this study, we combined structural and biochemical approaches to identify a BH3 peptide binding groove on the surface of the &#x003b3;HV68 v-Bcl-2 protein and amino acids within this groove that are essential for the capacity of the v-Bcl-2 to bind BH3 peptides. These same amino acids are essential for the capacity of the &#x003b3;HV68 v-Bcl-2 to block cell death in yeast induced by expression of the proapoptotic Bcl-2 family protein Bax, and for the contribution of the v-Bcl-2 to two fundamentally important aspects of &#x003b3;HV68 pathogenesis: reactivation from viral latency and persistent replication. Together, these data show that this domain of the v-Bcl-2 is essential for function in vivo, and support the concept that the &#x003b3;HV68 v-Bcl-2 functions in vivo by binding BH3 domains of antiapoptotic Bcl-2 family members.</p><sec id="s3a"><title>Presence of a Functional BH3 Binding Groove on &#x003b3;HV68 v-Bcl-2</title><p>We found that the &#x003b3;HV68 v-Bcl-2 shares with Bcl-2, Bcl-x<sub>L</sub>, and the KSHV v-Bcl-2 a BH3 binding groove [<xref rid="ppat-0010010-b09" ref-type="bibr">9</xref>]. Each of these proteins interacts with BH3 peptides from Bak and Bax, but the viral proteins differ from the host proteins in their inability to bind the Bad BH3 peptide [<xref rid="ppat-0010010-b02" ref-type="bibr">2</xref>,<xref rid="ppat-0010010-b09" ref-type="bibr">9</xref>]. Interestingly, the preference for Bak and Bax peptides over BH3 peptides from other proapoptotic family members is also seen for the adenovirus v-Bcl-2 [<xref rid="ppat-0010010-b07" ref-type="bibr">7</xref>].</p><p>These differences in BH3 peptide specificity between viral and host proteins have implications for how v-Bcl-2 proteins inhibit apoptosis. Some models of antiapoptotic Bcl-2 family protein function require that they heterodimerize with BH3-only proteins such as Bad in order to sequester these proapoptotic molecules away from Bak and Bax [<xref rid="ppat-0010010-b03" ref-type="bibr">3</xref>,<xref rid="ppat-0010010-b04" ref-type="bibr">4</xref>,<xref rid="ppat-0010010-b57" ref-type="bibr">57</xref>,<xref rid="ppat-0010010-b59" ref-type="bibr">59</xref>]. While we have not examined binding of BH3 peptides from BH3-only proteins other than Bad, the striking lack of binding of Bad BH3 peptide to &#x003b3;HV68 v-Bcl-2 suggests that the viral protein may not use this mechanism. Instead, these data support an alternative model that has also been proposed for cellular antiapoptotic Bcl-2 family proteins, but that is not generally accepted [<xref rid="ppat-0010010-b03" ref-type="bibr">3</xref>,<xref rid="ppat-0010010-b04" ref-type="bibr">4</xref>]. In this model, the antiapoptotic proteins directly target Bax and Bak rather than sequestering BH3-only proteins.</p><p>An interesting question is why KSHV and &#x003b3;HV68 v-Bcl-2 proteins bind the BH3 peptide from Bad with much lower affinity than is observed for Bcl-2 or Bcl-x<sub>L</sub> [<xref rid="ppat-0010010-b09" ref-type="bibr">9</xref>]. In this property, the &#x003b3;HV68 and KSHV v-Bcl-2 proteins resemble cellular Mcl-1, which also fails to bind Bad BH3 peptide and is important for development of B cells, one of the cell types in which &#x003b3;HV68 establishes latency [<xref rid="ppat-0010010-b70" ref-type="bibr">70</xref>,<xref rid="ppat-0010010-b71" ref-type="bibr">71</xref>]. One possible explanation for the lack of binding to the Bad BH3 peptide is that v-Bcl-2 binding to Bad is detrimental to the virus. Bad was recently found to be essential for assembly of a holoenzyme that regulates mitochondrial respiration, and Bad deficiency results in defects in glycolysis and in aberrant glucose homeostasis [<xref rid="ppat-0010010-b05" ref-type="bibr">5</xref>]. Thus, v-Bcl-2 proteins may bind poorly to Bad, and perhaps other BH3-only Bcl-2 family proteins, to avoid interfering with functions of BH3 domain containing proteins in cellular processes other than induction of apoptosis. This would be important for a virus, such as &#x003b3;HV68, that expresses the v-Bcl-2 in latently infected cells [<xref rid="ppat-0010010-b40" ref-type="bibr">40</xref>], and would presumably benefit by not having v-Bcl-2 interfere with cellular processes essential for cell viability.</p></sec><sec id="s3b"><title>&#x003b3;HV68 v-Bcl-2 Inhibits Apoptosis Induced by a Wide Array of Proapoptotic Stimuli</title><p>&#x003b3;-herpesviruses maintain latent infection in lymphocytes for the life of the host, and must survive in the face of the immune response that effectively clears acute infection. These viruses then reactivate from latency and productively infect cells, yielding low levels of infectious virus in tissues, a process we refer to as persistent replication. It seems reasonable to speculate that latently infected cells may be exposed to multiple different proapoptotic stimuli over time. Furthermore, during the process of reactivation and persistent replication, infected cells are likely subjected to immune attack by lymphocytes that use proapoptotic cytokines or granule contents to kill infected cells. It is therefore not surprising that a protein such as the &#x003b3;HV68 v-Bcl-2, which is important during chronic infection, has the capacity to inhibit cell death induced by a wide variety of different stimuli, including antigen receptor crosslinking, corticosteroids, and &#x003b3;-irradiation. In addition to the studies presented here, observations in cultured cells show that the &#x003b3;HV68 v-Bcl-2 inhibits apoptosis induced by TNF&#x003b1;, Fas, and Sindbis virus infection [<xref rid="ppat-0010010-b37" ref-type="bibr">37</xref>&#x02013;<xref rid="ppat-0010010-b39" ref-type="bibr">39</xref>]. While it is possible that the &#x003b3;HV68 v-Bcl-2 utilizes different mechanisms to inhibit each of these death induction pathways, it is more reasonable to conclude that the viral protein inhibits a step in the death execution pathway common to all of these stimuli. In this regard, the capacity of the &#x003b3;HV68 v-Bcl-2 to bind BH3 peptides from Bax and Bak and to inhibit Bax-induced cell death in yeast is of particular interest. Bax and Bak are essential for induction of apoptosis through multiple pathways, and function therefore as a common gateway to the downstream steps in cell death execution [<xref rid="ppat-0010010-b57" ref-type="bibr">57</xref>&#x02013;<xref rid="ppat-0010010-b59" ref-type="bibr">59</xref>]. Targeting these proteins would therefore have the advantage of protecting the infected cell from diverse proapoptotic insults.</p><p>Targeting Bax and Bak may be a common strategy for many viruses, since Bax and Bak are required for apoptosis during adenovirus infection, and the adenovirus v-Bcl-2 E1B 19K targets Bak and Bax for antiapoptotic function in cultured cells [<xref rid="ppat-0010010-b07" ref-type="bibr">7</xref>,<xref rid="ppat-0010010-b72" ref-type="bibr">72</xref>,<xref rid="ppat-0010010-b73" ref-type="bibr">73</xref>]. Furthermore, we believe that this is likely a general mechanism, since a role for BH1-domain amino acids in binding BH3 peptides has also been demonstrated for the adenovirus v-Bcl-2 and the African swine fever virus v-Bcl-2 family protein A179L [<xref rid="ppat-0010010-b07" ref-type="bibr">7</xref>]. Given the overall poor amino acid homology between viral Bcl-2 proteins and cellular Bcl-2 family members, the conservation of a mechanism for BH3 peptide binding between cellular and viral Bcl-2 family proteins strongly supports the hypothesis that this property of the v-Bcl-2 is important for function. This concept is supported by data provided here demonstrating the essential role of this domain in the function of the &#x003b3;HV68 v-Bcl-2 in vivo.</p></sec><sec id="s3c"><title>Is the Critical In Vivo Role of Amino Acids in the BH3 Binding Groove Explained by v-Bcl-2 Binding to Proapoptotic Bcl-2 Family Proteins?</title><p>We found that amino acids in the BH3 binding groove of the &#x003b3;HV68 v-Bcl-2 are essential for in vivo function of the v-Bcl-2 protein. The major known function of the BH3 binding groove is interaction with BH3 domains of proapoptotic Bcl-2 family proteins, providing the basis for our conclusion that our data are consistent with a role for this biochemical function of v-Bcl-2 during chronic infection. However, there are other potential explanations for our results. It is possible that binding of BH3 domains is important for function, but that binding Bcl-2 family members is not. For example, non-Bcl-2 family proteins can contain BH3-like domains [<xref rid="ppat-0010010-b16" ref-type="bibr">16</xref>,<xref rid="ppat-0010010-b17" ref-type="bibr">17</xref>], and it is possible that the &#x003b3;HV68 Bcl-2 functions by binding to these proteins rather than to Bcl-2 family proteins.</p><p>Alternatively, the portion of the BH3 peptide binding groove that we mutated in the studies presented here might interact with other proteins that do not contain BH3 domains. Support for this possibility comes from the structure of the EBV v-Bcl-2 BHRF1, which is antiapoptotic but does not have an intact BH3 binding groove and does not measurably bind BH3 peptides [<xref rid="ppat-0010010-b10" ref-type="bibr">10</xref>]. It is possible that this v-Bcl-2, which lacks a BH3 binding groove, inhibits apoptosis by a mechanism distinct from that used by the &#x003b3;HV68 and KSHV v-Bcl-2 proteins, both of which have functional BH3 binding grooves. For example, the EBV v-Bcl-2 might inhibit apoptosis via interactions with other proteins such as Aven, Apaf-1, Btf, Beclin1, Raf-1, calcineurin, tissue transglutaminase, FAST, or p53 [<xref rid="ppat-0010010-b06" ref-type="bibr">6</xref>,<xref rid="ppat-0010010-b16" ref-type="bibr">16</xref>&#x02013;<xref rid="ppat-0010010-b26" ref-type="bibr">26</xref>], all of which have been shown or suggested to to interact with host antiapoptotic Bcl-2 family members. Perhaps a capacity to interact with one or more of these proteins despite the SGR/AAA mutation explains the partial phenotype of the SGR/AAA mutant &#x003b3;HV68 viruses in persistent replication observed 16 dpi. It will be interesting to compare the antiapoptotic mechanisms of the &#x003b3;HV68 and KSHV v-Bcl-2 proteins with that of BHRF1 in order to determine whether interaction with proteins that do not contain BH3 is important for v-Bcl-2 function.</p></sec><sec id="s3d"><title>Differences between Host and Viral Antiapoptotic Proteins</title><p>While &#x003b3;HV68 v-Bcl-2 shares an overall fold with its host counterparts, there are differences between the &#x003b3;HV68 v-Bcl-2 and host Bcl-2 family members, most notably the absence of a long loop between &#x003b1;1 and &#x003b1;2 [<xref rid="ppat-0010010-b02" ref-type="bibr">2</xref>]. Interestingly, the KSHV and EBV v-Bcl-2 proteins also lack this loop [<xref rid="ppat-0010010-b09" ref-type="bibr">9</xref>,<xref rid="ppat-0010010-b10" ref-type="bibr">10</xref>]. In cellular Bcl-2 family proteins, this loop contains sites for caspase cleavage and regulatory phosphorylation [<xref rid="ppat-0010010-b01" ref-type="bibr">1</xref>,<xref rid="ppat-0010010-b02" ref-type="bibr">2</xref>,<xref rid="ppat-0010010-b54" ref-type="bibr">54</xref>], and a portion of the loop has been predicted to be involved in p53 binding [<xref rid="ppat-0010010-b19" ref-type="bibr">19</xref>].</p><p>In contrast to host Bcl-2 family proteins [<xref rid="ppat-0010010-b54" ref-type="bibr">54</xref>,<xref rid="ppat-0010010-b74" ref-type="bibr">74</xref>], the KSHV and EBV v-Bcl-2 proteins are resistant to caspase cleavage [<xref rid="ppat-0010010-b27" ref-type="bibr">27</xref>,<xref rid="ppat-0010010-b37" ref-type="bibr">37</xref>], a process that generates proapoptotic products. Although &#x003b3;HV68 v-Bcl-2 also has a shortened &#x003b1;1/&#x003b1;2 loop, it does contain a caspase cleavage site (LDCV; see <xref ref-type="fig" rid="ppat-0010010-g003">Figure 3</xref>D) and can be cleaved by caspases [<xref rid="ppat-0010010-b37" ref-type="bibr">37</xref>]. However, the predicted cleavage product does not have proapoptotic activity [<xref rid="ppat-0010010-b37" ref-type="bibr">37</xref>]. The absence of the &#x003b1;1/&#x003b1;2 loop in KSHV v-Bcl-2 also confers resistance to regulatory phosphorylation by the KSHV v-cyclin-CDK6 complex, which inactivates Bcl-2 [<xref rid="ppat-0010010-b75" ref-type="bibr">75</xref>,<xref rid="ppat-0010010-b76" ref-type="bibr">76</xref>]. Based on its structure, the &#x003b3;HV68 v-Bcl-2 is also expected to be refractory to regulatory phosphorylation. Thus, our structural analysis of the &#x003b3;HV68 v-Bcl-2 provides additional evidence that v-Bcl-2 proteins have evolved strategies to protect themselves from host cell regulatory mechanisms. The lack of an intact &#x003b1;1/&#x003b1;2 loop in v-Bcl-2 proteins decreases their susceptibility to inactivation via caspase cleavage or phosphorylation, an evolutionary strategy that we and others [<xref rid="ppat-0010010-b02" ref-type="bibr">2</xref>,<xref rid="ppat-0010010-b06" ref-type="bibr">6</xref>,<xref rid="ppat-0010010-b07" ref-type="bibr">7</xref>] speculate provides an advantage for the viruses by removing the antiapoptotic function of viral Bcl-2 family proteins from host cell control.</p></sec><sec id="s3e"><title>Implications for Control of Chronic &#x003b3;-Herpesvirus Infection</title><p>Most of the disease burden of human &#x003b3;-herpesvirus infection occurs during chronic infection. Studies here demonstrating that amino acids in the BH3 binding groove of the v-Bcl-2 are essential for chronic viral infection raise the possibility that pharmacologic inhibition of v-Bcl-2 BH3 binding groove function might inhibit chronic infection. There may be sufficient differences between viral and host proteins' BH3 binding grooves to allow specific targeting of v-Bcl-2 proteins. Therefore, v-Bcl-2 proteins may provide a suitable therapeutic target for preventing or ameliorating &#x003b3;-herpesvirus disease.</p></sec></sec><sec id="s4"><title>Materials and Methods</title><sec id="s4a"><title>Animals.</title><p>Mice were housed and bred in a specific pathogen-free environment at Washington University School of Medicine in accordance with all federal and university policies. v-Bcl-2 transgenic mice were generated as previously described [<xref rid="ppat-0010010-b77" ref-type="bibr">77</xref>]. Briefly, the v-Bcl-2 ORF (genome coordinates 103418&#x02013;103930 bp) was PCR-amplified and ligated into the BamHI site of the p1017 vector containing the hGH enhancer and the <italic>lck</italic> proximal promoter [<xref rid="ppat-0010010-b78" ref-type="bibr">78</xref>,<xref rid="ppat-0010010-b79" ref-type="bibr">79</xref>]. The construct was confirmed by DNA sequencing, and the DNA fragment used for microinjection was isolated by SpeI restriction digest followed by gel purification. B6 embryo manipulations were performed as previously described [<xref rid="ppat-0010010-b77" ref-type="bibr">77</xref>]. Transgene-positive F<sub>1</sub> mice were identified by PCR and confirmed by Southern blot (unpublished data). Mice were maintained as heterozygotes on the B6 background and were genotyped by PCR using primers specific for the hGH enhancer within the transgene construct [<xref rid="ppat-0010010-b77" ref-type="bibr">77</xref>]. Nontransgenic littermates were used as negative controls for v-Bcl-2 transgenic mice. IFN&#x003b3;<sup>&#x02212;/&#x02212;</sup> mice on the B6 background were obtained from Jackson Laboratories (Bar Harbor, Maine, United States) and bred at Washington University. B6 mice were purchased from Jackson Laboratories. All studies were performed using age- and sex-matched mice between 8 and 12 wk of age.</p></sec><sec id="s4b"><title>Quantitative RT-PCR.</title><p>Thymi and spleens from euthanized mice were disrupted over a 100 &#x003bc;m Nytex filter to generate single-cell suspensions. Total RNA was prepared from dissociated cells, and 2 &#x003bc;g was used in reverse transcription reactions to generate cDNA template for quantitative real-time PCR. Six replicate reactions of real-time PCR were performed per sample using a BioRad iCycler (BioRad, Hercules, California, United States) [<xref rid="ppat-0010010-b80" ref-type="bibr">80</xref>]. v-Bcl-2 specific primers were 5&#x02032;-TAACATTGACCCAGGAGTTTAG-3&#x02032; and 5&#x02032;-CGAGGTGAAAAGTTTGGAC-3&#x02032;, and control reactions utilized primers specific for 18S RNA. No positive signal was detected in RNA samples to which reverse transcriptase was not added (unpublished data). Three transgene-positive mice from each founder line were analyzed, and nontransgenic samples consisted of one transgene-negative mouse from each founder line. v-Bcl-2 message copy number was calculated from a standard curve generated using 10<sup>1</sup> to 10<sup>5</sup> copies of a plasmid containing v-Bcl-2, and was normalized to 18S RNA levels.</p></sec><sec id="s4c"><title>Flow cytometry.</title><p>Dissociated thymocytes were pre-incubated with anti-CD32/CD16 antibodies (Caltag Laboratories, Burlingame, California, United States; &#x00023;MM7400) and stained with FITC-conjugated anti-CD4 (Pharmingen, San Diego, California, United States; &#x00023;09424A) and tricolor-conjugated anti-CD8&#x003b1; (Caltag, &#x00023;RM2206) antibodies. Cells were washed, fixed, and analyzed on a FACS Calibur. Data were analyzed using CellQuest (Becton Dickinson, Palo Alto, California, United States) and represent the mean &#x000b1; SEM from at least two independent experiments. Statistical significance was determined using the Mann-Whitney test.</p></sec><sec id="s4d"><title>Bax toxicity in yeast.</title><p>Yeast strain W303 was a generous gift from S. Zheng. Murine Bax and Bcl-2 clones were generous gifts from S. Korsmeyer. Bax was cloned into p425 GPD (ATCC, Manassas, Virginia, United States; &#x00023;87359) and Bcl-2 was cloned into p426 GPD (ATCC &#x00023;87361). SGR/AAA mutant v-Bcl-2 was generated using the ExSite PCR-Based Site-Directed Mutagenesis Kit (Stratagene, La Jolla, California, United States). Wild-type and SGR/AAA v-Bcl-2 were amino-terminal HA-tagged and cloned into p426 GPD. All constructs were verified by DNA sequencing, and 1 &#x003bc;g of each construct was used to transform yeast using the lithium acetate method. The number of colonies were counted 3 d following plating on selection media and is expressed as a percentage of that for a control transformation with p425 GPD and p426 GPD empty vectors. Transformations of yeast with each single construct resulted in growth only on the appropriate selection media (unpublished data). Data represent the mean &#x000b1; SEM from four independent experiments, and statistical significance was determined using the Mann-Whitney test. For Western blots, total protein from transformed yeast was prepared using Y-PER Yeast Protein Extraction Reagent (Pierce Biotechnology, Rockford, Illinois, United States), resolved on an SDS-PAGE gel, and detected with an anti-HA antibody (Covance, Princeton, New Jersey, United States; &#x00023;MMS-101P).</p></sec><sec id="s4e"><title>Cell culture and viruses.</title><p>NIH 3T12 cells and MEFs were cultured in DMEM containing 10&#x00025; fetal calf serum (D10). SGR/AAA mutant viruses were generated by homologous recombination as previously described [<xref rid="ppat-0010010-b36" ref-type="bibr">36</xref>]. Briefly, a targeting construct was generated by replacing wild-type v-Bcl-2 sequence with that for the SGR/AAA mutant in pL3700, which contains a 3,723-bp BamHI/BsrGI fragment of the &#x003b3;HV68 genome (genome coordinates 101,654&#x02013;105,377 bp). The mutation generates a new PstI restriction site, which was used to distinguish wild-type from SGR/AAA viruses by Southern blot. The targeting construct was verified by DNA sequencing and cotransfected into 3T12 cells with viral DNA from v-cyclin.LacZ, which contains a LacZ expression cassette inserted into the adjacent v-cyclin ORF [<xref rid="ppat-0010010-b81" ref-type="bibr">81</xref>]. Recombinant &#x0201c;white&#x0201d; viruses were isolated following X-Gal staining and screened by Southern blot for the SGR/AAA mutation in v-Bcl-2. Two independent isolates were generated from separate cotransfections, and each isolate was subjected to three rounds of plaque purification. Fifteen individual plaques from each isolate were genotyped by Southern blot to confirm the absence of contamination with either wild-type or parental v-cyclin.LacZ viruses (unpublished data), and one of the tested plaques was used to generate virus stocks of each isolate. &#x003b3;HV68 clone WUMS (ATCC VR1465), &#x00394;v-Bcl-2 [<xref rid="ppat-0010010-b36" ref-type="bibr">36</xref>], and SGR/AAA mutants were subcultured and titered by plaque assay on 3T12 cells as previously described [<xref rid="ppat-0010010-b82" ref-type="bibr">82</xref>]. For in vitro multistep growth curves, 3T12 cells were infected at a MOI of 0.05. Samples were harvested at various time points postinfection, subjected to three freeze-thaw cycles, mechanically disrupted with 1 mm silica beads, and titered by plaque assay [<xref rid="ppat-0010010-b36" ref-type="bibr">36</xref>].</p></sec><sec id="s4f"><title>In vivo infection.</title><p>Mice were intraperitoneally injected with 10<sup>6</sup> PFU of virus in 0.5 ml of D10. For acute titers, half a spleen and half a lobe of liver per mouse were mechanically disrupted with 1 mm silica beads and titered by plaque assay [<xref rid="ppat-0010010-b81" ref-type="bibr">81</xref>]. Data represent the mean &#x000b1; SEM from at least two independent experiments, and statistical significance was determined using the Mann-Whitney test. For ex vivo reactivation, peritoneal cells pooled from 3&#x02013;5 mice per experimental group were plated in serial 2-fold dilutions onto MEF monolayers, which were assessed for cytopathic effect caused by reactivated virus after 21 d. Persistent replication was analyzed by quantitating preformed infectious virus in mechanically disrupted cells, which cannot reactivate virus [<xref rid="ppat-0010010-b83" ref-type="bibr">83</xref>]. Data represent the mean &#x000b1; SEM from at least three independent experiments, and were analyzed by nonlinear regression using GraphPad Prism (GraphPad Software, San Diego, California, United States). The frequency of cells that reactivated virus ex vivo was determined by calculating the cell density at which 63.2&#x00025; of wells were positive for cytopathic effect. Statistical significance was determined using a paired t-test.</p></sec><sec id="s4g"><title>v-Bcl-2 expression and purification.</title><p>Wild-type and SGR/AAA v-Bcl-2 used in NMR studies were expressed in <italic>E. coli</italic> BL21(DE3) strain grown on M9 media. For wild-type v-Bcl-2, uniformly <sup>15</sup>N-labeled, uniformly <sup>15</sup>N,<sup>13</sup>C-labeled, and uniformly <sup>15</sup>N,<sup>13</sup>C-labeled, 75&#x00025; <sup>2</sup>H samples were prepared with media containing either <sup>15</sup>NH<sub>4</sub>Cl, <sup>15</sup>NH<sub>4</sub>Cl plus [U-<sup>13</sup>C]glucose or <sup>15</sup>NH<sub>4</sub>Cl, [U-<sup>13</sup>C]glucose, and 75&#x00025; <sup>2</sup>H<sub>2</sub>O, respectively. For SGR/AAA v-Bcl-2, a <sup>15</sup>N-labeled sample was prepared with media containing <sup>15</sup>NH<sub>4</sub>Cl as the sole nitrogen source. Soluble protein was purified by Ni<sup>2&#x0002b;</sup>-affinity chromatography. NMR samples contained 0.5&#x02013;1.0 mM protein in either 90&#x00025; H<sub>2</sub>O with 10&#x00025; <sup>2</sup>H<sub>2</sub>O or 100&#x00025; <sup>2</sup>H<sub>2</sub>O, 20 mM <sup>2</sup>H-TRIS (pH 7.8), and 5 mM <sup>2</sup>H-dithiothreitol.</p></sec><sec id="s4h"><title>NMR spectroscopy.</title><p>All NMR experiments were acquired at 303 K on a Bruker DRX500, DRX600 or DRX800 NMR spectrometer. Backbone <sup>1</sup>H, <sup>13</sup>C, and <sup>15</sup>N resonance assignments were achieved with (<sup>15</sup>N,<sup>13</sup>C,[75&#x00025;]<sup>2</sup>H) &#x003b3;HV68 v-Bcl-2 using a suite of deuterium-decoupled, triple-resonance experiments (HNCA, HN[CO]CA, HN[CA]CB, HN[COCA]CB, HNCO and HN[CA]C) [<xref rid="ppat-0010010-b84" ref-type="bibr">84</xref>,<xref rid="ppat-0010010-b85" ref-type="bibr">85</xref>]. Side-chain <sup>1</sup>H and <sup>13</sup>C NMR signals were assigned from HCCH-TOCSY experiments [<xref rid="ppat-0010010-b86" ref-type="bibr">86</xref>]. Stereospecific assignments of valine and leucine methyl groups were obtained from an analysis of the <sup>13</sup>C-<sup>13</sup>C coupling patterns observed for biosynthetically directed, fractionally <sup>13</sup>C-labeled &#x003b3;HV68 v-Bcl-2 [<xref rid="ppat-0010010-b87" ref-type="bibr">87</xref>]. NOE distance restraints were obtained from three-dimensional <sup>15</sup>N- and <sup>13</sup>C-edited NOESY spectra [<xref rid="ppat-0010010-b88" ref-type="bibr">88</xref>,<xref rid="ppat-0010010-b89" ref-type="bibr">89</xref>] acquired with a mixing time of 80 ms. Slowly exchanging amide protons were identified in an <sup>15</sup>N-HSQC spectrum recorded immediately after exchanging the protein into a buffer prepared with <sup>2</sup>H<sub>2</sub>O.</p></sec><sec id="s4i"><title>Structure calculations.</title><p>v-Bcl-2 structures were calculated using a simulated annealing protocol [<xref rid="ppat-0010010-b90" ref-type="bibr">90</xref>] with the program CNX (MSI, San Diego, California, United States). A square-well potential (F<sub>NOE</sub> = 50 kcal mol<sup>&#x02212;1</sup>) was employed to constrain NOE-derived distances. Based on cross-peak intensities, NOE-derived distance restraints were given upper bounds of 3.5, 4.5, or 6.0 H. In the refinement stage, additional ambiguous constraints were added, with an upper bound of 6.0 H, for unassigned cross peaks that were consistent with the chemical shift table (i.e., error bars of 0.07 ppm for protons and 0.7 ppm for hetero atoms) and the structure. Torsion angle restraints, &#x003c6; and &#x003c8;, were generated from analysis of N, C&#x02032;, C<sup>&#x003b1;</sup>, and H<sup>&#x003b1;</sup> chemical shifts using the TALOS program [<xref rid="ppat-0010010-b91" ref-type="bibr">91</xref>]. A force constant of 200 kcal mol<sup>&#x02212;1</sup>rad<sup>&#x02212;2</sup> was applied to all torsional restraints. Explicit hydrogen bonds were included in &#x003b1;-helices only for residues observed to have slowly exchanging amide protons. The program PROCHECK was employed to analyze the geometric quality of the calculated structures in the ensemble [<xref rid="ppat-0010010-b92" ref-type="bibr">92</xref>].</p></sec><sec id="s4j"><title>Peptide binding.</title><p>Binding of the Bak 16-mer (GQVGRQLAIIGDDINR), the Bax 16-mer (KKLSECLKRIGDELDS), the Bad 25-mer (NLWAAQRYGRELRRMSDEFVSFKK), and a D83A mutant Bak 16-mer (GQVGRQLAIIGADINR) to wild-type v-Bcl-2, and binding of the Bax 16-mer to SGR/AAA v-Bcl-2 was assessed by NMR titration [<xref rid="ppat-0010010-b93" ref-type="bibr">93</xref>]. Each peptide was titrated from a concentrated stock solution into a sample of <sup>13</sup>C-labeled protein, and binding was monitored from changes in a <sup>13</sup>C methyl-HSQC spectrum [<xref rid="ppat-0010010-b93" ref-type="bibr">93</xref>]. For wild-type v-Bcl-2, <sup>13</sup>C-HSQC spectra were recorded on a uniformly <sup>13</sup>C,<sup>15</sup>N-labeled protein sample (120 &#x003bc;M) in the presence of increasing amounts of peptide (40, 80, 160, 240, and 320 &#x003bc;M). For SGR/AAA v-Bcl-2, <sup>15</sup>N-HSQC spectra were recorded on a sample of uniformly <sup>15</sup>N-labeled protein in the presence of increasing amounts of peptide.</p></sec></sec><sec sec-type="supplementary-material" id="s5"><title>Supporting Information</title><supplementary-material content-type="local-data" id="ppat-0010010-sg001"><label>Figure S1</label><caption><title>v-Bcl-2 Inhibits Cell Death in Thymocytes</title><p>Representative dot plots showing CD4 and CD8 profiles of nontransgenic or v-Bcl-2 transgenic thymocytes after no treatment or treatment with 0.3 mg of dexamethasone, 250 rads of &#x003b3;-irradiation, or 30 &#x003bc;g of anti-CD3&#x0025b; antibody.</p><p>(174 KB PDF)</p></caption><media xlink:href="ppat.0010010.sg001.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="ppat-0010010-sg002"><label>Figure S2</label><caption><title>Solution Structure of &#x003b3;HV68 v-Bcl-2</title><p>Ribbon representations of (A) &#x003b3;HV68 v-Bcl-2 and (B) Bcl-x<sub>L</sub>. Helices are numbered with respect to Bcl-x<sub>L</sub>. The BH1, BH2, BH3, and BH4 regions are colored magenta, red, green and yellow, respectively. Connolly surface for (C) &#x003b3;HV68 v-Bcl-2 and (D) Bcl-x<sub>L</sub>. The Connolly surface was calculated using a probe radius of 1.4 &#x000c5;. Residues are colored as follows: Leu, Val, Ile, Phe, Tyr, Trp, Met, and Ala are yellow; Arg, Lys, and His are blue; Asp and Glu are red; and all other residues are gray. Black arrows indicate the hydrophobic grooves present on the surfaces of Bcl-x<sub>L</sub> and &#x003b3;HV68 v-Bcl-2.</p><p>(5.3 MB PDF)</p></caption><media xlink:href="ppat.0010010.sg002.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack><p>HWV was supported by R01 CA74730 and HL60090; SHS by CA43143, CA52004, CA58524, and CA87650; JL by training grant T32 AI07163; BL by R01 AI40246, and LFV by PF-4379 from the American Cancer Society. We thank Mike White and Dr. Robert Schreiber for assistance in generating transgenic mice, Darren Kreamalmeyer for breeding of knock-out mice, Chaohong Sun and Jamey Mack for assistance in preparing proteins used in NMR studies, and the laboratories of HWV and SHS for helpful comments on this work. We thank Ute Moll for helpful comments.</p></ack><fn-group><fn id="ack1" fn-type="COI-statement"><p>
+<bold>Competing interests.</bold> The authors have declared that no competing interests exist.</p></fn><fn id="ack2" fn-type="con"><p>
+<bold>Author contributions.</bold> All authors participated in conception and design of the experiments. JL, QH, LFvD, and LL performed the experiments. All authors participated in analysis of the data. JL, QH, BL, ETO, and HWV wrote the paper.</p></fn></fn-group><glossary><title>Abbreviations</title><def-list><def-item><term>BH</term><def><p>Bcl-2 homology</p></def></def-item><def-item><term>dpi</term><def><p>days post-infection</p></def></def-item><def-item><term>EBV</term><def><p>Epstein-Barr virus</p></def></def-item><def-item><term>&#x003b3;HV68</term><def><p>murine &#x003b3;-herpesvirus 68</p></def></def-item><def-item><term>HSQC</term><def><p>heteronuclear single-quantum coherence</p></def></def-item><def-item><term>IFN&#x003b3;</term><def><p>interferon-&#x003b3;</p></def></def-item><def-item><term>KSHV</term><def><p>Kaposi's sarcoma-associated herpesvirus</p></def></def-item><def-item><term>NMR</term><def><p>nuclear magnetic resonance</p></def></def-item><def-item><term>NOE</term><def><p>nuclear Overhauser effect</p></def></def-item><def-item><term>v-Bcl-2</term><def><p>viral Bcl-2 homolog</p></def></def-item></def-list></glossary><ref-list><title>References</title><ref id="ppat-0010010-b01"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bassik</surname><given-names>MC</given-names></name><name><surname>Scorrano</surname><given-names>L</given-names></name><name><surname>Oakes</surname><given-names>SA</given-names></name><name><surname>Pozzan</surname><given-names>T</given-names></name><name><surname>Korsmeyer</surname><given-names>SJ</given-names></name></person-group>
+<year>2004</year>
+<article-title>Phosphorylation of BCL-2 regulates ER Ca<sup>2&#x0002b;</sup> homeostasis and apoptosis</article-title>
+<source>EMBO J</source>
+<volume>23</volume>
+<fpage>1207</fpage>
+<lpage>1216</lpage>
+<pub-id pub-id-type="pmid">15010700</pub-id></element-citation></ref><ref id="ppat-0010010-b02"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Petros</surname><given-names>AM</given-names></name><name><surname>Olejniczak</surname><given-names>ET</given-names></name><name><surname>Fesik</surname><given-names>SW</given-names></name></person-group>
+<year>2004</year>
+<article-title>Structural biology of the Bcl-2 family of proteins</article-title>
+<source>Biochim Biophys Acta</source>
+<volume>1644</volume>
+<fpage>83</fpage>
+<lpage>94</lpage>
+<pub-id pub-id-type="pmid">14996493</pub-id></element-citation></ref><ref id="ppat-0010010-b03"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cory</surname><given-names>S</given-names></name><name><surname>Huang</surname><given-names>DC</given-names></name><name><surname>Adams</surname><given-names>JM</given-names></name></person-group>
+<year>2003</year>
+<article-title>The Bcl-2 family: Roles in cell survival and oncogenesis</article-title>
+<source>Oncogene</source>
+<volume>22</volume>
+<fpage>8590</fpage>
+<lpage>8607</lpage>
+<pub-id pub-id-type="pmid">14634621</pub-id></element-citation></ref><ref id="ppat-0010010-b04"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Danial</surname><given-names>NN</given-names></name><name><surname>Korsmeyer</surname><given-names>SJ</given-names></name></person-group>
+<year>2004</year>
+<article-title>Cell death: Critical control points</article-title>
+<source>Cell</source>
+<volume>116</volume>
+<fpage>205</fpage>
+<lpage>219</lpage>
+<pub-id pub-id-type="pmid">14744432</pub-id></element-citation></ref><ref id="ppat-0010010-b05"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Danial</surname><given-names>NN</given-names></name><name><surname>Gramm</surname><given-names>CF</given-names></name><name><surname>Scorrano</surname><given-names>L</given-names></name><name><surname>Zhang</surname><given-names>CY</given-names></name><name><surname>Krauss</surname><given-names>S</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>BAD and glucokinase reside in a mitochondrial complex that integrates glycolysis and apoptosis</article-title>
+<source>Nature</source>
+<volume>424</volume>
+<fpage>952</fpage>
+<lpage>956</lpage>
+<pub-id pub-id-type="pmid">12931191</pub-id></element-citation></ref><ref id="ppat-0010010-b06"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hardwick</surname><given-names>JM</given-names></name><name><surname>Bellows</surname><given-names>DS</given-names></name></person-group>
+<year>2003</year>
+<article-title>Viral versus cellular BCL-2 proteins</article-title>
+<source>Cell Death Differ</source>
+<volume>10</volume>
+<fpage>S68</fpage>
+<lpage>S76</lpage>
+<pub-id pub-id-type="pmid">12655348</pub-id></element-citation></ref><ref id="ppat-0010010-b07"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cuconati</surname><given-names>A</given-names></name><name><surname>White</surname><given-names>E</given-names></name></person-group>
+<year>2002</year>
+<article-title>Viral homologs of BCL-2: Role of apoptosis in the regulation of virus infection</article-title>
+<source>Genes Dev</source>
+<volume>16</volume>
+<fpage>2465</fpage>
+<lpage>2478</lpage>
+<pub-id pub-id-type="pmid">12368257</pub-id></element-citation></ref><ref id="ppat-0010010-b08"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Letai</surname><given-names>A</given-names></name><name><surname>Bassik</surname><given-names>MC</given-names></name><name><surname>Walensky</surname><given-names>LD</given-names></name><name><surname>Sorcinelli</surname><given-names>MD</given-names></name><name><surname>Weiler</surname><given-names>S</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>Distinct BH3 domains either sensitize or activate mitochondrial apoptosis, serving as prototype cancer therapeutics</article-title>
+<source>Cancer Cell</source>
+<volume>2</volume>
+<fpage>183</fpage>
+<lpage>192</lpage>
+<pub-id pub-id-type="pmid">12242151</pub-id></element-citation></ref><ref id="ppat-0010010-b09"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Huang</surname><given-names>Q</given-names></name><name><surname>Petros</surname><given-names>AM</given-names></name><name><surname>Virgin</surname><given-names>HW</given-names></name><name><surname>Fesik</surname><given-names>SW</given-names></name><name><surname>Olejniczak</surname><given-names>ET</given-names></name></person-group>
+<year>2002</year>
+<article-title>Solution structure of a Bcl-2 homolog from Kaposi sarcoma virus</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>99</volume>
+<fpage>3428</fpage>
+<lpage>3433</lpage>
+<pub-id pub-id-type="pmid">11904405</pub-id></element-citation></ref><ref id="ppat-0010010-b10"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Huang</surname><given-names>Q</given-names></name><name><surname>Petros</surname><given-names>AM</given-names></name><name><surname>Virgin</surname><given-names>HW</given-names></name><name><surname>Fesik</surname><given-names>SW</given-names></name><name><surname>Olejniczak</surname><given-names>ET</given-names></name></person-group>
+<year>2003</year>
+<article-title>Solution structure of the BHRF1 protein from Epstein-Barr virus, a homolog of human Bcl-2</article-title>
+<source>J Mol Biol</source>
+<volume>332</volume>
+<fpage>1123</fpage>
+<lpage>1130</lpage>
+<pub-id pub-id-type="pmid">14499614</pub-id></element-citation></ref><ref id="ppat-0010010-b11"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Muchmore</surname><given-names>SW</given-names></name><name><surname>Sattler</surname><given-names>M</given-names></name><name><surname>Liang</surname><given-names>H</given-names></name><name><surname>Meadows</surname><given-names>RP</given-names></name><name><surname>Harlan</surname><given-names>JE</given-names></name><etal/></person-group>
+<year>1996</year>
+<article-title>X-ray and NMR structure of human Bcl-xL, an inhibitor of programmed cell death</article-title>
+<source>Nature</source>
+<volume>381</volume>
+<fpage>335</fpage>
+<lpage>341</lpage>
+<pub-id pub-id-type="pmid">8692274</pub-id></element-citation></ref><ref id="ppat-0010010-b12"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Petros</surname><given-names>AM</given-names></name><name><surname>Medek</surname><given-names>A</given-names></name><name><surname>Nettesheim</surname><given-names>DG</given-names></name><name><surname>Kim</surname><given-names>DH</given-names></name><name><surname>Yoon</surname><given-names>HS</given-names></name><etal/></person-group>
+<year>2001</year>
+<article-title>Solution structure of the antiapoptotic protein bcl-2</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>98</volume>
+<fpage>3012</fpage>
+<lpage>3017</lpage>
+<pub-id pub-id-type="pmid">11248023</pub-id></element-citation></ref><ref id="ppat-0010010-b13"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sattler</surname><given-names>M</given-names></name><name><surname>Liang</surname><given-names>H</given-names></name><name><surname>Nettesheim</surname><given-names>D</given-names></name><name><surname>Meadows</surname><given-names>RP</given-names></name><name><surname>Harlan</surname><given-names>JE</given-names></name><etal/></person-group>
+<year>1997</year>
+<article-title>Structure of Bcl-xL-Bak peptide complex: Recognition between regulators of apoptosis</article-title>
+<source>Science</source>
+<volume>275</volume>
+<fpage>983</fpage>
+<lpage>986</lpage>
+<pub-id pub-id-type="pmid">9020082</pub-id></element-citation></ref><ref id="ppat-0010010-b14"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Parrish</surname><given-names>J</given-names></name><name><surname>Metters</surname><given-names>H</given-names></name><name><surname>Chen</surname><given-names>L</given-names></name><name><surname>Xue</surname><given-names>D</given-names></name></person-group>
+<year>2000</year>
+<article-title>Demonstration of the in vivo interaction of key cell death regulators by structure-based design of second-site suppressors</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>97</volume>
+<fpage>11916</fpage>
+<lpage>11921</lpage>
+<pub-id pub-id-type="pmid">11027303</pub-id></element-citation></ref><ref id="ppat-0010010-b15"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>del Peso</surname><given-names>L</given-names></name><name><surname>Gonzalez</surname><given-names>VM</given-names></name><name><surname>Inohara</surname><given-names>N</given-names></name><name><surname>Ellis</surname><given-names>RE</given-names></name><name><surname>Nunez</surname><given-names>G</given-names></name></person-group>
+<year>2000</year>
+<article-title>Disruption of the CED-9 center dot CED-4 complex by EGL-1 is a critical step for programmed cell death in <italic>Caenorhabditis elegans</italic>
+</article-title>
+<source>J Biol Chem</source>
+<volume>275</volume>
+<fpage>27205</fpage>
+<lpage>27211</lpage>
+<pub-id pub-id-type="pmid">10846174</pub-id></element-citation></ref><ref id="ppat-0010010-b16"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Li</surname><given-names>W</given-names></name><name><surname>Kedersha</surname><given-names>N</given-names></name><name><surname>Chen</surname><given-names>S</given-names></name><name><surname>Gilks</surname><given-names>N</given-names></name><name><surname>Lee</surname><given-names>G</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>FAST is a BCL-X-L-associated mitochondrial protein</article-title>
+<source>Biochem Biophys Res Commun</source>
+<volume>318</volume>
+<fpage>95</fpage>
+<lpage>102</lpage>
+<pub-id pub-id-type="pmid">15110758</pub-id></element-citation></ref><ref id="ppat-0010010-b17"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rodolfo</surname><given-names>C</given-names></name><name><surname>Mormone</surname><given-names>E</given-names></name><name><surname>Matarrese</surname><given-names>P</given-names></name><name><surname>Ciccosanti</surname><given-names>F</given-names></name><name><surname>Farrace</surname><given-names>MG</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Tissue transglutaminase is a multifunctional BH3-only protein</article-title>
+<source>J Biol Chem</source>
+<volume>279</volume>
+<fpage>54783</fpage>
+<lpage>54792</lpage>
+<pub-id pub-id-type="pmid">15485857</pub-id></element-citation></ref><ref id="ppat-0010010-b18"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kasof</surname><given-names>GM</given-names></name><name><surname>Goyal</surname><given-names>L</given-names></name><name><surname>White</surname><given-names>E</given-names></name></person-group>
+<year>1999</year>
+<article-title>Btf, a novel death-promoting transcriptional repressor that interacts with Bcl-2-related proteins</article-title>
+<source>Mol Cell Biol</source>
+<volume>19</volume>
+<fpage>4390</fpage>
+<lpage>4404</lpage>
+<pub-id pub-id-type="pmid">10330179</pub-id></element-citation></ref><ref id="ppat-0010010-b19"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mihara</surname><given-names>M</given-names></name><name><surname>Erster</surname><given-names>S</given-names></name><name><surname>Zaika</surname><given-names>A</given-names></name><name><surname>Petrenko</surname><given-names>O</given-names></name><name><surname>Chittenden</surname><given-names>T</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>p53 has a direct apoptogenic role at the mitochondria</article-title>
+<source>Mol Cell</source>
+<volume>11</volume>
+<fpage>577</fpage>
+<lpage>590</lpage>
+<pub-id pub-id-type="pmid">12667443</pub-id></element-citation></ref><ref id="ppat-0010010-b20"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wang</surname><given-names>HG</given-names></name><name><surname>Rapp</surname><given-names>UR</given-names></name><name><surname>Reed</surname><given-names>JC</given-names></name></person-group>
+<year>1996</year>
+<article-title>Bcl-2 targets the protein kinase Raf-1 to mitochondria</article-title>
+<source>Cell</source>
+<volume>87</volume>
+<fpage>629</fpage>
+<lpage>638</lpage>
+<pub-id pub-id-type="pmid">8929532</pub-id></element-citation></ref><ref id="ppat-0010010-b21"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chau</surname><given-names>BN</given-names></name><name><surname>Cheng</surname><given-names>EH</given-names></name><name><surname>Kerr</surname><given-names>DA</given-names></name><name><surname>Hardwick</surname><given-names>JM</given-names></name></person-group>
+<year>2000</year>
+<article-title>Aven, a novel inhibitor of caspase activation, binds Bcl-xL and Apaf-1</article-title>
+<source>Mol Cell</source>
+<volume>6</volume>
+<fpage>31</fpage>
+<lpage>40</lpage>
+<pub-id pub-id-type="pmid">10949025</pub-id></element-citation></ref><ref id="ppat-0010010-b22"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pan</surname><given-names>G</given-names></name><name><surname>O'Rourke</surname><given-names>K</given-names></name><name><surname>Dixit</surname><given-names>VM</given-names></name></person-group>
+<year>1998</year>
+<article-title>Caspase-9, Bcl-XL, and Apaf-1 form a ternary complex</article-title>
+<source>J Biol Chem</source>
+<volume>273</volume>
+<fpage>5841</fpage>
+<lpage>5845</lpage>
+<pub-id pub-id-type="pmid">9488720</pub-id></element-citation></ref><ref id="ppat-0010010-b23"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Shibasaki</surname><given-names>F</given-names></name><name><surname>Kondo</surname><given-names>E</given-names></name><name><surname>Akagi</surname><given-names>T</given-names></name><name><surname>McKeon</surname><given-names>F</given-names></name></person-group>
+<year>1997</year>
+<article-title>Suppression of signalling through transcription factor NF-AT by interactions between calcineurin and Bcl-2</article-title>
+<source>Nature</source>
+<volume>386</volume>
+<fpage>728</fpage>
+<lpage>731</lpage>
+<pub-id pub-id-type="pmid">9109491</pub-id></element-citation></ref><ref id="ppat-0010010-b24"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Liang</surname><given-names>XH</given-names></name><name><surname>Kleeman</surname><given-names>LK</given-names></name><name><surname>Jiang</surname><given-names>HH</given-names></name><name><surname>Gordon</surname><given-names>G</given-names></name><name><surname>Goldman</surname><given-names>JE</given-names></name><etal/></person-group>
+<year>1998</year>
+<article-title>Protection against fatal Sindbis virus encephalitis by beclin, a novel Bcl-2-interacting protein</article-title>
+<source>J Virol</source>
+<volume>72</volume>
+<fpage>8586</fpage>
+<lpage>8596</lpage>
+<pub-id pub-id-type="pmid">9765397</pub-id></element-citation></ref><ref id="ppat-0010010-b25"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Reed</surname><given-names>JC</given-names></name></person-group>
+<year>1998</year>
+<article-title>Bcl-2 family proteins</article-title>
+<source>Oncogene</source>
+<volume>17</volume>
+<fpage>3225</fpage>
+<lpage>3236</lpage>
+<pub-id pub-id-type="pmid">9916985</pub-id></element-citation></ref><ref id="ppat-0010010-b26"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hu</surname><given-names>Y</given-names></name><name><surname>Benedict</surname><given-names>MA</given-names></name><name><surname>Wu</surname><given-names>D</given-names></name><name><surname>Inohara</surname><given-names>N</given-names></name><name><surname>Nunez</surname><given-names>G</given-names></name></person-group>
+<year>1998</year>
+<article-title>Bcl-XL interacts with Apaf-1 and inhibits Apaf-1-dependent caspase-9 activation</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>95</volume>
+<fpage>4386</fpage>
+<lpage>4391</lpage>
+<pub-id pub-id-type="pmid">9539746</pub-id></element-citation></ref><ref id="ppat-0010010-b27"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Polster</surname><given-names>BM</given-names></name><name><surname>Pevsner</surname><given-names>J</given-names></name><name><surname>Hardwick</surname><given-names>JM</given-names></name></person-group>
+<year>2004</year>
+<article-title>Viral Bcl-2 homologs and their role in virus replication and associated diseases</article-title>
+<source>Biochim Biophys Acta</source>
+<volume>1644</volume>
+<fpage>211</fpage>
+<lpage>227</lpage>
+<pub-id pub-id-type="pmid">14996505</pub-id></element-citation></ref><ref id="ppat-0010010-b28"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Benedict</surname><given-names>CA</given-names></name><name><surname>Norris</surname><given-names>PS</given-names></name><name><surname>Ware</surname><given-names>CF</given-names></name></person-group>
+<year>2002</year>
+<article-title>To kill or be killed: Viral evasion of apoptosis</article-title>
+<source>Nat Immunol</source>
+<volume>3</volume>
+<fpage>1013</fpage>
+<lpage>1018</lpage>
+<pub-id pub-id-type="pmid">12407409</pub-id></element-citation></ref><ref id="ppat-0010010-b29"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sunil-Chandra</surname><given-names>NP</given-names></name><name><surname>Efstathiou</surname><given-names>S</given-names></name><name><surname>Nash</surname><given-names>AA</given-names></name></person-group>
+<year>1992</year>
+<article-title>Murine gammaherpesvirus 68 establishes a latent infection in mouse B lymphocytes in vivo</article-title>
+<source>J Gen Virol</source>
+<volume>73</volume>
+<fpage>3275</fpage>
+<lpage>3279</lpage>
+<pub-id pub-id-type="pmid">1469366</pub-id></element-citation></ref><ref id="ppat-0010010-b30"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Flano</surname><given-names>E</given-names></name><name><surname>Husain</surname><given-names>SM</given-names></name><name><surname>Sample</surname><given-names>JT</given-names></name><name><surname>Woodland</surname><given-names>DL</given-names></name><name><surname>Blackman</surname><given-names>MA</given-names></name></person-group>
+<year>2000</year>
+<article-title>Latent murine gamma-herpesvirus infection is established in activated B cells, dendritic cells, and macrophages</article-title>
+<source>J Immunol</source>
+<volume>165</volume>
+<fpage>1074</fpage>
+<lpage>1081</lpage>
+<pub-id pub-id-type="pmid">10878386</pub-id></element-citation></ref><ref id="ppat-0010010-b31"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Weck</surname><given-names>KE</given-names></name><name><surname>Kim</surname><given-names>SS</given-names></name><name><surname>Virgin</surname><given-names>HW</given-names></name><name><surname>Speck</surname><given-names>SH</given-names></name></person-group>
+<year>1999</year>
+<article-title>Macrophages are the major reservoir of latent murine gammaherpesvirus 68 in peritoneal cells</article-title>
+<source>J Virol</source>
+<volume>73</volume>
+<fpage>3273</fpage>
+<lpage>3283</lpage>
+<pub-id pub-id-type="pmid">10074181</pub-id></element-citation></ref><ref id="ppat-0010010-b32"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sunil- Chandra</surname><given-names>NP</given-names></name><name><surname>Arno</surname><given-names>J</given-names></name><name><surname>Fazakerley</surname><given-names>J</given-names></name><name><surname>Nash</surname><given-names>AA</given-names></name></person-group>
+<year>1994</year>
+<article-title>Lymphoproliferative disease in mice infected with murine gammaherpesvirus 68</article-title>
+<source>Am J Pathol</source>
+<volume>145</volume>
+<fpage>818</fpage>
+<lpage>826</lpage>
+<pub-id pub-id-type="pmid">7943173</pub-id></element-citation></ref><ref id="ppat-0010010-b33"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Grundhoff</surname><given-names>A</given-names></name><name><surname>Ganem</surname><given-names>D</given-names></name></person-group>
+<year>2004</year>
+<article-title>Inefficient establishment of KSHV latency suggests an additional role for continued lytic replication in Kaposi sarcoma pathogenesis</article-title>
+<source>J Clin Invest</source>
+<volume>113</volume>
+<fpage>124</fpage>
+<lpage>136</lpage>
+<pub-id pub-id-type="pmid">14702116</pub-id></element-citation></ref><ref id="ppat-0010010-b34"><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Kieff</surname><given-names>E</given-names></name><name><surname>Rickinson</surname><given-names>AB</given-names></name></person-group>
+<year>2001</year>
+<article-title>Epstein-Barr virus and its replication</article-title>
+<person-group person-group-type="editor"><name><surname>Knipe</surname><given-names>DM</given-names></name><name><surname>Howley</surname><given-names>P</given-names></name></person-group>
+<source>Fields virology, 4th ed</source>
+<publisher-loc>Hagerstown (Maryland)</publisher-loc>
+<publisher-name>Lippincott Williams and Wilkins</publisher-name>
+<fpage>2511</fpage>
+<lpage>2573</lpage>
+</element-citation></ref><ref id="ppat-0010010-b35"><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Rickinson</surname><given-names>AB</given-names></name><name><surname>Kieff</surname><given-names>E</given-names></name></person-group>
+<year>2001</year>
+<article-title>Epstein-Barr virus</article-title>
+<person-group person-group-type="editor"><name><surname>Knipe</surname><given-names>DM</given-names></name><name><surname>Howley</surname><given-names>P</given-names></name></person-group>
+<source>Fields virology, 4th ed</source>
+<publisher-loc>Hagerstown (Maryland)</publisher-loc>
+<publisher-name>Lippincott Williams and Wilkins</publisher-name>
+<fpage>2575</fpage>
+<lpage>2627</lpage>
+</element-citation></ref><ref id="ppat-0010010-b36"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gangappa</surname><given-names>S</given-names></name><name><surname>Van Dyk</surname><given-names>LF</given-names></name><name><surname>Jewett</surname><given-names>TJ</given-names></name><name><surname>Speck</surname><given-names>SH</given-names></name><name><surname>Virgin</surname><given-names>HW</given-names></name></person-group>
+<year>2002</year>
+<article-title>Identification of the in vivo role of a viral bcl-2</article-title>
+<source>J Exp Med</source>
+<volume>195</volume>
+<fpage>931</fpage>
+<lpage>940</lpage>
+<pub-id pub-id-type="pmid">11927636</pub-id></element-citation></ref><ref id="ppat-0010010-b37"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bellows</surname><given-names>DS</given-names></name><name><surname>Chau</surname><given-names>BN</given-names></name><name><surname>Lee</surname><given-names>P</given-names></name><name><surname>Lazebnik</surname><given-names>Y</given-names></name><name><surname>Burns</surname><given-names>WH</given-names></name><etal/></person-group>
+<year>2000</year>
+<article-title>Antiapoptotic herpesvirus bcl-2 homologs escape caspase-mediated conversion to proapoptotic proteins</article-title>
+<source>J Virol</source>
+<volume>74</volume>
+<fpage>5024</fpage>
+<lpage>5031</lpage>
+<pub-id pub-id-type="pmid">10799576</pub-id></element-citation></ref><ref id="ppat-0010010-b38"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Roy</surname><given-names>DJ</given-names></name><name><surname>Ebrahimi</surname><given-names>BC</given-names></name><name><surname>Dutia</surname><given-names>BM</given-names></name><name><surname>Nash</surname><given-names>AA</given-names></name><name><surname>Stewart</surname><given-names>JP</given-names></name></person-group>
+<year>2000</year>
+<article-title>Murine gammaherpesvirus M11 gene product inhibits apoptosis and is expressed during virus persistence</article-title>
+<source>Arch Virol</source>
+<volume>145</volume>
+<fpage>2411</fpage>
+<lpage>2420</lpage>
+<pub-id pub-id-type="pmid">11205127</pub-id></element-citation></ref><ref id="ppat-0010010-b39"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wang</surname><given-names>GH</given-names></name><name><surname>Garvey</surname><given-names>TL</given-names></name><name><surname>Cohen</surname><given-names>JI</given-names></name></person-group>
+<year>1999</year>
+<article-title>The murine gammaherpesvirus-68 M11 protein inhibits Fas- and TNF- induced apoptosis</article-title>
+<source>J Gen Virol</source>
+<volume>80</volume>
+<fpage>2737</fpage>
+<lpage>2740</lpage>
+<pub-id pub-id-type="pmid">10573168</pub-id></element-citation></ref><ref id="ppat-0010010-b40"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Virgin</surname><given-names>HW</given-names></name><name><surname>Presti</surname><given-names>RM</given-names></name><name><surname>Li</surname><given-names>X-Y</given-names></name><name><surname>Liu</surname><given-names>C</given-names></name><name><surname>Speck</surname><given-names>SH</given-names></name></person-group>
+<year>1999</year>
+<article-title>Three distinct regions of the murine gammaherpesvirus 68 genome are transcriptionally active in latently infected mice</article-title>
+<source>J Virol</source>
+<volume>73</volume>
+<fpage>2321</fpage>
+<lpage>2332</lpage>
+<pub-id pub-id-type="pmid">9971815</pub-id></element-citation></ref><ref id="ppat-0010010-b41"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>de Lima</surname><given-names>BD</given-names></name><name><surname>May</surname><given-names>JS</given-names></name><name><surname>Marques</surname><given-names>S</given-names></name><name><surname>Simas</surname><given-names>JP</given-names></name><name><surname>Stevenson</surname><given-names>PG</given-names></name></person-group>
+<year>2004</year>
+<article-title>Murine gammaherpesviruis 68 bcl-2 homologue contributes to latency establishment in vivo</article-title>
+<source>J Gen Virol</source>
+<volume>86</volume>
+<fpage>31</fpage>
+<lpage>40</lpage>
+</element-citation></ref><ref id="ppat-0010010-b42"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tibbetts</surname><given-names>SA</given-names></name><name><surname>Van Dyk</surname><given-names>L</given-names></name><name><surname>Speck</surname><given-names>SH</given-names></name><name><surname>Virgin</surname><given-names>HW</given-names></name></person-group>
+<year>2002</year>
+<article-title>Immune control of the number and reactivation phenotype of cells latently infected with a gamma-herpesvirus</article-title>
+<source>J Virol</source>
+<volume>76</volume>
+<fpage>7125</fpage>
+<lpage>7132</lpage>
+<pub-id pub-id-type="pmid">12072512</pub-id></element-citation></ref><ref id="ppat-0010010-b43"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Loh</surname><given-names>J</given-names></name><name><surname>Thomas</surname><given-names>DA</given-names></name><name><surname>Revell</surname><given-names>PA</given-names></name><name><surname>Ley</surname><given-names>TJ</given-names></name><name><surname>Virgin</surname><given-names>HW</given-names></name></person-group>
+<year>2004</year>
+<article-title>Granzymes and caspase 3 play important roles in control of gammaherpesvirus latency</article-title>
+<source>J Virol</source>
+<volume>78</volume>
+<fpage>12519</fpage>
+<lpage>12528</lpage>
+<pub-id pub-id-type="pmid">15507639</pub-id></element-citation></ref><ref id="ppat-0010010-b44"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sentman</surname><given-names>CL</given-names></name><name><surname>Shutter</surname><given-names>JR</given-names></name><name><surname>Hockenbery</surname><given-names>D</given-names></name><name><surname>Kanagawa</surname><given-names>O</given-names></name><name><surname>Korsmeyer</surname><given-names>SJ</given-names></name></person-group>
+<year>1991</year>
+<article-title>Bcl-2 inhibits multiple forms of apoptosis but not negative selection in thymocytes</article-title>
+<source>Cell</source>
+<volume>67</volume>
+<fpage>879</fpage>
+<lpage>888</lpage>
+<pub-id pub-id-type="pmid">1835668</pub-id></element-citation></ref><ref id="ppat-0010010-b45"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chao</surname><given-names>DT</given-names></name><name><surname>Linette</surname><given-names>GP</given-names></name><name><surname>Boise</surname><given-names>LH</given-names></name><name><surname>White</surname><given-names>LS</given-names></name><name><surname>Thompson</surname><given-names>CB</given-names></name><etal/></person-group>
+<year>1995</year>
+<article-title>Bcl-XL and Bcl-2 repress a common pathway of cell death</article-title>
+<source>J Exp Med</source>
+<volume>182</volume>
+<fpage>821</fpage>
+<lpage>828</lpage>
+<pub-id pub-id-type="pmid">7650488</pub-id></element-citation></ref><ref id="ppat-0010010-b46"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cohen</surname><given-names>JJ</given-names></name><name><surname>Duke</surname><given-names>RC</given-names></name></person-group>
+<year>1984</year>
+<article-title>Glucocorticoid activation of a calcium-dependent endonuclease in thymocyte nuclei leads to cell death</article-title>
+<source>J Immunol</source>
+<volume>132</volume>
+<fpage>38</fpage>
+<lpage>42</lpage>
+<pub-id pub-id-type="pmid">6317746</pub-id></element-citation></ref><ref id="ppat-0010010-b47"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wyllie</surname><given-names>AH</given-names></name></person-group>
+<year>1980</year>
+<article-title>Glucocorticoid-induced thymocyte apoptosis is associated with endogenous endonuclease activation</article-title>
+<source>Nature</source>
+<volume>284</volume>
+<fpage>555</fpage>
+<lpage>556</lpage>
+<pub-id pub-id-type="pmid">6245367</pub-id></element-citation></ref><ref id="ppat-0010010-b48"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Clarke</surname><given-names>AR</given-names></name><name><surname>Purdie</surname><given-names>CA</given-names></name><name><surname>Harrison</surname><given-names>DJ</given-names></name><name><surname>Morris</surname><given-names>RG</given-names></name><name><surname>Bird</surname><given-names>CC</given-names></name><etal/></person-group>
+<year>1993</year>
+<article-title>Thymocyte apoptosis induced by p53-dependent and independent pathways</article-title>
+<source>Nature</source>
+<volume>362</volume>
+<fpage>849</fpage>
+<lpage>852</lpage>
+<pub-id pub-id-type="pmid">8479523</pub-id></element-citation></ref><ref id="ppat-0010010-b49"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lowe</surname><given-names>SW</given-names></name><name><surname>Schmitt</surname><given-names>EM</given-names></name><name><surname>Smith</surname><given-names>SW</given-names></name><name><surname>Osborne</surname><given-names>BA</given-names></name><name><surname>Jacks</surname><given-names>T</given-names></name></person-group>
+<year>1993</year>
+<article-title>p53 is required for radiation-induced apoptosis in mouse thymocytes</article-title>
+<source>Nature</source>
+<volume>362</volume>
+<fpage>847</fpage>
+<lpage>849</lpage>
+<pub-id pub-id-type="pmid">8479522</pub-id></element-citation></ref><ref id="ppat-0010010-b50"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Shi</surname><given-names>YF</given-names></name><name><surname>Bissonnette</surname><given-names>RP</given-names></name><name><surname>Parfrey</surname><given-names>N</given-names></name><name><surname>Szalay</surname><given-names>M</given-names></name><name><surname>Kubo</surname><given-names>RT</given-names></name><etal/></person-group>
+<year>1991</year>
+<article-title>In vivo administration of monoclonal antibodies to the CD3 T cell receptor complex induces cell death (apoptosis) in immature thymocytes</article-title>
+<source>J Immunol</source>
+<volume>146</volume>
+<fpage>3340</fpage>
+<lpage>3346</lpage>
+<pub-id pub-id-type="pmid">1827483</pub-id></element-citation></ref><ref id="ppat-0010010-b51"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Smith</surname><given-names>CA</given-names></name><name><surname>Williams</surname><given-names>GT</given-names></name><name><surname>Kingston</surname><given-names>R</given-names></name><name><surname>Jenkinson</surname><given-names>EJ</given-names></name><name><surname>Owen</surname><given-names>JJ</given-names></name></person-group>
+<year>1989</year>
+<article-title>Antibodies to CD3/T-cell receptor complex induce death by apoptosis in immature T cells in thymic cultures</article-title>
+<source>Nature</source>
+<volume>337</volume>
+<fpage>181</fpage>
+<lpage>184</lpage>
+<pub-id pub-id-type="pmid">2521375</pub-id></element-citation></ref><ref id="ppat-0010010-b52"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Strasser</surname><given-names>A</given-names></name><name><surname>Harris</surname><given-names>AW</given-names></name><name><surname>Cory</surname><given-names>S</given-names></name></person-group>
+<year>1991</year>
+<article-title>Bcl-2 transgene inhibits T cell death and perturbs thymic self-censorship</article-title>
+<source>Cell</source>
+<volume>67</volume>
+<fpage>889</fpage>
+<lpage>899</lpage>
+<pub-id pub-id-type="pmid">1959134</pub-id></element-citation></ref><ref id="ppat-0010010-b53"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sattler</surname><given-names>M</given-names></name><name><surname>Liang</surname><given-names>H</given-names></name><name><surname>Nettesheim</surname><given-names>D</given-names></name><name><surname>Meadows</surname><given-names>RP</given-names></name><name><surname>Harlan</surname><given-names>JE</given-names></name><etal/></person-group>
+<year>1997</year>
+<article-title>Structure of Bcl-x(L)-Bak peptide complex: Recognition between regulators of apoptosis</article-title>
+<source>Science</source>
+<volume>275</volume>
+<fpage>983</fpage>
+<lpage>986</lpage>
+<pub-id pub-id-type="pmid">9020082</pub-id></element-citation></ref><ref id="ppat-0010010-b54"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cheng</surname><given-names>EH</given-names></name><name><surname>Kirsch</surname><given-names>DG</given-names></name><name><surname>Clem</surname><given-names>RJ</given-names></name><name><surname>Ravi</surname><given-names>R</given-names></name><name><surname>Kastan</surname><given-names>MB</given-names></name><etal/></person-group>
+<year>1997</year>
+<article-title>Conversion of Bcl-2 to a Bax-like death effector by caspases</article-title>
+<source>Science</source>
+<volume>278</volume>
+<fpage>1966</fpage>
+<lpage>1968</lpage>
+<pub-id pub-id-type="pmid">9395403</pub-id></element-citation></ref><ref id="ppat-0010010-b55"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chittenden</surname><given-names>T</given-names></name><name><surname>Flemington</surname><given-names>C</given-names></name><name><surname>Houghton</surname><given-names>AB</given-names></name><name><surname>Ebb</surname><given-names>RG</given-names></name><name><surname>Gallo</surname><given-names>GJ</given-names></name><etal/></person-group>
+<year>1995</year>
+<article-title>A conserved domain in Bak, distinct from BH1 and BH2, mediates cell death and protein binding functions</article-title>
+<source>EMBO J</source>
+<volume>14</volume>
+<fpage>5589</fpage>
+<lpage>5596</lpage>
+<pub-id pub-id-type="pmid">8521816</pub-id></element-citation></ref><ref id="ppat-0010010-b56"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Petros</surname><given-names>AM</given-names></name><name><surname>Nettesheim</surname><given-names>DG</given-names></name><name><surname>Wang</surname><given-names>Y</given-names></name><name><surname>Olejniczak</surname><given-names>ET</given-names></name><name><surname>Meadows</surname><given-names>RP</given-names></name><etal/></person-group>
+<year>2000</year>
+<article-title>Rationale for Bcl-xL/Bad peptide complex formation from structure, mutagenesis, and biophysical studies</article-title>
+<source>Protein Sci</source>
+<volume>9</volume>
+<fpage>2528</fpage>
+<lpage>2534</lpage>
+<pub-id pub-id-type="pmid">11206074</pub-id></element-citation></ref><ref id="ppat-0010010-b57"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cheng</surname><given-names>EH</given-names></name><name><surname>Wei</surname><given-names>MC</given-names></name><name><surname>Weiler</surname><given-names>S</given-names></name><name><surname>Flavell</surname><given-names>RA</given-names></name><name><surname>Mak</surname><given-names>TW</given-names></name><etal/></person-group>
+<year>2001</year>
+<article-title>BCL-2, BCLX<sub>L</sub> sequester BH3 domain-only molecules preventing BAX- and BAK-mediated mitochondrial apoptosis</article-title>
+<source>Mol Cell</source>
+<volume>8</volume>
+<fpage>705</fpage>
+<lpage>711</lpage>
+<pub-id pub-id-type="pmid">11583631</pub-id></element-citation></ref><ref id="ppat-0010010-b58"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wei</surname><given-names>MC</given-names></name><name><surname>Zong</surname><given-names>WX</given-names></name><name><surname>Cheng</surname><given-names>EH</given-names></name><name><surname>Lindsten</surname><given-names>T</given-names></name><name><surname>Panoutsakopoulou</surname><given-names>V</given-names></name><etal/></person-group>
+<year>2001</year>
+<article-title>Proapoptotic BAX and BAK: A requisite gateway to mitochondrial dysfunction and death</article-title>
+<source>Science</source>
+<volume>292</volume>
+<fpage>727</fpage>
+<lpage>730</lpage>
+<pub-id pub-id-type="pmid">11326099</pub-id></element-citation></ref><ref id="ppat-0010010-b59"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zong</surname><given-names>WX</given-names></name><name><surname>Lindsten</surname><given-names>T</given-names></name><name><surname>Ross</surname><given-names>AJ</given-names></name><name><surname>MacGregor</surname><given-names>GR</given-names></name><name><surname>Thompson</surname><given-names>CB</given-names></name></person-group>
+<year>2001</year>
+<article-title>BH3-only proteins that bind pro-survival Bcl-2 family members fail to induce apoptosis in the absence of Bax and Bak</article-title>
+<source>Genes Dev</source>
+<volume>15</volume>
+<fpage>1481</fpage>
+<lpage>1486</lpage>
+<pub-id pub-id-type="pmid">11410528</pub-id></element-citation></ref><ref id="ppat-0010010-b60"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jurgensmeier</surname><given-names>JM</given-names></name><name><surname>Krajewski</surname><given-names>S</given-names></name><name><surname>Armstrong</surname><given-names>RC</given-names></name><name><surname>Wilson</surname><given-names>GM</given-names></name><name><surname>Oltersdorf</surname><given-names>T</given-names></name><etal/></person-group>
+<year>1997</year>
+<article-title>Bax- and Bak-induced cell death in the fission yeast <italic>Schizosaccharomyces pombe</italic>
+</article-title>
+<source>Mol Biol Cell</source>
+<volume>8</volume>
+<fpage>325</fpage>
+<lpage>339</lpage>
+<pub-id pub-id-type="pmid">9190211</pub-id></element-citation></ref><ref id="ppat-0010010-b61"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zha</surname><given-names>HB</given-names></name><name><surname>Fisk</surname><given-names>HA</given-names></name><name><surname>Yaffe</surname><given-names>MP</given-names></name><name><surname>Mahajan</surname><given-names>N</given-names></name><name><surname>Herman</surname><given-names>B</given-names></name><etal/></person-group>
+<year>1996</year>
+<article-title>Structure-function comparisons of the proapoptotic protein Bax in yeast and mammalian cells</article-title>
+<source>Mol Cell Biol</source>
+<volume>16</volume>
+<fpage>6494</fpage>
+<lpage>6508</lpage>
+<pub-id pub-id-type="pmid">8887678</pub-id></element-citation></ref><ref id="ppat-0010010-b62"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Minn</surname><given-names>AJ</given-names></name><name><surname>Kettlun</surname><given-names>CS</given-names></name><name><surname>Liang</surname><given-names>H</given-names></name><name><surname>Kelekar</surname><given-names>A</given-names></name><name><surname>Vander Heiden</surname><given-names>MG</given-names></name><etal/></person-group>
+<year>1999</year>
+<article-title>Bcl-x(L) regulates apoptosis by heterodimerization-dependent and -independent mechanisms</article-title>
+<source>EMBO J</source>
+<volume>18</volume>
+<fpage>632</fpage>
+<lpage>643</lpage>
+<pub-id pub-id-type="pmid">9927423</pub-id></element-citation></ref><ref id="ppat-0010010-b63"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hanada</surname><given-names>M</given-names></name><name><surname>Aime-Sempe</surname><given-names>C</given-names></name><name><surname>Sato</surname><given-names>T</given-names></name><name><surname>Reed</surname><given-names>JC</given-names></name></person-group>
+<year>1995</year>
+<article-title>Structure-function analysis of Bcl-2 protein. Identification of conserved domains important for homodimerization with Bcl-2 and heterodimerization with Bax</article-title>
+<source>J Biol Chem</source>
+<volume>270</volume>
+<fpage>11962</fpage>
+<lpage>11969</lpage>
+<pub-id pub-id-type="pmid">7744846</pub-id></element-citation></ref><ref id="ppat-0010010-b64"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yin</surname><given-names>XM</given-names></name><name><surname>Oltvai</surname><given-names>ZN</given-names></name><name><surname>Korsmeyer</surname><given-names>SJ</given-names></name></person-group>
+<year>1994</year>
+<article-title>BH1 and BH2 domains of Bcl-2 are required for inhibition of apoptosis and heterodimerization with Bax</article-title>
+<source>Nature</source>
+<volume>369</volume>
+<fpage>321</fpage>
+<lpage>323</lpage>
+<pub-id pub-id-type="pmid">8183370</pub-id></element-citation></ref><ref id="ppat-0010010-b65"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cheng</surname><given-names>EH</given-names></name><name><surname>Levine</surname><given-names>B</given-names></name><name><surname>Boise</surname><given-names>LH</given-names></name><name><surname>Thompson</surname><given-names>CB</given-names></name><name><surname>Hardwick</surname><given-names>JM</given-names></name></person-group>
+<year>1996</year>
+<article-title>Bax-independent inhibition of apoptosis by Bcl-XL</article-title>
+<source>Nature</source>
+<volume>379</volume>
+<fpage>554</fpage>
+<lpage>556</lpage>
+<pub-id pub-id-type="pmid">8596636</pub-id></element-citation></ref><ref id="ppat-0010010-b66"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bodaghi</surname><given-names>B</given-names></name><name><surname>Jones</surname><given-names>TR</given-names></name><name><surname>Zipeto</surname><given-names>D</given-names></name><name><surname>Vita</surname><given-names>C</given-names></name><name><surname>Sun</surname><given-names>L</given-names></name><etal/></person-group>
+<year>1998</year>
+<article-title>Chemokine sequestration by viral chemoreceptors as a novel viral escape strategy: withdrawal of chemokines from the environment of cytomegalovirus-infected cells</article-title>
+<source>J Exp Med</source>
+<volume>188</volume>
+<fpage>855</fpage>
+<lpage>866</lpage>
+<pub-id pub-id-type="pmid">9730887</pub-id></element-citation></ref><ref id="ppat-0010010-b67"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Patterson</surname><given-names>CE</given-names></name><name><surname>Shenk</surname><given-names>T</given-names></name></person-group>
+<year>1999</year>
+<article-title>Human cytomegalovirus UL36 protein is dispensable for viral replication in cultured cells</article-title>
+<source>J Virol</source>
+<volume>73</volume>
+<fpage>7126</fpage>
+<lpage>7131</lpage>
+<pub-id pub-id-type="pmid">10438798</pub-id></element-citation></ref><ref id="ppat-0010010-b68"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Penfold</surname><given-names>ME</given-names></name><name><surname>Dairaghi</surname><given-names>DJ</given-names></name><name><surname>Duke</surname><given-names>GM</given-names></name><name><surname>Saederup</surname><given-names>N</given-names></name><etal/></person-group>
+<year>1999</year>
+<article-title>Cytomegalovirus encodes a potent alpha chemokine</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>96</volume>
+<fpage>9839</fpage>
+<lpage>9844</lpage>
+<pub-id pub-id-type="pmid">10449781</pub-id></element-citation></ref><ref id="ppat-0010010-b69"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sarawar</surname><given-names>SR</given-names></name><name><surname>Cardin</surname><given-names>RD</given-names></name><name><surname>Brooks</surname><given-names>JW</given-names></name><name><surname>Mehrpooya</surname><given-names>M</given-names></name><name><surname>Hamilton-Easton</surname><given-names>AM</given-names></name><etal/></person-group>
+<year>1997</year>
+<article-title>Gamma interferon is not essential for recovery from acute infection with murine gammaherpesvirus 68</article-title>
+<source>J Virol</source>
+<volume>71</volume>
+<fpage>3916</fpage>
+<lpage>3921</lpage>
+<pub-id pub-id-type="pmid">9094668</pub-id></element-citation></ref><ref id="ppat-0010010-b70"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Opferman</surname><given-names>JT</given-names></name><name><surname>Letai</surname><given-names>A</given-names></name><name><surname>Beard</surname><given-names>C</given-names></name><name><surname>Sorcinelli</surname><given-names>MD</given-names></name><name><surname>Ong</surname><given-names>CC</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>Development and maintenance of B and T lymphocytes requires antiapoptotic MCL-1</article-title>
+<source>Nature</source>
+<volume>426</volume>
+<fpage>671</fpage>
+<lpage>676</lpage>
+<pub-id pub-id-type="pmid">14668867</pub-id></element-citation></ref><ref id="ppat-0010010-b71"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Day</surname><given-names>CL</given-names></name><name><surname>Chen</surname><given-names>L</given-names></name><name><surname>Richardson</surname><given-names>SJ</given-names></name><name><surname>Harrison</surname><given-names>PJ</given-names></name><name><surname>Huang</surname><given-names>DCS</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Solution structure of pro-survival Mcl-1 and characterization of its binding by pro-apoptotic BH3-only ligands</article-title>
+<source>J Biol Chem</source>
+<volume>280</volume>
+<fpage>4738</fpage>
+<lpage>4744</lpage>
+<pub-id pub-id-type="pmid">15550399</pub-id></element-citation></ref><ref id="ppat-0010010-b72"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Han</surname><given-names>J</given-names></name><name><surname>Modha</surname><given-names>D</given-names></name><name><surname>White</surname><given-names>E</given-names></name></person-group>
+<year>1998</year>
+<article-title>Interaction of E1B 19K with Bax is required to block Bax-induced loss of mitochondrial membrane potential and apoptosis</article-title>
+<source>Oncogene</source>
+<volume>17</volume>
+<fpage>2993</fpage>
+<lpage>3005</lpage>
+<pub-id pub-id-type="pmid">9881701</pub-id></element-citation></ref><ref id="ppat-0010010-b73"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cuconati</surname><given-names>A</given-names></name><name><surname>Degenhardt</surname><given-names>K</given-names></name><name><surname>Sundararajan</surname><given-names>R</given-names></name><name><surname>Anschel</surname><given-names>A</given-names></name><name><surname>White</surname><given-names>E</given-names></name></person-group>
+<year>2002</year>
+<article-title>Bak and Bax function to limit adenovirus replication through apoptosis induction</article-title>
+<source>J Virol</source>
+<volume>76</volume>
+<fpage>4547</fpage>
+<lpage>4558</lpage>
+<pub-id pub-id-type="pmid">11932420</pub-id></element-citation></ref><ref id="ppat-0010010-b74"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Clem</surname><given-names>RJ</given-names></name><name><surname>Cheng</surname><given-names>EH</given-names></name><name><surname>Karp</surname><given-names>CL</given-names></name><name><surname>Kirsch</surname><given-names>DG</given-names></name><name><surname>Ueno</surname><given-names>K</given-names></name><etal/></person-group>
+<year>1998</year>
+<article-title>Modulation of cell death by Bcl-XL through caspase interaction</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>95</volume>
+<fpage>554</fpage>
+<lpage>559</lpage>
+<pub-id pub-id-type="pmid">9435230</pub-id></element-citation></ref><ref id="ppat-0010010-b75"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ojala</surname><given-names>PM</given-names></name><name><surname>Tiainen</surname><given-names>M</given-names></name><name><surname>Salven</surname><given-names>P</given-names></name><name><surname>Veikkola</surname><given-names>T</given-names></name><name><surname>Castanos-Velez</surname><given-names>E</given-names></name><etal/></person-group>
+<year>1999</year>
+<article-title>Kaposi's sarcoma-associated herpesvirus-encoded v-cyclin triggers apoptosis in cells with high levels of cyclin-dependent kinase 6</article-title>
+<source>Cancer Res</source>
+<volume>59</volume>
+<fpage>4984</fpage>
+<lpage>4989</lpage>
+<pub-id pub-id-type="pmid">10519412</pub-id></element-citation></ref><ref id="ppat-0010010-b76"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ojala</surname><given-names>PM</given-names></name><name><surname>Yamamoto</surname><given-names>K</given-names></name><name><surname>Castanos-Velez</surname><given-names>E</given-names></name><name><surname>Biberfeld</surname><given-names>P</given-names></name><name><surname>Korsmeyer</surname><given-names>SJ</given-names></name><etal/></person-group>
+<year>2000</year>
+<article-title>The apoptotic v-cyclin-CDK6 complex phosphorylates and inactivates Bcl-2</article-title>
+<source>Nat Cell Biol</source>
+<volume>2</volume>
+<fpage>819</fpage>
+<lpage>825</lpage>
+<pub-id pub-id-type="pmid">11056537</pub-id></element-citation></ref><ref id="ppat-0010010-b77"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Van Dyk</surname><given-names>LF</given-names></name><name><surname>Hess</surname><given-names>JL</given-names></name><name><surname>Katz</surname><given-names>JD</given-names></name><name><surname>Jacoby</surname><given-names>M</given-names></name><name><surname>Speck</surname><given-names>SH</given-names></name><etal/></person-group>
+<year>1999</year>
+<article-title>The murine gammaherpesvirus 68 v-cyclin is an oncogene that promotes cell cycle progression in primary lymphocytes</article-title>
+<source>J Virol</source>
+<volume>73</volume>
+<fpage>5110</fpage>
+<lpage>5122</lpage>
+<pub-id pub-id-type="pmid">10233974</pub-id></element-citation></ref><ref id="ppat-0010010-b78"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chaffin</surname><given-names>KE</given-names></name><name><surname>Beals</surname><given-names>CR</given-names></name><name><surname>Wilkie</surname><given-names>TM</given-names></name><name><surname>Forbush</surname><given-names>KA</given-names></name><name><surname>Simon</surname><given-names>MI</given-names></name><etal/></person-group>
+<year>1990</year>
+<article-title>Dissection of thymocyte signaling pathways by in vivo expression of pertussis toxin ADP-ribosyltransferase</article-title>
+<source>EMBO J</source>
+<volume>9</volume>
+<fpage>3821</fpage>
+<lpage>3829</lpage>
+<pub-id pub-id-type="pmid">2123451</pub-id></element-citation></ref><ref id="ppat-0010010-b79"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Garvin</surname><given-names>AM</given-names></name><name><surname>Abraham</surname><given-names>KM</given-names></name><name><surname>Forbush</surname><given-names>KA</given-names></name><name><surname>Farr</surname><given-names>AG</given-names></name><name><surname>Davison</surname><given-names>BL</given-names></name><etal/></person-group>
+<year>1990</year>
+<article-title>Disruption of thymocyte development and lymphomagenesis induced by SV40 T-antigen</article-title>
+<source>Int Immunol</source>
+<volume>2</volume>
+<fpage>173</fpage>
+<lpage>180</lpage>
+<pub-id pub-id-type="pmid">1965144</pub-id></element-citation></ref><ref id="ppat-0010010-b80"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Morrison</surname><given-names>TB</given-names></name><name><surname>Weis</surname><given-names>JJ</given-names></name><name><surname>Wittwer</surname><given-names>CT</given-names></name></person-group>
+<year>1998</year>
+<article-title>Quantification of low-copy transcripts by continuous SYBR Green I monitoring during amplification</article-title>
+<source>BioTechniques</source>
+<volume>24</volume>
+<fpage>954</fpage>
+<lpage>958</lpage>
+<lpage>960</lpage>
+<lpage>962</lpage>
+<pub-id pub-id-type="pmid">9631186</pub-id></element-citation></ref><ref id="ppat-0010010-b81"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Van Dyk</surname><given-names>LF</given-names></name><name><surname>Virgin</surname><given-names>HW</given-names></name><name><surname>Speck</surname><given-names>SH</given-names></name></person-group>
+<year>2000</year>
+<article-title>The murine gammaherpesvirus 68 v-cyclin is a critical regulator of reactivation from latency</article-title>
+<source>J Virol</source>
+<volume>74</volume>
+<fpage>7451</fpage>
+<lpage>7461</lpage>
+<pub-id pub-id-type="pmid">10906198</pub-id></element-citation></ref><ref id="ppat-0010010-b82"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Weck</surname><given-names>KE</given-names></name><name><surname>Barkon</surname><given-names>ML</given-names></name><name><surname>Yoo</surname><given-names>LI</given-names></name><name><surname>Speck</surname><given-names>SH</given-names></name><name><surname>Virgin</surname><given-names>HW</given-names></name></person-group>
+<year>1996</year>
+<article-title>Mature B cells are required for acute splenic infection, but not for establishment of latency, by murine gammaherpesvirus 68</article-title>
+<source>J Virol</source>
+<volume>70</volume>
+<fpage>6775</fpage>
+<lpage>6780</lpage>
+<pub-id pub-id-type="pmid">8794315</pub-id></element-citation></ref><ref id="ppat-0010010-b83"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Weck</surname><given-names>KE</given-names></name><name><surname>Kim</surname><given-names>SS</given-names></name><name><surname>Virgin</surname><given-names>HW</given-names></name><name><surname>Speck</surname><given-names>SH</given-names></name></person-group>
+<year>1999</year>
+<article-title>B cells regulate murine gammaherpesvirus 68 latency</article-title>
+<source>J Virol</source>
+<volume>73</volume>
+<fpage>4651</fpage>
+<lpage>4661</lpage>
+<pub-id pub-id-type="pmid">10233924</pub-id></element-citation></ref><ref id="ppat-0010010-b84"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yamazaki</surname><given-names>T</given-names></name><name><surname>Lee</surname><given-names>W</given-names></name><name><surname>Arrowsmith</surname><given-names>CH</given-names></name><name><surname>Muhandiram</surname><given-names>DR</given-names></name><name><surname>Kay</surname><given-names>LE</given-names></name></person-group>
+<year>1994</year>
+<article-title>A suite of triple-resonance NMR experiments for the backbone assignment of N-15, C-13, H-2 labeled proteins with high-sensitivity</article-title>
+<source>J Am Chem Soc</source>
+<volume>116</volume>
+<fpage>11655</fpage>
+<lpage>11666</lpage>
+</element-citation></ref><ref id="ppat-0010010-b85"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Muhandiram</surname><given-names>DR</given-names></name><name><surname>Kay</surname><given-names>LE</given-names></name></person-group>
+<year>1994</year>
+<article-title>Gradient-enhanced triple-resonance 3-dimensional NMR experiments with improved sensitivity</article-title>
+<source>J Magn Reson Series B</source>
+<volume>103</volume>
+<fpage>203</fpage>
+<lpage>216</lpage>
+</element-citation></ref><ref id="ppat-0010010-b86"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Clore</surname><given-names>GM</given-names></name><name><surname>Gronenborn</surname><given-names>AM</given-names></name></person-group>
+<year>1994</year>
+<article-title>Multidimensional heteronuclear nuclear-magnetic-resonance of proteins</article-title>
+<source>Methods Enzymol</source>
+<volume>239</volume>
+<fpage>349</fpage>
+<lpage>363</lpage>
+<pub-id pub-id-type="pmid">7830590</pub-id></element-citation></ref><ref id="ppat-0010010-b87"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Neri</surname><given-names>D</given-names></name><name><surname>Szyperski</surname><given-names>T</given-names></name><name><surname>Otting</surname><given-names>G</given-names></name><name><surname>Senn</surname><given-names>H</given-names></name><name><surname>Wuthrich</surname><given-names>K</given-names></name></person-group>
+<year>1989</year>
+<article-title>Stereospecific nuclear magnetic-resonance assignments of the methyl-groups of valine and leucine in the DNA-binding domain of the 434-repressor by biosynthetically directed fractional C-13 labeling</article-title>
+<source>Biochemistry</source>
+<volume>28</volume>
+<fpage>7510</fpage>
+<lpage>7516</lpage>
+<pub-id pub-id-type="pmid">2692701</pub-id></element-citation></ref><ref id="ppat-0010010-b88"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fesik</surname><given-names>SW</given-names></name><name><surname>Zuiderweg</surname><given-names>ERP</given-names></name></person-group>
+<year>1988</year>
+<article-title>Heteronuclear 3-dimensional NMR-spectroscopy&#x02014;A strategy for the simplification of homonuclear two-dimensional NMR-spectra</article-title>
+<source>J Magn Reson</source>
+<volume>78</volume>
+<fpage>588</fpage>
+<lpage>593</lpage>
+</element-citation></ref><ref id="ppat-0010010-b89"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ikura</surname><given-names>M</given-names></name><name><surname>Kay</surname><given-names>LE</given-names></name><name><surname>Tschudin</surname><given-names>R</given-names></name><name><surname>Bax</surname><given-names>A</given-names></name></person-group>
+<year>1990</year>
+<article-title>3-Dimensional NOESY-HMQC spectroscopy of a C-13-labeled protein</article-title>
+<source>J Magn Reson</source>
+<volume>86</volume>
+<fpage>204</fpage>
+<lpage>209</lpage>
+</element-citation></ref><ref id="ppat-0010010-b90"><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Brunger</surname><given-names>AT</given-names></name></person-group>
+<year>1992</year>
+<source>X-PLOR, version 3.1 [computer program]</source>
+<publisher-loc>New Haven and London</publisher-loc>
+<publisher-name>Yale University Press</publisher-name>
+</element-citation></ref><ref id="ppat-0010010-b91"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cornilescu</surname><given-names>G</given-names></name><name><surname>Delaglio</surname><given-names>F</given-names></name><name><surname>Bax</surname><given-names>A</given-names></name></person-group>
+<year>1999</year>
+<article-title>Protein backbone angle restraints from searching a database for chemical shift and sequence homology</article-title>
+<source>J Biomol NMR</source>
+<volume>13</volume>
+<fpage>289</fpage>
+<lpage>302</lpage>
+<pub-id pub-id-type="pmid">10212987</pub-id></element-citation></ref><ref id="ppat-0010010-b92"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Laskowski</surname><given-names>RA</given-names></name><name><surname>MacArthur</surname><given-names>MW</given-names></name><name><surname>Moss</surname><given-names>DS</given-names></name><name><surname>Thornton</surname><given-names>JM</given-names></name></person-group>
+<year>1993</year>
+<article-title>Procheck&#x02014;A program to check the stereochemical quality of protein structures</article-title>
+<source>J Appl Cryst</source>
+<volume>26</volume>
+<fpage>283</fpage>
+<lpage>291</lpage>
+</element-citation></ref><ref id="ppat-0010010-b93"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hajduk</surname><given-names>PJ</given-names></name><name><surname>Augeri</surname><given-names>DJ</given-names></name><name><surname>Mack</surname><given-names>J</given-names></name><name><surname>Mendoza</surname><given-names>R</given-names></name><name><surname>Yang</surname><given-names>JG</given-names></name><etal/></person-group>
+<year>2000</year>
+<article-title>NMR-based screening of proteins containing C-13-labeled methyl groups</article-title>
+<source>J Am Chem Soc</source>
+<volume>122</volume>
+<fpage>7898</fpage>
+<lpage>7904</lpage>
+</element-citation></ref></ref-list></back></article>

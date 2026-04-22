@@ -1,0 +1,283 @@
+<!-- edited with XMLSPY v2004 rel. 3 U (http://www.xmlspy.com) by CDC (private) -->
+<!DOCTYPE article
+PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.3 20210610//EN" "JATS-archivearticle1-3-mathml3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article"><?properties open_access?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Prev Chronic Dis</journal-id><journal-id journal-id-type="iso-abbrev">Prev Chronic Dis</journal-id><journal-title-group><journal-title>Preventing Chronic Disease</journal-title></journal-title-group><issn pub-type="epub">1545-1151</issn><publisher><publisher-name>Centers for Disease Control and Prevention</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">15670427</article-id><article-id pub-id-type="pmc">PMC1253471</article-id><article-id pub-id-type="publisher-id">PCDv13_04_0001</article-id><article-categories><subj-group subj-group-type="heading"><subject>Original Research</subject></subj-group><series-title>Peer Reviewed</series-title></article-categories><title-group><article-title>Using Focus Groups to Develop a Bone Health Curriculum for After-school Programs</article-title></title-group><contrib-group><contrib contrib-type="author" corresp="yes"><name><surname>Economos</surname><given-names>Christina D</given-names></name><degrees>PhD</degrees><role>Associate Director</role><aff>John Hancock Center on Physical Activity and Nutrition, Gerald J. and Dorothy R. Friedman School of Nutrition Science and Policy, Tufts University</aff><address><addr-line>150 Harrison Ave, Boston, MA 02111</addr-line><institution>Tufts University</institution><phone>617-636-3784</phone><email>christina.economos@tufts.edu</email></address></contrib><contrib contrib-type="author"><name><surname>Folta</surname><given-names>Sara C</given-names></name><degrees>MS</degrees><aff>Gerald J. and Dorothy R. Friedman School of Nutrition Science and Policy, Tufts University, Boston, Mass</aff></contrib><contrib contrib-type="author"><name><surname>Goldberg</surname><given-names>Jeanne P</given-names></name><degrees>PhD, RD</degrees><aff>Gerald J. and Dorothy R. Friedman School of Nutrition Science and Policy, Tufts University, Boston, Mass</aff></contrib><contrib contrib-type="author"><name><surname>Marcotte</surname><given-names>Lori P</given-names></name><degrees>MPH, MS, RD</degrees><aff>Gerald J. and Dorothy R. Friedman School of Nutrition Science and Policy, Tufts University, Boston, Mass</aff></contrib></contrib-group><pub-date pub-type="collection"><month>7</month><year>2004</year></pub-date><pub-date pub-type="epub"><day>15</day><month>6</month><year>2004</year></pub-date><volume>1</volume><issue>3</issue><elocation-id>A06</elocation-id><permissions><copyright-year>2004</copyright-year><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is a publication of the U.S. Government. This publication is in the public domain and is therefore without copyright. All text from this work may be reprinted freely. Use of these materials should be properly cited.</license-p></license></permissions><abstract abstract-type="key-points"><sec sec-type="intro"><title>Introduction</title><p>Childhood behaviors influence peak bone mass and osteoporosis risk in later life. The after-school environment provides an opportunity to enrich a child&#x02019;s learning and experience. Our objective was to gain a better understanding of the knowledge of, attitudes and beliefs about, and barriers to achieving bone health among children, parents, and after-school program leaders from low-income, ethnically diverse communities. Findings led to the development, implementation, and evaluation of a bone health curriculum in the after-school setting.</p></sec><sec sec-type="methods"><title>Methods</title><p>Eight focus groups were conducted in three representative communities. Focus group participants included children aged six to eight years, parents of children aged six to eight, and after-school program staff. Transcripts and written notes from each session were reviewed and common themes were identified within each group.</p></sec><sec sec-type="results"><title>Results</title><p>Most adults had some understanding of osteoporosis, but did not recognize that childhood behaviors had a role in developing the disease. Program leaders raised concerns about their ability to implement a health program and recommended a flexible format. Parents and program leaders recognized the importance of maintaining a fun atmosphere.</p></sec><sec sec-type="conclusions"><title>Conclusion</title><p>It is feasible to create a curriculum for a bone health program that meets the unique needs and interests of children and program leaders in the after-school setting. Addressing the needs, interests, and common barriers of the target population is an essential first step in curriculum development.</p></sec></abstract></article-meta></front><body><sec sec-type="intro"><title>Introduction</title><p>Osteoporosis is a childhood disease with adult consequences. Childhood behaviors, including diet and physical activity (<xref rid="B1" ref-type="bibr">1</xref>-<xref rid="B4" ref-type="bibr">4</xref>), have a major influence on the attainment of peak bone mass and the primary prevention of osteoporosis (<xref rid="B5" ref-type="bibr">5</xref>-<xref rid="B11" ref-type="bibr">11</xref>). The higher the peak bone mass in childhood, the more an individual can afford to lose in adulthood (<xref rid="B12" ref-type="bibr">12</xref>-<xref rid="B14" ref-type="bibr">14</xref>). The long-term benefits of increasing bone mineral density during childhood are compelling (<xref rid="B15" ref-type="bibr">15</xref>,<xref rid="B16" ref-type="bibr">16</xref>). A change in one negative standard deviation in bone mass may double fracture risk (<xref rid="B17" ref-type="bibr">17</xref>,<xref rid="B18" ref-type="bibr">18</xref>).</p><p>In the United States, there is a large gap between childhood behaviors known to help maximize bone health and what children actually do. National survey data estimate that more than half of girls aged six to 11 years are not meeting 100% of the 1989 Recommended Dietary Allowance for calcium, and nearly half of boys are not meeting this requirement (<xref rid="B19" ref-type="bibr">19</xref>). The gap between recommendations and intakes is difficult to reverse as children age (<xref rid="B20" ref-type="bibr">20</xref>,<xref rid="B21" ref-type="bibr">21</xref>). Of equal importance is that children of all ages do not obtain adequate levels of physical activity (<xref rid="B22" ref-type="bibr">22</xref>-<xref rid="B25" ref-type="bibr">25</xref>). Studies show that sedentary behavior increases and moderate physical activity decreases as children advance through elementary school (<xref rid="B26" ref-type="bibr">26</xref>,<xref rid="B27" ref-type="bibr">27</xref>) and that this decline continues into adolescence (<xref rid="B27" ref-type="bibr">27</xref>,<xref rid="B28" ref-type="bibr">28</xref>). Furthermore, girls are less likely to engage in physical activity than boys (<xref rid="B27" ref-type="bibr">27</xref>-<xref rid="B29" ref-type="bibr">29</xref>), and black children are less active than white children (<xref rid="B28" ref-type="bibr">28</xref>,<xref rid="B29" ref-type="bibr">29</xref>). The gap between the long-term effect of modifiable influences on bone health and the behaviors of millions of children suggests that cost-effective interventions to promote bone health in children are urgently needed.</p><p>After-school programs are ideal for complementing the school day with health education and physical activity. Several million children participate in after-school programs, and demand outstrips supply by a rate of approximately two to one (30). Furthermore, many programs lack adequate funding, and quality is highly variable (<xref rid="B30" ref-type="bibr">30</xref>). Curriculum-based interventions may enhance existing enrichment activities and provide structure to programs that are not highly developed. Reviews of nutrition and physical activity education curricula indicate that they can contribute to significant improvements in students&#x02019; knowledge, skills, and behavior, but that they must have certain characteristics to be effective (<xref rid="B31" ref-type="bibr">31</xref>-<xref rid="B33" ref-type="bibr">33</xref>). A health curriculum should be theory driven and should address children&#x02019;s needs, interests, and concerns, in addition to their knowledge, attitudes, and beliefs (<xref rid="B31" ref-type="bibr">31</xref>-<xref rid="B33" ref-type="bibr">33</xref>). Addressing barriers to change is also important. This paper describes the design of a curriculum to promote bone health based on data obtained from focus group research to identify motivating factors, preferences, and barriers to change among children, parents, and after-school program leaders.</p></sec><sec sec-type="methods"><title>Methods</title><p>Eight focus groups were conducted in three low- to moderate-income, multiethnic Massachusetts communities in the three months from November 1999 through January 2000. In total, 66 individuals participated. Participants included three groups of children aged six to eight years (N = 26; 70% white, 30% African American; 61% male); three groups composed of parents with children aged six to eight (N = 24; 80% white, 20% African American; 8% male); and two after-school program staff groups (N = 16; race and ethnicity not specified; 19% male). Of the 16 program staff who participated, two oversaw staff and program development and 14 taught. Focus groups took place at the after-school program sites and were led by two professional focus-group facilitators with expertise in conducting groups with children. Sessions typically lasted two hours and included six to 11 participants. Each adult participant received $30 and each child received a $20 gift certificate to a local toy store. Each session was recorded on audiotape for subsequent transcription; focus-group facilitators took additional notes.</p><p>Focus-group facilitators provided a brief introduction and invited parents and leaders to offer general opinions and comments about health education and strategies for engaging children in desired behaviors in after-school programs. Facilitators told children that the purpose of the meeting was to learn about what children like to eat and play. All groups were told there were no right or wrong answers. Facilitators explored knowledge, attitudes, beliefs, preferences, and barriers related to bone health and to the potential implementation of a curriculum that focused on bone health in the after-school environment.</p><p>The two facilitators systematically analyzed transcripts. Each one read the original transcripts to identify themes of each topic of discussion before collaborating on the summary report and submitting the report to an independent investigator. The investigator reviewed the transcripts and final report and recoded key phrases into a matrix constructed to conform to the project&#x02019;s conceptual framework. Recoding key phrases into the matrix allowed for a more detailed understanding of the key themes identified by the facilitators and provided the ability to incorporate these themes into the project development.</p><p>The Institutional Review Board at Tufts University gave human subjects research approval for this project.</p></sec><sec sec-type="results"><title>Results</title><sec><title>Knowledge and awareness</title><p>As expected, the children had limited knowledge about bone health and the factors that affect it. Some understood the connection between bone health and drinking milk. Not surprisingly, they were generally aware of something called &#x0201c;calcium&#x0201d; but did not understand that it is a mineral or know where it is found in the diet: &#x0201c;It&#x02019;s a kind of vitamin and cereal has it&#x0201d; was a typical response. After calcium was defined for them, many children commented, &#x0201c;Calcium makes you stronger, smarter, and helps you learn.&#x0201d;</p><p>As expected, none of the children understood &#x0201c;osteoporosis.&#x0201d; Among parents, knowledge of osteoporosis was mixed, whereas most after-school program leaders had a basic knowledge of what osteoporosis is and how to prevent it. In general, both parents and after-school program staff were aware of the effect of calcium and exercise on bone health and development.</p></sec><sec><title>Attitudes, perceptions, and beliefs</title><p>Children showed little interest in understanding osteoporosis, but some interest in knowing how to make bones healthy and strong. Children appropriately associated bones with certain foods: &#x0201c;Bones make you think about dairy products.&#x0201d; Parents felt that nutrition played a critically important role in their child&#x02019;s development. Among their chief concerns were getting their children to eat enough fruits and vegetables and limiting their intake of sweets and other &#x0201c;junk foods&#x0201d;: &#x0201c;I worry about the long-range effect of nutrition on them in their twenties, what will have been done by then.&#x0201d; &#x0201c;I like to make sure my kids get their vitamins every day&#x02026;because I know they don&#x02019;t eat right. They don&#x02019;t eat enough vegetables.&#x0201d; &#x0201c;Other than genetics, nutrition is the number-one thing for your child&#x02019;s health.&#x0201d;</p><p>Parents were less concerned that their children&#x02019;s diets had enough calcium and did not consider osteoporosis a major health threat: &#x0201c;As long as they&#x02019;re eating from the basic four food groups, I&#x02019;m not worried.&#x0201d; &#x0201c;I always think of osteoporosis as an adult issue.&#x0201d; &#x0201c;I think I need the bone help more than them.&#x0201d;</p><p>Parents and after-school program leaders were both concerned about the amount of physical activity the children were getting. One parent commented, &#x0201c;He doesn&#x02019;t get enough exercise &#x02014; never. He&#x02019;s healthy, but he has an interest in video games and anything electronic. I&#x02019;m worried about down the road.&#x0201d; An after-school program leader observed, &#x0201c;If you talk to a gym teacher or watch a class, these kids aren&#x02019;t in any shape at all. In my class, there are four or five kids who can&#x02019;t run around the bases without stopping and huffing and puffing.&#x0201d;</p></sec><sec><title>Preferences</title><p>Most children said they liked or drank milk. The perspectives of children and parents differed on the subject of physical activity. Children said that if given a choice, they would prefer physical activity, games, or sports during their free time: &#x0201c;I like to play tag and play games like when you pretend to be monsters and things&#x02026;I&#x02019;d rather play outside.&#x0201d; In contrast, parents consistently said that if left on their own, children would choose television and video games rather than physical activity. Parents demonstrated an awareness of the importance of physical activity and of their role in promoting it: &#x0201c;I do make them go outside, but it&#x02019;s like kicking and screaming &#x02014; they don&#x02019;t like to go.&#x0201d;</p></sec><sec><title>Barriers</title><p>After-school program leaders were concerned about the amount of planning required to implement a curriculum. Said one participant, &#x0201c;I&#x02019;m a second-grade teacher. I have enough planning to do all day long. I don&#x02019;t have the time.&#x0201d; Some after-school program leaders also expressed a desire for flexibility: &#x0201c;I think ideas would be better, because if you disagree with the format, then you&#x02019;re going to come to some conflict with &#x02018;Oh, I have to do this?&#x02019; Make it more optional. &#x02018;You may want to do this, or you could do A, B, and C.&#x02019;&#x0201d; &#x0201c;[It] just depends on the mood of the children what I&#x02019;m going to do that day. If they&#x02019;re fidgety, we go out and run around the park.&#x0201d;</p><p>While after-school program leaders recognized the need to provide guidance for children about healthy eating and exercise, they did not perceive health education as a priority: &#x0201c;I think health education is important but as [another participant] said, they get a lot of it during the day at school, and we&#x02019;re more geared toward their social and emotional growth, socializing with other children and interacting with adults.&#x0201d;</p><p>Both parents and after-school program leaders expressed some concerns about the nutrition education component of the curriculum. They worried that the activity would replace the children&#x02019;s already limited time for play and fun. One after-school program leader stated, &#x0201c;I don&#x02019;t want it to be a bore for them. Especially since they&#x02019;ve been in school all day long. I do think it&#x02019;s important, but when they come to us, it&#x02019;s time to let loose some steam.&#x0201d; A parent said, &#x0201c;I&#x02019;m hoping they&#x02019;ll come home and say &#x02018;I had fun doing this and that today.&#x02019; If he says, &#x02018;I <italic>have</italic> to go here,&#x02019; then he&#x02019;s in the wrong place.&#x0201d;</p><p>Parents also expressed a concern that the nutrition education activity might be too academic: &#x0201c;It needs to be addressed for children as not so medical. It needs to be presented as fun.&#x0201d; &#x0201c;I think the calcium-focused activity would get old fast. You know: &#x02018;Calcium again, I&#x02019;m so sick of calcium.&#x02019;&#x0201d;</p><p>Despite wanting their children to enjoy a break from academics, getting homework done during the after-school time was a high priority for parents. After-school program leaders felt pressure to make sure homework was complete by the time parents arrived to pick children up. One parent commented, &#x0201c;Homework has to be the first priority. I get home too late to get it done with him.&#x0201d; An after-school leader said, &#x0201c;I know my parents: they want [their children] to get their homework done.&#x0201d;</p><p>After-school program leaders consistently and poignantly expressed their concern that they might not know enough to effectively teach the bone-health curriculum. They were afraid they would be embarrassed if they could not answer a child&#x02019;s question. &#x0201c;I&#x02019;m not saying I&#x02019;m ignorant about osteoporosis, but I&#x02019;m not as knowledgeable as I&#x02019;d like to be.&#x0201d; &#x0201c;[I would want] more knowledge about osteoporosis, questions the kids would ask us, so we could have answers for them.&#x0201d; Parents also expressed concern about the ability of the after-school program leaders to implement the curriculum: &#x0201c;The after-school teachers would need training. They&#x02019;re capable, but need training.&#x0201d; While an extensive training program was proposed, most after-school program leaders suggested that only minimal training would be possible because of limited available time. Because of high staff turnover rates in the after-school setting, they also voiced an interest in ongoing oversight and support so the curriculum could continue even if trained leaders left the after-school program.</p></sec><sec><title>Shaping the curriculum</title><p>Curriculum development relied heavily on information obtained in the focus groups. To respond to the needs of program leaders in the after-school setting, short and simple lessons were designed with alternate activity options, tips for implementation, and ideas for modifying games. Curriculum components could complement regular program activities without interfering with priorities such as homework. Ongoing support was offered via newsletters, and research staff were available to assist new leaders during the year.</p><p>From the outset of the project, the objective was to package both a physical-activity component and a nutrition education component so that the children would have fun while learning. The children know the project as &#x0201c;The Bones Club.&#x0201d; To address the desire expressed in focus groups to allow children to use after-school time for fun activities that would enable them to socialize and &#x0201c;let off some steam&#x0201d; and to fulfill the objective of offering simple, non-academic language, the physical activity component was named &#x0201c;Let&#x02019;s Play.&#x0201d; Activities identified as favorites with the children were adapted to weight-bearing activities (similarly titled &#x0201c;Let&#x02019;s Run&#x0201d; and &#x0201c;Let&#x02019;s Jump&#x0201d;). Because after-school program leaders indicated that they operate in a wide variety of physical environments, all games included simple modifications to accommodate play in different environments.</p><p>Likewise, the nutrition education component was named &#x0201c;Let&#x02019;s Explore&#x0201d; to reflect some of the preferred activities of children and to emphasize both teamwork and fun. During the focus groups, children indicated an interest in reading, and after-school program leaders reported &#x0201c;circle time&#x0201d; as a common component of the after-school day. Age-appropriate books were provided to support the learning themes of the &#x0201c;Let&#x02019;s Explore&#x0201d; lessons. Many after-school program leaders expressed concern that they may not know enough about bone health to teach the curriculum effectively. To begin to address this, an appendix was included with each section of the written curriculum that answered commonly asked questions and provided a quick reference guide for additional resources.</p><p>Evidence shows that nutrition education programs and curricula targeted at elementary-aged children are more effective when they include a family component (<xref rid="B33" ref-type="bibr">33</xref>). Some parents received newsletters that corresponded to curriculum units to reinforce after-school program lessons at home. Newsletters included quick and easy recipes and physical activity tips that took into account the time constraint that was mentioned as a barrier in the focus groups. Parents also were given a directory that allowed them to leverage their own limited resources by using nutrition, physical activity, and health resources available in their communities.</p></sec></sec><sec sec-type="discussion"><title>Discussion</title><p>This study demonstrates how focus groups can be used to shape a curriculum to meet the needs of after-school program leaders, parents, and children so that maximum buy-in and learning can occur. Of particular importance, focus groups can identify key barriers to implementing the curriculum that might otherwise go unnoticed. Perhaps the most important barrier was that health education was not considered a priority by either parents or after-school program leaders. To succeed, the curriculum would need to focus on fun for the children and ease of implementation for the program leaders. The curriculum was designed to be short and flexible so it would not replace activities that were considered a priority.</p><p>Parents and program leaders indicated limited confidence in promoting health, particularly nutrition, to children. Still, program leaders believed they could incorporate such a program into their existing after-school program structure and implement it as long as they are given adequate support.</p><p>Not surprisingly, children were not interested in osteoporosis the disease, but they did want to learn about how bones move and what they could do to grow big and strong. This perception confirmed that it is possible to engage even very young children in a health topic if the topic is presented at their level of comprehension and if it appeals to their interests.</p><p>The children who participated in the focus groups were young. Sometimes they were wonderfully direct and open, and at other times their responses were colored by the need for peer acceptance. In this series of focus groups, their responses about likes and dislikes differed from those of their parents. For instance, children overwhelmingly expressed a preference for active games or sports over video games, but parents reported difficulty in engaging children in outdoor play. This observation confirms the need to conduct focus groups that include both children and parents to obtain a more balanced picture of preferences and behaviors.</p><p>The inconsistency between children&#x02019;s reported desire for physical activity and parents&#x02019; reports that children engage in sedentary behaviors if given a choice is difficult to reconcile. Possibly, while children may like the idea of physical activity, they are reluctant to engage in it once they have started other activities. Several factors may draw children to activities that are more sedentary. In the focus groups, parents noted the ubiquity of televisions and computer games in their homes. In addition, cold weather and early darkness were also mentioned as serious barriers to outdoor play. Regardless of these perceived barriers, children participated willingly when provided with the types of physical activities in the after-school programs that both the children and the program leaders agreed were fun.</p><p>Focus groups do not provide data that are generalizable to other populations, but they can be a time-efficient and cost-effective method for identifying attitudes, beliefs, and barriers toward health behaviors among defined target populations. Through an interactive discussion led by trained professionals, it is possible to identify information that is critical to program success and that might not be uncovered in survey research. For example, the permissive environment allowed after-school leaders to openly describe their perceptions of their limited knowledge about osteoporosis and bone health, which, if not addressed, could limit their ability to implement the curriculum and could consequently hinder the success of the program.</p><p>Response to the bone-health curriculum has been enthusiastic. More than 50 after-school programs in Massachusetts and Rhode Island have implemented it successfully, and it has been well-accepted by after-school program leaders, parents, and children. After-school program leaders report that the curriculum has enhanced their programs and has had the unexpected benefit of improving their relationships with the children. They indicate that children enjoy being in the &#x0201c;Bones Club&#x0201d; and having something to call their own. Participation is optional, but remains at a high level, and dropout rates related to dissatisfaction are extremely low (less than 1%). Dropout is linked almost exclusively to children leaving the after-school program or the school district itself.</p><p>An environment that fosters the development of behaviors to promote bone health can contribute to positive habits that children will adopt before entering their preteen years, when peer influences gain power. After-school programs have been an underused setting for health interventions. As they grow in number, they provide an opportunity to use time that traditionally has been difficult to fill consistently with appropriate physical and cognitive activities for all children who attend them. Health interventions that include an academic and a physical-activity component are difficult to implement given the varied experience of leaders and the lack of funds for training and technical support. Limited staff, high turnover rates, and competing demands on program time are major barriers. Curricula based on formative research can overcome these barriers, help to improve the health of children, and prevent chronic disease later in life.</p></sec></body><back><ack><p>This research was supported by a grant (NIH/1RO1 HD 37752-01) and is based on work supported by Grant P01-DK42618 from the National Institutes of Health, and the U.S. Department of Agriculture (USDA), under agreement number 58-1950-9-001. Any opinions, findings, conclusions, or recommendations expressed in this publication are those of the author(s) and do not necessarily reflect the view of the USDA.</p></ack><fn-group><fn><p>The opinions expressed by authors contributing to this journal do not necessarily reflect the opinions of the U.S. Department of Health and Human Services, the Public Health Service, Centers for Disease Control and Prevention, or the authors' affiliated institutions. Use of trade names is for identification only and does not imply endorsement by any of the groups named above.</p></fn><fn><p>
+<italic>Suggested citation for this article</italic>: Folta SC, Goldberg JP, Marcotte LP, Economos CD. Using focus groups to develop a bone health curriculum for after-school programs. Prev Chronic Dis [serial online] 2004 Jul [date cited]. Available from: URL: <ext-link xlink:href="http://www.cdc.gov/pcd/issues/2004/jul/04_0001.htm" ext-link-type="uri">http://www.cdc.gov/pcd/issues/2004/jul/04_0001.htm</ext-link>.
+</p></fn></fn-group><ref-list><ref id="B1"><label>1</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bonjour</surname><given-names>J</given-names></name><name><surname>Theintz</surname><given-names>G</given-names></name><name><surname>Law</surname><given-names>F</given-names></name><name><surname>Slosman</surname><given-names>D</given-names></name><name><surname>Rizzoli</surname><given-names>R</given-names></name></person-group>
+<article-title>Peak bone mass</article-title>
+<source>Osteoporosis Int</source>
+<year>1994</year>
+<volume>4</volume>
+<issue>1</issue>
+<fpage>7</fpage>
+<lpage>13</lpage>
+</element-citation></ref><ref id="B2"><label>2</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Deal</surname><given-names>C</given-names></name></person-group>
+<article-title>Osteoporosis: Prevention, diagnosis, and management</article-title>
+<source>Am J Med</source>
+<year>1997</year>
+<volume>102</volume>
+<issue>1A</issue>
+<fpage>S35</fpage>
+<lpage>S39</lpage>
+</element-citation></ref><ref id="B3"><label>3</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lysen</surname><given-names>V</given-names></name><name><surname>Walker</surname><given-names>R</given-names></name></person-group>
+<source>J Sch Health</source>
+<article-title>Osteoporosis risk factors in eighth grade students</article-title>
+<year>1997</year>
+<volume>67</volume>
+<issue>8</issue>
+<fpage>317</fpage>
+<lpage>321</lpage>
+<pub-id pub-id-type="pmid">9425605</pub-id></element-citation></ref><ref id="B4"><label>4</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Anderson</surname><given-names>J</given-names></name><name><surname>Rondano</surname><given-names>P</given-names></name><name><surname>Holmes</surname><given-names>A</given-names></name></person-group>
+<article-title>Roles of diet and physical activity on the prevention of osteoporosis</article-title>
+<source>Scand J Rheumatol Suppl</source>
+<year>1996</year>
+<volume>103</volume>
+<fpage>65</fpage>
+<lpage>74</lpage>
+<pub-id pub-id-type="pmid">8966493</pub-id></element-citation></ref><ref id="B5"><label>5</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Teegarden</surname><given-names>D</given-names></name><name><surname>Proulx</surname><given-names>WR</given-names></name><name><surname>Martin</surname><given-names>BR</given-names></name><name><surname>Zhao</surname><given-names>J</given-names></name><name><surname>McCabe</surname><given-names>GB</given-names></name><name><surname>Lyle</surname><given-names>RM</given-names></name><etal/></person-group>
+<article-title>Peak bone mass in young women</article-title>
+<source>J Bone Miner Res</source>
+<year>1995</year>
+<volume>10</volume>
+<issue>5</issue>
+<fpage>711</fpage>
+<lpage>715</lpage>
+<pub-id pub-id-type="pmid">7639106</pub-id></element-citation></ref><ref id="B6"><label>6</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Recker</surname><given-names>RR</given-names></name><name><surname>Davies</surname><given-names>KM</given-names></name><name><surname>Hinders</surname><given-names>SM</given-names></name><name><surname>Heaney</surname><given-names>RP</given-names></name><name><surname>Stegman</surname><given-names>MR</given-names></name><name><surname>Kimmel</surname><given-names>DB</given-names></name></person-group>
+<article-title>Bone gain in young adult women</article-title>
+<source>JAMA</source>
+<year>1992</year>
+<volume>268</volume>
+<issue>17</issue>
+<fpage>2403</fpage>
+<lpage>2408</lpage>
+<pub-id pub-id-type="pmid">1404797</pub-id></element-citation></ref><ref id="B7"><label>7</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Slemenda</surname><given-names>C</given-names></name><name><surname>Reister</surname><given-names>TK</given-names></name><name><surname>Hui</surname><given-names>SL</given-names></name><name><surname>Miller</surname><given-names>JZ</given-names></name><name><surname>Christian</surname><given-names>JC</given-names></name><name><surname>Johnston</surname><given-names>CC</given-names><suffix>Jr</suffix></name></person-group>
+<article-title>Influences on skeletal mineralization in children and adolescents: evidence for varying effects of sexual maturation and physical activity</article-title>
+<source>J Pediatr</source>
+<year>1994</year>
+<volume>125</volume>
+<fpage>201</fpage>
+<lpage>207</lpage>
+<pub-id pub-id-type="pmid">8040762</pub-id></element-citation></ref><ref id="B8"><label>8</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Matkovic</surname><given-names>V</given-names></name></person-group>
+<article-title>Nutrition, genetics and skeletal development</article-title>
+<source>J Am Coll Nutr</source>
+<year>1996</year>
+<volume>15</volume>
+<issue>6</issue>
+<fpage>556</fpage>
+<lpage>569</lpage>
+<pub-id pub-id-type="pmid">8951732</pub-id></element-citation></ref><ref id="B9"><label>9</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bailey</surname><given-names>D</given-names></name></person-group>
+<article-title>The Saskatchewan Pediatric Bone Mineral Accrual Study: bone mineral acquisition during the growing years</article-title>
+<source>Int J Sports Med</source>
+<year>1997</year>
+<volume>18</volume>
+<issue>3</issue>
+<fpage>S191</fpage>
+<lpage>S194</lpage>
+<pub-id pub-id-type="pmid">9272847</pub-id></element-citation></ref><ref id="B10"><label>10</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Barr</surname><given-names>S</given-names></name><name><surname>McKay</surname><given-names>H</given-names></name></person-group>
+<article-title>Nutrition, exercise, and bone status in youth</article-title>
+<source>Int J Sports Med</source>
+<year>1998</year>
+<volume>8</volume>
+<fpage>124</fpage>
+<lpage>142</lpage>
+</element-citation></ref><ref id="B11"><label>11</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>French</surname><given-names>SA</given-names></name><name><surname>Fulkerson</surname><given-names>JA</given-names></name><name><surname>Story</surname><given-names>M</given-names></name></person-group>
+<article-title>Increasing weight-bearing physical activity and calcium intake for bone mass growth in children and adolescents: a review of intervention trials</article-title>
+<source>Prev Med</source>
+<year>2000</year>
+<volume>31</volume>
+<fpage>722</fpage>
+<lpage>731</lpage>
+<pub-id pub-id-type="pmid">11133340</pub-id></element-citation></ref><ref id="B12"><label>12</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ribot</surname><given-names>C</given-names></name><name><surname>Tremollieres</surname><given-names>F</given-names></name><name><surname>Pouilles</surname><given-names>JM</given-names></name></person-group>
+<article-title>Late consequences of a low peak bone mass</article-title>
+<source>Acta Paediatr Suppl</source>
+<year>1995</year>
+<volume>411</volume>
+<fpage>31</fpage>
+<lpage>35</lpage>
+<pub-id pub-id-type="pmid">8563066</pub-id></element-citation></ref><ref id="B13"><label>13</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Riis</surname><given-names>B</given-names></name><name><surname>Hansen</surname><given-names>MA</given-names></name><name><surname>Jensen</surname><given-names>AM</given-names></name><name><surname>Overgaard</surname><given-names>K</given-names></name><name><surname>Christiansen</surname><given-names>C</given-names></name></person-group>
+<article-title>Low bone mass and fast rate of bone loss at menopause: equal risk factors for future fractures: a 15-year follow-up study</article-title>
+<source>Bone</source>
+<year>1996</year>
+<volume>19</volume>
+<fpage>9</fpage>
+<lpage>12</lpage>
+<pub-id pub-id-type="pmid">8830981</pub-id></element-citation></ref><ref id="B14"><label>14</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Seeman</surname><given-names>E</given-names></name><name><surname>Tsalamandris</surname><given-names>C</given-names></name><name><surname>Formica</surname><given-names>C</given-names></name><name><surname>Hopper</surname><given-names>JL</given-names></name><name><surname>McKay</surname><given-names>J</given-names></name></person-group>
+<article-title>Reduced femoral neck bone density in daughters of women with hip fractures: the role of low peak bone density in the pathogenesis of osteoporosis</article-title>
+<source>J Bone Miner Res</source>
+<year>1994</year>
+<volume>9</volume>
+<fpage>739</fpage>
+<lpage>743</lpage>
+<pub-id pub-id-type="pmid">8053404</pub-id></element-citation></ref><ref id="B15"><label>15</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Johnston</surname><given-names>CC</given-names><suffix>Jr</suffix></name><name><surname>Slemenda</surname><given-names>CW</given-names></name></person-group>
+<article-title>Risk assessment: theoretical considerations</article-title>
+<source>Am J Med</source>
+<year>1993</year>
+<volume>95</volume>
+<issue>5A</issue>
+<fpage>S2</fpage>
+<lpage>S5</lpage>
+</element-citation></ref><ref id="B16"><label>16</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Matkovic</surname><given-names>V</given-names></name><name><surname>Kostial</surname><given-names>K</given-names></name><name><surname>Simonovic</surname><given-names>I</given-names></name><name><surname>Buzina</surname><given-names>R</given-names></name><name><surname>Brodarec</surname><given-names>A</given-names></name><name><surname>Nordin</surname><given-names>BE</given-names></name></person-group>
+<article-title>Bone status and fracture rates in two regions of Yugoslavia</article-title>
+<source>Am J Clin Nutr</source>
+<year>1979</year>
+<volume>32</volume>
+<fpage>540</fpage>
+<lpage>549</lpage>
+<pub-id pub-id-type="pmid">420146</pub-id></element-citation></ref><ref id="B17"><label>17</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hui</surname><given-names>SL</given-names></name><name><surname>Slemenda</surname><given-names>CW</given-names></name><name><surname>Johnston</surname><given-names>CC</given-names><suffix>Jr</suffix></name></person-group>
+<article-title>Baseline measurement of bone mass predicts fracture in white women</article-title>
+<source>Ann Intern Med</source>
+<year>1989</year>
+<volume>111</volume>
+<fpage>355</fpage>
+<lpage>361</lpage>
+<pub-id pub-id-type="pmid">2764403</pub-id></element-citation></ref><ref id="B18"><label>18</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wasnich</surname><given-names>R</given-names></name><name><surname>Ross</surname><given-names>PD</given-names></name><name><surname>Davis</surname><given-names>JW</given-names></name><name><surname>Vogel</surname><given-names>JM</given-names></name></person-group>
+<article-title>A comparison of single and multi-site BMC measurements for assessment of spine fracture probability</article-title>
+<source>J Nucl Med</source>
+<year>1989</year>
+<volume>30</volume>
+<fpage>1166</fpage>
+<lpage>1171</lpage>
+<pub-id pub-id-type="pmid">2738698</pub-id></element-citation></ref><ref id="B19"><label>19</label><element-citation publication-type="book">
+<article-title>Food and nutrient intakes by children 1994-96, 1998</article-title>
+<source>U.S. Department of Agriculture, Agricultural Research Service</source>
+<publisher-name>ARS Food Surveys Research Group</publisher-name>
+<publisher-loc>Beltsville (MD)</publisher-loc>
+<year>1999</year>
+</element-citation></ref><ref id="B20"><label>20</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Albertson</surname><given-names>AM</given-names></name><name><surname>Tobelmann</surname><given-names>RC</given-names></name><name><surname>Marquart</surname><given-names>L</given-names></name></person-group>
+<article-title>Estimated dietary calcium intake and food sources for adolescent females: 1980-92</article-title>
+<source>J Adolesc Health</source>
+<year>1997</year>
+<volume>20</volume>
+<fpage>20</fpage>
+<lpage>26</lpage>
+<pub-id pub-id-type="pmid">9007655</pub-id></element-citation></ref><ref id="B21"><label>21</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zive</surname><given-names>MM</given-names></name><name><surname>Nicklas</surname><given-names>TA</given-names></name><name><surname>Busch</surname><given-names>EC</given-names></name><name><surname>Myers</surname><given-names>L</given-names></name><name><surname>Berenson</surname><given-names>GS</given-names></name></person-group>
+<article-title>Marginal vitamin and mineral intakes of young adults: The Bogalusa Heart Study</article-title>
+<source>J Adolesc Health</source>
+<year>1996</year>
+<volume>19</volume>
+<fpage>39</fpage>
+<lpage>47</lpage>
+<pub-id pub-id-type="pmid">8842859</pub-id></element-citation></ref><ref id="B22"><label>22</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Simons-Morton</surname><given-names>BG</given-names></name><name><surname>O&#x02019;Hara</surname><given-names>NM</given-names></name><name><surname>Parcel</surname><given-names>GS</given-names></name><name><surname>Huang</surname><given-names>IW</given-names></name><name><surname>Baranowski</surname><given-names>T</given-names></name><name><surname>Wilson</surname><given-names>B</given-names></name></person-group>
+<article-title>Children's frequency of participation in moderate to vigorous physical activities</article-title>
+<source>Res Q Exerc Sport</source>
+<year>1990</year>
+<volume>61</volume>
+<issue>4</issue>
+<fpage>307</fpage>
+<lpage>314</lpage>
+<pub-id pub-id-type="pmid">2132887</pub-id></element-citation></ref><ref id="B23"><label>23</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pate</surname><given-names>R</given-names></name><name><surname>Long</surname><given-names>B</given-names></name><name><surname>Heath</surname><given-names>G</given-names></name></person-group>
+<article-title>Descriptive epidemiology of physical activity in adolescents</article-title>
+<source>Pediatr Exerc Sci</source>
+<year>1994</year>
+<volume>6</volume>
+<fpage>434</fpage>
+<lpage>447</lpage>
+</element-citation></ref><ref id="B24"><label>24</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sallis</surname><given-names>JF</given-names></name></person-group>
+<article-title>Epidemiology of physical activity and fitness in children and adolescents</article-title>
+<source>Crit Rev Food Sci Nutr</source>
+<year>1993</year>
+<month>Mar</month>
+<volume>33</volume>
+<issue>4-5</issue>
+<fpage>403</fpage>
+<lpage>408</lpage>
+<pub-id pub-id-type="pmid">8357503</pub-id></element-citation></ref><ref id="B25"><label>25</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Duke</surname><given-names>J</given-names></name><name><surname>Huhman</surname><given-names>M</given-names></name><name><surname>Heitzler</surname><given-names>C</given-names></name></person-group>
+<article-title>Physical activity levels among children aged 9-13 years &#x02014; United States, 2002</article-title>
+<source>MMWR Morb Mortal Wkly Rep</source>
+<year>2003</year>
+<volume>52</volume>
+<issue>33</issue>
+<fpage>785</fpage>
+<lpage>788</lpage>
+<pub-id pub-id-type="pmid">12931076</pub-id></element-citation></ref><ref id="B26"><label>26</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Myers</surname><given-names>L</given-names></name><name><surname>Strikmiller</surname><given-names>PK</given-names></name><name><surname>Webber</surname><given-names>LS</given-names></name><name><surname>Berenson</surname><given-names>GS</given-names></name></person-group>
+<article-title>Physical and sedentary activity in school children grades 5-8: the Bogalusa Heart Study</article-title>
+<source>Med Sci Sports Exerc</source>
+<year>1996</year>
+<volume>28</volume>
+<issue>7</issue>
+<fpage>852</fpage>
+<lpage>859</lpage>
+<pub-id pub-id-type="pmid">8832539</pub-id></element-citation></ref><ref id="B27"><label>27</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Trost</surname><given-names>SG</given-names></name><name><surname>Pate</surname><given-names>R</given-names></name><name><surname>Sallis</surname><given-names>JF</given-names></name><name><surname>Freedson</surname><given-names>PS</given-names></name><name><surname>Taylor</surname><given-names>WC</given-names></name><name><surname>Dowda</surname><given-names>M</given-names></name><etal/></person-group>
+<article-title>Age and gender differences in objectively measured physical activity in youth</article-title>
+<source>Med Sci Sport Exerc</source>
+<year>2002</year>
+<volume>34</volume>
+<issue>2</issue>
+<fpage>350</fpage>
+<lpage>355</lpage>
+</element-citation></ref><ref id="B28"><label>28</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Grunbaum</surname><given-names>J</given-names></name><name><surname>Kann</surname><given-names>L</given-names></name><name><surname>Kinchen</surname><given-names>SA</given-names></name><name><surname>Williams</surname><given-names>B</given-names></name><name><surname>Ross</surname><given-names>JG</given-names></name><name><surname>Lowry</surname><given-names>R</given-names></name><etal/></person-group>
+<article-title>Youth risk behavior surveillance &#x02014; United States, 2001</article-title>
+<source>MMWR Surveill Summ</source>
+<year>2002</year>
+<volume>51</volume>
+<issue>4</issue>
+<fpage>1</fpage>
+<lpage>62</lpage>
+</element-citation></ref><ref id="B29"><label>29</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Andersen</surname><given-names>RE</given-names></name><name><surname>Crespo</surname><given-names>CJ</given-names></name><name><surname>Bartlett</surname><given-names>SJ</given-names></name><name><surname>Cheskin</surname><given-names>LJ</given-names></name><name><surname>Pratt</surname><given-names>M</given-names></name></person-group>
+<article-title>Relationship of physical activity and television watching with body weight and level of fatness among children: results from the Third National Health and Nutrition Examination Survey</article-title>
+<source>JAMA</source>
+<year>1998</year>
+<volume>279</volume>
+<issue>12</issue>
+<fpage>938</fpage>
+<lpage>942</lpage>
+<pub-id pub-id-type="pmid">9544768</pub-id></element-citation></ref><ref id="B30"><label>30</label><element-citation publication-type="book">
+<source>Working for children and families: safe and smart after-school programs</source>
+<publisher-name>U.S. Department of Education. U.S. Department of Justice</publisher-name>
+<publisher-loc>Washington (DC)</publisher-loc>
+<year>2000</year>
+</element-citation></ref><ref id="B31"><label>31</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Contento</surname><given-names>I</given-names></name><name><surname>Balch</surname><given-names>GI</given-names></name><name><surname>Bronner</surname><given-names>YL</given-names></name><name><surname>Paige</surname><given-names>DM</given-names></name><name><surname>Gross</surname><given-names>SM</given-names></name><name><surname>Lytle</surname><given-names>LA</given-names></name><etal/></person-group>
+<article-title>Nutrition education for school-age children</article-title>
+<source>J Nutr Ed</source>
+<year>1995</year>
+<volume>27</volume>
+<fpage>298</fpage>
+<lpage>311</lpage>
+</element-citation></ref><ref id="B32"><label>32</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Stone</surname><given-names>EJ</given-names></name><name><surname>McKenzie</surname><given-names>TL</given-names></name><name><surname>Welk</surname><given-names>GJ</given-names></name><name><surname>Booth</surname><given-names>ML</given-names></name></person-group>
+<article-title>Effects of physical activity interventions in youth. Review and synthesis</article-title>
+<source>Am J Prev Med</source>
+<year>1998</year>
+<volume>15</volume>
+<issue>4</issue>
+<fpage>298</fpage>
+<lpage>315</lpage>
+<pub-id pub-id-type="pmid">9838974</pub-id></element-citation></ref><ref id="B33"><label>33</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lytle</surname><given-names>L</given-names></name><name><surname>Achterberg</surname><given-names>C</given-names></name></person-group>
+<article-title>Changing the diet of America's children: what works and why</article-title>
+<source>J Nutr Ed</source>
+<year>1995</year>
+<volume>27</volume>
+<issue>5</issue>
+<fpage>250</fpage>
+<lpage>260</lpage>
+</element-citation></ref></ref-list></back></article>

@@ -1,0 +1,541 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS Comput Biol</journal-id><journal-id journal-id-type="iso-abbrev">PLoS Comput. Biol</journal-id><journal-id journal-id-type="publisher-id">pcbi</journal-id><journal-id journal-id-type="publisher-id">plcb</journal-id><journal-id journal-id-type="pmc">ploscomp</journal-id><journal-title-group><journal-title>PLoS Computational Biology</journal-title></journal-title-group><issn pub-type="ppub">1553-734X</issn><issn pub-type="epub">1553-7358</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">16201008</article-id><article-id pub-id-type="pmc">PMC1239904</article-id><article-id pub-id-type="doi">10.1371/journal.pcbi.0010044</article-id><article-id pub-id-type="publisher-id">05-PLCB-RA-0077R2</article-id><article-id pub-id-type="sici">plcb-01-04-07</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group><subj-group subj-group-type="Discipline"><subject>Bioinformatics - Computational Biology</subject><subject>Evolution</subject><subject>Genetics/Evolution</subject></subj-group><subj-group subj-group-type="System Taxonomy"><subject>Retrotransposons</subject><subject>Alu</subject><subject>Primates</subject><subject>Human Evolution</subject></subj-group></article-categories><title-group><article-title>Modeling the Amplification Dynamics of Human <italic>Alu</italic> Retrotransposons</article-title><alt-title alt-title-type="running-head"><italic>Alu</italic> Retrotransposition Dynamics
+</alt-title></title-group><contrib-group><contrib contrib-type="author" equal-contrib="yes"><name><surname>Hedges</surname><given-names>Dale J</given-names></name><xref ref-type="aff" rid="aff1">1</xref></contrib><contrib contrib-type="author" equal-contrib="yes"><name><surname>Cordaux</surname><given-names>Richard</given-names></name><xref ref-type="aff" rid="aff1">1</xref></contrib><contrib contrib-type="author"><name><surname>Xing</surname><given-names>Jinchuan</given-names></name><xref ref-type="aff" rid="aff1">1</xref></contrib><contrib contrib-type="author"><name><surname>Witherspoon</surname><given-names>David J</given-names></name><xref ref-type="aff" rid="aff2">2</xref></contrib><contrib contrib-type="author"><name><surname>Rogers</surname><given-names>Alan R</given-names></name><xref ref-type="aff" rid="aff3">3</xref></contrib><contrib contrib-type="author"><name><surname>Jorde</surname><given-names>Lynn B</given-names></name><xref ref-type="aff" rid="aff2">2</xref></contrib><contrib contrib-type="author"><name><surname>Batzer</surname><given-names>Mark A</given-names></name><xref ref-type="aff" rid="aff1">1</xref><xref ref-type="corresp" rid="cor1">*</xref></contrib></contrib-group><aff id="aff1"><label>1</label> Department of Biological Sciences, Biological Computation and Visualization Center, Center for Bio-Modular Microsystems, Louisiana State University, Baton Rouge, Louisiana, United States of America
+</aff><aff id="aff2"><label>2</label> Department of Human Genetics<italic>,</italic> University of Utah Health Sciences Center<italic>,</italic> Salt Lake City, Utah, United States of America
+</aff><aff id="aff3"><label>3</label> Department of Anthropology, University of Utah, Salt Lake City, Utah, United States of America
+</aff><contrib-group><contrib contrib-type="editor"><name><surname>Holmes</surname><given-names>Eddie</given-names></name><role>Editor</role><xref ref-type="aff" rid="edit1"/></contrib></contrib-group><aff id="edit1">Pennsylvania State University, United States of America</aff><author-notes><corresp id="cor1">* To whom correspondence should be addressed. E-mail: <email>mbatzer@lsu.edu</email></corresp></author-notes><pub-date pub-type="ppub"><month>9</month><year>2005</year></pub-date><pub-date pub-type="epub"><day>30</day><month>9</month><year>2005</year></pub-date><volume>1</volume><issue>4</issue><elocation-id>e44</elocation-id><history><date date-type="received"><day>15</day><month>4</month><year>2005</year></date><date date-type="accepted"><day>24</day><month>8</month><year>2005</year></date></history><permissions><copyright-statement>Copyright: &#x000a9; 2005 Hedges et al.</copyright-statement><copyright-year>2005</copyright-year><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p></license></permissions><abstract><p>Retrotransposons have had a considerable impact on the overall architecture of the human genome. Currently, there are three lineages of retrotransposons (<italic>Alu,</italic> L1, and SVA) that are believed to be actively replicating in humans. While estimates of their copy number, sequence diversity, and levels of insertion polymorphism can readily be obtained from existing genomic sequence data and population sampling, a detailed understanding of the temporal pattern of retrotransposon amplification remains elusive. Here we pose the question of whether, using genomic sequence and population frequency data from extant taxa, one can adequately reconstruct historical amplification patterns. To this end, we developed a computer simulation that incorporates several known aspects of primate <italic>Alu</italic> retrotransposon biology and accommodates sampling effects resulting from the methods by which mobile elements are typically discovered and characterized. By modeling a number of amplification scenarios and comparing simulation-generated expectations to empirical data gathered from existing <italic>Alu</italic> subfamilies, we were able to statistically reject a number of amplification scenarios for individual subfamilies, including that of a rapid expansion or explosion of <italic>Alu</italic> amplification at the time of human&#x02013;chimpanzee divergence.</p></abstract><abstract abstract-type="synopsis"><title>Synopsis</title><sec id="st1"><title/><p>Nearly 50% of the human genome is composed of mobile elements. While much of this sequence consists of inactive &#x0201c;fossil&#x0201d; elements that are no longer actively moving or generating new copies, three families are currently proliferating in human genomes. Among these, the <italic>Alu</italic> lineage has reached a copy number of over 1 million and alone accounts for approximately 10% of the genome. While considerable evidence has been gathered concerning the underlying biological mechanisms of <italic>Alu</italic> mobilization and proliferation, a detailed understanding of <italic>Alu</italic> amplification history is currently lacking. Researchers are aware, for example, that several thousand <italic>Alu</italic> elements have inserted within the human genome since the divergence of humans and chimpanzees, but how those insertions were distributed over this ~6-million-year time period is currently unknown. In this work, the authors introduce a simulation framework that seeks to incorporate both sequence diversity and empirically gathered population data from human <italic>Alu</italic> elements, in order to provide a better understanding of the last several million years of human <italic>Alu</italic> evolution. The results suggest that a rapid explosion of <italic>Alu</italic> amplification at the time of the human&#x02013;chimpanzee divergence is unlikely. Therefore, it is improbable that an increase in <italic>Alu</italic> retrotransposition activity was involved in the speciation of humans and chimpanzees.</p></sec></abstract><custom-meta-group><custom-meta><meta-name>Citation:</meta-name><meta-value>Hedges DJ, Cordaux R, Xing J, Witherspoon DJ, Rogers AR, et al. (2005) Modeling the amplification dynamics of human <italic>Alu</italic> retrotransposons. PLoS Comput Biol 1(4): e44.</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec id="s1"><title>Introduction</title><p>A collection of evolutionarily recent and older &#x0201c;fossil&#x0201d; mobile element sequences compose more than 45% of the human genome [<xref rid="pcbi-0010044-b01" ref-type="bibr">1</xref>&#x02013;<xref rid="pcbi-0010044-b05" ref-type="bibr">5</xref>]. Along with the recently characterized SVA family, <italic>Alu</italic> and L1 have the distinction of being the only mobile element lineages to be actively proliferating in modern humans [<xref rid="pcbi-0010044-b03" ref-type="bibr">3</xref>,<xref rid="pcbi-0010044-b06" ref-type="bibr">6</xref>,<xref rid="pcbi-0010044-b07" ref-type="bibr">7</xref>]. All three of these lineages belong to the retrotransposon class of mobile elements, replicating themselves via an RNA intermediate [<xref rid="pcbi-0010044-b06" ref-type="bibr">6</xref>,<xref rid="pcbi-0010044-b08" ref-type="bibr">8</xref>]. They differ, however, in that L1 retrotransposons are ~6-kb-long autonomous elements that encode the proteins required for their retrotransposition [<xref rid="pcbi-0010044-b02" ref-type="bibr">2</xref>] while <italic>Alu</italic> and SVA retrotransposons are shorter, non-autonomous elements that are <italic>trans</italic>-mobilized by the L1 protein machinery [<xref rid="pcbi-0010044-b09" ref-type="bibr">9</xref>]. L1 elements have been active in mammalian genomes for the past 150 million years (myrs) and have reached a copy number of ~0.5 million in the human genome, and <italic>Alu</italic> retrotransposons have reached a copy number of ~1.1 million within the past 65 myrs [<xref rid="pcbi-0010044-b01" ref-type="bibr">1</xref>]. By comparison, the SVA lineage is a relative newcomer to the primate lineage, having achieved a copy number of approximately 5,000 copies in the human genome over the last 15 myrs [<xref rid="pcbi-0010044-b07" ref-type="bibr">7</xref>]. Together, the amplification activity of these retrotransposon families has had a substantial impact on their host genomes. In addition to contributing to genome size expansion, they have shaped the architecture of the human genome by mediating genetic exchanges such as duplications, deletions, inversions, transductions, and translocations [<xref rid="pcbi-0010044-b06" ref-type="bibr">6</xref>,<xref rid="pcbi-0010044-b08" ref-type="bibr">8</xref>,<xref rid="pcbi-0010044-b10" ref-type="bibr">10</xref>&#x02013;<xref rid="pcbi-0010044-b17" ref-type="bibr">17</xref>]. L1 and <italic>Alu</italic> have also been implicated in DNA repair [<xref rid="pcbi-0010044-b18" ref-type="bibr">18</xref>] and alteration of gene expression [<xref rid="pcbi-0010044-b02" ref-type="bibr">2</xref>,<xref rid="pcbi-0010044-b19" ref-type="bibr">19</xref>&#x02013;<xref rid="pcbi-0010044-b21" ref-type="bibr">21</xref>]. As they are still actively retrotransposing and thus acting as insertional mutagens, <italic>Alu,</italic> SVA, and L1 elements are responsible for more than 0.5% of all human genetic disorders [<xref rid="pcbi-0010044-b02" ref-type="bibr">2</xref>,<xref rid="pcbi-0010044-b22" ref-type="bibr">22</xref>,<xref rid="pcbi-0010044-b23" ref-type="bibr">23</xref>].</p><p>While much attention has been given to the underlying biology driving retrotransposon expansion in primates, little attempt has been made to assess what can broadly be described as &#x0201c;amplification dynamics.&#x0201d; Under this heading we include the evolutionary window during which lineages were actively retrotransposing, the intensity of retrotransposition, and the degree of rate fluctuation during this period. Notable exceptions to this general dearth of information concerning mobile element amplification dynamics include data for mobile element activity in <italic>Drosophila</italic> species [<xref rid="pcbi-0010044-b24" ref-type="bibr">24</xref>&#x02013;<xref rid="pcbi-0010044-b26" ref-type="bibr">26</xref>]. While a considerable body of theoretical work exists concerning mobile element expansion (e.g., [<xref rid="pcbi-0010044-b27" ref-type="bibr">27</xref>&#x02013;<xref rid="pcbi-0010044-b33" ref-type="bibr">33</xref>]), these models generally focus on element copy number behavior under equilibrium conditions and do not address the impact of diverse amplification histories on sequence composition. The observation of divergent mobile element retrotransposition levels among closely related host species [<xref rid="pcbi-0010044-b24" ref-type="bibr">24</xref>,<xref rid="pcbi-0010044-b34" ref-type="bibr">34</xref>], however, suggests that the assumption of equilibrium may often be unrealistic, as noted in [<xref rid="pcbi-0010044-b35" ref-type="bibr">35</xref>]. A more complete understanding of how mobile element sequence structure and frequencies are influenced by diverse nonequilibrium expansion scenarios would be invaluable for developing realistic models of how transposable elements spread through given taxa.</p><p>The problem we are faced with is how to reconstruct the evolutionary amplification history of a mobile element lineage given only a static snapshot of sequence and polymorphism data from present-day genomes. Previously, efforts used the phylogenetic distribution of mobile element lineages to bound their period of activity in time by the divergence dates of their host taxa (e.g., [<xref rid="pcbi-0010044-b36" ref-type="bibr">36</xref>&#x02013;<xref rid="pcbi-0010044-b38" ref-type="bibr">38</xref>]). While such analyses can provide useful information, particularly where allele frequency information is unavailable, they nevertheless cannot yield the kind of temporal resolution that would be most helpful in understanding the amplification process. For example, we know that some 6,000&#x02013;7,000 <italic>Alu</italic> elements have fixed in the human genome since <italic>Pan troglodytes</italic> and <italic>Homo sapiens</italic> last shared a common ancestor 5&#x02013;8 myrs ago [<xref rid="pcbi-0010044-b39" ref-type="bibr">39</xref>&#x02013;<xref rid="pcbi-0010044-b41" ref-type="bibr">41</xref>], but the temporal pattern of expansion giving rise to these elements remains unknown. Age estimates of individual retrotransposon insertions based on sequence divergence from a consensus typically possess a great degree of uncertainty because of the relatively short sequence lengths of many retrotransposons, particularly among short interspersed elements, as well as because of uncertainty over the accuracy of the consensus &#x0201c;source&#x0201d; sequence used for comparison [<xref rid="pcbi-0010044-b42" ref-type="bibr">42</xref>&#x02013;<xref rid="pcbi-0010044-b45" ref-type="bibr">45</xref>]. In younger, recently active retrotransposon lineages, an additional piece of evidence is at our disposal to aid in reconstructing their amplification history. For these families, we are able to obtain population frequency data for insertions at given loci, which allow estimation of the percentage of polymorphic loci for presence/absence in the corresponding subfamilies (termed in the following text &#x0201c;insertion polymorphism level&#x0201d; [IPL]).</p><p>Alone, sequence diversity and IPL prove insufficient to reconstruct the historical amplification pattern of a mobile element family with any degree of accuracy. When effectively combined, however, we hypothesized that they may serve to narrow the alternative scenarios. We tested this hypothesis by focusing on the <italic>Alu</italic> family of retrotransposons, for which subfamily structure is well characterized and population frequency data are available for a number of distinct subfamilies [<xref rid="pcbi-0010044-b03" ref-type="bibr">3</xref>,<xref rid="pcbi-0010044-b39" ref-type="bibr">39</xref>&#x02013;<xref rid="pcbi-0010044-b41" ref-type="bibr">41</xref>,<xref rid="pcbi-0010044-b46" ref-type="bibr">46</xref>]. Furthermore, <italic>Alu</italic> retrotransposons presented an attractive target for this initial study because, as detailed below, they possess several features that make the process of modeling their retrotransposition more tractable. It was first necessary to determine what set of <italic>Alu</italic> sequence and IPL observations might be expected under various evolutionary amplification patterns. To generate quantitative expectations for these parameters under diverse patterns of expansion, we developed a computer simulation that incorporates established aspects of <italic>Alu</italic> retrotransposon biology (see <xref ref-type="sec" rid="s3">Materials and Methods</xref>). Our simulation also accommodates the effect of significant sampling biases inherent in the way <italic>Alu</italic> elements have been characterized in the human genome. By comparing existing <italic>Alu</italic> sequence diversity and polymorphism levels, we were able to statistically reject multiple amplification scenarios for individual <italic>Alu</italic> subfamilies, resulting in a more refined understanding of the retrotransposition dynamics of human-specific <italic>Alu</italic> subfamilies.</p></sec><sec id="s2"><title>Results/Discussion</title><sec id="s2a"><title>The <italic>Alu</italic> Simulation Framework</title><p>Two fundamental processes underlie the various descriptive statistics that can be tabulated from genomic <italic>Alu</italic> sequences, namely the post-insertion evolution of <italic>Alu</italic> nucleotide sequences and the associated evolution of insertion polymorphism allele frequencies. To make the modeling process more straightforward, we divided these processes into distinct core simulator programs, one to model the behavior of nucleotide sequence and one to model the behavior of inserted retrotransposon allele frequencies. Several of the known properties of <italic>Alu</italic> subfamily structure and sequence mutation patterns were incorporated within the programs (see <xref ref-type="sec" rid="s3">Materials and Methods</xref>). Both programs implement a strict &#x0201c;master gene&#x0201d; model of <italic>Alu</italic> retrotransposition under which a single source element produces inert, non-retrotransposing copies [<xref rid="pcbi-0010044-b47" ref-type="bibr">47</xref>]. While it has been demonstrated that most <italic>Alu</italic> subfamilies deviate from the strict master gene model, this scenario can nevertheless explain the majority of overall subfamily sequence structure [<xref rid="pcbi-0010044-b48" ref-type="bibr">48</xref>]. More importantly, implementing deviations from the master gene model (i.e., secondary and tertiary retrotransposition sources and so on) can lead to exponential copy number increase when limiting factors such as negative selection do not constrain numbers, a scenario which is clearly not historically accurate. In this analysis, we have restricted our simulation to neutrally evolving loci within a panmictic population of constant size. In our model we also assume that retrotransposition rates (RRs) do not fluctuate during the window of time during which retrotransposition occurs.</p><p>The above assumptions are almost certainly oversimplifications, but are necessary to keep the number of amplification scenarios at a manageable level in this initial investigation. We believe the existence of secondary source genes would have a limited impact on our analysis because any secondary source that is active enough to produce appreciable copy numbers would be classified as a separate subfamily under current naming conventions, and it would be analyzed separately in our approach. The effect of population substructure is more difficult to anticipate because the nature of population substructure during the time period in question is largely unknown. Significant population structure would impact the behavior of polymorphisms by extending their average persistence time, affecting the rate of insertion polymorphism decay both during and after transposition. The nature and magnitude of these effects will be the subject of future investigations.</p><p>For both sequence mutation and frequency drift simulations, retrotransposition started at time <italic>t</italic>
+<sub>0</sub> and proceeded at a constant rate for a time window <italic>T</italic>
+<sub>retro</sub>. Thus, given a subfamily copy number <italic>n, T</italic>
+<sub>retro</sub> defines the RR of the simulation (i.e., RR = <italic>n</italic>/<italic>T</italic>
+<sub>retro</sub>). For the sequence mutation simulations, elements were allowed to mutate neutrally from their initial time of retrotransposition until the end of the simulation. <italic>T</italic>
+<sub>mut</sub> represents the total elapsed simulation time, which is also the amount of time the oldest element in the subfamily has been evolving. We have chosen a maximum <italic>T</italic>
+<sub>mut</sub> of 6 myrs, as this roughly corresponds to the human&#x02013;chimpanzee divergence time and, thus, is suitable for investigating the amplification dynamics of recent human <italic>Alu</italic> subfamilies. During the course of each run, sequence variation and allele frequency statistics (described in detail below) were calculated at 100,000-y observation intervals. One thousand replicates were performed under each of seven basic amplification models (M0 to M6), ranging from M0, which has an instantaneous burst of insertion activity generating all subfamily members, to M6, in which new retrotransposition events occur at a uniform rate from the beginning of the subfamily throughout the entire simulation of 6 myrs. Intermediate models (M1 to M5), in which amplification occurred for 1 to 5 myrs and then ceased, were also evaluated. Simulations were performed using a human effective population size (<italic>N</italic>
+<sub>e</sub>) of 10,000 individuals and a generation time of 25 y. To assess the impact of alternative values for <italic>N</italic>
+<sub>e</sub> and generation time, we also performed simulations using <italic>N</italic>
+<sub>e</sub> values of 5,000, 15,000, and 20,000 individuals as well as generation times of 20 and 30 y.</p></sec><sec id="s2b"><title>Amplification History and Sequence Variation</title><p>As an estimator of <italic>Alu</italic> subfamily sequence variation, we used the parameter &#x003c0;, which is defined as the mean number of nucleotide differences observed among all pairs of <italic>Alu</italic> sequences in the subfamily [<xref rid="pcbi-0010044-b49" ref-type="bibr">49</xref>]. For example, a &#x003c0; value of three means that there are, on average, three nucleotide differences between any two <italic>Alu</italic> sequences in the subfamily. Means, modes, and standard deviations for &#x003c0; were calculated across all replicates (available at <ext-link ext-link-type="uri" xlink:href="http://batzerlab.lsu.edu">http://batzerlab.lsu.edu</ext-link>). In addition to &#x003c0;, we evaluated the use of the mismatch distribution raggedness index as a metric of sequence diversity [<xref rid="pcbi-0010044-b50" ref-type="bibr">50</xref>], but its informativeness proved limited for our purposes, and it was excluded from subsequent analyses.</p><p>As expected, mean &#x003c0; values increased linearly with time in our simulation (<xref ref-type="fig" rid="pcbi-0010044-g001">Figure 1</xref>A). The effect of retrotransposition during <italic>T</italic>
+<sub>retro</sub> is to slow the rate of increase in &#x003c0;. In scenarios M1 through M6, where retrotransposition occurs for a period of time then ceases, the rate of &#x003c0; increase becomes steeper (though still linear) immediately following the cessation of retrotransposition (<xref ref-type="fig" rid="pcbi-0010044-g001">Figure 1</xref>A). A clear relationship exists between sequence diversity and the particular amplification model of the family. For example, a scenario with a burst of retrotransposition followed by dormancy leads to higher &#x003c0; values than scenarios where RR has been uniform over long periods of time. This result is intuitive, as any scenario resulting in an increased element insertion number earlier in a subfamily's history will result in additional opportunity for mutation and consequently higher &#x003c0; values. The problem, however, is that when evaluating real mobile element data, the time of onset of retrotransposition (i.e., the beginning of <italic>T</italic>
+<sub>retro</sub>) is typically unknown. From examining <xref ref-type="fig" rid="pcbi-0010044-g001">Figure 1</xref>A, it is evident that any value of &#x003c0; can be obtained by any model, provided that an appropriate amount of time (<italic>T</italic>
+<sub>mut</sub>) has elapsed prior to the point of observation. Thus, although &#x003c0; is directly influenced by the particular amplification history, it cannot be used to infer that history without additional information.</p><fig id="pcbi-0010044-g001" position="float"><label>Figure 1</label><caption><title>Temporal Variation of Subfamily Sequence Variation &#x003c0; and IPL</title><p>Results for three expansion models are shown, in which retrotransposition activity was instantaneous (M0) or lasted for 3 (M3) or 6 (M6) myrs. Variation in &#x003c0; (A) is slowed during retrotransposition, but increases immediately upon the cessation of retrotransposition. Rate of IPL decay (B) is attenuated during retrotransposition activity but increases once retrotransposition ends.</p></caption><graphic xlink:href="pcbi.0010044.g001"/></fig></sec><sec id="s2c"><title>
+<italic>Alu</italic> Insertion Polymorphism</title><p>In addition to &#x003c0;, we also modeled the behavior of IPL, which indicates the percentage of polymorphic insertion loci in a subfamily. Like &#x003c0;, IPL is expected to be influenced by both the age of the subfamily and its historical pattern of retrotransposition. <xref ref-type="fig" rid="pcbi-0010044-g001">Figure 1</xref>B illustrates the decay of IPL over time under models M0, M3, and M6. As might be expected, ongoing retrotransposition in a mobile element family slows the rate of IPL decay by providing an influx of new polymorphisms. When retrotransposition ceases, IPL falls relatively rapidly over the course of approximately 1 myrs. This rate of IPL breakdown is consistent with the expected on average 1-myr coalescence time (4<italic>N</italic>
+<sub>e</sub> generations, where <italic>N</italic>
+<sub>e</sub> is the effective population size) for our simulated human effective population size of 10,000 individuals. As with &#x003c0;, there is clearly an effect of amplification history on IPL values, with IPL values remaining higher for those families whose <italic>T</italic>
+<sub>retro</sub> windows extended closer to the present day. But also, as is the case with &#x003c0;, any scenario can yield a given IPL value depending on what time point (<italic>T</italic>
+<sub>mut</sub> value) is being sampled. A researcher examining empirical <italic>Alu</italic> frequency data does not know what position his or her data occupy on the timeline of the model of retrotransposition being considered (<xref ref-type="fig" rid="pcbi-0010044-g001">Figure 1</xref>B). Yet, as we demonstrate below, for a given model there exists a set of IPL and &#x003c0; parameters that are mutually exclusive across a range of time points. As a consequence, by combining the &#x003c0; and IPL statistics, one can effectively narrow the possible range of amplification histories for a given <italic>Alu</italic> subfamily.</p></sec><sec id="s2d"><title>Inferring Amplification Scenarios from Genomic <italic>Alu</italic> Data</title><p>Plots of IPL versus &#x003c0; for equivalent time points over the course of seven amplification scenarios (i.e., models M0&#x02013;M6) are shown in <xref ref-type="fig" rid="pcbi-0010044-g002">Figure 2</xref>, based on a generation time of 25 y and an effective population size of 10,000 individuals. The 95% confidence intervals, generated from 1,000 simulation replicates, are represented as the bounded area in each graph (see <xref ref-type="sec" rid="s3">Materials and Methods</xref>). In addition, &#x003c0; values were estimated for ten human <italic>Alu</italic> subfamilies for which IPL data are available (<xref ref-type="table" rid="pcbi-0010044-t001">Table 1</xref>). These data were collected from subsets of elements from the respective polymorphic subfamilies for which population data were available. For each of these subfamilies, the relationship between IPL and &#x003c0; is indicated in <xref ref-type="fig" rid="pcbi-0010044-g002">Figure 2</xref>. In our analysis, if a subfamily's IPL versus &#x003c0; point falls within the 95% confidence interval of a given model's results, the model cannot be excluded as a possible amplification pattern (see <xref ref-type="sec" rid="s3">Materials and Methods</xref> for details). Conversely, when a subfamily's data point falls outside the bounded area, that model can be excluded for the subfamily in question.</p><fig id="pcbi-0010044-g002" position="float"><label>Figure 2</label><caption><title>Distribution of Subfamily Sequence Variation &#x003c0; (<italic>x</italic>-Axis) versus IPL (<italic>y</italic>-Axis)</title><p>Expectations based on 1,000 replicates of expansion models M0&#x02013;M6. Shaded area in each plot indicates 95% of resulting values for each model. Observed (&#x003c0; and IPL) values for ten recent human <italic>Alu</italic> subfamilies are shown as black diamonds. These results are based on a generation time of 25 y and an effective population size of 10,000 individuals.</p></caption><graphic xlink:href="pcbi.0010044.g002"/></fig><table-wrap id="pcbi-0010044-t001" content-type="2col" position="float"><label>Table 1</label><caption><p>
+<italic>Alu</italic> Subfamily Diversity (&#x003c0;) and IPL Parameters and Their Age under Different Models of Amplification</p></caption><graphic xlink:href="pcbi.0010044.t001"/></table-wrap></sec><sec id="s2e"><title>Impact of Effective Population Size and Generation Time Parameters</title><p>Our initial simulation replicates were conducted under the conditions of a 25-y generation time and effective population size of 10,000 breeding individuals. While these represent commonly accepted values for these parameters, we also investigated the impact of a broader range of generation times (20 and 30 y) and <italic>N</italic>
+<sub>e</sub> (5,000, 15,000, and 20,000) on the simulations. For <italic>N</italic>
+<sub>e</sub> = 5,000, our models fail to encompass most of the observed data for extant <italic>Alu</italic> subfamilies (<xref ref-type="supplementary-material" rid="pcbi-0010044-sg001">Figure S1</xref>; <xref ref-type="supplementary-material" rid="pcbi-0010044-st001">Table S1</xref>). This is not unexpected, as this <italic>N</italic>
+<sub>e</sub> value is approximately half that of most literature estimates. Likewise, <italic>N</italic>
+<sub>e</sub> = 20,000 yields IPL and &#x003c0; values that are largely not concordant with observed <italic>Alu</italic> subfamily data (<xref ref-type="supplementary-material" rid="pcbi-0010044-sg002">Figure S2</xref>; <xref ref-type="supplementary-material" rid="pcbi-0010044-st001">Table S1</xref>). <italic>N</italic>
+<sub>e</sub> values of 10,000 and 15,000 individuals manage to encompass the majority of observed <italic>Alu</italic> data points (<xref ref-type="fig" rid="pcbi-0010044-g002">Figures 2</xref> and <xref ref-type="supplementary-material" rid="pcbi-0010044-sg003">S3</xref>; <xref ref-type="table" rid="pcbi-0010044-t001">Tables 1</xref> and <xref ref-type="supplementary-material" rid="pcbi-0010044-st001">S1</xref>). In this respect, the behavior of our simulations is congruent with current literature estimates, which place the human <italic>N</italic>
+<sub>e</sub> on the order of 10,000 to 15,000 individuals [<xref rid="pcbi-0010044-b51" ref-type="bibr">51</xref>&#x02013;<xref rid="pcbi-0010044-b53" ref-type="bibr">53</xref>].</p><p>Altering the generation time also had an appreciable effect on simulation behavior by shifting the timescale of the simulated data. While a generation time of 20 y did not perform very well (<xref ref-type="supplementary-material" rid="pcbi-0010044-sg004">Figure S4</xref>; <xref ref-type="supplementary-material" rid="pcbi-0010044-st002">Table S2</xref>), our models were generally able to encompass more observed <italic>Alu</italic> subfamily data under generation time parameters of 25 and 30 y (<xref ref-type="fig" rid="pcbi-0010044-g002">Figures 2</xref> and <xref ref-type="supplementary-material" rid="pcbi-0010044-sg005">S5</xref>; <xref ref-type="table" rid="pcbi-0010044-t001">Tables 1</xref> and <xref ref-type="supplementary-material" rid="pcbi-0010044-st002">S2</xref>). Such values lie within the range of currently estimated values for ancestral generation times spanning the relevant period ([<xref rid="pcbi-0010044-b54" ref-type="bibr">54</xref>] and references therein). Also, as discussed below, a higher generation time parameter of 30 y has the effect of bringing <italic>Alu</italic> subfamily age estimates derived from our simulation closer in line with previous literature values determined by other methods.</p></sec><sec id="s2f"><title>Estimating the Age of <italic>Alu</italic> Subfamilies</title><p>Once improbable amplification scenarios are excluded (<xref ref-type="table" rid="pcbi-0010044-t001">Tables 1</xref>, <xref ref-type="supplementary-material" rid="pcbi-0010044-st001">S1</xref>, and <xref ref-type="supplementary-material" rid="pcbi-0010044-st002">S2</xref>), it is possible to determine time periods of amplification for subfamilies that are compatible with both their &#x003c0; and IPL values. By using the present time as a point of reference (i.e., <italic>T</italic>
+<sub>mut</sub> = present), it is further possible to infer the age of the subfamilies. <xref ref-type="fig" rid="pcbi-0010044-g003">Figure 3</xref> illustrates this process. In this example, the Ya5a2 subfamily has a &#x003c0; value (0.65) that is consistent with an age ranging from 0.6 to 1.0 myrs before present under M4 (<italic>N</italic>
+<sub>e</sub> = 10,000, generation time = 25 y). Within that range, the Ya5a2 IPL value is only compatible with 0.7 to 1.0 myrs before present. Estimated age ranges that are consistent with both &#x003c0; and IPL for all <italic>Alu</italic> subfamilies analyzed in this study under a generation time of 25 y and <italic>N</italic>
+<sub>e</sub> of 10,000 are given in <xref ref-type="table" rid="pcbi-0010044-t001">Table 1</xref>. We note here that <italic>Alu</italic> subfamily age estimates derived in this study are generally higher than those reported in previous literature [<xref rid="pcbi-0010044-b42" ref-type="bibr">42</xref>]. However, the age estimates obtained from sequence diversity alone typically have large standard deviations [<xref rid="pcbi-0010044-b42" ref-type="bibr">42</xref>] that overlap with our estimates derived from both sequence diversity and IPL. This might indicate that time estimates derived from sequence diversity alone may underestimate the true ages of the subfamilies. Nevertheless, alternative values of <italic>N</italic>
+<sub>e</sub> and generation time also have an impact on the potential age of the subfamily as estimated by our method. For example, when age calculations are made using a generation time of 30 y, our age estimates more closely approximate those of previous literature.</p><fig id="pcbi-0010044-g003" position="float"><label>Figure 3</label><caption><title>Estimation of the Age of the Ya5a2 <italic>Alu</italic> Subfamily under Simulation M4</title><p>In M4, <italic>N</italic>
+<sub>e</sub> is 10,000 and generation time is 25 y. Data are based on observed subfamily sequence variation &#x003c0; and IPL parameters. Time estimates consistent with &#x003c0; and IPL values are indicated in boxes. The bold double arrow indicates age estimates concordant with both parameters.</p></caption><graphic xlink:href="pcbi.0010044.g003"/></fig><p>Our results suggest that, while a range of retrotransposition scenarios remain possible for each subfamily, some alternatives can be statistically rejected. Notably, when using standard values for effective population size (<italic>N</italic>
+<sub>e</sub> =10,000) and generation time (25 y), our results exclude the possibility that the majority of human <italic>Alu</italic> insertions occurred during a brief, intense burst of retrotransposition activity after the divergence between humans and chimpanzees. Such a scenario, intermediate between M1 and M0 (instantaneous) results in an IPL versus &#x003c0; distribution well outside the observed data points (see <xref ref-type="fig" rid="pcbi-0010044-g002">Figure 2</xref>). This result is well supported because variation in effective population size and generation time leads to the same conclusion (<xref ref-type="supplementary-material" rid="pcbi-0010044-sg001">Figures S1</xref>&#x02013;<xref ref-type="supplementary-material" rid="pcbi-0010044-sg005">S5</xref>). Thus, these analyses provide evidence against the notion of a burst of retrotransposition at or near the human&#x02013;chimpanzee divergence. This result is consistent with a previous study [<xref rid="pcbi-0010044-b34" ref-type="bibr">34</xref>], which suggested that the marked increase in human <italic>Alu</italic> fixation events with respect to chimpanzee was initiated within the past 4 myrs. The involvement of mobile element amplification activity in the formation of reproductive barriers, and hence speciation, has received a fair amount of attention [<xref rid="pcbi-0010044-b55" ref-type="bibr">55</xref>&#x02013;<xref rid="pcbi-0010044-b58" ref-type="bibr">58</xref>], although definitive evidence is lacking. The discovery of high levels of mobile element activity in humans compared to chimpanzees [<xref rid="pcbi-0010044-b34" ref-type="bibr">34</xref>,<xref rid="pcbi-0010044-b59" ref-type="bibr">59</xref>] has invited speculation as to whether or not the <italic>Alu</italic> retrotransposition increase might have been involved in the speciation of humans and chimpanzees [<xref rid="pcbi-0010044-b59" ref-type="bibr">59</xref>]. While our present results do not support an increase in mobile element activity at the time of the human&#x02013;chimpanzee divergence, they do not exclude the possibility of such an event during a later hominid speciation event. Furthermore, the possibility remains that an extended simulation model, one that accounts for additional biological and spatial parameters, may generate results that are consistent with a retrotransposon burst at the time of speciation.</p></sec><sec id="s2g"><title>Conclusion</title><p>We have demonstrated that it is possible to mine information concerning the amplification history of a retrotransposon subfamily from present-day genomic and population data. Overall, there appears to be heterogeneity in both the timing and intensity of human <italic>Alu</italic> subfamily activity. Our simulations do not presently accommodate the influence of host population subdivision, RR fluctuations (i.e., rate heterogeneity) over time, and selection on patterns of retrotransposon evolution. All of these phenomena will likely have some bearing on the nucleotide divergence and IPL, although the extent of that influence is difficult to anticipate. We plan to extend our simulations to encompass these and other potentially relevant phenomena in further studies. Nevertheless, the present analyses do indicate that the combination of retrotransposon sequence divergence and subfamily polymorphism information has the potential to reveal information about the historical dynamics of mobile element amplification that has thus far remained inaccessible. In particular, by applying our method we are able to rigorously address the issue of the time window during which amplification occurred. A more detailed account of the history of retrotransposon activity will allow for a better understanding of the forces that influence mobile element activity across diverse taxa.</p></sec></sec><sec id="s3"><title>Materials and Methods</title><sec id="s3a"><title>Simulating <italic>Alu</italic> sequence evolution.</title><p>We developed a simulator of <italic>Alu</italic> sequence evolution that takes into account most of the major known properties of <italic>Alu</italic> elements in terms of subfamily structure and sequence mutation patterns. Specifically, <italic>Alu</italic> elements begin accumulating nucleotide substitutions stochastically, starting at the time of retrotransposition and until the end of the simulation. Nucleotide substitution was simulated using the Kimura two-parameter reversible mutation model, a neutral mutation rate at non-CpG dinucleotides of 0.0015 mutations/site/myrs [<xref rid="pcbi-0010044-b60" ref-type="bibr">60</xref>] and a transition to transversion ratio of four. To accommodate the known mutation bias for <italic>Alu</italic> CpG dinucleotides as a result of the deamination of methylated cytosines, CpG dinucleotides were allowed to mutate at a 6-fold higher rate than non-CpG dinucleotides [<xref rid="pcbi-0010044-b42" ref-type="bibr">42</xref>]. To make the modeling process more computationally tractable, we assumed a scenario of <italic>Alu</italic> subfamily evolution in which <italic>Alu</italic> retrotransposition followed a strict master gene model, with a lone, non-mutating source sequence generating offspring that were incapable of additional retrotransposition. We also considered the <italic>Alu</italic> expansion to have occurred in a single, representative genome, with each successful retrotransposition event equivalent to a &#x0201c;substitution&#x0201d; event at the population level. This allowed for combining <italic>Alu</italic> retrotransposition events with standard methods for calculating substitution probabilities, greatly reducing simulation complexity and computational time.</p></sec><sec id="s3b"><title>Decay of IPLs.</title><p>To study the evolution of IPL during the transposition process, we modeled the behavior of IPL under the same model conditions as &#x003c0; (i.e., M0 through M6, as described above). Given the low probability of fixation for each initial insertion event (1/2<italic>N</italic>
+<sub>e</sub>), several million retrotransposition events must ultimately be followed in order to achieve final subfamily copy numbers comparable to those observed in the human genome. In each model, 7 million insertion events occurring over various windows of time were used to yield approximately 350 fixed elements. To reduce computational time, Kimura's recursion approximation of the diffusion process was used to simulate the neutral drift of retrotransposed elements [<xref rid="pcbi-0010044-b61" ref-type="bibr">61</xref>]. The absorption boundaries [0,1] at which alleles were lost or fixed, respectively, were adjusted slightly to compensate for disparities between the continuous results from the recursion equation and the discrete frequencies that real-world alleles can assume. (The continuous values between zero and 1/2<italic>N</italic>
+<sub>e</sub> are possible return values from the recursion, but not realistic allele frequencies.) A generation time of 25 y and effective population size of 10,000 interbreeding individuals was used. To address uncertainty surrounding ancestral human generation times and effective population sizes, the effects of a range of generation times (20, 25, and 30 y) and effective population sizes (5,000, 10,000, 15,000, and 20,000) were investigated. At the onset of the simulation, the number of retrotranspositions per time increment required to achieve the 7 million insertion target was calculated. Allele frequencies were allowed to drift randomly both during and after transposition windows, and IPL values were calculated and reported at 100,000-y intervals.</p></sec><sec id="s3c"><title>Accounting for IPL sampling effects.</title><p>To adequately model the element copy number and IPL values observed in the human genome, the manner in which genomic elements are ascertained and characterized was also incorporated into the simulation. The population sample size from which most <italic>Alu</italic> elements have so far been initially discovered is effectively a single individual (i.e., the human genome draft sequence), and, consequently, a considerable number of polymorphic elements will remain unobserved. When simulating the observed IPL value, the effect of ascertaining elements from a single individual must be accommodated. In order to do so, the number of polymorphic elements that were reported as &#x0201c;observed&#x0201d; at any given time during the simulation was determined by effectively sampling a single individual from the simulated population. In this step, the detection of a given <italic>Alu</italic> insertion polymorphism within that individual was stochastically determined, with the probability of observing a given insertion being proportional to the frequency of the insertion in the population. The simulations were implemented in a set of C language programs with assisting Perl scripts and are available at <ext-link ext-link-type="uri" xlink:href="http://batzerlab.lsu.edu">http://batzerlab.lsu.edu</ext-link>.</p></sec><sec id="s3d"><title>Statistical evaluation of models.</title><p>Models were excluded or not excluded based on 95% confidence intervals generated through simulation. For each model scenario (M0 to M6), 1,000 replicates were simulated. IPL and &#x003c0; values were calculated at 100,000-y intervals for the simulated datasets, and the lower and upper 1.265 percentiles were used to determine the 95% confidence interval. Boundary values for 95% confidence interval were adjusted for the effect of two independent tests of the IPL and &#x003c0; parameters resulting from the model. Here, the probability of falling outside the range of some percentage, <italic>X,</italic> of the simulated data twice (two tests) is given by 1 &#x02013; (1 &#x02212; <italic>X</italic>)<sup>2</sup>. To determine the boundaries that would be appropriate at the 5% significance level, we solved the equation 1 &#x02013; (1 &#x02212; <italic>X</italic>)<sup>2</sup> = 0.05, yielding <italic>X</italic> = 0.0253. Upper and lower boundaries were then 0.0253/2 = 0.01265. &#x003c0; versus IPL values for real <italic>Alu</italic> subfamilies were then plotted together with the simulated data. If a given subfamily's &#x003c0; versus IPL data fell outside the 95% confidence interval of a given model, the model was rejected for that subfamily.</p></sec><sec id="s3e"><title>Evaluating the impact of subfamily size.</title><p>All the analyses above were conducted using subfamily copy numbers of approximately 350 elements for the nucleotide evolution simulation and 7 million insertion events (corresponding to ~350 fixations) for IPL modeling. To assess the impact of subfamily size on the behavior of &#x003c0;, we simulated sequence evolution for <italic>T</italic>
+<sub>mut</sub> = 2 myrs in an <italic>Alu</italic> subfamily having generated <italic>n</italic> = 50, 100, 200, and 400 copies under a retrotransposition model where all elements were produced at <italic>t</italic>
+<sub>0</sub> (i.e., <italic>T</italic>
+<sub>retro</sub> = 0). We performed 100 simulation replicates for each value of <italic>n</italic>. We found that the major effect of increasing <italic>n</italic> was to decrease the standard deviation of &#x003c0; among trials, but otherwise copy number had little impact on the behavior of &#x003c0; over time (<xref ref-type="fig" rid="pcbi-0010044-g004">Figure 4</xref>). The reduction of between-trial variance due to increasing family size stabilized at copy numbers greater than 100 elements. We therefore ran the all simulations described above using <italic>n</italic> = 350 elements, a number that is in the same order of magnitude of size as most of the observed <italic>Alu</italic> subfamilies used in our study. Similar tests were conducted for IPL simulations using alternate insertion numbers (1 million, 5 million, and 10 million). While some subfamilies in the study, namely Ya5 and Yb8, are considerably larger than 350 in observed copy number, experimentation with copy numbers as high as 5,000 demonstrate that higher subfamily sizes reduces between-replicate variance (data not shown).</p><fig id="pcbi-0010044-g004" position="float"><label>Figure 4</label><caption><title>Impact of Subfamily Copy Number <italic>(n)</italic> on the Sequence Variation &#x003c0; Parameter</title><p>Increasing subfamily size beyond 100 copies had little effect on between-replicate variation.</p></caption><graphic xlink:href="pcbi.0010044.g004"/></fig></sec></sec><sec sec-type="supplementary-material" id="s4"><title>Supporting Information</title><supplementary-material content-type="local-data" id="pcbi-0010044-sg001"><label>Figure S1</label><caption><title>Distribution of Subfamily Sequence Variation &#x003c0; (<italic>x</italic>-Axis) versus IPL (<italic>y</italic>-Axis): Generation Time of 25 y and <italic>N</italic>
+<sub>e</sub> of 5,000 Individuals</title><p>Expectations based on 1,000 replicates of expansion models M0&#x02013;M6. The two lines indicate the boundaries of the 95% confidence interval for each model. Observed (&#x003c0; and IPL) values for ten recent human <italic>Alu</italic> subfamilies are shown as black diamonds (see legend of <xref ref-type="fig" rid="pcbi-0010044-g002">Figure 2</xref>).</p><p>(3325 KB TIF)</p></caption><media xlink:href="pcbi.0010044.sg001.tif"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pcbi-0010044-sg002"><label>Figure S2</label><caption><title>Distribution of Subfamily Sequence Variation &#x003c0; (<italic>x</italic>-Axis) versus IPL (<italic>y</italic>-Axis): Generation Time of 25 y and <italic>N</italic>
+<sub>e</sub> of 20,000 Individuals</title><p>Expectations based on 1,000 replicates of expansion models M0&#x02013;M6. The two lines indicate the boundaries of the 95% confidence interval for each model. Observed (&#x003c0; and IPL) values for ten recent human <italic>Alu</italic> subfamilies are shown as black diamonds (see legend of <xref ref-type="fig" rid="pcbi-0010044-g002">Figure 2</xref>).</p><p>(3.3 MB TIF)</p></caption><media xlink:href="pcbi.0010044.sg002.tif"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pcbi-0010044-sg003"><label>Figure S3</label><caption><title>Distribution of Subfamily Sequence Variation &#x003c0; (<italic>x</italic>-Axis) versus IPL (<italic>y</italic>-Axis): Generation Time of 25 y and <italic>N</italic>
+<sub>e</sub> of 15,000 Individuals</title><p>Expectations based on 1,000 replicates of expansion models M0&#x02013;M6. The two lines indicate the boundaries of the 95% confidence interval for each model. Observed (&#x003c0; and IPL) values for ten recent human <italic>Alu</italic> subfamilies are shown as black diamonds (see legend of <xref ref-type="fig" rid="pcbi-0010044-g002">Figure 2</xref>).</p><p>(3.3 MB TIF)</p></caption><media xlink:href="pcbi.0010044.sg003.tif"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pcbi-0010044-sg004"><label>Figure S4</label><caption><title>Distribution of Subfamily Sequence Variation &#x003c0; (<italic>x</italic>-Axis) versus IPL (<italic>y</italic>-Axis): Generation Time of 20 y and <italic>N</italic>
+<sub>e</sub> of 10,000 Individuals</title><p>Expectations based on 1,000 replicates of expansion models M0&#x02013;M6. The two lines indicate the boundaries of the 95% confidence interval for each model. Observed (&#x003c0; and IPL) values for ten recent human <italic>Alu</italic> subfamilies are shown as black diamonds (see legend of <xref ref-type="fig" rid="pcbi-0010044-g002">Figure 2</xref>).</p><p>(3.4 MB TIF)</p></caption><media xlink:href="pcbi.0010044.sg004.tif"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pcbi-0010044-sg005"><label>Figure S5</label><caption><title>Distribution of Subfamily Sequence Variation &#x003c0; (<italic>x</italic>-Axis) versus IPL (<italic>y</italic>-Axis): Generation Time of 30 y and <italic>N</italic>
+<sub>e</sub> of 10,000 Individuals</title><p>Expectations based on 1,000 replicates of expansion models M0&#x02013;M6. The two lines indicate the boundaries of the 95% confidence interval for each model. Observed (&#x003c0; and IPL) values for ten recent human <italic>Alu</italic> subfamilies are shown as black diamonds (see legend of <xref ref-type="fig" rid="pcbi-0010044-g002">Figure 2</xref>).</p><p>(3.4 MB TIF)</p></caption><media xlink:href="pcbi.0010044.sg005.tif"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pcbi-0010044-st001"><label>Table S1</label><caption><title>
+<italic>Alu</italic> Subfamily Compatibility with Different Retrotransposition Models (M0&#x02013;M6) for Different Effective Population Sizes (<italic>N</italic>
+<sub>e</sub>) and a Generation Time of 25 y</title><p>(72 KB DOC)</p></caption><media xlink:href="pcbi.0010044.st001.doc"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pcbi-0010044-st002"><label>Table S2</label><caption><title>
+<italic>Alu</italic> Subfamily Compatibility with Different Retrotransposition Models (M0&#x02013;M6) for Different Generation Times and an Effective Population Size of 10,000 Individuals</title><p>(56 KB DOC)</p></caption><media xlink:href="pcbi.0010044.st002.doc"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack><p>We thank Dr. Scott W. Herke for comments on an earlier version of the manuscript. This research was supported by Louisiana Board of Regents Millennium Trust Health Excellence Fund HEF (2000&#x02013;05)-05 (MAB), (2000&#x02013;05)-01 (MAB), and (2001&#x02013;06)-02 (MAB); National Institutes of Health RO1 GM59290 (LBJ and MAB); National Science Foundation BCS-0218338 (MAB), BCS-0218370 (LBJ) and EPS-0346411 (MAB); and the State of Louisiana Board of Regents Support Fund (MAB).</p></ack><fn-group><fn id="ack1" fn-type="COI-statement"><p>
+<bold>Competing interests.</bold> The authors have declared that no competing interests exist.</p></fn><fn id="ack2" fn-type="con"><p>
+<bold>Author contributions.</bold> DJH and RC conceived and designed the experiments. DJH performed the experiments. DJH, RC, JX, DJW, ARR, LBJ, and MAB analyzed the data. LBJ and MAB contributed reagents/materials/analysis tools. DJH and RC wrote the paper.</p></fn></fn-group><glossary><title>Abbreviations</title><def-list><def-item><term>IPL</term><def><p>insertion polymorphism level</p></def></def-item><def-item><term>M[number]</term><def><p>model [number]</p></def></def-item><def-item><term>myrs</term><def><p>million years</p></def></def-item><def-item><term>RR</term><def><p>retrotransposition rate</p></def></def-item></def-list></glossary><ref-list><title>References</title><ref id="pcbi-0010044-b01"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lander</surname><given-names>ES</given-names></name><name><surname>Linton</surname><given-names>LM</given-names></name><name><surname>Birren</surname><given-names>B</given-names></name><name><surname>Nusbaum</surname><given-names>C</given-names></name><name><surname>Zody</surname><given-names>MC</given-names></name><etal/></person-group>
+<year>2001</year>
+<article-title>Initial sequencing and analysis of the human genome</article-title>
+<source>Nature</source>
+<volume>409</volume>
+<fpage>860</fpage>
+<lpage>921</lpage>
+<pub-id pub-id-type="pmid">11237011</pub-id></element-citation></ref><ref id="pcbi-0010044-b02"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ostertag</surname><given-names>EM</given-names></name><name><surname>Kazazian</surname><given-names>HH</given-names><suffix>Jr</suffix></name></person-group>
+<year>2001</year>
+<article-title>Biology of mammalian L1 retrotransposons</article-title>
+<source>Annu Rev Genet</source>
+<volume>35</volume>
+<fpage>501</fpage>
+<lpage>538</lpage>
+<pub-id pub-id-type="pmid">11700292</pub-id></element-citation></ref><ref id="pcbi-0010044-b03"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Batzer</surname><given-names>MA</given-names></name><name><surname>Deininger</surname><given-names>PL</given-names></name></person-group>
+<year>2002</year>
+<article-title>Alu repeats and human genomic diversity</article-title>
+<source>Nat Rev Genet</source>
+<volume>3</volume>
+<fpage>370</fpage>
+<lpage>379</lpage>
+<pub-id pub-id-type="pmid">11988762</pub-id></element-citation></ref><ref id="pcbi-0010044-b04"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Smit</surname><given-names>AF</given-names></name></person-group>
+<year>1999</year>
+<article-title>Interspersed repeats and other mementos of transposable elements in mammalian genomes</article-title>
+<source>Curr Opin Genet Dev</source>
+<volume>9</volume>
+<fpage>657</fpage>
+<lpage>663</lpage>
+<pub-id pub-id-type="pmid">10607616</pub-id></element-citation></ref><ref id="pcbi-0010044-b05"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jurka</surname><given-names>J</given-names></name></person-group>
+<year>2004</year>
+<article-title>Evolutionary impact of human Alu repetitive elements</article-title>
+<source>Curr Opin Genet Dev</source>
+<volume>14</volume>
+<fpage>603</fpage>
+<lpage>608</lpage>
+<pub-id pub-id-type="pmid">15531153</pub-id></element-citation></ref><ref id="pcbi-0010044-b06"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kazazian</surname><given-names>HH</given-names><suffix>Jr</suffix></name></person-group>
+<year>2004</year>
+<article-title>Mobile elements: Drivers of genome evolution</article-title>
+<source>Science</source>
+<volume>303</volume>
+<fpage>1626</fpage>
+<lpage>1632</lpage>
+<pub-id pub-id-type="pmid">15016989</pub-id></element-citation></ref><ref id="pcbi-0010044-b07"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ostertag</surname><given-names>EM</given-names></name><name><surname>Goodier</surname><given-names>JL</given-names></name><name><surname>Zhang</surname><given-names>Y</given-names></name><name><surname>Kazazian</surname><given-names>HH</given-names><suffix>Jr</suffix></name></person-group>
+<year>2003</year>
+<article-title>SVA elements are nonautonomous retrotransposons that cause disease in humans</article-title>
+<source>Am J Hum Genet</source>
+<volume>73</volume>
+<fpage>1444</fpage>
+<lpage>1451</lpage>
+<pub-id pub-id-type="pmid">14628287</pub-id></element-citation></ref><ref id="pcbi-0010044-b08"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Deininger</surname><given-names>PL</given-names></name><name><surname>Batzer</surname><given-names>MA</given-names></name></person-group>
+<year>2002</year>
+<article-title>Mammalian retroelements</article-title>
+<source>Genome Res</source>
+<volume>12</volume>
+<fpage>1455</fpage>
+<lpage>1465</lpage>
+<pub-id pub-id-type="pmid">12368238</pub-id></element-citation></ref><ref id="pcbi-0010044-b09"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dewannieux</surname><given-names>M</given-names></name><name><surname>Esnault</surname><given-names>C</given-names></name><name><surname>Heidmann</surname><given-names>T</given-names></name></person-group>
+<year>2003</year>
+<article-title>LINE-mediated retrotransposition of marked Alu sequences</article-title>
+<source>Nat Genet</source>
+<volume>35</volume>
+<fpage>41</fpage>
+<lpage>48</lpage>
+<pub-id pub-id-type="pmid">12897783</pub-id></element-citation></ref><ref id="pcbi-0010044-b10"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Moran</surname><given-names>JV</given-names></name><name><surname>DeBerardinis</surname><given-names>RJ</given-names></name><name><surname>Kazazian</surname><given-names>HH</given-names><suffix>Jr</suffix></name></person-group>
+<year>1999</year>
+<article-title>Exon shuffling by L1 retrotransposition</article-title>
+<source>Science</source>
+<volume>283</volume>
+<fpage>1530</fpage>
+<lpage>1534</lpage>
+<pub-id pub-id-type="pmid">10066175</pub-id></element-citation></ref><ref id="pcbi-0010044-b11"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hayakawa</surname><given-names>T</given-names></name><name><surname>Satta</surname><given-names>Y</given-names></name><name><surname>Gagneux</surname><given-names>P</given-names></name><name><surname>Varki</surname><given-names>A</given-names></name><name><surname>Takahata</surname><given-names>N</given-names></name></person-group>
+<year>2001</year>
+<article-title>Alu-mediated inactivation of the human CMP- N-acetylneuraminic acid hydroxylase gene</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>98</volume>
+<fpage>11399</fpage>
+<lpage>11404</lpage>
+<pub-id pub-id-type="pmid">11562455</pub-id></element-citation></ref><ref id="pcbi-0010044-b12"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bailey</surname><given-names>JA</given-names></name><name><surname>Liu</surname><given-names>G</given-names></name><name><surname>Eichler</surname><given-names>EE</given-names></name></person-group>
+<year>2003</year>
+<article-title>An Alu transposition model for the origin and expansion of human segmental duplications</article-title>
+<source>Am J Hum Genet</source>
+<volume>73</volume>
+<fpage>823</fpage>
+<lpage>834</lpage>
+<pub-id pub-id-type="pmid">14505274</pub-id></element-citation></ref><ref id="pcbi-0010044-b13"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Salem</surname><given-names>AH</given-names></name><name><surname>Kilroy</surname><given-names>GE</given-names></name><name><surname>Watkins</surname><given-names>WS</given-names></name><name><surname>Jorde</surname><given-names>LB</given-names></name><name><surname>Batzer</surname><given-names>MA</given-names></name></person-group>
+<year>2003</year>
+<article-title>Recently integrated Alu elements and human genomic diversity</article-title>
+<source>Mol Biol Evol</source>
+<volume>20</volume>
+<fpage>1349</fpage>
+<lpage>1361</lpage>
+<pub-id pub-id-type="pmid">12777511</pub-id></element-citation></ref><ref id="pcbi-0010044-b14"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Moran</surname><given-names>JV</given-names></name><name><surname>Holmes</surname><given-names>SE</given-names></name><name><surname>Naas</surname><given-names>TP</given-names></name><name><surname>DeBerardinis</surname><given-names>RJ</given-names></name><name><surname>Boeke</surname><given-names>JD</given-names></name><etal/></person-group>
+<year>1996</year>
+<article-title>High frequency retrotransposition in cultured mammalian cells</article-title>
+<source>Cell</source>
+<volume>87</volume>
+<fpage>917</fpage>
+<lpage>927</lpage>
+<pub-id pub-id-type="pmid">8945518</pub-id></element-citation></ref><ref id="pcbi-0010044-b15"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Feng</surname><given-names>Q</given-names></name><name><surname>Moran</surname><given-names>JV</given-names></name><name><surname>Kazazian</surname><given-names>HH</given-names><suffix>Jr</suffix></name><name><surname>Boeke</surname><given-names>JD</given-names></name></person-group>
+<year>1996</year>
+<article-title>Human L1 retrotransposon encodes a conserved endonuclease required for retrotransposition</article-title>
+<source>Cell</source>
+<volume>87</volume>
+<fpage>905</fpage>
+<lpage>916</lpage>
+<pub-id pub-id-type="pmid">8945517</pub-id></element-citation></ref><ref id="pcbi-0010044-b16"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Symer</surname><given-names>DE</given-names></name><name><surname>Connelly</surname><given-names>C</given-names></name><name><surname>Szak</surname><given-names>ST</given-names></name><name><surname>Caputo</surname><given-names>EM</given-names></name><name><surname>Cost</surname><given-names>GJ</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>Human l1 retrotransposition is associated with genetic instability in vivo</article-title>
+<source>Cell</source>
+<volume>110</volume>
+<fpage>327</fpage>
+<lpage>338</lpage>
+<pub-id pub-id-type="pmid">12176320</pub-id></element-citation></ref><ref id="pcbi-0010044-b17"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Callinan</surname><given-names>PA</given-names></name><name><surname>Wang</surname><given-names>J</given-names></name><name><surname>Herke</surname><given-names>SW</given-names></name><name><surname>Garber</surname><given-names>RK</given-names></name><name><surname>Liang</surname><given-names>P</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Alu retrotransposition-mediated deletion</article-title>
+<source>J Mol Biol</source>
+<volume>348</volume>
+<fpage>791</fpage>
+<lpage>800</lpage>
+<pub-id pub-id-type="pmid">15843013</pub-id></element-citation></ref><ref id="pcbi-0010044-b18"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Morrish</surname><given-names>TA</given-names></name><name><surname>Gilbert</surname><given-names>N</given-names></name><name><surname>Myers</surname><given-names>JS</given-names></name><name><surname>Vincent</surname><given-names>BJ</given-names></name><name><surname>Stamato</surname><given-names>TD</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>DNA repair mediated by endonuclease-independent LINE-1 retrotransposition</article-title>
+<source>Nat Genet</source>
+<volume>31</volume>
+<fpage>159</fpage>
+<lpage>165</lpage>
+<pub-id pub-id-type="pmid">12006980</pub-id></element-citation></ref><ref id="pcbi-0010044-b19"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lev-Maor</surname><given-names>G</given-names></name><name><surname>Sorek</surname><given-names>R</given-names></name><name><surname>Shomron</surname><given-names>N</given-names></name><name><surname>Ast</surname><given-names>G</given-names></name></person-group>
+<year>2003</year>
+<article-title>The birth of an alternatively spliced exon: 3&#x02032; splice-site selection in Alu exons</article-title>
+<source>Science</source>
+<volume>300</volume>
+<fpage>1288</fpage>
+<lpage>1291</lpage>
+<pub-id pub-id-type="pmid">12764196</pub-id></element-citation></ref><ref id="pcbi-0010044-b20"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Perepelitsa-Belancio</surname><given-names>V</given-names></name><name><surname>Deininger</surname><given-names>P</given-names></name></person-group>
+<year>2003</year>
+<article-title>RNA truncation by premature polyadenylation attenuates human mobile element activity</article-title>
+<source>Nat Genet</source>
+<volume>35</volume>
+<fpage>363</fpage>
+<lpage>366</lpage>
+<pub-id pub-id-type="pmid">14625551</pub-id></element-citation></ref><ref id="pcbi-0010044-b21"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Han</surname><given-names>JS</given-names></name><name><surname>Szak</surname><given-names>ST</given-names></name><name><surname>Boeke</surname><given-names>JD</given-names></name></person-group>
+<year>2004</year>
+<article-title>Transcriptional disruption by the L1 retrotransposon and implications for mammalian transcriptomes</article-title>
+<source>Nature</source>
+<volume>429</volume>
+<fpage>268</fpage>
+<lpage>274</lpage>
+<pub-id pub-id-type="pmid">15152245</pub-id></element-citation></ref><ref id="pcbi-0010044-b22"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kazazian</surname><given-names>HH</given-names><suffix>Jr</suffix></name></person-group>
+<year>1998</year>
+<article-title>Mobile elements and disease</article-title>
+<source>Curr Opin Genet Dev</source>
+<volume>8</volume>
+<fpage>343</fpage>
+<lpage>350</lpage>
+<pub-id pub-id-type="pmid">9690999</pub-id></element-citation></ref><ref id="pcbi-0010044-b23"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Deininger</surname><given-names>PL</given-names></name><name><surname>Batzer</surname><given-names>MA</given-names></name></person-group>
+<year>1999</year>
+<article-title>Alu repeats and human disease</article-title>
+<source>Mol Genet Metab</source>
+<volume>67</volume>
+<fpage>183</fpage>
+<lpage>193</lpage>
+<pub-id pub-id-type="pmid">10381326</pub-id></element-citation></ref><ref id="pcbi-0010044-b24"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Vieira</surname><given-names>C</given-names></name><name><surname>Biemont</surname><given-names>C</given-names></name></person-group>
+<year>2004</year>
+<article-title>Transposable element dynamics in two sibling species: <italic>Drosophila melanogaster</italic> and <italic>Drosophila simulans</italic>
+</article-title>
+<source>Genetica</source>
+<volume>120</volume>
+<fpage>115</fpage>
+<lpage>123</lpage>
+<pub-id pub-id-type="pmid">15088652</pub-id></element-citation></ref><ref id="pcbi-0010044-b25"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Vieira</surname><given-names>C</given-names></name><name><surname>Lepetit</surname><given-names>D</given-names></name><name><surname>Dumont</surname><given-names>S</given-names></name><name><surname>Biemont</surname><given-names>C</given-names></name></person-group>
+<year>1999</year>
+<article-title>Wake up of transposable elements following <italic>Drosophila simulans</italic> worldwide colonization</article-title>
+<source>Mol Biol Evol</source>
+<volume>16</volume>
+<fpage>1251</fpage>
+<lpage>1255</lpage>
+<pub-id pub-id-type="pmid">10486980</pub-id></element-citation></ref><ref id="pcbi-0010044-b26"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kidwell</surname><given-names>MG</given-names></name></person-group>
+<year>1979</year>
+<article-title>Hybrid dysgenesis in <italic>Drosophila melanogaster</italic>&#x02014;Relationship between the P-M and I-R interaction systems</article-title>
+<source>Genet Res</source>
+<volume>33</volume>
+<fpage>205</fpage>
+<lpage>217</lpage>
+</element-citation></ref><ref id="pcbi-0010044-b27"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Brookfield</surname><given-names>JF</given-names></name></person-group>
+<year>1991</year>
+<article-title>Models of repression of transposition in P-M hybrid dysgenesis by P cytotype and by zygotically encoded repressor proteins</article-title>
+<source>Genetics</source>
+<volume>128</volume>
+<fpage>471</fpage>
+<lpage>486</lpage>
+<pub-id pub-id-type="pmid">1649073</pub-id></element-citation></ref><ref id="pcbi-0010044-b28"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Charlesworth</surname><given-names>B</given-names></name></person-group>
+<year>1988</year>
+<article-title>The maintenance of transposable elements in natural populations</article-title>
+<source>Basic Life Sci</source>
+<volume>47</volume>
+<fpage>189</fpage>
+<lpage>212</lpage>
+<pub-id pub-id-type="pmid">2845912</pub-id></element-citation></ref><ref id="pcbi-0010044-b29"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Brookfield</surname><given-names>JF</given-names></name><name><surname>Badge</surname><given-names>RM</given-names></name></person-group>
+<year>1997</year>
+<article-title>Population genetics models of transposable elements</article-title>
+<source>Genetica</source>
+<volume>100</volume>
+<fpage>281</fpage>
+<lpage>294</lpage>
+<pub-id pub-id-type="pmid">9440281</pub-id></element-citation></ref><ref id="pcbi-0010044-b30"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Biemont</surname><given-names>C</given-names></name><name><surname>Lemeunier</surname><given-names>F</given-names></name><name><surname>Garcia Guerreiro</surname><given-names>MP</given-names></name><name><surname>Brookfield</surname><given-names>JF</given-names></name><name><surname>Gautier</surname><given-names>C</given-names></name><etal/></person-group>
+<year>1994</year>
+<article-title>Population dynamics of the copia, mdg1, mdg3, gypsy, and P transposable elements in a natural population of <italic>Drosophila melanogaster</italic>
+</article-title>
+<source>Genet Res</source>
+<volume>63</volume>
+<fpage>197</fpage>
+<lpage>212</lpage>
+<pub-id pub-id-type="pmid">8082837</pub-id></element-citation></ref><ref id="pcbi-0010044-b31"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Brookfield</surname><given-names>JF</given-names></name></person-group>
+<year>1986</year>
+<article-title>The population biology of transposable elements</article-title>
+<source>Philos Trans R Soc Lond B Biol Sci</source>
+<volume>312</volume>
+<fpage>217</fpage>
+<lpage>226</lpage>
+<pub-id pub-id-type="pmid">2870518</pub-id></element-citation></ref><ref id="pcbi-0010044-b32"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Edwards</surname><given-names>RJ</given-names></name><name><surname>Brookfield</surname><given-names>JF</given-names></name></person-group>
+<year>2003</year>
+<article-title>Transiently beneficial insertions could maintain mobile DNA sequences in variable environments</article-title>
+<source>Mol Biol Evol</source>
+<volume>20</volume>
+<fpage>30</fpage>
+<lpage>37</lpage>
+<pub-id pub-id-type="pmid">12519903</pub-id></element-citation></ref><ref id="pcbi-0010044-b33"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Montgomery</surname><given-names>E</given-names></name><name><surname>Charlesworth</surname><given-names>B</given-names></name><name><surname>Langley</surname><given-names>CH</given-names></name></person-group>
+<year>1987</year>
+<article-title>A test for the role of natural selection in the stabilization of transposable element copy number in a population of <italic>Drosophila melanogaster</italic>
+</article-title>
+<source>Genet Res</source>
+<volume>49</volume>
+<fpage>31</fpage>
+<lpage>41</lpage>
+<pub-id pub-id-type="pmid">3032743</pub-id></element-citation></ref><ref id="pcbi-0010044-b34"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hedges</surname><given-names>DJ</given-names></name><name><surname>Callinan</surname><given-names>PA</given-names></name><name><surname>Cordaux</surname><given-names>R</given-names></name><name><surname>Xing</surname><given-names>J</given-names></name><name><surname>Barnes</surname><given-names>E</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Differential alu mobilization and polymorphism among the human and chimpanzee lineages</article-title>
+<source>Genome Res</source>
+<volume>14</volume>
+<fpage>1068</fpage>
+<lpage>1075</lpage>
+<pub-id pub-id-type="pmid">15173113</pub-id></element-citation></ref><ref id="pcbi-0010044-b35"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Brookfield</surname><given-names>JF</given-names></name></person-group>
+<year>2005</year>
+<article-title>The ecology of the genome&#x02014;Mobile DNA elements and their hosts</article-title>
+<source>Nat Rev Genet</source>
+<volume>6</volume>
+<fpage>128</fpage>
+<lpage>136</lpage>
+<pub-id pub-id-type="pmid">15640810</pub-id></element-citation></ref><ref id="pcbi-0010044-b36"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Leeflang</surname><given-names>EP</given-names></name><name><surname>Liu</surname><given-names>WM</given-names></name><name><surname>Chesnokov</surname><given-names>IN</given-names></name><name><surname>Schmid</surname><given-names>CW</given-names></name></person-group>
+<year>1993</year>
+<article-title>Phylogenetic isolation of a human Alu founder gene: Drift to new subfamily identity [corrected]</article-title>
+<source>J Mol Evol</source>
+<volume>37</volume>
+<fpage>559</fpage>
+<lpage>565</lpage>
+<pub-id pub-id-type="pmid">8114108</pub-id></element-citation></ref><ref id="pcbi-0010044-b37"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Quentin</surname><given-names>Y</given-names></name></person-group>
+<year>1988</year>
+<article-title>The Alu family developed through successive waves of fixation closely connected with primate lineage history</article-title>
+<source>J Mol Evol</source>
+<volume>27</volume>
+<fpage>194</fpage>
+<lpage>202</lpage>
+<pub-id pub-id-type="pmid">3138422</pub-id></element-citation></ref><ref id="pcbi-0010044-b38"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Shaikh</surname><given-names>TH</given-names></name><name><surname>Deininger</surname><given-names>PL</given-names></name></person-group>
+<year>1996</year>
+<article-title>The role and amplification of the HS Alu subfamily founder gene</article-title>
+<source>J Mol Evol</source>
+<volume>42</volume>
+<fpage>15</fpage>
+<lpage>21</lpage>
+<pub-id pub-id-type="pmid">8576958</pub-id></element-citation></ref><ref id="pcbi-0010044-b39"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Carter</surname><given-names>AB</given-names></name><name><surname>Salem</surname><given-names>AH</given-names></name><name><surname>Hedges</surname><given-names>DJ</given-names></name><name><surname>Keegan</surname><given-names>CN</given-names></name><name><surname>Kimball</surname><given-names>B</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Genome-wide analysis of the human Alu Yb-lineage</article-title>
+<source>Hum Genomics</source>
+<volume>1</volume>
+<fpage>167</fpage>
+<lpage>178</lpage>
+<pub-id pub-id-type="pmid">15588477</pub-id></element-citation></ref><ref id="pcbi-0010044-b40"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Otieno</surname><given-names>AC</given-names></name><name><surname>Carter</surname><given-names>AB</given-names></name><name><surname>Hedges</surname><given-names>DJ</given-names></name><name><surname>Walker</surname><given-names>JA</given-names></name><name><surname>Ray</surname><given-names>DA</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Analysis of the human Alu Ya-lineage</article-title>
+<source>J Mol Biol</source>
+<volume>342</volume>
+<fpage>109</fpage>
+<lpage>118</lpage>
+<pub-id pub-id-type="pmid">15313610</pub-id></element-citation></ref><ref id="pcbi-0010044-b41"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Carroll</surname><given-names>ML</given-names></name><name><surname>Roy-Engel</surname><given-names>AM</given-names></name><name><surname>Nguyen</surname><given-names>SV</given-names></name><name><surname>Salem</surname><given-names>AH</given-names></name><name><surname>Vogel</surname><given-names>E</given-names></name><etal/></person-group>
+<year>2001</year>
+<article-title>Large-scale analysis of the Alu Ya5 and Yb8 subfamilies and their contribution to human genomic diversity</article-title>
+<source>J Mol Biol</source>
+<volume>311</volume>
+<fpage>17</fpage>
+<lpage>40</lpage>
+<pub-id pub-id-type="pmid">11469855</pub-id></element-citation></ref><ref id="pcbi-0010044-b42"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Xing</surname><given-names>JC</given-names></name><name><surname>Hedges</surname><given-names>DJ</given-names></name><name><surname>Han</surname><given-names>KD</given-names></name><name><surname>Wang</surname><given-names>H</given-names></name><name><surname>Cordaux</surname><given-names>R</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Alu element mutation spectra: Molecular clocks and the effect of DNA methylation</article-title>
+<source>J Mol Biol</source>
+<volume>344</volume>
+<fpage>675</fpage>
+<lpage>682</lpage>
+<pub-id pub-id-type="pmid">15533437</pub-id></element-citation></ref><ref id="pcbi-0010044-b43"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Batzer</surname><given-names>MA</given-names></name><name><surname>Kilroy</surname><given-names>GE</given-names></name><name><surname>Richard</surname><given-names>PE</given-names></name><name><surname>Shaikh</surname><given-names>TH</given-names></name><name><surname>Desselle</surname><given-names>TD</given-names></name><etal/></person-group>
+<year>1990</year>
+<article-title>Structure and variability of recently inserted Alu family members</article-title>
+<source>Nucleic Acids Res</source>
+<volume>18</volume>
+<fpage>6793</fpage>
+<lpage>6798</lpage>
+<pub-id pub-id-type="pmid">2175877</pub-id></element-citation></ref><ref id="pcbi-0010044-b44"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jurka</surname><given-names>J</given-names></name><name><surname>Milosavljevic</surname><given-names>A</given-names></name></person-group>
+<year>1991</year>
+<article-title>Reconstruction and analysis of human Alu genes</article-title>
+<source>J Mol Evol</source>
+<volume>32</volume>
+<fpage>105</fpage>
+<lpage>121</lpage>
+<pub-id pub-id-type="pmid">1706781</pub-id></element-citation></ref><ref id="pcbi-0010044-b45"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Labuda</surname><given-names>D</given-names></name><name><surname>Striker</surname><given-names>G</given-names></name></person-group>
+<year>1989</year>
+<article-title>Sequence conservation in Alu evolution</article-title>
+<source>Nucleic Acids Res</source>
+<volume>17</volume>
+<fpage>2477</fpage>
+<lpage>2491</lpage>
+<pub-id pub-id-type="pmid">2541408</pub-id></element-citation></ref><ref id="pcbi-0010044-b46"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Roy-Engel</surname><given-names>AM</given-names></name><name><surname>Carroll</surname><given-names>ML</given-names></name><name><surname>Vogel</surname><given-names>E</given-names></name><name><surname>Garber</surname><given-names>RK</given-names></name><name><surname>Nguyen</surname><given-names>SV</given-names></name><etal/></person-group>
+<year>2001</year>
+<article-title>Alu insertion polymorphisms for the study of human genomic diversity</article-title>
+<source>Genetics</source>
+<volume>159</volume>
+<fpage>279</fpage>
+<lpage>290</lpage>
+<pub-id pub-id-type="pmid">11560904</pub-id></element-citation></ref><ref id="pcbi-0010044-b47"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Deininger</surname><given-names>PL</given-names></name><name><surname>Batzer</surname><given-names>MA</given-names></name><name><surname>Hutchison</surname><given-names>CA</given-names><suffix>3rd</suffix></name><name><surname>Edgell</surname><given-names>MH</given-names></name></person-group>
+<year>1992</year>
+<article-title>Master genes in mammalian repetitive DNA amplification</article-title>
+<source>Trends Genet</source>
+<volume>8</volume>
+<fpage>307</fpage>
+<lpage>311</lpage>
+<pub-id pub-id-type="pmid">1365396</pub-id></element-citation></ref><ref id="pcbi-0010044-b48"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cordaux</surname><given-names>R</given-names></name><name><surname>Hedges</surname><given-names>DJ</given-names></name><name><surname>Batzer</surname><given-names>MA</given-names></name></person-group>
+<year>2004</year>
+<article-title>Retrotransposition of Alu elements: How many sources?</article-title>
+<source>Trends Genet</source>
+<volume>20</volume>
+<fpage>464</fpage>
+<lpage>467</lpage>
+<pub-id pub-id-type="pmid">15363897</pub-id></element-citation></ref><ref id="pcbi-0010044-b49"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tajima</surname><given-names>F</given-names></name></person-group>
+<year>1983</year>
+<article-title>Evolutionary relationship of DNA sequences in finite populations</article-title>
+<source>Genetics</source>
+<volume>105</volume>
+<fpage>437</fpage>
+<lpage>460</lpage>
+<pub-id pub-id-type="pmid">6628982</pub-id></element-citation></ref><ref id="pcbi-0010044-b50"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Harpending</surname><given-names>HC</given-names></name><name><surname>Sherry</surname><given-names>ST</given-names></name><name><surname>Rogers</surname><given-names>AR</given-names></name><name><surname>Stoneking</surname><given-names>M</given-names></name></person-group>
+<year>1993</year>
+<article-title>The genetic structure of ancient human populations</article-title>
+<source>Curr Anthropol</source>
+<volume>34</volume>
+<fpage>483</fpage>
+<lpage>496</lpage>
+</element-citation></ref><ref id="pcbi-0010044-b51"><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Graur</surname><given-names>D</given-names></name><name><surname>Li</surname><given-names>WH</given-names></name></person-group>
+<year>2000</year>
+<source>Fundamentals of molecular evolution</source>
+<publisher-loc>Sunderland</publisher-loc>
+<publisher-name>Sinauer Associates</publisher-name>
+<size units="page">482</size>
+<comment>p.</comment>
+</element-citation></ref><ref id="pcbi-0010044-b52"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sherry</surname><given-names>ST</given-names></name><name><surname>Harpending</surname><given-names>HC</given-names></name><name><surname>Batzer</surname><given-names>MA</given-names></name><name><surname>Stoneking</surname><given-names>M</given-names></name></person-group>
+<year>1997</year>
+<article-title>Alu evolution in human populations: Using the coalescent to estimate effective population size</article-title>
+<source>Genetics</source>
+<volume>147</volume>
+<fpage>1977</fpage>
+<lpage>1982</lpage>
+<pub-id pub-id-type="pmid">9409852</pub-id></element-citation></ref><ref id="pcbi-0010044-b53"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Harpending</surname><given-names>HC</given-names></name><name><surname>Batzer</surname><given-names>MA</given-names></name><name><surname>Gurven</surname><given-names>M</given-names></name><name><surname>Jorde</surname><given-names>LB</given-names></name><name><surname>Rogers</surname><given-names>AR</given-names></name><etal/></person-group>
+<year>1998</year>
+<article-title>Genetic traces of ancient demography</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>95</volume>
+<fpage>1961</fpage>
+<lpage>1967</lpage>
+<pub-id pub-id-type="pmid">9465125</pub-id></element-citation></ref><ref id="pcbi-0010044-b54"><element-citation publication-type="other">
+<person-group person-group-type="author"><name><surname>Fenner</surname><given-names>JN</given-names></name></person-group>
+<year>2005</year>
+<article-title>Cross-cultural estimation of the human generation interval for use in genetics-based population divergence studies</article-title>
+<source>Am J Phys Anthropol</source>
+<comment>E-pub ahead of print.</comment>
+</element-citation></ref><ref id="pcbi-0010044-b55"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hurst</surname><given-names>GD</given-names></name><name><surname>Werren</surname><given-names>JH</given-names></name></person-group>
+<year>2001</year>
+<article-title>The role of selfish genetic elements in eukaryotic evolution</article-title>
+<source>Nat Rev Genet</source>
+<volume>2</volume>
+<fpage>597</fpage>
+<lpage>606</lpage>
+<pub-id pub-id-type="pmid">11483984</pub-id></element-citation></ref><ref id="pcbi-0010044-b56"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kidwell</surname><given-names>MG</given-names></name><name><surname>Lisch</surname><given-names>DR</given-names></name></person-group>
+<year>1998</year>
+<article-title>Hybrid genetics. Transposons unbound</article-title>
+<source>Nature</source>
+<volume>393</volume>
+<fpage>22</fpage>
+<lpage>23</lpage>
+<pub-id pub-id-type="pmid">9590685</pub-id></element-citation></ref><ref id="pcbi-0010044-b57"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ginzburg</surname><given-names>LR</given-names></name><name><surname>Bingham</surname><given-names>PM</given-names></name><name><surname>Yoo</surname><given-names>S</given-names></name></person-group>
+<year>1984</year>
+<article-title>On the theory of speciation induced by transposable elements</article-title>
+<source>Genetics</source>
+<volume>107</volume>
+<fpage>331</fpage>
+<lpage>341</lpage>
+<pub-id pub-id-type="pmid">6329903</pub-id></element-citation></ref><ref id="pcbi-0010044-b58"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Evgen'ev</surname><given-names>MB</given-names></name><name><surname>Zelentsova</surname><given-names>H</given-names></name><name><surname>Poluectova</surname><given-names>H</given-names></name><name><surname>Lyozin</surname><given-names>GT</given-names></name><name><surname>Veleikodvorskaja</surname><given-names>V</given-names></name><etal/></person-group>
+<year>2000</year>
+<article-title>Mobile elements and chromosomal evolution in the virilis group of <italic>Drosophila</italic>
+</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>97</volume>
+<fpage>11337</fpage>
+<lpage>11342</lpage>
+<pub-id pub-id-type="pmid">11016976</pub-id></element-citation></ref><ref id="pcbi-0010044-b59"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Watanabe</surname><given-names>H</given-names></name><name><surname>Fujiyama</surname><given-names>A</given-names></name><name><surname>Hattori</surname><given-names>M</given-names></name><name><surname>Taylor</surname><given-names>TD</given-names></name><name><surname>Toyoda</surname><given-names>A</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>DNA sequence and comparative analysis of chimpanzee chromosome 22</article-title>
+<source>Nature</source>
+<volume>429</volume>
+<fpage>382</fpage>
+<lpage>388</lpage>
+<pub-id pub-id-type="pmid">15164055</pub-id></element-citation></ref><ref id="pcbi-0010044-b60"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Miyamoto</surname><given-names>MM</given-names></name><name><surname>Slightom</surname><given-names>JL</given-names></name><name><surname>Goodman</surname><given-names>M</given-names></name></person-group>
+<year>1987</year>
+<article-title>Phylogenetic relations of humans and African apes from DNA sequences in the psi eta-globin region</article-title>
+<source>Science</source>
+<volume>238</volume>
+<fpage>369</fpage>
+<lpage>373</lpage>
+<pub-id pub-id-type="pmid">3116671</pub-id></element-citation></ref><ref id="pcbi-0010044-b61"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kimura</surname><given-names>M</given-names></name></person-group>
+<year>1980</year>
+<article-title>Average time until fixation of a mutant allele in a finite population under continued mutation pressure&#x02014;Studies by analytical, numerical, and pseudo-sampling methods</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>77</volume>
+<fpage>522</fpage>
+<lpage>526</lpage>
+<pub-id pub-id-type="pmid">16592764</pub-id></element-citation></ref></ref-list></back></article>

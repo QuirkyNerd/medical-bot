@@ -1,0 +1,250 @@
+<!-- edited with XMLSPY v2004 rel. 3 U (http://www.xmlspy.com) by CDC (private) -->
+<!DOCTYPE article
+PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.3 20210610//EN" "JATS-archivearticle1-3-mathml3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article"><?properties open_access?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Prev Chronic Dis</journal-id><journal-id journal-id-type="iso-abbrev">Prev Chronic Dis</journal-id><journal-title-group><journal-title>Preventing Chronic Disease</journal-title></journal-title-group><issn pub-type="epub">1545-1151</issn><publisher><publisher-name>Centers for Disease Control and Prevention</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">15670451</article-id><article-id pub-id-type="pmc">PMC1277959</article-id><article-id pub-id-type="publisher-id">PCDv14_03_0037</article-id><article-categories><subj-group subj-group-type="heading"><subject>Tools and Techniques</subject></subj-group></article-categories><title-group><article-title>An Approach to Coordinate Efforts to Reduce the Public Health Burden of Stroke: The Delta States Stroke Consortium</article-title></title-group><contrib-group><contrib contrib-type="author" corresp="yes"><name><surname>Howard</surname><given-names>Virginia J</given-names></name><degrees>MSPH</degrees><aff>Assistant Professor of Epidemiology, School of Public Health, University of Alabama at Birmingham</aff><address><addr-line>210F Ryals Public Health Building, 1665 University Blvd, Birmingham, AL 35294-0022</addr-line><phone>205-934-7197</phone><email>vjhoward@uab.edu</email></address></contrib><contrib contrib-type="author"><name><surname>Acker</surname><given-names>Joe</given-names></name><degrees>MPH</degrees><aff>Birmingham Regional Emergency Medical Services System, Birmingham, Ala</aff></contrib><contrib contrib-type="author"><name><surname>Gomez</surname><given-names>Camilo R</given-names></name><degrees>MD</degrees><aff>Alabama Neurological Institute, Birmingham, Ala</aff></contrib><contrib contrib-type="author"><name><surname>Orr</surname><given-names>Sean R</given-names></name><degrees>MD</degrees><aff>Alabama Neurological Institute, Birmingham, Ala</aff></contrib><contrib contrib-type="author"><name><surname>Griffies</surname><given-names>Ada H</given-names></name><degrees>MPH</degrees><aff>Max Michael III, MD, George Howard, DrPH, School of Public Health, University of Alabama at Birmingham, Birmingham, Ala</aff></contrib><contrib contrib-type="author"><name><surname>Magers</surname><given-names>Wanda</given-names></name><degrees>MPA</degrees><aff>Mississippi State Department of Health, Jackson, Miss</aff></contrib><contrib contrib-type="author"><name><surname>Phillips</surname><given-names>Martha</given-names></name><degrees>PhD</degrees><aff>University of Arkansas for Medical Sciences, Little Rock, Ark</aff></contrib><contrib contrib-type="author"><name><surname>Raczynski</surname><given-names>James M</given-names></name><degrees>PhD</degrees><aff>University of Arkansas for Medical Sciences, Little Rock, Ark</aff></contrib><contrib contrib-type="author"><name><surname>Searcy</surname><given-names>John E</given-names></name><degrees>MD</degrees><aff>Alabama Medicaid Agency, Montgomery, Ala</aff></contrib><contrib contrib-type="author"><name><surname>Zweifler</surname><given-names>Richard M</given-names></name><degrees>MD</degrees><aff>University of South Alabama, Mobile, Ala</aff></contrib></contrib-group><pub-date pub-type="collection"><month>10</month><year>2004</year></pub-date><pub-date pub-type="epub"><day>15</day><month>9</month><year>2004</year></pub-date><volume>1</volume><issue>4</issue><elocation-id>A19</elocation-id><permissions><copyright-year>2004</copyright-year><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is a publication of the U.S. Government. This publication is in the public domain and is therefore without copyright. All text from this work may be reprinted freely. Use of these materials should be properly cited.</license-p></license></permissions><abstract abstract-type="key-points"><p>Stroke is the third leading cause of death and a leading cause of disability in the United States, with a particularly high burden on the residents of the southeastern states, a region dubbed the "Stroke Belt." These five states &#x02014; Alabama, Arkansas, Louisiana, Mississippi, and Tennessee &#x02014; have formed the Delta States Stroke Consortium to direct efforts to reduce this burden. The consortium is proposing an approach to identify domains where interventions may be instituted and an array of activities that can be implemented in each of the domains. Specific domains include 1) risk factor prevention and control; 2) identification of stroke signs and symptoms and encouragement of appropriate responses; 3) transportation, Emergency Medical Services care, and acute care; 4) secondary prevention; and 5) recovery and rehabilitation management. The array of activities includes 1) education of lay public; 2) education of health professionals; 3) general advocacy and legislative actions; 4) modification of the general environment; and 5) modification of the health care environment. The Delta States Stroke Consortium members propose that together these domains and activities define a structure to guide interventions to reduce the public health burden of stroke in this region.</p></abstract></article-meta></front><body><sec><title>Introduction</title><p>Stroke is the third leading cause of death and a leading cause of disability in the United States (<xref rid="B1" ref-type="bibr">1</xref>). Unfortunately, the burden of stroke does not fall proportionately on the nation's population. Residents of the southeastern states, a region dubbed the "Stroke Belt," carry a particularly high burden. The Stroke Belt has been defined on the basis of high rates of stroke mortality, but the causes of high stroke mortality are a matter of debate and uncertainty (<xref rid="B2" ref-type="bibr">2</xref>,<xref rid="B3" ref-type="bibr">3</xref>). Although the boundaries of the Stroke Belt are not distinct, eight southern states are considered to compose its core: North Carolina, South Carolina, Georgia, Tennessee, Alabama, Mississippi, Arkansas, and Louisiana.</p><p>The magnitude of the public health burden imposed by the Stroke Belt is overwhelming. <xref rid="F1" ref-type="fig">Figure 1</xref> shows the number of deaths from stroke in the eight-state region from 1968&#x02013;1996. During this 29-year period, 780,385 total deaths resulted from stroke in this region. The expected number of deaths from stroke can be calculated by applying the national stroke death rate to the population of the region, resulting in an expected 585,836 total deaths from stroke during 1968&#x02013;1996. The difference of 194,549 deaths represents the "extra" stroke deaths, or approximately 6708 extra deaths on average annually. Although stroke incidence data are not available, the extra number of incident stroke events in the region each year can be approximated by dividing the number of extra deaths each year (6708) by the case fatality rate (approximately 30%), resulting in 22,363 extra stroke events each year. The mean lifetime cost of ischemic stroke in the United States is estimated to be $140,048 (in 1999 dollars), which includes inpatient care, rehabilitation, and follow-up care (<xref rid="B4" ref-type="bibr">4</xref>). These data suggest that the annual public health burden imposed by the Stroke Belt is more than $3.1 billion dollars. (Note that this is not the burden of stroke in the region, but rather the extra costs associated with the increased stroke risk in the region.)</p><boxed-text position="float"><fig position="float" id="F1" fig-type="graph"><label>Figure 1</label><caption><p>Number of annual deaths from stroke in North Carolina, South Carolina, Georgia, Tennessee, Alabama, Mississippi, Louisiana, and Arkansas, 1968&#x02013;1996. The darker portion shows the number of deaths from stroke that would have occurred if the death rate from stroke were the same as for the remainder of the nation, while the lighter area represents the "extra" deaths above national rates.</p></caption><alt-text>Area graph showing the number of deaths from stroke in the eight-state region from 1968&#x02013;1996, as explained above.</alt-text><graphic xlink:href="PCD14A19s1" position="float"/></fig></boxed-text><p>The Centers for Disease Control and Prevention (CDC) recently published <italic>A Public Health Action Plan to Prevent Heart Disease and Stroke</italic> (<xref rid="B5" ref-type="bibr">5</xref>), a comprehensive plan to reduce the burden of stroke and heart disease. One of the five major components of the proposed strategy is to encourage "engaging in regional and global partnerships [to] multiply resources and capitaliz[e] on shared experience" (<xref rid="B5" ref-type="bibr">5</xref>). The importance of developing partnerships in the southeastern United States to reduce the burden of stroke is evident, given the immense public health burden of stroke in the region. This need gave rise to the Tri-States Stroke Consortium, established in 1997 to coordinate the efforts of North Carolina, South Carolina, and Georgia (<xref rid="B6" ref-type="bibr">6</xref>). In 2002, the Delta States Stroke Consortium (DSSC) was formed to coordinate the efforts of the remaining five states in the Stroke Belt &#x02014; Tennessee, Alabama, Mississippi, Arkansas, and Louisiana. This consortium includes representatives of state health departments, academic scientists, health care professionals, advocacy groups, pharmaceutical and other industry representatives, and stroke survivors. At the first meeting of the DSSC, held March 13&#x02013;14, 2003, a plan for organizing efforts to reduce the burden of stroke in the region was developed and is summarized in this report.</p></sec><sec><title>Identifying Opportunities to Reduce the Burden of Stroke</title><p>The DSSC developed a context for planning interventions to reduce the public health burden of stroke based on a two-dimensional model. The first dimension is based on the observation that stroke is not an event, but rather a process that begins with developing risk factors and continues through caring for stroke survivors. The second dimension represents the array of activities that can be implemented to reduce the burden of stroke. Each of these dimensions is summarized below.</p><sec><title>Domains in the process of stroke</title><p>The public health burden of stroke results from a process that begins in childhood (some would suggest prior to childhood), continues to adulthood, continues to the stroke event, and then to the subsequent care of the stroke survivor. The DSSC has divided this process into five domains. Within each domain, opportunities exist to reduce the burden of stroke.</p><p>
+<bold>1. Risk factor prevention and control</bold>
+</p><p>Prevention of stroke, as well as of most chronic diseases, has been shown to be the most cost-effective approach for reducing the public health burden of disease (<xref rid="B7" ref-type="bibr">7</xref>). The broad field of prevention is increasingly considered as being subdivided into two major domains: 1) primordial risk factor prevention and 2) risk factor control.</p><p>Primordial risk factor prevention, or preventing individuals from ever developing the risk factor, is clearly the best way to control the risk factor (<xref rid="B8" ref-type="bibr">8</xref>). Many risk factors for stroke, such as hypertension, diabetes, and obesity, have roots in childhood. Other risk factors, such as smoking, have roots in late adolescence. The first opportunity to reduce the burden of stroke is to intervene to reduce the development of risk factors.</p><p>There are, however, ample opportunities to reduce the burden of stroke after risk factors develop by improving the identification and control of those risk factors. For example, hypertension is the risk factor with the largest population-attributable risk: approximately 25% of strokes are attributable to the risk factor hypertension alone (<xref rid="B9" ref-type="bibr">9</xref>). While the number of hypertensive patients receiving appropriate diagnosis and management has improved dramatically, 31% of hypertensive patients are still unaware of their hypertension, and 69% of diagnosed hypertensive patients still do not control their condition adequately (<xref rid="B10" ref-type="bibr">10</xref>). Furthermore, benefits could be gained by better detection and control of other risk factors, including diabetes, atrial fibrillation, cigarette smoking, and other vascular risk factors (<xref rid="B9" ref-type="bibr">9</xref>,<xref rid="B11" ref-type="bibr">11</xref>,<xref rid="B12" ref-type="bibr">12</xref>).</p><p>
+<bold>2. Identification of stroke signs and symptoms and encouragement of appropriate responses</bold>
+</p><p>While some consider tissue plasminogen activator (t-PA) to be the only acute treatment for stroke, many other approaches, including hydration and blood pressure control, can improve the outcome of stroke and thereby reduce the subsequent burden of events. The effectiveness of these alternatives is supported by evidence showing that stroke patients have better outcomes when they receive stroke-unit care rather than general hospital care (<xref rid="B13" ref-type="bibr">13</xref>). However, the efficacy of these treatments is likely increased by the ability to intervene early during the stroke event. It is critical that the stroke is quickly identified and that it is perceived as a medical emergency that should be managed by professionals; hence, the burden of stroke can be reduced by improvements in the identification of strokes and in the decision making by the stroke victim and those witnessing the event. Specifically, it is critical that the public recognize stroke as a 911 emergency and that stroke victims be transported to the hospital as quickly as possible.</p><p>
+<bold>3. Transportation, Emergency Medical Services (EMS) care, and acute care</bold>
+</p><p>After the stroke is identified and 911 is contacted, the outcome of the stroke patient can be improved by prompt transport to an appropriate medical facility and delivery of appropriate care during the acute phase of the event. Effective transport is related to, but not solely determined by, the transport time from initial 911 call to emergency room delivery. Decisions must be made about the facility to which the patient should be taken and the kind of treatment that should be delivered during transport. In addition, the burden of stroke can be reduced by appropriate treatment after the patient arrives at the medical facility.</p><p>
+<bold>4. Secondary prevention</bold>
+</p><p>Stroke has a high rate of recurrence. The recurrence rate within 30 days for all cerebral infarcts in the Stroke Data Bank is 3.3%, and the one-year cumulative rate of death or recurrent infarction is 15.3% (<xref rid="B14" ref-type="bibr">14</xref>). Other studies have found the risk of recurrent stroke to be 8% in the first year and 12% after two years (<xref rid="B15" ref-type="bibr">15</xref>-<xref rid="B17" ref-type="bibr">17</xref>). Many first neurologic events have transient effects or minor long-term deficits; however, these patients are at elevated risk for subsequent major stroke. Many proven treatments reduce the subsequent risk of stroke, including risk factor management involving lifestyle changes, medical management, and surgical interventions (<xref rid="B12" ref-type="bibr">12</xref>,<xref rid="B18" ref-type="bibr">18</xref>).</p><p>
+<bold>5. Recovery and rehabilitation management</bold>
+</p><p>After a stroke has occurred, rehabilitation therapies can increase the stroke survivor's independence and quality of life, which have a direct impact on the quality of life of the survivor's family and caregivers and reduce the cost of post-stroke care.</p></sec><sec><title>Array of activities to reduce the impact of stroke</title><p>The five domains discussed above provide opportunities to intervene to reduce the burden of stroke through an array of activities. The DSSC formed a working group for each domain to ensure that all opportunities and activities were considered. The <xref rid="T1" ref-type="table">Table</xref> shows a matrix that couples examples of activities with a specific domain. Clearly, certain activities may be more or less appropriate for each domain; however, use of this matrix ensures that all potential activities for each domain are considered.</p><p>A brief description of each general activity suggested by the DSSC is provided below.</p><p>
+<bold>1. Education of lay public</bold>
+</p><p>Perhaps the most promising of all activities to reduce the burden of stroke are efforts to educate the lay public. Educating the general public raises awareness of 1) lifestyle choices that lead to the development and control of risk factors, 2) stroke signs and symptoms, and 3) appropriate actions when signs and symptoms occur. Positive changes in lifestyle choices are associated with risk reduction. Education of the public also emphasizes the importance of obtaining and complying with rehabilitation efforts. The literature is rich with documentation of the lay public's lack of knowledge about the signs and symptoms of stroke (<xref rid="B19" ref-type="bibr">19</xref>-<xref rid="B21" ref-type="bibr">21</xref>), and there is an equally disturbing lack of knowledge in other domains such as risk factors (<xref rid="B19" ref-type="bibr">19</xref>,<xref rid="B21" ref-type="bibr">21</xref>), EMS care (<xref rid="B22" ref-type="bibr">22</xref>,<xref rid="B23" ref-type="bibr">23</xref>), and recovery and rehabilitation (<xref rid="B24" ref-type="bibr">24</xref>).</p><p>
+<bold>2. Education of health care professionals</bold>
+</p><p>Not only does the lay public lack knowledge about stroke prevention and care but health care professionals also have gaps in knowledge about opportunities to reduce the burden of stroke. Opportunities to improve the knowledge and training of health care providers include educating them about 1) lifestyle choices that prevent the development of risk factors; 2) better controls for existing risk factors; 3) appropriate guidance when initial signs and symptoms are reported; 4) actions that reduce the chances of subsequent strokes; and 5) potential gains offered by rehabilitation.</p><p>
+<bold>3. General advocacy and legislative actions</bold>
+</p><p>Another mechanism for reducing the burden of stroke is a highly focused effort for advocacy and legislative changes. Primordial risk factor prevention activities could include, for example, modification of public school lunches and urban design to encourage physical activity. An activity to promote primary control of risk factors could include public assistance for blood pressure medication. General advocacy activities could include the recruitment of lay opinion leaders to raise the awareness of stroke signs and symptoms. Legislative actions with an impact on the acute care of stroke patients should include encouraging the establishment of stroke centers (<xref rid="B25" ref-type="bibr">25</xref>). Finally, advocacy and legislative actions can reduce subsequent stroke and provide rehabilitation opportunities by ensuring access to services following the stroke event.</p><p>
+<bold>4. Modification of the general environment</bold>
+</p><p>Modifying the general environment is a potentially powerful tool in reducing the burden of stroke. Such activities include development of employee education programs, appropriate EMS signage, and home alterations to facilitate the return home of a stroke survivor.</p><p>
+<bold>5. Modification of the health care environment</bold>
+</p><p>Finally, there is the opportunity to modify the medical environment, including EMS transport, which should be designed to route stroke patients to hospitals equipped and ready to provide acute care as well as access to computed tomography (CT) imaging and rehabilitation services.</p></sec></sec><sec><title>Conclusions</title><p>The DSSC is organized into five working groups, with the emphasis of each group corresponding to one of the domains described in this report. The goal in defining these domains is to incorporate the entire spectrum of the stroke process, which places such a heavy burden on the United States, particularly in the southeastern states. Each working group developed an array of activities that have the potential to impact the public health burden of stroke.</p><p>Developing the list of potential activities in each of the domains, however, is only the first step. Each activity will be rated by a subcommittee both on its potential impact and the feasibility of its implementation. Subsequently, the DSSC aims to implement activities with a high potential impact and an acceptable feasibility in an ongoing effort to reduce the burden of stroke.</p></sec></body><back><ack><p>The Delta States Stroke Consortium was initially supported through a grant from the Cardiovascular Health Branch at the Centers for Disease Control and Prevention (CDC) within the Community Health Promotion Program, and is subsequently supported by the CDC under a grant agreement with the Cardiovascular Health Branch of the Alabama Department of Public Health.</p></ack><fn-group><fn><p>The opinions expressed by authors contributing to this journal do not necessarily reflect the opinions of the U.S. Department of Health and Human Services, the Public Health Service, Centers for Disease Control and Prevention, or the authors' affiliated institutions. Use of trade names is for identification only and does not imply endorsement by any of the groups named above.</p></fn><fn><p>
+<italic>Suggested citation for this article</italic>: Howard VJ, Acker J, Gomez CR, Griffies AH, Magers W, Michael M III, et al, for the Delta States Stroke Consortium. An approach to coordinate efforts to reduce the public health burden of stroke: the Delta States Stroke Consortium. Prev Chronic Dis [serial online] 2004 Oct [date cited]. Available from: URL: <ext-link xlink:href="http://www.cdc.gov/pcd/issues/2004/oct/03_0037.htm" ext-link-type="uri">http://www.cdc.gov/pcd/issues/2004/oct/03_0037.htm</ext-link>.</p></fn></fn-group><ref-list><ref id="B1"><label>1</label><element-citation publication-type="book">
+<year>2002</year>
+<collab>American Heart Association</collab>
+<source>Heart disease and stroke statistics &#x02013; 2003 update</source>
+<publisher-name>American Heart Association</publisher-name>
+<publisher-loc>Dallas (TX)</publisher-loc>
+</element-citation></ref><ref id="B2"><label>2</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Howard</surname><given-names>G</given-names></name></person-group>
+<year>1999</year>
+<volume>317</volume>
+<fpage>160</fpage>
+<lpage>167</lpage>
+<source>Am J Med Sci</source>
+<article-title>Why do we have a stroke belt in the southeastern United States? A review of unlikely and uninvestigated potential causes</article-title>
+<pub-id pub-id-type="pmid">10100689</pub-id></element-citation></ref><ref id="B3"><label>3</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Perry</surname><given-names>HM</given-names></name><name><surname>Roccella</surname><given-names>EJ</given-names></name></person-group>
+<volume>31</volume>
+<year>1998</year>
+<fpage>1206</fpage>
+<lpage>1215</lpage>
+<source>Hypertension</source>
+<article-title>Conference report on stroke mortality in the southeastern United States</article-title>
+<pub-id pub-id-type="pmid">9622131</pub-id></element-citation></ref><ref id="B4"><label>4</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Taylor</surname><given-names>TN</given-names></name><name><surname>Davis</surname><given-names>PH</given-names></name><name><surname>Torner</surname><given-names>JC</given-names></name><name><surname>Holmes</surname><given-names>J</given-names></name><name><surname>Meyer</surname><given-names>JW</given-names></name><name><surname>Jacobson</surname><given-names>MF</given-names></name></person-group>
+<volume>27</volume>
+<year>1996</year>
+<fpage>1459</fpage>
+<lpage>1466</lpage>
+<source>Stroke</source>
+<article-title>Lifetime cost of stroke in the United States</article-title>
+<pub-id pub-id-type="pmid">8784113</pub-id></element-citation></ref><ref id="B5"><label>5</label><element-citation publication-type="book">
+<year>2003</year>
+<collab>U.S. Department of Health and Human Services</collab>
+<source>A public health action plan to prevent heart disease and stroke. Executive summary and overview</source>
+<publisher-name>U.S. Department of Health and Human Services, Centers for Disease Control and Prevention</publisher-name>
+<publisher-loc>Atlanta (GA)</publisher-loc>
+</element-citation></ref><ref id="B6"><label>6</label><element-citation publication-type="book">
+<source>North Carolina Department of Health and Human Services. Tri-state stroke network [Internet website]</source>
+<date-in-citation content-type="access-date">cited 2003 Nov 28</date-in-citation>
+<publisher-loc>Raleigh (NC)</publisher-loc>
+<publisher-name>Tri-State Stroke Network</publisher-name>
+<comment>Available from:<ext-link xlink:href="www.tristatestrokenetwork.org" ext-link-type="uri">www.tristatestrokenetwork.org</ext-link>
+</comment>
+</element-citation></ref><ref id="B7"><label>7</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rose</surname><given-names>G</given-names></name></person-group>
+<volume>282</volume>
+<year>1981</year>
+<fpage>1847</fpage>
+<lpage>1851</lpage>
+<source>Br Med J (Clin Res Ed)</source>
+<article-title>Strategy of prevention:&#x000a0;Lessons from cardiovascular disease</article-title>
+</element-citation></ref><ref id="B8"><label>8</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Labarthe</surname><given-names>DR</given-names></name></person-group>
+<volume>29</volume>
+<year>1999</year>
+<fpage>S72</fpage>
+<lpage>S78</lpage>
+<source>Prev Med</source>
+<article-title>Prevention of cardiovascular risk factors in the first place</article-title>
+<pub-id pub-id-type="pmid">10641821</pub-id></element-citation></ref><ref id="B9"><label>9</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Goldstein</surname><given-names>LB</given-names></name><name><surname>Adams</surname><given-names>R</given-names></name><name><surname>Becker</surname><given-names>K</given-names></name><name><surname>Furberg</surname><given-names>CD</given-names></name><name><surname>Gorelick</surname><given-names>PB</given-names></name><name><surname>Hademenos</surname><given-names>G</given-names></name><etal/></person-group>
+<volume>32</volume>
+<year>2001</year>
+<fpage>280</fpage>
+<lpage>299</lpage>
+<source>Stroke</source>
+<article-title>Primary prevention of ischemic stroke: a statement for healthcare professionals from the Stroke Council of the American Heart Association</article-title>
+<pub-id pub-id-type="pmid">11136952</pub-id></element-citation></ref><ref id="B10"><label>10</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hajjar</surname><given-names>I</given-names></name><name><surname>Kotchen</surname><given-names>TA</given-names></name></person-group>
+<volume>290</volume>
+<year>2003</year>
+<fpage>199</fpage>
+<lpage>206</lpage>
+<source>JAMA</source>
+<article-title>Trends in prevalence, awareness, treatment, and control of hypertension in the United States, 1988-2000</article-title>&#x000a0;
+<pub-id pub-id-type="pmid">12851274</pub-id></mixed-citation></ref><ref id="B11"><label>11</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gorelick</surname><given-names>PB</given-names></name><name><surname>Sacco</surname><given-names>RL</given-names></name><name><surname>Smith</surname><given-names>DB</given-names></name><name><surname>Alberts</surname><given-names>M</given-names></name><name><surname>Mustone-Alexander</surname><given-names>L</given-names></name><name><surname>Rader</surname><given-names>D</given-names></name><etal/></person-group>
+<volume>28</volume>
+<year>1999</year>
+<fpage>1112</fpage>
+<lpage>1120</lpage>
+<source>JAMA</source>
+<article-title>Prevention of a first stroke: a review of guidelines and a multidisciplinary consensus statement from the National Stroke Association</article-title>
+</element-citation></ref><ref id="B12"><label>12</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Straus</surname><given-names>SE</given-names></name><name><surname>Majumdar</surname><given-names>SR</given-names></name><name><surname>McAlister</surname><given-names>FA</given-names></name></person-group>
+<year>2002</year>
+<volume>288</volume>
+<fpage>1388</fpage>
+<lpage>1395</lpage>
+<source>JAMA</source>
+<article-title>New evidence for stroke prevention:&#x000a0;scientific review</article-title>
+<pub-id pub-id-type="pmid">12234233</pub-id></element-citation></ref><ref id="B13"><label>13</label><element-citation publication-type="journal">
+<volume>314</volume>
+<issue>7088</issue>
+<year>1997</year>
+<fpage>1151</fpage>
+<lpage>1159</lpage>
+<source>BMJ</source>
+<collab>Stroke Unit Trialists' Collaboration</collab>
+<article-title>Collaborative systematic review of the randomised trials of organized inpatient (stroke unit) care after stroke</article-title>
+<pub-id pub-id-type="pmid">9146387</pub-id></element-citation></ref><ref id="B14"><label>14</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sacco</surname><given-names>RL</given-names></name><name><surname>Foulkes</surname><given-names>MA</given-names></name><name><surname>Mohr</surname><given-names>JP</given-names></name><name><surname>Wolf</surname><given-names>PA</given-names></name><name><surname>Hier</surname><given-names>DB</given-names></name><name><surname>Price</surname><given-names>TR</given-names></name></person-group>
+<volume>20</volume>
+<year>1989</year>
+<fpage>983</fpage>
+<lpage>989</lpage>
+<source>Stroke</source>
+<article-title>Determinants of early recurrence of cerebral infarction. The Stroke Data Bank</article-title>
+<pub-id pub-id-type="pmid">2756550</pub-id></element-citation></ref><ref id="B15"><label>15</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hier</surname><given-names>DB</given-names></name><name><surname>Foulkes</surname><given-names>MA</given-names></name><name><surname>Swiontoniowski</surname><given-names>M</given-names></name><name><surname>Sacco</surname><given-names>RL</given-names></name><name><surname>Gorelick</surname><given-names>PB</given-names></name><name><surname>Mohr</surname><given-names>JP</given-names></name><etal/></person-group>
+<volume>22</volume>
+<year>1991</year>
+<fpage>155</fpage>
+<lpage>161</lpage>
+<source>Stroke</source>
+<article-title>Stroke recurrence within 2 years after ischemic infarction</article-title>
+<pub-id pub-id-type="pmid">2003278</pub-id></element-citation></ref><ref id="B16"><label>16</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Alter</surname><given-names>M</given-names></name><name><surname>Friday</surname><given-names>G</given-names></name><name><surname>Sobel</surname><given-names>E</given-names></name><name><surname>Lai</surname><given-names>SM</given-names></name></person-group>
+<volume>12</volume>
+<year>1993</year>
+<fpage>241</fpage>
+<lpage>248</lpage>
+<source>Neuroepidemiology</source>
+<article-title>The Lehigh Valley Recurrent Stroke Study: description of designs and methods</article-title>
+<pub-id pub-id-type="pmid">8272184</pub-id></element-citation></ref><ref id="B17"><label>17</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lai</surname><given-names>SM</given-names></name><name><surname>Alter</surname><given-names>M</given-names></name><name><surname>Friday</surname><given-names>G</given-names></name><name><surname>Sobel</surname><given-names>E</given-names></name></person-group>
+<year>1994</year>
+<volume>25</volume>
+<fpage>958</fpage>
+<lpage>962</lpage>
+<source>Stroke</source>
+<article-title>A multifactorial analysis of risk factors for recurrence of ischemic stroke</article-title>
+<pub-id pub-id-type="pmid">8165690</pub-id></element-citation></ref><ref id="B18"><label>18</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wolf</surname><given-names>PA</given-names></name><name><surname>Clagett</surname><given-names>GP</given-names></name><name><surname>Easton</surname><given-names>JD</given-names></name><name><surname>Goldstein</surname><given-names>LB</given-names></name><name><surname>Gorelick</surname><given-names>PB</given-names></name><name><surname>Kelly-Hayes</surname><given-names>M</given-names></name><etal/></person-group>
+<volume>30</volume>
+<year>1999</year>
+<fpage>1991</fpage>
+<lpage>1994</lpage>
+<source>Stroke</source>
+<article-title>Preventing ischemic stroke in patients with prior stroke and transient ischemic attack: a statement for healthcare professionals from the Stroke Council of the American Heart Association</article-title>
+<pub-id pub-id-type="pmid">10471455</pub-id></element-citation></ref><ref id="B19"><label>19</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schneider</surname><given-names>AT</given-names></name><name><surname>Pancioli</surname><given-names>AM</given-names></name><name><surname>Khoury</surname><given-names>JC</given-names></name><name><surname>Rademacher</surname><given-names>E</given-names></name><name><surname>Tuchfarber</surname><given-names>A</given-names></name><name><surname>Miller</surname><given-names>R</given-names></name><etal/></person-group>
+<year>2003</year>
+<fpage>343</fpage>
+<lpage>346</lpage>
+<volume>289</volume>
+<source>JAMA</source>
+<article-title>Trends in community knowledge of the warning signs and risk factors for stroke</article-title>
+<pub-id pub-id-type="pmid">12525235</pub-id></element-citation></ref><ref id="B20"><label>20</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Greenlund</surname><given-names>KJ</given-names></name><name><surname>Neff</surname><given-names>LJ</given-names></name><name><surname>Zheng</surname><given-names>ZJ</given-names></name><name><surname>Keenan</surname><given-names>NL</given-names></name><name><surname>Giles</surname><given-names>WH</given-names></name><name><surname>Ayala</surname><given-names>CA</given-names></name><etal/></person-group>
+<year>2003</year>
+<fpage>315</fpage>
+<lpage>319</lpage>
+<volume>25</volume>
+<source>Am J Prev Med</source>
+<article-title>Low public recognition of major stroke symptoms</article-title>
+<pub-id pub-id-type="pmid">14580633</pub-id></element-citation></ref><ref id="B21"><label>21</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Reeves</surname><given-names>MJ</given-names></name><name><surname>Hogan</surname><given-names>JG</given-names></name><name><surname>Rafferty</surname><given-names>AP</given-names></name></person-group>
+<year>2002</year>
+<fpage>1547</fpage>
+<lpage>1552</lpage>
+<volume>59</volume>
+<source>&#x000a0;Neurology</source>
+<article-title>Knowledge of stroke risk factors and warning signs among Michigan adults</article-title>
+<pub-id pub-id-type="pmid">12451195</pub-id></element-citation></ref><ref id="B22"><label>22</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Carroll</surname><given-names>C</given-names></name><name><surname>Hobart</surname><given-names>J</given-names></name><name><surname>Fox</surname><given-names>C</given-names></name><name><surname>Teare</surname><given-names>L</given-names></name><name><surname>Gibson</surname><given-names>J</given-names></name></person-group>
+<volume>75</volume>
+<issue>4</issue>
+<year>2004</year>
+<fpage>567</fpage>
+<lpage>571</lpage>
+<source>J Neurol Neurosurg Psychiatry</source>
+<article-title>Stroke in Devon:&#x000a0;knowledge was good but action was poor</article-title>
+<pub-id pub-id-type="pmid">15026498</pub-id></element-citation></ref><ref id="B23"><label>23</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schroeder</surname><given-names>EB</given-names></name><name><surname>Rosamond</surname><given-names>WD</given-names></name><name><surname>Morris</surname><given-names>DL</given-names></name><name><surname>Evenson</surname><given-names>KR</given-names></name><name><surname>Hinn</surname><given-names>AR</given-names></name></person-group>
+<volume>31</volume>
+<issue>11</issue>
+<year>2000</year>
+<fpage>2591</fpage>
+<lpage>2596</lpage>
+<source>&#x000a0;Stroke</source>
+<article-title>Determinants of use of emergency medical services in a population with stroke symptoms: the Second Delay in Accessing Stroke Healthcare (DASH II) Study</article-title>
+<pub-id pub-id-type="pmid">11062280</pub-id></element-citation></ref><ref id="B24"><label>24</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Martin</surname><given-names>BJ</given-names></name><name><surname>Yip</surname><given-names>B</given-names></name><name><surname>Hearty</surname><given-names>M</given-names></name><name><surname>Marletta</surname><given-names>S</given-names></name><name><surname>Hill</surname><given-names>R</given-names></name></person-group>
+<volume>47</volume>
+<issue>6</issue>
+<year>2002</year>
+<fpage>136</fpage>
+<lpage>137</lpage>
+<source>Scott Med J</source>
+<article-title>Outcome, functional recovery and unmet needs following acute stroke. Experience of patient follow-up at 6 to 9 months in a newly established stroke service</article-title>
+<pub-id pub-id-type="pmid">12616970</pub-id></element-citation></ref><ref id="B25"><label>25</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Alberts</surname><given-names>MJ</given-names></name><name><surname>Hademenos</surname><given-names>G</given-names></name><name><surname>Latchaw</surname><given-names>RE</given-names></name><name><surname>Jagoda</surname><given-names>A</given-names></name><name><surname>Marler</surname><given-names>JR</given-names></name><name><surname>Mayberg</surname><given-names>MR</given-names></name><etal/></person-group>
+<volume>283</volume>
+<year>2000</year>
+<fpage>3102</fpage>
+<lpage>3109</lpage>
+<source>JAMA</source>
+<article-title>Recommendations for the establishment of primary stroke centers. Brain Attack Coalition</article-title>
+<pub-id pub-id-type="pmid">10865305</pub-id></element-citation></ref></ref-list><sec><table-wrap position="float" id="T1"><label>Table</label><caption><p>Matrix of Opportunities to Reduce the Burden of Stroke by Applying Activities Within Each of Five Domains, Delta States Stroke Consortium</p></caption><table frame="hsides" rules="groups" border="0" cellspacing="1" cellpadding="4" width="100%"><thead><tr><th scope="col" colspan="2" rowspan="3" valign="top" align="left">&#x000a0;</th><th scope="col" colspan="5" valign="bottom" rowspan="1">
+<bold>Potential Activities to Reduce Stroke Burden</bold>
+</th></tr><tr><th colspan="5" rowspan="1">
+<hr/>
+</th></tr><tr><th scope="col" valign="bottom" rowspan="1" colspan="1">
+<bold>Education of lay public</bold>
+</th><th scope="col" valign="bottom" rowspan="1" colspan="1">
+<bold>Education of health care providers</bold>
+</th><th scope="col" valign="bottom" rowspan="1" colspan="1">
+<bold>Advocacy and legislative actions</bold>
+</th><th scope="col" valign="bottom" rowspan="1" colspan="1">
+<bold>Modification of general environment</bold>
+</th><th scope="col" valign="bottom" rowspan="1" colspan="1">
+<bold>Modification of health care environment</bold>
+</th></tr></thead><tbody><tr><th scope="row" rowspan="5" valign="top" align="left" colspan="1">
+<bold>Domains for Interventions to Reduce the Burden of Stroke</bold>
+</th><th scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Primordial and primary risk factor control</bold>
+</th><td valign="top" align="right" rowspan="1" colspan="1">Share resources and develop regional messages; partner with other organizations</td><td valign="top" align="right" rowspan="1" colspan="1">Education of primary care providers</td><td valign="top" align="right" rowspan="1" colspan="1">Advocate to provide reimbursement for provision of preventive care</td><td valign="top" align="right" rowspan="1" colspan="1">Encourage environment for healthy lifestyle choices including walking paths and healthy snacks</td><td valign="top" align="right" rowspan="1" colspan="1">Encourage systems for preventive care including standard assessments of lifestyle choices and risk factors</td></tr><tr><th scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Identification of signs and symptoms, with appropriate actions</bold>
+</th><td valign="top" align="right" rowspan="1" colspan="1">Develop and disseminate a stroke first-aid course to the general public&#x000a0; </td><td valign="top" align="right" rowspan="1" colspan="1">Education of primary care physicians to immediately contact 911</td><td valign="top" align="right" rowspan="1" colspan="1">Recruit panel of opinion leaders to assist in sending messages and raising awareness</td><td valign="top" align="right" rowspan="1" colspan="1">Ensure complete 911 coverage</td><td valign="top" align="right" rowspan="1" colspan="1">Train 911 operators on standard stroke identification and pre-transport care.</td></tr><tr><th scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Stroke transport and acute care</bold>
+</th><td valign="top" align="right" rowspan="1" colspan="1">Develop and disseminate "Make the right call" and "Am I at risk?" programs</td><td valign="top" align="right" rowspan="1" colspan="1">Develop and gain hospital adoption of uniform emergency room protocol for care of acute stroke</td><td valign="top" align="right" rowspan="1" colspan="1">Reduce barriers to calling 911 and ensure that costs will be covered</td><td valign="top" align="right" rowspan="1" colspan="1">Stress need for clear residential address identification for EMS</td><td valign="top" align="right" rowspan="1" colspan="1">Develop a format and content for a bidirectional stroke transfer protocol to include type of transport, level of transport, and treatment prior to hospital arrival</td></tr><tr><th scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Secondary stroke prevention</bold>
+</th><td valign="top" align="right" rowspan="1" colspan="1">Ensure that all hospitalized patients have education in risk factors for prevention of second strokes, signs and symptoms of stroke, and need for monitoring status </td><td valign="top" align="right" rowspan="1" colspan="1">&#x000a0;Ensure that the health care providers have adequate training to formulate an optimal secondary prevention plan on type of initial stroke or transient ischemic attacks</td><td valign="top" align="right" rowspan="1" colspan="1">Work at the local and national level to increase awareness, funding, and quality control for secondary prevention by using AQAF/JCHCO standards for stroke centers</td><td valign="top" align="right" rowspan="1" colspan="1">Encourage environment that facilitates control of risk factors</td><td valign="top" align="right" rowspan="1" colspan="1">Improve efforts to provide quality home health care; improve education, communications, and staffing</td></tr><tr><th scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Rehabilitation and recovery</bold>
+</th><td valign="top" align="right" rowspan="1" colspan="1">Design and develop a rehabilitation awareness course</td><td valign="top" align="right" rowspan="1" colspan="1">Design and develop rehabilitation training programs for physicians and allied health professionals</td><td valign="top" align="right" rowspan="1" colspan="1">Push for stroke recovery as a quality indicator (QI) for all federal programs</td><td valign="top" align="right" rowspan="1" colspan="1">Foster development of patient and caregiver support groups</td><td valign="top" align="right" rowspan="1" colspan="1">Utilize lifetime health programs, encourage contracts with local gymnasiums</td></tr></tbody></table></table-wrap></sec></back></article>

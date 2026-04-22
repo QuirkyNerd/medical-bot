@@ -1,0 +1,679 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS Comput Biol</journal-id><journal-id journal-id-type="iso-abbrev">PLoS Comput. Biol</journal-id><journal-id journal-id-type="publisher-id">pcbi</journal-id><journal-id journal-id-type="publisher-id">plcb</journal-id><journal-id journal-id-type="pmc">ploscomp</journal-id><journal-title-group><journal-title>PLoS Computational Biology</journal-title></journal-title-group><issn pub-type="ppub">1553-734X</issn><issn pub-type="epub">1553-7358</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">16118665</article-id><article-id pub-id-type="pmc">PMC1188273</article-id><article-id pub-id-type="doi">10.1371/journal.pcbi.0010027</article-id><article-id pub-id-type="publisher-id">05-PLCB-RA-0061R2</article-id><article-id pub-id-type="sici">plcb-01-03-03</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group><subj-group subj-group-type="Discipline"><subject>Bioinformatics - Computational Biology</subject><subject>Evolution</subject><subject>Microbiology</subject></subj-group><subj-group subj-group-type="System Taxonomy"><subject>Eubacteria</subject><subject>Archaea</subject><subject>Eukaryotes</subject></subj-group></article-categories><title-group><article-title>Comparative Analyses of Fundamental Differences in Membrane Transport Capabilities in Prokaryotes and Eukaryotes</article-title><alt-title alt-title-type="running-head">Membrane Transport Systems in 141 Organisms</alt-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Ren</surname><given-names>Qinghu</given-names></name><xref ref-type="aff" rid="aff1"/></contrib><contrib contrib-type="author"><name><surname>Paulsen</surname><given-names>Ian T</given-names></name><xref ref-type="corresp" rid="cor1">*</xref><xref ref-type="aff" rid="aff1"/></contrib></contrib-group><aff id="aff1">The Institute for Genomic Research, Rockville, Maryland, United States of America</aff><contrib-group><contrib contrib-type="editor"><name><surname>Bork</surname><given-names>Peer</given-names></name><role>Editor</role><xref ref-type="aff" rid="edit1"/></contrib></contrib-group><aff id="edit1">EMBL Heidelberg, Germany</aff><author-notes><corresp id="cor1">* To whom correspondence should be addressed. E-mail: <email>ipaulsen@tigr.org</email></corresp></author-notes><pub-date pub-type="ppub"><month>8</month><year>2005</year></pub-date><pub-date pub-type="epub"><day>19</day><month>8</month><year>2005</year></pub-date><volume>1</volume><issue>3</issue><elocation-id>e27</elocation-id><history><date date-type="received"><day>24</day><month>3</month><year>2005</year></date><date date-type="accepted"><day>8</day><month>7</month><year>2005</year></date></history><permissions><copyright-statement>Copyright: &#x000a9; 2005 Ren and Paulsen.</copyright-statement><copyright-year>2005</copyright-year><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p></license></permissions><abstract><p>Whole-genome transporter analyses have been conducted on 141 organisms whose complete genome sequences are available. For each organism, the complete set of membrane transport systems was identified with predicted functions, and classified into protein families based on the transporter classification system. Organisms with larger genome sizes generally possessed a relatively greater number of transport systems. In prokaryotes and unicellular eukaryotes, the significant factor in the increase in transporter content with genome size was a greater diversity of transporter types. In contrast, in multicellular eukaryotes, greater number of paralogs in specific transporter families was the more important factor in the increase in transporter content with genome size. Both eukaryotic and prokaryotic intracellular pathogens and endosymbionts exhibited markedly limited transport capabilities. Hierarchical clustering of phylogenetic profiles of transporter families, derived from the presence or absence of a certain transporter family, showed that clustering patterns of organisms were correlated to both their evolutionary history and their overall physiology and lifestyles.</p></abstract><abstract abstract-type="synopsis"><title>Synopsis</title><sec id="st1"><title/><p>Membrane transporters are the cell's equivalent of delivery vehicles, garbage disposals, and communication systems&#x02014;proteins that negotiate through cell membranes to deliver essential nutrients, eject waste products, and help the cell sense environmental conditions around it. Membrane transport systems play crucial roles in fundamental cellular processes of all organisms. The suite of transporters in any one organism also sheds light on its lifestyle and physiology. Up to now, analysis of membrane transporters has been limited mainly to the examination of transporter genes of individual organisms. But advances in genome sequencing have now made it possible for scientists to compare transport and other essential cellular processes across a range of organisms in all three domains of life.</p><p>Ren and Paulsen present the first comprehensive bioinformatic analysis of the predicted membrane transporter content of 141 different prokaryotic and eukaryotic organisms. The scientists developed a new computational application of the phylogenetic profiling approach to cluster together organisms that appear to have similar suites of transporters. For example, a group of obligate intracellular pathogens and endosymbionts possess only limited transporter systems in spite of the massive metabolite fluxes one would expect between the symbionts and their host. This is likely due to the relatively static nature of their intracellular environment. In contrast, a cluster of plant/soil-associated microbes encode a robust array of transporters, reflecting the organisms' versatility as well as their exposure to a wide range of different substrates in their natural environment.</p></sec></abstract><custom-meta-group><custom-meta><meta-name>Citation:</meta-name><meta-value>Ren Q, Paulsen&#x02009;IT (2005) Comparative analyses of fundamental differences in membrane transport capabilities in prokaryotes and eukaryotes. PLoS Comp Biol 1(3):&#x02002;e27.</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec id="s1"><title>Introduction</title><p>Membrane transport systems play essential roles in cellular metabolism and activities. Transporters function in the acquisition of organic nutrients, maintenance of ion homeostasis, extrusion of toxic and waste compounds, environmental sensing and cell communication, and other important cellular functions [<xref rid="pcbi-0010027-b01" ref-type="bibr">1</xref>]. Various transport systems differ in their putative membrane topology, energy coupling mechanisms, and substrate specificities [<xref rid="pcbi-0010027-b02" ref-type="bibr">2</xref>]. Among the prevailing energy sources are adenosine triphosphate (ATP), phosphoenolpyruvate, and chemiosmotic energy in the form of sodium ion or proton electrochemical gradients.</p><p>The transporter classification system (<ext-link ext-link-type="uri" xlink:href="http://www.tcdb.org/">http://www.tcdb.org/</ext-link>) represents a systematic approach to classify transport systems according to their mode of transport, energy coupling mechanism, molecular phylogeny, and substrate specificity [<xref rid="pcbi-0010027-b02" ref-type="bibr">2</xref>&#x02013;<xref rid="pcbi-0010027-b05" ref-type="bibr">5</xref>]. Transport mode and energy coupling mechanism serve as the primary basis for classification because of their relatively stable characteristics. There are four major classes of solute transporters in the transporter classification system: channels, primary (active) transporters, secondary transporters, and group translocators. Transporters of unknown mechanism or function are included as a distinct class. Channels are energy-independent transporters that transport water, specific types of ions, or hydrophilic small molecules down a concentration or electrical gradient; they have higher rates of transport and lower stereospecificity than the other transporter classes (e.g., <italic>Escherichia coli</italic> GlpF glycerol channel [<xref rid="pcbi-0010027-b06" ref-type="bibr">6</xref>]). Primary active transporters (e.g., <italic>Lactococcus lactis</italic> LmrP multidrug efflux pump [<xref rid="pcbi-0010027-b07" ref-type="bibr">7</xref>]) couple the transport process to a primary source of energy (ATP hydrolysis). Secondary transporters utilize an ion or solute electrochemical gradient, e.g., proton/sodium motive force, to drive the transport process. <italic>E. coli</italic> LacY lactose permease [<xref rid="pcbi-0010027-b08" ref-type="bibr">8</xref>,<xref rid="pcbi-0010027-b09" ref-type="bibr">9</xref>] is probably one of the best characterized secondary transporters [<xref rid="pcbi-0010027-b10" ref-type="bibr">10</xref>]. Group translocators modify their substrates during the transport process. For example, <italic>E. coli</italic> MtlA mannitol PTS transporter phosphorylates exogenous mannitol using phosphoenolpyruvate as the phosphoryl donor and energy source and releases the phosphate ester, mannitol-1-P, into the cell cytoplasm [<xref rid="pcbi-0010027-b11" ref-type="bibr">11</xref>,<xref rid="pcbi-0010027-b12" ref-type="bibr">12</xref>]. Each transporter class is further classified into individual families and subfamilies according to their function, phylogeny, and/or substrate specificity [<xref rid="pcbi-0010027-b03" ref-type="bibr">3</xref>].</p><p>Since the advent of genomic sequencing technologies, the complete sequences of over 200 prokaryotic and eukaryotic genomes have been published to date, representing a wide range of species from archaea to human. There are also more than 1,100 additional genome sequencing projects currently underway around the world (Gold Genomes Online Database, <ext-link ext-link-type="uri" xlink:href="http://www.genomesonline.org/">http://www.genomesonline.org/</ext-link>) [<xref rid="pcbi-0010027-b13" ref-type="bibr">13</xref>,<xref rid="pcbi-0010027-b14" ref-type="bibr">14</xref>]. Convenient and effective computational methods are required to handle and analyze the immense amount of data generated by the whole-genome sequencing projects. An in-depth look at transport proteins is vital to the understanding of the metabolic capability of sequenced organisms. However, it is often problematic to annotate these transport proteins by current primary annotation methods because of the occurrence of large and complex transporter gene families, such as the ATP-binding cassette (ABC) superfamily [<xref rid="pcbi-0010027-b15" ref-type="bibr">15</xref>,<xref rid="pcbi-0010027-b16" ref-type="bibr">16</xref>] and the major facilitator superfamily (MFS) [<xref rid="pcbi-0010027-b17" ref-type="bibr">17</xref>,<xref rid="pcbi-0010027-b18" ref-type="bibr">18</xref>], and the presence of multiple transporter gene paralogs in many organisms. We have been working on a systematic genome-wide analysis of cellular membrane transport systems. Previously, we reported a comprehensive analysis of the transport systems in 18 prokaryotic organisms [<xref rid="pcbi-0010027-b19" ref-type="bibr">19</xref>,<xref rid="pcbi-0010027-b20" ref-type="bibr">20</xref>] and in yeast [<xref rid="pcbi-0010027-b21" ref-type="bibr">21</xref>]. Here we expand our analyses to 141 species and compare the fundamental differences in membrane transport systems in prokaryotes and eukaryotes. Phylogenetic profiling of transporter families and predicted substrates was utilized to investigate the relevance of transport capabilities to the overall physiology of prokaryotes and eukaryotes.</p></sec><sec id="s2"><title>Results/Discussion</title><sec id="s2a"><title>Numbers of Recognized Transporter Families and Proteins</title><p>A total of 40,678 transport proteins from 141 species (<xref ref-type="supplementary-material" rid="pcbi-0010027-st001">Table S1</xref>), including 115 Eubacteria, 17 Archaea, and 9 Eukaryota, were predicted by our analysis pipeline. They were classified into 134 families, including 7 families of primary transporters, 80 families of secondary transporters, 32 channel protein families, 2 phosphotransferase systems (PTSs), and 13 unclassified families. Some of these families are very large superfamilies with numerous members, such as the ABC superfamily and MFS, both of which are widely distributed in Eubacteria, Archaea, and Eukaryota. Some are small families with only a single or a few members. The distribution of transporter families varies significantly across the three domains of life (<xref ref-type="fig" rid="pcbi-0010027-g001">Figure 1</xref>). There are 42 eukaryotic-specific families, mostly ion channel families that exist exclusively in multicellular eukaryotic organisms like <italic>Drosophila melanogaster,</italic>
+<italic>Arabidopsis thaliana,</italic> and humans. These channels are involved in processes like cell communication, signal transduction, and maintenance of internal homeostasis in a multicellular environment. Most of these families are restricted to a single organismal type. Many of them may have arisen later during evolution, after the separation of the three domains. Alternatively, some families may have diverged too extensively from their prokaryotic counterparts to be recognized as homologs. Interestingly, a bacterial homolog to the previously described &#x0201c;eukaryotic-specific&#x0201d; glutamate-gated ion channel (GIC) family of neurotransmitter receptors has now been characterized in <italic>Synechocystis</italic> [<xref rid="pcbi-0010027-b22" ref-type="bibr">22</xref>,<xref rid="pcbi-0010027-b23" ref-type="bibr">23</xref>], and its orthologs have been identified in other sequenced Cyanobacteria. The <italic>Synechocystis</italic> transporter binds glutamate and forms a K<sup>+</sup>-selective ion channel. These observations suggest that eukaryotic GIC family transporters arose from a primordial prokaryotic counterpart.</p><fig id="pcbi-0010027-g001" position="float"><label>Figure 1</label><caption><title>Venn Diagram Showing the Distribution of Transporter Families across the Three Domains of Life</title></caption><graphic xlink:href="pcbi.0010027.g001"/></fig><p>There are 38 prokaryotic-specific transporter families, of which 22 families exist exclusively in Eubacteria, such as the bacterial sugar PTS systems (see below), and 16 are shared by Eubacteria and Archaea. In contrast to eukaryotic-specific families, which are usually limited to single species, the majority of prokaryotic-specific ones are broadly distributed among prokaryotes. There are no Archaea-specific transporter families currently known. Due to the very limited experimental characterization of Archaea species relative to Eubacteria and Eukaryota, many aspects of the physiology and biochemistry of Archaea are poorly understood [<xref rid="pcbi-0010027-b24" ref-type="bibr">24</xref>]. We compared the annotation of membrane proteins in selected species of Archaea and Eubacteria in The Institute for Genomic Research's Comprehensive Microbial Resource database [<xref rid="pcbi-0010027-b25" ref-type="bibr">25</xref>]. The percentage of the membrane proteins assigned to the role category of &#x0201c;hypothetical proteins&#x0201d; is significantly greater in Archaea than in Eubacteria (<xref ref-type="supplementary-material" rid="pcbi-0010027-sg001">Figure S1</xref>). These observations suggest that the sparse functional characterization could be the primary reason for the lack of any known Archaea-specific transporter families.</p><p>There are 41 transporter families represented in all three domains of life, highlighting the fundamental importance of these families. These are presumably very ancient families shared by the last common ancestor of Archaea, Eukaryota, and Eubacteria. Most of them were found within the secondary transporter class. These ubiquitous transporter families function in the transport of a diverse spectrum of substrates, including sugars, amino acids, carboxylates, nucleosides, and various cations and anions. There are 14 families shared by Eubacteria and Eukaryota and 16 shared by Eubacteria and Archaea. Some of these families shared only in two domains may ultimately be discovered in all three domains once a greater diversity of organisms is sequenced.</p><p>The overall quantity of recognized transport proteins (<xref ref-type="fig" rid="pcbi-0010027-g002">Figure 2</xref>A) and the percentage relative to the total number of open reading frames (ORFs) (<xref ref-type="fig" rid="pcbi-0010027-g002">Figure 2</xref>B) were compared for the organisms analyzed. Between 2% and 16% of ORFs in prokaryotic and eukaryotic genomes were predicted to encode membrane transport proteins, emphasizing the importance of transporters in the lifestyles of all species. In general, eukaryotic species, especially multicellular eukaryotic organisms, exhibit the largest total number of transport proteins, e.g., <italic>Drosophila</italic> (682 transport proteins, 3.7% of ORFs), <italic>Arabidopsis</italic> (882, 3.5%)<italic>, Caenorhabditis elegans</italic> (669, 4.1%), and humans (841, 3.0%). However, the transport proteins of eukaryotic species account for a relatively smaller percentage of total ORFs than in Eubacteria (average 9.3% &#x000b1; 2.9%) and Archaea (average 6.7% &#x000b1; 2.3%) species. Considerable variations in the quantity of transport proteins have been observed among species belonging to the same phylogenetic group. For example, &#x003b1;-Proteobacteria species exhibit a wide variety of lifestyles and corresponding differences in transporter content; they range from rhizosphere-dwelling organisms such as <italic>Mesorhizobium loti</italic> and <italic>Sinorhizobium meliloti</italic> [<xref rid="pcbi-0010027-b26" ref-type="bibr">26</xref>] with 883 (12.1%) and 826 (13.3%) transport proteins each, to obligate intracellular pathogens or symbionts such as <italic>Rickettsia prowazekii</italic> and <italic>Wolbachia</italic> sp. with 57 (6.8%) and 65 (5.4%) transport proteins, respectively. Overall, prokaryotic obligate endosymbionts and intracellular pathogens, as well as the eukaryotic intracellular parasites (<italic>Plasmodium falciparum</italic> [<xref rid="pcbi-0010027-b27" ref-type="bibr">27</xref>] and <italic>Encephalitozoon cuniculi</italic> [<xref rid="pcbi-0010027-b28" ref-type="bibr">28</xref>]), possess the most limited repertoire of membrane transporters.</p><fig id="pcbi-0010027-g002" position="float"><label>Figure 2</label><caption><title>Numbers of Recognized Transport Proteins and Percentage of Total ORFs</title><p>The overall numbers of recognized transport proteins (A) and percentage of total ORFs encoding transport proteins (B) were compared for the 141 organisms analyzed. Species from distinct phylogenetic groups are labeled with different colors. The prokaryotic and eukaryotic obligate intracellular parasites/pathogens are marked with red stars.</p></caption><graphic xlink:href="pcbi.0010027.g002"/></fig></sec><sec id="s2b"><title>Genome Size versus Diversity of Transporter Families and Numbers of Paralogs</title><p>Organisms with a larger genome size and therefore more ORFs generally encode a greater number of transporters [<xref rid="pcbi-0010027-b19" ref-type="bibr">19</xref>,<xref rid="pcbi-0010027-b29" ref-type="bibr">29</xref>]. In addition to transporters, regulatory genes, secondary metabolism genes, and transcription factors, also appear to increase with genome size [<xref rid="pcbi-0010027-b29" ref-type="bibr">29</xref>&#x02013;<xref rid="pcbi-0010027-b31" ref-type="bibr">31</xref>]. Two major factors could contribute to the expansion of transporters in organisms with large genome sizes: (1) an increased number of distinct transporter families, and (2) a higher degree of gene duplication or expansion, leading to a greater number of paralogs in certain transporter families. To investigate the relationship between genome size and these two factors, we plotted the total number of ORFs from 141 organisms as a function of either the number of distinct transporter families (<xref ref-type="fig" rid="pcbi-0010027-g003">Figure 3</xref>A), or the average number of paralogs per family (<xref ref-type="fig" rid="pcbi-0010027-g003">Figure 3</xref>B). Prokaryotes and eukaryotes exhibit distinct differences. For prokaryotic species, there is a relatively linear relationship between the genome size and the number of transporter families (<italic>R</italic>
+<sup>2</sup> = 0.54) or average number of paralogs (<italic>R</italic>
+<sup>2</sup> = 0.65). As genome size increases, the rate of increase in the number of families per organism is approximately eight times greater than that of the average number of paralogs per family. The increase in genome size can only partially explain the expansion of transporter families and paralogs (as indicated by the correlation <italic>R</italic>
+<sup>2</sup> value). The strain-specific properties and lifestyles could also have an impact. For example, a group of &#x003b1;-Proteobacteria exhibit the most paralogs per family but have relatively lower diversity of transporter families. These organisms include rhizobial microsymbionts <italic>M. loti,</italic>
+<italic>S. meliloti,</italic> and <italic>Bradyrhizobium japonicum</italic> [<xref rid="pcbi-0010027-b26" ref-type="bibr">26</xref>], and a closely related plant pathogen, <italic>Agrobacterium tumefaciens</italic> (enclosed by a circle on <xref ref-type="fig" rid="pcbi-0010027-g003">Figure 3</xref>). All of these organisms have more ABC transporters than any other sequenced organisms [<xref rid="pcbi-0010027-b29" ref-type="bibr">29</xref>]. ABC family transporters mediate the uptake of a variety of nutrients and the extrusion of drugs and metabolite wastes. Having a large complement of high-affinity ABC uptake systems may be an advantage for organisms in the competition among microbes for nutrients. Two <italic>Streptomyces</italic> species, <italic>St. avermitilis</italic> and <italic>St. coelicolor,</italic> also exhibit a similar trend, with a significant expansion of the ABC and MFS family transporters.</p><fig id="pcbi-0010027-g003" position="float"><label>Figure 3</label><caption><title>Number of Total ORFs versus Number of Distinct Transporter Families or Average Number of Paralogs per Family</title><p>The number of total ORFs in the genome for each of the 141 sequenced prokaryotic and eukaryotic organisms (<italic>x</italic>-axis) was plotted as a function of either the number of distinct transporter families (A) or the average number of paralogs per family (B) (<italic>y</italic>-axis). Blue diamonds represent prokaryotic organisms and red squares represent eukaryotic organisms. Trend line and power correlation <italic>R</italic>
+<sup>2</sup> value are shown for prokaryotes and eukaryotes, respectively. A group of &#x003b1;-Proteobacteria are enclosed by a circle (see text for discussion).</p></caption><graphic xlink:href="pcbi.0010027.g003"/></fig><p>The number of eukaryotic species analyzed is smaller, so it is more difficult to draw robust conclusions. The single-celled eukaryotes such as the yeasts appear to display characteristics similar to those of the prokaryotes, showing expansions in both transporter families and paralogs as genome size increases, with the former being a more important factor. However, in multicellular eukaryotic organisms such as animals and plants, the tremendous number of paralogs in certain transporter families accounts for a significant portion of the increase of transporters. Although multicellular eukaryotes exhibit fewer transporter families than some of the prokaryotic species, they have generated an extraordinary number of paralogs by gene duplication or expansion within certain families, like the ABC superfamily, MFS, and the voltage-gated ion channel superfamily. For example, the <italic>Arabidopsis</italic> genome encodes 110 paralogs of the ABC superfamily [<xref rid="pcbi-0010027-b32" ref-type="bibr">32</xref>,<xref rid="pcbi-0010027-b33" ref-type="bibr">33</xref>] and 92 paralogs of the MFS.</p><p>These differences in the relative abundances of transporter paralogs and distinct transporter families probably represent fundamental differences in transporter needs or priorities of these organisms. Multicellular organisms with many apparently redundant transporter paralogs appear to be utilizing a strategy of specialization. Many of their closely related paralogous transporters are presumably expressed only in specific tissues or subcellular localizations, or at specific developmental time points. Many appear to be involved in cell&#x02013;cell communication and signal transduction processes, emphasizing the importance of intercellular communication in complex multicellular organisms. In contrast, the single-celled prokaryotes and eukaryotes, with relatively fewer paralogs but a greater emphasis on numbers of different families of transporters, appear to be utilizing a strategy of diversification. This probably reflects that one of the primary roles of membrane transport systems in these organisms is nutrient acquisition. A greater diversity of transporter types presumably allows for a broader range of substrate utilization.</p></sec><sec id="s2c"><title>Distribution of Transporter Types According to Energy Coupling Mechanism</title><p>A wide range of variations were observed in the relative usage of energy coupling mechanisms to drive transport processes among the prokaryotes and eukaryotes analyzed. <xref ref-type="table" rid="pcbi-0010027-t001">Table 1</xref> shows the relative percentage of each transporter type in organisms from major phylogenetic groups. Transporters were categorized into five major types according to transport mode and energy coupling mechanism: primary transporters, secondary transporters, ion channels, group translocators, and unclassified. Primary and secondary carriers are ubiquitous, being present in all organisms analyzed. However, their percentage among the total transporters varies greatly (12%&#x02013;78% for primary carriers and 17%&#x02013;80% for secondary carriers). In prokaryotic and unicellular eukaryotic systems, primary and secondary carriers are the predominant types of transporters, together contributing more than 90% of the total transporters. Channel proteins make up a greater percentage (12%&#x02013;43%) in higher eukaryotic organisms.</p><table-wrap id="pcbi-0010027-t001" content-type="2col" position="float"><label>Table 1</label><caption><p>The Relative Percentage of Each Transporter Type within Major Phylogenetic Groups</p></caption><graphic xlink:href="pcbi.0010027.t001"/><table-wrap-foot><fn id="nt101"><p>
+<sup>a</sup>Number of organisms analyzed is indicated in the parenthesis.</p></fn><fn id="nt102"><p>NF, not found.</p></fn></table-wrap-foot></table-wrap><p>Compared to eukaryotes, prokaryotic organisms rely heavily on primary active transporters, largely because of the usage of ABC uptake systems that are absent in eukaryotes [<xref rid="pcbi-0010027-b34" ref-type="bibr">34</xref>]. Organisms with the highest percentage of primary transporters generally belong to one of the three groups. (1) The first group includes organisms that lack a citrate cycle and an electron transfer chain, and therefore can only generate a proton motive force by indirect methods such as substrate-level phosphorylation followed by ATP hydrolysis. These organisms include <italic>Mycoplasma</italic> spp., spirochetes, <italic>Streptococcus</italic> spp., <italic>Tropheryma whipplei,</italic>
+<italic>Mycobacterium leprae, Thermoanaerobacter tengcongensis,</italic> and <italic>Thermotoga maritime</italic>. ATP is their primary source of energy, and therefore is most frequently used to drive nutrient uptake and maintain ion homeostasis. (2) The second group includes photosynthetic organisms with the ability to synthesize an ATP pool via photosynthesis, including <italic>Synechocystis</italic> sp., <italic>Nostoc</italic> sp., and <italic>Thermosynechococcus elongates</italic>. (3) The third group is a group of &#x003b1;-Proteobacteria that possess a significant expansion of the ABC superfamily [<xref rid="pcbi-0010027-b29" ref-type="bibr">29</xref>], including soil/plant-associated bacteria, such as <italic>M. loti</italic> [<xref rid="pcbi-0010027-b26" ref-type="bibr">26</xref>], <italic>S. meliloti</italic> [<xref rid="pcbi-0010027-b26" ref-type="bibr">26</xref>], <italic>A. tumefaciens,</italic> and related human/animal pathogens such as <italic>Brucella suis.</italic> Unlike the first two groups, in which the usage of primary transporters seems to be predicated on bioenergetic constraints, the expansion of the ABC transporter family in these &#x003b1;-Proteobacteria does not have any obvious energetic explanations. Instead, it may reflect an organismal requirement for high-affinity transport since ABC transporters typically show higher substrate affinities than most secondary transporters.</p><p>The PTS is only present in a subset of Eubacteria, while completely lacking in Archaea and Eukaryota. Gram-negative enteric bacteria, such as <italic>E. coli,</italic>
+<italic>Shigella flexneri,</italic> and <italic>Salmonella typhimurium</italic>, as well as Gram-positive species associated with the human gastrointestinal tract, like <italic>Listeria monocytogenes</italic> and <italic>Lactobacillus plantarum,</italic> encode the most abundant PTS systems. Owing to the absorption capacity and efficiency of the intestine, these species have to compete with hundreds of other types of bacteria in an environment containing only small amounts of free carbohydrates or other easily absorbable forms of nutrients. The enrichment of sugar PTS systems in these species could be an advantage to thrive in their ecological niches.</p><p>Channel proteins contribute a relatively smaller percentage of transporters in the prokaryotic species we analyzed, and their functions in vivo are largely unknown. Nine organisms lack recognizable channels, including <italic>Chlamydia</italic> spp., <italic>T. whipplei,</italic>
+<italic>Treponema pallidum,</italic>
+<italic>Wolbachia</italic> sp., and <italic>R.</italic>
+<italic>prowazekii,</italic> all of which are obligate intracellular pathogens/symboints. All other prokaryotic species, including all extremophiles sequenced to date, encode channel proteins, suggesting these channels could function in responding promptly to osmotic and other environmental stresses [<xref rid="pcbi-0010027-b35" ref-type="bibr">35</xref>]. Intracellular pathogens and endosymbionts may not need water or ion channels because of their relatively static intracellular environment and may largely depend on their host organisms for maintenance of ion homeostasis.</p><p>The percentage of channel proteins increases significantly in multicellular eukaryotes. In animals, these consist largely of ion channels with communication roles, such as in signal transduction, or roles as sensors for external stimuli. For example, members in the ligand-gated ion channel family [<xref rid="pcbi-0010027-b36" ref-type="bibr">36</xref>] and the GIC family [<xref rid="pcbi-0010027-b37" ref-type="bibr">37</xref>] are activated by major excitatory (glutamate) and inhibitory neurotransmitters (GABA) and participate in neuronal communication in the brain [<xref rid="pcbi-0010027-b38" ref-type="bibr">38</xref>]. Recent studies show that some subunits of ligand-gated ion channels and GIC-type channels are expressed prominently during embryonic and postnatal brain development, while others are expressed mainly in the adult brain, suggesting that a switch in subunit composition may be required for normal brain development [<xref rid="pcbi-0010027-b38" ref-type="bibr">38</xref>]. In plants, approximately one-third of the channel proteins are aquaporins (water channels) [<xref rid="pcbi-0010027-b39" ref-type="bibr">39</xref>], many of which show a cell-specific expression pattern in the root, emphasizing the importance of regulating and maintaining turgor pressure through the plant [<xref rid="pcbi-0010027-b40" ref-type="bibr">40</xref>].</p><p>Three fungal species, <italic>Saccharomyces cerevisiae, Schizosaccharomyces pombe,</italic> and <italic>Neurospora crassa,</italic> possess the largest portion of secondary transporters (76%&#x02013;80%), mainly because of the prominent gene expansion of two types of functionally diverse MFS family transporters: (1) drug efflux pumps, which could play roles in the secretion of secondary metabolites, toxic compounds, and signaling molecules, and (2) sugar symporters, which could allow a broader range of sugar utilization [<xref rid="pcbi-0010027-b41" ref-type="bibr">41</xref>,<xref rid="pcbi-0010027-b42" ref-type="bibr">42</xref>].</p></sec><sec id="s2d"><title>Phylogenetic Profiling of Transporter Family and Substrate Shows Strong Correlations to Organisms' Overall Physiology</title><p>The phylogenetic profile of a given protein is a string that encodes the presence or absence of that protein in every fully sequenced genome. Proteins that function together in a pathway or a common structural complex are likely to evolve in a correlated fashion, and therefore tend to be either preserved or eliminated together in a new species during evolution [<xref rid="pcbi-0010027-b43" ref-type="bibr">43</xref>,<xref rid="pcbi-0010027-b44" ref-type="bibr">44</xref>]. Phylogenetic profiling has been an effective way to detect conserved core genes, species-specific gene families, lineage-specific gene family expansions [<xref rid="pcbi-0010027-b45" ref-type="bibr">45</xref>], and subcellular localization of proteins [<xref rid="pcbi-0010027-b46" ref-type="bibr">46</xref>]. It can also facilitate the prediction of physical and functional interactions and assist in the deduction of the functions of genes that have no well-characterized homologs [<xref rid="pcbi-0010027-b47" ref-type="bibr">47</xref>,<xref rid="pcbi-0010027-b48" ref-type="bibr">48</xref>].</p><p>We have undertaken a novel application of phylogenetic profiling to investigate the presence or absence of transporter protein families across sequenced genomes. To our knowledge this represents the first application of a phylogenetic profiling approach using protein families rather than individual proteins as the unit of comparison. With the data on membrane transport systems from 141 fully sequenced organisms, we were able to construct the phylogenetic profiles for each transporter family (<xref ref-type="fig" rid="pcbi-0010027-g004">Figures 4</xref> and <xref ref-type="supplementary-material" rid="pcbi-0010027-sg002">S2</xref>). Hierarchical clustering of phylogenetic profiles showed a strong correlation between the observed clustering pattern and phylogeny, with Eubacteria, Archaea, and Eukaryota clearly separated into different clusters. Inside the bacterial cluster, Gram-positive bacteria, Proteobacteria, <italic>Chlamydia,</italic> and Cyanobacteria are also clearly defined into different groups. Given that the profiling approach solely utilizes presence or absence of a transporter family and does not use sequence similarity directly, this indicates that the types of transporters utilized by organisms are related to their evolutionary history. Additionally, the clustering appears to be influenced by habitat or lifestyle of organisms. For example, the obligate intracellular pathogens/symbionts and a collection of soil/plant-associated microbes are separated into two distinct superclusters (<xref ref-type="fig" rid="pcbi-0010027-g005">Figure 5</xref>).</p><fig id="pcbi-0010027-g004" position="float"><label>Figure 4</label><caption><title>Phylogenetic Profiling of Transporter Families</title><p>Phylogenetic profiles were created for each transporter family. Each profile is a string with 141 entries (number of organisms analyzed). If a given family is present in an organism, the value one is assigned at this position (red). If not, zero is assigned (black). Organisms and transporter families were clustered according to the similarity of their phylogenetic profiles.</p></caption><graphic xlink:href="pcbi.0010027.g004"/></fig><fig id="pcbi-0010027-g005" position="float"><label>Figure 5</label><caption><title>Hierarchial Clustering of Phylogenetic Profiles of Obligate Intracellular Pathogens/Symbionts versus Soil/Plant-Associated Microbes</title><p>Detailed view of two clusters of organisms generated by hierarchical clustering of their phylogenetic profiles of transporter families: obligate intracellular pathogens/symbionts and soil/plant-associated microbes.</p></caption><graphic xlink:href="pcbi.0010027.g005"/></fig><p>The obligate intracellular pathogens/symbionts cluster includes a group of phylogenetically diverse organisms, including <italic>Chlamydia</italic> spp. (pathogens); &#x003b3;-Proteobacteria such as <italic>Buchnera</italic> spp., <italic>Wigglesworthia glossinidia brevipalpis,</italic> and <italic>Candidatus Blochmannia floridanus</italic> (endosymbionts); &#x003b1;-Proteobacteria such as <italic>Wolbachia</italic> sp. (endosymbiont) and <italic>R.</italic>
+<italic>prowazekii</italic> (pathogen); Gram-positive-like organisms <italic>Mycoplasma</italic> spp. and <italic>T. whipplei</italic> (pathogens); Spirochetes such as <italic>Tr. pallidum</italic> and <italic>Borrelia burgdorferi</italic> (pathogens); and an archaeal symbiont, <italic>Nanoarchaeum equitans</italic>. Organisms in this cluster share an obligate intracellular lifestyle as well as reduced genome size. The clustering does not appear to be due to genome size alone as nonobligate intracellular organisms with small genome sizes do not fall into this cluster. One possibility is that the transport needs of these obligate intracellular organisms are more specialized than those of environmental organisms because of the much more static nature of their intracellular environments. This may have allowed them to shed, for example, transporters for alternative nitrogen/carbon sources, osmoregulatory functions, and ion homeostasis. Similar to their prokaryotic counterparts, two eukaryotic intracellular parasites, <italic>P. falciparum</italic> and <italic>En. cuniculi,</italic> form a distinct cluster separate from the other eukaryotes.</p><p>The soil/plant-associated microbe cluster also contains species from various phylogenetic groups, such as Actinobacteria <italic>(Corynebacterium</italic> and <italic>Streptomyces),</italic> Firmicutes <italic>(Bacillus</italic> and <italic>Oceanobacillus),</italic> &#x003b1;-Proteobacteria <italic>(Brucella, Agrobacterium, Mesorhizobium, Sinorhizobium,</italic> and <italic>Bradyrhizobium),</italic> &#x003b2;-Proteobacteria <italic>(Bordetella</italic> and <italic>Ralstonia),</italic> &#x003b3;-Proteobacteria <italic>(Pseudomonas</italic> and <italic>Rhodopseudomonas),</italic> &#x003b4;-Proteobacteria <italic>(Geobacter),</italic> Deinococcus <italic>(Deinococcus radiodurans),</italic> Planctomycetes (<italic>Pirellula</italic> sp.), and Bacteroidetes <italic>(Bacteroides thetaiotaomicron).</italic> All of these organisms possess a robust collection of transporter systems. It is unlikely that these species are merely clustered by their genome sizes because some species in this cluster have relatively smaller genome sizes, like <italic>Corynebacterium efficiens</italic> (3.0 Mb), <italic>D. radiodurans</italic> (3.2 Mb)<italic>,</italic> and <italic>Brucella melitensis</italic> (3.2 Mb). In addition, hierarchical clustering of organisms exclusively by genome size generates clusters with no apparent phylogenetic relationship (data not shown). The similarity of phylogenetic profiles of organisms in this cluster probably reflects the versatility of these organisms and their exposure to a wide range of different substrates in their natural environment. The majority of species in this cluster can be free-living in the soil, and some are capable of living in a diverse range of environments. They generally share a broad range of transport capabilities for plant-derived compounds specifically and for organic nutrients in general. Interestingly, some of the human pathogens, e.g., <italic>Bordetella, Brucella, Bacillus anthracis</italic> [<xref rid="pcbi-0010027-b26" ref-type="bibr">26</xref>], and <italic>Bacteroides thetaiotaomicron</italic>, are also grouped in this cluster. All of these pathogens have close relatives that are soil- or plant-associated environmental organisms [<xref rid="pcbi-0010027-b49" ref-type="bibr">49</xref>&#x02013;<xref rid="pcbi-0010027-b52" ref-type="bibr">52</xref>], so their transport capabilities probably reflect a combination of their evolutionary heritage, original environmental niche, and current transport needs.</p><p>To compare the transport capabilities of organisms in the intracellular pathogen/symbiont cluster and the soil/plant-associated microbe cluster, we carried out statistical analysis on their number of transporters, percentage of ORFs encoding transport proteins, and compositions in each transporter type (data not shown). Organisms in the soil/plant-associated microbe cluster on average have about eight times as many transporters as those in the intracellular organism cluster (<italic>p</italic> &#x0003c; 0.0001; <italic>p-</italic>value denotes the confidence level that the correlation observed is significantly different from the null hypothesis). The difference in the relative percentage of ORFs that are transporters is smaller but still significant (1.5-fold increase, <italic>p</italic> &#x0003c; 0.0001), suggesting that systematic gene loss and genome compaction is one of the important factors in reducing the number of transport proteins in intracellular organisms. The residual transport systems conserved in these obligate intracellular organisms probably belong to the core essential genes required for the acquisition of key nutrients and metabolic intermediates. For example, a glutamate transporter is encoded in two obligate endosymboints: the GltP glutamate:proton symporter (DAACS family) [<xref rid="pcbi-0010027-b53" ref-type="bibr">53</xref>] in <italic>Candidatus Blochmannia floridanus,</italic> and GltJKL ABC transporter [<xref rid="pcbi-0010027-b54" ref-type="bibr">54</xref>] in <italic>Wigglesworthia glossinidia brevipalpis</italic>. These organisms have a truncated citrate cycle that begins with &#x003b1;-ketoglutarate and ends with oxaloactetate [<xref rid="pcbi-0010027-b55" ref-type="bibr">55</xref>]. Their citrate cycle could be closed by the transamination of the imported glutamate to aspartate, catalyzed by an aspartate aminotransferase (AspC) that uses oxaloactetate as a cosubstrate and produces &#x003b1;-ketoglutarate. As to the distribution of transporter types, there is no significant difference between these two clusters although intracellular organisms show a higher degree of variation in each transporter type than the plant/soil-associated microbes. These variations may reflect the unique internal environment inside the host cells. All these observations illustrate how adaptation of an organism to certain living conditions leads to changes in its transporter repertoire and at the same time determines the set of transporters that the organism cannot afford to lose.</p><p>In addition to investigating the relationship between organisms based on their transporter profiles, we also examined the clustering of transporter families. The essentially ubiquitous families, like ABC, MFS, P(F)-type ATPase, that are present in virtually every organism we analyzed, are clustered together. Eukaryotic-specific families, most of which are single-organism-specific ion channels, are grouped together. Interestingly, the sodium-ion-dependent families, like neurotransmitter:sodium symporter, alanine/glycine:cation symporter, solute:sodium symporter, and divalent anion:sodium symporter [<xref rid="pcbi-0010027-b56" ref-type="bibr">56</xref>&#x02013;<xref rid="pcbi-0010027-b58" ref-type="bibr">58</xref>], are clustered together. Transporters in these families are all symporters that utilize the sodium ion gradient to transport amino acid, solute, and/or divalent ions into cytoplasm. This clustering may suggest that these families co-occur in a specific set of organisms, presumably those reliant on sodium-ion-driven transport.</p><p>Previous studies have shown that transporters with similar functions characteristically cluster together in phylogenetic analyses; hence, substrate specificity appears to be a conserved evolutionary trait in transporters [<xref rid="pcbi-0010027-b19" ref-type="bibr">19</xref>,<xref rid="pcbi-0010027-b20" ref-type="bibr">20</xref>,<xref rid="pcbi-0010027-b59" ref-type="bibr">59</xref>,<xref rid="pcbi-0010027-b60" ref-type="bibr">60</xref>]. The phylogenetic profiles of predicted substrates for all 141 organisms were generated and clustered by MeV (see <xref ref-type="supplementary-material" rid="pcbi-0010027-sg003">Figure S3</xref>). Overall, similar patterns were observed as with the clustering by families. Organisms were grouped together either by their phylogenetic history or by their physiology or living habits. Ubiquitous substrates (e.g., cation, amino acid, sugar, and phosphate) and eukaryotic-specific substrates (e.g., cholesterol, UDP-sugars, and phosphoenolpyruvate) each form distinct clusters.</p></sec><sec id="s2e"><title>Distribution of Transporter Families among Species in the Same Genus</title><p>With the transporter data from a great diversity of sequenced organisms, we were able to compare the distribution of transporter families in closely related species (i.e., from the same genus) (<xref ref-type="fig" rid="pcbi-0010027-g006">Figures 6</xref> and <xref ref-type="supplementary-material" rid="pcbi-0010027-sg004">S4</xref>). In most of the cases we studied, species from the same genus share highly parallel distributions of transporter families. For example, three <italic>Pseudomonas</italic> species, <italic>Ps. aeruginosa</italic> [<xref rid="pcbi-0010027-b61" ref-type="bibr">61</xref>], <italic>Ps. putida</italic> [<xref rid="pcbi-0010027-b62" ref-type="bibr">62</xref>] and <italic>Ps. syringae</italic> [<xref rid="pcbi-0010027-b63" ref-type="bibr">63</xref>], all of which are metabolically versatile soil/plant-associated bacteria, show highly similar patterns of transporter family distribution. Among the 66 transporter families present in this genus, 47 are shared by all three species and 14 are shared by two species (<xref ref-type="fig" rid="pcbi-0010027-g006">Figure 6</xref>A). All three species encode transporters for a diverse spectrum of substrates, including sugars, amino acids, peptides, carboxylates, and various cations and anions.</p><fig id="pcbi-0010027-g006" position="float"><label>Figure 6</label><caption><title>Venn Diagrams Showing the Distribution of Transporter Families among Species Belonging to the Same Genus</title><p>(A) Transporter family distribution among three <italic>Pseudomonas</italic> species.</p><p>(B) Transporter family distribution among three <italic>Corynebacterium</italic> species.</p></caption><graphic xlink:href="pcbi.0010027.g006"/></fig><p>The distribution of transporter families in three <italic>Corynebacterium</italic> species represents an exception. <italic>Co. glutamicum</italic> [<xref rid="pcbi-0010027-b64" ref-type="bibr">64</xref>] and <italic>Co. efficiens</italic> [<xref rid="pcbi-0010027-b65" ref-type="bibr">65</xref>] are widely used in the industrial production of amino acids like glutamic acid and lysine by fermentation. The closely related <italic>Co. diphtheriae</italic> [<xref rid="pcbi-0010027-b66" ref-type="bibr">66</xref>], however, is a human pathogen causing the respiratory illness diphtheria and lacks amino acid productivity. Compared to the other two species, <italic>Co. diphtheriae</italic> shows a dramatically different transporter family profile (<xref ref-type="fig" rid="pcbi-0010027-g006">Figure 6</xref>B). There are eight families specific to <italic>Co. diphtheriae,</italic> while only one for <italic>Co. glutamicum</italic> and three for <italic>Co. efficiens</italic>. More importantly, <italic>Co. diphtheriae</italic> uses totally different mechanisms to transport potassium ion and C4-dicarboxylates than the other two species. In <italic>Co. diphtheriae,</italic> potassium ions are transported into cytoplasm via a Trk family K<sup>+</sup>:H<sup>+</sup> symporter [<xref rid="pcbi-0010027-b67" ref-type="bibr">67</xref>], while both <italic>Co. glutamicum</italic> and <italic>Co. efficiens</italic> encode a KUP family potassium ion uptake permease [<xref rid="pcbi-0010027-b68" ref-type="bibr">68</xref>]. <italic>Co. diphtheriae</italic> utilizes the DcuABC antiporter system [<xref rid="pcbi-0010027-b69" ref-type="bibr">69</xref>] for the uptake of C4-dicarboxylate, while the other species use the ATP-independent tripartite periplasmic symporter systems (TRAP-T family) [<xref rid="pcbi-0010027-b70" ref-type="bibr">70</xref>]. The common orthologs of transporters in families specific to one or two <italic>Corynebacterium</italic> species were identified in sequenced high-GC Gram-positive bacteria, and the phylogenetic trees were constructed by the neighbor-joining method (data not shown). For those families with orthologs in <italic>Co. glutamicum</italic> and <italic>Co. efficiens</italic> but not in <italic>Co. diphtheriae,</italic> orthologs were also identified in the majority of high-GC Gram-positive species. The trees of transport protein are similar to the 16S rRNA tree, suggesting certain transporter families in <italic>Co. efficiens</italic> are missing because of specific gene losses. By contrast, <italic>Co. diphtheriae</italic>&#x02013;specific transporter families, like Dcu, DcuC, and Trk families, tend to have either no apparent orthologs or only distantly related homologs in other sequenced high-GC Gram-positive species, suggesting possible evolutionary gene acquisition events in <italic>Co. diphtheriae</italic>. The recent finding that both gene loss and horizontal gene transfer are responsible for the functional differentiation in amino acid biosynthesis of the three <italic>Corynebacterium</italic> species [<xref rid="pcbi-0010027-b71" ref-type="bibr">71</xref>] further supports this conclusion.</p><p>All three <italic>Corynebacterium</italic> species share 41 transporter families. Interestingly, although <italic>Co. diphtheriae</italic> shows no amino acid productivity and has a reduced genome size [<xref rid="pcbi-0010027-b71" ref-type="bibr">71</xref>], all the major types of amino acid exporters in <italic>Co. glutamicum</italic> [<xref rid="pcbi-0010027-b72" ref-type="bibr">72</xref>] are conserved in <italic>Co. diphtheriae</italic>, e.g., the LysE family transporter for the export of basic amino acids, the RhtB family transporter for threonine efflux, the ThrE family transporter for threonine and serine export, and the LIV-E family transporter (BrnFE in <italic>Co. glutamicum</italic>), which is a two-component efflux pump exporting branched-chain amino acids [<xref rid="pcbi-0010027-b73" ref-type="bibr">73</xref>]. The only difference observed among these organisms is the number of paralogs in the RhtB family: three in <italic>Co. glutamicum,</italic> two in <italic>Co. efficiens,</italic> and only one in <italic>Co. diphtheriae</italic>. The phylogenetic tree of the RhtB family suggests that gene duplication took place in the common ancestor of <italic>Corynebacterium,</italic> and that specific gene loss was responsible for the single RhtB transporter in <italic>Co. diphtheriae</italic>.</p></sec><sec id="s2f"><title>Conclusion</title><p>The rapid expansion of complete genome sequencing enabled us to conduct analyses of transporter capabilities on the whole-genome level. By comparing the membrane transport systems in Eubacteria, Archaea, and Eukaryota, we could draw conclusions as follows. (1) Eukaryotic species generally encode a larger number of transporters, but transporters account for a smaller percentage of total ORFs in eukaryotic than in prokaryotic species. Prokaryotic obligate intracellular pathogens and endosymbionts, as well as the eukaryotic parasites, possess the most limited repertoire of membrane transporters. (2) Organisms with a larger genome size tend to have a higher number of transporters. In prokaryotes and unicellular eukaryotes, this increase is primarily due to increased diversity of types of transporter. In multicellular eukaryotes, this increase is largely due to the greater number of paralogs by gene duplication or expansion in certain transporter families. (3) The distribution of different transporter types according to transport mode and energy coupling mechanism generally correlates with organisms' primary mechanism of energy generation. Compared to eukaryotes, prokaryotic species rely heavily on primary (active) transporters. Primary type transporters in Eubacteria and Archaea account for a much larger percentage of total transporters than any other transporter type. This phenomenon may be related to the absence of ABC-type uptake permeases in eukaryotes and, in some cases, the bioenergetic requirements and environmental constraints of prokaryotic organisms. (4) Energy-independent channel proteins are far more numerous in multicellular organisms and are often involved in cell&#x02013;cell communication and signal transduction processes. Many channels are restricted to a single organismal type. The expression of different subunits of a channel in a timely fashion may be an essential step during embryonic development in mammals. (5) The PTS is only present in a subset of Eubacteria, and is completely absent in Archaea and Eukaryota. The expansion of sugar PTS systems in species dwelling in the gastrointestinal tract could provide the advantage to thrive in their ecological niches. (6) Hierarchical clustering of the phylogenetic profiles of transporter families showed that the distribution of transporter families appears to reflect a combination of evolutionary history and environment and lifestyle factors. (7) The distribution pattern of transporter families in species belonging to the same genus is usually parallel, with some notable exceptions that may reflect specific environmental differences.</p></sec></sec><sec id="s3"><title>Materials and Methods</title><p>We developed a semi-automated pipeline to annotate transport systems genome-wide, input the data into TransportDB database, and visualize the result through a Web interface [<xref rid="pcbi-0010027-b74" ref-type="bibr">74</xref>]. The complete protein sequences from specific organisms were first searched against our curated database of transport proteins for similarity to known or putative transport proteins using BLAST [<xref rid="pcbi-0010027-b75" ref-type="bibr">75</xref>,<xref rid="pcbi-0010027-b76" ref-type="bibr">76</xref>]. All of the query proteins with significant hits (<italic>E</italic>-value &#x0003c; 0.001) were collected and searched against the NCBI nonredundant protein database and Pfam database [<xref rid="pcbi-0010027-b77" ref-type="bibr">77</xref>]. Transmembrane protein topology was predicted by TMHMM [<xref rid="pcbi-0010027-b78" ref-type="bibr">78</xref>]. A Web-based interface was created to facilitate the annotation processes, which incorporates number of hits to the transporter database, BLAST and HMM search <italic>E</italic>-value and score, number of predicted transmembrane segments, and the description of top hits to the nonredundant protein database. We also set up direct links between transporter classification family and COG classification [<xref rid="pcbi-0010027-b79" ref-type="bibr">79</xref>] so that COG-based searches can inform the transporter annotation. The results can be viewed at the TransportDB Web site (<ext-link ext-link-type="uri" xlink:href="http://www.membranetransport.org/">http://www.membranetransport.org/</ext-link>).</p><p>To analyze the phylogenetic profiles of transporter families and predicted substrates, we assigned a profile to each transporter family or substrate. Each profile is a string with 141 entries (number of species analyzed). If a given family is present or a given substrate is transported in certain species, the value one was assigned at these positions (red for transporter families/purple for predicted substrates). If not, zero was assigned (black). Transporter families or substrates were clustered according to the similarity of their phylogenetic profiles using The Institute for Genomic Research's microarray multi-experiment viewer (MeV) [<xref rid="pcbi-0010027-b80" ref-type="bibr">80</xref>] with two-dimensional hierarchical clustering as described by Eisen et al. [<xref rid="pcbi-0010027-b81" ref-type="bibr">81</xref>].</p></sec><sec sec-type="supplementary-material" id="s4"><title>Supporting Information</title><supplementary-material content-type="local-data" id="pcbi-0010027-sg001"><label>Figure S1</label><caption><title>Comparison of the Percentage of Membrane Proteins with Six or More Transmembrane Segments That Were Annotated as &#x0201c;Hypothetical Protein&#x0201d; in Selected Archaea and Eubacteria</title><p>(37 KB PDF)</p></caption><media xlink:href="pcbi.0010027.sg001.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pcbi-0010027-sg002"><label>Figure S2</label><caption><title>Detailed View of the Hierarchical Clustering of Phylogenetic Profiles of Transporter Families</title><p>(A) Clustering of species.</p><p>(B) Clustering of transporter families.</p><p>(722 KB PPT)</p></caption><media xlink:href="pcbi.0010027.sg002.ppt"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pcbi-0010027-sg003"><label>Figure S3</label><caption><title>Phylogenetic Profiling of Predicted Transporter Substrates</title><p>Phylogenetic profiles were created for each predicted substrate. Each profile is a string with 141 entries (number of organisms analyzed). If a specific substrate is transported in a given organism, the value one is assigned at this position (purple). If not, zero is assigned (black). Organisms and substrates were clustered according to the similarity of their phylogenetic profiles.</p><p>(671 KB PDF)</p></caption><media xlink:href="pcbi.0010027.sg003.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pcbi-0010027-sg004"><label>Figure S4</label><caption><title>Venn Diagrams Showing the Distribution of Transporter Families among Species Belonging to the Same Genus</title><p>(A) Transporter family distribution among three <italic>Bordetella</italic> species.</p><p>(B) Transporter family distribution among three <italic>Chlamydia</italic> species.</p><p>(C) Transporter family distribution among three <italic>Mycobacterium</italic> species.</p><p>(D) Transporter family distribution among three <italic>Pyrococcus</italic> species.</p><p>(E) Transporter family distribution among three <italic>Streptococcus</italic> species.</p><p>(F) Transporter family distribution among three <italic>Vibrio</italic> species.</p><p>(947 KB PDF)</p></caption><media xlink:href="pcbi.0010027.sg004.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pcbi-0010027-st001"><label>Table S1</label><caption><title>List of 141 Organisms Analyzed in This Study</title><p>(194 KB DOC)</p></caption><media xlink:href="pcbi.0010027.st001.doc"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack><p>We would like to thank Dr. Jonathan A. Eisen for comments and suggestions relating to the phylogenetic profiling analyses and Dr. Julie C. Dunning Hotopp for assistance with the MeV software and for critical reading of the manuscript. We also thank Robert L. Koenig for his contribution to the synopsis.</p></ack><fn-group><fn id="ack1" fn-type="COI-statement"><p>
+<bold>Competing interests.</bold> The authors have declared that no competing interests exist.</p></fn><fn id="ack2" fn-type="con"><p>
+<bold>Author contributions.</bold> QR and ITP conceived and designed the experiments and wrote the paper. QR analyzed the data and contributed materials/analysis tools.</p></fn></fn-group><glossary><title>Abbreviations</title><def-list><def-item><term>ABC</term><def><p>adenosine triphosphate&#x02013;binding cassette; ATP, adenosine triphosphate</p></def></def-item><def-item><term>GIC</term><def><p>glutamate-gated ion channel</p></def></def-item><def-item><term>MFS</term><def><p>major facilitator superfamily</p></def></def-item><def-item><term>ORF</term><def><p>open reading frame</p></def></def-item><def-item><term>PTS</term><def><p>phosphotransferase system</p></def></def-item></def-list></glossary><ref-list><title>References</title><ref id="pcbi-0010027-b01"><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Saier</surname><given-names>MH</given-names><suffix>Jr</suffix></name></person-group>
+<year>1999</year>
+<article-title>Classification of transmembrane transport systems in living organisms</article-title>
+<person-group person-group-type="editor"><name><surname>VanWinkle</surname><given-names>L</given-names></name></person-group>
+<source>Biomembrane transport</source>
+<publisher-loc>San Diego</publisher-loc>
+<publisher-name>Academic Press</publisher-name>
+<fpage>265</fpage>
+<lpage>276</lpage>
+</element-citation></ref><ref id="pcbi-0010027-b02"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Saier</surname><given-names>MH</given-names><suffix>Jr</suffix></name></person-group>
+<year>2000</year>
+<article-title>A functional-phylogenetic classification system for transmembrane solute transporters</article-title>
+<source>Microbiol Mol Biol Rev</source>
+<volume>64</volume>
+<fpage>354</fpage>
+<lpage>411</lpage>
+<pub-id pub-id-type="pmid">10839820</pub-id></element-citation></ref><ref id="pcbi-0010027-b03"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Saier</surname><given-names>MH</given-names><suffix>Jr</suffix></name></person-group>
+<year>1999</year>
+<article-title>A functional-phylogenetic system for the classification of transport proteins</article-title>
+<source>J Cell Biochem</source>
+<volume>75</volume>
+<issue>Suppl 32</issue>
+<fpage>84</fpage>
+<lpage>94</lpage>
+</element-citation></ref><ref id="pcbi-0010027-b04"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Busch</surname><given-names>W</given-names></name><name><surname>Saier</surname><given-names>MH</given-names><suffix>Jr</suffix></name></person-group>
+<year>2002</year>
+<article-title>The transporter classification (TC) system, 2002</article-title>
+<source>Crit Rev Biochem Mol Biol</source>
+<volume>37</volume>
+<fpage>287</fpage>
+<lpage>337</lpage>
+<pub-id pub-id-type="pmid">12449427</pub-id></element-citation></ref><ref id="pcbi-0010027-b05"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Busch</surname><given-names>W</given-names></name><name><surname>Saier</surname><given-names>MH</given-names></name></person-group>
+<year>2004</year>
+<article-title>The IUBMB-endorsed transporter classification system</article-title>
+<source>Mol Biotechnol</source>
+<volume>27</volume>
+<fpage>253</fpage>
+<lpage>262</lpage>
+<pub-id pub-id-type="pmid">15247498</pub-id></element-citation></ref><ref id="pcbi-0010027-b06"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sweet</surname><given-names>G</given-names></name><name><surname>Gandor</surname><given-names>C</given-names></name><name><surname>Voegele</surname><given-names>R</given-names></name><name><surname>Wittekindt</surname><given-names>N</given-names></name><name><surname>Beuerle</surname><given-names>J</given-names></name><etal/></person-group>
+<year>1990</year>
+<article-title>Glycerol facilitator of <italic>Escherichia coli:</italic> Cloning of glpF and identification of the glpF product</article-title>
+<source>J Bacteriol</source>
+<volume>172</volume>
+<fpage>424</fpage>
+<lpage>430</lpage>
+<pub-id pub-id-type="pmid">2152911</pub-id></element-citation></ref><ref id="pcbi-0010027-b07"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bolhuis</surname><given-names>H</given-names></name><name><surname>Poelarends</surname><given-names>G</given-names></name><name><surname>van Veen</surname><given-names>HW</given-names></name><name><surname>Poolman</surname><given-names>B</given-names></name><name><surname>Driessen</surname><given-names>AJ</given-names></name><etal/></person-group>
+<year>1995</year>
+<article-title>The lactococcal lmrP gene encodes a proton motive force-dependent drug transporter</article-title>
+<source>J Biol Chem</source>
+<volume>270</volume>
+<fpage>26092</fpage>
+<lpage>26098</lpage>
+<pub-id pub-id-type="pmid">7592810</pub-id></element-citation></ref><ref id="pcbi-0010027-b08"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Newman</surname><given-names>MJ</given-names></name><name><surname>Foster</surname><given-names>DL</given-names></name><name><surname>Wilson</surname><given-names>TH</given-names></name><name><surname>Kaback</surname><given-names>HR</given-names></name></person-group>
+<year>1981</year>
+<article-title>Purification and reconstitution of functional lactose carrier from <italic>Escherichia coli</italic>
+</article-title>
+<source>J Biol Chem</source>
+<volume>256</volume>
+<fpage>11804</fpage>
+<lpage>11808</lpage>
+<pub-id pub-id-type="pmid">7028742</pub-id></element-citation></ref><ref id="pcbi-0010027-b09"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Viitanen</surname><given-names>P</given-names></name><name><surname>Newman</surname><given-names>MJ</given-names></name><name><surname>Foster</surname><given-names>DL</given-names></name><name><surname>Wilson</surname><given-names>TH</given-names></name><name><surname>Kaback</surname><given-names>HR</given-names></name></person-group>
+<year>1986</year>
+<article-title>Purification, reconstitution, and characterization of the lac permease of <italic>Escherichia coli</italic>
+</article-title>
+<source>Methods Enzymol</source>
+<volume>125</volume>
+<fpage>429</fpage>
+<lpage>452</lpage>
+<pub-id pub-id-type="pmid">3520229</pub-id></element-citation></ref><ref id="pcbi-0010027-b10"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Abramson</surname><given-names>J</given-names></name><name><surname>Smirnova</surname><given-names>I</given-names></name><name><surname>Kasho</surname><given-names>V</given-names></name><name><surname>Verner</surname><given-names>G</given-names></name><name><surname>Iwata</surname><given-names>S</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>The lactose permease of <italic>Escherichia coli:</italic> Overall structure, the sugar-binding site and the alternating access model for transport</article-title>
+<source>FEBS Lett</source>
+<volume>555</volume>
+<fpage>96</fpage>
+<lpage>101</lpage>
+<pub-id pub-id-type="pmid">14630326</pub-id></element-citation></ref><ref id="pcbi-0010027-b11"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Elferink</surname><given-names>MG</given-names></name><name><surname>Driessen</surname><given-names>AJ</given-names></name><name><surname>Robillard</surname><given-names>GT</given-names></name></person-group>
+<year>1990</year>
+<article-title>Functional reconstitution of the purified phosphoenolpyruvate-dependent mannitol-specific transport system of <italic>Escherichia coli</italic> in phospholipid vesicles: Coupling between transport and phosphorylation</article-title>
+<source>J Bacteriol</source>
+<volume>172</volume>
+<fpage>7119</fpage>
+<lpage>7125</lpage>
+<pub-id pub-id-type="pmid">2123863</pub-id></element-citation></ref><ref id="pcbi-0010027-b12"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Postma</surname><given-names>PW</given-names></name><name><surname>Lengeler</surname><given-names>JW</given-names></name><name><surname>Jacobson</surname><given-names>GR</given-names></name></person-group>
+<year>1993</year>
+<article-title>Phosphoenolpyruvate:carbohydrate phosphotransferase systems of bacteria</article-title>
+<source>Microbiol Rev</source>
+<volume>57</volume>
+<fpage>543</fpage>
+<lpage>594</lpage>
+<pub-id pub-id-type="pmid">8246840</pub-id></element-citation></ref><ref id="pcbi-0010027-b13"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bernal</surname><given-names>A</given-names></name><name><surname>Ear</surname><given-names>U</given-names></name><name><surname>Kyrpides</surname><given-names>N</given-names></name></person-group>
+<year>2001</year>
+<article-title>Genomes OnLine Database (GOLD): A monitor of genome projects world-wide</article-title>
+<source>Nucleic Acids Res</source>
+<volume>29</volume>
+<fpage>126</fpage>
+<lpage>127</lpage>
+<pub-id pub-id-type="pmid">11125068</pub-id></element-citation></ref><ref id="pcbi-0010027-b14"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Janssen</surname><given-names>P</given-names></name><name><surname>Goldovsky</surname><given-names>L</given-names></name><name><surname>Kunin</surname><given-names>V</given-names></name><name><surname>Darzentas</surname><given-names>N</given-names></name><name><surname>Ouzounis</surname><given-names>CA</given-names></name></person-group>
+<year>2005</year>
+<article-title>Genome coverage, literally speaking: The challenge of annotating 200 genomes with 4 million publications</article-title>
+<source>EMBO Rep</source>
+<volume>6</volume>
+<fpage>397</fpage>
+<lpage>399</lpage>
+<pub-id pub-id-type="pmid">15864286</pub-id></element-citation></ref><ref id="pcbi-0010027-b15"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Davidson</surname><given-names>AL</given-names></name><name><surname>Chen</surname><given-names>J</given-names></name></person-group>
+<year>2004</year>
+<article-title>ATP-binding cassette transporters in bacteria</article-title>
+<source>Annu Rev Biochem</source>
+<volume>73</volume>
+<fpage>241</fpage>
+<lpage>268</lpage>
+<pub-id pub-id-type="pmid">15189142</pub-id></element-citation></ref><ref id="pcbi-0010027-b16"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schneider</surname><given-names>E</given-names></name><name><surname>Hunke</surname><given-names>S</given-names></name></person-group>
+<year>1998</year>
+<article-title>ATP-binding cassette (ABC) transport systems: Functional and structural aspects of the ATP-hydrolyzing subunits/domains</article-title>
+<source>FEMS Microbiol Lett</source>
+<volume>22</volume>
+<fpage>1</fpage>
+<lpage>20</lpage>
+</element-citation></ref><ref id="pcbi-0010027-b17"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Marger</surname><given-names>MD</given-names></name><name><surname>Saier</surname><given-names>MH</given-names><suffix>Jr</suffix></name></person-group>
+<year>1993</year>
+<article-title>A major superfamily of transmembrane facilitators that catalyse uniport, symport and antiport</article-title>
+<source>Trends Biochem Sci</source>
+<volume>18</volume>
+<fpage>13</fpage>
+<lpage>20</lpage>
+<pub-id pub-id-type="pmid">8438231</pub-id></element-citation></ref><ref id="pcbi-0010027-b18"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Saier</surname><given-names>MH</given-names><suffix>Jr</suffix></name><name><surname>Beatty</surname><given-names>JT</given-names></name><name><surname>Goffeau</surname><given-names>A</given-names></name><name><surname>Harley</surname><given-names>KT</given-names></name><name><surname>Heijne</surname><given-names>WH</given-names></name><etal/></person-group>
+<year>1999</year>
+<article-title>The major facilitator superfamily</article-title>
+<source>J Mol Microbiol Biotechnol</source>
+<volume>1</volume>
+<fpage>257</fpage>
+<lpage>279</lpage>
+<pub-id pub-id-type="pmid">10943556</pub-id></element-citation></ref><ref id="pcbi-0010027-b19"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Paulsen</surname><given-names>IT</given-names></name><name><surname>Nguyen</surname><given-names>L</given-names></name><name><surname>Sliwinski</surname><given-names>MK</given-names></name><name><surname>Rabus</surname><given-names>R</given-names></name><name><surname>Saier</surname><given-names>MH</given-names><suffix>Jr</suffix></name></person-group>
+<year>2000</year>
+<article-title>Microbial genome analyses: Comparative transport capabilities in eighteen prokaryotes</article-title>
+<source>J Mol Biol</source>
+<volume>301</volume>
+<fpage>75</fpage>
+<lpage>100</lpage>
+<pub-id pub-id-type="pmid">10926494</pub-id></element-citation></ref><ref id="pcbi-0010027-b20"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Paulsen</surname><given-names>IT</given-names></name><name><surname>Sliwinski</surname><given-names>MK</given-names></name><name><surname>Saier</surname><given-names>MH</given-names><suffix>Jr</suffix></name></person-group>
+<year>1998</year>
+<article-title>Microbial genome analyses: Global comparisons of transport capabilities based on phylogenies, bioenergetics and substrate specificities</article-title>
+<source>J Mol Biol</source>
+<volume>277</volume>
+<fpage>573</fpage>
+<lpage>592</lpage>
+<pub-id pub-id-type="pmid">9533881</pub-id></element-citation></ref><ref id="pcbi-0010027-b21"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Paulsen</surname><given-names>IT</given-names></name><name><surname>Sliwinski</surname><given-names>MK</given-names></name><name><surname>Nelissen</surname><given-names>B</given-names></name><name><surname>Goffeau</surname><given-names>A</given-names></name><name><surname>Saier</surname><given-names>MH</given-names><suffix>Jr</suffix></name></person-group>
+<year>1998</year>
+<article-title>Unified inventory of established and putative transporters encoded within the complete genome of <italic>Saccharomyces cerevisiae</italic>
+</article-title>
+<source>FEBS Lett</source>
+<volume>430</volume>
+<fpage>116</fpage>
+<lpage>125</lpage>
+<pub-id pub-id-type="pmid">9678606</pub-id></element-citation></ref><ref id="pcbi-0010027-b22"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chen</surname><given-names>GQ</given-names></name><name><surname>Cui</surname><given-names>C</given-names></name><name><surname>Mayer</surname><given-names>ML</given-names></name><name><surname>Gouaux</surname><given-names>E</given-names></name></person-group>
+<year>1999</year>
+<article-title>Functional characterization of a potassium-selective prokaryotic glutamate receptor</article-title>
+<source>Nature</source>
+<volume>402</volume>
+<fpage>817</fpage>
+<lpage>821</lpage>
+<pub-id pub-id-type="pmid">10617203</pub-id></element-citation></ref><ref id="pcbi-0010027-b23"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mayer</surname><given-names>ML</given-names></name><name><surname>Olson</surname><given-names>R</given-names></name><name><surname>Gouaux</surname><given-names>E</given-names></name></person-group>
+<year>2001</year>
+<article-title>Mechanisms for ligand binding to GluR0 ion channels: Crystal structures of the glutamate and serine complexes and a closed apo state</article-title>
+<source>J Mol Biol</source>
+<volume>311</volume>
+<fpage>815</fpage>
+<lpage>836</lpage>
+<pub-id pub-id-type="pmid">11518533</pub-id></element-citation></ref><ref id="pcbi-0010027-b24"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bult</surname><given-names>CJ</given-names></name><name><surname>White</surname><given-names>O</given-names></name><name><surname>Olsen</surname><given-names>GJ</given-names></name><name><surname>Zhou</surname><given-names>L</given-names></name><name><surname>Fleischmann</surname><given-names>RD</given-names></name><etal/></person-group>
+<year>1996</year>
+<article-title>Complete genome sequence of the methanogenic archaeon, <italic>Methanococcus jannaschii</italic>
+</article-title>
+<source>Science</source>
+<volume>273</volume>
+<fpage>1058</fpage>
+<lpage>1073</lpage>
+<pub-id pub-id-type="pmid">8688087</pub-id></element-citation></ref><ref id="pcbi-0010027-b25"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Peterson</surname><given-names>JD</given-names></name><name><surname>Umayam</surname><given-names>LA</given-names></name><name><surname>Dickinson</surname><given-names>T</given-names></name><name><surname>Hickey</surname><given-names>EK</given-names></name><name><surname>White</surname><given-names>O</given-names></name></person-group>
+<year>2001</year>
+<article-title>The comprehensive microbial resource</article-title>
+<source>Nucleic Acids Res</source>
+<volume>29</volume>
+<fpage>123</fpage>
+<lpage>125</lpage>
+<pub-id pub-id-type="pmid">11125067</pub-id></element-citation></ref><ref id="pcbi-0010027-b26"><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Ruder</surname><given-names>K</given-names></name><name><surname>Winstead</surname><given-names>ER</given-names></name><name><surname>Gibbs</surname><given-names>MS</given-names></name></person-group>
+<year>2004</year>
+<source>A quick guide to sequenced genomes</source>
+<publisher-loc>Rockville (Maryland)</publisher-loc>
+<publisher-name>Genome News Network</publisher-name>
+<comment>Available: <ext-link ext-link-type="uri" xlink:href="http://www.genomenewsnetwork.org/resources/sequenced_genomes/genome_guide_p1.shtml">http://www.genomenewsnetwork.org/resources/sequenced_genomes/genome_ guide_p1.shtml</ext-link>. Accessed 13 July 2005.</comment>
+</element-citation></ref><ref id="pcbi-0010027-b27"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gardner</surname><given-names>MJ</given-names></name><name><surname>Hall</surname><given-names>N</given-names></name><name><surname>Fung</surname><given-names>E</given-names></name><name><surname>White</surname><given-names>O</given-names></name><name><surname>Berriman</surname><given-names>M</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>Genome sequence of the human malaria parasite <italic>Plasmodium falciparum</italic>
+</article-title>
+<source>Nature</source>
+<volume>419</volume>
+<fpage>498</fpage>
+<lpage>511</lpage>
+<pub-id pub-id-type="pmid">12368864</pub-id></element-citation></ref><ref id="pcbi-0010027-b28"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Katinka</surname><given-names>MD</given-names></name><name><surname>Duprat</surname><given-names>S</given-names></name><name><surname>Cornillot</surname><given-names>E</given-names></name><name><surname>Metenier</surname><given-names>G</given-names></name><name><surname>Thomarat</surname><given-names>F</given-names></name><etal/></person-group>
+<year>2001</year>
+<article-title>Genome sequence and gene compaction of the eukaryote parasite <italic>Encephalitozoon cuniculi</italic>
+</article-title>
+<source>Nature</source>
+<volume>414</volume>
+<fpage>450453</fpage>
+</element-citation></ref><ref id="pcbi-0010027-b29"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Konstantinidis</surname><given-names>KT</given-names></name><name><surname>Tiedje</surname><given-names>JM</given-names></name></person-group>
+<year>2004</year>
+<article-title>Trends between gene content and genome size in prokaryotic species with larger genomes</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>101</volume>
+<fpage>3160</fpage>
+<lpage>3165</lpage>
+<pub-id pub-id-type="pmid">14973198</pub-id></element-citation></ref><ref id="pcbi-0010027-b30"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cases</surname><given-names>I</given-names></name><name><surname>de Lorenzo</surname><given-names>V</given-names></name><name><surname>Ouzounis</surname><given-names>CA</given-names></name></person-group>
+<year>2003</year>
+<article-title>Transcription regulation and environmental adaptation in bacteria</article-title>
+<source>Trends Microbiol</source>
+<volume>11</volume>
+<fpage>248</fpage>
+<pub-id pub-id-type="pmid">12823939</pub-id></element-citation></ref><ref id="pcbi-0010027-b31"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jordan</surname><given-names>IK</given-names></name><name><surname>Makarova</surname><given-names>KS</given-names></name><name><surname>Spouge</surname><given-names>JL</given-names></name><name><surname>Wolf</surname><given-names>YI</given-names></name><name><surname>Koonin</surname><given-names>EV</given-names></name></person-group>
+<year>2001</year>
+<article-title>Lineage-specific gene expansions in bacterial and archaeal genomes</article-title>
+<source>Genome Res</source>
+<volume>11</volume>
+<fpage>555</fpage>
+<lpage>565</lpage>
+<pub-id pub-id-type="pmid">11282971</pub-id></element-citation></ref><ref id="pcbi-0010027-b32"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sanchez-Fernandez</surname><given-names>R</given-names></name><name><surname>Davies</surname><given-names>TG</given-names></name><name><surname>Coleman</surname><given-names>JO</given-names></name><name><surname>Rea</surname><given-names>PA</given-names></name></person-group>
+<year>2001</year>
+<article-title>The <italic>Arabidopsis thaliana</italic> ABC protein superfamily, a complete inventory</article-title>
+<source>J Biol Chem</source>
+<volume>276</volume>
+<fpage>30231</fpage>
+<lpage>30244</lpage>
+<pub-id pub-id-type="pmid">11346655</pub-id></element-citation></ref><ref id="pcbi-0010027-b33"><element-citation publication-type="journal">
+<collab>The Arabidopsis Genome Initiative</collab>
+<year>2000</year>
+<article-title>Analysis of the genome sequence of the flowering plant <italic>Arabidopsis thaliana</italic>
+</article-title>
+<source>Nature</source>
+<volume>408</volume>
+<fpage>796</fpage>
+<lpage>815</lpage>
+<pub-id pub-id-type="pmid">11130711</pub-id></element-citation></ref><ref id="pcbi-0010027-b34"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dean</surname><given-names>M</given-names></name><name><surname>Allikmets</surname><given-names>R</given-names></name></person-group>
+<year>2001</year>
+<article-title>Complete characterization of the human ABC gene family</article-title>
+<source>J Bioenerg Biomembr</source>
+<volume>33</volume>
+<fpage>475</fpage>
+<lpage>479</lpage>
+<pub-id pub-id-type="pmid">11804189</pub-id></element-citation></ref><ref id="pcbi-0010027-b35"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kung</surname><given-names>C</given-names></name><name><surname>Blount</surname><given-names>P</given-names></name></person-group>
+<year>2004</year>
+<article-title>Channels in microbes: So many holes to fill</article-title>
+<source>Mol Microbiol</source>
+<volume>53</volume>
+<fpage>373</fpage>
+<lpage>380</lpage>
+<pub-id pub-id-type="pmid">15228520</pub-id></element-citation></ref><ref id="pcbi-0010027-b36"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hong</surname><given-names>X</given-names></name></person-group>
+<year>1998</year>
+<article-title>Identification of major phylogenetic branches of inhibitory ligand-gated channel receptors</article-title>
+<source>J Mol Evol</source>
+<volume>47</volume>
+<fpage>323</fpage>
+<pub-id pub-id-type="pmid">9732459</pub-id></element-citation></ref><ref id="pcbi-0010027-b37"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nakanishi</surname><given-names>S</given-names></name><name><surname>Masu</surname><given-names>M</given-names></name></person-group>
+<year>1994</year>
+<article-title>Molecular diversity and functions of glutamate receptors</article-title>
+<source>Annu Rev Biophys Biomol Struct</source>
+<volume>23</volume>
+<fpage>319</fpage>
+<lpage>348</lpage>
+<pub-id pub-id-type="pmid">7919785</pub-id></element-citation></ref><ref id="pcbi-0010027-b38"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lujan</surname><given-names>R</given-names></name><name><surname>Shigemoto</surname><given-names>R</given-names></name><name><surname>Lopez-Bendito</surname><given-names>G</given-names></name></person-group>
+<year>2005</year>
+<article-title>Glutamate and GABA receptor signalling in the developing brain</article-title>
+<source>Neuroscience</source>
+<volume>130</volume>
+<fpage>567</fpage>
+<lpage>580</lpage>
+<pub-id pub-id-type="pmid">15590141</pub-id></element-citation></ref><ref id="pcbi-0010027-b39"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Johanson</surname><given-names>U</given-names></name><name><surname>Karlsson</surname><given-names>M</given-names></name><name><surname>Johansson</surname><given-names>I</given-names></name><name><surname>Gustavsson</surname><given-names>S</given-names></name><name><surname>Sjovall</surname><given-names>S</given-names></name><etal/></person-group>
+<year>2001</year>
+<article-title>The complete set of genes encoding major intrinsic proteins in <italic>Arabidopsis</italic> provides a framework for a new nomenclature for major intrinsic proteins in plants</article-title>
+<source>Plant Physiol</source>
+<volume>126</volume>
+<fpage>1358</fpage>
+<lpage>1369</lpage>
+<pub-id pub-id-type="pmid">11500536</pub-id></element-citation></ref><ref id="pcbi-0010027-b40"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Javot</surname><given-names>H</given-names></name><name><surname>Maurel</surname><given-names>C</given-names></name></person-group>
+<year>2002</year>
+<article-title>The role of aquaporins in root water uptake</article-title>
+<source>Ann Bot</source>
+<volume>90</volume>
+<fpage>301</fpage>
+<lpage>313</lpage>
+<pub-id pub-id-type="pmid">12234142</pub-id></element-citation></ref><ref id="pcbi-0010027-b41"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Galagan</surname><given-names>JE</given-names></name><name><surname>Calvo</surname><given-names>SE</given-names></name><name><surname>Borkovich</surname><given-names>KA</given-names></name><name><surname>Selker</surname><given-names>EU</given-names></name><name><surname>Read</surname><given-names>ND</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>The genome sequence of the filamentous fungus <italic>Neurospora crassa</italic>
+</article-title>
+<source>Nature</source>
+<volume>422</volume>
+<fpage>859</fpage>
+<lpage>868</lpage>
+<pub-id pub-id-type="pmid">12712197</pub-id></element-citation></ref><ref id="pcbi-0010027-b42"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Borkovich</surname><given-names>KA</given-names></name><name><surname>Alex</surname><given-names>LA</given-names></name><name><surname>Yarden</surname><given-names>O</given-names></name><name><surname>Freitag</surname><given-names>M</given-names></name><name><surname>Turner</surname><given-names>GE</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Lessons from the genome sequence of <italic>Neurospora crassa</italic>: Tracing the path from genomic blueprint to multicellular organism</article-title>
+<source>Microbiol Mol Biol Rev</source>
+<volume>68</volume>
+<fpage>1</fpage>
+<lpage>108</lpage>
+<pub-id pub-id-type="pmid">15007097</pub-id></element-citation></ref><ref id="pcbi-0010027-b43"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pellegrini</surname><given-names>M</given-names></name><name><surname>Marcotte</surname><given-names>EM</given-names></name><name><surname>Thompson</surname><given-names>MJ</given-names></name><name><surname>Eisenberg</surname><given-names>D</given-names></name><name><surname>Yeates</surname><given-names>TO</given-names></name></person-group>
+<year>1999</year>
+<article-title>Assigning protein functions by comparative genome analysis: Protein phylogenetic profiles</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>96</volume>
+<fpage>4285</fpage>
+<lpage>4288</lpage>
+<pub-id pub-id-type="pmid">10200254</pub-id></element-citation></ref><ref id="pcbi-0010027-b44"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pellegrini</surname><given-names>M</given-names></name></person-group>
+<year>2001</year>
+<article-title>Computational methods for protein function analysis</article-title>
+<source>Curr Opin Chem Biol</source>
+<volume>5</volume>
+<fpage>46</fpage>
+<lpage>50</lpage>
+<pub-id pub-id-type="pmid">11166647</pub-id></element-citation></ref><ref id="pcbi-0010027-b45"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Vandepoele</surname><given-names>K</given-names></name><name><surname>Van de Peer</surname><given-names>Y</given-names></name></person-group>
+<year>2005</year>
+<article-title>Exploring the plant transcriptome through phylogenetic profiling</article-title>
+<source>Plant Physiol</source>
+<volume>137</volume>
+<fpage>31</fpage>
+<lpage>42</lpage>
+<pub-id pub-id-type="pmid">15644465</pub-id></element-citation></ref><ref id="pcbi-0010027-b46"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Marcotte</surname><given-names>EM</given-names></name><name><surname>Xenarios</surname><given-names>I</given-names></name><name><surname>van der Bliek</surname><given-names>AM</given-names></name><name><surname>Eisenberg</surname><given-names>D</given-names></name></person-group>
+<year>2000</year>
+<article-title>Localizing proteins in the cell from their phylogenetic profiles</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>97</volume>
+<fpage>12115</fpage>
+<lpage>12120</lpage>
+<pub-id pub-id-type="pmid">11035803</pub-id></element-citation></ref><ref id="pcbi-0010027-b47"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Levesque</surname><given-names>M</given-names></name><name><surname>Shasha</surname><given-names>D</given-names></name><name><surname>Kim</surname><given-names>W</given-names></name><name><surname>Surette</surname><given-names>MG</given-names></name><name><surname>Benfey</surname><given-names>PN</given-names></name></person-group>
+<year>2003</year>
+<article-title>Trait-to-gene: A computational method for predicting the function of uncharacterized genes</article-title>
+<source>Curr Biol</source>
+<volume>13</volume>
+<fpage>129</fpage>
+<lpage>133</lpage>
+<pub-id pub-id-type="pmid">12546786</pub-id></element-citation></ref><ref id="pcbi-0010027-b48"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kriventseva</surname><given-names>EV</given-names></name><name><surname>Biswas</surname><given-names>M</given-names></name><name><surname>Apweiler</surname><given-names>R</given-names></name></person-group>
+<year>2001</year>
+<article-title>Clustering and analysis of protein families</article-title>
+<source>Curr Opin Struct Biol</source>
+<volume>11</volume>
+<fpage>334</fpage>
+<lpage>339</lpage>
+<pub-id pub-id-type="pmid">11406384</pub-id></element-citation></ref><ref id="pcbi-0010027-b49"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Paulsen</surname><given-names>IT</given-names></name><name><surname>Seshadri</surname><given-names>R</given-names></name><name><surname>Nelson</surname><given-names>KE</given-names></name><name><surname>Eisen</surname><given-names>JA</given-names></name><name><surname>Heidelberg</surname><given-names>JF</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>The <italic>Brucella suis</italic> genome reveals fundamental similarities between animal and plant pathogens and symbionts</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>99</volume>
+<fpage>13148</fpage>
+<lpage>13153</lpage>
+<pub-id pub-id-type="pmid">12271122</pub-id></element-citation></ref><ref id="pcbi-0010027-b50"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Xu</surname><given-names>J</given-names></name><name><surname>Bjursell</surname><given-names>MK</given-names></name><name><surname>Himrod</surname><given-names>J</given-names></name><name><surname>Deng</surname><given-names>S</given-names></name><name><surname>Carmichael</surname><given-names>LK</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>A genomic view of the human&#x02013;<italic>Bacteroides thetaiotaomicron</italic> symbiosis</article-title>
+<source>Science</source>
+<volume>299</volume>
+<fpage>2074</fpage>
+<lpage>2076</lpage>
+<pub-id pub-id-type="pmid">12663928</pub-id></element-citation></ref><ref id="pcbi-0010027-b51"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Parkhill</surname><given-names>J</given-names></name><name><surname>Sebaihia</surname><given-names>M</given-names></name><name><surname>Preston</surname><given-names>A</given-names></name><name><surname>Murphy</surname><given-names>LD</given-names></name><name><surname>Thomson</surname><given-names>N</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>Comparative analysis of the genome sequences of <italic>Bordetella pertussis,</italic>
+<italic>Bordetella parapertussis</italic> and <italic>Bordetella bronchiseptica</italic>
+</article-title>
+<source>Nat Genet</source>
+<volume>35</volume>
+<fpage>32</fpage>
+<lpage>40</lpage>
+<pub-id pub-id-type="pmid">12910271</pub-id></element-citation></ref><ref id="pcbi-0010027-b52"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gerlach</surname><given-names>G</given-names></name><name><surname>von Wintzingerode</surname><given-names>F</given-names></name><name><surname>Middendorf</surname><given-names>B</given-names></name><name><surname>Gross</surname><given-names>R</given-names></name></person-group>
+<year>2001</year>
+<article-title>Evolutionary trends in the genus <italic>Bordetella</italic>
+</article-title>
+<source>Microbes Infect</source>
+<volume>3</volume>
+<fpage>61</fpage>
+<lpage>72</lpage>
+<pub-id pub-id-type="pmid">11226855</pub-id></element-citation></ref><ref id="pcbi-0010027-b53"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tolner</surname><given-names>B</given-names></name><name><surname>Ubbink-Kok</surname><given-names>T</given-names></name><name><surname>Poolman</surname><given-names>B</given-names></name><name><surname>Konings</surname><given-names>WN</given-names></name></person-group>
+<year>1995</year>
+<article-title>Cation-selectivity of the L-glutamate transporters of <italic>Escherichia coli,</italic>
+<italic>Bacillus stearothermophilus</italic> and <italic>Bacillus caldotenax:</italic> Dependence on the environment in which the proteins are expressed</article-title>
+<source>Mol Microbiol</source>
+<volume>18</volume>
+<fpage>123</fpage>
+<lpage>133</lpage>
+<pub-id pub-id-type="pmid">8596452</pub-id></element-citation></ref><ref id="pcbi-0010027-b54"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Linton</surname><given-names>KJ</given-names></name><name><surname>Higgins</surname><given-names>CF</given-names></name></person-group>
+<year>1998</year>
+<article-title>The <italic>Escherichia coli</italic> ATP-binding cassette (ABC) proteins</article-title>
+<source>Mol Microbiol</source>
+<volume>28</volume>
+<fpage>5</fpage>
+<lpage>13</lpage>
+<pub-id pub-id-type="pmid">9593292</pub-id></element-citation></ref><ref id="pcbi-0010027-b55"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zientz</surname><given-names>E</given-names></name><name><surname>Dandekar</surname><given-names>T</given-names></name><name><surname>Gross</surname><given-names>R</given-names></name></person-group>
+<year>2004</year>
+<article-title>Metabolic interdependence of obligate intracellular bacteria and their insect hosts</article-title>
+<source>Microbiol Mol Biol Rev</source>
+<volume>68</volume>
+<fpage>745</fpage>
+<lpage>770</lpage>
+<pub-id pub-id-type="pmid">15590782</pub-id></element-citation></ref><ref id="pcbi-0010027-b56"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Reizer</surname><given-names>J</given-names></name><name><surname>Reizer</surname><given-names>A</given-names></name><name><surname>Saier</surname><given-names>MH</given-names><suffix>Jr</suffix></name></person-group>
+<year>1994</year>
+<article-title>A functional superfamily of sodium/solute symporters</article-title>
+<source>Biochim Biophys Acta</source>
+<volume>1197</volume>
+<fpage>133</fpage>
+<lpage>166</lpage>
+<pub-id pub-id-type="pmid">8031825</pub-id></element-citation></ref><ref id="pcbi-0010027-b57"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Saier</surname><given-names>MH</given-names><suffix>Jr</suffix></name><name><surname>Eng</surname><given-names>BH</given-names></name><name><surname>Fard</surname><given-names>S</given-names></name><name><surname>Garg</surname><given-names>J</given-names></name><name><surname>Haggerty</surname><given-names>DA</given-names></name><etal/></person-group>
+<year>1999</year>
+<article-title>Phylogenetic characterization of novel transport protein families revealed by genome analyses</article-title>
+<source>Biochim Biophys Acta</source>
+<volume>1422</volume>
+<fpage>1</fpage>
+<lpage>56</lpage>
+<pub-id pub-id-type="pmid">10082980</pub-id></element-citation></ref><ref id="pcbi-0010027-b58"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pajor</surname><given-names>AM</given-names></name></person-group>
+<year>2000</year>
+<article-title>Molecular properties of sodium/dicarboxylate cotransporters</article-title>
+<source>J Membr Biol</source>
+<volume>175</volume>
+<fpage>1</fpage>
+<lpage>8</lpage>
+<pub-id pub-id-type="pmid">10811962</pub-id></element-citation></ref><ref id="pcbi-0010027-b59"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pao</surname><given-names>SS</given-names></name><name><surname>Paulsen</surname><given-names>IT</given-names></name><name><surname>Saier</surname><given-names>MH</given-names><suffix>Jr</suffix></name></person-group>
+<year>1998</year>
+<article-title>Major facilitator superfamily</article-title>
+<source>Microbiol Mol Biol Rev</source>
+<volume>62</volume>
+<fpage>1</fpage>
+<lpage>34</lpage>
+<pub-id pub-id-type="pmid">9529885</pub-id></element-citation></ref><ref id="pcbi-0010027-b60"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jack</surname><given-names>DL</given-names></name><name><surname>Paulsen</surname><given-names>IT</given-names></name><name><surname>Saier</surname><given-names>MH</given-names></name></person-group>
+<year>2000</year>
+<article-title>The amino acid/polyamine/organocation (APC) superfamily of transporters specific for amino acids, polyamines and organocations</article-title>
+<source>Microbiology</source>
+<volume>146</volume>
+<fpage>1797</fpage>
+<lpage>1814</lpage>
+<pub-id pub-id-type="pmid">10931886</pub-id></element-citation></ref><ref id="pcbi-0010027-b61"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Stover</surname><given-names>CK</given-names></name><name><surname>Pham</surname><given-names>XQ</given-names></name><name><surname>Erwin</surname><given-names>AL</given-names></name><name><surname>Mizoguchi</surname><given-names>SD</given-names></name><name><surname>Warrener</surname><given-names>P</given-names></name><etal/></person-group>
+<year>2000</year>
+<article-title>Complete genome sequence of <italic>Pseudomonas aeruginosa</italic> PA01, an opportunistic pathogen</article-title>
+<source>Nature</source>
+<volume>406</volume>
+<fpage>959</fpage>
+<lpage>964</lpage>
+<pub-id pub-id-type="pmid">10984043</pub-id></element-citation></ref><ref id="pcbi-0010027-b62"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nelson</surname><given-names>KE</given-names></name><name><surname>Weinel</surname><given-names>C</given-names></name><name><surname>Paulsen</surname><given-names>IT</given-names></name><name><surname>Dodson</surname><given-names>RJ</given-names></name><name><surname>Hilbert</surname><given-names>H</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>Complete genome sequence and comparative analysis of the metabolically versatile <italic>Pseudomonas putida</italic> KT2440</article-title>
+<source>Environ Microbiol</source>
+<volume>4</volume>
+<fpage>799</fpage>
+<lpage>808</lpage>
+<pub-id pub-id-type="pmid">12534463</pub-id></element-citation></ref><ref id="pcbi-0010027-b63"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Buell</surname><given-names>CR</given-names></name><name><surname>Joardar</surname><given-names>V</given-names></name><name><surname>Lindeberg</surname><given-names>M</given-names></name><name><surname>Selengut</surname><given-names>J</given-names></name><name><surname>Paulsen</surname><given-names>IT</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>The complete genome sequence of the <italic>Arabidopsis</italic> and tomato pathogen <italic>Pseudomonas syringae</italic> pv. <italic>tomato</italic> DC3000</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>100</volume>
+<fpage>10181</fpage>
+<lpage>10186</lpage>
+<pub-id pub-id-type="pmid">12928499</pub-id></element-citation></ref><ref id="pcbi-0010027-b64"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kalinowski</surname><given-names>J</given-names></name><name><surname>Bathe</surname><given-names>B</given-names></name><name><surname>Bartels</surname><given-names>D</given-names></name><name><surname>Bischoff</surname><given-names>N</given-names></name><name><surname>Bott</surname><given-names>M</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>The complete <italic>Corynebacterium glutamicum</italic> ATCC 13032 genome sequence and its impact on the production of aspartate-derived amino acids and vitamins</article-title>
+<source>J Biotechnol</source>
+<volume>104</volume>
+<fpage>5</fpage>
+<lpage>25</lpage>
+<pub-id pub-id-type="pmid">12948626</pub-id></element-citation></ref><ref id="pcbi-0010027-b65"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nishio</surname><given-names>Y</given-names></name><name><surname>Nakamura</surname><given-names>Y</given-names></name><name><surname>Kawarabayasi</surname><given-names>Y</given-names></name><name><surname>Usuda</surname><given-names>Y</given-names></name><name><surname>Kimura</surname><given-names>E</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>Comparative complete genome sequence analysis of the amino acid replacements responsible for the thermostability of <italic>Corynebacterium efficiens</italic>
+</article-title>
+<source>Genome Res</source>
+<volume>13</volume>
+<fpage>1572</fpage>
+<lpage>1579</lpage>
+<pub-id pub-id-type="pmid">12840036</pub-id></element-citation></ref><ref id="pcbi-0010027-b66"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cerdeno-Tarraga</surname><given-names>AM</given-names></name><name><surname>Efstratiou</surname><given-names>A</given-names></name><name><surname>Dover</surname><given-names>LG</given-names></name><name><surname>Holden</surname><given-names>MTG</given-names></name><name><surname>Pallen</surname><given-names>M</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>The complete genome sequence and analysis of <italic>Corynebacterium diphtheriae</italic> NCTC13129</article-title>
+<source>Nucleic Acids Res</source>
+<volume>31</volume>
+<fpage>6516</fpage>
+<lpage>6523</lpage>
+<pub-id pub-id-type="pmid">14602910</pub-id></element-citation></ref><ref id="pcbi-0010027-b67"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schlosser</surname><given-names>A</given-names></name><name><surname>Meldorf</surname><given-names>M</given-names></name><name><surname>Stumpe</surname><given-names>S</given-names></name><name><surname>Bakker</surname><given-names>EP</given-names></name><name><surname>Epstein</surname><given-names>W</given-names></name></person-group>
+<year>1995</year>
+<article-title>TrkH and its homolog, TrkG, determine the specificity and kinetics of cation transport by the Trk system of <italic>Escherichia coli</italic>
+</article-title>
+<source>J Bacteriol</source>
+<volume>177</volume>
+<fpage>1908</fpage>
+<lpage>1910</lpage>
+<pub-id pub-id-type="pmid">7896723</pub-id></element-citation></ref><ref id="pcbi-0010027-b68"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Trchounian</surname><given-names>A</given-names></name><name><surname>Kobayashi</surname><given-names>H</given-names></name></person-group>
+<year>1999</year>
+<article-title>Kup is the major K+ uptake system in <italic>Escherichia coli</italic> upon hyper-osmotic stress at a low pH</article-title>
+<source>FEBS Lett</source>
+<volume>447</volume>
+<fpage>144</fpage>
+<lpage>148</lpage>
+<pub-id pub-id-type="pmid">10214935</pub-id></element-citation></ref><ref id="pcbi-0010027-b69"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Engel</surname><given-names>P</given-names></name><name><surname>Kramer</surname><given-names>R</given-names></name><name><surname>Unden</surname><given-names>G</given-names></name></person-group>
+<year>1994</year>
+<article-title>Transport of C4-dicarboxylates by anaerobically grown <italic>Escherichia coli</italic>. Energetics and mechanism of exchange, uptake and efflux</article-title>
+<source>Eur J Biochem</source>
+<volume>222</volume>
+<fpage>605</fpage>
+<lpage>614</lpage>
+<pub-id pub-id-type="pmid">8020497</pub-id></element-citation></ref><ref id="pcbi-0010027-b70"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kelly</surname><given-names>DJ</given-names></name><name><surname>Thomas</surname><given-names>GH</given-names></name></person-group>
+<year>2001</year>
+<article-title>The tripartite ATP-independent periplasmic (TRAP) transporters of bacteria and archaea</article-title>
+<source>FEMS Microbiol Rev</source>
+<volume>25</volume>
+<fpage>405</fpage>
+<lpage>424</lpage>
+<pub-id pub-id-type="pmid">11524131</pub-id></element-citation></ref><ref id="pcbi-0010027-b71"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nishio</surname><given-names>Y</given-names></name><name><surname>Nakamura</surname><given-names>Y</given-names></name><name><surname>Usuda</surname><given-names>Y</given-names></name><name><surname>Sugimoto</surname><given-names>S</given-names></name><name><surname>Matsui</surname><given-names>K</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Evolutionary process of amino acid biosynthesis in <italic>Corynebacterium</italic> at the whole genome level</article-title>
+<source>Mol Biol Evol</source>
+<volume>21</volume>
+<fpage>1683</fpage>
+<lpage>1691</lpage>
+<pub-id pub-id-type="pmid">15163767</pub-id></element-citation></ref><ref id="pcbi-0010027-b72"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Eggeling</surname><given-names>L</given-names></name><name><surname>Sahm</surname><given-names>H</given-names></name></person-group>
+<year>2003</year>
+<article-title>New ubiquitous translocators: Amino acid export by <italic>Corynebacterium glutamicum</italic> and <italic>Escherichia coli</italic>
+</article-title>
+<source>Arch Microbiol</source>
+<volume>180</volume>
+<fpage>155</fpage>
+<lpage>160</lpage>
+<pub-id pub-id-type="pmid">12879215</pub-id></element-citation></ref><ref id="pcbi-0010027-b73"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kennerknecht</surname><given-names>N</given-names></name><name><surname>Sahm</surname><given-names>H</given-names></name><name><surname>Yen</surname><given-names>MR</given-names></name><name><surname>Patek</surname><given-names>M</given-names></name><name><surname>Saier</surname><given-names>MH</given-names><suffix>Jr</suffix></name><etal/></person-group>
+<year>2002</year>
+<article-title>Export of L-isoleucine from <italic>Corynebacterium glutamicum:</italic> A two-gene-encoded member of a new translocator family</article-title>
+<source>J Bacteriol</source>
+<volume>184</volume>
+<fpage>3947</fpage>
+<lpage>3956</lpage>
+<pub-id pub-id-type="pmid">12081967</pub-id></element-citation></ref><ref id="pcbi-0010027-b74"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ren</surname><given-names>Q</given-names></name><name><surname>Kang</surname><given-names>KH</given-names></name><name><surname>Paulsen</surname><given-names>IT</given-names></name></person-group>
+<year>2004</year>
+<article-title>TransportDB: A relational database of cellular membrane transport systems</article-title>
+<source>Nucleic Acids Res</source>
+<volume>32</volume>
+<fpage>D284</fpage>
+<lpage>D288</lpage>
+<pub-id pub-id-type="pmid">14681414</pub-id></element-citation></ref><ref id="pcbi-0010027-b75"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Altschul</surname><given-names>SF</given-names></name><name><surname>Gish</surname><given-names>W</given-names></name><name><surname>Miller</surname><given-names>W</given-names></name><name><surname>Myers</surname><given-names>EW</given-names></name><name><surname>Lipman</surname><given-names>DJ</given-names></name></person-group>
+<year>1990</year>
+<article-title>Basic local alignment search tool</article-title>
+<source>J Mol Biol</source>
+<volume>215</volume>
+<fpage>403</fpage>
+<lpage>410</lpage>
+<pub-id pub-id-type="pmid">2231712</pub-id></element-citation></ref><ref id="pcbi-0010027-b76"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Altschul</surname><given-names>SF</given-names></name><name><surname>Gish</surname><given-names>W</given-names></name></person-group>
+<year>1996</year>
+<article-title>Local alignment statistics</article-title>
+<source>Methods Enzymol</source>
+<volume>266</volume>
+<fpage>460</fpage>
+<lpage>480</lpage>
+<pub-id pub-id-type="pmid">8743700</pub-id></element-citation></ref><ref id="pcbi-0010027-b77"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sonnhammer</surname><given-names>EL</given-names></name><name><surname>Eddy</surname><given-names>SR</given-names></name><name><surname>Birney</surname><given-names>E</given-names></name><name><surname>Bateman</surname><given-names>A</given-names></name><name><surname>Durbin</surname><given-names>R</given-names></name></person-group>
+<year>1998</year>
+<article-title>Pfam: Multiple sequence alignments and HMM-profiles of protein domains</article-title>
+<source>Nucleic Acids Res</source>
+<volume>26</volume>
+<fpage>320</fpage>
+<lpage>322</lpage>
+<pub-id pub-id-type="pmid">9399864</pub-id></element-citation></ref><ref id="pcbi-0010027-b78"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Krogh</surname><given-names>A</given-names></name><name><surname>Larsson</surname><given-names>B</given-names></name><name><surname>von Heijne</surname><given-names>G</given-names></name><name><surname>Sonnhammer</surname><given-names>EL</given-names></name></person-group>
+<year>2001</year>
+<article-title>Predicting transmembrane protein topology with a hidden Markov model: Application to complete genomes</article-title>
+<source>J Mol Biol</source>
+<volume>305</volume>
+<fpage>567</fpage>
+<lpage>580</lpage>
+<pub-id pub-id-type="pmid">11152613</pub-id></element-citation></ref><ref id="pcbi-0010027-b79"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tatusov</surname><given-names>RL</given-names></name><name><surname>Natale</surname><given-names>DA</given-names></name><name><surname>Garkavtsev</surname><given-names>IV</given-names></name><name><surname>Tatusova</surname><given-names>TA</given-names></name><name><surname>Shankavaram</surname><given-names>UT</given-names></name><etal/></person-group>
+<year>2001</year>
+<article-title>The COG database: New developments in phylogenetic classification of proteins from complete genomes</article-title>
+<source>Nucleic Acids Res</source>
+<volume>29</volume>
+<fpage>22</fpage>
+<lpage>28</lpage>
+<pub-id pub-id-type="pmid">11125040</pub-id></element-citation></ref><ref id="pcbi-0010027-b80"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Saeed</surname><given-names>AI</given-names></name><name><surname>Sharov</surname><given-names>V</given-names></name><name><surname>White</surname><given-names>J</given-names></name><name><surname>Li</surname><given-names>J</given-names></name><name><surname>Liang</surname><given-names>W</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>TM4: A free, open-source system for microarray data management and analysis</article-title>
+<source>Biotechniques</source>
+<volume>34</volume>
+<fpage>374</fpage>
+<lpage>378</lpage>
+<pub-id pub-id-type="pmid">12613259</pub-id></element-citation></ref><ref id="pcbi-0010027-b81"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Eisen</surname><given-names>MB</given-names></name><name><surname>Spellman</surname><given-names>PT</given-names></name><name><surname>Brown</surname><given-names>PO</given-names></name><name><surname>Botstein</surname><given-names>D</given-names></name></person-group>
+<year>1998</year>
+<article-title>Cluster analysis and display of genome-wide expression patterns</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>95</volume>
+<fpage>14863</fpage>
+<lpage>14868</lpage>
+<pub-id pub-id-type="pmid">9843981</pub-id></element-citation></ref></ref-list></back></article>

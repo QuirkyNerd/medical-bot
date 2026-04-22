@@ -1,0 +1,297 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS Comput Biol</journal-id><journal-id journal-id-type="iso-abbrev">PLoS Comput. Biol</journal-id><journal-id journal-id-type="publisher-id">pcbi</journal-id><journal-id journal-id-type="publisher-id">plcb</journal-id><journal-id journal-id-type="pmc">ploscomp</journal-id><journal-title-group><journal-title>PLoS Computational Biology</journal-title></journal-title-group><issn pub-type="ppub">1553-734X</issn><issn pub-type="epub">1553-7358</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">16158094</article-id><article-id pub-id-type="pmc">PMC1193989</article-id><article-id pub-id-type="doi">10.1371/journal.pcbi.0010030</article-id><article-id pub-id-type="publisher-id">05-PLCB-RA-0103R2</article-id><article-id pub-id-type="sici">plcb-01-03-06</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group><subj-group subj-group-type="Discipline"><subject>Biochemistry</subject><subject>Molecular Biology - Structural Biology</subject><subject>Neuroscience</subject></subj-group><subj-group subj-group-type="System Taxonomy"><subject>None</subject></subj-group></article-categories><title-group><article-title>Molecular Origin of Polyglutamine Aggregation in Neurodegenerative Diseases </article-title><alt-title alt-title-type="running-head">A Molecular Basis of PolyQ Aggregation</alt-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Khare</surname><given-names>Sagar D</given-names></name><xref ref-type="aff" rid="aff1">1</xref></contrib><contrib contrib-type="author"><name><surname>Ding</surname><given-names>Feng</given-names></name><xref ref-type="aff" rid="aff1">1</xref></contrib><contrib contrib-type="author"><name><surname>Gwanmesia</surname><given-names>Kenneth N</given-names></name><xref ref-type="aff" rid="aff1">1</xref><xref ref-type="aff" rid="aff2">2</xref></contrib><contrib contrib-type="author"><name><surname>Dokholyan</surname><given-names>Nikolay V</given-names></name><xref ref-type="aff" rid="aff1">1</xref><xref ref-type="corresp" rid="cor1">*</xref></contrib></contrib-group><aff id="aff1"><label>1</label> Department of Biochemistry and Biophysics, University of North Carolina, Chapel Hill, North Carolina, United States of America
+</aff><aff id="aff2"><label>2</label> Department of Physics and Pre-Engineering, Delaware State University, Dover, Delaware, United States of America
+</aff><contrib-group><contrib contrib-type="editor"><name><surname>Lai</surname><given-names>Luhua</given-names></name><role>Editor</role><xref ref-type="aff" rid="edit1"/></contrib></contrib-group><aff id="edit1">Peking University, China</aff><author-notes><corresp id="cor1">*To whom correspondence should be addressed. E-mail: <email>dokh@med.unc.edu</email></corresp></author-notes><pub-date pub-type="ppub"><month>8</month><year>2005</year></pub-date><pub-date pub-type="epub"><day>26</day><month>8</month><year>2005</year></pub-date><volume>1</volume><issue>3</issue><elocation-id>e30</elocation-id><history><date date-type="received"><day>10</day><month>3</month><year>2005</year></date><date date-type="accepted"><day>13</day><month>7</month><year>2005</year></date></history><permissions><copyright-statement>Copyright: &#x000a9; 2005 Khare et al.</copyright-statement><copyright-year>2005</copyright-year><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p></license></permissions><abstract><p>Expansion of polyglutamine (polyQ) tracts in proteins results in protein aggregation and is associated with cell death in at least nine neurodegenerative diseases. Disease age of onset is correlated with the polyQ insert length above a critical value of 35&#x02013;40 glutamines. The aggregation kinetics of isolated polyQ peptides in vitro also shows a similar critical-length dependence. While recent experimental work has provided considerable insights into polyQ aggregation, the molecular mechanism of aggregation is not well understood. Here, using computer simulations of isolated polyQ peptides, we show that a mechanism of aggregation is the conformational transition in a single polyQ peptide chain from random coil to a parallel &#x003b2;-helix. This transition occurs selectively in peptides longer than 37 glutamines. In the &#x003b2;-helices observed in simulations, all residues adopt &#x003b2;-strand backbone dihedral angles, and the polypeptide chain coils around a central helical axis with 18.5 &#x000b1; 2 residues per turn. We also find that mutant polyQ peptides with proline-glycine inserts show formation of antiparallel &#x003b2;-hairpins in their ground state, in agreement with experiments. The lower stability of mutant &#x003b2;-helices explains their lower aggregation rates compared to wild type. Our results provide a molecular mechanism for polyQ-mediated aggregation.</p></abstract><abstract abstract-type="synopsis"><title>Synopsis</title><sec id="st1"><title/><p>Nine human diseases, including Huntington's disease, are associated with an expanded trinucleotide sequence CAG in genes. Since CAG codes for the amino acid glutamine, these disorders are collectively known as polyglutamine diseases. Although the genes (and proteins) involved in different polyglutamine diseases have little in common, the disorders they cause follow a strikingly similar course: If the length of the expansion exceeds a critical value of 35&#x02013;40, the greater the number of glutamine repeats in a protein, the earlier the onset of disease and the more severe the symptoms. This fact suggests that abnormally long glutamine tracts render their host protein toxic to nerve cells, and all polyglutamine diseases are hypothesized to progress via common molecular mechanisms. One possible mechanism of cell death is that the abnormally long sequence of glutamines acquires a shape that prevents the host protein from folding into its proper shape. What is the structure acquired by polyglutamine and what is the molecular basis of the observed threshold repeat length? Using computer models of polyglutamine, the authors show that if, and only if, the length of polyglutamine repeats is longer than the critical value found in disease, it acquires a specific shape called a &#x003b2;-helix. The longer the glutamine tract length, the higher is the propensity to form &#x003b2;-helices. This length-dependent formation of &#x003b2;-helices by polyglutamine stretches may provide a unified molecular framework for understanding the structural basis of different trinucleotide repeat-associated diseases.</p></sec></abstract><custom-meta-group><custom-meta><meta-name>Citation:</meta-name><meta-value>Khare SD, Ding F, Gwanmesia KN, Dokholyan NV (2005) Molecular origin of polyglutamine aggregation in neurodegenerative diseases. PLoS Comp Biol 1(3): e30.</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec id="s1"><title>Introduction</title><p>The appearance of polyglutamine (polyQ)-containing aggregates [<xref rid="pcbi-0010030-b01" ref-type="bibr">1</xref>&#x02013;<xref rid="pcbi-0010030-b03" ref-type="bibr">3</xref>] is a hallmark of disease progression in all diseases in which CAG-expansions occur in genes [<xref rid="pcbi-0010030-b02" ref-type="bibr">2</xref>]. Intranuclear inclusion bodies containing polyQ aggregates have been found in vitro [<xref rid="pcbi-0010030-b04" ref-type="bibr">4</xref>,<xref rid="pcbi-0010030-b05" ref-type="bibr">5</xref>], in cell cultures, animal models, and affected patients [<xref rid="pcbi-0010030-b06" ref-type="bibr">6</xref>,<xref rid="pcbi-0010030-b07" ref-type="bibr">7</xref>]. The aggregates are known to have a characteristic amyloid topology [<xref rid="pcbi-0010030-b08" ref-type="bibr">8</xref>]. The inhibition of oligomerization by the azo-dye Congo red, or by the Hsp70/Hsp40 chaperone system, exerts marked protective effects in vivo and in vitro [<xref rid="pcbi-0010030-b09" ref-type="bibr">9</xref>,<xref rid="pcbi-0010030-b10" ref-type="bibr">10</xref>]. Aggregation and disease are observed if the number of glutamines in the expansion, <italic>n,</italic> exceeds a critical value, <italic>n</italic>
+<sub>C</sub> (i.e., <italic>n</italic>
+<sub>C</sub> = 35&#x02013;40) [<xref rid="pcbi-0010030-b03" ref-type="bibr">3</xref>]. The nearly universal existence of this criticality in all polyQ-related diseases (except in spinocerebellar ataxia 6) suggests that when the polyQ insert length exceeds a critical value (<italic>n</italic> &#x0003e; <italic>n</italic>
+<sub>C</sub>), a pathological change, largely independent of the host protein, occurs in the polyQ insert itself. Therefore, isolated polyQ peptides <italic>(Q<sub>n</sub>)</italic> have been used as model systems for studying polyQ aggregation [<xref rid="pcbi-0010030-b04" ref-type="bibr">4</xref>,<xref rid="pcbi-0010030-b11" ref-type="bibr">11</xref>,<xref rid="pcbi-0010030-b12" ref-type="bibr">12</xref>], and it is known that: (a) The nuclear uptake of polyQ peptide aggregates prepared in vitro is cytotoxic in cell cultures [<xref rid="pcbi-0010030-b13" ref-type="bibr">13</xref>], (b) isolated polyQ peptides have in vitro aggregation properties similar to the corresponding full-length proteins containing the polyQ insert [<xref rid="pcbi-0010030-b04" ref-type="bibr">4</xref>,<xref rid="pcbi-0010030-b14" ref-type="bibr">14</xref>], (c) peptide aggregation follows a nucleated mechanism showing characteristic lag and growth phases [<xref rid="pcbi-0010030-b05" ref-type="bibr">5</xref>,<xref rid="pcbi-0010030-b11" ref-type="bibr">11</xref>], and (d) the glutamine tract-length dependence of the lag-time interval correlates well with the age of onset of disease [<xref rid="pcbi-0010030-b11" ref-type="bibr">11</xref>]. Peptides of subcritical lengths (<italic>n</italic> &#x0003c; 35&#x02013;40) have long lag times of aggregation and a corresponding (predicted) age of onset later than the typical life span of a person. Longer peptides (<italic>n</italic> &#x0003e; 35&#x02013;40) have progressively smaller lag times of aggregation, and a correspondingly early age of onset of the disease [<xref rid="pcbi-0010030-b11" ref-type="bibr">11</xref>].</p><p>Unaggregated polyQ peptides form random coil structures, whereas aggregates are composed of amyloid-like &#x003b2;-strands [<xref rid="pcbi-0010030-b15" ref-type="bibr">15</xref>]. The conversion of random coil to &#x003b2;-strand occurs in an individual polyQ chain [<xref rid="pcbi-0010030-b11" ref-type="bibr">11</xref>], and fibril formation occurs by addition of other polyQ chains to these monomeric &#x003b2;-strand nuclei. Therefore, the conformational dynamics of an individual polyQ chain determines both its aggregation mechanism and the structure of the final aggregates. The details of the conformational dynamics of polyQ and the length dependence of the dynamics are not well understood [<xref rid="pcbi-0010030-b06" ref-type="bibr">6</xref>].</p></sec><sec id="s2"><title>Results/Discussion</title><p>To elucidate the structural dynamics of single polyQ chains, we performed molecular dynamics (MD) simulations of simplified models of polyQ. An atomic-level representation of polyQ limits sampling efficiency in simulations, making it unsuitable to study the dynamics of aggregation. Therefore, we used a simplified pseudo-atom representation to capture the relevant degrees of freedom for aggregation. We introduced three types of nonbonded interactions between the glutamine pseudo-atoms: hydrophobic interactions between the glutamine methylene groups, geometrically determined hydrogen bonds between backbone NH and O atoms, and sidechain-backbone polar interactions between the sidechain carboxylamine group and the backbone NH or O atoms. Protein-solvent interactions play an important role in protein folding and aggregation. However, in simplified models of protein folding and aggregation the solvent interactions are considered implicitly [<xref rid="pcbi-0010030-b16" ref-type="bibr">16</xref>]. In the interaction models employed in our study, the solvent effects were captured by the effective hydrophobic interactions between the methylene groups in the sidechain. We used the discrete molecular dynamics (DMD) algorithm [<xref rid="pcbi-0010030-b17" ref-type="bibr">17</xref>] to study polyQ dynamics.</p><p>The first question that we address is the following: What is the underlying minimal set of interactions responsible for the experimentally observed conformational transitions in polyQ aggregation? Since the conformational transition from random-coil polyQ to &#x003b2;-strand is known to be a nucleated process [<xref rid="pcbi-0010030-b11" ref-type="bibr">11</xref>], we expect that an energy barrier is crossed during &#x003b2;-strand formation. Barrier crossing is enhanced as the system temperature is increased. Therefore, we study the dynamics of model polyQ peptides as a function of temperature. We hypothesized that the physical basis of the conformational change from random coil to &#x003b2;-strands is the presence of unique sidechain-backbone hydrogen bonding interactions in polyQ. To test this hypothesis, we performed simulations of a 37-mer (<italic>Q</italic>
+<sub>37</sub>) polyQ peptide with and without sidechain-backbone hydrogen bonding interactions. It is known that homopolymeric peptides with no sidechain-backbone interactions, e.g., polyalanine, form &#x003b1;-helices in their ground state [<xref rid="pcbi-0010030-b18" ref-type="bibr">18</xref>,<xref rid="pcbi-0010030-b19" ref-type="bibr">19</xref>], and at higher temperatures the helices melt to form a random coil [<xref rid="pcbi-0010030-b20" ref-type="bibr">20</xref>] that then aggregates into a &#x003b2;-rich structure. We found that in the absence of sidechain-backbone interactions, polyQ dynamics are similar to polyalanine: It forms &#x003b1;-helices at low temperature (<xref ref-type="fig" rid="pcbi-0010030-g001">Figure 1</xref>A), and a random coil as the temperature is increased. A monomer peptide in this polyQ model does not form &#x003b2;-strands. In contrast, when sidechain-backbone hydrogen bonding is present, polyQ is a random coil at low temperatures, adopts a &#x003b2;-strand conformation in an intermediate range of temperatures, and is again a random coil at higher temperatures (<xref ref-type="fig" rid="pcbi-0010030-g001">Figure 1</xref>B).Thus, sidechain-backbone interactions lead to the formation of &#x003b2;-strands by a single polyQ peptide, which is the nucleating structural transition observed in polyQ-peptide aggregation.</p><fig id="pcbi-0010030-g001" position="float"><label>Figure 1</label><caption><title>Dynamics of PolyQ Peptides</title><p>(A, B) The fraction of secondary structure as a function of temperature for model polyQ peptides (A) without sidechain-backbone interactions, and (B) with sidechain-backbone interactions. Only helices and &#x003b2;-strands are shown; at each temperature the remainder is random coil.</p><p>(C) A &#x003b2;-helix formed by a <italic>Q</italic>
+<sub>37</sub> at the temperature <italic>T</italic> = 0.74. The width of the helix is 12&#x02013;13 &#x000c5;, and the distance between strands is 4&#x02013;5 &#x000c5;.</p><p>(D) The network of possible sidechain-backbone (green) and sidechain-sidechain (orange) hydrogen bonding interactions in the core of the &#x003b2;-helix. Hydrogen bonds are shown as dashed lines, and bifurcations indicate the multiple possibilities for interaction partners.</p><p>(E, F) Side (E) and top (F) views of the &#x003b2;-helix structure showing the well-packed core and outward-pointing sidechains.</p></caption><graphic xlink:href="pcbi.0010030.g001"/></fig><p>Strikingly, the conformation adopted by a <italic>Q</italic>
+<sub>37</sub> chain under conditions in which it adopts &#x003b2;-strand topologies (<italic>T</italic> = 0.72 to <italic>T</italic> = 0.78, in units of &#x0025b;/<italic>k</italic>
+<sub>B</sub>, where &#x0025b; is the energy unit and <italic>k</italic>
+<sub>B</sub> is the Boltzmann's constant) is a parallel &#x003b2;-helix (<xref ref-type="fig" rid="pcbi-0010030-g001">Figure 1</xref>C). In these &#x003b2;-helices, all residues adopt &#x003b2;-strand backbone dihedral angles, and the polypeptide chain coils around a central helical axis. Several examples of such parallel &#x003b2;-helices (reviewed by Wetzel [<xref rid="pcbi-0010030-b21" ref-type="bibr">21</xref>]) are found in the Protein Databank (<ext-link ext-link-type="uri" xlink:href="http://www.rcsd.org/pdb/">http://www.rcsb.org/pdb/</ext-link>). For amyloid fibrils formed by polyQ, Perutz previously proposed a &#x003b2;-helix model based on X-ray diffraction data [<xref rid="pcbi-0010030-b08" ref-type="bibr">8</xref>]. However, in contrast with Perutz's model, which has a central aqueous pore, the &#x003b2;-helices observed in our simulations are well packed, exclude the solvent, and are stabilized by buried sidechain-backbone and sidechain-sidechain hydrogen bonds (<xref ref-type="fig" rid="pcbi-0010030-g001">Figure 1</xref>D&#x02013;<xref ref-type="fig" rid="pcbi-0010030-g001">1</xref>F). To evaluate whether these &#x003b2;-helix structures, once formed, have residence times long enough to propagate further aggregation, and to obtain better-defined thermodynamic ensembles, we evaluated the stability of &#x003b2;-helices at 300 Kelvin using all-atom MD simulations. As shown in <xref ref-type="fig" rid="pcbi-0010030-g002">Figure 2</xref>A, the polyQ structure remains stable on the nanosecond time scale accessible in all-atom simulations. If the formation of &#x003b2;-helices corresponds to the nucleation step in the aggregation reaction [<xref rid="pcbi-0010030-b05" ref-type="bibr">5</xref>], and, assuming that the further elongation of the aggregate is diffusion-limited, the average time between protein collisions at a concentration of 100 &#x003bc;M is expected to be about 10 ns. Therefore, the observed stability of the polyQ &#x003b2;-helix on the nanosecond time scale is expected to be sufficient for further propagation of the aggregate.</p><fig id="pcbi-0010030-g002" position="float"><label>Figure 2</label><caption><title>Formation and Stability of &#x003b2;-Helices</title><p>(A) RMSD versus time in all-atom MD simulations of polyQ peptide &#x003b2;-helices for wild-type &#x003b2;-helix (red) and PG-Q<sub>9</sub> &#x003b2;-helix (black). The PG-Q<sub>9</sub> &#x003b2;-helix was constructed by replacing six glutamines in <italic>Q</italic>
+<sub>37</sub> with the proline-glycine sequence inserted after every nine glutamines.</p><p>(B) The fraction of &#x003b2;-helix content as a function of temperature for a 25-mer (diamonds), 37-mer (unfilled circles), and 45-mer (squares). The fraction of &#x003b2;-helix content was calculated by measuring the frequency of contacts between a residue <italic>i</italic> and residues <italic>i</italic> + 16 to <italic>i</italic> + 20, for all <italic>i</italic>.</p></caption><graphic xlink:href="pcbi.0010030.g002"/></fig><p>Apart from sidechain-backbone interactions, a number of sidechain-sidechain interactions persisted throughout the MD simulation. We did not use sidechain-sidechain hydrogen bonding interactions in the DMD simulations used to generate &#x003b2;-helices. Thus, even though sidechain-sidechain interactions were not required for the formation of &#x003b2;-helices, they were nevertheless formed in &#x003b2;-helices. Further, these interactions were persistent throughout the length of the all-atom MD simulations, suggesting that they do play a significant role in the stabilization of the &#x003b2;-helices.</p><p>By characterizing the length dependence of &#x003b2;-helix formation, we uncovered the molecular basis of the observed glutamine length dependence of polyQ aggregation. Since the average number of residues per turn of the &#x003b2;-helix in our simulations is 18.5 &#x000b1; 2 residues, we expected that about 33&#x02013;40 glutamines would be required for its formation. To test this hypothesized length dependence of &#x003b2;-helix formation, we studied the conformational dynamics of 25-mer and 45-mer polyQ peptides and found that &#x003b2;-helices are absent at all temperatures when the repeat length was 25. Moreover, the &#x003b2;-helix topology was stable in a broader range of temperatures for the 45-mer (<xref ref-type="fig" rid="pcbi-0010030-g002">Figure 2</xref>B), demonstrating that &#x003b2;-helix formation increases with the length of polyQ. The formation of a &#x003b2;-helix from a random coil was accompanied by entropy loss, leading to a free energy barrier. This barrier results in the lag times observed in experiments of polyQ peptide aggregation [<xref rid="pcbi-0010030-b11" ref-type="bibr">11</xref>]. Barrier crossing is enhanced for longer peptides, because the enthalpy gain upon &#x003b2;-helix formation compensates for the entropy loss in the transition. Therefore, &#x003b2;-helices are formed only by peptides longer than a critical length (<italic>n</italic> &#x0003e; <italic>n</italic>
+<sub>C</sub>). Recently, Stork et al. [<xref rid="pcbi-0010030-b22" ref-type="bibr">22</xref>] found that the dimerization of two <italic>Q</italic>
+<sub>37</sub> &#x003b2;-helices resulted in a stabilization of the (preformed, in their study) &#x003b2;-helix conformation. The stabilization of the &#x003b2;-helix upon dimerization shows that the dimerization is a downhill process (i.e., there is no energy barrier) on the free-energy landscape. Thus, we propose that length-dependent &#x003b2;-helix formation may be the molecular origin of polyglutamine-mediated aggregation. We also propose that once a &#x003b2;-helix is formed by a monomer, the elongation of the aggregate may involve the conversion of other chains to &#x003b2;-helices induced by the &#x003b2;-helix nucleus. A fibril may be formed by stacking of multiple &#x003b2;-helices, as suggested by Stork et al. [<xref rid="pcbi-0010030-b22" ref-type="bibr">22</xref>], and these fibrils may arrange further to form larger fibers.</p><p>The formation of &#x003b2;-helices by a single polyQ chain can be used to rationalize the aggregation of experimentally characterized mutant polyQ peptides. Previously, Thakur and Wetzel [<xref rid="pcbi-0010030-b05" ref-type="bibr">5</xref>] found that mutant polyQ peptides, in which the turn-inducing amino acid sequence proline-glycine was inserted at different sequence intervals&#x02014;e.g., (Q<sub>9</sub>-PG-Q<sub>9</sub>)<sub>3</sub> (PG-Q<sub>9</sub>) and (Q<sub>10</sub>-PG-Q<sub>10</sub>)<sub>3</sub> (PG-Q<sub>10</sub>)&#x02014;modulated the aggregation kinetics of polyQ peptides. The mutant PG-Q<sub>9</sub> was found to aggregate at a marginally smaller rate than the wild-type polyQ, and the critical nucleus size for aggregation, as for the wild type, was one. The existence of nucleated aggregation kinetics of the mutant suggests that, similar to the wild type, barrier crossing from the ground state to an aggregation-prone state occurs. Therefore, we hypothesized that, similar to wild-type polyQ, a thermodynamically unfavorable nucleating conformational transition occurs in a single &#x003b2;-hairpin forming PGQ<sub>9</sub> peptide. We studied the conformational dynamics of the PGQ<sub>9</sub>-mutant peptide and found that, in agreement with Thakur and Wetzel's prediction, this peptide forms a four-stranded antiparallel &#x003b2;-sheet. The antiparallel structures are formed at low temperatures in our simulation (<xref ref-type="fig" rid="pcbi-0010030-g003">Figure 3</xref>A and <xref ref-type="fig" rid="pcbi-0010030-g003">3</xref>B). Do these mutants aggregate through antiparallel &#x003b2;-hairpin structures or by wild-type-like &#x003b2;-helix formation? Thakur and Wetzel's data [<xref rid="pcbi-0010030-b05" ref-type="bibr">5</xref>] is compatible with either scenario. If &#x003b2;-hairpin formation is rate-limiting (i.e., nucleates aggregation), since &#x003b2;-hairpin formation by mutants is more thermodynamically favorable than wild type, the aggregation rates of mutants should be higher than wild type. In contrast, if wild type-like &#x003b2;-helix formation in the mutants nucleates aggregation, their aggregation rate compared to the wild type is expected to be determined by the relative stabilities of the metastable mutant and wild-type &#x003b2;-helices. To understand the nucleating conformational transition in these mutant peptides, we performed all-atom MD simulations of a PGQ<sub>9</sub> sequence in a &#x003b2;-helix conformation (<xref ref-type="fig" rid="pcbi-0010030-g003">Figure 3</xref>C). We found that, similar to the wild type &#x003b2;-helix, the &#x003b2;-helix formed by PGQ<sub>9</sub> remained stable on the nanosecond time scale, but showed a greater root mean-square distance (RMSD) compared to a wild type &#x003b2;-helix of identical length (see <xref ref-type="fig" rid="pcbi-0010030-g002">Figure 2</xref>A). We compared the RMSD per residue of the wild-type and mutant structures (unpublished data) during MD simulations and found that the destabilization induced by the proline-glycine is not limited to the proline-glycine residues&#x02014;it is transduced across the whole peptide, leading to an overall higher RMSD. Thus, we propose that the differential stability of the transiently formed &#x003b2;-helix by the mutant peptide compared to wild-type polyQ may underlie the experimentally observed slower rate of aggregation of the mutant.</p><fig id="pcbi-0010030-g003" position="float"><label>Figure 3</label><caption><title>Characterization of PolyQ Mutants</title><p>(A) Secondary structure formed by the PG-Q<sub>9</sub> mutant at <italic>T</italic> = 0.74. The glutamines formed &#x003b2;-sheets (solid line) with high frequency, whereas the proline-glycine sequence formed turns (dashed line).</p><p>(B) The &#x003b2;-hairpin formed by the PG-Q<sub>9</sub> peptide in its ground state are shown; the proline and glycine residues are highlighted in green.</p><p>(C) The &#x003b2;-helix conformation of PG-Q<sub>9</sub> after 3 ns in MD simulations is shown; the turns in the &#x003b2;-helix (green) are formed at the proline-glycine insertion.</p></caption><graphic xlink:href="pcbi.0010030.g003"/></fig><p>Mechanisms of protein aggregation [<xref rid="pcbi-0010030-b23" ref-type="bibr">23</xref>] are increasingly being sought as a framework for understanding and, importantly, therapeutically interfering with, the fundamental events that underlie misfolding diseases [<xref rid="pcbi-0010030-b24" ref-type="bibr">24</xref>]. The common underlying basis of protein aggregation has been demonstrated by the discovery of antibodies can cross-react with early aggregates of different peptides and proteins [<xref rid="pcbi-0010030-b25" ref-type="bibr">25</xref>]. Further, the early oligomers themselves, rather than the final fibrils, have been shown to be toxic [<xref rid="pcbi-0010030-b26" ref-type="bibr">26</xref>]. Thus, the conversion to specific &#x003b2;-strand topologies is a common central feature associated with cytotoxicity in all aggregation-linked diseases. The structural basis of the mechanism of polyQ peptide aggregation that we present here may thus aid the understanding and development of rational therapies to modulate protein aggregation in these debilitating neurodegenerative diseases.</p></sec><sec id="s3"><title>Materials and Methods</title><p>We modeled the polyQ chain as &#x0201c;beads on a string,&#x0201d; where each glutamine is represented by six pseudo-atoms&#x02014;four corresponding to the backbone NH, C&#x02032;, C<sub>&#x003b1;</sub>, and O atoms, and two side chain atoms, one for the methylene (-CH<sub>2</sub>-CH<sub>2</sub>-) groups and another for the carboxylamine (-CONH<sub>2</sub>) group. Neighboring residues in this peptide representation are covalently constrained to mimic the peptide flexibility in real proteins.</p><p>To study the conformational dynamics of polyQ, we introduce simplified amino acid interactions: hydrophobic interactions between the methylene groups, polar interactions between sidechains and backbone NH or O beads, and nonspecific backbone hydrogen bonds as described in [<xref rid="pcbi-0010030-b16" ref-type="bibr">16</xref>]. The interaction strengths of the hydrophobic interactions, sidechain-backbone polar interactions and nonspecific backbone hydrogen bonds are assigned as 0.7&#x0025b;, 5&#x0025b;, and 5&#x0025b;, respectively. These interaction strengths were used to successfully fold a miniprotein, the Trp-cage, to within 1 &#x000c5; of its native structure [<xref rid="pcbi-0010030-b16" ref-type="bibr">16</xref>]. Interactions in proline and glycine were also modeled as in [<xref rid="pcbi-0010030-b16" ref-type="bibr">16</xref>]. We used the rapid DMD algorithm to perform simulations on our model proteins [<xref rid="pcbi-0010030-b17" ref-type="bibr">17</xref>,<xref rid="pcbi-0010030-b27" ref-type="bibr">27</xref>,<xref rid="pcbi-0010030-b28" ref-type="bibr">28</xref>].</p><p>We used the snapshots collected from DMD simulations to perform all-atom MD simulations using standard MD protocols. Using a three-step algorithm [<xref rid="pcbi-0010030-b29" ref-type="bibr">29</xref>], we reconstructed all atoms of the polyQ chain from the snapshots taken from simulations of coarse-grained protein models. All-atom MD simulations were performed using the package AMBER 7, with the AMBER force-field of parm99 [<xref rid="pcbi-0010030-b30" ref-type="bibr">30</xref>,<xref rid="pcbi-0010030-b31" ref-type="bibr">31</xref>] at a temperature of 300 Kelvin and pressure of one atmosphere, in a octahedral periodic box of water. The protocol for MD simulations involved equilibration of the solvent and the peptide, and production as described by Urbanc et al. [<xref rid="pcbi-0010030-b29" ref-type="bibr">29</xref>]. The trajectory was recorded for 3 ns after equilibration.</p><p>Sidechain-backbone interactions have been identified as playing important roles in the formation of protein structures. It has been pointed out that the hydrogen bonds between the polar side chain and backbones are important for the starting and ending of &#x003b1;-helices [<xref rid="pcbi-0010030-b32" ref-type="bibr">32</xref>,<xref rid="pcbi-0010030-b33" ref-type="bibr">33</xref>] and for the formation of turns in proteins [<xref rid="pcbi-0010030-b34" ref-type="bibr">34</xref>]. To evaluate how sensitive our results were to the relative strengths of sidechain and backbone hydrogen bonds, we performed DMD simulations with varying relative strengths of sidechain and backbone hydrogen bonds (&#x0025b;<sub>sidechain</sub>/&#x0025b;<sub>backbone</sub>). We found that for weaker sidechain hydrogen bonds compared to backbone hydrogen bonds, i.e., &#x0025b;<sub>sidechain</sub>/&#x0025b;<sub>backbone</sub> &#x0003c; 1, polyglutamine (polyQ) formed &#x003b1;-helices at low temperatures as opposed to random coil structures observed at &#x0025b;<sub>sidechain</sub>/&#x0025b;<sub>backbone</sub> = 1. The observation of random coils at low temperatures is in agreement with experiments in [<xref rid="pcbi-0010030-b35" ref-type="bibr">35</xref>], and therefore we chose &#x0025b;<sub>sidechain</sub>/&#x0025b;<sub>backbone</sub> = 1.</p></sec></body><back><ack><p>We thank R. Wetzel, F. U. Hartl, and B. Kuhlman for helpful discussions. This work was supported in part by Muscular Dystrophy Association grant MDA3720, Research Grant 5-FY03&#x02013;155 from the March of Dimes Birth Defect Foundation, and the UNC/IBM Junior Investigator Award.</p></ack><fn-group><fn id="ack1" fn-type="COI-statement"><p>
+<bold>Competing interests.</bold> The authors have declared that no competing interests exist.</p></fn><fn id="ack2" fn-type="con"><p>
+<bold>Author contributions.</bold> SDK, FD, and NVD conceived and designed the experiments. SDK, FD, and KNG performed the experiments. SDK, FD, and NVD analyzed the data. SDK and NVD wrote the paper.</p></fn><fn id="n1" fn-type="other"><p>A previous version of this article appeared as an Early Online Release on July 14, 2005 (DOI: 10.1371/journal.pcbi.0010030.eor).</p></fn></fn-group><glossary><title>Abbreviations</title><def-list><def-item><term>DMD</term><def><p>discrete molecular dynamics</p></def></def-item><def-item><term>MD</term><def><p>molecular dynamics</p></def></def-item><def-item><term>RMSD</term><def><p>root mean-square distance</p></def></def-item></def-list></glossary><ref-list><title>References</title><ref id="pcbi-0010030-b01"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ross</surname><given-names>CA</given-names></name><name><surname>Wood</surname><given-names>JD</given-names></name><name><surname>Schilling</surname><given-names>G</given-names></name><name><surname>Peters</surname><given-names>MF</given-names></name><name><surname>Nucifora</surname><given-names>FC</given-names></name><etal/></person-group>
+<year>1999</year>
+<article-title>Polyglutamine pathogenesis</article-title>
+<source>Philos Trans R Soc Lond B Biol Sci</source>
+<volume>354</volume>
+<fpage>1005</fpage>
+<lpage>1011</lpage>
+<pub-id pub-id-type="pmid">10434299</pub-id></element-citation></ref><ref id="pcbi-0010030-b02"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ross</surname><given-names>CA</given-names></name><name><surname>Poirier</surname><given-names>MA</given-names></name></person-group>
+<year>2004</year>
+<article-title>Protein aggregation and neurodegenerative disease</article-title>
+<source>Nat Rev Neurosci</source>
+<volume>10</volume>
+<fpage>S10</fpage>
+<lpage>17</lpage>
+</element-citation></ref><ref id="pcbi-0010030-b03"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ross</surname><given-names>CA</given-names></name></person-group>
+<year>2002</year>
+<article-title>Polyglutamine pathogenesis: Emergence of unifying mechanisms for Huntington's disease and related disorders</article-title>
+<source>Neuron</source>
+<volume>35</volume>
+<fpage>819</fpage>
+<lpage>822</lpage>
+<pub-id pub-id-type="pmid">12372277</pub-id></element-citation></ref><ref id="pcbi-0010030-b04"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chen</surname><given-names>S</given-names></name><name><surname>Berthelier</surname><given-names>V</given-names></name><name><surname>Yang</surname><given-names>W</given-names></name><name><surname>Wetzel</surname><given-names>R</given-names></name></person-group>
+<year>2001</year>
+<article-title>Polyglutamine aggregation behavior in vitro supports a recruitment mechanism of cytotoxicity</article-title>
+<source>J Mol Bol</source>
+<volume>311</volume>
+<fpage>173</fpage>
+<lpage>182</lpage>
+</element-citation></ref><ref id="pcbi-0010030-b05"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Thakur</surname><given-names>AK</given-names></name><name><surname>Wetzel</surname><given-names>R</given-names></name></person-group>
+<year>2002</year>
+<article-title>Mutational analysis of the structural organization of polyglutamine aggregates</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>99</volume>
+<fpage>17014</fpage>
+<lpage>17019</lpage>
+<pub-id pub-id-type="pmid">12444250</pub-id></element-citation></ref><ref id="pcbi-0010030-b06"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Masino</surname><given-names>L</given-names></name><name><surname>Pastore</surname><given-names>A</given-names></name></person-group>
+<year>2002</year>
+<article-title>Glutarnine repeats: Structural hypotheses and neurodegeneration</article-title>
+<source>Biochem Soc Trans</source>
+<volume>30</volume>
+<fpage>548</fpage>
+<lpage>551</lpage>
+<pub-id pub-id-type="pmid">12196134</pub-id></element-citation></ref><ref id="pcbi-0010030-b07"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Temussi</surname><given-names>PA</given-names></name><name><surname>Masino</surname><given-names>L</given-names></name><name><surname>Pastore</surname><given-names>A</given-names></name></person-group>
+<year>2003</year>
+<article-title>From Alzheimer to Huntington: Why is a structural understanding so difficult?</article-title>
+<source>EMBO J</source>
+<volume>22</volume>
+<fpage>355</fpage>
+<lpage>361</lpage>
+<pub-id pub-id-type="pmid">12554637</pub-id></element-citation></ref><ref id="pcbi-0010030-b08"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Perutz</surname><given-names>MF</given-names></name><name><surname>Finch</surname><given-names>JT</given-names></name><name><surname>Berriman</surname><given-names>J</given-names></name><name><surname>Lesk</surname><given-names>A</given-names></name></person-group>
+<year>2002</year>
+<article-title>Amyloid fibers are water-filled nanotubes</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>99</volume>
+<fpage>5591</fpage>
+<lpage>5595</lpage>
+<pub-id pub-id-type="pmid">11960014</pub-id></element-citation></ref><ref id="pcbi-0010030-b09"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sanchez</surname><given-names>I</given-names></name><name><surname>Mahlke</surname><given-names>C</given-names></name><name><surname>Yuan</surname><given-names>JY</given-names></name></person-group>
+<year>2003</year>
+<article-title>Pivotal role of oligomerization in expanded polyglutamine neurodegenerative disorders</article-title>
+<source>Nature</source>
+<volume>421</volume>
+<fpage>373</fpage>
+<lpage>379</lpage>
+<pub-id pub-id-type="pmid">12540902</pub-id></element-citation></ref><ref id="pcbi-0010030-b10"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Muchowski</surname><given-names>PJ</given-names></name><name><surname>Schaffar</surname><given-names>G</given-names></name><name><surname>Sittler</surname><given-names>A</given-names></name><name><surname>Wanker</surname><given-names>EE</given-names></name><name><surname>Hayer-Hartl</surname><given-names>MK</given-names></name><etal/></person-group>
+<year>2000</year>
+<article-title>Hsp70 and Hsp40 chaperones can inhibit self-assembly of polyglutamine proteins into amyloid-like fibrils</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>97</volume>
+<fpage>7841</fpage>
+<lpage>7846</lpage>
+<pub-id pub-id-type="pmid">10859365</pub-id></element-citation></ref><ref id="pcbi-0010030-b11"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chen</surname><given-names>SM</given-names></name><name><surname>Ferrone</surname><given-names>FA</given-names></name><name><surname>Wetzel</surname><given-names>R</given-names></name></person-group>
+<year>2002</year>
+<article-title>Huntington's disease age-of-onset linked to polyglutamine aggregation nucleation</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>99</volume>
+<fpage>11884</fpage>
+<lpage>11889</lpage>
+<pub-id pub-id-type="pmid">12186976</pub-id></element-citation></ref><ref id="pcbi-0010030-b12"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chen</surname><given-names>SM</given-names></name><name><surname>Berthelier</surname><given-names>V</given-names></name><name><surname>Hamilton</surname><given-names>JB</given-names></name><name><surname>O'Nuallain</surname><given-names>B</given-names></name><name><surname>Wetzel</surname><given-names>R</given-names></name></person-group>
+<year>2002</year>
+<article-title>Amyloid-like features of polyglutamine aggregates and their assembly kinetics</article-title>
+<source>Biochemistry</source>
+<volume>41</volume>
+<fpage>7391</fpage>
+<lpage>7399</lpage>
+<pub-id pub-id-type="pmid">12044172</pub-id></element-citation></ref><ref id="pcbi-0010030-b13"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yang</surname><given-names>W</given-names></name><name><surname>Dunlap</surname><given-names>JR</given-names></name><name><surname>Andrews</surname><given-names>RB</given-names></name><name><surname>Wetzel</surname><given-names>R</given-names></name></person-group>
+<year>2002</year>
+<article-title>Aggregated polyglutamine peptides delivered to nuclei are toxic to mammalian cells</article-title>
+<source>Hum Mole Genet</source>
+<volume>11</volume>
+<fpage>2905</fpage>
+<lpage>2917</lpage>
+</element-citation></ref><ref id="pcbi-0010030-b14"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Scherzinger</surname><given-names>E</given-names></name><name><surname>Sittler</surname><given-names>A</given-names></name><name><surname>Schweiger</surname><given-names>K</given-names></name><name><surname>Heiser</surname><given-names>V</given-names></name><name><surname>Lurz</surname><given-names>R</given-names></name><etal/></person-group>
+<year>1999</year>
+<article-title>Self-assembly of polyglutamine-containing huntingtin fragments into amyloid-like fibrils: Implications for Huntington's disease pathology</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>96</volume>
+<fpage>4604</fpage>
+<lpage>4609</lpage>
+<pub-id pub-id-type="pmid">10200309</pub-id></element-citation></ref><ref id="pcbi-0010030-b15"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Altschuler</surname><given-names>EL</given-names></name><name><surname>Hud</surname><given-names>NV</given-names></name><name><surname>Mazrimas</surname><given-names>JA</given-names></name><name><surname>Rupp</surname><given-names>B</given-names></name></person-group>
+<year>2000</year>
+<article-title>Structure of polyglutamine</article-title>
+<source>FEBS Lett</source>
+<volume>472</volume>
+<fpage>166</fpage>
+<lpage>167</lpage>
+<pub-id pub-id-type="pmid">10781826</pub-id></element-citation></ref><ref id="pcbi-0010030-b16"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ding</surname><given-names>F</given-names></name><name><surname>Buldyrev</surname><given-names>SV</given-names></name><name><surname>Dokholyan</surname><given-names>NV</given-names></name></person-group>
+<year>2005</year>
+<article-title>Folding Trp-cage to NMR resolution native structure using a coarse-grained protein model</article-title>
+<source>Biophys J</source>
+<volume>88</volume>
+<fpage>147</fpage>
+<lpage>155</lpage>
+<pub-id pub-id-type="pmid">15533926</pub-id></element-citation></ref><ref id="pcbi-0010030-b17"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dokholyan</surname><given-names>NV</given-names></name><name><surname>Buldyrev</surname><given-names>SV</given-names></name><name><surname>Stanley</surname><given-names>HE</given-names></name><name><surname>Shakhnovich</surname><given-names>EI</given-names></name></person-group>
+<year>1998</year>
+<article-title>Discrete molecular dynamics studies of the folding of a protein-like model</article-title>
+<source>Fold Des</source>
+<volume>3</volume>
+<fpage>577</fpage>
+<lpage>587</lpage>
+<pub-id pub-id-type="pmid">9889167</pub-id></element-citation></ref><ref id="pcbi-0010030-b18"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Marqusee</surname><given-names>S</given-names></name><name><surname>Robbins</surname><given-names>VH</given-names></name><name><surname>Baldwin</surname><given-names>RL</given-names></name></person-group>
+<year>1989</year>
+<article-title>Unusually stable helix formation in short alanine-based peptides</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>86</volume>
+<fpage>5286</fpage>
+<lpage>5290</lpage>
+<pub-id pub-id-type="pmid">2748584</pub-id></element-citation></ref><ref id="pcbi-0010030-b19"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chakrabartty</surname><given-names>A</given-names></name><name><surname>Kortemme</surname><given-names>T</given-names></name><name><surname>Baldwin</surname><given-names>RL</given-names></name></person-group>
+<year>1994</year>
+<article-title>Helix propensities of the amino-acids measured in alanine-based peptides without helix-stabilizing side-chain interactions</article-title>
+<source>Protein Sci</source>
+<volume>3</volume>
+<fpage>843</fpage>
+<lpage>852</lpage>
+<pub-id pub-id-type="pmid">8061613</pub-id></element-citation></ref><ref id="pcbi-0010030-b20"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Blondelle</surname><given-names>SE</given-names></name><name><surname>Forood</surname><given-names>B</given-names></name><name><surname>Houghten</surname><given-names>RA</given-names></name><name><surname>PerezPaya</surname><given-names>E</given-names></name></person-group>
+<year>1997</year>
+<article-title>Polyalanine-based peptides as models for self-associated beta-pleated-sheet complexes</article-title>
+<source>Biochemistry</source>
+<volume>36</volume>
+<fpage>8393</fpage>
+<lpage>8400</lpage>
+<pub-id pub-id-type="pmid">9204887</pub-id></element-citation></ref><ref id="pcbi-0010030-b21"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wetzel</surname><given-names>R</given-names></name></person-group>
+<year>2002</year>
+<article-title>Ideas of order for amyloid fibril structure</article-title>
+<source>Structure</source>
+<volume>10</volume>
+<fpage>1031</fpage>
+<lpage>1036</lpage>
+<pub-id pub-id-type="pmid">12176381</pub-id></element-citation></ref><ref id="pcbi-0010030-b22"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Stork</surname><given-names>M</given-names></name><name><surname>Giese</surname><given-names>A</given-names></name><name><surname>Kretzschmar</surname><given-names>HA</given-names></name><name><surname>Tavan</surname><given-names>P</given-names></name></person-group>
+<year>2005</year>
+<article-title>Molecular dynamics simulations indicate a possible role of parallel beta- helices in seeded aggregation of poly-Gln</article-title>
+<source>Biophys J</source>
+<volume>88</volume>
+<fpage>2442</fpage>
+<lpage>2451</lpage>
+<pub-id pub-id-type="pmid">15665127</pub-id></element-citation></ref><ref id="pcbi-0010030-b23"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dobson</surname><given-names>CM</given-names></name></person-group>
+<year>2003</year>
+<article-title>Protein folding and misfolding</article-title>
+<source>Nature</source>
+<volume>426</volume>
+<fpage>884</fpage>
+<lpage>890</lpage>
+<pub-id pub-id-type="pmid">14685248</pub-id></element-citation></ref><ref id="pcbi-0010030-b24"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hammarstrom</surname><given-names>P</given-names></name><name><surname>Wiseman</surname><given-names>RL</given-names></name><name><surname>Powers</surname><given-names>ET</given-names></name><name><surname>Kelly</surname><given-names>JW</given-names></name></person-group>
+<year>2003</year>
+<article-title>Prevention of transthyretin amyloid disease by changing protein misfolding energetics</article-title>
+<source>Science</source>
+<volume>299</volume>
+<fpage>713</fpage>
+<lpage>716</lpage>
+<pub-id pub-id-type="pmid">12560553</pub-id></element-citation></ref><ref id="pcbi-0010030-b25"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kayed</surname><given-names>R</given-names></name><name><surname>Head</surname><given-names>E</given-names></name><name><surname>Thompson</surname><given-names>JL</given-names></name><name><surname>McIntire</surname><given-names>TM</given-names></name><name><surname>Milton</surname><given-names>SC</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>Common structure of soluble amyloid oligomers implies common mechanism of pathogenesis</article-title>
+<source>Science</source>
+<volume>300</volume>
+<fpage>486</fpage>
+<lpage>489</lpage>
+<pub-id pub-id-type="pmid">12702875</pub-id></element-citation></ref><ref id="pcbi-0010030-b26"><element-citation publication-type="journal">
+<collab>Kayed R, Sokolov Y, Edmonds B, McIntire TM, Milton SC, at al.</collab>
+<year>2004</year>
+<article-title>Permeabilization of lipid bilayers is a common conformation-dependent activity of soluble amyloid oligomers in protein misfolding diseases</article-title>
+<source>J Biol Chem</source>
+<volume>279</volume>
+<fpage>46363</fpage>
+<lpage>46366</lpage>
+<pub-id pub-id-type="pmid">15385542</pub-id></element-citation></ref><ref id="pcbi-0010030-b27"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Alder</surname><given-names>BJ</given-names></name><name><surname>Wainwright</surname><given-names>TE</given-names></name></person-group>
+<year>1959</year>
+<article-title>Studies in molecular dynamics. I. General method</article-title>
+<source>Journal of Chemical Physics</source>
+<volume>31</volume>
+<fpage>459</fpage>
+<lpage>466</lpage>
+</element-citation></ref><ref id="pcbi-0010030-b28"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zhou</surname><given-names>YQ</given-names></name><name><surname>Hall</surname><given-names>CK</given-names></name><name><surname>Karplus</surname><given-names>M</given-names></name></person-group>
+<year>1996</year>
+<article-title>First-order disorder-to-order transition in an isolated homopolymer model</article-title>
+<source>Physical Review Letters</source>
+<volume>77</volume>
+<fpage>2822</fpage>
+<lpage>2825</lpage>
+<pub-id pub-id-type="pmid">10062054</pub-id></element-citation></ref><ref id="pcbi-0010030-b29"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Urbanc</surname><given-names>B</given-names></name><name><surname>Cruz</surname><given-names>L</given-names></name><name><surname>Ding</surname><given-names>F</given-names></name><name><surname>Sammond</surname><given-names>D</given-names></name><name><surname>Khare</surname><given-names>S</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Molecular dynamics simulation of amyloid beta dimer formation</article-title>
+<source>Biophys J</source>
+<volume>87</volume>
+<fpage>2310</fpage>
+<lpage>2321</lpage>
+<pub-id pub-id-type="pmid">15454432</pub-id></element-citation></ref><ref id="pcbi-0010030-b30"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cornell</surname><given-names>WD</given-names></name><name><surname>Cieplak</surname><given-names>P</given-names></name><name><surname>Bayly</surname><given-names>CI</given-names></name><name><surname>Gould</surname><given-names>IR</given-names></name><name><surname>Merz</surname><given-names>KM</given-names></name><etal/></person-group>
+<year>1995</year>
+<article-title>A 2nd generation force-field for the simulation of proteins, nucleic-acids, and organic-molecules</article-title>
+<source>J Am Chem Soc</source>
+<volume>117</volume>
+<fpage>5179</fpage>
+<lpage>5197</lpage>
+</element-citation></ref><ref id="pcbi-0010030-b31"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wang</surname><given-names>JM</given-names></name><name><surname>Cieplak</surname><given-names>P</given-names></name><name><surname>Kollman</surname><given-names>PA</given-names></name></person-group>
+<year>2000</year>
+<article-title>How well does a restrained electrostatic potential (RESP) model perform in calculating conformational energies of organic and biological molecules?</article-title>
+<source>J Comput Chem</source>
+<volume>21</volume>
+<fpage>1049</fpage>
+<lpage>1074</lpage>
+</element-citation></ref><ref id="pcbi-0010030-b32"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Aurora</surname><given-names>R</given-names></name><name><surname>Rose</surname><given-names>GD</given-names></name></person-group>
+<year>1998</year>
+<article-title>Helix capping</article-title>
+<source>Protein Sci</source>
+<volume>7</volume>
+<fpage>21</fpage>
+<lpage>38</lpage>
+<pub-id pub-id-type="pmid">9514257</pub-id></element-citation></ref><ref id="pcbi-0010030-b33"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Presta</surname><given-names>LG</given-names></name><name><surname>Rose</surname><given-names>GD</given-names></name></person-group>
+<year>1988</year>
+<article-title>Helix signals in proteins</article-title>
+<source>Sci</source>
+<volume>240</volume>
+<fpage>1632</fpage>
+<lpage>1641</lpage>
+</element-citation></ref><ref id="pcbi-0010030-b34"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Stickle</surname><given-names>DF</given-names></name><name><surname>Presta</surname><given-names>LG</given-names></name><name><surname>Dill</surname><given-names>KA</given-names></name><name><surname>Rose</surname><given-names>GD</given-names></name></person-group>
+<year>1992</year>
+<article-title>Hydrogen-bonding in globular-proteins</article-title>
+<source>J Mol Biol</source>
+<volume>226</volume>
+<fpage>1143</fpage>
+<lpage>1159</lpage>
+<pub-id pub-id-type="pmid">1518048</pub-id></element-citation></ref><ref id="pcbi-0010030-b35"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Altschuler</surname><given-names>EL</given-names></name><name><surname>Hud</surname><given-names>NV</given-names></name><name><surname>Mazrimas</surname><given-names>JA</given-names></name><name><surname>Rupp</surname><given-names>B</given-names></name></person-group>
+<year>1997</year>
+<article-title>Random coil conformation for extended polyglutamine stretches in aqueous soluble monomeric peptides</article-title>
+<source>J Pept Res</source>
+<volume>50</volume>
+<fpage>73</fpage>
+<lpage>75</lpage>
+<pub-id pub-id-type="pmid">9273890</pub-id></element-citation></ref></ref-list></back></article>

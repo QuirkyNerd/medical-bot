@@ -1,0 +1,985 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS Genet</journal-id><journal-id journal-id-type="iso-abbrev">PLoS Genet</journal-id><journal-id journal-id-type="publisher-id">pgen</journal-id><journal-id journal-id-type="publisher-id">plge</journal-id><journal-id journal-id-type="pmc">plosgen</journal-id><journal-title-group><journal-title>PLoS Genetics</journal-title></journal-title-group><issn pub-type="ppub">1553-7390</issn><issn pub-type="epub">1553-7404</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">16132082</article-id><article-id pub-id-type="pmc">PMC1193534</article-id><article-id pub-id-type="doi">10.1371/journal.pgen.0010027</article-id><article-id pub-id-type="publisher-id">05-PLGE-RV-0074R2</article-id><article-id pub-id-type="sici">plge-01-02-13</article-id><article-categories><subj-group subj-group-type="heading"><subject>Review</subject></subj-group><subj-group subj-group-type="Discipline"><subject>Evolution</subject><subject>Immunology</subject><subject>Genetics/Comparative Genomics</subject></subj-group><subj-group subj-group-type="System Taxonomy"><subject>Homo (Human)</subject><subject>Mus (Mouse)</subject><subject>Primates</subject><subject>Rattus (Rat)</subject><subject>Vertebrates</subject></subj-group></article-categories><title-group><article-title>Comparative Genomics of Natural Killer Cell Receptor Gene Clusters</article-title><alt-title alt-title-type="running-head">Review</alt-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Kelley</surname><given-names>James</given-names></name></contrib><contrib contrib-type="author"><name><surname>Walter</surname><given-names>Lutz</given-names></name></contrib><contrib contrib-type="author"><name><surname>Trowsdale</surname><given-names>John</given-names></name><xref ref-type="corresp" rid="cor1">*</xref></contrib></contrib-group><author-notes><fn fn-type="current-aff"><p>James Kelley and John Trowsdale are in the Department of Pathology, University of Cambridge, Cambridge, United Kingdom. Lutz Walter is in the Department of Primate Genetics, German Primate Center, G&#x000f6;ttingen, Germany.</p></fn><corresp id="cor1">*To whom correspondence should be addressed. E-mail: <email>jt233@cam.ac.uk</email></corresp></author-notes><pub-date pub-type="ppub"><month>8</month><year>2005</year></pub-date><pub-date pub-type="epub"><day>26</day><month>8</month><year>2005</year></pub-date><volume>1</volume><issue>2</issue><elocation-id>e27</elocation-id><permissions><copyright-statement>Copyright: &#x000a9; 2005 Kelley et al.</copyright-statement><copyright-year>2005</copyright-year><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p></license></permissions><abstract><p>Many receptors on natural killer (NK) cells recognize major histocompatibility complex class I molecules in order to monitor unhealthy tissues, such as cells infected with viruses, and some tumors. Genes encoding families of NK receptors and related sequences are organized into two main clusters in humans: the natural killer complex on Chromosome 12p13.1, which encodes C-type lectin molecules, and the leukocyte receptor complex on Chromosome 19q13.4, which encodes immunoglobulin superfamily molecules. The composition of these gene clusters differs markedly between closely related species, providing evidence for rapid, lineage-specific expansions or contractions of sets of loci. The choice of NK receptor genes is polarized in the two species most studied, mouse and human. In mouse, the C-type lectin-related Ly49 gene family predominates. Conversely, the single Ly49 sequence is a pseudogene in humans, and the immunoglobulin superfamily KIR gene family is extensive. These different gene sets encode proteins that are comparable in function and genetic diversity, even though they have undergone species-specific expansions. Understanding the biological significance of this curious situation may be aided by studying which NK receptor genes are used in other vertebrates, especially in relation to species-specific differences in genes for major histocompatibility complex class I molecules.</p></abstract><custom-meta-group><custom-meta><meta-name>Citation:</meta-name><meta-value>Kelley J, Walter L, Trowsdale J (2005) Comparative genomics of natural killer cell receptor gene clusters. PLoS Genet 1(2): e27.</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec id="s1"><title>Introduction</title><p>Natural killer (NK) cells destroy cells infected with certain viruses and other intracellular pathogens. They also influence immune responses through the release of cytokines. A key aspect of recognition of appropriate target cells is the ubiquitously expressed major histocompatibility complex (MHC) class I molecule, a ligand for which NK cells generally have multiple receptors [<xref rid="pgen-0010027-b01" ref-type="bibr">1</xref>]. All living jawed vertebrates studied to date have an adaptive immune system, which, among other features, rearranges T and B cell receptor gene segments and exploits antigen presentation provided by MHC molecules [<xref rid="pgen-0010027-b02" ref-type="bibr">2</xref>,<xref rid="pgen-0010027-b03" ref-type="bibr">3</xref>]. Evolutionarily intermediate species, which lacked these features, presumably became extinct through competition with other species possessing a viable adaptive immune system [<xref rid="pgen-0010027-b04" ref-type="bibr">4</xref>]. A recognition-based MHC system may have been pivotal to survival of gnathostome species [<xref rid="pgen-0010027-b03" ref-type="bibr">3</xref>]. NK receptor gene complexes are intimately associated, both genetically and functionally, with MHC recognition, and interactions of different combinations of NK receptors and MHC class I molecules may contribute significantly to selection and disease resistance [<xref rid="pgen-0010027-b04" ref-type="bibr">4</xref>,<xref rid="pgen-0010027-b05" ref-type="bibr">5</xref>].</p><p>NK cell receptors come in two forms: inhibitory and activating. Inhibitory receptors regulate NK actions by interrupting intracellular activation signals when MHC class I molecules are correctly expressed [<xref rid="pgen-0010027-b06" ref-type="bibr">6</xref>]. Activating receptors, some of which bind ligands other than MHC class I molecules, trigger NK responses to cells with viral, bacterial, or parasitic infections or to some tumor cells with downregulated MHC class I molecules [<xref rid="pgen-0010027-b07" ref-type="bibr">7</xref>]. The effector function of each receptor molecule is determined by the sequence of its transmembrane region and cytoplasmic tail [<xref rid="pgen-0010027-b08" ref-type="bibr">8</xref>]. Generally, inhibitory receptors possess an immunoreceptor tyrosine-based inhibitory motif (ITIM) in their cytoplasmic tails [<xref rid="pgen-0010027-b06" ref-type="bibr">6</xref>], which decreases activation [<xref rid="pgen-0010027-b09" ref-type="bibr">9</xref>]. Upon stimulation, the ITIM becomes tyrosine phosphorylated and associates with intracellular phosphatases such as Src homology 2 (SH2) domain&#x02013;containing protein tyrosine phosphatase 1 (SHP1) or SHP2. SHP1 then dephosphorylates the actin cytoskeleton regulator, Vav, which blocks actin-dependent activation signals [<xref rid="pgen-0010027-b09" ref-type="bibr">9</xref>]. In contrast, activating receptors lack ITIMs in their cytoplasmic tails and often contain charged residues that facilitate association with adaptor molecules containing immunoreceptor tyrosine-based activation motifs (ITAMs) such as DAP12 [<xref rid="pgen-0010027-b10" ref-type="bibr">10</xref>,<xref rid="pgen-0010027-b11" ref-type="bibr">11</xref>]. When activating receptors are associated with ITAM-containing adaptor molecules, the adaptor molecules become tyrosine phosphorylated and bind to kinases, which then interact with Vav and Rac1. The subsequent molecular cascade leads to actin polymerization and, consequently, cytotoxicity and/or cytokine release [<xref rid="pgen-0010027-b11" ref-type="bibr">11</xref>]. The ITIM/ITAM paradigm of inhibition/activation is a feature shared by NK receptors in all species, but it does not apply to all receptors. The human KIR2DL4 and KIR3DL3 molecules, for example, have unconventional cytoplasmic tails, and their mode of action, inhibition or activation, has not been clearly established [<xref rid="pgen-0010027-b12" ref-type="bibr">12</xref>]. Examples of inhibitory, activating, and co-stimulatory NK receptors, as well as the proposed pathways they initiate after ligand binding, are illustrated in <xref ref-type="fig" rid="pgen-0010027-g001">Figure 1</xref>.</p><fig id="pgen-0010027-g001" position="float"><label>Figure 1</label><caption><title>Examples of Inhibitory and Activating NK Cell Receptors and the Consequences of Their Binding</title><p>This figure shows the association of NK receptors with MHC class I molecules and portions of the resulting signaling pathway, as described in the text. &#x0201c;Src Kinase&#x0201d; represents various kinases capable of participating in this interaction, such as Syk and ZAP70. SHP2 (PTPN11) is used in place of SHP1 (PTPN6) in some circumstances, such as associating with KIR2DL4. Symbols show the continuation of the pathway where arrows are not drawn. &#x02212;, negatively charged residue; +, positively charged residue; AKT1, v-akt murine thymoma viral oncogene homolog 1 (also called RAC); DAG1, dystroglycan 1; Fc&#x0025b;RI-&#x003b3;, receptor for Fc fragment of IgE, high affinity I, gamma polypeptide; GRB2, growth factor receptor-bound protein 2; INPP5D, inositol polyphosphate-5-phosphatase, 145kDa (also called SHIP); ITPKB, inositol 1,4,5-trisphosphate 3-kinase B (also called IP3KB); LAT, linker for activation of T cells; LCP2, lymphocyte cytosolic protein 2 (also called SLP76); P, phosphate group; PAK1, p21/Cdc42/Rac1-activated kinase 1 (STE20 homolog, yeast); PIK3CG, phosphoinositide-3-kinase, catalytic, gamma polypeptide (also called phosphatidylinositol 3-kinase); PLCG1, phospholipase C, gamma 1; PTEN, phosphatase and tensin homolog; PTPN6, protein tyrosine phosphatase, nonreceptor type 6 (also called SHP1); RAF, raf protein; RAS, rat sarcoma viral oncogene homolog; SH3BP2, SH3 domain&#x02013;binding protein 2; SHC1, SHC (SH2 domain&#x02013;containing) transforming protein 1; SOS1, son of sevenless homolog 1; VAV1, vav 1 oncogene; YINM, tyrosine-containing motif (YINM).</p></caption><graphic xlink:href="pgen.0010027.g001"/></fig><p>Genes that encode NK receptors are arranged in two main clusters: the leukocyte receptor complex (LRC) and the natural killer complex (NKC). The LRC encodes members of the immunoglobulin superfamily (IgSF), while the NKC encodes type II transmembrane, C-type lectin-like proteins [<xref rid="pgen-0010027-b13" ref-type="bibr">13</xref>]. The extent that receptors from each complex are expressed and utilized varies markedly among species. Comparing the genomic composition of NK receptor gene clusters in different species may provide clues to their evolution. The goal from these studies is to understand the selective forces, particularly in relation to disease, that have driven such extreme genomic differences. The diverse arrangements of genes encoding the MHC ligands of NK receptors [<xref rid="pgen-0010027-b03" ref-type="bibr">3</xref>] have to be taken into consideration, as NK receptors and their ligands coevolve.</p></sec><sec id="s2"><title>Human NK Receptor Gene Complexes</title><p>The main NK receptors for MHC class I molecules in humans belong to the IgSF and are encoded in the LRC on Chromosome 19q13.4 [<xref rid="pgen-0010027-b14" ref-type="bibr">14</xref>]. Of the 45 genes in the LRC, the 30 IgSF receptors can be grouped into several related gene families based on gene organization, phylogeny, and structure [<xref rid="pgen-0010027-b15" ref-type="bibr">15</xref>]. These families include the killer cell immunoglobulin-like receptors (KIRs), leukocyte Ig-like receptors (LILRs; also called LIRs and ILTs), and the leukocyte-associated Ig-like receptors (LAIRs). The most centromeric end of the human LRC contains genes for the platelet glycoprotein VI (GP6), the natural cytotoxicity-triggering receptor 1 (NCR1; also called NKp46), and the receptor of the IgA Fc fragment (FCAR; also called CD89). These proteins are structurally similar to KIR genes but differ from other loci in the LRC by interacting with ligands other than MHC class I molecules [<xref rid="pgen-0010027-b15" ref-type="bibr">15</xref>]. The organization of the human LRC is shown in the comparative maps of <xref ref-type="fig" rid="pgen-0010027-g002">Figure 2</xref>.</p><fig id="pgen-0010027-g002" position="float"><label>Figure 2</label><caption><title>Comparative Genomics of Natural Killer Cell Receptor Complexes</title><p>This figure, showing LRCs and NKCs in various species, is not drawn to scale; however, the linear arrangement of genes is correct and is aligned vertically by homology within each region, where possible. Colors indicate genes related by gene organization, structure, and phylogeny. Gray indicates genes that are not considered NK receptors. White boxes mark pseudogenes. Slash marks represent large distances in the genomic sequence. Some non-NK receptor genes that are located within this region may not be represented in this figure. A question mark indicates that the gene has been mapped to the corresponding chromosome, but the specific chromosomal position is not known. An &#x0201c;X&#x0201d; indicates that the gene is not homologous with genes sharing its vertical alignment. The linear organization of these genes was taken from literature sources as described in the text and from NCBI's MapViewer [<xref rid="pgen-0010027-b123" ref-type="bibr">123</xref>]. Similar to in human, only one Ly49 gene has been found in baboon, orangutan, dog, cat, cow, and pig. However, the horse has multiple Ly49 genes, as does the rodent lineage [<xref rid="pgen-0010027-b96" ref-type="bibr">96</xref>]. The chicken contains two sequences similar to NKC-encoded genes within its MHC [<xref rid="pgen-0010027-b102" ref-type="bibr">102</xref>], again suggesting an evolutionary relationship between MHC and NK receptor genes. The chicken also possesses multiple genes for Ig domain&#x02013;containing NK receptors: the CHIR genes [<xref rid="pgen-0010027-b100" ref-type="bibr">100</xref>]; however, the chicken arrangement is from data assembled from whole genome sequence and will be refined as more accurate annotation is applied. While the zebrafish contains NK receptors containing Ig or C-type lectin domains, the genomic organization does not resemble the mammalian pattern of clustering into two main regions [<xref rid="pgen-0010027-b104" ref-type="bibr">104</xref>].</p></caption><graphic xlink:href="pgen.0010027.g002"/></fig><p>The key LRC genes directing NK cell recognition of MHC class I are the KIRs. The KIR gene cluster exhibits marked differences in gene content and allelic polymorphism between individual haplotypes [<xref rid="pgen-0010027-b16" ref-type="bibr">16</xref>,<xref rid="pgen-0010027-b17" ref-type="bibr">17</xref>], with up to 17 KIR genes and pseudogenes arranged tandemly over approximately 150 kilobases [<xref rid="pgen-0010027-b04" ref-type="bibr">4</xref>]. KIR genes share high sequence similarity (most are approximately 97% identical), exhibit marked levels of polymorphism, and evolve rapidly [<xref rid="pgen-0010027-b18" ref-type="bibr">18</xref>]. This last characteristic may be facilitated by nonreciprocal crossovers in the tandemly arranged genes, occasionally generating hybrid loci or expansion/contraction of gene numbers [<xref rid="pgen-0010027-b18" ref-type="bibr">18</xref>,<xref rid="pgen-0010027-b19" ref-type="bibr">19</xref>]. The KIR gene family in the human/primate lineage appears to have expanded between 31 and 44 million years ago [<xref rid="pgen-0010027-b13" ref-type="bibr">13</xref>], as dated by the amplification of retroelements of the Alu S subfamily found in the KIR genomic sequence [<xref rid="pgen-0010027-b17" ref-type="bibr">17</xref>]. KIRs can possess either two (KIR2D) or three (KIR3D) extracellular Ig domains [<xref rid="pgen-0010027-b15" ref-type="bibr">15</xref>] and comprise long forms, which contain inhibitory ITIMs, or short forms, which lack ITIMs and are mostly activating [<xref rid="pgen-0010027-b18" ref-type="bibr">18</xref>]. KIR2DL4, however, is unique, having both putative inhibitory and activating properties [<xref rid="pgen-0010027-b12" ref-type="bibr">12</xref>]. In addition to possessing ITIMs in its cytoplasmic tail, KIR2DL4 has a charged arginine residue in the transmembrane region that allows association with the activating accessory protein Fc&#x0025b;RI-&#x003b3; (FCER1G) [<xref rid="pgen-0010027-b20" ref-type="bibr">20</xref>].</p><p>Centromeric to the KIR family is another extensive IgSF gene family, the LILRs. This family consists of two inverted, duplicated clusters of six and seven loci, respectively [<xref rid="pgen-0010027-b21" ref-type="bibr">21</xref>]. The LILR genes show greater intergenic diversity, but less allelic variation than the KIR family [<xref rid="pgen-0010027-b15" ref-type="bibr">15</xref>]. Unlike KIR genes, there is little variation in the number of LILR genes on different haplotypes. Separating the LILR clusters are two LAIR loci, which sandwich members of the LRC-encoded novel gene (LENG) family. It has been proposed that the LAIR locus was duplicated and inverted with the LILR expansion, but the LRC-encoded novel genes are structurally unrelated to other Ig-like receptors in the LRC and have a different origin [<xref rid="pgen-0010027-b15" ref-type="bibr">15</xref>].</p><p>Additional genes related to those in the LRC are dispersed further centromeric of the LILR and KIR gene families in the &#x0201c;extended LRC&#x0201d; region. This region includes the receptor and transporter of the Fc fragment of IgG (FCGRT), which interestingly may have a common origin with MHC class I molecules [<xref rid="pgen-0010027-b22" ref-type="bibr">22</xref>], the sialic-acid-binding immunoglobulin-like lectin (SIGLEC) gene family [<xref rid="pgen-0010027-b23" ref-type="bibr">23</xref>], and the CD66-related gene family [<xref rid="pgen-0010027-b24" ref-type="bibr">24</xref>]&#x02014;all of which are related to LILR and KIR sequences [<xref rid="pgen-0010027-b13" ref-type="bibr">13</xref>].</p><p>The other major cluster of NK receptor genes, the human NKC, is located on Chromosome 12p13.1 [<xref rid="pgen-0010027-b25" ref-type="bibr">25</xref>] and encodes mainly disulphide-linked dimeric, type II transmembrane molecules with homology to C-type lectins [<xref rid="pgen-0010027-b26" ref-type="bibr">26</xref>]. NKC-encoded genes have highly related genomic structures and are organized into distinct clusters of related genes [<xref rid="pgen-0010027-b26" ref-type="bibr">26</xref>]. Comparative maps of NKCs are shown in <xref ref-type="fig" rid="pgen-0010027-g002">Figure 2</xref>.</p><p>The NKC contains a variety of C-type lectin genes, some of which are expressed specifically on NK cells. There is only one member of the Ly49 gene family, <italic>KLRA1</italic> (also called <italic>Ly49L</italic>), in humans, as opposed to the multiple homologous genes encoding MHC class I ligands in rodents [<xref rid="pgen-0010027-b27" ref-type="bibr">27</xref>]. While <italic>KLRA1</italic> is transcribed, a point mutation causes the production of a nonfunctional molecule [<xref rid="pgen-0010027-b27" ref-type="bibr">27</xref>]. Another gene family expanded in rodents but with only one human homolog is <italic>KLRB1A</italic> (also called <italic>NKRP1A</italic>). NKRP1A is expressed only on a subset of NK cells and T cells, as opposed to all NK cells in rodents [<xref rid="pgen-0010027-b28" ref-type="bibr">28</xref>].</p><p>Members of the NKG2 <italic>(KLRC)</italic> family of molecules dimerize with the linked, invariant CD94 molecule <italic>(KLRD1)</italic> on the cell surface, which as a partner chain provides the appropriate signaling motifs [<xref rid="pgen-0010027-b29" ref-type="bibr">29</xref>]. Some <italic>KLRC-</italic>encoded molecules, namely NKG2A <italic>(KLRC1)</italic> and NKG2C <italic>(KLRC2),</italic> signal as a result of binding to the nonclassical MHC class I molecule HLA-E [<xref rid="pgen-0010027-b30" ref-type="bibr">30</xref>]. This family encodes both inhibitory (NKG2A, NKG2B, and KLRL1) and activating (NKG2C, NKG2E <italic>[KLRC3],</italic> and NKG2H) receptors, some of which, such as NKG2B, NKG2E, and NKG2H, are products of alternative splicing [<xref rid="pgen-0010027-b26" ref-type="bibr">26</xref>]. When both inhibitory and activating NKG2 receptors are coexpressed on the cell surface, the inhibitory molecules appear to be functionally dominant, which may relate to the fact that they have a higher-affinity binding [<xref rid="pgen-0010027-b31" ref-type="bibr">31</xref>]. The NKG2 family also contains a unique receptor, NKG2F <italic>(KLRC4),</italic> that has a charged residue in the transmembrane region, an ITIM-like domain, and no C-type lectin&#x02013;like domain [<xref rid="pgen-0010027-b32" ref-type="bibr">32</xref>]. The function of this molecule is not known.</p><p>NKG2D <italic>(KLRK1)</italic> shows limited sequence identity to other NKG2 molecules and is expressed on NK cells, T cells, and macrophages as a homodimer [<xref rid="pgen-0010027-b26" ref-type="bibr">26</xref>]. For activation, NKG2D signals by associating with DAP10, a molecule whose Src homology 2 domain recruits the p85 subunit of phosphatidylinositol 3-kinase (PI3K) [<xref rid="pgen-0010027-b33" ref-type="bibr">33</xref>,<xref rid="pgen-0010027-b34" ref-type="bibr">34</xref>]. Human NKG2D binds MHC class I chain-related protein (MIC) A, MICB, and the UL-16 binding protein (ULBP) family [<xref rid="pgen-0010027-b35" ref-type="bibr">35</xref>].</p><p>KLRF1, which is present in humans but not mice [<xref rid="pgen-0010027-b26" ref-type="bibr">26</xref>], stimulates NK cells upon cross-linking. The inhibitory-receptor-encoding <italic>KLRG1,</italic> also called mast cell function&#x02013;associated antigen [<xref rid="pgen-0010027-b36" ref-type="bibr">36</xref>], is more centrally located in the human NKC than in that of the mouse and may have arisen by gene duplication and chromosomal inversion events [<xref rid="pgen-0010027-b26" ref-type="bibr">26</xref>]. Other NK surface molecules encoded in the human NKC include the activation-induced C-type lectin (AICL) [<xref rid="pgen-0010027-b37" ref-type="bibr">37</xref>], lectin-like transcript 1 (CLEC2D; also called OCIL and LLT1) [<xref rid="pgen-0010027-b38" ref-type="bibr">38</xref>], and CD69 [<xref rid="pgen-0010027-b26" ref-type="bibr">26</xref>]. Genes that encode products not found on NK cells, which are also located within the NKC, include alpha-2-macroglobulin (A2M) [<xref rid="pgen-0010027-b26" ref-type="bibr">26</xref>], oxidized low-density lipoprotein (lectin-like) receptor 1 (OLR1) [<xref rid="pgen-0010027-b39" ref-type="bibr">39</xref>], CLECSF12, CLEC1, and CLEC2 [<xref rid="pgen-0010027-b40" ref-type="bibr">40</xref>].</p></sec><sec id="s3"><title>Nonhuman Primate NK Receptor Gene Complexes</title><p>KIR genes have diverged dramatically between different primate species, consistent with rapid, species-specific expansion of the gene family [<xref rid="pgen-0010027-b41" ref-type="bibr">41</xref>]. In chimpanzees, the seven KIR genes, of which only three <italic>(KIR2DL4</italic>, <italic>KIR2DL5</italic>, and <italic>KIR2DS4)</italic> are best reciprocal human orthologs, cover 106 kilobases [<xref rid="pgen-0010027-b41" ref-type="bibr">41</xref>,<xref rid="pgen-0010027-b42" ref-type="bibr">42</xref>]. In the gorilla, 11 KIR genes have been identified with two genes being orthologous to human KIRs [<xref rid="pgen-0010027-b43" ref-type="bibr">43</xref>]. Orangutans, which diverged earlier from humans in the primate lineage than chimpanzees and gorillas, also have a species-specific expanded KIR repertoire [<xref rid="pgen-0010027-b44" ref-type="bibr">44</xref>]. The rhesus macaque only has five KIR genes [<xref rid="pgen-0010027-b45" ref-type="bibr">45</xref>,<xref rid="pgen-0010027-b46" ref-type="bibr">46</xref>]. The African green monkey <italic>Chlorocebus sabaeus,</italic> another Old World primate more closely related to rhesus monkeys than to the apes, possesses multiple KIR genes, namely <italic>KIR3DL, KIR2DL4, KIR2DL5,</italic> and <italic>KIR3DH,</italic> a KIR form found in rhesus and African green monkeys but not apes, and a hybrid of <italic>KIR2DL5</italic> and <italic>KIR3DH</italic> [<xref rid="pgen-0010027-b47" ref-type="bibr">47</xref>]. <italic>KIR2DL4</italic> is the only orthologous KIR gene found in humans, chimpanzees, gorillas, rhesus macaques, and African green monkeys. Interestingly, not all gorillas appear to have <italic>KIR2DL4</italic> [<xref rid="pgen-0010027-b43" ref-type="bibr">43</xref>], and it is nonfunctional as a receptor in orangutans [<xref rid="pgen-0010027-b44" ref-type="bibr">44</xref>]. <xref ref-type="table" rid="pgen-0010027-t001">Table 1</xref> shows, where known, the differences in gene content of NK receptor genes among various species.</p><table-wrap id="pgen-0010027-t001" content-type="2col" position="float"><label>Table 1</label><caption><p>Presence of NKC and LRC Encoded Genes in Different Species</p></caption><graphic xlink:href="pgen.0010027.t001"/><table-wrap-foot><fn id="nt101"><p>
+<sup>a</sup>HUGO gene abbreviation.</p></fn><fn id="nt102"><p>
+<sup>b</sup>Common, alternative protein name.</p></fn><fn id="nt103"><p>
+<sup>c</sup>Shows activating (A), inhibitory (I), either (A/I), or co-stimulatory (C) function. An empty box indicates information is not available for that species. The number indicates the approximate number of genes present in that species for a particular gene family. &#x003a8; indicates a pseudogene.</p></fn><fn id="nt104"><p>Asterisk indicates the presence of multiple KIR-ILT hybrid genes in horses [<xref rid="pgen-0010027-b96" ref-type="bibr">96</xref>].</p></fn></table-wrap-foot></table-wrap><p>These differences in KIR gene presence accord with differences in MHC class I gene content among primate species [<xref rid="pgen-0010027-b48" ref-type="bibr">48</xref>]. For example, HLA-C and its equivalent in other primate species differentiated from an HLA-B-like ancestor after divergence of the hominoid and monkey lineages [<xref rid="pgen-0010027-b04" ref-type="bibr">4</xref>,<xref rid="pgen-0010027-b49" ref-type="bibr">49</xref>]; therefore, it is only present in primate species more closely related to humans. While HLA-C is consistently present in humans and chimpanzees (the closest relative of humans), it is absent in approximately half of the orangutan haplotypes, and when it does occur in orangutans, it resembles an evolutionary intermediate of human HLA-C [<xref rid="pgen-0010027-b04" ref-type="bibr">4</xref>,<xref rid="pgen-0010027-b44" ref-type="bibr">44</xref>]. Furthermore, Popy-C, the orangutan HLA-C equivalent, provides only one of the two MHC-C motifs that are used to control human and chimpanzee NK cells [<xref rid="pgen-0010027-b42" ref-type="bibr">42</xref>,<xref rid="pgen-0010027-b50" ref-type="bibr">50</xref>]. Dimorphism at amino acid 80 defines these two groups, where MHC-C1 has Asn80 and MHC-C2 has Lys80. The receptors for the C1 and C2 groups are the inhibitory KIR2DL molecules: KIR2DL2 and KIR2DL3 interact with C1, while KIR2DL1 interacts with C2 at a higher affinity. From these primate evolutionary studies, we have learned that the weaker C1&#x02013;KIR2DL2/3 interaction arose first, and the stronger C2&#x02013;KIR2DL1 interaction arose later. Since both C1 and C2 allotypes are represented in all human populations, these molecules may have complementary functions that enable the strength of HLA-C-mediated inhibition to be varied. This situation has implications for MHC/KIR combinations in disease, as has been evidenced by several recent papers [<xref rid="pgen-0010027-b51" ref-type="bibr">51</xref>&#x02013;<xref rid="pgen-0010027-b55" ref-type="bibr">55</xref>]. The association of combinations of C1/C2 types and KIR alleles with predisposition to preeclampsia suggests other selection mechanisms [<xref rid="pgen-0010027-b56" ref-type="bibr">56</xref>]. The reciprocal levels of HLA-C1/2 allotypes and their respective KIR ligands in different human populations is consistent with a balance of advantages and disadvantages in level of response, presumably depending on local parasites and environmental conditions.</p><p>LILR genes are present in all primates studied, and although the gene content of this family shows greater differences between primate species than is observed throughout the genome, LILR genes are less variable in gene number between haplotypes than the KIRs. In chimpanzee, the nine LILR genes border the KIR sequences and are arranged in two duplicated clusters similar to human [<xref rid="pgen-0010027-b41" ref-type="bibr">41</xref>,<xref rid="pgen-0010027-b57" ref-type="bibr">57</xref>]. Four of these genes are orthologs of human LILR sequences [<xref rid="pgen-0010027-b57" ref-type="bibr">57</xref>]. The rhesus macaque has five LILR sequences [<xref rid="pgen-0010027-b41" ref-type="bibr">41</xref>]. Other NKC genes known to be present in the chimpanzee and rhesus macaque are orthologs of <italic>FCAR</italic> and <italic>NCR1</italic> [<xref rid="pgen-0010027-b41" ref-type="bibr">41</xref>].</p><p>There is limited information on NKC genes in primates. Members of the NKG2 family and <italic>CD94</italic> have been found in chimpanzees [<xref rid="pgen-0010027-b42" ref-type="bibr">42</xref>], including orthologs for all members except <italic>KLRC2,</italic> for which there are two paralogs [<xref rid="pgen-0010027-b58" ref-type="bibr">58</xref>]. Rhesus monkeys possess <italic>NKG2A, NKG2B, NKG2C, NKG2D,</italic> and several splice variants [<xref rid="pgen-0010027-b45" ref-type="bibr">45</xref>]. In the orangutan, orthologs for human <italic>CD94, NKG2A, NKG2D,</italic> and <italic>NKG2F</italic> are present, along with a hybrid gene combining <italic>NKG2C</italic> and <italic>NKG2E</italic> midway between their expected syntenic positions [<xref rid="pgen-0010027-b44" ref-type="bibr">44</xref>]. Orangutans also possess a functional homolog of <italic>KLRA1</italic> (Ly49L) [<xref rid="pgen-0010027-b44" ref-type="bibr">44</xref>], which is a pseudogene in humans [<xref rid="pgen-0010027-b27" ref-type="bibr">27</xref>,<xref rid="pgen-0010027-b59" ref-type="bibr">59</xref>]. A single <italic>Ly49</italic> sequence, which appears to be functional, has also been reported in baboons [<xref rid="pgen-0010027-b60" ref-type="bibr">60</xref>].</p></sec><sec id="s4"><title>Rodent NK Receptor Gene Complexes</title><p>The mouse LRC is located on Chromosome 7 [<xref rid="pgen-0010027-b15" ref-type="bibr">15</xref>], although it contains none of the KIR loci that form a cornerstone of MHC class I recognition in humans. However, two murine KIR-like sequences have been detected outside the LRC on the X chromosome [<xref rid="pgen-0010027-b61" ref-type="bibr">61</xref>,<xref rid="pgen-0010027-b62" ref-type="bibr">62</xref>]. There are conflicting reports on the function of one of these murine KIR-like sequences: one study found that Kir3dl1 (Kirl1) lacks an ITIM and any residue capable of binding to an activating adaptor molecule [<xref rid="pgen-0010027-b61" ref-type="bibr">61</xref>], while another reported the presence of two ITIMs in Kir3dl1 [<xref rid="pgen-0010027-b62" ref-type="bibr">62</xref>]. Surprisingly, the other KIR-like sequence, Kirl2, is selectively expressed in defined areas of the mouse brain [<xref rid="pgen-0010027-b63" ref-type="bibr">63</xref>]. The murine LRC contains orthologs of human <italic>GP6</italic> [<xref rid="pgen-0010027-b13" ref-type="bibr">13</xref>], <italic>NCR1, RPS9,</italic> and <italic>LAIR1</italic> [<xref rid="pgen-0010027-b15" ref-type="bibr">15</xref>]. The Pir gene family members (including <italic>Pira1</italic> to <italic>Pira11</italic> and <italic>Pirb</italic>), which share sequence identity with the human LILRs, are found between <italic>Ncr1</italic> and <italic>Rps9,</italic> [<xref rid="pgen-0010027-b64" ref-type="bibr">64</xref>]. In addition to sequence similarity, the Pir genes are arranged into two clusters similar to the LILRs and encode products that may interact with certain MHC class I molecules [<xref rid="pgen-0010027-b65" ref-type="bibr">65</xref>]. Genes of the murine LRC broadly display syntenic homology with the human arrangement apart from the absence of KIR loci.</p><p>In the rat, the LRC is located on Chromosome 1 and includes an ortholog of murine <italic>Pirb, Ncr1</italic> [<xref rid="pgen-0010027-b15" ref-type="bibr">15</xref>], and one KIR sequence (Kir3dl1) with a potential ITIM [<xref rid="pgen-0010027-b62" ref-type="bibr">62</xref>]. The rat also has <italic>Fcar,</italic> which, while also present in humans, was lost in the mouse lineage [<xref rid="pgen-0010027-b66" ref-type="bibr">66</xref>].</p><p>Orthologs of human NKC genes are reported in a syntenic region of murine Chromosome 6. The gene families are arranged in a similar order to the human NKC, except for expansions and interchanges of the C-type lectin related (Clr) (ortholog of human <italic>OCIL</italic>) and Nkrp1 (Klrb1) gene families [<xref rid="pgen-0010027-b26" ref-type="bibr">26</xref>]. Interestingly, the products of these two genetically intertwined families in mouse interact, suggesting potential functional advantages for their adjacent gene locations [<xref rid="pgen-0010027-b67" ref-type="bibr">67</xref>]. There are several Klrb1 (Nkrp1) genes in mouse, with Klrb1a, Klrb1c, and Klrb1f taking activating forms and Klrb1b and Klrb1d being inhibitory [<xref rid="pgen-0010027-b26" ref-type="bibr">26</xref>]. Members of the NKC-encoded C-type lectin related gene family have been found as ligands for Klrb1d and Klrb1f [<xref rid="pgen-0010027-b67" ref-type="bibr">67</xref>].</p><p>In the rat, the NKC is located on Chromosome 4. In fact, the first NKC gene discovered in any species was rat <italic>Nkrp1</italic> [<xref rid="pgen-0010027-b68" ref-type="bibr">68</xref>,<xref rid="pgen-0010027-b69" ref-type="bibr">69</xref>]. Human, mouse, and rat all share orthologs of <italic>CD69</italic> and <italic>KLRD1</italic> (CD94); however, there are still many differences between human and rodent in the gene content of the NKC [<xref rid="pgen-0010027-b70" ref-type="bibr">70</xref>] (see <xref ref-type="fig" rid="pgen-0010027-g002">Figure 2</xref>; <xref ref-type="table" rid="pgen-0010027-t001">Table 1</xref>).</p><p>In contrast to the single human Ly49 locus, the polymorphic Ly49 gene family in mice contains at least 16 genes and pseudogenes [<xref rid="pgen-0010027-b71" ref-type="bibr">71</xref>], named <italic>Ly49a</italic> to <italic>Ly49q,</italic> although the gene content can differ significantly in different mouse strains [<xref rid="pgen-0010027-b26" ref-type="bibr">26</xref>]. While framework Ly49 genes are present in all murine haplotypes, the Ly49 gene content between these framework genes varies at some loci [<xref rid="pgen-0010027-b72" ref-type="bibr">72</xref>], in a similar manner to what is observed in the human KIR family. These framework/strain-specific differences are shown in <xref ref-type="fig" rid="pgen-0010027-g003">Figure 3</xref>.</p><fig id="pgen-0010027-g003" position="float"><label>Figure 3</label><caption><title>Differences in Organization of KIR Genes in Human Haplotypes and Ly49 Genes in Various Mouse Strains</title><p>This figure is not drawn to scale, but it illustrates the presence of framework genes and the variable gene content in Ly49 genes in different mouse strains [<xref rid="pgen-0010027-b72" ref-type="bibr">72</xref>] and KIR sequences in human haplotypes. The vertical arrangement of genes within a family shows allelic relationships. White boxes indicate known pseudogenes. Please note that while many KIR haplotypes are possible, only a small selection has been shown here.</p></caption><graphic xlink:href="pgen.0010027.g003"/></fig><p>The Ly49 molecules have a variety of functions and expression patterns. Ly49a, Ly49c, Ly49g, and Ly49i contain ITIMs and act as NK inhibitory receptors when recognizing MHC class I molecules. Conversely, Ly49d and Ly49h exhibit activating properties. Ly49e functions in fetal NK cell development, when other Ly49 molecules are not present [<xref rid="pgen-0010027-b26" ref-type="bibr">26</xref>]. Ly49q is found on plasmacytoid dendritic cells and not NK cells [<xref rid="pgen-0010027-b73" ref-type="bibr">73</xref>,<xref rid="pgen-0010027-b74" ref-type="bibr">74</xref>].</p><p>In the rat, this family has expanded even further. The most recent report lists 19 functional rat Ly49 genes and 15 pseudogenes [<xref rid="pgen-0010027-b75" ref-type="bibr">75</xref>]. The rapid expansion of rat Ly49 genes appears to result from repeated tandem and block gene duplications, which occurred after species divergence from the mouse [<xref rid="pgen-0010027-b76" ref-type="bibr">76</xref>], and might be related to the higher number of MHC class I genes in the rat genome than in the mouse genome [<xref rid="pgen-0010027-b77" ref-type="bibr">77</xref>].</p><p>The Ly49 family in mouse parallels the human KIR both functionally and genetically [<xref rid="pgen-0010027-b78" ref-type="bibr">78</xref>]. Insight into the evolutionary drive behind gain or loss of Ly49 loci was provided by studying the relationship between Ly49 genes and murine cytomegalovirus (mCMV) [<xref rid="pgen-0010027-b79" ref-type="bibr">79</xref>&#x02013;<xref rid="pgen-0010027-b82" ref-type="bibr">82</xref>]. When the Ly49h receptor in mice is not present, is blocked by monoclonal antibody, or has its pathway interrupted through mutation of the DAP12 molecule, uncontrolled viral replication of mCMV occurs [<xref rid="pgen-0010027-b80" ref-type="bibr">80</xref>,<xref rid="pgen-0010027-b83" ref-type="bibr">83</xref>], demonstrating that the function of this activating receptor is essential for mCMV resistance [<xref rid="pgen-0010027-b26" ref-type="bibr">26</xref>]. Ly49h interacts specifically with mCMV protein m157 to counteract inhibition imposed by the viral protein engaging Ly49i [<xref rid="pgen-0010027-b84" ref-type="bibr">84</xref>]&#x02014;an example of the biological arms race [<xref rid="pgen-0010027-b85" ref-type="bibr">85</xref>].</p><p>The KLR gene family in mouse contains several members, including <italic>Klrc1, Klrc2, Klrc3, Klrd1, Klri1,</italic> and <italic>Klri2</italic> [<xref rid="pgen-0010027-b26" ref-type="bibr">26</xref>,<xref rid="pgen-0010027-b86" ref-type="bibr">86</xref>]. Similar to recognition of HLA-E in humans [<xref rid="pgen-0010027-b30" ref-type="bibr">30</xref>], members of this family recognize the mouse HLA-E functional homolog H2-T23 [<xref rid="pgen-0010027-b86" ref-type="bibr">86</xref>]. Nkg2d binds minor histocompatibility molecule H60, the retinoic acid early transcript 1 (Rae-1) family, and mouse UL-16 binding protein&#x02013;like transcript 1 (Mult1). Interestingly, the Mill gene family, the murine functional equivalent of human MIC genes, which are encoded in the human MHC class I region and bind NKG2D, are found near the murine LRC [<xref rid="pgen-0010027-b87" ref-type="bibr">87</xref>]. In mice, Nkg2d is proposed to have activating properties through association with Dap12 and Dap10 [<xref rid="pgen-0010027-b34" ref-type="bibr">34</xref>,<xref rid="pgen-0010027-b88" ref-type="bibr">88</xref>]. Human NKG2D cannot associate with DAP12 to produce an activating signal [<xref rid="pgen-0010027-b89" ref-type="bibr">89</xref>]. A direct ortholog of KLRF1 is not present in the mouse. The murine NKC also contains <italic>Klrg1</italic> and <italic>Cd69,</italic> and genes other than those encoding NK receptors&#x02014;genes such as <italic>alpha-2-macroglobulin, Clecsf12,</italic> and <italic>Clec2</italic> [<xref rid="pgen-0010027-b26" ref-type="bibr">26</xref>]. Genes encoding three Klrc molecules, Nkg2d, CD94, Klrb1, and Klrh1 (an inhibitory receptor) have been reported in rat.</p></sec><sec id="s5"><title>NK Receptor Gene Complexes in Other Species</title><p>Since the genomic organization of human and mouse class I receptors is so polarized, in terms of KIR or Ly49 gene content, respectively, it is informative to study other species. The bovine LRC, located on Chromosome 18, includes activating and inhibitory KIR sequences and an ortholog of <italic>NCR1</italic> [<xref rid="pgen-0010027-b90" ref-type="bibr">90</xref>]. Sequence similarity comparisons between cows and primates indicate that the multigenic KIR families expanded independently in the two lineages [<xref rid="pgen-0010027-b91" ref-type="bibr">91</xref>]. Known genes in the bovine NKC include <italic>KLRK1, NKRP1</italic> [<xref rid="pgen-0010027-b92" ref-type="bibr">92</xref>], <italic>KLRJ1</italic> [<xref rid="pgen-0010027-b91" ref-type="bibr">91</xref>], and one Ly49 gene [<xref rid="pgen-0010027-b93" ref-type="bibr">93</xref>]. There is a <italic>CD69</italic> transcript in cows as well, but its genetic location is not known [<xref rid="pgen-0010027-b94" ref-type="bibr">94</xref>].</p><p>Like humans, the single Ly49 sequence is recapitulated in cattle [<xref rid="pgen-0010027-b93" ref-type="bibr">93</xref>], domesticated cats, dogs, and pigs [<xref rid="pgen-0010027-b95" ref-type="bibr">95</xref>]. Like rodents [<xref rid="pgen-0010027-b76" ref-type="bibr">76</xref>], horses show multiple Ly49 genes: five that encode ITIMs and one with potentially activating properties [<xref rid="pgen-0010027-b96" ref-type="bibr">96</xref>]. The horse also has an expansion of a family of KIR-ILT hybrid genes [<xref rid="pgen-0010027-b96" ref-type="bibr">96</xref>]. These species with both multiple Ly49 and multiple KIR sequences indicate that the functions of the two sets of MHC class I ligands can be coordinated. The polarized arrangement in humans (all KIR) and mice (all Ly49) suggest that either (1) the existence of both sets within a single individual poses logistical problems, which have been solved by disabling one set, or (2) the human and mouse arrangements are outriders and in most other vertebrates the functions of both sets of genes synchronize well with each other. Clearly, the MHC class I/NK ligand gene arrangements of many other species need to be evaluated.</p><p>A gene complex encoding NK receptors in pig is located on Chromosome 5, with reports of direct orthologs for human <italic>CD69</italic> and <italic>KLRK1</italic> [<xref rid="pgen-0010027-b97" ref-type="bibr">97</xref>]. Chicken is a key species because of its &#x0201c;minimal essential&#x0201d; MHC [<xref rid="pgen-0010027-b98" ref-type="bibr">98</xref>]. A family of chicken Ig-like receptors (CHIRs) are related to Pirs and Fc receptors and are arranged in similar genomic clusters to human KIR and LILR genes [<xref rid="pgen-0010027-b99" ref-type="bibr">99</xref>]. Recent work has shown the presence of numerous CHIR genes in the chicken genome, with many receptors possessing both activating and inhibitory properties [<xref rid="pgen-0010027-b100" ref-type="bibr">100</xref>]. The multiple CHIR genes are thought to have emerged from a common ancestor with humans before the mammalian radiation and then expanded in a lineage-specific manner [<xref rid="pgen-0010027-b100" ref-type="bibr">100</xref>,<xref rid="pgen-0010027-b101" ref-type="bibr">101</xref>]. There are examples of chicken NK receptors, such as B-NK and N-lec, which contain C-type lectin domains, similar to the NKC-encoded NKRP1 and LLT1 in humans. It is interesting, though, that the genes encoding these proteins are located within the chicken MHC region, consistent with an ancient genetic relationship of these MHC and NK receptors [<xref rid="pgen-0010027-b102" ref-type="bibr">102</xref>].</p><p>The zebrafish, a teleost model organism, contains a cluster of putative activating and inhibitory NK receptors called the novel immune-type receptors (NITRs). While these genes encode an Ig domain, there is a cluster of C-type lectins encoded within this larger cluster [<xref rid="pgen-0010027-b103" ref-type="bibr">103</xref>,<xref rid="pgen-0010027-b104" ref-type="bibr">104</xref>]. Another bony fish, <italic>Oreochromis niloticus,</italic> possesses a KLR region, containing 26 genes, though more compact than its human counterpart [<xref rid="pgen-0010027-b105" ref-type="bibr">105</xref>]. Other teleosts have NKC genes, including <italic>Paralabidochromis chilotes</italic> [<xref rid="pgen-0010027-b106" ref-type="bibr">106</xref>] and rainbow trout [<xref rid="pgen-0010027-b107" ref-type="bibr">107</xref>], demonstrating that some of these genes arose in an ancestor common to both humans and bony fish earlier in the gnathostome lineage.</p></sec><sec id="s6"><title>Conclusions</title><p>As explained above, features of NK receptor genes both within and between species are consistent with rapid evolutionary change. Inevitably, studies focus on human KIR and mouse Ly49 genes, but there are indications from the few studies of other vertebrates that variable C-type lectin and IgSF receptors for MHC class I molecules may co-exist in a species, such as horse [<xref rid="pgen-0010027-b96" ref-type="bibr">96</xref>], or may be functionally replaced by another divergent family of genes, as may be the case in chicken [<xref rid="pgen-0010027-b100" ref-type="bibr">100</xref>,<xref rid="pgen-0010027-b101" ref-type="bibr">101</xref>]. The marked expansion of the Ly49 gene family [<xref rid="pgen-0010027-b76" ref-type="bibr">76</xref>] and the large differences in gene number and content between closely related species, such as the mouse and rat [<xref rid="pgen-0010027-b108" ref-type="bibr">108</xref>], attest to rapid evolution of NK receptor genes. The existence of only one Ly49 pseudogene in humans [<xref rid="pgen-0010027-b27" ref-type="bibr">27</xref>] while a homolog remains functional in other primates [<xref rid="pgen-0010027-b44" ref-type="bibr">44</xref>,<xref rid="pgen-0010027-b60" ref-type="bibr">60</xref>] also indicates rapid evolutionary change since the divergence of a common ancestor. It is possible that the presence of gene families such as those found in the NK receptor complexes facilitates rapid evolution through recombination, subfunctionalization of duplicated genes, and conservation of essential sequence [<xref rid="pgen-0010027-b109" ref-type="bibr">109</xref>].</p><p>Emerging data are also consistent with rapid evolution of NKC-encoded genes. These include comparisons of KIR haplotypes in chimpanzee, rhesus macaque, and human, where, in addition to gene content differences, repeat elements in intronic regions suggest rapid evolution [<xref rid="pgen-0010027-b41" ref-type="bibr">41</xref>]. Another recent report showed that the KIR and Ly49 gene families have among the highest expansion rates in the genome, with the human KIRs expanding by 0.52 genes per million years and rat Ly49 genes expanding by 0.54 genes per million years since duplicating from a single common ancestor [<xref rid="pgen-0010027-b76" ref-type="bibr">76</xref>]. A more conservative study to determine the genome-wide average for this rate found it to be 0.001 to 0.03 genes duplicated per million years [<xref rid="pgen-0010027-b110" ref-type="bibr">110</xref>]. Recent data indicate that inhibitory KIRs are ancestral and that their activating counterparts have evolved from them by mutation [<xref rid="pgen-0010027-b111" ref-type="bibr">111</xref>]. It appears that the development of activating versions of polymorphic receptors takes place in both KIR and Ly49 loci. Thus, in different species, convergent evolution results in activating genes with similar signaling domains. This mechanism is necessitated so that the receptors can couple with appropriate signaling adaptors (see <xref ref-type="fig" rid="pgen-0010027-g001">Figure 1</xref>), which are ancient and much more conserved than both KIR and Ly49. The mechanism is streamlined, in that tails associated with activating adapters become associated with different receptors by nonhomologous recombination [<xref rid="pgen-0010027-b19" ref-type="bibr">19</xref>]. Interestingly, activating receptors appear to evolve recurrently, presumably in line with selection associated with resistance to disease.</p><p>Perhaps because of this &#x0201c;response mode&#x0201d; fluctuation in activating versions of inhibitory receptors, it has proved difficult to identify their role and indeed their ligands. An interesting exception is mouse Ly49h, which recognizes mCMV-infected cells by a direct interaction with the m157 mCMV gene product [<xref rid="pgen-0010027-b84" ref-type="bibr">84</xref>]. So far, no other activating receptors appear to be dedicated to pathogen-specific products. However, there is evidence for epistasis between MHC class I loci and Ly49 in resistance to mCMV, which may explain the difficulty in identifying ligands for activating receptors [<xref rid="pgen-0010027-b112" ref-type="bibr">112</xref>]. Ly49p is an activating receptor that specifically recognizes mCMV-infected cells but only in the context of H-2Dk. Accordingly, binding of Ly49p was blocked by antibodies to H-2Dk but not by those to H-2Kk. It is not known what lies behind the epistasis. It is possible that Ly49p recognizes H-2Dk only when certain viral peptides are present. It has been proposed that in the case of another receptor, Ly49c, certain peptides might exert interactions through the floor of the H-2Kb binding groove, which are transmitted to the NK receptor by &#x003b2;2 microglobulin [<xref rid="pgen-0010027-b113" ref-type="bibr">113</xref>]. Alternatively, NK receptors such as Ly49c and Ly49p might respond to an H-2 molecule in the presence of a host-encoded protein that is upregulated upon viral infection. Intriguingly, similar mechanisms could be put forward to explain the role of activating KIRs such as KIR2DS1 being upregulated during Epstein-Barr virus infection [<xref rid="pgen-0010027-b114" ref-type="bibr">114</xref>].</p><p>Why do some species expand KIR genes while others expand Ly49 genes? While these two gene families produce proteins of analogous function, they do not share a common ancestor. These expansions vary greatly even within lineages, such as between human and chimpanzee (diverged approximately 5 million years ago) or mouse and rat (diverged approximately 20 million years ago) [<xref rid="pgen-0010027-b115" ref-type="bibr">115</xref>]. It is tempting to assume that different life spans, environments, sizes, and, specifically, pathogen interactions influence fixation of different NK receptor repertoires in different species. NK receptors are important components of antiviral immune responses and are an essential bridge between early innate responses, such as the release of virally induced interferon-alpha (IFNA) and interferon-beta (IFNB), and the later T cell and antibody adaptive responses [<xref rid="pgen-0010027-b116" ref-type="bibr">116</xref>]. Viruses evolve rapidly to environmental conditions, crossing species boundaries and mutating quickly to allow success in specific host species [<xref rid="pgen-0010027-b117" ref-type="bibr">117</xref>]. It is possible that the rapid evolution and host-species-specific adaptations of viral pathogens, which are common targets of NK-mediated immune responses, could influence the rapid expansion of different NK receptor repertoire combinations among species. Selective forces other than infection may also be entertained, including autoimmunity and reproduction, illustrated by the link between preeclampsia and combinations of HLA-C in the fetus and KIR in the mother [<xref rid="pgen-0010027-b56" ref-type="bibr">56</xref>].</p><p>NK receptor gene clusters coevolve with MHC genes [<xref rid="pgen-0010027-b03" ref-type="bibr">3</xref>,<xref rid="pgen-0010027-b15" ref-type="bibr">15</xref>], and there are clues to genetic and functional relationships between them [<xref rid="pgen-0010027-b01" ref-type="bibr">1</xref>]. MHC class I&#x02013;like molecules have directed the development of different lymphocytes throughout evolution, as demonstrated both by the presence of common cell surface markers on NK cells, &#x003b3;&#x003b4; T cells, and CD8<sup>+</sup> &#x003b1;&#x003b2; T cells and by distinct receptors present exclusively on each class [<xref rid="pgen-0010027-b04" ref-type="bibr">4</xref>]. The large differences in genomic organization of NK receptor gene complexes between species, and between populations of humans, are likely driven by resistance to infection and exposure to different local pathogens [<xref rid="pgen-0010027-b118" ref-type="bibr">118</xref>,<xref rid="pgen-0010027-b119" ref-type="bibr">119</xref>], although different mechanisms are possible [<xref rid="pgen-0010027-b120" ref-type="bibr">120</xref>]. Some MHC-encoded genes maintain a large number of low-frequency alleles within the population [<xref rid="pgen-0010027-b118" ref-type="bibr">118</xref>], produce molecules that interact to control NK cell function, and evolve rapidly to maintain their epistatic interactions [<xref rid="pgen-0010027-b42" ref-type="bibr">42</xref>]. Ig domains provide an example of the way coevolution of these interactions may occur. The Ig domains encoded by LRC genes are IgC2 or vIg-like [<xref rid="pgen-0010027-b121" ref-type="bibr">121</xref>]. IgC2 domains appear to have evolved to recognize different Ig-like receptors [<xref rid="pgen-0010027-b15" ref-type="bibr">15</xref>], such as those found in the MHC, consistent with coevolution of some LRC and MHC genes. Another example of coevolution between NK receptor genes and MHC genes is provided by the Mill gene family in mice and rats. The Mill family members are functional homologs of human MIC genes, which are found in the human MHC class I region. However, in mice and rats, the Mill genes have translocated to a chromosomal area near the LRC [<xref rid="pgen-0010027-b87" ref-type="bibr">87</xref>], which, through linkage with NK receptor genes, could facilitate coevolution of polymorphisms affecting their epistatic interactions and enhance their transcriptional regulation. Furthermore, the coevolution of NK receptors and HLA-C molecules, observed in primates [<xref rid="pgen-0010027-b44" ref-type="bibr">44</xref>], could have implications for diseases [<xref rid="pgen-0010027-b04" ref-type="bibr">4</xref>,<xref rid="pgen-0010027-b05" ref-type="bibr">5</xref>] and for the interactions between HLA-C molecules and decidual NK receptors in the placenta [<xref rid="pgen-0010027-b56" ref-type="bibr">56</xref>].</p><p>Additional insights into the rapid coevolution of the NK receptor genes and genes encoding their MHC class I ligands can be gained by studying their levels of polymorphism. Publicly available polymorphism data, evaluated in a previous study from our laboratory [<xref rid="pgen-0010027-b122" ref-type="bibr">122</xref>], showed that MHC class I molecules possess extremely high levels of polymorphism, while the numbers of polymorphisms per kilobase for NK receptor genes are nearer to values for the rest of the genome. Although some NK receptor gene families have noticeably varied gene contents between haplotypes, NK receptor genes are not as highly polymorphic as MHC class I ligands. Therefore, we could assume that selective pressures, such as exposure to pathogen, drive the generation of genetic variation primarily on MHC class I genes. The variation in NK receptor gene content both within and between species, such as preference towards rapid expansion of KIR, Ly49, or both, could be a mechanism for coevolving with the rapidly evolving MHC class I molecules. This would explain how NK receptor gene complexes exhibit rapid evolution, measured by parameters such as gene gain and loss [<xref rid="pgen-0010027-b76" ref-type="bibr">76</xref>], while having moderate levels of sequence polymorphism. Given the essential interactions of MHC and NK receptor gene clusters, the high levels of polymorphism, and association of the MHC with disease, studies of NK receptor gene complexes will have to be interpreted in relation to their MHC ligands.</p><p>As more configurations of NK receptor genes are determined for different species, it will become possible to track the way groups of KIR and Ly49 loci have followed different species lineages. Were rodents the only species to lose KIR function? Are primates unique in losing Ly49? What are the intermediates on the way to &#x0201c;all KIR&#x0201d; and &#x0201c;all Ly49&#x0201d; models? And what selective advantages drove the specialization towards the KIR or Ly49 model in different species?&#x02002;</p></sec></body><back><ack><p>JT is funded by Wellcome Trust and Medical Research Council.</p></ack><glossary><title>Abbreviations</title><def-list><def-item><term>CHIR</term><def><p>chicken Ig-like receptor</p></def></def-item><def-item><term>IgSF</term><def><p>immunoglobulin superfamily</p></def></def-item><def-item><term>ITAM</term><def><p>immunoreceptor tyrosine-based activation motif</p></def></def-item><def-item><term>ITIM</term><def><p>immunoreceptor tyrosine-based inhibitory motif</p></def></def-item><def-item><term>KIR</term><def><p>killer cell immunoglobulin-like receptor</p></def></def-item><def-item><term>LAIR</term><def><p>leukocyte-associated Ig-like receptor</p></def></def-item><def-item><term>LILR</term><def><p>leukocyte Ig-like receptor</p></def></def-item><def-item><term>LRC</term><def><p>leukocyte receptor complex</p></def></def-item><def-item><term>mCMV</term><def><p>murine cytomegalovirus</p></def></def-item><def-item><term>MHC</term><def><p>major histocompatibility complex</p></def></def-item><def-item><term>MIC</term><def><p>major histocompatibility complex class I chain-related protein</p></def></def-item><def-item><term>NK</term><def><p>natural killer</p></def></def-item><def-item><term>NKC</term><def><p>natural killer complex</p></def></def-item><def-item><term>SH2</term><def><p>Src homology 2</p></def></def-item><def-item><term>SHP[number]</term><def><p>Src homology 2 domain&#x02013;containing protein tyrosine phosphatase [number]</p></def></def-item></def-list></glossary><ref-list><title>References</title><ref id="pgen-0010027-b01"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Trowsdale</surname><given-names>J</given-names></name></person-group>
+<year>2001</year>
+<article-title>Genetic and functional relationships between MHC and NK receptor genes</article-title>
+<source>Immunity</source>
+<volume>15</volume>
+<fpage>363</fpage>
+<lpage>374</lpage>
+<pub-id pub-id-type="pmid">11567627</pub-id></element-citation></ref><ref id="pgen-0010027-b02"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kasahara</surname><given-names>M</given-names></name><name><surname>Suzuki</surname><given-names>T</given-names></name><name><surname>Du Pasquier</surname><given-names>L</given-names></name></person-group>
+<year>2004</year>
+<article-title>On the origins of the adaptive immune system: Novel insights from invertebrates and cold-blooded vertebrates</article-title>
+<source>Trends Immunol</source>
+<volume>25</volume>
+<fpage>105</fpage>
+<lpage>111</lpage>
+<pub-id pub-id-type="pmid">15102370</pub-id></element-citation></ref><ref id="pgen-0010027-b03"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kelley</surname><given-names>J</given-names></name><name><surname>Walter</surname><given-names>L</given-names></name><name><surname>Trowsdale</surname><given-names>J</given-names></name></person-group>
+<year>2005</year>
+<article-title>Comparative genomics of major histocompatibility complexes</article-title>
+<source>Immunogenetics</source>
+<volume>56</volume>
+<fpage>683</fpage>
+<lpage>695</lpage>
+<pub-id pub-id-type="pmid">15605248</pub-id></element-citation></ref><ref id="pgen-0010027-b04"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Parham</surname><given-names>P</given-names></name></person-group>
+<year>2005</year>
+<article-title>MHC class I molecules and KIRs in human history, health and survival</article-title>
+<source>Nat Rev Immunol</source>
+<volume>5</volume>
+<fpage>201</fpage>
+<lpage>214</lpage>
+<pub-id pub-id-type="pmid">15719024</pub-id></element-citation></ref><ref id="pgen-0010027-b05"><element-citation publication-type="other">
+<person-group person-group-type="author"><name><surname>Kelley</surname><given-names>JM</given-names></name><name><surname>Trowsdale</surname><given-names>J</given-names></name></person-group>
+<year>2005</year>
+<article-title>Features of MHC and NK gene clusters</article-title>
+<source>Transpl Immunol</source>
+<comment>In press.</comment>
+</element-citation></ref><ref id="pgen-0010027-b06"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Long</surname><given-names>EO</given-names></name></person-group>
+<year>1999</year>
+<article-title>Regulation of immune responses through inhibitory receptors</article-title>
+<source>Ann Rev Immunol</source>
+<volume>17</volume>
+<fpage>875</fpage>
+<lpage>904</lpage>
+<pub-id pub-id-type="pmid">10358776</pub-id></element-citation></ref><ref id="pgen-0010027-b07"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Natarajan</surname><given-names>K</given-names></name><name><surname>Dimasi</surname><given-names>N</given-names></name><name><surname>Wang</surname><given-names>J</given-names></name><name><surname>Mariuzza</surname><given-names>RA</given-names></name><name><surname>Margulies</surname><given-names>DH</given-names></name></person-group>
+<year>2002</year>
+<article-title>Structure and function of natural killer cell receptors: Multiple molecular solutions to self, nonself discrimination</article-title>
+<source>Ann Rev Immunol</source>
+<volume>20</volume>
+<fpage>853</fpage>
+<lpage>885</lpage>
+<pub-id pub-id-type="pmid">11861620</pub-id></element-citation></ref><ref id="pgen-0010027-b08"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Vely</surname><given-names>F</given-names></name><name><surname>Vivier</surname><given-names>E</given-names></name></person-group>
+<year>1997</year>
+<article-title>Conservation of structural features reveals the existence of a large family of inhibitory cell surface receptors and noninhibitory/activatory counterparts</article-title>
+<source>J Immunol</source>
+<volume>159</volume>
+<fpage>2075</fpage>
+<lpage>2077</lpage>
+<pub-id pub-id-type="pmid">9278290</pub-id></element-citation></ref><ref id="pgen-0010027-b09"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Stebbins</surname><given-names>CC</given-names></name><name><surname>Watzl</surname><given-names>C</given-names></name><name><surname>Billadeau</surname><given-names>DD</given-names></name><name><surname>Leibson</surname><given-names>PJ</given-names></name><name><surname>Burshtyn</surname><given-names>DN</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>Vav1 dephosphorylation by the tyrosine phosphatase SHP-1 as a mechanism for inhibition of cellular cytotoxicity</article-title>
+<source>Mol Cell Biol</source>
+<volume>23</volume>
+<fpage>6291</fpage>
+<lpage>6299</lpage>
+<pub-id pub-id-type="pmid">12917349</pub-id></element-citation></ref><ref id="pgen-0010027-b10"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lanier</surname><given-names>LL</given-names></name></person-group>
+<year>2001</year>
+<article-title>On Guard&#x02014;Activating NK cell receptors</article-title>
+<source>Nat Immunol</source>
+<volume>2</volume>
+<fpage>23</fpage>
+<lpage>27</lpage>
+<pub-id pub-id-type="pmid">11135574</pub-id></element-citation></ref><ref id="pgen-0010027-b11"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Vivier</surname><given-names>E</given-names></name><name><surname>Nunes</surname><given-names>JA</given-names></name><name><surname>Vely</surname><given-names>F</given-names></name></person-group>
+<year>2004</year>
+<article-title>Natural killer cell signaling pathways</article-title>
+<source>Science</source>
+<volume>306</volume>
+<fpage>1517</fpage>
+<lpage>1519</lpage>
+<pub-id pub-id-type="pmid">15567854</pub-id></element-citation></ref><ref id="pgen-0010027-b12"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kikuchi-Maki</surname><given-names>A</given-names></name><name><surname>Yusa</surname><given-names>S</given-names></name><name><surname>Catina</surname><given-names>TL</given-names></name><name><surname>Campbell</surname><given-names>KS</given-names></name></person-group>
+<year>2003</year>
+<article-title>KIR2DL4 is an IL-2-regulated NK cell receptor that exhibits limited expression in humans but triggers strong IFN-gamma production</article-title>
+<source>J Immunol</source>
+<volume>171</volume>
+<fpage>3415</fpage>
+<lpage>3425</lpage>
+<pub-id pub-id-type="pmid">14500636</pub-id></element-citation></ref><ref id="pgen-0010027-b13"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Trowsdale</surname><given-names>J</given-names></name><name><surname>Barten</surname><given-names>R</given-names></name><name><surname>Haude</surname><given-names>A</given-names></name><name><surname>Stewart</surname><given-names>CA</given-names></name><name><surname>Beck</surname><given-names>S</given-names></name><etal/></person-group>
+<year>2001</year>
+<article-title>The genomic context of natural killer receptor extended gene families</article-title>
+<source>Immunol Rev</source>
+<volume>181</volume>
+<fpage>20</fpage>
+<lpage>38</lpage>
+<pub-id pub-id-type="pmid">11513141</pub-id></element-citation></ref><ref id="pgen-0010027-b14"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wende</surname><given-names>H</given-names></name><name><surname>Colonna</surname><given-names>M</given-names></name><name><surname>Ziegler</surname><given-names>A</given-names></name><name><surname>Volz</surname><given-names>A</given-names></name></person-group>
+<year>1999</year>
+<article-title>Organization of the leukocyte receptor cluster (LRC) on human chromosome 19q13.4</article-title>
+<source>Mamm Genome</source>
+<volume>10</volume>
+<fpage>154</fpage>
+<lpage>160</lpage>
+<pub-id pub-id-type="pmid">9922396</pub-id></element-citation></ref><ref id="pgen-0010027-b15"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Martin</surname><given-names>AM</given-names></name><name><surname>Kulski</surname><given-names>JK</given-names></name><name><surname>Witt</surname><given-names>C</given-names></name><name><surname>Pontarotti</surname><given-names>P</given-names></name><name><surname>Christiansen</surname><given-names>FT</given-names></name></person-group>
+<year>2002</year>
+<article-title>Leukocyte Ig-like receptor complex (LRC) in mice and men</article-title>
+<source>Trends Immunol</source>
+<volume>23</volume>
+<fpage>81</fpage>
+<lpage>88</lpage>
+<pub-id pub-id-type="pmid">11929131</pub-id></element-citation></ref><ref id="pgen-0010027-b16"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wilson</surname><given-names>MJ</given-names></name><name><surname>Torkar</surname><given-names>M</given-names></name><name><surname>Haude</surname><given-names>A</given-names></name><name><surname>Milne</surname><given-names>S</given-names></name><name><surname>Jones</surname><given-names>T</given-names></name><etal/></person-group>
+<year>2000</year>
+<article-title>Plasticity in the organization and sequences of human KIR/ILT gene families</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>97</volume>
+<fpage>4778</fpage>
+<lpage>4783</lpage>
+<pub-id pub-id-type="pmid">10781084</pub-id></element-citation></ref><ref id="pgen-0010027-b17"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Martin</surname><given-names>AM</given-names></name><name><surname>Freitas</surname><given-names>EM</given-names></name><name><surname>Witt</surname><given-names>CS</given-names></name><name><surname>Christiansen</surname><given-names>FT</given-names></name></person-group>
+<year>2000</year>
+<article-title>The genomic organization and evolution of the natural killer immunoglobulin-like receptor (KIR) gene cluster</article-title>
+<source>Immunogenetics</source>
+<volume>51</volume>
+<fpage>268</fpage>
+<lpage>280</lpage>
+<pub-id pub-id-type="pmid">10803839</pub-id></element-citation></ref><ref id="pgen-0010027-b18"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Vilches</surname><given-names>C</given-names></name><name><surname>Parham</surname><given-names>P</given-names></name></person-group>
+<year>2002</year>
+<article-title>KIR: Diverse, rapidly evolving receptors of innate and adaptive immunity</article-title>
+<source>Ann Rev Immunol</source>
+<volume>20</volume>
+<fpage>217</fpage>
+<lpage>251</lpage>
+<pub-id pub-id-type="pmid">11861603</pub-id></element-citation></ref><ref id="pgen-0010027-b19"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Martin</surname><given-names>MP</given-names></name><name><surname>Bashirova</surname><given-names>A</given-names></name><name><surname>Traherne</surname><given-names>J</given-names></name><name><surname>Trowsdale</surname><given-names>J</given-names></name><name><surname>Carrington</surname><given-names>M</given-names></name></person-group>
+<year>2003</year>
+<article-title>Cutting edge: Expansion of the KIR locus by unequal crossing over</article-title>
+<source>J Immunol</source>
+<volume>171</volume>
+<fpage>2192</fpage>
+<lpage>2195</lpage>
+<pub-id pub-id-type="pmid">12928362</pub-id></element-citation></ref><ref id="pgen-0010027-b20"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kikuchi-Maki</surname><given-names>A</given-names></name><name><surname>Catina</surname><given-names>TL</given-names></name><name><surname>Campbell</surname><given-names>KS</given-names></name></person-group>
+<year>2005</year>
+<article-title>Cutting edge: KIR2DL4 transduces signals into human NK cells through association with the Fc receptor {gamma} protein</article-title>
+<source>J Immunol</source>
+<volume>174</volume>
+<fpage>3859</fpage>
+<lpage>3863</lpage>
+<pub-id pub-id-type="pmid">15778339</pub-id></element-citation></ref><ref id="pgen-0010027-b21"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Torkar</surname><given-names>M</given-names></name><name><surname>Haude</surname><given-names>A</given-names></name><name><surname>Milne</surname><given-names>S</given-names></name><name><surname>Beck</surname><given-names>S</given-names></name><name><surname>Trowsdale</surname><given-names>J</given-names></name><etal/></person-group>
+<year>2000</year>
+<article-title>Arrangement of the ILT gene cluster: A common null allele of the ILT6 gene results from a 6.7-kbp deletion</article-title>
+<source>Eur J Immunol</source>
+<volume>30</volume>
+<fpage>3655</fpage>
+<lpage>3662</lpage>
+<pub-id pub-id-type="pmid">11169408</pub-id></element-citation></ref><ref id="pgen-0010027-b22"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kandil</surname><given-names>E</given-names></name><name><surname>Egashira</surname><given-names>M</given-names></name><name><surname>Miyoshi</surname><given-names>O</given-names></name><name><surname>Niikawa</surname><given-names>N</given-names></name><name><surname>Ishibashi</surname><given-names>T</given-names></name><etal/></person-group>
+<year>1996</year>
+<article-title>The human gene encoding the heavy chain of the major histocompatibility complex class I-like Fc receptor (FCGRT) maps to 19q13.3</article-title>
+<source>Cytogenet Cell Genet</source>
+<volume>73</volume>
+<fpage>97</fpage>
+<lpage>98</lpage>
+<pub-id pub-id-type="pmid">8646894</pub-id></element-citation></ref><ref id="pgen-0010027-b23"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Munday</surname><given-names>J</given-names></name><name><surname>Floyd</surname><given-names>H</given-names></name><name><surname>Crocker</surname><given-names>PR</given-names></name></person-group>
+<year>1999</year>
+<article-title>Sialic acid binding receptors (Siglecs) expressed by macrophages</article-title>
+<source>J Leukoc Biol</source>
+<volume>66</volume>
+<fpage>705</fpage>
+<lpage>711</lpage>
+<pub-id pub-id-type="pmid">10577497</pub-id></element-citation></ref><ref id="pgen-0010027-b24"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hammarstrom</surname><given-names>S</given-names></name></person-group>
+<year>1999</year>
+<article-title>The carcinoembryonic antigen (CEA) family: Structures, suggested functions and expression in normal and malignant tissues</article-title>
+<source>Semin Cancer Biol</source>
+<volume>9</volume>
+<fpage>67</fpage>
+<lpage>81</lpage>
+<pub-id pub-id-type="pmid">10202129</pub-id></element-citation></ref><ref id="pgen-0010027-b25"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Renedo</surname><given-names>M</given-names></name><name><surname>Arce</surname><given-names>I</given-names></name><name><surname>Rodriguez</surname><given-names>A</given-names></name><name><surname>Carretero</surname><given-names>M</given-names></name><name><surname>Lanier</surname><given-names>LL</given-names></name><etal/></person-group>
+<year>1997</year>
+<article-title>The human natural killer gene complex is located on chromosome 12p12-p13</article-title>
+<source>Immunogenetics</source>
+<volume>46</volume>
+<fpage>307</fpage>
+<lpage>311</lpage>
+<pub-id pub-id-type="pmid">9218532</pub-id></element-citation></ref><ref id="pgen-0010027-b26"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yokoyama</surname><given-names>WM</given-names></name><name><surname>Plougastel</surname><given-names>BF</given-names></name></person-group>
+<year>2003</year>
+<article-title>Immune functions encoded by the natural killer gene complex</article-title>
+<source>Nat Rev Immunol</source>
+<volume>3</volume>
+<fpage>304</fpage>
+<lpage>316</lpage>
+<pub-id pub-id-type="pmid">12669021</pub-id></element-citation></ref><ref id="pgen-0010027-b27"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Westgaard</surname><given-names>IH</given-names></name><name><surname>Berg</surname><given-names>SF</given-names></name><name><surname>Orstavik</surname><given-names>S</given-names></name><name><surname>Fossum</surname><given-names>S</given-names></name><name><surname>Dissen</surname><given-names>E</given-names></name></person-group>
+<year>1998</year>
+<article-title>Identification of a human member of the Ly-49 multigene family</article-title>
+<source>Eur J Immunol</source>
+<volume>28</volume>
+<fpage>1839</fpage>
+<lpage>1846</lpage>
+<pub-id pub-id-type="pmid">9645365</pub-id></element-citation></ref><ref id="pgen-0010027-b28"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lanier</surname><given-names>LL</given-names></name><name><surname>Chang</surname><given-names>C</given-names></name><name><surname>Phillips</surname><given-names>JH</given-names></name></person-group>
+<year>1994</year>
+<article-title>Human NKR-P1A. A disulfide-linked homodimer of the C-type lectin superfamily expressed by a subset of NK and T lymphocytes</article-title>
+<source>J Immunol</source>
+<volume>153</volume>
+<fpage>2417</fpage>
+<lpage>2428</lpage>
+<pub-id pub-id-type="pmid">8077657</pub-id></element-citation></ref><ref id="pgen-0010027-b29"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lazetic</surname><given-names>S</given-names></name><name><surname>Chang</surname><given-names>C</given-names></name><name><surname>Houchins</surname><given-names>JP</given-names></name><name><surname>Lanier</surname><given-names>LL</given-names></name><name><surname>Phillips</surname><given-names>JH</given-names></name></person-group>
+<year>1996</year>
+<article-title>Human natural killer cell receptors involved in MHC class I recognition are disulfide-linked heterodimers of CD94 and NKG2 Subunits</article-title>
+<source>J Immunol</source>
+<volume>157</volume>
+<fpage>4741</fpage>
+<lpage>4745</lpage>
+<pub-id pub-id-type="pmid">8943374</pub-id></element-citation></ref><ref id="pgen-0010027-b30"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Braud</surname><given-names>VM</given-names></name><name><surname>Allan</surname><given-names>DS</given-names></name><name><surname>O'Callaghan</surname><given-names>CA</given-names></name><name><surname>Soderstrom</surname><given-names>K</given-names></name><name><surname>D'Andrea</surname><given-names>A</given-names></name><etal/></person-group>
+<year>1998</year>
+<article-title>HLA-E binds to natural killer cell receptors CD94/NKG2A, B and C</article-title>
+<source>Nature</source>
+<volume>391</volume>
+<fpage>795</fpage>
+<lpage>799</lpage>
+<pub-id pub-id-type="pmid">9486650</pub-id></element-citation></ref><ref id="pgen-0010027-b31"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Vales-Gomez</surname><given-names>M</given-names></name><name><surname>Reyburn</surname><given-names>HT</given-names></name><name><surname>Erskine</surname><given-names>RA</given-names></name><name><surname>Lopez-Botet</surname><given-names>M</given-names></name><name><surname>Strominger</surname><given-names>JL</given-names></name></person-group>
+<year>1999</year>
+<article-title>Kinetics and peptide dependency of the binding of the inhibitory NK receptor CD94/NKG2-A and the activating receptor CD94/NKG2-C to HLA-E</article-title>
+<source>EMBO J</source>
+<volume>18</volume>
+<fpage>4250</fpage>
+<lpage>4260</lpage>
+<pub-id pub-id-type="pmid">10428963</pub-id></element-citation></ref><ref id="pgen-0010027-b32"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Plougastel</surname><given-names>B</given-names></name><name><surname>Trowsdale</surname><given-names>J</given-names></name></person-group>
+<year>1997</year>
+<article-title>Cloning of NKG2-F, a new member of the NKG2 family of human natural killer cell receptor genes</article-title>
+<source>Eur J Immunol</source>
+<volume>27</volume>
+<fpage>2835</fpage>
+<lpage>2839</lpage>
+<pub-id pub-id-type="pmid">9394807</pub-id></element-citation></ref><ref id="pgen-0010027-b33"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wu</surname><given-names>J</given-names></name><name><surname>Song</surname><given-names>Y</given-names></name><name><surname>Bakker</surname><given-names>AB</given-names></name><name><surname>Bauer</surname><given-names>S</given-names></name><name><surname>Spies</surname><given-names>T</given-names></name><etal/></person-group>
+<year>1999</year>
+<article-title>An activating immunoreceptor complex formed by NKG2D and DAP10</article-title>
+<source>Science</source>
+<volume>285</volume>
+<fpage>730</fpage>
+<lpage>732</lpage>
+<pub-id pub-id-type="pmid">10426994</pub-id></element-citation></ref><ref id="pgen-0010027-b34"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Billadeau</surname><given-names>DD</given-names></name><name><surname>Upshaw</surname><given-names>JL</given-names></name><name><surname>Schoon</surname><given-names>RA</given-names></name><name><surname>Dick</surname><given-names>CJ</given-names></name><name><surname>Leibson</surname><given-names>PJ</given-names></name></person-group>
+<year>2003</year>
+<article-title>NKG2D-DAP10 triggers human NK cell-mediated killing via a Syk-independent regulatory pathway</article-title>
+<source>Nat Immunol</source>
+<volume>4</volume>
+<fpage>557</fpage>
+<lpage>564</lpage>
+<pub-id pub-id-type="pmid">12740575</pub-id></element-citation></ref><ref id="pgen-0010027-b35"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cosman</surname><given-names>D</given-names></name><name><surname>Mullberg</surname><given-names>J</given-names></name><name><surname>Sutherland</surname><given-names>CL</given-names></name><name><surname>Chin</surname><given-names>W</given-names></name><name><surname>Armitage</surname><given-names>R</given-names></name><etal/></person-group>
+<year>2001</year>
+<article-title>ULBPs, novel MHC class I- related molecules, bind to CMV glycoprotein UL16 and stimulate NK cytotoxicity through the NKG2D receptor</article-title>
+<source>Immunity</source>
+<volume>14</volume>
+<fpage>123</fpage>
+<lpage>133</lpage>
+<pub-id pub-id-type="pmid">11239445</pub-id></element-citation></ref><ref id="pgen-0010027-b36"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Guthmann</surname><given-names>MD</given-names></name><name><surname>Tal</surname><given-names>M</given-names></name><name><surname>Pecht</surname><given-names>I</given-names></name></person-group>
+<year>1995</year>
+<article-title>A new member of the C-type lectin family is a modulator of the mast cell secretory response</article-title>
+<source>Int ArchAllergy Immunol</source>
+<volume>107</volume>
+<fpage>82</fpage>
+<lpage>86</lpage>
+</element-citation></ref><ref id="pgen-0010027-b37"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hamann</surname><given-names>J</given-names></name><name><surname>Montgomery</surname><given-names>KT</given-names></name><name><surname>Lau</surname><given-names>S</given-names></name><name><surname>Kucherlapati</surname><given-names>R</given-names></name><name><surname>van Lier</surname><given-names>RA</given-names></name></person-group>
+<year>1997</year>
+<article-title>AICL: A new activation-induced antigen encoded by the human NK gene complex</article-title>
+<source>Immunogenetics</source>
+<volume>45</volume>
+<fpage>295</fpage>
+<lpage>300</lpage>
+<pub-id pub-id-type="pmid">9038101</pub-id></element-citation></ref><ref id="pgen-0010027-b38"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Boles</surname><given-names>KS</given-names></name><name><surname>Barten</surname><given-names>R</given-names></name><name><surname>Kumaresan</surname><given-names>PR</given-names></name><name><surname>Trowsdale</surname><given-names>J</given-names></name><name><surname>Mathew</surname><given-names>PA</given-names></name></person-group>
+<year>1999</year>
+<article-title>Cloning of a new lectin-like receptor expressed on human NK cells</article-title>
+<source>Immunogenetics</source>
+<volume>50</volume>
+<fpage>1</fpage>
+<lpage>7</lpage>
+<pub-id pub-id-type="pmid">10541800</pub-id></element-citation></ref><ref id="pgen-0010027-b39"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bull</surname><given-names>C</given-names></name><name><surname>Sobanov</surname><given-names>Y</given-names></name><name><surname>Rohrdanz</surname><given-names>B</given-names></name><name><surname>O'Brien</surname><given-names>J</given-names></name><name><surname>Lehrach</surname><given-names>H</given-names></name><etal/></person-group>
+<year>2000</year>
+<article-title>The centromeric part of the human NK gene complex: Linkage of LOX-1 and LY49L with the CD94/NKG2 region</article-title>
+<source>Genes Immun</source>
+<volume>1</volume>
+<fpage>280</fpage>
+<lpage>287</lpage>
+<pub-id pub-id-type="pmid">11196705</pub-id></element-citation></ref><ref id="pgen-0010027-b40"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sobanov</surname><given-names>Y</given-names></name><name><surname>Bernreiter</surname><given-names>A</given-names></name><name><surname>Derdak</surname><given-names>S</given-names></name><name><surname>Mechtcheriakova</surname><given-names>D</given-names></name><name><surname>Schweighofer</surname><given-names>B</given-names></name><etal/></person-group>
+<year>2001</year>
+<article-title>A novel cluster of lectin-like receptor genes expressed in monocytic, dendritic and endothelial cells maps close to the NK receptor genes in the human NK gene complex</article-title>
+<source>Eur J Immunol</source>
+<volume>31</volume>
+<fpage>3493</fpage>
+<lpage>3503</lpage>
+<pub-id pub-id-type="pmid">11745369</pub-id></element-citation></ref><ref id="pgen-0010027-b41"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sambrook</surname><given-names>JG</given-names></name><name><surname>Bashirova</surname><given-names>A</given-names></name><name><surname>Palmer</surname><given-names>S</given-names></name><name><surname>Sims</surname><given-names>S</given-names></name><name><surname>Trowsdale</surname><given-names>J</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Single haplotype analysis demonstrates rapid evolution of the killer immunoglobulin-like receptor (KIR) loci in primates</article-title>
+<source>Genome Res</source>
+<volume>15</volume>
+<fpage>25</fpage>
+<lpage>35</lpage>
+<pub-id pub-id-type="pmid">15632087</pub-id></element-citation></ref><ref id="pgen-0010027-b42"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Khakoo</surname><given-names>SI</given-names></name><name><surname>Rajalingam</surname><given-names>R</given-names></name><name><surname>Shum</surname><given-names>BP</given-names></name><name><surname>Weidenbach</surname><given-names>K</given-names></name><name><surname>Flodin</surname><given-names>L</given-names></name><etal/></person-group>
+<year>2000</year>
+<article-title>Rapid evolution of NK cell receptor systems demonstrated by comparison of chimpanzees and humans</article-title>
+<source>Immunity</source>
+<volume>12</volume>
+<fpage>687</fpage>
+<lpage>698</lpage>
+<pub-id pub-id-type="pmid">10894168</pub-id></element-citation></ref><ref id="pgen-0010027-b43"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rajalingam</surname><given-names>R</given-names></name><name><surname>Parham</surname><given-names>P</given-names></name><name><surname>Abi-Rached</surname><given-names>L</given-names></name></person-group>
+<year>2004</year>
+<article-title>Domain shuffling has been the main mechanism forming new hominoid killer cell Ig-like receptors</article-title>
+<source>J Immunol</source>
+<volume>172</volume>
+<fpage>356</fpage>
+<lpage>369</lpage>
+<pub-id pub-id-type="pmid">14688344</pub-id></element-citation></ref><ref id="pgen-0010027-b44"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Guethlein</surname><given-names>LA</given-names></name><name><surname>Flodin</surname><given-names>LR</given-names></name><name><surname>Adams</surname><given-names>EJ</given-names></name><name><surname>Parham</surname><given-names>P</given-names></name></person-group>
+<year>2002</year>
+<article-title>NK cell receptors of the orangutan <italic>(Pongo pygmaeus):</italic> A pivotal species for tracking the coevolution of killer cell Ig-like receptors with MHC-C</article-title>
+<source>J Immunol</source>
+<volume>169</volume>
+<fpage>220</fpage>
+<lpage>229</lpage>
+<pub-id pub-id-type="pmid">12077248</pub-id></element-citation></ref><ref id="pgen-0010027-b45"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>LaBonte</surname><given-names>ML</given-names></name><name><surname>Hershberger</surname><given-names>KL</given-names></name><name><surname>Korber</surname><given-names>B</given-names></name><name><surname>Letvin</surname><given-names>NL</given-names></name></person-group>
+<year>2001</year>
+<article-title>The KIR and CD94/NKG2 families of molecules in the rhesus monkey</article-title>
+<source>Immunol Rev</source>
+<volume>183</volume>
+<fpage>25</fpage>
+<lpage>40</lpage>
+<pub-id pub-id-type="pmid">11782245</pub-id></element-citation></ref><ref id="pgen-0010027-b46"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hershberger</surname><given-names>KL</given-names></name><name><surname>Shyam</surname><given-names>R</given-names></name><name><surname>Miura</surname><given-names>A</given-names></name><name><surname>Letvin</surname><given-names>NL</given-names></name></person-group>
+<year>2001</year>
+<article-title>Diversity of the killer cell Ig-like receptors of rhesus monkeys</article-title>
+<source>J Immunol</source>
+<volume>166</volume>
+<fpage>4380</fpage>
+<lpage>4390</lpage>
+<pub-id pub-id-type="pmid">11254692</pub-id></element-citation></ref><ref id="pgen-0010027-b47"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hershberger</surname><given-names>KL</given-names></name><name><surname>Kurian</surname><given-names>J</given-names></name><name><surname>Korber</surname><given-names>BT</given-names></name><name><surname>Letvin</surname><given-names>NL</given-names></name></person-group>
+<year>2005</year>
+<article-title>Killer cell immunoglobulin-like receptors (KIR) of the African-origin sabaeus monkey: Evidence for recombination events in the evolution of KIR</article-title>
+<source>Eur J Immunol</source>
+<volume>35</volume>
+<fpage>922</fpage>
+<lpage>935</lpage>
+<pub-id pub-id-type="pmid">15714591</pub-id></element-citation></ref><ref id="pgen-0010027-b48"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Adams</surname><given-names>EJ</given-names></name><name><surname>Parham</surname><given-names>P</given-names></name></person-group>
+<year>2001</year>
+<article-title>Species-specific evolution of MHC class I genes in the higher primates</article-title>
+<source>Immunol Rev</source>
+<volume>183</volume>
+<fpage>41</fpage>
+<lpage>64</lpage>
+<pub-id pub-id-type="pmid">11782246</pub-id></element-citation></ref><ref id="pgen-0010027-b49"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Adams</surname><given-names>EJ</given-names></name><name><surname>Thomson</surname><given-names>G</given-names></name><name><surname>Parham</surname><given-names>P</given-names></name></person-group>
+<year>1999</year>
+<article-title>Evidence for an HLA-C-like locus in the orangutan <italic>Pongo pygmaeus</italic>
+</article-title>
+<source>Immunogenetics</source>
+<volume>49</volume>
+<fpage>865</fpage>
+<lpage>871</lpage>
+<pub-id pub-id-type="pmid">10436180</pub-id></element-citation></ref><ref id="pgen-0010027-b50"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Colonna</surname><given-names>M</given-names></name><name><surname>Borsellino</surname><given-names>G</given-names></name><name><surname>Falco</surname><given-names>M</given-names></name><name><surname>Ferrara</surname><given-names>GB</given-names></name><name><surname>Strominger</surname><given-names>JL</given-names></name></person-group>
+<year>1993</year>
+<article-title>HLA-C is the inhibitory ligand that determines dominant resistance to Lysis by NK1- and NK2-specific natural killer cells</article-title>
+<source>Procs Nat Acad Sci U S A</source>
+<volume>90</volume>
+<fpage>12000</fpage>
+<lpage>12004</lpage>
+</element-citation></ref><ref id="pgen-0010027-b51"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Khakoo</surname><given-names>SI</given-names></name><name><surname>Thio</surname><given-names>CL</given-names></name><name><surname>Martin</surname><given-names>MP</given-names></name><name><surname>Brooks</surname><given-names>CR</given-names></name><name><surname>Gao</surname><given-names>X</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>HLA and NK cell inhibitory receptor genes in resolving hepatitis C virus infection</article-title>
+<source>Science</source>
+<volume>305</volume>
+<fpage>872</fpage>
+<lpage>874</lpage>
+<pub-id pub-id-type="pmid">15297676</pub-id></element-citation></ref><ref id="pgen-0010027-b52"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Martin</surname><given-names>MP</given-names></name><name><surname>Nelson</surname><given-names>G</given-names></name><name><surname>Lee</surname><given-names>JH</given-names></name><name><surname>Pellett</surname><given-names>F</given-names></name><name><surname>Gao</surname><given-names>X</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>Cutting edge: Susceptibility to psoriatic arthritis: Influence of activating killer Ig-like receptor genes in the absence of specific HLA-C alleles</article-title>
+<source>J Immunol</source>
+<volume>169</volume>
+<fpage>2818</fpage>
+<lpage>2822</lpage>
+<pub-id pub-id-type="pmid">12218090</pub-id></element-citation></ref><ref id="pgen-0010027-b53"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>van der Slik</surname><given-names>AR</given-names></name><name><surname>Koeleman</surname><given-names>BP</given-names></name><name><surname>Verduijn</surname><given-names>W</given-names></name><name><surname>Bruining</surname><given-names>GJ</given-names></name><name><surname>Roep</surname><given-names>BO</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>KIR in type 1 diabetes: Disparate distribution of activating and inhibitory natural killer cell receptors in patients versus HLA-matched control subjects</article-title>
+<source>Diabetes</source>
+<volume>52</volume>
+<fpage>2639</fpage>
+<lpage>2642</lpage>
+<pub-id pub-id-type="pmid">14514651</pub-id></element-citation></ref><ref id="pgen-0010027-b54"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yen</surname><given-names>JH</given-names></name><name><surname>Moore</surname><given-names>BE</given-names></name><name><surname>Nakajima</surname><given-names>T</given-names></name><name><surname>Scholl</surname><given-names>D</given-names></name><name><surname>Schaid</surname><given-names>DJ</given-names></name><etal/></person-group>
+<year>2001</year>
+<article-title>Major histocompatibility complex class I-recognizing receptors are disease risk genes in rheumatoid arthritis</article-title>
+<source>J Exp Med</source>
+<volume>193</volume>
+<fpage>1159</fpage>
+<lpage>1167</lpage>
+<pub-id pub-id-type="pmid">11369787</pub-id></element-citation></ref><ref id="pgen-0010027-b55"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cook</surname><given-names>MA</given-names></name><name><surname>Milligan</surname><given-names>DW</given-names></name><name><surname>Fegan</surname><given-names>CD</given-names></name><name><surname>Darbyshire</surname><given-names>PJ</given-names></name><name><surname>Mahendra</surname><given-names>P</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>The impact of donor KIR and patient HLA-C genotypes on outcome following HLA-identical sibling hematopoietic stem cell transplantation for myeloid leukemia</article-title>
+<source>Blood</source>
+<volume>103</volume>
+<fpage>1521</fpage>
+<lpage>1526</lpage>
+<pub-id pub-id-type="pmid">14504099</pub-id></element-citation></ref><ref id="pgen-0010027-b56"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>King</surname><given-names>A</given-names></name><name><surname>Hiby</surname><given-names>SE</given-names></name><name><surname>Gardner</surname><given-names>L</given-names></name><name><surname>Joseph</surname><given-names>S</given-names></name><name><surname>Bowen</surname><given-names>JM</given-names></name><etal/></person-group>
+<year>2000</year>
+<article-title>Recognition of trophoblast HLA class I molecules by decidual NK cell receptors&#x02014;A review</article-title>
+<source>Placenta</source>
+<volume>2</volume>
+<fpage>S81</fpage>
+<lpage>S85</lpage>
+</element-citation></ref><ref id="pgen-0010027-b57"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Canavez</surname><given-names>F</given-names></name><name><surname>Young</surname><given-names>NT</given-names></name><name><surname>Guethlein</surname><given-names>LA</given-names></name><name><surname>Rajalingam</surname><given-names>R</given-names></name><name><surname>Khakoo</surname><given-names>SI</given-names></name><etal/></person-group>
+<year>2001</year>
+<article-title>Comparison of chimpanzee and human leukocyte Ig-like receptor genes reveals framework and rapidly evolving genes</article-title>
+<source>J Immunol</source>
+<volume>167</volume>
+<fpage>5786</fpage>
+<lpage>5794</lpage>
+<pub-id pub-id-type="pmid">11698452</pub-id></element-citation></ref><ref id="pgen-0010027-b58"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Shum</surname><given-names>BP</given-names></name><name><surname>Flodin</surname><given-names>LR</given-names></name><name><surname>Muir</surname><given-names>DG</given-names></name><name><surname>Rajalingam</surname><given-names>R</given-names></name><name><surname>Khakoo</surname><given-names>SI</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>Conservation and variation in human and common chimpanzee CD94 and NKG2 genes</article-title>
+<source>J Immunol</source>
+<volume>168</volume>
+<fpage>240</fpage>
+<lpage>252</lpage>
+<pub-id pub-id-type="pmid">11751968</pub-id></element-citation></ref><ref id="pgen-0010027-b59"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Barten</surname><given-names>R</given-names></name><name><surname>Trowsdale</surname><given-names>J</given-names></name></person-group>
+<year>1999</year>
+<article-title>The human Ly-49L gene</article-title>
+<source>Immunogenetics</source>
+<volume>49</volume>
+<fpage>731</fpage>
+<lpage>734</lpage>
+<pub-id pub-id-type="pmid">10369937</pub-id></element-citation></ref><ref id="pgen-0010027-b60"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mager</surname><given-names>DL</given-names></name><name><surname>McQueen</surname><given-names>KL</given-names></name><name><surname>Wee</surname><given-names>V</given-names></name><name><surname>Freeman</surname><given-names>JD</given-names></name></person-group>
+<year>2001</year>
+<article-title>Evolution of natural killer cell receptors: Coexistence of functional Ly49 and KIR genes in baboons</article-title>
+<source>Curr Biol</source>
+<volume>11</volume>
+<fpage>626</fpage>
+<lpage>630</lpage>
+<pub-id pub-id-type="pmid">11369209</pub-id></element-citation></ref><ref id="pgen-0010027-b61"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Welch</surname><given-names>AY</given-names></name><name><surname>Kasahara</surname><given-names>M</given-names></name><name><surname>Spain</surname><given-names>LM</given-names></name></person-group>
+<year>2003</year>
+<article-title>Identification of the mouse killer immunoglobulin-like receptor-like (Kirl) gene family mapping to chromosome X</article-title>
+<source>Immunogenetics</source>
+<volume>54</volume>
+<fpage>782</fpage>
+<lpage>790</lpage>
+<pub-id pub-id-type="pmid">12618911</pub-id></element-citation></ref><ref id="pgen-0010027-b62"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hoelsbrekken</surname><given-names>SE</given-names></name><name><surname>Nylenna</surname><given-names>O</given-names></name><name><surname>Saether</surname><given-names>PC</given-names></name><name><surname>Slettedal</surname><given-names>IO</given-names></name><name><surname>Ryan</surname><given-names>JC</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>Cutting edge: Molecular cloning of a killer cell Ig-like receptor in the mouse and rat</article-title>
+<source>J Immunol</source>
+<volume>170</volume>
+<fpage>2259</fpage>
+<lpage>2263</lpage>
+<pub-id pub-id-type="pmid">12594244</pub-id></element-citation></ref><ref id="pgen-0010027-b63"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bryceson</surname><given-names>YT</given-names></name><name><surname>Foster</surname><given-names>JA</given-names></name><name><surname>Kuppusamy</surname><given-names>SP</given-names></name><name><surname>Herkenham</surname><given-names>M</given-names></name><name><surname>Long</surname><given-names>EO</given-names></name></person-group>
+<year>2005</year>
+<article-title>Expression of a killer cell receptor-like gene in plastic regions of the central nervous system</article-title>
+<source>J Neuroimmunol</source>
+<volume>161</volume>
+<fpage>177</fpage>
+<lpage>182</lpage>
+<pub-id pub-id-type="pmid">15748957</pub-id></element-citation></ref><ref id="pgen-0010027-b64"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kubagawa</surname><given-names>H</given-names></name><name><surname>Cooper</surname><given-names>MD</given-names></name><name><surname>Chen</surname><given-names>CC</given-names></name><name><surname>Ho</surname><given-names>LH</given-names></name><name><surname>Alley</surname><given-names>TL</given-names></name><etal/></person-group>
+<year>1999</year>
+<article-title>Paired immunoglobulin-like receptors of activating and inhibitory types</article-title>
+<source>Curr Top Microbiol Immunol</source>
+<volume>244</volume>
+<fpage>137</fpage>
+<lpage>149</lpage>
+<pub-id pub-id-type="pmid">10453656</pub-id></element-citation></ref><ref id="pgen-0010027-b65"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Liang</surname><given-names>S</given-names></name><name><surname>Baibakov</surname><given-names>B</given-names></name><name><surname>Horuzsko</surname><given-names>A</given-names></name></person-group>
+<year>2002</year>
+<article-title>HLA-G inhibits the functions of murine dendritic cells via the PIR-B immune inhibitory receptor</article-title>
+<source>Eur J Immunol</source>
+<volume>32</volume>
+<fpage>2418</fpage>
+<lpage>2426</lpage>
+<pub-id pub-id-type="pmid">12207326</pub-id></element-citation></ref><ref id="pgen-0010027-b66"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Maruoka</surname><given-names>T</given-names></name><name><surname>Nagata</surname><given-names>T</given-names></name><name><surname>Kasahara</surname><given-names>M</given-names></name></person-group>
+<year>2004</year>
+<article-title>Identification of the rat IgA Fc receptor encoded in the leukocyte receptor complex</article-title>
+<source>Immunogenetics</source>
+<volume>55</volume>
+<fpage>712</fpage>
+<lpage>716</lpage>
+<pub-id pub-id-type="pmid">14647992</pub-id></element-citation></ref><ref id="pgen-0010027-b67"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Iizuka</surname><given-names>K</given-names></name><name><surname>Naidenko</surname><given-names>OV</given-names></name><name><surname>Plougastel</surname><given-names>BF</given-names></name><name><surname>Fremont</surname><given-names>DH</given-names></name><name><surname>Yokoyama</surname><given-names>WM</given-names></name></person-group>
+<year>2003</year>
+<article-title>Genetically linked C-type lectin-related ligands for the NKRP1 family of natural killer cell receptors</article-title>
+<source>Nature Immunology</source>
+<volume>4</volume>
+<fpage>801</fpage>
+<lpage>807</lpage>
+<pub-id pub-id-type="pmid">12858173</pub-id></element-citation></ref><ref id="pgen-0010027-b68"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chambers</surname><given-names>WH</given-names></name><name><surname>Vujanovic</surname><given-names>NL</given-names></name><name><surname>DeLeo</surname><given-names>AB</given-names></name><name><surname>Olszowy</surname><given-names>MW</given-names></name><name><surname>Herberman</surname><given-names>RB</given-names></name><etal/></person-group>
+<year>1989</year>
+<article-title>Monoclonal antibody to a triggering structure expressed on rat natural killer cells and adherent lymphokine-activated killer cells</article-title>
+<source>J Exp Med</source>
+<volume>169</volume>
+<fpage>1373</fpage>
+<lpage>1389</lpage>
+<pub-id pub-id-type="pmid">2466943</pub-id></element-citation></ref><ref id="pgen-0010027-b69"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Giorda</surname><given-names>R</given-names></name><name><surname>Rudert</surname><given-names>WA</given-names></name><name><surname>Vavassori</surname><given-names>C</given-names></name><name><surname>Chambers</surname><given-names>WH</given-names></name><name><surname>Hiserodt</surname><given-names>JC</given-names></name><etal/></person-group>
+<year>1990</year>
+<article-title>NKRP1, a signal transduction molecule on natural killer cells</article-title>
+<source>Science</source>
+<volume>249</volume>
+<fpage>1298</fpage>
+<lpage>1300</lpage>
+<pub-id pub-id-type="pmid">2399464</pub-id></element-citation></ref><ref id="pgen-0010027-b70"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Barten</surname><given-names>R</given-names></name><name><surname>Torkar</surname><given-names>M</given-names></name><name><surname>Haude</surname><given-names>A</given-names></name><name><surname>Trowsdale</surname><given-names>J</given-names></name><name><surname>Wilson</surname><given-names>MJ</given-names></name></person-group>
+<year>2001</year>
+<article-title>Divergent and convergent evolution of NK-cell receptors</article-title>
+<source>Trends Immunol</source>
+<volume>22</volume>
+<fpage>52</fpage>
+<lpage>57</lpage>
+<pub-id pub-id-type="pmid">11286693</pub-id></element-citation></ref><ref id="pgen-0010027-b71"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wilhelm</surname><given-names>BT</given-names></name><name><surname>Gagnier</surname><given-names>L</given-names></name><name><surname>Mager</surname><given-names>DL</given-names></name></person-group>
+<year>2002</year>
+<article-title>Sequence analysis of the Ly49 cluster in C57BL/6 mice: A rapidly evolving multigene family in the immune system</article-title>
+<source>Genomics</source>
+<volume>80</volume>
+<fpage>646</fpage>
+<lpage>661</lpage>
+<pub-id pub-id-type="pmid">12504856</pub-id></element-citation></ref><ref id="pgen-0010027-b72"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Proteau</surname><given-names>MF</given-names></name><name><surname>Rousselle</surname><given-names>E</given-names></name><name><surname>Makrigiannis</surname><given-names>AP</given-names></name></person-group>
+<year>2004</year>
+<article-title>Mapping of the BALB/c Ly49 cluster defines a minimal natural killer cell receptor gene repertoire</article-title>
+<source>Genomics</source>
+<volume>84</volume>
+<fpage>669</fpage>
+<lpage>677</lpage>
+<pub-id pub-id-type="pmid">15475244</pub-id></element-citation></ref><ref id="pgen-0010027-b73"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kamogawa-Schifter</surname><given-names>Y</given-names></name><name><surname>Ohkawa</surname><given-names>J</given-names></name><name><surname>Namiki</surname><given-names>S</given-names></name><name><surname>Arai</surname><given-names>N</given-names></name><name><surname>Arai</surname><given-names>KI</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Ly49Q defines two pDC subsets in mice</article-title>
+<source>Blood</source>
+<volume>105</volume>
+<fpage>2787</fpage>
+<lpage>2792</lpage>
+<pub-id pub-id-type="pmid">15598811</pub-id></element-citation></ref><ref id="pgen-0010027-b74"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Toyama-Sorimachi</surname><given-names>N</given-names></name><name><surname>Tsujimura</surname><given-names>Y</given-names></name><name><surname>Maruya</surname><given-names>M</given-names></name><name><surname>Onoda</surname><given-names>A</given-names></name><name><surname>Kubota</surname><given-names>T</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Ly49Q, a member of the Ly49 family that is selectively expressed on myeloid lineage cells and involved in regulation of cytoskeletal architecture</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>101</volume>
+<fpage>1016</fpage>
+<lpage>1021</lpage>
+<pub-id pub-id-type="pmid">14732700</pub-id></element-citation></ref><ref id="pgen-0010027-b75"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nylenna</surname><given-names>O</given-names></name><name><surname>Naper</surname><given-names>C</given-names></name><name><surname>Vaage</surname><given-names>JT</given-names></name><name><surname>Woon</surname><given-names>PY</given-names></name><name><surname>Gauguier</surname><given-names>D</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>The genes and gene organization of the Ly49 region of the rat natural killer cell gene complex</article-title>
+<source>Eur J Immunol</source>
+<volume>35</volume>
+<fpage>261</fpage>
+<lpage>272</lpage>
+<pub-id pub-id-type="pmid">15593300</pub-id></element-citation></ref><ref id="pgen-0010027-b76"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hao</surname><given-names>L</given-names></name><name><surname>Nei</surname><given-names>M</given-names></name></person-group>
+<year>2004</year>
+<article-title>Genomic organization and evolutionary analysis of Ly49 genes encoding the rodent natural killer cell receptors: Rapid evolution by repeated gene duplication</article-title>
+<source>Immunogenetics</source>
+<volume>56</volume>
+<fpage>343</fpage>
+<lpage>354</lpage>
+<pub-id pub-id-type="pmid">15316687</pub-id></element-citation></ref><ref id="pgen-0010027-b77"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hurt</surname><given-names>P</given-names></name><name><surname>Walter</surname><given-names>L</given-names></name><name><surname>Sudbrak</surname><given-names>R</given-names></name><name><surname>Klages</surname><given-names>S</given-names></name><name><surname>M&#x000fc;ller</surname><given-names>I</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>The genomic sequence and comparative analysis of the rat major histocompatibility complex</article-title>
+<source>Genome Res</source>
+<volume>14</volume>
+<fpage>631</fpage>
+<lpage>639</lpage>
+<pub-id pub-id-type="pmid">15060004</pub-id></element-citation></ref><ref id="pgen-0010027-b78"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hamerman</surname><given-names>JA</given-names></name><name><surname>Ogasawara</surname><given-names>K</given-names></name><name><surname>Lanier</surname><given-names>LL</given-names></name></person-group>
+<year>2005</year>
+<article-title>NK cells in innate immunity</article-title>
+<source>Curr Opin Immunol</source>
+<volume>17</volume>
+<fpage>29</fpage>
+<lpage>35</lpage>
+<pub-id pub-id-type="pmid">15653307</pub-id></element-citation></ref><ref id="pgen-0010027-b79"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Scalzo</surname><given-names>AA</given-names></name><name><surname>Lyons</surname><given-names>PA</given-names></name><name><surname>Fitzgerald</surname><given-names>NA</given-names></name><name><surname>Forbes</surname><given-names>CA</given-names></name><name><surname>Yokoyama</surname><given-names>WM</given-names></name><etal/></person-group>
+<year>1995</year>
+<article-title>Genetic mapping of Cmv1 in the region of mouse chromosome 6 encoding the NK gene complex-associated loci Ly49 and musNKR-P1</article-title>
+<source>Genomics</source>
+<volume>27</volume>
+<fpage>435</fpage>
+<lpage>441</lpage>
+<pub-id pub-id-type="pmid">7558024</pub-id></element-citation></ref><ref id="pgen-0010027-b80"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Brown</surname><given-names>MG</given-names></name><name><surname>Dokun</surname><given-names>AO</given-names></name><name><surname>Heusel</surname><given-names>JW</given-names></name><name><surname>Smith</surname><given-names>HR</given-names></name><name><surname>Beckman</surname><given-names>DL</given-names></name><etal/></person-group>
+<year>2001</year>
+<article-title>Vital involvement of a natural killer cell activation receptor in resistance to viral infection</article-title>
+<source>Science</source>
+<volume>292</volume>
+<fpage>934</fpage>
+<lpage>937</lpage>
+<pub-id pub-id-type="pmid">11340207</pub-id></element-citation></ref><ref id="pgen-0010027-b81"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Daniels</surname><given-names>KA</given-names></name><name><surname>Devora</surname><given-names>G</given-names></name><name><surname>Lai</surname><given-names>WC</given-names></name><name><surname>O'Donnell</surname><given-names>CL</given-names></name><name><surname>Bennett</surname><given-names>M</given-names></name><etal/></person-group>
+<year>2001</year>
+<article-title>Murine cytomegalovirus is regulated by a discrete subset of natural killer cells reactive with monoclonal antibody to Ly49h</article-title>
+<source>J Exp Med</source>
+<volume>194</volume>
+<fpage>29</fpage>
+<lpage>44</lpage>
+<pub-id pub-id-type="pmid">11435470</pub-id></element-citation></ref><ref id="pgen-0010027-b82"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lee</surname><given-names>SH</given-names></name><name><surname>Girard</surname><given-names>S</given-names></name><name><surname>Macina</surname><given-names>D</given-names></name><name><surname>Busa</surname><given-names>M</given-names></name><name><surname>Zafer</surname><given-names>A</given-names></name><etal/></person-group>
+<year>2001</year>
+<article-title>Susceptibility to mouse cytomegalovirus is associated with deletion of an activating natural killer cell receptor of the C-type lectin superfamily</article-title>
+<source>Nat Genetics</source>
+<volume>28</volume>
+<fpage>42</fpage>
+<lpage>45</lpage>
+<pub-id pub-id-type="pmid">11326273</pub-id></element-citation></ref><ref id="pgen-0010027-b83"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sjolin</surname><given-names>H</given-names></name><name><surname>Tomasello</surname><given-names>E</given-names></name><name><surname>Mousavi-Jazi</surname><given-names>M</given-names></name><name><surname>Bartolazzi</surname><given-names>A</given-names></name><name><surname>Karre</surname><given-names>K</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>Pivotal role of KARAP/DAP12 adaptor molecule in the natural killer cell-mediated resistance to murine cytomegalovirus infection</article-title>
+<source>J Expl Med</source>
+<volume>195</volume>
+<fpage>825</fpage>
+<lpage>834</lpage>
+</element-citation></ref><ref id="pgen-0010027-b84"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Arase</surname><given-names>H</given-names></name><name><surname>Mocarski</surname><given-names>ES</given-names></name><name><surname>Campbell</surname><given-names>AE</given-names></name><name><surname>Hill</surname><given-names>AB</given-names></name><name><surname>Lanier</surname><given-names>LL</given-names></name></person-group>
+<year>2002</year>
+<article-title>Direct recognition of cytomegalovirus by activating and inhibitory NK cell receptors</article-title>
+<source>Science</source>
+<volume>296</volume>
+<fpage>1323</fpage>
+<lpage>1326</lpage>
+<pub-id pub-id-type="pmid">11950999</pub-id></element-citation></ref><ref id="pgen-0010027-b85"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lopez-Botet</surname><given-names>M</given-names></name><name><surname>Angulo</surname><given-names>A</given-names></name><name><surname>Guma</surname><given-names>M</given-names></name></person-group>
+<year>2004</year>
+<article-title>Natural killer cell receptors for major histocompatibility complex class I and related molecules in cytomegalovirus infection</article-title>
+<source>Tissue Antigens</source>
+<volume>63</volume>
+<fpage>195</fpage>
+<lpage>203</lpage>
+<pub-id pub-id-type="pmid">14989708</pub-id></element-citation></ref><ref id="pgen-0010027-b86"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Vance</surname><given-names>RE</given-names></name><name><surname>Kraft</surname><given-names>JR</given-names></name><name><surname>Altman</surname><given-names>JD</given-names></name><name><surname>Jensen</surname><given-names>PE</given-names></name><name><surname>Raulet</surname><given-names>DH</given-names></name></person-group>
+<year>1998</year>
+<article-title>Mouse CD94/NKG2A is a natural killer cell receptor for the nonclassical major histocompatibility complex (MHC) Class I molecule Qa-1(b)</article-title>
+<source>J Exp Med</source>
+<volume>188</volume>
+<fpage>1841</fpage>
+<lpage>1848</lpage>
+<pub-id pub-id-type="pmid">9815261</pub-id></element-citation></ref><ref id="pgen-0010027-b87"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Watanabe</surname><given-names>Y</given-names></name><name><surname>Maruoka</surname><given-names>T</given-names></name><name><surname>Walter</surname><given-names>L</given-names></name><name><surname>Kasahara</surname><given-names>M</given-names></name></person-group>
+<year>2004</year>
+<article-title>Comparative genomics of the mill family: A rapidly evolving MHC class I gene family</article-title>
+<source>Eur J Immunol</source>
+<volume>34</volume>
+<fpage>1597</fpage>
+<lpage>1607</lpage>
+<pub-id pub-id-type="pmid">15162429</pub-id></element-citation></ref><ref id="pgen-0010027-b88"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ehrlich</surname><given-names>LI</given-names></name><name><surname>Ogasawara</surname><given-names>K</given-names></name><name><surname>Hamerman</surname><given-names>JA</given-names></name><name><surname>Takaki</surname><given-names>R</given-names></name><name><surname>Zingoni</surname><given-names>A</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Engagement of NKG2D by cognate ligand or antibody alone is insufficient to mediate costimulation of human and mouse CD8+ T cells</article-title>
+<source>J Immunol</source>
+<volume>174</volume>
+<fpage>1922</fpage>
+<lpage>1931</lpage>
+<pub-id pub-id-type="pmid">15699119</pub-id></element-citation></ref><ref id="pgen-0010027-b89"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rosen</surname><given-names>DB</given-names></name><name><surname>Araki</surname><given-names>M</given-names></name><name><surname>Hamerman</surname><given-names>JA</given-names></name><name><surname>Chen</surname><given-names>T</given-names></name><name><surname>Yamamura</surname><given-names>T</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>A structural basis for the association of DAP12 with mouse, but not human, NKG2D</article-title>
+<source>J Immunol</source>
+<volume>173</volume>
+<fpage>2470</fpage>
+<lpage>2478</lpage>
+<pub-id pub-id-type="pmid">15294961</pub-id></element-citation></ref><ref id="pgen-0010027-b90"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Storset</surname><given-names>AK</given-names></name><name><surname>Kulberg</surname><given-names>S</given-names></name><name><surname>Berg</surname><given-names>I</given-names></name><name><surname>Boysen</surname><given-names>P</given-names></name><name><surname>Hope</surname><given-names>JC</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>NKp46 defines a subset of bovine leukocytes with natural killer cell characteristics</article-title>
+<source>Eur J Immunol</source>
+<volume>34</volume>
+<fpage>669</fpage>
+<lpage>676</lpage>
+<pub-id pub-id-type="pmid">14991596</pub-id></element-citation></ref><ref id="pgen-0010027-b91"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Storset</surname><given-names>AK</given-names></name><name><surname>Slettedal</surname><given-names>IO</given-names></name><name><surname>Williams</surname><given-names>JL</given-names></name><name><surname>Law</surname><given-names>A</given-names></name><name><surname>Dissen</surname><given-names>E</given-names></name></person-group>
+<year>2003</year>
+<article-title>Natural killer cell receptors in cattle: A bovine killer cell immunoglobulin-like receptor multigene family contains members with divergent signaling motifs</article-title>
+<source>Eur J Immunol</source>
+<volume>33</volume>
+<fpage>980</fpage>
+<lpage>990</lpage>
+<pub-id pub-id-type="pmid">12672064</pub-id></element-citation></ref><ref id="pgen-0010027-b92"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Govaerts</surname><given-names>MM</given-names></name><name><surname>Goddeeris</surname><given-names>BM</given-names></name></person-group>
+<year>2001</year>
+<article-title>Homologues of natural killer cell receptors NKG2-D and NKR-P1 expressed in cattle</article-title>
+<source>Vet Immunol Immunopathol</source>
+<volume>80</volume>
+<fpage>339</fpage>
+<lpage>344</lpage>
+<pub-id pub-id-type="pmid">11457486</pub-id></element-citation></ref><ref id="pgen-0010027-b93"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>McQueen</surname><given-names>KL</given-names></name><name><surname>Freeman</surname><given-names>JD</given-names></name><name><surname>Takei</surname><given-names>F</given-names></name><name><surname>Mager</surname><given-names>DL</given-names></name></person-group>
+<year>1998</year>
+<article-title>Localization of five new Ly49 genes, including three closely related to Ly49c</article-title>
+<source>Immunogenetics</source>
+<volume>48</volume>
+<fpage>174</fpage>
+<lpage>183</lpage>
+<pub-id pub-id-type="pmid">9683662</pub-id></element-citation></ref><ref id="pgen-0010027-b94"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ahn</surname><given-names>JS</given-names></name><name><surname>Hamilton</surname><given-names>MJ</given-names></name><name><surname>Davis</surname><given-names>WC</given-names></name><name><surname>Park</surname><given-names>YH</given-names></name></person-group>
+<year>2002</year>
+<article-title>Cloning of bovine CD69</article-title>
+<source>Vet Immunol Immunopathol</source>
+<volume>88</volume>
+<fpage>43</fpage>
+<lpage>48</lpage>
+<pub-id pub-id-type="pmid">12088643</pub-id></element-citation></ref><ref id="pgen-0010027-b95"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gagnier</surname><given-names>L</given-names></name><name><surname>Wilhelm</surname><given-names>BT</given-names></name><name><surname>Mager</surname><given-names>DL</given-names></name></person-group>
+<year>2003</year>
+<article-title>Ly49 genes in non-rodent mammals</article-title>
+<source>Immunogenetics</source>
+<volume>55</volume>
+<fpage>109</fpage>
+<lpage>115</lpage>
+<pub-id pub-id-type="pmid">12712264</pub-id></element-citation></ref><ref id="pgen-0010027-b96"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Takahashi</surname><given-names>T</given-names></name><name><surname>Yawata</surname><given-names>M</given-names></name><name><surname>Raudsepp</surname><given-names>T</given-names></name><name><surname>Lear</surname><given-names>TL</given-names></name><name><surname>Chowdhary</surname><given-names>BP</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Natural killer cell receptors in the horse: Evidence for the existence of multiple transcribed LY49 genes</article-title>
+<source>Eur J Immunol</source>
+<volume>34</volume>
+<fpage>773</fpage>
+<lpage>784</lpage>
+<pub-id pub-id-type="pmid">14991607</pub-id></element-citation></ref><ref id="pgen-0010027-b97"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yim</surname><given-names>D</given-names></name><name><surname>Sotiriadis</surname><given-names>J</given-names></name><name><surname>Kim</surname><given-names>KS</given-names></name><name><surname>Shin</surname><given-names>SC</given-names></name><name><surname>Jie</surname><given-names>HB</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>Molecular cloning, expression pattern and chromosomal mapping of Pig CD69</article-title>
+<source>Immunogenetics</source>
+<volume>54</volume>
+<fpage>276</fpage>
+<lpage>281</lpage>
+<pub-id pub-id-type="pmid">12136339</pub-id></element-citation></ref><ref id="pgen-0010027-b98"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kaufman</surname><given-names>J</given-names></name><name><surname>Milne</surname><given-names>S</given-names></name><name><surname>Gobel</surname><given-names>TWF</given-names></name><name><surname>Walker</surname><given-names>BA</given-names></name><name><surname>Jacob</surname><given-names>JP</given-names></name><etal/></person-group>
+<year>1999</year>
+<article-title>The chicken B locus is a minimal major histocompatibility complex</article-title>
+<source>Nature</source>
+<volume>401</volume>
+<fpage>923</fpage>
+<lpage>925</lpage>
+<pub-id pub-id-type="pmid">10553909</pub-id></element-citation></ref><ref id="pgen-0010027-b99"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Viertlboeck</surname><given-names>BC</given-names></name><name><surname>Crooijmans</surname><given-names>RP</given-names></name><name><surname>Groenen</surname><given-names>MA</given-names></name><name><surname>Gobel</surname><given-names>TW</given-names></name></person-group>
+<year>2004</year>
+<article-title>Chicken Ig-like receptor B2, a member of a multigene family, is mainly expressed on B lymphocytes, recruits both Src homology 2 domain containing protein tyrosine phosphatase (SHP)-1 and SHP-2, and inhibits proliferation</article-title>
+<source>J Immunol</source>
+<volume>173</volume>
+<fpage>7385</fpage>
+<lpage>7393</lpage>
+<pub-id pub-id-type="pmid">15585863</pub-id></element-citation></ref><ref id="pgen-0010027-b100"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nikolaidis</surname><given-names>N</given-names></name><name><surname>Makalowska</surname><given-names>I</given-names></name><name><surname>Chalkia</surname><given-names>D</given-names></name><name><surname>Makalowski</surname><given-names>W</given-names></name><name><surname>Klein</surname><given-names>J</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Origin and evolution of the chicken leukocyte receptor complex</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>102</volume>
+<fpage>4057</fpage>
+<lpage>4062</lpage>
+<pub-id pub-id-type="pmid">15753291</pub-id></element-citation></ref><ref id="pgen-0010027-b101"><element-citation publication-type="other">
+<person-group person-group-type="author"><name><surname>Nikolaidis</surname><given-names>N</given-names></name><name><surname>Klein</surname><given-names>J</given-names></name><name><surname>Nei</surname><given-names>M</given-names></name></person-group>
+<year>2005</year>
+<article-title>&#x0003e;Origin and evolution of the Ig-like domains present in mammalian leukocyte receptors: Insights from chicken, frog, and fish homologues</article-title>
+<source>Immunogenetics</source>
+<comment>Epub 2005 March 7.</comment>
+</element-citation></ref><ref id="pgen-0010027-b102"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rogers</surname><given-names>SL</given-names></name><name><surname>Gobel</surname><given-names>TW</given-names></name><name><surname>Viertlboeck</surname><given-names>BC</given-names></name><name><surname>Milne</surname><given-names>S</given-names></name><name><surname>Beck</surname><given-names>S</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Characterization of the chicken C-type lectin-like receptors B-NK and B-lec suggests that the NK complex and the MHC share a common ancestral region</article-title>
+<source>J Immunol</source>
+<volume>174</volume>
+<fpage>3475</fpage>
+<lpage>3483</lpage>
+<pub-id pub-id-type="pmid">15749883</pub-id></element-citation></ref><ref id="pgen-0010027-b103"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yoder</surname><given-names>JA</given-names></name><name><surname>Mueller</surname><given-names>MG</given-names></name><name><surname>Wei</surname><given-names>S</given-names></name><name><surname>Corliss</surname><given-names>BC</given-names></name><name><surname>Prather</surname><given-names>DM</given-names></name><etal/></person-group>
+<year>2001</year>
+<article-title>Immune-type receptor genes in zebrafish share genetic and functional properties with genes encoded by the mammalian leukocyte receptor cluster</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>98</volume>
+<fpage>6771</fpage>
+<lpage>6776</lpage>
+<pub-id pub-id-type="pmid">11381126</pub-id></element-citation></ref><ref id="pgen-0010027-b104"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yoder</surname><given-names>JA</given-names></name><name><surname>Litman</surname><given-names>RT</given-names></name><name><surname>Mueller</surname><given-names>MG</given-names></name><name><surname>Desai</surname><given-names>S</given-names></name><name><surname>Dobrinski</surname><given-names>KP</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Resolution of the novel immune-type receptor gene cluster in zebrafish</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>101</volume>
+<fpage>15706</fpage>
+<lpage>15711</lpage>
+<pub-id pub-id-type="pmid">15496470</pub-id></element-citation></ref><ref id="pgen-0010027-b105"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kikuno</surname><given-names>R</given-names></name><name><surname>Sato</surname><given-names>A</given-names></name><name><surname>Mayer</surname><given-names>WE</given-names></name><name><surname>Shintani</surname><given-names>S</given-names></name><name><surname>Aoki</surname><given-names>T</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Clustering of C-type lectin natural killer receptor-like loci in the bony fish <italic>Oreochromis niloticus</italic>
+</article-title>
+<source>Scand J Immunol</source>
+<volume>59</volume>
+<fpage>133</fpage>
+<lpage>142</lpage>
+<pub-id pub-id-type="pmid">14871289</pub-id></element-citation></ref><ref id="pgen-0010027-b106"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sato</surname><given-names>A</given-names></name><name><surname>Mayer</surname><given-names>WE</given-names></name><name><surname>Overath</surname><given-names>P</given-names></name><name><surname>Klein</surname><given-names>J</given-names></name></person-group>
+<year>2003</year>
+<article-title>Genes encoding putative natural killer cell C-type lectin receptors in teleostean fishes</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>100</volume>
+<fpage>7779</fpage>
+<lpage>7784</lpage>
+<pub-id pub-id-type="pmid">12802013</pub-id></element-citation></ref><ref id="pgen-0010027-b107"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zimmerman</surname><given-names>AM</given-names></name><name><surname>Evenhuis</surname><given-names>JP</given-names></name><name><surname>Thorgaard</surname><given-names>GH</given-names></name><name><surname>Ristow</surname><given-names>SS</given-names></name></person-group>
+<year>2004</year>
+<article-title>A single major chromosomal region controls natural killer cell-like activity in rainbow trout</article-title>
+<source>Immunogenetics</source>
+<volume>55</volume>
+<fpage>825</fpage>
+<lpage>835</lpage>
+<pub-id pub-id-type="pmid">14968267</pub-id></element-citation></ref><ref id="pgen-0010027-b108"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wilhelm</surname><given-names>BT</given-names></name><name><surname>Mager</surname><given-names>DL</given-names></name></person-group>
+<year>2004</year>
+<article-title>Rapid expansion of the Ly49 gene cluster in rat</article-title>
+<source>Genomics</source>
+<volume>84</volume>
+<fpage>218</fpage>
+<lpage>221</lpage>
+<pub-id pub-id-type="pmid">15203220</pub-id></element-citation></ref><ref id="pgen-0010027-b109"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Trowsdale</surname><given-names>J</given-names></name><name><surname>Parham</surname><given-names>P</given-names></name></person-group>
+<year>2004</year>
+<article-title>Defense strategies and immune-related genes</article-title>
+<source>Eur J Immunol</source>
+<volume>34</volume>
+<fpage>7</fpage>
+<lpage>17</lpage>
+<pub-id pub-id-type="pmid">14971025</pub-id></element-citation></ref><ref id="pgen-0010027-b110"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lynch</surname><given-names>M</given-names></name><name><surname>Conery</surname><given-names>JS</given-names></name></person-group>
+<year>2003</year>
+<article-title>The evolutionary demography of duplicate genes</article-title>
+<source>J Struct Funct Genomics</source>
+<volume>3</volume>
+<fpage>35</fpage>
+<lpage>44</lpage>
+<pub-id pub-id-type="pmid">12836683</pub-id></element-citation></ref><ref id="pgen-0010027-b111"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Abi-Rached</surname><given-names>L</given-names></name><name><surname>Parham</surname><given-names>P</given-names></name></person-group>
+<year>2005</year>
+<article-title>Natural selection drives recurrent formation of activating killer cell immunoglobulin-like receptor and Ly49 from inhibitory homologues</article-title>
+<source>J Exp Med</source>
+<volume>201</volume>
+<fpage>1319</fpage>
+<lpage>1332</lpage>
+<pub-id pub-id-type="pmid">15837816</pub-id></element-citation></ref><ref id="pgen-0010027-b112"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Desrosiers</surname><given-names>MP</given-names></name><name><surname>Kielczewska</surname><given-names>A</given-names></name><name><surname>Loredo-Osti</surname><given-names>JC</given-names></name><name><surname>Adam</surname><given-names>SG</given-names></name><name><surname>Makrigiannis</surname><given-names>AP</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Epistasis between mouse Klra and major histocompatibility complex class I loci is associated with a new mechanism of natural killer cell-mediated innate resistance to cytomegalovirus infection</article-title>
+<source>Nat Genetics</source>
+<volume>37</volume>
+<fpage>593</fpage>
+<lpage>599</lpage>
+<pub-id pub-id-type="pmid">15895081</pub-id></element-citation></ref><ref id="pgen-0010027-b113"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dam</surname><given-names>J</given-names></name><name><surname>Guan</surname><given-names>R</given-names></name><name><surname>Natarajan</surname><given-names>K</given-names></name><name><surname>Dimasi</surname><given-names>N</given-names></name><name><surname>Chlewicki</surname><given-names>LK</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>Variable MHC class I engagement by Ly49 natural killer cell receptors demonstrated by the crystal structure of Ly49C bound to H-2K(b)</article-title>
+<source>Nat Immunol</source>
+<volume>4</volume>
+<fpage>1213</fpage>
+<lpage>1222</lpage>
+<pub-id pub-id-type="pmid">14595439</pub-id></element-citation></ref><ref id="pgen-0010027-b114"><element-citation publication-type="other">
+<person-group person-group-type="author"><name><surname>Stewart</surname><given-names>CA</given-names></name><name><surname>Laugier-Anfossi</surname><given-names>F</given-names></name><name><surname>Vely</surname><given-names>F</given-names></name><name><surname>Saulquin</surname><given-names>X</given-names></name><name><surname>Riedmuller</surname><given-names>J</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Recognition of peptide-MHC class I complexes by activating killer immunoglobulin-like receptors</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<comment>In press.</comment>
+</element-citation></ref><ref id="pgen-0010027-b115"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Springer</surname><given-names>MS</given-names></name><name><surname>Murphy</surname><given-names>WJ</given-names></name><name><surname>Eizirik</surname><given-names>E</given-names></name><name><surname>O'Brien</surname><given-names>SJ</given-names></name></person-group>
+<year>2003</year>
+<article-title>Placental mammal diversification and the cretaceous-tertiary boundary</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>100</volume>
+<fpage>1056</fpage>
+<lpage>1061</lpage>
+<pub-id pub-id-type="pmid">12552136</pub-id></element-citation></ref><ref id="pgen-0010027-b116"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Biron</surname><given-names>CA</given-names></name><name><surname>Nguyen</surname><given-names>KB</given-names></name><name><surname>Pien</surname><given-names>GC</given-names></name><name><surname>Cousens</surname><given-names>LP</given-names></name><name><surname>Salazar-Mather</surname><given-names>TP</given-names></name></person-group>
+<year>1999</year>
+<article-title>Natural killer cells in antiviral defense: Function and regulation by innate cytokines</article-title>
+<source>Ann Rev Immunol</source>
+<volume>17</volume>
+<fpage>189</fpage>
+<lpage>220</lpage>
+<pub-id pub-id-type="pmid">10358757</pub-id></element-citation></ref><ref id="pgen-0010027-b117"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ludwig</surname><given-names>B</given-names></name><name><surname>Kraus</surname><given-names>FB</given-names></name><name><surname>Allwinn</surname><given-names>R</given-names></name><name><surname>Doerr</surname><given-names>HW</given-names></name><name><surname>Preiser</surname><given-names>W</given-names></name></person-group>
+<year>2003</year>
+<article-title>Viral zoonoses&#x02014;A threat under control?</article-title>
+<source>Intervirology</source>
+<volume>46</volume>
+<fpage>71</fpage>
+<lpage>78</lpage>
+<pub-id pub-id-type="pmid">12684545</pub-id></element-citation></ref><ref id="pgen-0010027-b118"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Parham</surname><given-names>P</given-names></name><name><surname>Ohta</surname><given-names>T</given-names></name></person-group>
+<year>1996</year>
+<article-title>Population Biology of Antigen Presentation by MHC Class I Molecules</article-title>
+<source>Science</source>
+<volume>272</volume>
+<fpage>67</fpage>
+<lpage>74</lpage>
+<pub-id pub-id-type="pmid">8600539</pub-id></element-citation></ref><ref id="pgen-0010027-b119"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hill</surname><given-names>AV</given-names></name></person-group>
+<year>1999</year>
+<article-title>Immunogenetics. Defence by diversity</article-title>
+<source>Nature</source>
+<volume>398</volume>
+<fpage>668</fpage>
+<lpage>669</lpage>
+<pub-id pub-id-type="pmid">10227287</pub-id></element-citation></ref><ref id="pgen-0010027-b120"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hiby</surname><given-names>SE</given-names></name><name><surname>Walker</surname><given-names>JJ</given-names></name><name><surname>O'Shaughnessy</surname><given-names>KM</given-names></name><name><surname>Redman</surname><given-names>CW</given-names></name><name><surname>Carrington</surname><given-names>M</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Combinations of maternal KIR and fetal HLA-C genes influence the risk of preeclampsia and reproductive success</article-title>
+<source>J Exp Med</source>
+<volume>200</volume>
+<fpage>957</fpage>
+<lpage>965</lpage>
+<pub-id pub-id-type="pmid">15477349</pub-id></element-citation></ref><ref id="pgen-0010027-b121"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Henry</surname><given-names>J</given-names></name><name><surname>Miller</surname><given-names>MM</given-names></name><name><surname>Pontarotti</surname><given-names>P</given-names></name></person-group>
+<year>1999</year>
+<article-title>Structure and evolution of the extended B7 family</article-title>
+<source>Immunol Today</source>
+<volume>20</volume>
+<fpage>285</fpage>
+<lpage>288</lpage>
+<pub-id pub-id-type="pmid">10354554</pub-id></element-citation></ref><ref id="pgen-0010027-b122"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kelley</surname><given-names>J</given-names></name><name><surname>de Bono</surname><given-names>B</given-names></name><name><surname>Trowsdale</surname><given-names>J</given-names></name></person-group>
+<year>2005</year>
+<article-title>IRIS: A database surveying known human immune system genes</article-title>
+<source>Genomics</source>
+<volume>85</volume>
+<fpage>803</fpage>
+<lpage>833</lpage>
+</element-citation></ref><ref id="pgen-0010027-b123"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wheeler</surname><given-names>DL</given-names></name><name><surname>Barrett</surname><given-names>T</given-names></name><name><surname>Benson</surname><given-names>DA</given-names></name><name><surname>Bryant</surname><given-names>SH</given-names></name><name><surname>Canese</surname><given-names>K</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Database resources of the national center for biotechnology information</article-title>
+<source>Nucleic Acids Res</source>
+<volume>33</volume>
+<fpage>D39</fpage>
+<lpage>D45</lpage>
+<pub-id pub-id-type="pmid">15608222</pub-id></element-citation></ref></ref-list></back></article>

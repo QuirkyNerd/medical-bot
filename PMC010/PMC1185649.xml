@@ -1,0 +1,576 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="review-article"><?properties open_access?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS Comput Biol</journal-id><journal-id journal-id-type="iso-abbrev">PLoS Comput. Biol</journal-id><journal-id journal-id-type="publisher-id">pcbi</journal-id><journal-id journal-id-type="publisher-id">plcb</journal-id><journal-id journal-id-type="pmc">ploscomp</journal-id><journal-title-group><journal-title>PLoS Computational Biology</journal-title></journal-title-group><issn pub-type="ppub">1553-734X</issn><issn pub-type="epub">1553-7358</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">16110337</article-id><article-id pub-id-type="pmc">PMC1185649</article-id><article-id pub-id-type="doi">10.1371/journal.pcbi.0010024</article-id><article-id pub-id-type="publisher-id">05-PLCB-RV-0069R2</article-id><article-id pub-id-type="sici">plcb-01-02-08</article-id><article-categories><subj-group subj-group-type="heading"><subject>Review</subject></subj-group><subj-group subj-group-type="Discipline"><subject>Bioinformatics - Computational Biology</subject></subj-group><subj-group subj-group-type="System Taxonomy"><subject>Eubacteria</subject></subj-group></article-categories><title-group><article-title>Bioinformatics for Whole-Genome Shotgun Sequencing of Microbial Communities</article-title><alt-title alt-title-type="running-head">Review</alt-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Chen</surname><given-names>Kevin</given-names></name><xref ref-type="corresp" rid="cor1">*</xref></contrib><contrib contrib-type="author"><name><surname>Pachter</surname><given-names>Lior</given-names></name><xref ref-type="corresp" rid="cor1">*</xref></contrib></contrib-group><author-notes><fn fn-type="current-aff"><p>Kevin Chen is in the Department of Electrical Engineering and Computer Science and Lior Pachter is in the Department of Mathematics at the University of California, Berkeley, California, United States of America.</p></fn><corresp id="cor1">*To whom correspondence should be addressed. E-mail: <email>kevinc@cs.berkeley.edu (KC), lpachter@math.berkeley.edu (LP)</email></corresp></author-notes><pub-date pub-type="ppub"><month>7</month><year>2005</year></pub-date><pub-date pub-type="epub"><day>12</day><month>7</month><year>2005</year></pub-date><volume>1</volume><issue>2</issue><elocation-id>e24</elocation-id><permissions><copyright-statement>Copyright: &#x000a9; 2005 Chen and Pachter.</copyright-statement><copyright-year>2005</copyright-year><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p></license></permissions><abstract><p>The application of whole-genome shotgun sequencing to microbial communities represents a major development in metagenomics, the study of uncultured microbes via the tools of modern genomic analysis. In the past year, whole-genome shotgun sequencing projects of prokaryotic communities from an acid mine biofilm, the Sargasso Sea, Minnesota farm soil, three deep-sea whale falls, and deep-sea sediments have been reported, adding to previously published work on viral communities from marine and fecal samples. The interpretation of this new kind of data poses a wide variety of exciting and difficult bioinformatics problems. The aim of this review is to introduce the bioinformatics community to this emerging field by surveying existing techniques and promising new approaches for several of the most interesting of these computational problems.</p></abstract><custom-meta-group><custom-meta><meta-name>Citation:</meta-name><meta-value>Chen K, Pachter L (2005) Bioinformatics for whole-genome shotgun sequencing of microbial communities. PLoS Comp Biol 1(2): e24.</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec id="s1"><title>Introduction</title><p>Metagenomics is the application of modern genomics techniques to the study of communities of microbial organisms directly in their natural environments, bypassing the need for isolation and lab cultivation of individual species [<xref rid="pcbi-0010024-b01" ref-type="bibr">1</xref>&#x02013;<xref rid="pcbi-0010024-b06" ref-type="bibr">6</xref>]. The field has its roots in the culture-independent retrieval of <italic>16S</italic> rRNA genes, pioneered by Pace and colleagues two decades ago [<xref rid="pcbi-0010024-b07" ref-type="bibr">7</xref>]. Since then, metagenomics has revolutionized microbiology by shifting focus away from clonal isolates towards the estimated 99% of microbial species that cannot currently be cultivated [<xref rid="pcbi-0010024-b08" ref-type="bibr">8</xref>,<xref rid="pcbi-0010024-b09" ref-type="bibr">9</xref>].</p><p>A typical metagenomics project begins with the construction of a clone library from DNA sequence retrieved from an environmental sample. Clones are then selected for sequencing using either functional or sequence-based screens. In the functional approach, genes retrieved from the environment are heterologously expressed in a host, such as <italic>Escherichia coli,</italic> and sophisticated functional screens employed to detect clones expressing functions of interest [<xref rid="pcbi-0010024-b10" ref-type="bibr">10</xref>&#x02013;<xref rid="pcbi-0010024-b12" ref-type="bibr">12</xref>]. This approach has produced many exciting discoveries and spawned several companies aiming to retrieve marketable natural products from the environment (e.g., Diversa [<ext-link ext-link-type="uri" xlink:href="http://www.diversa.com">http://www.diversa.com</ext-link>] and Cubist Pharmaceuticals [<ext-link ext-link-type="uri" xlink:href="http://www.cubist.com">http://www.cubist.com</ext-link>]). In the sequence-based approach, clones are selected for sequencing based on the presence of either phylogenetically informative genes, such as <italic>16S,</italic> or other genes of biological interest [<xref rid="pcbi-0010024-b13" ref-type="bibr">13</xref>&#x02013;<xref rid="pcbi-0010024-b17" ref-type="bibr">17</xref>]. The most prominent discovery from this approach thus far is the discovery of the proteorhodopsin gene from a marine community [<xref rid="pcbi-0010024-b14" ref-type="bibr">14</xref>].</p><p>Recently, facilitated by the increasing capacity of sequencing centers, whole-genome shotgun (WGS) sequencing of the entire clone library has emerged as a third approach to metagenomics. Unlike previous approaches, which typically study a single gene or individual genomes, this approach offers a more global view of the community, allowing us to better assess levels of phylogenetic diversity and intraspecies polymorphism, study the full gene complement and metabolic pathways in the community, and in some cases, reconstruct near-complete genome sequences. WGS also has the potential to discover new genes that are too diverged from currently known genes to be amplified with PCR, or heterologously expressed in common hosts, and is especially important in the case of viral communities because of the lack of a universal gene analogous to <italic>16S</italic>.</p><p>Nine shotgun sequencing projects of various communities have been completed to date (<xref ref-type="table" rid="pcbi-0010024-t001">Table 1</xref>). The biological insights from these studies have been well-reviewed elsewhere [<xref rid="pcbi-0010024-b03" ref-type="bibr">3</xref>,<xref rid="pcbi-0010024-b06" ref-type="bibr">6</xref>]. Here, we highlight just two studies that exemplify the exciting possibilities of the approach. The acid mine biofilm community [<xref rid="pcbi-0010024-b18" ref-type="bibr">18</xref>] is an extremely simple model system, consisting of only four dominant species, so a relatively miniscule amount of shotgun sequencing (75 Mbp) was enough to produce two near-complete genome sequences and detailed information about metabolic pathways and strain-level polymorphism. At the other end of the spectrum, the Sargasso Sea community is extremely complex, containing more than 1,800 species [<xref rid="pcbi-0010024-b19" ref-type="bibr">19</xref>,<xref rid="pcbi-0010024-b20" ref-type="bibr">20</xref>]. Nonetheless, with an enormous amount of sequencing (1.6 Gbp), vast amounts of previously unknown diversity were discovered, including over 1.2 million new genes, 148 new species, and numerous new rhodopsin genes. These results were especially surprising given how well the community had been studied previously, and suggest that equally large amounts of biological diversity await future discovery.</p><table-wrap id="pcbi-0010024-t001" content-type="2col" position="float"><label>Table 1</label><caption><p>Published Microbial Community Shotgun Sequencing Projects</p></caption><graphic xlink:href="pcbi.0010024.t001"/><table-wrap-foot><fn id="nt101"><p>
+<sup>a</sup>The deep-sea sediment project used an additional 20 Mbp of fosmid sequence and also a filter to reduce the complexity of the community prior to sequencing.</p></fn><fn id="nt102"><p>
+<sup>b</sup>The viral projects used linker-amplified shotgun libraries.</p></fn></table-wrap-foot></table-wrap><p>In this review, we survey several of the most interesting computational problems that arise from WGS sequencing of communities. Traditional approaches to classic bioinformatics problems such as assembly, gene finding, and phylogeny need to be reconsidered in light of this new kind of data, while new problems need to be addressed, including how to compare communities, how to separate sequence from different organisms in silico, and how to model population structures using WGS assembly statistics. We discuss all these problems and their connections to other areas of bioinformatics, such as the assembly of highly polymorphic genomes, gene expression analysis, and supertree methods for phylogenetic reconstruction.</p><p>Although we have chosen to focus on the shotgun sequencing approach, we stress that this is only one piece of the exciting field of metagenomics, and that the integration of other techniques such as large-insert clone sequencing, microarray analysis, and proteomics will be vital to achieve a comprehensive view of microbial communities.</p></sec><sec id="s2"><title>Assembling Communities</title><p>The retrieval of nearly complete genomes from the environment without prior lab cultivation is one of the most spectacular results of metagenomics to date. A fundamental limit on the WGS approach is that we can only expect to assemble genomes that constitute a significant fraction of the community [<xref rid="pcbi-0010024-b21" ref-type="bibr">21</xref>]. Filtration and normalization techniques that enrich the library for certain low-abundance species, a common technique in the sequencing of symbionts, are thus of vital importance when genome assembly is a primary goal [<xref rid="pcbi-0010024-b22" ref-type="bibr">22</xref>,<xref rid="pcbi-0010024-b23" ref-type="bibr">23</xref>].</p><p>When a closely related, fully sequenced genome is available, comparative assembly can easily be performed by extracting the homologous sequence and assembling it with either a comparative assembler [<xref rid="pcbi-0010024-b24" ref-type="bibr">24</xref>] or an alignment program that can handle draft sequence [<xref rid="pcbi-0010024-b25" ref-type="bibr">25</xref>,<xref rid="pcbi-0010024-b26" ref-type="bibr">26</xref>]. This approach is standard and has been used many times for mixed sequence from multiple species ([<xref rid="pcbi-0010024-b19" ref-type="bibr">19</xref>,<xref rid="pcbi-0010024-b27" ref-type="bibr">27</xref>]; E. Allen, unpublished data).</p><p>In the absence of an appropriate template genome, traditional overlap&#x02013;layout&#x02013;consensus assembly [<xref rid="pcbi-0010024-b28" ref-type="bibr">28</xref>] can be done, augmented by an additional binning step, in which scaffolds (contiguous sequence with gaps of approximately known size) are separated into species-specific &#x0201c;bins.&#x0201d; The first issue that needs to be overcome is the increased amount of polymorphism, since each read will typically be sampled from a different individual in the population. Second, highly conserved sequence shared between different species can seed contigs and cause false overlaps. In some communities, even phylogenetically distant genomes can share a large number of genes [<xref rid="pcbi-0010024-b29" ref-type="bibr">29</xref>]. Careful study of the optimal overlap parameters for separating out sequences at different phylogenetic distances is important, and has been carried out for viral communities [<xref rid="pcbi-0010024-b30" ref-type="bibr">30</xref>], but not yet for prokaryotes.</p><p>The assembly of communities has strong similarities to the assembly of highly polymorphic diploid eukaryotes, such as <italic>Ciona savigny</italic> [<xref rid="pcbi-0010024-b26" ref-type="bibr">26</xref>] and <italic>Candida albicans</italic> [<xref rid="pcbi-0010024-b31" ref-type="bibr">31</xref>], if we view prokaryotic strains as analogous to eukaryotic haplotypes. The main difference is that in a microbial community, the number of strains is unknown and potentially large, and their relative abundance is also unknown and potentially skewed, while in most eukaryotes we know a priori the number of haplotypes and their relative abundance. This disadvantage is mitigated somewhat by the small size and relative lack of repetitive sequence in prokaryotic and viral genomes, so that the issue of distinguishing alleles from paralogs and polymorphism from repetitive sequence is less acute.</p><p>Thus far, both community assembly and polymorphic eukaryotic assembly have been performed by running a single-genome assembler, such as the Celera assembler [<xref rid="pcbi-0010024-b32" ref-type="bibr">32</xref>] or Jazz [<xref rid="pcbi-0010024-b33" ref-type="bibr">33</xref>], and then manually post-processing the resulting scaffolds to correct assembly errors. Contigs erroneously split apart because of polymorphism are reconnected, and contigs based on false overlaps are broken apart. Not surprisingly, ad hoc heuristics must be employed to adapt programs optimized for single-genome assembly: the Celera assembler, for instance, treats high-depth contigs associated with abundant species as repetitive sequence.</p><p>A promising direction for both these problems is co-assembly, in which two very closely related genomes (or even two assemblies of the same genome) are assembled concurrently, using alignment information to complement mate-pair information in ordering scaffolds and correcting assembly errors in a structured, automated way. Thus far, the only published work on this problem is that of Sundararajan et al. [<xref rid="pcbi-0010024-b26" ref-type="bibr">26</xref>], and even then, only for two genomes. For three or more genomes, even the multiple alignment problem for draft sequence is not solved. Large-insert clone sequence will also be very useful since the entire clone comes from a single strain or haplotype [<xref rid="pcbi-0010024-b22" ref-type="bibr">22</xref>,<xref rid="pcbi-0010024-b34" ref-type="bibr">34</xref>].</p><p>After scaffolds have been constructed, the next step is to bin the scaffolds according to species or phylogenetic clade. The gold standard for binning is the presence of a phylogenetically informative gene. <italic>16S</italic> rRNA, though universal, is decidedly not single copy, so it is important to also consider other genes, such as <italic>RecA, EFG, EFTu,</italic> and <italic>HSP70</italic> [<xref rid="pcbi-0010024-b19" ref-type="bibr">19</xref>]. In the absence of one of these genes, genome signatures such as dinucleotide frequencies, codon bias, and GC-content, developed by Karlin and others in a long series of papers [<xref rid="pcbi-0010024-b35" ref-type="bibr">35</xref>&#x02013;<xref rid="pcbi-0010024-b38" ref-type="bibr">38</xref>], can be used. These signatures appear to work for scaffolds on the order of 50 kbp in length, and, importantly, they seem to correlate only with phylogenetic relatedness and not with the environment [<xref rid="pcbi-0010024-b36" ref-type="bibr">36</xref>]. There is a web server, Tetra, that computes tetranucleotide frequencies for metagenomics projects [<xref rid="pcbi-0010024-b39" ref-type="bibr">39</xref>,<xref rid="pcbi-0010024-b40" ref-type="bibr">40</xref>].</p><p>An additional source of evidence unique to WGS data is scaffold read depth, which is expected to be proportional to species abundance and thus can be used to separate high-abundance from low-abundance species. Subtleties can arise, however, since a variable polymorphism rate across a genome can cause conserved regions to be covered at high depth and variable regions to be covered at low depth.</p><p>For some applications, completely accurate binning may not be required. For example, gene finders based on hidden Markov models (HMMs) require training data from closely related species. The accuracy of the gene finder might be improved by additional training data, even if it is not from exactly the same species. One could even imagine running the following iterative algorithm: find a set of putative genes, construct gene trees with them, use the trees to crudely bin the scaffolds, retrain the gene finder, and repeat.</p><p>To conclude our discussion of assembly, we consider the important question of determining how much to sequence in order to assemble genomes. When sequencing a single genome, the Lander&#x02013;Waterman model based on the assumptions of independent and random reads implies that the coverage of each base is distributed according to a Poisson distribution with parameter <italic>c</italic> (the coverage). Defining <italic>n<sub>k</sub></italic> to be the number of bases covered exactly <italic>k</italic> times and <italic>G</italic> to be the genome size, we have</p><disp-formula id="pcbi-0010024-e001"><graphic xlink:href="pcbi.0010024.e001.jpg" mimetype="image" position="float"/></disp-formula><p>First consider the problem of assembling the most abundant genome at, say, 8&#x000d7; coverage. In the worst case, all species are present in equal abundance. The Lander&#x02013;Waterman equation holds with <italic>G</italic> replaced by the sum of the sizes of all genomes of species in the community (sometimes called the metagenome). For the soil community, we have <italic>n</italic>
+<sub>2</sub> = 300,000 and G = 10<sup>8</sup>/<italic>c,</italic> so the equation implies a coverage of 0.006 and a total of 133 Gbp of sequence needed to assemble the most abundant genome at 8&#x000d7; coverage, disregarding the problem of binning. The total metagenome size predicted is <italic>G</italic> = 16.7 Gbp, corresponding to 2,800 <italic>E. coli&#x02013;</italic>sized genomes, which is consistent with previous estimates of soil microbial diversity and the <italic>16S</italic> survey.</p><p>For the lower bound, we make the additional assumptions that all genomes have length 6 Mbp and that a single dominant species contributes all the overlaps in the assembly. The same equation implies that 2 Gbp of additional sequence is required for assembly at 8&#x000d7; coverage. This number is about twice that calculated from the <italic>16S</italic> survey, but this might be explained by preferential amplification bias in PCR.</p><p>We performed similar calculations for the three whale fall communities. In addition, we considered the problem of assembling all genomes in these communities. Since the <italic>16S</italic> survey indicated that three dominant species constitute approximately half the total abundance and all other species have roughly equal abundance, the Lander&#x02013;Waterman model implies that the expected coverage should be distributed as the mixture of two Poissons with equal weight. The results of these calculations are summarized in <xref ref-type="table" rid="pcbi-0010024-t002">Table 2</xref>. Similar results were obtained by Venter et al. [<xref rid="pcbi-0010024-b19" ref-type="bibr">19</xref>] and Breitbart et al. [<xref rid="pcbi-0010024-b30" ref-type="bibr">30</xref>], and there is also software for performing such calculations (<ext-link ext-link-type="uri" xlink:href="http://phage.sdsu.edu/phaccs">http://phage.sdsu.edu/phaccs</ext-link>) [<xref rid="pcbi-0010024-b41" ref-type="bibr">41</xref>].</p><table-wrap id="pcbi-0010024-t002" content-type="1col" position="float"><label>Table 2</label><caption><p>Bounds on Amount of Sequence Needed to Assemble Genomes (in Mbp)</p></caption><graphic xlink:href="pcbi.0010024.t002"/></table-wrap></sec><sec id="s3"><title>Comparative Metagenomics</title><p>Gene finding is a fundamental goal in virtually all metagenomics projects, regardless of whether complete genome sequences can be assembled or not. If large scaffolds can be retrieved and binned, excellent HMM-based microbial gene finders such as FGENESB (<ext-link ext-link-type="uri" xlink:href="http://www.softberry.com">http://www.softberry.com</ext-link>) and GLIMMER [<xref rid="pcbi-0010024-b42" ref-type="bibr">42</xref>,<xref rid="pcbi-0010024-b43" ref-type="bibr">43</xref>] can be used, in combination with expectation-maximization (EM) techniques for unsupervised training of the HMM parameters [<xref rid="pcbi-0010024-b44" ref-type="bibr">44</xref>,<xref rid="pcbi-0010024-b45" ref-type="bibr">45</xref>]. At the other extreme, we have unassembled reads of roughly 700 bp. These make up 50% of the total reads in the Sargasso Sea dataset and 100% in soil. Since prokaryotic genes are typically short, lack introns, and occur at high density (roughly one in 1,000 bp), each read is likely to contain a significant portion of a gene. For these reads, HMM techniques are unlikely to be successful, leaving BLAST search against a protein database or the community itself as the only realistic alternative.</p><p>There have been two simulation studies verifying the accuracy of BLAST for gene finding with single reads [<xref rid="pcbi-0010024-b21" ref-type="bibr">21</xref>,<xref rid="pcbi-0010024-b46" ref-type="bibr">46</xref>], though it is difficult to make this kind of experiment convincing, since the accuracy of the method is almost entirely dependent on the availability of closely related sequences in the database. We are not aware of any studies on the accuracy of HMM-based techniques on sequences significantly shorter than a whole genome, so we undertook a simple experiment ourselves. We sampled simulated &#x0201c;contigs&#x0201d; of length 10 kb from the complete genome sequence of <italic>Thermoplasma volcanium</italic> [<xref rid="pcbi-0010024-b47" ref-type="bibr">47</xref>]. For each, we predicted genes using GLIMMER trained only on long open reading frames in the contig, and compared these to the GLIMMER predictions when trained on long open reading frames from the entire genome. We found that the results were surprisingly good. Of 92 genes completely contained in the ten simulated contigs, 86 were predicted exactly correctly. There were 16 genes that crossed the boundaries of the contigs, and GLIMMER was able to find truncated genes for seven of these. On the other hand, five of the completely spurious predictions all came from the same contig, which suggests that HMM accuracy may not be uniform over the length of the genome. More detailed studies on this problem are needed to relate the length of assembled contigs to the accuracy of the gene finder. An interesting direction is to attempt to recover more partial genes that overlap contig boundaries, firstly, by making the gene finder aware that genes on the boundary may be truncated and, secondly, by taking advantage of base quality scores for lower quality sequence at the ends of contigs. Another interesting research problem is to fine-tune gene finders for viral genomes.</p><p>The gene complement of a microbial community can be used as a fingerprint of a community, allowing us to compare different communities in a gene-centric, as opposed to genome-centric, fashion [<xref rid="pcbi-0010024-b21" ref-type="bibr">21</xref>]. In this method, predicted genes are blasted against the COGs [<xref rid="pcbi-0010024-b48" ref-type="bibr">48</xref>] or KEGG [<xref rid="pcbi-0010024-b49" ref-type="bibr">49</xref>,<xref rid="pcbi-0010024-b50" ref-type="bibr">50</xref>] databases and each community is assigned a fingerprint vector with entries corresponding to the number of hits to each COGs or KEGG category. It is also possible to cluster the COGs hits by function in order to compare the communities at a higher level.</p><p>Fingerprint vectors are analogous to gene-expression-level vectors in microarray analysis and any of the standard gene expression clustering methods can be used [<xref rid="pcbi-0010024-b51" ref-type="bibr">51</xref>]. We first replicated the result of [<xref rid="pcbi-0010024-b21" ref-type="bibr">21</xref>] by directly applying popular the off-the-shelf gene expression tools, CLUSTER and TreeView [<xref rid="pcbi-0010024-b52" ref-type="bibr">52</xref>], to perform single-linkage hierarchical clustering on the KEGG vectors from several communities (<xref ref-type="fig" rid="pcbi-0010024-g001">Figure 1</xref>).</p><fig id="pcbi-0010024-g001" position="float"><label>Figure 1</label><caption><title>Blue-Yellow Microarray Figure Applied to KEGG Vectors for Four Metagenomics Projects</title><p>The whale-fall and Sargasso sea data are partitioned into three different samples each. The rows correspond to the different datasets and the columns to the 137 KEGG categories. Blue corresponds to underrepresentation and yellow to overrepresentation. Note that some branch lengths have been adjusted for visualization purposes and do not correspond to an actual meaningful distance.</p></caption><graphic xlink:href="pcbi.0010024.g001"/></fig><p>Although the neat tree structure of the blue-yellow microarray figure (<xref ref-type="fig" rid="pcbi-0010024-g001">Figure 1</xref>) looks appealing, it can also be misleading at times because of the properties of UPGMA (unweighted pair group method with arithmetic mean) clustering. To check this, we applied principle components analysis to the fingerprint vectors (<xref ref-type="fig" rid="pcbi-0010024-g002">Figure 2</xref>). While the high-level result is similar, the principle components analysis shows that the clustering of the communities is somewhat more ambiguous than <xref ref-type="fig" rid="pcbi-0010024-g001">Figure 1</xref> might suggest. For instance, note the surprising proximity of whale-fall sample 1 to the soil sample.</p><fig id="pcbi-0010024-g002" position="float"><label>Figure 2</label><caption><title>Projection of the KEGG Vectors on the First Two Principle Components</title></caption><graphic xlink:href="pcbi.0010024.g002"/></fig><p>In addition to clustering, principle components analysis has the additional advantage that dimensions of the principle components with high magnitude may correspond to COGs or KEGG sequences of interest, and the principle components themselves may correspond to interesting pathways or functions. This has not yet been fully explored and could potentially be a source of new functional pathways in communities.</p><p>Finally, since fingerprinting has been advocated as an alternative to genome assembly when the amount of sequence required for assembly is very high [<xref rid="pcbi-0010024-b21" ref-type="bibr">21</xref>], an important issue that needs to be discussed is how much sequence is required to fingerprint. In the same spirit as our Lander&#x02013;Waterman calculations (<xref ref-type="disp-formula" rid="pcbi-0010024-e001">equation 1</xref>), we estimate this quantity using the observation that the number of genes per shotgun read is very close to one [<xref rid="pcbi-0010024-b21" ref-type="bibr">21</xref>,<xref rid="pcbi-0010024-b46" ref-type="bibr">46</xref>]. Assuming a uniform species abundance distribution, we get the classic coupon collector's problem [<xref rid="pcbi-0010024-b53" ref-type="bibr">53</xref>], in which the number of reads needed to collect a fraction <italic>f</italic> of the <italic>N</italic> genes in the community is exactly</p><disp-formula id="pcbi-0010024-e002"><graphic xlink:href="pcbi.0010024.e002.jpg" mimetype="image" position="float"/></disp-formula><p>Applying equation 2 to the soil community, if we assume 4,000 genes per genome and 3,000 genomes, then sampling half the genes would require 6 Gbp of sequencing, comparable to the lower bound on the amount of sequence needed to assemble the dominant genome (<xref ref-type="table" rid="pcbi-0010024-t002">Table 2</xref>).</p><p>Based on these observations, it seems that it may be too early to conclude that fingerprinting is a powerful way of comparing communities. We also note that fingerprinting is difficult for viruses, since 65% of predicted genes from the viral community sequencing projects have no homolog in the databases [<xref rid="pcbi-0010024-b06" ref-type="bibr">6</xref>]. However, similar techniques have been used to compare the species, as opposed to their gene complements, across different viral communities [<xref rid="pcbi-0010024-b54" ref-type="bibr">54</xref>].</p></sec><sec id="s4"><title>Phylogeny and Community Diversity</title><p>If complete gene sequences can be recovered from the community, classic multiple sequence alignment (MSA) [<xref rid="pcbi-0010024-b55" ref-type="bibr">55</xref>] and phylogeny algorithms [<xref rid="pcbi-0010024-b56" ref-type="bibr">56</xref>] can be applied. If only partial genes are available, phylogenetic reconstruction is still reasonably straightforward if there is already a database of nearly complete sequences, as with <italic>16S</italic> [<xref rid="pcbi-0010024-b57" ref-type="bibr">57</xref>] or <italic>RecA</italic> (<ext-link ext-link-type="uri" xlink:href="http://www.tigr.org/_jeisen/RecA/RecA.html">http://www.tigr.org/_jeisen/RecA/RecA.html</ext-link>). The partial sequences can then be aligned against the complete ones, and the phylogenetic assignment performed by finding the closest sequences in the database [<xref rid="pcbi-0010024-b58" ref-type="bibr">58</xref>]. Even for such genes, however, it is plausible to imagine a future in which the majority of genes in the database are in fact partial environmental sequences&#x02014;at one point, for instance, the Sargasso Sea dataset made up 5% of the total genes in GenBank and a large number of these were unassembled reads. Alternatively, metagenomics projects may discover a highly diverged group of species that may not align well to existing sequences. In these scenarios, it will be necessary to have good MSA and phylogeny tools for partial sequences, even for these &#x0201c;universal&#x0201d; genes.</p><p>The case of viral phylogeny is more complex, firstly, because it is not clear that all viruses are related by a tree, and, secondly, because viral taxonomy has traditionally not been based on molecular sequence data, though the Phage Proteomic Tree [<xref rid="pcbi-0010024-b59" ref-type="bibr">59</xref>] represents a step in the direction of sequence-based taxonomy. Viral taxonomy is at a very early stage of development, and there is no doubt that culture-independent methods will play an important role in the growth of the field.</p><p>Partial sequences are the crux of the phylogeny problem in the context of metagenomics. We are particularly interested in methods for such sequences because they will also be applicable for low-coverage sequencing projects of vertebrates and other species [<xref rid="pcbi-0010024-b46" ref-type="bibr">46</xref>,<xref rid="pcbi-0010024-b60" ref-type="bibr">60</xref>]. We are not aware of any MSA tools and phylogeny programs that are able to cope with short partial gene fragments, any two of which may fail to have significant overlap. At the alignment stage, we require a semi-global multiple alignment (i.e., terminal gaps are not penalized). The most widely used alignment tools are based on global or local alignments and do not correctly handle partial sequences (an exception is MAP [<xref rid="pcbi-0010024-b61" ref-type="bibr">61</xref>]). Since most MSA tools are based on progressive alignment according to a guide tree, it is also important to construct this tree based on pairwise semi-global alignments and conserved terminal <italic>k</italic>-mers, as opposed to the pairwise global or local alignments currently used.</p><p>We studied 40 <italic>phosphoglycerate kinase</italic> genes from the soil study and aligned them with MUSCLE [<xref rid="pcbi-0010024-b62" ref-type="bibr">62</xref>]. Though not optimized for partial sequences, MUSCLE did a reasonable job, as ascertained by several criteria: the number of internal gaps was small, sequences shorter than the read length had either no beginning gaps or no ending gaps (since the gene length is greater than the read length), and the total length was comparable to related proteins.</p><p>Of the 780 pairs of sequences, 95 pairs had overlap of less than 50 amino acids, and of these, 48 pairs had no overlap at all. Thus, we have an extreme instance of the missing data problem, which has been extensively discussed in the phylogenetics literature [<xref rid="pcbi-0010024-b63" ref-type="bibr">63</xref>,<xref rid="pcbi-0010024-b64" ref-type="bibr">64</xref>]. However, this literature has mostly studied consensus tree methods, and the effect of adding incomplete taxa and/or characters on the accuracy of traditional methods, like maximum likelihood. Relatively little effort has gone into actually finding better methods for tree reconstruction with this kind of data. Supertree methods [<xref rid="pcbi-0010024-b65" ref-type="bibr">65</xref>], which attempt to construct trees from multiple subtrees, present one such alternative. One reason these methods have not been widely used in the past in the context of molecular data is the relative lack of maturity of the field as compared with parsimony or likelihood methods. However, encouraging new algorithmic results and software in this area [<xref rid="pcbi-0010024-b66" ref-type="bibr">66</xref>&#x02013;<xref rid="pcbi-0010024-b68" ref-type="bibr">68</xref>] should spur renewed work on these types of methods. Supertree methods have also been criticized because incomplete data matrices (e.g., from fossil data) usually do not fit a random and independent missing data model. On the other hand, shotgun sequencing does fit this model and thus would seem an ideal setting for supertree methods. While the data might be too limited to provide completely resolved phylogenies, as previous discussed in the context of binning, even crude trees may be sufficient for certain applications, such as training HMMs.</p><p>Finally, with regards to community diversity, one of the advantages of the WGS approach is that it is less biased then PCR, which is known to suffer from a host of problems [<xref rid="pcbi-0010024-b69" ref-type="bibr">69</xref>]. Community modeling based on analysis of assembly data within the Lander&#x02013;Waterman model is beginning to show that species abundance curves are not lognormal as previously thought [<xref rid="pcbi-0010024-b41" ref-type="bibr">41</xref>,<xref rid="pcbi-0010024-b70" ref-type="bibr">70</xref>], so new methods that take into account these naturally occurring distributions are needed.</p></sec><sec id="s5"><title>Conclusion</title><p>The number of new community shotgun sequencing projects continues to grow, promising to provide vast quantities of sequence data for analysis. Samples are being drawn from macroscopic environments such as the sea and air, as well as from more contained communities such as the human mouth (<xref ref-type="table" rid="pcbi-0010024-t003">Table 3</xref>). Exciting advances in our understanding of ecosystems, environments, and communities will require creative solutions to numerous new bioinformatics problems. We have briefly mentioned some of these: assembly (can co-assembly techniques be used to assemble polymorphic genomes and complex communities?), binning (what is the best way to combine diverse sources of information to bin scaffolds?), gene finding (how should gene finding programs, which were designed for complete genes and genomes, be adapted for low-coverage sequence?), fingerprinting (which clustering techniques are best suited for discovering novel pathways and functional groups that allow communities to adapt to their environments?), and MSA and phylogeny (how can we best construct trees and alignments from fragmented data?).</p><table-wrap id="pcbi-0010024-t003" content-type="1col" position="float"><label>Table 3</label><caption><p>Examples of Ongoing Community WGS Sequencing Projects</p></caption><graphic xlink:href="pcbi.0010024.t003"/></table-wrap><p>Countless more challenges will likely emerge as WGS sequencing approaches are used to tackle increasingly complex communities. The reward for computational biologists who work on these problems will be the satisfaction of contributing to the grand enterprise of understanding the total diversity of life on our planet.&#x02002;</p></sec></body><back><ack><p>We thank Eric Allen, Jill Banfield, Susannah Tringe, and Gene Tyson for introducing us to the field of metagenomics and for helpful discussions while preparing the manuscript. We also thank Richard Karp and Satish Rao for useful discussions on bioinformatics issues, and the anonymous reviewers for their comments on an earlier version of this paper. Some of the data we have used were provided by JGI and EMBL. KC was supported by National Science Foundation (NSF) grant EF 03&#x02013;31494. LP was supported by a Sloan Research Fellowship, NSF grant CCF 03&#x02013;47992, and National Institutes of Health grant R01-HG02362&#x02013;03.</p></ack><glossary><title>Abbreviations</title><def-list><def-item><term>HMM</term><def><p>hidden Markov model</p></def></def-item><def-item><term>MSA</term><def><p>multiple sequence alignment</p></def></def-item><def-item><term>WGS</term><def><p>whole-genome shotgun</p></def></def-item></def-list></glossary><ref-list><title>References</title><ref id="pcbi-0010024-b01"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>DeLong</surname><given-names>EF</given-names></name></person-group>
+<year>2002</year>
+<article-title>Microbial population genomics and ecology</article-title>
+<source>Curr Opin Microbiol</source>
+<volume>5</volume>
+<fpage>520</fpage>
+<lpage>524</lpage>
+<pub-id pub-id-type="pmid">12354561</pub-id></element-citation></ref><ref id="pcbi-0010024-b02"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Handelsman</surname><given-names>J</given-names></name></person-group>
+<year>2004</year>
+<article-title>Metagenomics: Application of genomics to uncultured microorganisms</article-title>
+<source>Microbiol Mol Biol Rev</source>
+<volume>68</volume>
+<fpage>669</fpage>
+<lpage>684</lpage>
+<pub-id pub-id-type="pmid">15590779</pub-id></element-citation></ref><ref id="pcbi-0010024-b03"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Riesenfeld</surname><given-names>CS</given-names></name><name><surname>Schloss</surname><given-names>P</given-names></name><name><surname>Handelsman</surname><given-names>J</given-names></name></person-group>
+<year>2004</year>
+<article-title>Metagenomics: Genomic analysis of microbial communities</article-title>
+<source>Annu Rev Genet</source>
+<volume>38</volume>
+<fpage>525</fpage>
+<lpage>552</lpage>
+<pub-id pub-id-type="pmid">15568985</pub-id></element-citation></ref><ref id="pcbi-0010024-b04"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rodriguez-Valera</surname><given-names>F</given-names></name></person-group>
+<year>2004</year>
+<article-title>Environmental genomics, the big picture?</article-title>
+<source>FEMS Microbiol Lett</source>
+<volume>231</volume>
+<fpage>153</fpage>
+<lpage>158</lpage>
+<pub-id pub-id-type="pmid">15027428</pub-id></element-citation></ref><ref id="pcbi-0010024-b05"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Streit</surname><given-names>WR</given-names></name><name><surname>Schmitz</surname><given-names>RA</given-names></name></person-group>
+<year>2004</year>
+<article-title>Metagenomics&#x02014;The key to the uncultured microbes</article-title>
+<source>Curr Opin Microbiol</source>
+<volume>7</volume>
+<fpage>492</fpage>
+<lpage>498</lpage>
+<pub-id pub-id-type="pmid">15451504</pub-id></element-citation></ref><ref id="pcbi-0010024-b06"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Edwards</surname><given-names>RA</given-names></name><name><surname>Rohwer</surname><given-names>F</given-names></name></person-group>
+<year>2005</year>
+<article-title>Viral metagenomics</article-title>
+<source>Nat Rev Microbiol</source>
+<volume>3</volume>
+<fpage>504</fpage>
+<lpage>510</lpage>
+<pub-id pub-id-type="pmid">15886693</pub-id></element-citation></ref><ref id="pcbi-0010024-b07"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Olsen</surname><given-names>GJ</given-names></name><name><surname>Lane</surname><given-names>DJ</given-names></name><name><surname>Giovannoni</surname><given-names>SJ</given-names></name><name><surname>Pace</surname><given-names>NR</given-names></name><name><surname>Stahl</surname><given-names>DA</given-names></name></person-group>
+<year>1986</year>
+<article-title>Microbial ecology and evolution: A ribosomal RNA approach</article-title>
+<source>Annu Rev Microbiol</source>
+<volume>40</volume>
+<fpage>337</fpage>
+<lpage>365</lpage>
+<pub-id pub-id-type="pmid">2430518</pub-id></element-citation></ref><ref id="pcbi-0010024-b08"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hugenholtz</surname><given-names>P</given-names></name></person-group>
+<year>2002</year>
+<article-title>Exploring prokaryotic diversity in the genomic era</article-title>
+<source>Genome Biol</source>
+<volume>3</volume>
+<fpage>REVIEWS0003</fpage>
+<pub-id pub-id-type="pmid">11864374</pub-id></element-citation></ref><ref id="pcbi-0010024-b09"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rappe</surname><given-names>M</given-names></name><name><surname>Giovannoni</surname><given-names>S</given-names></name></person-group>
+<year>2003</year>
+<article-title>The uncultured microbial majority</article-title>
+<source>Annu Rev Microbiol</source>
+<volume>57</volume>
+<fpage>369</fpage>
+<lpage>394</lpage>
+<pub-id pub-id-type="pmid">14527284</pub-id></element-citation></ref><ref id="pcbi-0010024-b10"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Courtois</surname><given-names>S</given-names></name><name><surname>Cappellano</surname><given-names>CM</given-names></name><name><surname>Ball</surname><given-names>M</given-names></name><name><surname>Francou</surname><given-names>F</given-names></name><name><surname>Normand</surname><given-names>P</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>Recombinant environmental libraries provide access to microbial diversity for drug discovery from natural products</article-title>
+<source>Appl Environ Microbiol</source>
+<volume>69</volume>
+<fpage>49</fpage>
+<lpage>55</lpage>
+<pub-id pub-id-type="pmid">12513976</pub-id></element-citation></ref><ref id="pcbi-0010024-b11"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Riesenfeld</surname><given-names>CS</given-names></name><name><surname>Goodman</surname><given-names>RM</given-names></name><name><surname>Handelsman</surname><given-names>J</given-names></name></person-group>
+<year>2004</year>
+<article-title>Uncultured soil bacteria are a reservoir of new antibiotic resistance genes</article-title>
+<source>Environ Microbiol</source>
+<volume>6</volume>
+<fpage>981</fpage>
+<lpage>989</lpage>
+<pub-id pub-id-type="pmid">15305923</pub-id></element-citation></ref><ref id="pcbi-0010024-b12"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Uchiyama</surname><given-names>T</given-names></name><name><surname>Abe</surname><given-names>T</given-names></name><name><surname>Ikemura</surname><given-names>T</given-names></name><name><surname>Watanabe</surname><given-names>K</given-names></name></person-group>
+<year>2005</year>
+<article-title>Substrate-induced gene-expression screening of environmental metagenomic libraries for isolation of catabolic genes</article-title>
+<source>Nat Biotechnol</source>
+<volume>23</volume>
+<fpage>88</fpage>
+<lpage>93</lpage>
+<pub-id pub-id-type="pmid">15608629</pub-id></element-citation></ref><ref id="pcbi-0010024-b13"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Stein</surname><given-names>JL</given-names></name><name><surname>March</surname><given-names>TL</given-names></name><name><surname>Wu</surname><given-names>KY</given-names></name><name><surname>Shizuya</surname><given-names>H</given-names></name><name><surname>DeLong</surname><given-names>EF</given-names></name></person-group>
+<year>1996</year>
+<article-title>Characterization of uncultivated prokaryotes: Isolation and analysis of a 40-kilobase-pair genome fragment from a planktonic marine archaeon</article-title>
+<source>J Bacteriol</source>
+<volume>178</volume>
+<fpage>591</fpage>
+<lpage>599</lpage>
+<pub-id pub-id-type="pmid">8550487</pub-id></element-citation></ref><ref id="pcbi-0010024-b14"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Beja</surname><given-names>O</given-names></name><name><surname>Aravind</surname><given-names>L</given-names></name><name><surname>Koonin</surname><given-names>EV</given-names></name><name><surname>Suzuki</surname><given-names>MT</given-names></name><name><surname>Hadd</surname><given-names>A</given-names></name><etal/></person-group>
+<year>2000</year>
+<article-title>Bacterial rhodopsin: Evidence for a new type of phototrophy in the sea</article-title>
+<source>Science</source>
+<volume>289</volume>
+<fpage>1902</fpage>
+<lpage>1906</lpage>
+<pub-id pub-id-type="pmid">10988064</pub-id></element-citation></ref><ref id="pcbi-0010024-b15"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Liles</surname><given-names>MR</given-names></name><name><surname>Manske</surname><given-names>BF</given-names></name><name><surname>Bintrim</surname><given-names>SB</given-names></name><name><surname>Handelsman</surname><given-names>J</given-names></name><name><surname>Goodman</surname><given-names>RM</given-names></name></person-group>
+<year>2003</year>
+<article-title>A census of rRNA genes and linked genomic sequences within a soil metagenomic library</article-title>
+<source>Appl Environ Microbiol</source>
+<volume>69</volume>
+<fpage>2684</fpage>
+<lpage>2691</lpage>
+<pub-id pub-id-type="pmid">12732537</pub-id></element-citation></ref><ref id="pcbi-0010024-b16"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Beja</surname><given-names>O</given-names></name></person-group>
+<year>2004</year>
+<article-title>To BAC or not to BAC: Marine ecogenomics</article-title>
+<source>Curr Opin Biotechnol</source>
+<volume>15</volume>
+<fpage>187</fpage>
+<lpage>190</lpage>
+<pub-id pub-id-type="pmid">15193325</pub-id></element-citation></ref><ref id="pcbi-0010024-b17"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sabehi</surname><given-names>G</given-names></name><name><surname>Beja</surname><given-names>O</given-names></name><name><surname>Suzuki</surname><given-names>MT</given-names></name><name><surname>Preston</surname><given-names>CM</given-names></name><name><surname>DeLong</surname><given-names>EF</given-names></name></person-group>
+<year>2004</year>
+<article-title>Different SAR86 subgroups harbour divergent proteorhodopsins</article-title>
+<source>Environ Microbiol</source>
+<volume>6</volume>
+<fpage>903</fpage>
+<lpage>910</lpage>
+<pub-id pub-id-type="pmid">15305915</pub-id></element-citation></ref><ref id="pcbi-0010024-b18"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tyson</surname><given-names>GW</given-names></name><name><surname>Chapman</surname><given-names>J</given-names></name><name><surname>Hugenholtz</surname><given-names>P</given-names></name><name><surname>Allen</surname><given-names>EE</given-names></name><name><surname>Ram</surname><given-names>RJ</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Community structure and metabolism through reconstruction of microbial genomes from the environment</article-title>
+<source>Nature</source>
+<volume>428</volume>
+<fpage>37</fpage>
+<lpage>43</lpage>
+<pub-id pub-id-type="pmid">14961025</pub-id></element-citation></ref><ref id="pcbi-0010024-b19"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Venter</surname><given-names>JC</given-names></name><name><surname>Remington</surname><given-names>K</given-names></name><name><surname>Heidelberg</surname><given-names>JF</given-names></name><name><surname>Halpern</surname><given-names>AL</given-names></name><name><surname>Rusch</surname><given-names>D</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Environmental genome shotgun sequencing of the Sargasso Sea</article-title>
+<source>Science</source>
+<volume>304</volume>
+<fpage>66</fpage>
+<lpage>74</lpage>
+<pub-id pub-id-type="pmid">15001713</pub-id></element-citation></ref><ref id="pcbi-0010024-b20"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Acinas</surname><given-names>SG</given-names></name><name><surname>Klepac-Ceraj</surname><given-names>V</given-names></name><name><surname>Hunt</surname><given-names>DE</given-names></name><name><surname>Pharino</surname><given-names>C</given-names></name><name><surname>Ceraj</surname><given-names>I</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Finescale phylogenetic architecture of a complex bacterial community</article-title>
+<source>Nature</source>
+<volume>430</volume>
+<fpage>551</fpage>
+<lpage>554</lpage>
+<pub-id pub-id-type="pmid">15282603</pub-id></element-citation></ref><ref id="pcbi-0010024-b21"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tringe</surname><given-names>S</given-names></name><name><surname>von Mering</surname><given-names>C</given-names></name><name><surname>Kobayashi</surname><given-names>A</given-names></name><name><surname>Salamov</surname><given-names>A</given-names></name><name><surname>Chen</surname><given-names>K</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Comparative metagenomics of microbial communities</article-title>
+<source>Science</source>
+<volume>308</volume>
+<fpage>554</fpage>
+<lpage>557</lpage>
+<pub-id pub-id-type="pmid">15845853</pub-id></element-citation></ref><ref id="pcbi-0010024-b22"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hallam</surname><given-names>SJ</given-names></name><name><surname>Putnam</surname><given-names>N</given-names></name><name><surname>Preston</surname><given-names>CM</given-names></name><name><surname>Detter</surname><given-names>JC</given-names></name><name><surname>Rokhsar</surname><given-names>D</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Reverse methanogenesis: Testing the hypothesis with environmental genomics</article-title>
+<source>Science</source>
+<volume>305</volume>
+<fpage>1457</fpage>
+<lpage>1462</lpage>
+<pub-id pub-id-type="pmid">15353801</pub-id></element-citation></ref><ref id="pcbi-0010024-b23"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dale</surname><given-names>C</given-names></name><name><surname>Dunbar</surname><given-names>H</given-names></name><name><surname>Moran</surname><given-names>NA</given-names></name><name><surname>Ochman</surname><given-names>H</given-names></name></person-group>
+<year>2005</year>
+<article-title>Extracting single genomes from heterogenous DNA samples: A test case with <italic>Carsonella ruddii</italic>, the bacterial symbiont of psyllids (Insecta)</article-title>
+<source>J Insect Sci</source>
+<volume>5</volume>
+<fpage>3</fpage>
+<pub-id pub-id-type="pmid">16299593</pub-id></element-citation></ref><ref id="pcbi-0010024-b24"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pop</surname><given-names>M</given-names></name><name><surname>Philippy</surname><given-names>A</given-names></name><name><surname>Delcher</surname><given-names>AL</given-names></name><name><surname>Salzberg</surname><given-names>SL</given-names></name></person-group>
+<year>2004</year>
+<article-title>Comparative genome assembly</article-title>
+<source>Brief Bioinform</source>
+<volume>5</volume>
+<fpage>237</fpage>
+<lpage>248</lpage>
+<pub-id pub-id-type="pmid">15383210</pub-id></element-citation></ref><ref id="pcbi-0010024-b25"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bray</surname><given-names>N</given-names></name><name><surname>Pachter</surname><given-names>L</given-names></name></person-group>
+<year>2004</year>
+<article-title>MAVID: Constrained ancestral alignment of multiple sequences</article-title>
+<source>Genome Res</source>
+<volume>14</volume>
+<fpage>693</fpage>
+<lpage>699</lpage>
+<pub-id pub-id-type="pmid">15060012</pub-id></element-citation></ref><ref id="pcbi-0010024-b26"><element-citation publication-type="other">
+<person-group person-group-type="author"><name><surname>Sundararajan</surname><given-names>M</given-names></name><name><surname>Brudno</surname><given-names>M</given-names></name><name><surname>Small</surname><given-names>K</given-names></name><name><surname>Sidow</surname><given-names>A</given-names></name><name><surname>Batzoglou</surname><given-names>S</given-names></name></person-group>
+<year>2004</year>
+<source>Chaining algorithms for alignment of draft sequence. Fourth Workshop on Algorithms in Bioinformatics; 2004 25&#x02013;27 May; Bergen, Norway</source>
+<comment>Available: <ext-link ext-link-type="uri" xlink:href="http://ai.stanford.edu/~serafim/wabi_finalSerafim.pdf">http://ai.stanford.edu/~serafim/wabi_finalSerafim.pdf</ext-link>. Accessed 7 July 2005.</comment>
+</element-citation></ref><ref id="pcbi-0010024-b27"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Salzberg</surname><given-names>S</given-names></name><name><surname>Hotopp</surname><given-names>J</given-names></name><name><surname>Delcher</surname><given-names>A</given-names></name><name><surname>Pop</surname><given-names>M</given-names></name><name><surname>Smith</surname><given-names>D</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Serendipitous discovery of <italic>Wolbachia</italic> genomes in multiple <italic>Drosophila</italic> species</article-title>
+<source>Genome Biol</source>
+<volume>6</volume>
+<fpage>R23</fpage>
+<pub-id pub-id-type="pmid">15774024</pub-id></element-citation></ref><ref id="pcbi-0010024-b28"><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Batzoglou</surname><given-names>S</given-names></name></person-group>
+<year>2005</year>
+<article-title>Algorithmic challenges in mammalian genome sequence assembly</article-title>
+<person-group person-group-type="editor"><name><surname>Dunn</surname><given-names>M</given-names></name><name><surname>Jorde</surname><given-names>L</given-names></name><name><surname>Little</surname><given-names>P</given-names></name><name><surname>Subramaniam</surname><given-names>S</given-names></name></person-group>
+<source>Encyclopedia of genomics, proteomics and bioinformatics</source>
+<publisher-loc>Hoboken (New Jersey)</publisher-loc>
+<publisher-name>John Wiley and Sons</publisher-name>
+<comment>In press.</comment>
+</element-citation></ref><ref id="pcbi-0010024-b29"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ruepp</surname><given-names>A</given-names></name><name><surname>Graml</surname><given-names>W</given-names></name><name><surname>Santos-Martinez</surname><given-names>M</given-names></name><name><surname>Koretke</surname><given-names>KK</given-names></name><name><surname>Volker</surname><given-names>C</given-names></name><etal/></person-group>
+<year>2000</year>
+<article-title>The genome sequence of the thermoacidophilic scavenger <italic>Thermoplasma acidophilum</italic>
+</article-title>
+<source>Nature</source>
+<volume>407</volume>
+<fpage>508</fpage>
+<lpage>513</lpage>
+<pub-id pub-id-type="pmid">11029001</pub-id></element-citation></ref><ref id="pcbi-0010024-b30"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Breitbart</surname><given-names>M</given-names></name><name><surname>Salamon</surname><given-names>P</given-names></name><name><surname>Andresen</surname><given-names>B</given-names></name><name><surname>Mahaffy</surname><given-names>J</given-names></name><name><surname>Segal</surname><given-names>A</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>Genomic analysis of an uncultured marine viral community</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>99</volume>
+<fpage>14250</fpage>
+<lpage>14255</lpage>
+<pub-id pub-id-type="pmid">12384570</pub-id></element-citation></ref><ref id="pcbi-0010024-b31"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jones</surname><given-names>T</given-names></name><name><surname>Federspiel</surname><given-names>NA</given-names></name><name><surname>Chibana</surname><given-names>H</given-names></name><name><surname>Dungan</surname><given-names>J</given-names></name><name><surname>Kalman</surname><given-names>S</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>The diploid genome sequence of <italic>Candida albicans</italic>
+</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>101</volume>
+<fpage>7329</fpage>
+<lpage>7334</lpage>
+<pub-id pub-id-type="pmid">15123810</pub-id></element-citation></ref><ref id="pcbi-0010024-b32"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Myers</surname><given-names>EW</given-names></name><name><surname>Sutton</surname><given-names>GG</given-names></name><name><surname>Delcher</surname><given-names>AL</given-names></name><name><surname>Dew</surname><given-names>IM</given-names></name><name><surname>Fasulo</surname><given-names>DP</given-names></name><etal/></person-group>
+<year>2000</year>
+<article-title>A whole-genome assembly of <italic>Drosophila</italic>
+</article-title>
+<source>Science</source>
+<volume>287</volume>
+<fpage>2196</fpage>
+<lpage>2204</lpage>
+<pub-id pub-id-type="pmid">10731133</pub-id></element-citation></ref><ref id="pcbi-0010024-b33"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Aparicio</surname><given-names>S</given-names></name><name><surname>Chapman</surname><given-names>J</given-names></name><name><surname>Stupka</surname><given-names>E</given-names></name><name><surname>Putnam</surname><given-names>N</given-names></name><name><surname>Chia</surname><given-names>J</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>Whole genome shotgun assembly and analysis of the genome of <italic>Fugu rubripes</italic>
+</article-title>
+<source>Science</source>
+<volume>297</volume>
+<fpage>1301</fpage>
+<lpage>1310</lpage>
+<pub-id pub-id-type="pmid">12142439</pub-id></element-citation></ref><ref id="pcbi-0010024-b34"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>DeLong</surname><given-names>EF</given-names></name></person-group>
+<year>2005</year>
+<article-title>Microbial community genomics in the ocean</article-title>
+<source>Nat Rev Microbiol</source>
+<volume>3</volume>
+<fpage>459</fpage>
+<lpage>469</lpage>
+<pub-id pub-id-type="pmid">15886695</pub-id></element-citation></ref><ref id="pcbi-0010024-b35"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Abe</surname><given-names>T</given-names></name><name><surname>Kanaya</surname><given-names>S</given-names></name><name><surname>Kinouchi</surname><given-names>M</given-names></name><name><surname>Ichiba</surname><given-names>Y</given-names></name><name><surname>Kozuki</surname><given-names>T</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>Informatics for unveiling hidden genome signatures</article-title>
+<source>Genome Res</source>
+<volume>13</volume>
+<fpage>693</fpage>
+<lpage>702</lpage>
+<pub-id pub-id-type="pmid">12671005</pub-id></element-citation></ref><ref id="pcbi-0010024-b36"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Campbell</surname><given-names>A</given-names></name><name><surname>Mrazek</surname><given-names>J</given-names></name><name><surname>Karlin</surname><given-names>S</given-names></name></person-group>
+<year>1999</year>
+<article-title>Genome signature comparisons among prokaryote, plasmid and mitochondrial DNA</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>96</volume>
+<fpage>9184</fpage>
+<lpage>9189</lpage>
+<pub-id pub-id-type="pmid">10430917</pub-id></element-citation></ref><ref id="pcbi-0010024-b37"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Deschavanne</surname><given-names>PJ</given-names></name><name><surname>Giron</surname><given-names>A</given-names></name><name><surname>Vilain</surname><given-names>K</given-names></name><name><surname>Fagot</surname><given-names>G</given-names></name><name><surname>Fertil</surname><given-names>B</given-names></name></person-group>
+<year>1999</year>
+<article-title>Genomic signature: Characterization and classification of species assessed by chaos game representation of sequences</article-title>
+<source>Mol Biol Evol</source>
+<volume>16</volume>
+<fpage>1391</fpage>
+<lpage>1399</lpage>
+<pub-id pub-id-type="pmid">10563018</pub-id></element-citation></ref><ref id="pcbi-0010024-b38"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Karlin</surname><given-names>S</given-names></name><name><surname>Campbell</surname><given-names>AM</given-names></name><name><surname>Mrazek</surname><given-names>J</given-names></name></person-group>
+<year>1998</year>
+<article-title>Comparative DNA analysis across diverse genomes</article-title>
+<source>Annu Rev Genet</source>
+<volume>32</volume>
+<fpage>185</fpage>
+<lpage>225</lpage>
+<pub-id pub-id-type="pmid">9928479</pub-id></element-citation></ref><ref id="pcbi-0010024-b39"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Teeling</surname><given-names>H</given-names></name><name><surname>Meyerdierks</surname><given-names>A</given-names></name><name><surname>Bauer</surname><given-names>M</given-names></name><name><surname>Amann</surname><given-names>R</given-names></name><name><surname>Gl&#x000f6;ckner</surname><given-names>FO</given-names></name></person-group>
+<year>2004</year>
+<article-title>Application of tetranucleotide frequencies for the assignment of genomic fragments</article-title>
+<source>Environ Microbiol</source>
+<volume>6</volume>
+<fpage>938</fpage>
+<lpage>947</lpage>
+<pub-id pub-id-type="pmid">15305919</pub-id></element-citation></ref><ref id="pcbi-0010024-b40"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Teeling</surname><given-names>H</given-names></name><name><surname>Waldmann</surname><given-names>J</given-names></name><name><surname>Lombardot</surname><given-names>T</given-names></name><name><surname>Bauer</surname><given-names>M</given-names></name><name><surname>Gl&#x000f6;ckner</surname><given-names>FO</given-names></name></person-group>
+<year>2004</year>
+<article-title>TETRA: A web-service and a stand-alone program for the analysis and comparison of tetranucleotide usage patterns in DNA sequences</article-title>
+<source>BMC Bioinformatics</source>
+<volume>5</volume>
+<fpage>163</fpage>
+<pub-id pub-id-type="pmid">15507136</pub-id></element-citation></ref><ref id="pcbi-0010024-b41"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Angly</surname><given-names>F</given-names></name><name><surname>Rodriguez-Brito</surname><given-names>B</given-names></name><name><surname>Bangor</surname><given-names>D</given-names></name><name><surname>McNairnie</surname><given-names>P</given-names></name><name><surname>Breitbart</surname><given-names>M</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>PHACCS, an online tool for estimating the structure and diversity of uncultured viral communities using metagenomic information</article-title>
+<source>BMC Bioinformatics</source>
+<volume>6</volume>
+<fpage>41</fpage>
+<pub-id pub-id-type="pmid">15743531</pub-id></element-citation></ref><ref id="pcbi-0010024-b42"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Salzberg</surname><given-names>S</given-names></name><name><surname>Delcher</surname><given-names>A</given-names></name><name><surname>Kasif</surname><given-names>S</given-names></name><name><surname>White</surname><given-names>O</given-names></name></person-group>
+<year>1998</year>
+<article-title>Microbial gene identification using interpolated Markov models</article-title>
+<source>Nucleic Acids Res</source>
+<volume>26</volume>
+<fpage>544</fpage>
+<lpage>548</lpage>
+<pub-id pub-id-type="pmid">9421513</pub-id></element-citation></ref><ref id="pcbi-0010024-b43"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Delcher</surname><given-names>AL</given-names></name><name><surname>Harmon</surname><given-names>D</given-names></name><name><surname>Kasif</surname><given-names>S</given-names></name><name><surname>White</surname><given-names>O</given-names></name><name><surname>Salzberg</surname><given-names>SL</given-names></name></person-group>
+<year>1999</year>
+<article-title>Improved microbial gene identification with GLIMMER</article-title>
+<source>Nucleic Acids Res</source>
+<volume>27</volume>
+<fpage>4636</fpage>
+<lpage>4641</lpage>
+<pub-id pub-id-type="pmid">10556321</pub-id></element-citation></ref><ref id="pcbi-0010024-b44"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Audic</surname><given-names>S</given-names></name><name><surname>Claverie</surname><given-names>J</given-names></name></person-group>
+<year>1998</year>
+<article-title>Self-identification of protein-coding regions in microbial genomes</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>95</volume>
+<fpage>10026</fpage>
+<lpage>10031</lpage>
+<pub-id pub-id-type="pmid">9707594</pub-id></element-citation></ref><ref id="pcbi-0010024-b45"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hayes</surname><given-names>W</given-names></name><name><surname>Borodovsky</surname><given-names>M</given-names></name></person-group>
+<year>1998</year>
+<article-title>How to interpret an anonymous bacterial genome: Machine learning approach to gene identification</article-title>
+<source>Genome Res</source>
+<volume>8</volume>
+<fpage>1154</fpage>
+<lpage>1171</lpage>
+<pub-id pub-id-type="pmid">9847079</pub-id></element-citation></ref><ref id="pcbi-0010024-b46"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Goo</surname><given-names>Y</given-names></name><name><surname>Roach</surname><given-names>J</given-names></name><name><surname>Glusman</surname><given-names>G</given-names></name><name><surname>Baliga</surname><given-names>N</given-names></name><name><surname>Deutsch</surname><given-names>K</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Low-pass sequencing for microbial comparative genomics</article-title>
+<source>BMC Genomics</source>
+<volume>5</volume>
+<fpage>3</fpage>
+<pub-id pub-id-type="pmid">14718067</pub-id></element-citation></ref><ref id="pcbi-0010024-b47"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kawashima</surname><given-names>T</given-names></name><name><surname>Amano</surname><given-names>N</given-names></name><name><surname>Koike</surname><given-names>H</given-names></name><name><surname>Makino</surname><given-names>S</given-names></name><name><surname>Higuchi</surname><given-names>S</given-names></name><etal/></person-group>
+<year>2000</year>
+<article-title>Archaeal adaptation to higher temperatures revealed by genomic sequence of <italic>Thermoplasma volcanium</italic>
+</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>97</volume>
+<fpage>14257</fpage>
+<lpage>14262</lpage>
+<pub-id pub-id-type="pmid">11121031</pub-id></element-citation></ref><ref id="pcbi-0010024-b48"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tatusov</surname><given-names>R</given-names></name><name><surname>Koonin</surname><given-names>E</given-names></name><name><surname>Lipman</surname><given-names>D</given-names></name></person-group>
+<year>1997</year>
+<article-title>A genomic perspective on protein families</article-title>
+<source>Science</source>
+<volume>278</volume>
+<fpage>631</fpage>
+<lpage>637</lpage>
+<pub-id pub-id-type="pmid">9381173</pub-id></element-citation></ref><ref id="pcbi-0010024-b49"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kanehisa</surname><given-names>M</given-names></name></person-group>
+<year>1997</year>
+<article-title>A database for post-genome analysis</article-title>
+<source>Trends Genet</source>
+<volume>13</volume>
+<fpage>375</fpage>
+<lpage>376</lpage>
+<pub-id pub-id-type="pmid">9287494</pub-id></element-citation></ref><ref id="pcbi-0010024-b50"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kanehisa</surname><given-names>M</given-names></name><name><surname>Goto</surname><given-names>S</given-names></name></person-group>
+<year>2000</year>
+<article-title>KEGG: Kyoto Encyclopedia of Genes and Genomes</article-title>
+<source>Nucleic Acids Res</source>
+<volume>28</volume>
+<fpage>27</fpage>
+<lpage>30</lpage>
+<pub-id pub-id-type="pmid">10592173</pub-id></element-citation></ref><ref id="pcbi-0010024-b51"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Quackenbush</surname><given-names>J</given-names></name></person-group>
+<year>2001</year>
+<article-title>Computational analysis of microarrary data</article-title>
+<source>Nat Rev Genet</source>
+<volume>2</volume>
+<fpage>418</fpage>
+<lpage>427</lpage>
+<pub-id pub-id-type="pmid">11389458</pub-id></element-citation></ref><ref id="pcbi-0010024-b52"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Eisen</surname><given-names>MB</given-names></name><name><surname>Spellman</surname><given-names>PT</given-names></name><name><surname>Brown</surname><given-names>PO</given-names></name><name><surname>Botstein</surname><given-names>D</given-names></name></person-group>
+<year>1998</year>
+<article-title>Cluster analysis and display of genome-wide expression patterns</article-title>
+<source>Proc Nat Acad Sci U S A</source>
+<volume>95</volume>
+<fpage>14863</fpage>
+<lpage>14868</lpage>
+</element-citation></ref><ref id="pcbi-0010024-b53"><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Feller</surname><given-names>W</given-names></name></person-group>
+<year>1968</year>
+<source>An introduction to probability theory and its applications, Volume 1</source>
+<publisher-loc>Hoboken (New Jersey)</publisher-loc>
+<publisher-name>John Wiley and Sons</publisher-name>
+<size units="page">528</size>
+<comment>p.</comment>
+</element-citation></ref><ref id="pcbi-0010024-b54"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Breitbart</surname><given-names>M</given-names></name><name><surname>Hewson</surname><given-names>I</given-names></name><name><surname>Felts</surname><given-names>B</given-names></name><name><surname>Mahaffy</surname><given-names>J</given-names></name><name><surname>Nulton</surname><given-names>J</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>Metagenomic analysis of an uncultured viral community from human feces</article-title>
+<source>J Bacteriol</source>
+<volume>185</volume>
+<fpage>6220</fpage>
+<lpage>6223</lpage>
+<pub-id pub-id-type="pmid">14526037</pub-id></element-citation></ref><ref id="pcbi-0010024-b55"><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Durbin</surname><given-names>R</given-names></name><name><surname>Eddy</surname><given-names>SR</given-names></name><name><surname>Krogh</surname><given-names>A</given-names></name><name><surname>Mitchison</surname><given-names>G</given-names></name></person-group>
+<year>2004</year>
+<source>Biological sequence analysis: Probabilistic models of proteins and nucleic acids</source>
+<publisher-loc>Cambridge</publisher-loc>
+<publisher-name>Cambridge University Press</publisher-name>
+<size units="page">368</size>
+<comment>p.</comment>
+</element-citation></ref><ref id="pcbi-0010024-b56"><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Felsenstein</surname><given-names>J</given-names></name></person-group>
+<year>2004</year>
+<source>Inferring phylogenies</source>
+<publisher-loc>Sunderland (Massachusetts)</publisher-loc>
+<publisher-name>Sinauer Associates</publisher-name>
+<size units="page">664</size>
+<comment>p.</comment>
+</element-citation></ref><ref id="pcbi-0010024-b57"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cole</surname><given-names>JR</given-names></name><name><surname>Chai</surname><given-names>B</given-names></name><name><surname>Farris</surname><given-names>RJ</given-names></name><name><surname>Wang</surname><given-names>Q</given-names></name><name><surname>Kulam</surname><given-names>SA</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>The Ribosomal Database Project (RDP-II): Sequences and tools for high-throughput rRNA analysis</article-title>
+<source>Nucleic Acids Res</source>
+<volume>33</volume>
+<fpage>D294</fpage>
+<lpage>D296</lpage>
+<pub-id pub-id-type="pmid">15608200</pub-id></element-citation></ref><ref id="pcbi-0010024-b58"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ludwig</surname><given-names>W</given-names></name><name><surname>Strunk</surname><given-names>O</given-names></name><name><surname>Westram</surname><given-names>R</given-names></name><name><surname>Richter</surname><given-names>L</given-names></name><name><surname>Meier</surname><given-names>H</given-names></name></person-group>
+<year>2004</year>
+<article-title>ARB: A software environment for sequence data</article-title>
+<source>Nucleic Acids Res</source>
+<volume>32</volume>
+<fpage>1363</fpage>
+<lpage>1371</lpage>
+<pub-id pub-id-type="pmid">14985472</pub-id></element-citation></ref><ref id="pcbi-0010024-b59"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rohwer</surname><given-names>F</given-names></name><name><surname>Edwards</surname><given-names>R</given-names></name></person-group>
+<year>2002</year>
+<article-title>The phage proteomic tree: A genome-based taxonomy for phage</article-title>
+<source>J Bacteriol</source>
+<volume>184</volume>
+<fpage>4529</fpage>
+<lpage>4535</lpage>
+<pub-id pub-id-type="pmid">12142423</pub-id></element-citation></ref><ref id="pcbi-0010024-b60"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Margulies</surname><given-names>EH</given-names></name><name><surname>Vinson</surname><given-names>JP</given-names></name><name><surname>Miller</surname><given-names>W</given-names></name><name><surname>Jaffe</surname><given-names>DB</given-names></name><name><surname>Lindblad-Toh</surname><given-names>K</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>An initial strategy for the systematic identification of functional elements in the human genome by low-redundancy comparative sequencing</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>102</volume>
+<fpage>4795</fpage>
+<lpage>4800</lpage>
+<pub-id pub-id-type="pmid">15778292</pub-id></element-citation></ref><ref id="pcbi-0010024-b61"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Huang</surname><given-names>X</given-names></name></person-group>
+<year>1994</year>
+<article-title>On global sequence alignment</article-title>
+<source>Comput Appl Biosci</source>
+<volume>10</volume>
+<fpage>227</fpage>
+<lpage>235</lpage>
+<pub-id pub-id-type="pmid">7922677</pub-id></element-citation></ref><ref id="pcbi-0010024-b62"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Edgar</surname><given-names>RC</given-names></name></person-group>
+<year>2004</year>
+<article-title>MUSCLE: Multiple sequence alignment with high accuracy and high throughput</article-title>
+<source>Nucleic Acids Res</source>
+<volume>32</volume>
+<fpage>1792</fpage>
+<lpage>1797</lpage>
+<pub-id pub-id-type="pmid">15034147</pub-id></element-citation></ref><ref id="pcbi-0010024-b63"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wiens</surname><given-names>JJ</given-names></name></person-group>
+<year>2003</year>
+<article-title>Incomplete taxa, incomplete characters and phylogenetic accuracy: Is there a missing data problem?</article-title>
+<source>J Vertebr Paleontol</source>
+<volume>23</volume>
+<fpage>297</fpage>
+<lpage>310</lpage>
+</element-citation></ref><ref id="pcbi-0010024-b64"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kearney</surname><given-names>M</given-names></name></person-group>
+<year>2002</year>
+<article-title>Fragmentary taxa, missing data, and ambiguity: Mistaken assumptions and conclusions</article-title>
+<source>Syst Biol</source>
+<volume>51</volume>
+<fpage>369</fpage>
+<lpage>381</lpage>
+<pub-id pub-id-type="pmid">12028738</pub-id></element-citation></ref><ref id="pcbi-0010024-b65"><element-citation publication-type="book">
+<person-group person-group-type="editor"><name><surname>Bininda-Emonds</surname><given-names>ORP</given-names></name></person-group>
+<year>2004</year>
+<source>Phylogenetic supertrees: Combining information to reveal the tree of life</source>
+<publisher-loc>New York</publisher-loc>
+<publisher-name>Springer</publisher-name>
+<size units="page">550</size>
+<comment>p.</comment>
+</element-citation></ref><ref id="pcbi-0010024-b66"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chen</surname><given-names>D</given-names></name><name><surname>Eulenstein</surname><given-names>O</given-names></name><name><surname>Fernandez-Baca</surname><given-names>D</given-names></name></person-group>
+<year>2004</year>
+<article-title>Rainbow: A toolbox for phylogenetic supertree construction and analysis</article-title>
+<source>Bioinformatics</source>
+<volume>20</volume>
+<fpage>2872</fpage>
+<lpage>2873</lpage>
+<pub-id pub-id-type="pmid">15145807</pub-id></element-citation></ref><ref id="pcbi-0010024-b67"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pachter</surname><given-names>L</given-names></name><name><surname>Speyer</surname><given-names>D</given-names></name></person-group>
+<year>2004</year>
+<article-title>Reconstructing trees from subtree weights</article-title>
+<source>Appl Math Lett</source>
+<volume>7</volume>
+<fpage>615</fpage>
+<lpage>621</lpage>
+</element-citation></ref><ref id="pcbi-0010024-b68"><element-citation publication-type="other">
+<collab>Pachter L, Sturmfels B, editors</collab>
+<year>2005</year>
+<article-title>Algebraic statistics for computational biology</article-title>
+<source>Cambridge: Cambridge University Press</source>
+<comment>In press.</comment>
+</element-citation></ref><ref id="pcbi-0010024-b69"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Forney</surname><given-names>L</given-names></name><name><surname>Zhou</surname><given-names>X</given-names></name><name><surname>Brown</surname><given-names>C</given-names></name></person-group>
+<year>2004</year>
+<article-title>Molecular microbial ecology: Land of the one-eyed king</article-title>
+<source>Curr Opin Microbiol</source>
+<volume>7</volume>
+<fpage>210</fpage>
+<lpage>220</lpage>
+<pub-id pub-id-type="pmid">15196487</pub-id></element-citation></ref><ref id="pcbi-0010024-b70"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Curtis</surname><given-names>TP</given-names></name><name><surname>Sloan</surname><given-names>WT</given-names></name><name><surname>Scannell</surname><given-names>JW</given-names></name></person-group>
+<year>2002</year>
+<article-title>Modelling prokaryotic diversity and its limits</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>99</volume>
+<fpage>10494</fpage>
+<lpage>10499</lpage>
+<pub-id pub-id-type="pmid">12097644</pub-id></element-citation></ref><ref id="pcbi-0010024-b71"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Breitbart</surname><given-names>M</given-names></name><name><surname>Felts</surname><given-names>B</given-names></name><name><surname>Kelley</surname><given-names>S</given-names></name><name><surname>Mahaffy</surname><given-names>JM</given-names></name><name><surname>Nulton</surname><given-names>J</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Diversity and population structure of a near-shore marine-sediment viral community</article-title>
+<source>Proc Biol Sci</source>
+<volume>271</volume>
+<fpage>565</fpage>
+<lpage>574</lpage>
+<pub-id pub-id-type="pmid">15156913</pub-id></element-citation></ref><ref id="pcbi-0010024-b72"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cann</surname><given-names>AJ</given-names></name><name><surname>Fandrich</surname><given-names>SE</given-names></name><name><surname>Heaphy</surname><given-names>S</given-names></name></person-group>
+<year>2005</year>
+<article-title>Analysis of the virus population present in equine faeces indicates the presence of hundreds of uncharacterized virus genomes</article-title>
+<source>Virus Genes</source>
+<volume>30</volume>
+<fpage>151</fpage>
+<lpage>156</lpage>
+<pub-id pub-id-type="pmid">15744573</pub-id></element-citation></ref></ref-list></back></article>

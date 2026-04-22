@@ -1,0 +1,416 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS Genet</journal-id><journal-id journal-id-type="iso-abbrev">PLoS Genet</journal-id><journal-id journal-id-type="publisher-id">pgen</journal-id><journal-id journal-id-type="publisher-id">plge</journal-id><journal-id journal-id-type="pmc">plosgen</journal-id><journal-title-group><journal-title>PLoS Genetics</journal-title></journal-title-group><issn pub-type="ppub">1553-7390</issn><issn pub-type="epub">1553-7404</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">16254603</article-id><article-id pub-id-type="pmc">PMC1270010</article-id><article-id pub-id-type="doi">10.1371/journal.pgen.0010054</article-id><article-id pub-id-type="sici">plge-01-04-10</article-id><article-categories><subj-group subj-group-type="heading"><subject>Review</subject></subj-group></article-categories><title-group><article-title>Perspectives on Human Genetic Variation from the HapMap Project</article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>McVean</surname><given-names>Gil</given-names></name><xref ref-type="corresp" rid="cor1">*</xref></contrib><contrib contrib-type="author"><name><surname>Spencer</surname><given-names>Chris C. A</given-names></name></contrib><contrib contrib-type="author"><name><surname>Chaix</surname><given-names>Raphaelle</given-names></name></contrib></contrib-group><author-notes><fn fn-type="current-aff"><p>Gil McVean, Chris C. A. Spencer, and Raphaelle Chaix are in the Department of Statistics, University of Oxford, Oxford, United Kingdom.</p></fn><corresp id="cor1">*To whom correspondence should be addressed. E-mail: <email>mcvean@stats.ox.ac.uk</email></corresp></author-notes><pub-date pub-type="ppub"><month>10</month><year>2005</year></pub-date><pub-date pub-type="epub"><day>28</day><month>10</month><year>2005</year></pub-date><volume>1</volume><issue>4</issue><elocation-id>e54</elocation-id><permissions><copyright-statement>Copyright: &#x000a9; 2005 McVean et al.</copyright-statement><copyright-year>2005</copyright-year><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p></license></permissions><abstract><title>ABSTRACT</title><p>The completion of the International HapMap Project marks the start of a new phase in human genetics. The aim of the project was to provide a resource that facilitates the design of efficient genome-wide association studies, through characterising patterns of genetic variation and linkage disequilibrium in a sample of 270 individuals across four geographical populations. In total, over one million SNPs have been typed across these genomes, providing an unprecedented view of human genetic diversity. In this review we focus on what the HapMap project has taught us about the structure of human genetic variation and the fundamental molecular and evolutionary processes that shape it.</p></abstract><counts><page-count count="6"/></counts><custom-meta-group><custom-meta><meta-name>Citation:</meta-name><meta-value>McVean G, Spencer CCA, Chaix R (2005) Perspectives on human genetic variation from the HapMap project. PLoS Genet 1(4): e54.</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec id="s1"><title>Introduction</title><p>In human genetics, association studies aim to identify loci that contribute to disease susceptibility by comparing patterns of genetic variation between people with a disease (cases) and those without (controls) [<xref rid="pgen-0010054-b01" ref-type="bibr">1</xref>]. Without any prior knowledge about which genes are likely to be important, the researcher faces the expensive possibility of trying to look at all the 10 million or so polymorphic sites in the genome where the less common allele has a frequency of at least 1%, not to mention polymorphic inversions, duplications, microsatellites, and other forms of heritable variation. However, in recent years a number of empirical studies have revealed a structure to human genetic variation that could dramatically reduce the cost of association studies [<xref rid="pgen-0010054-b02" ref-type="bibr">2</xref>&#x02013;<xref rid="pgen-0010054-b09" ref-type="bibr">9</xref>]. In particular, alleles at nearby loci often show strong statistical association (known as linkage disequilibrium [LD]). Coupled with observations that human recombination is concentrated into short (1&#x02013;2 kb) hotspots that occur every 100&#x02013;200 kb [<xref rid="pgen-0010054-b10" ref-type="bibr">10</xref>&#x02013;<xref rid="pgen-0010054-b12" ref-type="bibr">12</xref>], and that these recombination hotspots are often coincident with a breakdown of allelic association [<xref rid="pgen-0010054-b10" ref-type="bibr">10</xref>], efficient genome-wide association studies became a possibility [<xref rid="pgen-0010054-b13" ref-type="bibr">13</xref>] because a few markers within each domain of strong association can be used to tag nearby variation. Here we use the term &#x0201c;tag&#x0201d; to imply that statistical tests for association carried out by using selected marker loci are as powerful (or nearly so) as if all single nucleotide polymorphisms (SNPs) were included.</p><p>However, in order to define efficient markers for subsequent studies, local knowledge of the structure of genetic variation across the genome is required. Choosing SNPs at set intervals across the genome, as one might in linkage studies, will fail to capture local patterns of allelic association and will consequently fail to tag efficiently. For this reason, the International HapMap Project was founded in 2002, with the goal of mapping the structure of allelic association across the human genome [<xref rid="pgen-0010054-b14" ref-type="bibr">14</xref>]. With the participation of funding agencies, academic research centres, and industrial partners in many countries, the initial aim was to genotype one SNP every 5 kb in the human genome across 270 individuals from four geographical populations. These individuals are 30 mother&#x02013;father&#x02013;offspring trios from the Yoruba people of Ibidan Peninsula in Nigeria (referred to as YRI), 30 such trios from the CEPH project in Utah (CEU), 45 unrelated individuals from the Han Chinese population of Beijing (CHB), and 45 unrelated individuals of Japanese ancestry from the Tokyo area (JPT) (for many analyses the CHB and JPT samples are combined within a single &#x0201c;analysis panel&#x0201d;). This project, referred to as the Phase 1 HapMap, is now complete, and the data, with associated summaries and query-based tools, are available online at <ext-link ext-link-type="uri" xlink:href="http://www.hapmap.org">http://www.hapmap.org</ext-link> with an accompanying manuscript published in Nature [<xref rid="pgen-0010054-b15" ref-type="bibr">15</xref>]. Further phases of the project, involving the typing of nearly 4 million SNPs across the same samples, and SNPs in a limited set of regions across multiple other population samples, are also under way.</p><p>What have we learnt from the project? For the medical geneticist the good news is that whole-genome association studies are still looking feasible. Technologies that provide high-throughput whole-genome genotyping of a few hundred thousand well-chosen SNPs should provide adequate power in most populations to detect single-locus associations for SNPs of moderate frequency and relative risk (we are being deliberately vague because the exact details depend on sample size and disease parameters [<xref rid="pgen-0010054-b13" ref-type="bibr">13</xref>]). Of course, not all complex diseases will have such an obvious genetic aetiology, and efforts to look for rare SNP effects [<xref rid="pgen-0010054-b16" ref-type="bibr">16</xref>], genetic interactions [<xref rid="pgen-0010054-b17" ref-type="bibr">17</xref>], or genotype-by-environment interactions [<xref rid="pgen-0010054-b18" ref-type="bibr">18</xref>] in candidate regions will no doubt also be fruitful. Furthermore, the design and analysis of association studies is still very much an area of active research that will only really be understood when large-scale association studies start becoming a reality.</p><p>However, while the use of the HapMap data for future association studies is the primary goal of the project, it also provides an unprecedented view of human genetic diversity that has provided novel insight into many other areas of biological interest. These include the distribution of recombination hotspots and coldspots, the effects of natural selection, and how these forces and others interact to shape human genetic variation. Our personal understanding of LD and how it relates to the underlying evolutionary and molecular forces has changed enormously through staring hard at more than a quarter of a billion genotypes. Therefore, what we are setting out to present in this review is a highly subjective set of observations made from the HapMap data that reflect what we have learned about the structure of human genetic variation.</p></sec><sec id="s2"><title>Understanding the Structure of Human Genetic Variation</title><p>Every chromosome carries a unique combination of alleles that is known as a haplotype. However, within regions of about 500 kb and less it is possible to find combinations of SNPs that are found in multiple unrelated individuals. Such &#x0201c;blocks&#x0201d; point to regions that have not been broken up by recombination and are often separated from each other by short regions where there is evidence for considerable recombination (recombination hotspots). These observations led to the idea of the human genome as a colourful mosaic of haplotype blocks delimited by recombination hotspots [<xref rid="pgen-0010054-b19" ref-type="bibr">19</xref>]. While this model is helpful in conveying the broad nature of human genetic variation, it fails to capture the true complexity. In this section we discuss four observations arising from analysis of the HapMap data that help to provide a more complete picture of the nature and causes of LD and genetic variation.</p><sec id="s2a"><title/><sec id="s2a1"><title>In non-recombining regions, the genealogical tree determines the strength of LD.</title><p>Recombination acts to break down associations between alleles that arise because new mutations appear on a single genetic background. As we might expect, associations between alleles at loci separated by considerable genetic distances show consistently low levels of LD as measured by any statistic. However, and perhaps surprisingly, the converse is not true. Certain statistics of LD, and in particular the degree of statistical association between alleles as measured by the square of the correlation coefficient, <italic>r</italic>
+<sup>2</sup> [<xref rid="pgen-0010054-b20" ref-type="bibr">20</xref>], can take low values even in regions of low or no recombination (<italic>r</italic>
+<sup>2</sup> is the most relevant measure of LD for association studies because of the one-to-one relationship between <italic>r</italic>
+<sup>2</sup> and the relative power of statistical tests at a marker locus compared to the causative locus [<xref rid="pgen-0010054-b21" ref-type="bibr">21</xref>]).</p><p>Why can LD be low even in non-recombining regions? When there is no recombination, all parts of the sequence share the same genealogical tree. So in terms of determining the strength of associations, what is important is where mutations appear in this tree (<xref ref-type="fig" rid="pgen-0010054-g001">Figure 1</xref>). Two mutations that occur on the same branch of the genealogy will be present on the same chromosomes and, hence, will be in complete association. In contrast, two mutations that occur in completely different parts of the tree will occur in different chromosomes, and may only be weakly associated. This is really just another way of saying that the <italic>r</italic>
+<sup>2</sup> measure of LD is dependent on allele frequencies [<xref rid="pgen-0010054-b22" ref-type="bibr">22</xref>], but it has important consequences for association studies because the genealogical history of chromosomes taken from different parts of the world (or even repeat samples from the same places) are likely to be different.</p><fig id="pgen-0010054-g001" position="float"><label>Figure 1</label><caption><title>The Relationship between Genealogical History and Allelic Association</title><p>The upper part of the figure represents the genealogy for the 13 haplotypes observed in a 40-kb region of Chromosome 1 (between SNPs rs12085605 and rs932087) where there is no evidence for recombination (for no pair of SNPs are all four possible combinations of alleles observed), with the location of polymorphic mutations indicated by circles. The lower part of the figure indicates the relative frequency of each haplotype in the sample from each of the three panels (in greyscale, with white indicating 0% and black indicating 100%). The dotted line in the genealogy indicates a branch of the tree that is not present in the CEU sample and whose removal results in perfect association between SNPs rs12085824 and rs11205476.</p></caption><graphic xlink:href="pgen.0010054.g001"/></fig><p>We can see this effect in the example shown in <xref ref-type="fig" rid="pgen-0010054-g001">Figure 1</xref>, a 40-kb region of chromosome 1. Here, we find 17 SNPs that show no evidence for recombination and result in 13 unique haplotypes that can be related to each other through a perfect phylogeny (i.e., there is no need to invoke repeat or back mutation). As one might expect, we observe differences in haplotype frequencies between panels, with the majority of haplotypes being found in only one panel (seven haplotypes are present in one panel only, compared to three being found in all). The difference in haplotype distribution leads to differences in allelic association; for example, SNPs rs12085824 and rs11205476 are in complete association in CEU (<italic>r</italic>
+<sup>2</sup> = 1), in strong association in CHB + JPT (<italic>r</italic>
+<sup>2</sup> = 0.88), and only moderately associated in YRI (<italic>r</italic>
+<sup>2</sup> = 0.58). More importantly, there is a clade of the genealogy (represented by the dotted line) that is not represented in the CEU sample (though it might be found with deeper sampling). Without this clade, the two SNPs effectively occur on the same branch and are therefore in complete association. The practical implication of this observation is that tagging choices may well be population specific, even in regions of low or no recombination. However, another more exciting possibility is that such differences between populations in genealogical trees constructed from non-recombining regions across the whole genome will provide novel insights into the demographic history of modern humans.</p></sec><sec id="s2a2"><title>High-frequency haplotypes can cross recombination hotspots.</title><p>As stated above, within a population, associations between alleles separated by large genetic (recombination) distances are consistently low. But how large a distance is large? For example, is a single recombination hotspot sufficient to break down all associations? Put another way, if we are interested in tagging variation, should we break the genome into regions separated by recombination hotspots, or can tagging across hotspots ever be effective?</p><p>The answer is fairly straightforward. Recombination hotspots are rarely strong enough to remove all allelic association across them. Often, and particularly in the CEU, CHB, or JPT population samples, we find common haplotypes (at frequency of 10% and higher) that span recombination hotspots. <xref ref-type="fig" rid="pgen-0010054-g002">Figure 2</xref> demonstrates the relationship between common haplotypes and recombination rates in the ENCODE region on Chromosome 7q31.33 (data from [<xref rid="pgen-0010054-b15" ref-type="bibr">15</xref>]). As might be expected, haplotypes are considerably longer in CEU and CHB + JPT than in the YRI sample, reflecting the effect historical bottlenecks can have in reducing haplotype diversity and creating large haplotypes that take many hundreds of generations to be broken up by recombination. What is striking is that only one hotspot out of the six identified in the region is sufficiently hot to break all common haplotypes. Actually, we should not be particularly surprised by this result. At the hottest recombination hotspot identified across the autosomes, we would expect only one cross-over event in 114 meioses (a genetic distance of 0.9 cM), and at the &#x0201c;average&#x0201d; hotspot we would expect a recombination event every 1,300 meioses (0.075 cM).</p><fig id="pgen-0010054-g002" position="float"><label>Figure 2</label><caption><title>Patterns of Haplotype Structure and Recombination in the HapMap ENCODE Region on Chromosome 7q31.33</title><p>The estimated recombination rate (in centimorgans per megabase) is shown as a dark blue line, with statistically significant recombination hotspots (see [<xref rid="pgen-0010054-b15" ref-type="bibr">15</xref>] for details) as grey lines. For each analysis panel, each non-redundant haplotype with a frequency of at least 10% is represented by a horizontal line between the starting and ending SNPs (see [<xref rid="pgen-0010054-b15" ref-type="bibr">15</xref>] for details of methodology); the vertical height of these lines is arbitrary. Note that only one of the six hotspots is sufficiently strong to break all common haplotypes.</p></caption><graphic xlink:href="pgen.0010054.g002"/></fig></sec><sec id="s2a3"><title>Untaggable SNPs typically, but not always, occur in recombination hotspots.</title><p>No matter how hard you try, for certain SNPs there is just no other variant in the human genome that is in sufficient association to work effectively as its tag. Such &#x0201c;untaggable&#x0201d; SNPs are only problematic for association studies if you don't know where they are (otherwise they can just be included in genotyping studies). However, because even Phase II of the HapMap project will not type every SNP in the genome, it is important to learn about the distribution of such SNPs. In particular, can we predict where they might occur?</p><p>To answer this question we need to turn to the HapMap ENCODE project. This refers to a study within the project that resequenced 500 kb from each of ten ENCODE regions in 16 chromosomes from each analysis panel (i.e., a total of 48 chromosomes), followed by genotyping of all identified SNPs in the entire HapMap sample. While this does not provide complete ascertainment, it is expected to have identified almost all common (minor allele frequency &#x0003e; 5%) SNPs in each region (the average density of common SNPs is 1.5 per kilobase). A very high proportion of all common SNPs have at least one highly efficient potential tag (<italic>r</italic>
+<sup>2</sup> &#x02265; 0.8; 92% in CEU, 90% in CHB + JPT, and 80% in YRI), and the figures get better if you allow for less-efficient tagging and/or a higher threshold on minor allele frequency. However, across the ten ENCODE regions, a handful of really high frequency SNPs (minor allele frequency &#x0003e; 25%) have no tags at all (maximum <italic>r</italic>
+<sup>2</sup> &#x0003c; 0.2; 11/3,261 in CEU, 12/3,270 in CHB + JPT, and 20/2,961 in YRI).</p><p>What might cause a really common SNP to be untaggable? One obvious possibility is that these SNPs lie in the middle of recombination hotspots. <xref ref-type="fig" rid="pgen-0010054-g003">Figure 3</xref> shows the location of the untaggable SNPs in two of the ENCODE regions, along with the estimated recombination rate profile. In the region on Chromosome 2q37.1, all untaggable SNPs fall in the middle of recombination hotspots. This is also true for two of the four untaggable SNPs in the region on Chromosome 7q31.33, but we need a different explanation for the other two in this region. One possibility is just chance. As seen above, even if there is no recombination, genealogical structure can lead to differences in allelic association between populations, and neither of these untaggable SNPs is completely untaggable in all populations. It is also possible that these SNPs might be hypermutable sites (such as methylated cytosine&#x02013;guanine dinucleotides), or that they are hotspots of gene conversion, or that they have a high error rate (all of which would lead to low allelic association). Whatever the cause, the conclusion is that untaggable SNPs, while concentrated in recombination hotspots, are not restricted to them.</p><fig id="pgen-0010054-g003" position="float"><label>Figure 3</label><caption><title>The Relationship between Recombination Rate, Recombination Hotspots, and the Location of Untaggable SNPs</title><p>For two HapMap ENCODE regions the estimated recombination rate (dark blue line) and the location of statistically significant hotspots (grey lines) are shown along with the location of SNPs that are untaggable in the YRI (green) CEU (red), or CHB + JPT (purple) panels. Note that most, but not all, untaggable SNPs occur in recombination hotspots.</p></caption><graphic xlink:href="pgen.0010054.g003"/></fig></sec><sec id="s2a4"><title>Regions of unusual genetic variation point to interesting biological features.</title><p>There is great heterogeneity across the genome in terms of patterns of genetic variation. Some of this heterogeneity is due to variation in factors such as mutation rate and recombination rate. Some of this heterogeneity arises because of the stochastic properties of mutation and genealogical history. But there are also other forces such as natural selection and genomic features such as inversions that may influence local patterns of variation. How can we look for the effects of such factors? There are two approaches. Either we can try to predict what we would expect to observe under models with and without such effects [<xref rid="pgen-0010054-b23" ref-type="bibr">23</xref>,<xref rid="pgen-0010054-b24" ref-type="bibr">24</xref>], or we can simply look at the empirical distribution of statistics of genetic variation and take as candidate regions those showing extreme or unusual patterns. The difficulty of the first approach is that accurately modelling human variation (and SNP ascertainment) is probably impossible. The difficulty of the latter approach is that there is no guarantee that empirically unusual patterns point to biologically interesting features.</p><p>However, it is possible to validate empirical approaches by asking whether regions where independent evidence points to biological interest are outliers in terms of genetic variation (or alternatively identify the statistics that identify such regions as unusual). The good news is that several genes or features for which biological interest is known do stand out as being unusual in the HapMap data in some sense. For example, the lactase gene (<italic>LCT,</italic> associated with lactose tolerance) has one of the highest relative extended haplotype homozygosity (rEHH [<xref rid="pgen-0010054-b25" ref-type="bibr">25</xref>]) scores in the CEU population, as does the beta-globin gene (<italic>HBB,</italic> associated with protection against <italic>Plasmodium falciparum</italic> malaria) in the YRI population. The HLA region (associated with resistance to multiple infectious diseases [<xref rid="pgen-0010054-b26" ref-type="bibr">26</xref>]) is one of a handful of gene clusters across the genome where there are haplotypes at frequencies of 1% across the combined population sample that span over 500 SNPs and more than 1cM. The known polymorphic inversion on Chromosome 17 [<xref rid="pgen-0010054-b27" ref-type="bibr">27</xref>] stands out as having the greatest number of SNPs in complete association (66 SNPs with <italic>r</italic>
+<sup>2</sup> = 1 in Phase I HapMap) in the entire genome, and there are only 33 nonsynonymous SNPs across the Phase I HapMap that show as much population differentiation as the SNP rs12075 typed in the Duffy gene (<italic>FY,</italic> associated with protection against <italic>P. vivax</italic> malaria). The implication of these findings is that other genomic regions with similarly unusual patterns of variation are candidates for biologically interesting loci. Of course, some may have such extreme statistics purely by chance, and genotyping projects are likely to miss certain features (such as high or low genetic diversity and rare mutations) that are informative about other biologically interesting loci.</p><p>Another question we can ask is whether genes previously reported as showing evidence for the action of historical selection (because they do not conform to the expectations of statistical models that assume neutrality) are also unusual within the empirical, genome-wide distribution. <xref ref-type="table" rid="pgen-0010054-t001">Table 1</xref> shows the value of two selection statistics (Tajima's <italic>D</italic> [<xref rid="pgen-0010054-b28" ref-type="bibr">28</xref>] and Fay and Wu's <italic>H</italic> [<xref rid="pgen-0010054-b29" ref-type="bibr">29</xref>]) that are commonly used to infer the action of historical selection from genetic variation for 19 genes computed from the HapMap data (in 30-SNP windows around the midpoint of each gene). Because of the ascertainment bias in the frequencies of SNPs chosen for genotyping, we do not expect either statistic to follow the standard neutral distribution. However, we can ask whether these genes fall within the tails of the empirical distribution (computed from regions at least 30 kb from known genes) or within the tails of the empirical distribution of regions matched for local recombination rate (the variance of selection statistics is influenced by recombination rate such that more extreme values are expected in regions of low recombination [<xref rid="pgen-0010054-b30" ref-type="bibr">30</xref>]).</p><table-wrap id="pgen-0010054-t001" position="float"><label>Table 1</label><caption><p>Selection Statistics in the HapMap Data for Genes Reported to Have Experienced Recent Adaptive Evolution</p></caption><graphic xlink:href="pgen.0010054.t001"/></table-wrap><p>Of the 19 genes with previous evidence for historical selection, 12 show an unusual pattern of genetic variation in at least one population (defined as having a value lying in either the bottom 5% or top 5% of empirical values). Superficially, this result suggests that statistical tests based on rejecting a simple population genetics model are effective at detecting genes of interest. However, for 114 tests, we might expect 11 to lie in either the top or bottom 5% of observations, compared to the 17 observed. Another concern is that genes of known functional and selective importance, such as <italic>Duffy</italic> and <italic>CD40 ligand,</italic> do not fall in the tails of the empirical distribution of Tajima's <italic>D</italic> and Fay and Wu's <italic>H</italic> statistics and others, such as <italic>MMP3, hemochromatosis (HFE),</italic> and <italic>aldehyde dehydrogenase 2 (ALDH2)</italic> show patterns that are unusual, but not indicative of the action of recent selective sweeps.</p><p>There are two main conclusions from these analyses. First, that biologically interesting loci often do have unusual patterns of genetic variation, but that there is no single way of measuring &#x0201c;unusual&#x0201d; that is uniformly powerful for detecting the action of natural selection. Second, that rejection of neutral evolutionary models is no guarantee that the locus is unusual when compared to the rest of the genome. One of the great strengths of the HapMap data is that they will provide an alternative, empirical basis on which to assess how unusual the pattern of variation is at a given locus. However, it will still be many years before we know how reliable &#x0201c;looking in the tails&#x0201d; is as an approach to identifying genes of selective and functional importance.</p></sec></sec></sec><sec id="s3"><title>Conclusions</title><p>Integrating our knowledge about gene function, genome structure, chromatin organisation, recombination rate, mutation processes, and evolutionary history to provide a coherent understanding of the structure of the human genome and human genetic variation is a task that is just starting. It is also a task that has been greatly aided by the HapMap project with its unprecedented view of SNP variation, and there is no doubt that researchers will be uncovering fascinating patterns in the data for years to come. As the subsequent phases of the project progress, we can also expect to gain an even more detailed view of the differences between our genomes and the evolutionary and biological forces that have made us.</p></sec></body><back><ack><p>We wish to thank the participants of the International HapMap Project and members of the Analysis Group in particular. Also, we thank Daniel Wilson and Niall Cardin for comment and discussions of the manuscript. The work of the Oxford Statistics Department within the HapMap project was funded by grants from National Institutes of Health and The SNP Consortium. RC is funded by the Fyssen Foundation.</p></ack><glossary><title>Abbreviations</title><def-list><def-item><term>LD</term><def><p>linkage disequilibrium</p></def></def-item><def-item><term>SNP</term><def><p>single nucleotide polymorphism</p></def></def-item></def-list></glossary><ref-list><title>References</title><ref id="pgen-0010054-b01"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hirschhorn</surname><given-names>JN</given-names></name><name><surname>Daly</surname><given-names>MJ</given-names></name></person-group>
+<year>2005</year>
+<article-title>Genome-wide association studies for common diseases and complex traits</article-title>
+<source>Nat Rev Genet</source>
+<volume>6</volume>
+<fpage>95</fpage>
+<lpage>108</lpage>
+<pub-id pub-id-type="pmid">15716906</pub-id></element-citation></ref><ref id="pgen-0010054-b02"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Taillon-Miller</surname><given-names>P</given-names></name><name><surname>Bauer-Sardina</surname><given-names>I</given-names></name><name><surname>Saccone</surname><given-names>NL</given-names></name><name><surname>Putzel</surname><given-names>J</given-names></name><name><surname>Laitinen</surname><given-names>T</given-names></name><etal/></person-group>
+<year>2000</year>
+<article-title>Juxtaposed regions of extensive and minimal linkage disequilibrium in human Xq25 and Xq28</article-title>
+<source>Nat Genet</source>
+<volume>25</volume>
+<fpage>324</fpage>
+<lpage>328</lpage>
+<pub-id pub-id-type="pmid">10888883</pub-id></element-citation></ref><ref id="pgen-0010054-b03"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Abecasis</surname><given-names>GR</given-names></name><name><surname>Noguchi</surname><given-names>E</given-names></name><name><surname>Heinzmann</surname><given-names>A</given-names></name><name><surname>Traherne</surname><given-names>JA</given-names></name><name><surname>Bhattacharyya</surname><given-names>S</given-names></name><etal/></person-group>
+<year>2001</year>
+<article-title>Extent and distribution of linkage disequilibrium in three genomic regions</article-title>
+<source>Am J Hum Genet</source>
+<volume>68</volume>
+<fpage>191</fpage>
+<lpage>197</lpage>
+<pub-id pub-id-type="pmid">11083947</pub-id></element-citation></ref><ref id="pgen-0010054-b04"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Daly</surname><given-names>MJ</given-names></name><name><surname>Rioux</surname><given-names>JD</given-names></name><name><surname>Schaffner</surname><given-names>SF</given-names></name><name><surname>Hudson</surname><given-names>TJ</given-names></name><name><surname>Lander</surname><given-names>ES</given-names></name></person-group>
+<year>2001</year>
+<article-title>High-resolution haplotype structure in the human genome</article-title>
+<source>Nat Genet</source>
+<volume>29</volume>
+<fpage>229</fpage>
+<lpage>232</lpage>
+<pub-id pub-id-type="pmid">11586305</pub-id></element-citation></ref><ref id="pgen-0010054-b05"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Patil</surname><given-names>N</given-names></name><name><surname>Berno</surname><given-names>AJ</given-names></name><name><surname>Hinds</surname><given-names>DA</given-names></name><name><surname>Barrett</surname><given-names>WA</given-names></name><name><surname>Doshi</surname><given-names>JM</given-names></name><etal/></person-group>
+<year>2001</year>
+<article-title>Blocks of limited haplotype diversity revealed by high-resolution scanning of human chromosome 21</article-title>
+<source>Science</source>
+<volume>294</volume>
+<fpage>1719</fpage>
+<lpage>1723</lpage>
+<pub-id pub-id-type="pmid">11721056</pub-id></element-citation></ref><ref id="pgen-0010054-b06"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Reich</surname><given-names>DE</given-names></name><name><surname>Cargill</surname><given-names>M</given-names></name><name><surname>Bolk</surname><given-names>S</given-names></name><name><surname>Ireland</surname><given-names>J</given-names></name><name><surname>Sabeti</surname><given-names>PC</given-names></name><etal/></person-group>
+<year>2001</year>
+<article-title>Linkage disequilibrium in the human genome</article-title>
+<source>Nature</source>
+<volume>411</volume>
+<fpage>199</fpage>
+<lpage>204</lpage>
+<pub-id pub-id-type="pmid">11346797</pub-id></element-citation></ref><ref id="pgen-0010054-b07"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dawson</surname><given-names>E</given-names></name><name><surname>Abecasis</surname><given-names>GR</given-names></name><name><surname>Bumpstead</surname><given-names>S</given-names></name><name><surname>Chen</surname><given-names>Y</given-names></name><name><surname>Hunt</surname><given-names>S</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>A first-generation linkage disequilibrium map of human chromosome 22</article-title>
+<source>Nature</source>
+<volume>418</volume>
+<fpage>544</fpage>
+<lpage>548</lpage>
+<pub-id pub-id-type="pmid">12110843</pub-id></element-citation></ref><ref id="pgen-0010054-b08"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gabriel</surname><given-names>SB</given-names></name><name><surname>Schaffner</surname><given-names>SF</given-names></name><name><surname>Nguyen</surname><given-names>H</given-names></name><name><surname>Moore</surname><given-names>JM</given-names></name><name><surname>Roy</surname><given-names>J</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>The structure of haplotype blocks in the human genome</article-title>
+<source>Science</source>
+<volume>296</volume>
+<fpage>2225</fpage>
+<lpage>2229</lpage>
+<pub-id pub-id-type="pmid">12029063</pub-id></element-citation></ref><ref id="pgen-0010054-b09"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Phillips</surname><given-names>MS</given-names></name><name><surname>Lawrence</surname><given-names>R</given-names></name><name><surname>Sachidanandam</surname><given-names>R</given-names></name><name><surname>Morris</surname><given-names>AP</given-names></name><name><surname>Balding</surname><given-names>DJ</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>Chromosome-wide distribution of haplotype blocks and the role of recombination hot spots</article-title>
+<source>Nat Genet</source>
+<volume>33</volume>
+<fpage>382</fpage>
+<lpage>387</lpage>
+<pub-id pub-id-type="pmid">12590262</pub-id></element-citation></ref><ref id="pgen-0010054-b10"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jeffreys</surname><given-names>AJ</given-names></name><name><surname>Kauppi</surname><given-names>L</given-names></name><name><surname>Neumann</surname><given-names>R</given-names></name></person-group>
+<year>2001</year>
+<article-title>Intensely punctate meiotic recombination in the class II region of the major histocompatibility complex</article-title>
+<source>Nat Genet</source>
+<volume>29</volume>
+<fpage>217</fpage>
+<lpage>222</lpage>
+<pub-id pub-id-type="pmid">11586303</pub-id></element-citation></ref><ref id="pgen-0010054-b11"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Crawford</surname><given-names>DC</given-names></name><name><surname>Bhangale</surname><given-names>T</given-names></name><name><surname>Li</surname><given-names>N</given-names></name><name><surname>Hellenthal</surname><given-names>G</given-names></name><name><surname>Rieder</surname><given-names>MJ</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Evidence for substantial fine-scale variation in recombination rates across the human genome</article-title>
+<source>Nat Genet</source>
+<volume>36</volume>
+<fpage>700</fpage>
+<lpage>706</lpage>
+<pub-id pub-id-type="pmid">15184900</pub-id></element-citation></ref><ref id="pgen-0010054-b12"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>McVean</surname><given-names>GA</given-names></name><name><surname>Myers</surname><given-names>SR</given-names></name><name><surname>Hunt</surname><given-names>S</given-names></name><name><surname>Deloukas</surname><given-names>P</given-names></name><name><surname>Bentley</surname><given-names>DR</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>The fine-scale structure of recombination rate variation in the human genome</article-title>
+<source>Science</source>
+<volume>304</volume>
+<fpage>581</fpage>
+<lpage>584</lpage>
+<pub-id pub-id-type="pmid">15105499</pub-id></element-citation></ref><ref id="pgen-0010054-b13"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wang</surname><given-names>WY</given-names></name><name><surname>Barratt</surname><given-names>BJ</given-names></name><name><surname>Clayton</surname><given-names>DG</given-names></name><name><surname>Todd</surname><given-names>JA</given-names></name></person-group>
+<year>2005</year>
+<article-title>Genome-wide association studies: Theoretical and practical concerns</article-title>
+<source>Nat Rev Genet</source>
+<volume>6</volume>
+<fpage>109</fpage>
+<lpage>118</lpage>
+<pub-id pub-id-type="pmid">15716907</pub-id></element-citation></ref><ref id="pgen-0010054-b14"><element-citation publication-type="journal">
+<collab>The International HapMap Consortium</collab>
+<year>2003</year>
+<article-title>The International HapMap Project</article-title>
+<source>Nature</source>
+<volume>426</volume>
+<fpage>789</fpage>
+<lpage>796</lpage>
+<pub-id pub-id-type="pmid">14685227</pub-id></element-citation></ref><ref id="pgen-0010054-b15"><element-citation publication-type="other">
+<collab>The International HapMap Consortium</collab>
+<year>2005</year>
+<article-title>A haplotype map of the human genome</article-title>
+<source>Nature</source>
+<comment>In press.</comment>
+</element-citation></ref><ref id="pgen-0010054-b16"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lin</surname><given-names>S</given-names></name><name><surname>Chakravarti</surname><given-names>A</given-names></name><name><surname>Cutler</surname><given-names>DJ</given-names></name></person-group>
+<year>2004</year>
+<article-title>Exhaustive allelic transmission disequilibrium tests as a new approach to genome-wide association studies</article-title>
+<source>Nat Genet</source>
+<volume>36</volume>
+<fpage>1181</fpage>
+<lpage>1188</lpage>
+<pub-id pub-id-type="pmid">15502828</pub-id></element-citation></ref><ref id="pgen-0010054-b17"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Marchini</surname><given-names>J</given-names></name><name><surname>Donnelly</surname><given-names>P</given-names></name><name><surname>Cardon</surname><given-names>LR</given-names></name></person-group>
+<year>2005</year>
+<article-title>Genome-wide strategies for detecting multiple loci that influence complex diseases</article-title>
+<source>Nat Genet</source>
+<volume>37</volume>
+<fpage>413</fpage>
+<lpage>417</lpage>
+<pub-id pub-id-type="pmid">15793588</pub-id></element-citation></ref><ref id="pgen-0010054-b18"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hunter</surname><given-names>DJ</given-names></name></person-group>
+<year>2005</year>
+<article-title>Gene-environment interactions in human diseases</article-title>
+<source>Nat Rev Genet</source>
+<volume>6</volume>
+<fpage>287</fpage>
+<lpage>298</lpage>
+<pub-id pub-id-type="pmid">15803198</pub-id></element-citation></ref><ref id="pgen-0010054-b19"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Paabo</surname><given-names>S</given-names></name></person-group>
+<year>2003</year>
+<article-title>The mosaic that is our genome</article-title>
+<source>Nature</source>
+<volume>421</volume>
+<fpage>409</fpage>
+<lpage>412</lpage>
+<pub-id pub-id-type="pmid">12540910</pub-id></element-citation></ref><ref id="pgen-0010054-b20"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hill</surname><given-names>WG</given-names></name><name><surname>Robertson</surname><given-names>A</given-names></name></person-group>
+<year>1968</year>
+<article-title>Linkage disequilibrium in finite populations</article-title>
+<source>Theor Appl Genet</source>
+<volume>38</volume>
+<fpage>226</fpage>
+<lpage>231</lpage>
+<pub-id pub-id-type="pmid">24442307</pub-id></element-citation></ref><ref id="pgen-0010054-b21"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pritchard</surname><given-names>JK</given-names></name><name><surname>Przeworski</surname><given-names>M</given-names></name></person-group>
+<year>2001</year>
+<article-title>Linkage disequilibrium in humans: Models and data</article-title>
+<source>Am J Hum Genet</source>
+<volume>69</volume>
+<fpage>1</fpage>
+<lpage>14</lpage>
+<pub-id pub-id-type="pmid">11410837</pub-id></element-citation></ref><ref id="pgen-0010054-b22"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hedrick</surname><given-names>PW</given-names></name></person-group>
+<year>1987</year>
+<article-title>Gametic disequilibrium measures: Proceed with caution</article-title>
+<source>Genetics</source>
+<volume>117</volume>
+<fpage>331</fpage>
+<lpage>341</lpage>
+<pub-id pub-id-type="pmid">3666445</pub-id></element-citation></ref><ref id="pgen-0010054-b23"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nielsen</surname><given-names>R</given-names></name></person-group>
+<year>2001</year>
+<article-title>Statistical tests of selective neutrality in the age of genomics</article-title>
+<source>Heredity</source>
+<volume>86</volume>
+<fpage>641</fpage>
+<lpage>647</lpage>
+<pub-id pub-id-type="pmid">11595044</pub-id></element-citation></ref><ref id="pgen-0010054-b24"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tishkoff</surname><given-names>SA</given-names></name><name><surname>Verrelli</surname><given-names>BC</given-names></name></person-group>
+<year>2003</year>
+<article-title>Patterns of human genetic diversity: Implications for human evolutionary history and disease</article-title>
+<source>Annu Rev Genomics Hum Genet</source>
+<volume>4</volume>
+<fpage>293</fpage>
+<lpage>340</lpage>
+<pub-id pub-id-type="pmid">14527305</pub-id></element-citation></ref><ref id="pgen-0010054-b25"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sabeti</surname><given-names>PC</given-names></name><name><surname>Reich</surname><given-names>DE</given-names></name><name><surname>Higgins</surname><given-names>JM</given-names></name><name><surname>Levine</surname><given-names>HZ</given-names></name><name><surname>Richter</surname><given-names>DJ</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>Detecting recent positive selection in the human genome from haplotype structure</article-title>
+<source>Nature</source>
+<volume>419</volume>
+<fpage>832</fpage>
+<lpage>837</lpage>
+<pub-id pub-id-type="pmid">12397357</pub-id></element-citation></ref><ref id="pgen-0010054-b26"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cooke</surname><given-names>GS</given-names></name><name><surname>Hill</surname><given-names>AV</given-names></name></person-group>
+<year>2001</year>
+<article-title>Genetics of susceptibility to human infectious disease</article-title>
+<source>Nat Rev Genet</source>
+<volume>2</volume>
+<fpage>967</fpage>
+<lpage>977</lpage>
+<pub-id pub-id-type="pmid">11733749</pub-id></element-citation></ref><ref id="pgen-0010054-b27"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Stefansson</surname><given-names>H</given-names></name><name><surname>Helgason</surname><given-names>A</given-names></name><name><surname>Thorleifsson</surname><given-names>G</given-names></name><name><surname>Steinthorsdottir</surname><given-names>V</given-names></name><name><surname>Masson</surname><given-names>G</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>A common inversion under selection in Europeans</article-title>
+<source>Nat Genet</source>
+<volume>37</volume>
+<fpage>129</fpage>
+<lpage>137</lpage>
+<pub-id pub-id-type="pmid">15654335</pub-id></element-citation></ref><ref id="pgen-0010054-b28"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tajima</surname><given-names>F</given-names></name></person-group>
+<year>1989</year>
+<article-title>Statistical method for testing the neutral mutation hypothesis by DNA polymorphism</article-title>
+<source>Genetics</source>
+<volume>123</volume>
+<fpage>585</fpage>
+<lpage>595</lpage>
+<pub-id pub-id-type="pmid">2513255</pub-id></element-citation></ref><ref id="pgen-0010054-b29"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fay</surname><given-names>JC</given-names></name><name><surname>Wu</surname><given-names>CI</given-names></name></person-group>
+<year>2000</year>
+<article-title>Hitchhiking under positive Darwinian selection</article-title>
+<source>Genetics</source>
+<volume>155</volume>
+<fpage>1405</fpage>
+<lpage>1413</lpage>
+<pub-id pub-id-type="pmid">10880498</pub-id></element-citation></ref><ref id="pgen-0010054-b30"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wall</surname><given-names>J</given-names></name></person-group>
+<year>1999</year>
+<article-title>Recombination and the power of statistical tests of neutrality</article-title>
+<source>Genet Res</source>
+<volume>74</volume>
+<fpage>65</fpage>
+<lpage>79</lpage>
+</element-citation></ref><ref id="pgen-0010054-b31"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Evans</surname><given-names>PD</given-names></name><name><surname>Anderson</surname><given-names>JR</given-names></name><name><surname>Vallender</surname><given-names>EJ</given-names></name><name><surname>Gilbert</surname><given-names>SL</given-names></name><name><surname>Malcom</surname><given-names>CM</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Adaptive evolution of ASPM, a major determinant of cerebral cortical size in humans</article-title>
+<source>Hum Mol Genet</source>
+<volume>13</volume>
+<fpage>489</fpage>
+<lpage>494</lpage>
+<pub-id pub-id-type="pmid">14722158</pub-id></element-citation></ref><ref id="pgen-0010054-b32"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kouprina</surname><given-names>N</given-names></name><name><surname>Pavlicek</surname><given-names>A</given-names></name><name><surname>Mochida</surname><given-names>GH</given-names></name><name><surname>Solomon</surname><given-names>G</given-names></name><name><surname>Gersch</surname><given-names>W</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Accelerated evolution of the <italic>ASPM</italic> gene controlling brain size begins prior to human brain expansion</article-title>
+<source>PLoS Biol</source>
+<volume>2</volume>
+<elocation-id>e126.</elocation-id>
+<comment>DOI: <ext-link ext-link-type="doi" xlink:href="10.1371/journal.pbio.0020126">10.1371/journal.pbio.0020126</ext-link></comment>
+<pub-id pub-id-type="pmid">15045028</pub-id></element-citation></ref><ref id="pgen-0010054-b33"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zhang</surname><given-names>J</given-names></name></person-group>
+<year>2003</year>
+<article-title>Evolution of the human ASPM gene, a major determinant of brain size</article-title>
+<source>Genetics</source>
+<volume>165</volume>
+<fpage>2063</fpage>
+<lpage>2070</lpage>
+<pub-id pub-id-type="pmid">14704186</pub-id></element-citation></ref><ref id="pgen-0010054-b34"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hamblin</surname><given-names>MT</given-names></name><name><surname>Thompson</surname><given-names>EE</given-names></name><name><surname>Di Rienzo</surname><given-names>A</given-names></name></person-group>
+<year>2002</year>
+<article-title>Complex signatures of natural selection at the Duffy blood group locus</article-title>
+<source>Am J Hum Genet</source>
+<volume>70</volume>
+<fpage>369</fpage>
+<lpage>383</lpage>
+<pub-id pub-id-type="pmid">11753822</pub-id></element-citation></ref><ref id="pgen-0010054-b35"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bersaglieri</surname><given-names>T</given-names></name><name><surname>Sabeti</surname><given-names>PC</given-names></name><name><surname>Patterson</surname><given-names>N</given-names></name><name><surname>Vanderploeg</surname><given-names>T</given-names></name><name><surname>Schaffner</surname><given-names>SF</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Genetic signatures of strong recent positive selection at the lactase gene</article-title>
+<source>Am J Hum Genet</source>
+<volume>74</volume>
+<fpage>1111</fpage>
+<lpage>1120</lpage>
+<pub-id pub-id-type="pmid">15114531</pub-id></element-citation></ref><ref id="pgen-0010054-b36"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schliekelman</surname><given-names>P</given-names></name><name><surname>Garner</surname><given-names>C</given-names></name><name><surname>Slatkin</surname><given-names>M</given-names></name></person-group>
+<year>2001</year>
+<article-title>Natural selection and resistance to HIV</article-title>
+<source>Nature</source>
+<volume>411</volume>
+<fpage>545</fpage>
+<lpage>546</lpage>
+<pub-id pub-id-type="pmid">11385558</pub-id></element-citation></ref><ref id="pgen-0010054-b37"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Osier</surname><given-names>MV</given-names></name><name><surname>Pakstis</surname><given-names>AJ</given-names></name><name><surname>Soodyall</surname><given-names>H</given-names></name><name><surname>Comas</surname><given-names>D</given-names></name><name><surname>Goldman</surname><given-names>D</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>A global perspective on genetic variation at the ADH genes reveals unusual patterns of linkage disequilibrium and diversity</article-title>
+<source>Am J Hum Genet</source>
+<volume>71</volume>
+<fpage>84</fpage>
+<lpage>99</lpage>
+<pub-id pub-id-type="pmid">12050823</pub-id></element-citation></ref><ref id="pgen-0010054-b38"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Toomajian</surname><given-names>C</given-names></name><name><surname>Ajioka</surname><given-names>RS</given-names></name><name><surname>Jorde</surname><given-names>LB</given-names></name><name><surname>Kushner</surname><given-names>JP</given-names></name><name><surname>Kreitman</surname><given-names>M</given-names></name></person-group>
+<year>2003</year>
+<article-title>A method for detecting recent selection in the human genome from allele age estimates</article-title>
+<source>Genetics</source>
+<volume>165</volume>
+<fpage>287</fpage>
+<lpage>297</lpage>
+<pub-id pub-id-type="pmid">14504236</pub-id></element-citation></ref><ref id="pgen-0010054-b39"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Enard</surname><given-names>W</given-names></name><name><surname>Przeworski</surname><given-names>M</given-names></name><name><surname>Fisher</surname><given-names>SE</given-names></name><name><surname>Lai</surname><given-names>CS</given-names></name><name><surname>Wiebe</surname><given-names>V</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>Molecular evolution of FOXP2, a gene involved in speech and language</article-title>
+<source>Nature</source>
+<volume>418</volume>
+<fpage>869</fpage>
+<lpage>872</lpage>
+<pub-id pub-id-type="pmid">12192408</pub-id></element-citation></ref><ref id="pgen-0010054-b40"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wooding</surname><given-names>S</given-names></name><name><surname>Kim</surname><given-names>UK</given-names></name><name><surname>Bamshad</surname><given-names>MJ</given-names></name><name><surname>Larsen</surname><given-names>J</given-names></name><name><surname>Jorde</surname><given-names>LB</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Natural selection and molecular evolution in PTC, a bitter-taste receptor gene</article-title>
+<source>Am J Hum Genet</source>
+<volume>74</volume>
+<fpage>637</fpage>
+<lpage>646</lpage>
+<pub-id pub-id-type="pmid">14997422</pub-id></element-citation></ref><ref id="pgen-0010054-b41"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Slatkin</surname><given-names>M</given-names></name><name><surname>Bertorelle</surname><given-names>G</given-names></name></person-group>
+<year>2001</year>
+<article-title>The use of intraallelic variability for testing neutrality and estimating population growth rate</article-title>
+<source>Genetics</source>
+<volume>158</volume>
+<fpage>865</fpage>
+<lpage>874</lpage>
+<pub-id pub-id-type="pmid">11404347</pub-id></element-citation></ref><ref id="pgen-0010054-b42"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wang</surname><given-names>YQ</given-names></name><name><surname>Su</surname><given-names>B</given-names></name></person-group>
+<year>2004</year>
+<article-title>Molecular evolution of microcephalin, a gene determining human brain size</article-title>
+<source>Hum Mol Genet</source>
+<volume>13</volume>
+<fpage>1131</fpage>
+<lpage>1137</lpage>
+<pub-id pub-id-type="pmid">15056608</pub-id></element-citation></ref><ref id="pgen-0010054-b43"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Evans</surname><given-names>PD</given-names></name><name><surname>Anderson</surname><given-names>JR</given-names></name><name><surname>Vallender</surname><given-names>EJ</given-names></name><name><surname>Choi</surname><given-names>SS</given-names></name><name><surname>Lahn</surname><given-names>BT</given-names></name></person-group>
+<year>2004</year>
+<article-title>Reconstructing the evolutionary history of microcephalin, a gene controlling human brain size</article-title>
+<source>Hum Mol Genet</source>
+<volume>13</volume>
+<fpage>1139</fpage>
+<lpage>1145</lpage>
+<pub-id pub-id-type="pmid">15056607</pub-id></element-citation></ref><ref id="pgen-0010054-b44"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Stajich</surname><given-names>JE</given-names></name><name><surname>Hahn</surname><given-names>MW</given-names></name></person-group>
+<year>2005</year>
+<article-title>Disentangling the effects of demography and selection in human history</article-title>
+<source>Mol Biol Evol</source>
+<volume>22</volume>
+<fpage>63</fpage>
+<lpage>73</lpage>
+<pub-id pub-id-type="pmid">15356276</pub-id></element-citation></ref><ref id="pgen-0010054-b45"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wang</surname><given-names>E</given-names></name><name><surname>Ding</surname><given-names>YC</given-names></name><name><surname>Flodman</surname><given-names>P</given-names></name><name><surname>Kidd</surname><given-names>JR</given-names></name><name><surname>Kidd</surname><given-names>KK</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>The genetic architecture of selection at the human dopamine receptor D4 (DRD4) gene locus</article-title>
+<source>Am J Hum Genet</source>
+<volume>74</volume>
+<fpage>931</fpage>
+<lpage>944</lpage>
+<pub-id pub-id-type="pmid">15077199</pub-id></element-citation></ref><ref id="pgen-0010054-b46"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rockman</surname><given-names>MV</given-names></name><name><surname>Hahn</surname><given-names>MW</given-names></name><name><surname>Soranzo</surname><given-names>N</given-names></name><name><surname>Loisel</surname><given-names>DA</given-names></name><name><surname>Goldstein</surname><given-names>DB</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Positive selection on MMP3 regulation has shaped heart disease risk</article-title>
+<source>Curr Biol</source>
+<volume>14</volume>
+<fpage>1531</fpage>
+<lpage>1539</lpage>
+<pub-id pub-id-type="pmid">15341739</pub-id></element-citation></ref><ref id="pgen-0010054-b47"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pagnier</surname><given-names>J</given-names></name><name><surname>Mears</surname><given-names>JG</given-names></name><name><surname>Dunda-Belkhodja</surname><given-names>O</given-names></name><name><surname>Schaefer-Rego</surname><given-names>KE</given-names></name><name><surname>Beldjord</surname><given-names>C</given-names></name><etal/></person-group>
+<year>1984</year>
+<article-title>Evidence for the multicentric origin of the sickle cell hemoglobin gene in Africa</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>81</volume>
+<fpage>1771</fpage>
+<lpage>1773</lpage>
+<pub-id pub-id-type="pmid">6584911</pub-id></element-citation></ref><ref id="pgen-0010054-b48"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Oota</surname><given-names>H</given-names></name><name><surname>Pakstis</surname><given-names>AJ</given-names></name><name><surname>Bonne-Tamir</surname><given-names>B</given-names></name><name><surname>Goldman</surname><given-names>D</given-names></name><name><surname>Grigorenko</surname><given-names>E</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>The evolution and population genetics of the ALDH2 locus: Random genetic drift, selection, and low levels of recombination</article-title>
+<source>Ann Hum Genet</source>
+<volume>68</volume>
+<fpage>93</fpage>
+<lpage>109</lpage>
+<pub-id pub-id-type="pmid">15008789</pub-id></element-citation></ref><ref id="pgen-0010054-b49"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Harding</surname><given-names>RM</given-names></name><name><surname>Healy</surname><given-names>E</given-names></name><name><surname>Ray</surname><given-names>AJ</given-names></name><name><surname>Ellis</surname><given-names>NS</given-names></name><name><surname>Flanagan</surname><given-names>N</given-names></name><etal/></person-group>
+<year>2000</year>
+<article-title>Evidence for variable selective pressures at MC1R</article-title>
+<source>Am J Hum Genet</source>
+<volume>66</volume>
+<fpage>1351</fpage>
+<lpage>1361</lpage>
+<pub-id pub-id-type="pmid">10733465</pub-id></element-citation></ref><ref id="pgen-0010054-b50"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Huttley</surname><given-names>GA</given-names></name><name><surname>Easteal</surname><given-names>S</given-names></name><name><surname>Southey</surname><given-names>MC</given-names></name><name><surname>Tesoriero</surname><given-names>A</given-names></name><name><surname>Giles</surname><given-names>GG</given-names></name><etal/></person-group>
+<year>2000</year>
+<article-title>Adaptive evolution of the tumour suppressor BRCA1 in humans and chimpanzees. Australian Breast Cancer Family Study</article-title>
+<source>Nat Genet</source>
+<volume>25</volume>
+<fpage>410</fpage>
+<lpage>413</lpage>
+<pub-id pub-id-type="pmid">10932184</pub-id></element-citation></ref><ref id="pgen-0010054-b51"><element-citation publication-type="other">
+<person-group person-group-type="author"><name><surname>Saunders</surname><given-names>MA</given-names></name><name><surname>Slatkin</surname><given-names>M</given-names></name><name><surname>Garner</surname><given-names>C</given-names></name><name><surname>Hammer</surname><given-names>MF</given-names></name><name><surname>Nachman</surname><given-names>MW</given-names></name></person-group>
+<year>2005</year>
+<article-title>The span of linkage disequilibrium caused by selection on G6PD in humans</article-title>
+<source>Genetics</source>
+<comment>E-pub ahead of print.</comment>
+</element-citation></ref></ref-list></back></article>

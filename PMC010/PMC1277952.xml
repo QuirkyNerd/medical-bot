@@ -1,0 +1,803 @@
+<!-- edited with XMLSPY v2004 rel. 3 U (http://www.xmlspy.com) by CDC (private) -->
+<!DOCTYPE article
+PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.3 20210610//EN" "JATS-archivearticle1-3-mathml3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article"><?properties open_access?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Prev Chronic Dis</journal-id><journal-id journal-id-type="iso-abbrev">Prev Chronic Dis</journal-id><journal-title-group><journal-title>Preventing Chronic Disease</journal-title></journal-title-group><issn pub-type="epub">1545-1151</issn><publisher><publisher-name>Centers for Disease Control and Prevention</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">15670444</article-id><article-id pub-id-type="pmc">PMC1277952</article-id><article-id pub-id-type="publisher-id">PCDv14_03_0036</article-id><article-categories><subj-group subj-group-type="heading"><subject>Original Research</subject></subj-group><series-title>Peer Reviewed</series-title></article-categories><title-group><article-title>Use of Complementary Therapies Among Primary Care Clinic Patients With Arthritis</article-title></title-group><contrib-group><contrib contrib-type="author" corresp="yes"><name><surname>Herman</surname><given-names>Carla J.</given-names></name><degrees>MD, MPH</degrees><role>Chief, Division of Geriatrics</role><aff>Department of Internal Medicine, School of Medicine, University of New Mexico Health Sciences Center</aff><address><addr-line>MSC 10 5550, 1 University of New Mexico, Albuquerque, NM 87131</addr-line><phone>505-272-5630</phone><email>cherman@salud.unm.edu</email></address></contrib><contrib contrib-type="author"><name><surname>Allen</surname><given-names>Peg</given-names></name><degrees>MPH</degrees><aff>Department of Internal Medicine, University of New Mexico Health Sciences Center, Albuquerque, NM</aff></contrib><contrib contrib-type="author"><name><surname>Prasad</surname><given-names>Arti</given-names></name><degrees>MD</degrees><aff>Department of Internal Medicine, University of New Mexico Health Sciences Center, Albuquerque, NM</aff></contrib><contrib contrib-type="author"><name><surname>Hunt</surname><given-names>William C.</given-names></name><degrees>MA</degrees><aff>Epidemiology and Cancer Control, University of New Mexico Health Sciences Center, Albuquerque, NM</aff></contrib><contrib contrib-type="author"><name><surname>Brady</surname><given-names>Teresa J.</given-names></name><degrees>PhD</degrees><aff>Arthritis Program, Division of Adult and Community Health, National Center for Chronic Disease Prevention and Health Promotion, Centers for Disease Control and Prevention, Atlanta, Ga</aff></contrib></contrib-group><pub-date pub-type="collection"><month>10</month><year>2004</year></pub-date><pub-date pub-type="epub"><day>15</day><month>9</month><year>2004</year></pub-date><volume>1</volume><issue>4</issue><elocation-id>A12</elocation-id><permissions><copyright-year>2004</copyright-year><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is a publication of the U.S. Government. This publication is in the public domain and is therefore without copyright. All text from this work may be reprinted freely. Use of these materials should be properly cited.</license-p></license></permissions><abstract abstract-type="key-points"><sec sec-type="intro"><title>Introduction</title><p>Use of complementary and alternative medicine (CAM) for chronic conditions has increased in recent years. There is little information, however, on CAM use among adults with clinic-confirmed diagnoses, including arthritis, who are treated by primary care physicians.</p></sec><sec sec-type="methods"><title>Methods</title><p>To assess the frequency and types of CAM therapy used by Hispanic and non-Hispanic white women and men with osteoarthritis, rheumatoid arthritis, or fibromyalgia, we used stratified random selection to identify 612 participants aged 18&#x02013;84 years and seen in university-based primary care clinics. Respondents completed an interviewer-administered survey in English or Spanish.</p></sec><sec sec-type="results"><title>Results</title><p>Nearly half (44.6%) of the study population was of Hispanic ethnicity, 71.4% were women, and 65.0% had annual incomes of less than $25,000. Most (90.2%) had ever used CAM for arthritis, and 69.2% were using CAM at the time of the interview. Current use was highest for oral supplements (mainly glucosamine and chondroitin) (34.1%), mind-body therapies (29.0%), and herbal topical ointments (25.1%). Fewer participants made current use of vitamins and minerals (16.6%), herbs taken orally (13.6%), a CAM therapist (12.7%), CAM movement therapies (10.6%), special diets (10.1%), or copper jewelry or magnets (9.2%). Those with fibromyalgia currently used an average of 3.9 CAM therapies versus 2.4 for those with rheumatoid arthritis and 2.1 for those with osteoarthritis. Current CAM use was significantly associated with being female, being under 55 years of age, and having some college education.</p></sec><sec sec-type="conclusions"><title>Conclusion</title><p>Hispanic and non-Hispanic white arthritis patients used CAM to supplement conventional treatments. Health care providers should be aware of the high use of CAM and incorporate questions about its use into routine assessments and treatment planning.</p></sec></abstract></article-meta></front><body><sec><title>Introduction</title><p>Rheumatic conditions such as arthritis and chronic joint pain are the leading cause of limitation in daily activities and disability among adults in the United States (<xref rid="B1" ref-type="bibr">1</xref>). In 2001, self-reported data obtained by the U.S. Behavioral Risk Factor Surveillance System indicated that a third of American adults had chronic joint symptoms or physician-diagnosed arthritis (<xref rid="B1" ref-type="bibr">1</xref>). Researchers estimate that by 2030, some 41 million adults aged 65 and older will have arthritis or chronic joint symptoms (<xref rid="B2" ref-type="bibr">2</xref>). Management of chronic rheumatic conditions usually consists of physician-prescribed medications, physician-recommended over-the-counter medications, physical therapy, and self-management strategies recommended by physicians and the American College of Rheumatology (<xref rid="B3" ref-type="bibr">3</xref>) such as exercise, weight control, use of heat or cold, intermittent rest, and stress management. Increasingly, adults are also adopting complementary and alternative medicine (CAM) to help manage their chronic conditions (<xref rid="B4" ref-type="bibr">4</xref>,<xref rid="B5" ref-type="bibr">5</xref>).</p><p>This study addresses three gaps in the literature on CAM use for arthritis. First, CAM use among adults with physician-confirmed arthritis who are treated by primary care physicians has not been well studied. Previous studies on prevalence of CAM use for arthritis in the United States have typically included either patients seen by rheumatologists (<xref rid="B6" ref-type="bibr">6</xref>-<xref rid="B8" ref-type="bibr">8</xref>) or community-based samples of adults with self-reported arthritis (<xref rid="B9" ref-type="bibr">9</xref>-<xref rid="B12" ref-type="bibr">12</xref>). The rheumatology clinic studies have used clinic-confirmed diagnoses but excluded adults treated by primary care physicians and have had small samples (n = 135&#x02013;232). The community-based surveys have included adults treated by any type of physician or none at all and have had larger samples (n = 122&#x02013;1424), but these studies have relied on self-report to determine the presence of arthritis. Many such participants did not know what type of arthritis they had (<xref rid="B9" ref-type="bibr">9</xref>,<xref rid="B10" ref-type="bibr">10</xref>).</p><p>A second gap in the literature is the underrepresentation of Hispanic adults in arthritis-specific CAM-use studies in the United States. Two community-based studies conducted 10 or more years ago found that Hispanic and African American adults with arthritis were more likely to use prayer, take herbs orally, or use ointments and were less likely to see a physician for arthritis than were non-Hispanic whites (<xref rid="B13" ref-type="bibr">13</xref>,<xref rid="B14" ref-type="bibr">14</xref>). Hispanic adults are better represented in studies of CAM use among the general population (<xref rid="B4" ref-type="bibr">4</xref>). In studies of CAM use for any purpose among adults in the general population, Hispanics or Latinos have been as likely as non-Hispanic whites to use self-care types of CAM but less likely to have seen a CAM provider (<xref rid="B4" ref-type="bibr">4</xref>,<xref rid="B5" ref-type="bibr">5</xref>,<xref rid="B15" ref-type="bibr">15</xref>-<xref rid="B19" ref-type="bibr">19</xref>).</p><p>A third shortcoming is that there seems to be little information describing use of specific CAM therapies by type of arthritis, even though the three most common types of arthritis &#x02014; osteoarthritis, rheumatoid arthritis, and fibromyalgia &#x02014; differ greatly in disease processes, clinical presentations, persons affected, and the CAM therapies shown to be effective (<xref rid="B20" ref-type="bibr">20</xref>,<xref rid="B21" ref-type="bibr">21</xref>). Osteoarthritis affects both women and men primarily over age 45, whereas rheumatoid arthritis and fibromyalgia can start at younger ages and affect more women than men (<xref rid="B20" ref-type="bibr">20</xref>).</p><p>The purpose of this study is to assess the frequency and types of CAM therapy used by Hispanic and non-Hispanic white adults treated by primary care physicians in university-affiliated clinics in Albuquerque, NM, as part of the management of osteoarthritis, rheumatoid arthritis, or fibromyalgia.</p></sec><sec><title>Methods</title><sec><title>Recruitment</title><p>Hispanic and non-Hispanic white women and men aged 18&#x02013;84 years seen in any of six primary care clinics at the University of New Mexico in Albuquerque between June 2000 and May 2001 with a diagnostic code for osteoarthritis, rheumatoid arthritis, or fibromyalgia were eligible for inclusion in the sample. The sampling method is discussed below (Statistical analysis). Of the 1684 sampled patients, 22 (1.3%) had died. For 97 (5.8%), permission to contact was denied by the primary care physician, and for 69 (4.1%), no responding physician could be found. Introductory letters were sent to the 1496 patients (88.8%) for whom physician consent was obtained. Trained bilingual interviewers made telephone calls in English or Spanish to these patients to invite them to participate in the study. Because of the known inaccuracy of ethnicity coding in the clinics, interviewers screened patients during the invitational calls to ensure they self-identified as Hispanic or non-Hispanic white and spoke English or Spanish. During recruitment, we learned that the diagnostic code (ICD-9-CM) for fibromyalgia was not specific to fibromyalgia, but also included people with other muscular conditions. Consequently, some patients denied having fibromyalgia or arthritis when contacted and were excluded.</p></sec><sec><title>Interviews</title><p>In-person interviews were conducted by appointment in participants' homes or in a clinic, according to participant preference. The interviewers were university staff trained to conduct interviews for a variety of epidemiological studies.</p><p>We used validated and reliable measures from the Centers for Disease Control and Prevention's Behavioral Risk Factor Surveillance System for demographic questions, perceived health status, and comorbidity (<xref rid="B22" ref-type="bibr">22</xref>). The 20-item Stanford Health Assessment Questionnaire (HAQ), commonly used in arthritis research, was the measure of functional ability (<xref rid="B23" ref-type="bibr">23</xref>). The five-item short form of the Arthritis Helplessness Index, validated by DeVellis and Callahan (<xref rid="B24" ref-type="bibr">24</xref>), measured perceived helplessness (<xref rid="B25" ref-type="bibr">25</xref>). Fiscella's four-item Medical Skepticism scale (<xref rid="B26" ref-type="bibr">26</xref>) assessed beliefs about desire to control one's own health care. We used the Faces Pain Scale to assess average pain over the past week, with a range from 0 = no pain to 10 = worst possible pain (<xref rid="B27" ref-type="bibr">27</xref>,<xref rid="B28" ref-type="bibr">28</xref>). We used a visual analog scale to evaluate average fatigue over the past week, with a range from 0 = no fatigue to 10 = extreme fatigue (<xref rid="B29" ref-type="bibr">29</xref>). A four-item scale measured sleep problems in the past month (<xref rid="B30" ref-type="bibr">30</xref>). We also included Marin's five-item Hispanic acculturation scale (<xref rid="B31" ref-type="bibr">31</xref>).</p><p>We selected CAM items based on a review of the literature and feedback from 39 volunteers in four focus groups. CAM items were included in the survey if they were reported in the CAM literature as commonly used for osteoarthritis, rheumatoid arthritis, or fibromyalgia, or if focus group participants said they were locally used for arthritis. (The <xref rid="A1" ref-type="app">Appendix</xref> provides a full list of CAM therapies included in the survey.) Participants were also asked to describe other therapies they were using. Current use was defined as use at the time of the interview.</p><p>Pilot testing of the questionnaire was conducted in two waves. The first wave involved adults who had arthritis or fibromyalgia and were known to the researchers. In the second wave, interviewers conducted pilot interviews using the modified survey with 18 volunteers recruited from the community who met eligibility criteria for the study. Final revisions were then made to the English-language questionnaire. Previously validated Spanish translations were used for the functional ability HAQ (<xref rid="B32" ref-type="bibr">32</xref>); demographic, health status, and comorbidity items (<xref rid="B22" ref-type="bibr">22</xref>); Arthritis Helplessness Index (<xref rid="B33" ref-type="bibr">33</xref>); and acculturation scale (<xref rid="B31" ref-type="bibr">31</xref>). A native Spanish speaker born in Mexico who works in health care in New Mexico translated the remaining measures. Several Spanish-speaking researchers reviewed the translations to ensure a match to the English meaning, proper grammar, and correct spelling and then pilot tested the Spanish version with Spanish speakers who had arthritis.</p></sec><sec><title>Statistical analysis</title><p>Participants were randomly selected from the clinic population within strata defined by ethnicity, sex, and diagnostic group. To obtain more rheumatoid arthritis participants, more Hispanics, and more men, we sampled patients in these categories at higher rates than non-Hispanic white women with diagnoses of osteoarthritis or fibromyalgia. The strata were based on the clinic-assigned ethnicity and diagnostic group, although self-reported ethnicity and self-reported diagnosis of fibromyalgia were used in the analysis. Sampling fractions were computed as the ratio of the number of participants who completed an interview to the total number of clinic patients within each stratum. The inverses of the sampling fractions were used as weights in all analyses. SUDAAN software release 8.0.2 (Research Triangle Institute, Research Triangle Park, NC) was used to compute all weighted estimates of proportions and tests of significance by means of a stratified sampling with replacement design (<xref rid="B34" ref-type="bibr">34</xref>).</p><p>We conducted analyses separately by diagnostic group because the three types of rheumatological conditions are different disease processes with different clinical presentations and patient demographics. For arthritis type, we coded each participant as having primarily rheumatoid arthritis, fibromyalgia, or osteoarthritis. The clinic diagnostic codes were used to identify respondents as having rheumatoid arthritis or osteoarthritis. Because of inaccuracies in the diagnostic coding for fibromyalgia, we used participants' self-reports to code that condition. Participants having more than one type of arthritis were classified in the following order of priority: 1) rheumatoid arthritis, 2) fibromyalgia, and 3) osteoarthritis. Ninety-five patients were classified as having rheumatoid arthritis, 95 as having fibromyalgia, and 422 as having osteoarthritis. One patient with rheumatoid arthritis also had a clinical diagnosis of osteoarthritis, and six reported having fibromyalgia. Nineteen with self-reported fibromyalgia also had a clinical diagnosis of osteoarthritis. Subjects who reported both Hispanic and non-Hispanic ethnicity were coded as Hispanic.</p><p>Several survey items were excluded from frequency counts and analyses of CAM use. Multiple vitamins, prayer, and drawing upon religious beliefs were excluded because participants had difficulty distinguishing between use for general health and use specifically for arthritis. Calcium, vitamin D, and folic acid were excluded because participants reported that their physicians had recommended their use for other health reasons.</p></sec></sec><sec><title>Results</title><sec><title>Demographics</title><p>A total of 612 primary care clinic patients completed the surveys. Of the 1496 primary clinic patients sent introductory letters, 286 (19.1%) were ineligible per the telephone screening (self-reported ethnicity other than Hispanic or non-Hispanic white or denied having arthritis). Of the 1210 eligible patients, 110 (9.1%) were too ill to participate because of other illnesses, 36 (3.0%) had moved out of the area, 302 (25.0%) refused, 96 (7.9%) had no current contact information, and 54 (4.5%) with valid telephone numbers could not be reached despite repeated calls at different times of the day. The final response rate of completed interviews among eligible patients was 50.6% (612 of the 1210 eligible patients). Information was not available on nonrespondents to compare their characteristics with those of respondents.</p><p>Weighted estimates of the proportions of the clinic population with each of several characteristics, both overall and by diagnostic group, are shown in <xref rid="T1" ref-type="table">Table 1</xref>. An estimated 44.6% were of Hispanic ethnicity and 71.4% were female. About one fourth (26.9%) were aged younger than 55 years, 35.4% were aged 55&#x02013;64, and 37.7% were aged 65&#x02013;84. Of the Hispanics, 71.4% self-identified as Spanish American, 20.3% as Mexican American or Mexican, 2.9% as Central or Latin American, and 2.0% as "other" (3.4% were unidentifiable either because the respondents did not know or refused to answer) (data not shown). As expected, clinic patients with rheumatoid arthritis and fibromyalgia were younger and included a higher proportion of women and non-Hispanic whites, and they had more education than the group with osteoarthritis. Patients with fibromyalgia had higher levels of pain in the past week and more frequent physician visits for their rheumatologic condition than did patients with rheumatoid arthritis or osteoarthritis (<italic>P</italic> &#x0003c; 0.01).</p></sec><sec><title>Overall CAM use</title><p>Most of the clinic population (90.2%) had ever tried CAM therapies for their arthritis, and 69.2% currently used one or more CAM therapies at the time of the interview (<xref rid="T2" ref-type="table">Table 2</xref>). CAM users with fibromyalgia had ever tried an average of 5.5 CAM therapies versus 4.4 among those with rheumatoid arthritis and 3.1 among those with osteoarthritis (<italic>P</italic> &#x0003c; .05) (data not shown). CAM users with fibromyalgia currently used an average of 3.9 CAM therapies compared with 2.4 among those with rheumatoid arthritis and 2.1 among those with osteoarthritis (<italic>P</italic> &#x0003c; .05) (data not shown).</p></sec><sec><title>Types of therapies used</title><p>Fibromyalgia patients were most likely to use each type of CAM compared to those with rheumatoid arthritis or osteoarthritis (<xref rid="T2" ref-type="table">Table 2</xref>). Specific CAM therapies currently used by at least 3% of the clinic population in at least one of the diagnostic groups are shown in <xref rid="T3" ref-type="table">Table 3</xref>. Patients with osteoarthritis most commonly used the nutritional supplements glucosamine (25.2%) and chondroitin (17.9%) and the mind-body therapies of meditation (10.1%) and relaxation techniques (10.0%) to manage their arthritis. Rheumatoid arthritis patients most commonly used relaxation (16.3%), glucosamine (15.8%), meditation (11.1%), and vitamin C (10.0%). Only 6.1% of rheumatoid arthritis patients currently used fish oil supplements, and only 1.3% used supplements containing gamma linolenic acid (GLA) (borage oil, evening primrose oil, and black currant oil). Fibromyalgia patients most commonly used breathing techniques (36.7%), relaxation (28.9%), meditation (27.6%), music therapy (22.8%), glucosamine (20.7%), visualization (19.6%), acupressure (19.5%), massage therapy (17.1%), magnesium (14.1%), and yoga (13.2%). Fibromyalgia patients with a concurrent clinical diagnosis of osteoarthritis were more likely to use glucosamine than were those without osteoarthritis (glucosamine: 49.3% vs 13.8%, <italic>P</italic> = .01; chondroitin: 25.6% vs 6.9%, <italic>P</italic> = .08) (data not shown).</p><p>Patients currently used more than 40 different herbs taken orally and more than 30 topical herbal therapies for arthritis. As <xref rid="T3" ref-type="table">Table 3</xref> shows, massage therapists, chiropractors, and acupuncturists were the most commonly seen CAM therapists. Within the items worn category, only magnets and copper bracelets were currently used by more than 1% of patients. Respondents were asked about several CAM movement therapies, and they most often named yoga, tai chi, or the Feldenkrais method of movement reeducation. Current use of special diets included an "arthritis diet" high in fish and fresh fruits and vegetables and low in potatoes, tomatoes, eggplant, and peppers. Patients also used several other special diets. Energy therapies included acupressure, reiki, reflexology, therapeutic touch, aromatherapy, and other therapies intended to affect theorized energy fields within and surrounding the body.</p></sec><sec><title>Characteristics of CAM users</title><p>Among osteoarthritis and fibromyalgia patients, current use of any type of CAM did not differ by demographic characteristics (<xref rid="T4" ref-type="table">Table 4</xref>). Among rheumatoid arthritis participants, however, current CAM use was associated with disease duration of 0&#x02013;5 years and having some college education (<italic>P</italic> &#x0003c; 0.05). Tests for interactions showed the association between ethnicity and current use of any type of CAM differed by diagnostic group. Similar proportions of Hispanic and non-Hispanic white osteoarthritis patients currently used any type of CAM, whereas significantly more non-Hispanic whites with rheumatoid arthritis currently used CAM than did Hispanics with rheumatoid arthritis. We tested other measures of disease burden not shown in <xref rid="T4" ref-type="table">Table 4</xref> (including functional ability, fatigue, sleep problems, perceived general health status, and presence of comorbidity) for possible associations with current CAM use, but we found none that was significant. Overall, current use of any type of CAM was significantly higher among women (<italic>P</italic> = .03), patients under age 55 (<italic>P</italic> = .02), and those with some college education (<italic>P</italic> = .003).</p></sec><sec><title>Other aspects of CAM use</title><p>Additional results not presented in the tables are described below. The percentages of the clinic population that found CAM therapies somewhat helpful or helped a lot, among those who had ever used that type of CAM, are as follows: mind-body therapies (90.4%); CAM movement therapies (82.7%); CAM therapists (79.8%); energy therapies (79.4%); herbal topical rubs (77.1%); special diets (64.9%); vitamins and minerals (63.0%); herbs taken orally (61.5%); nutritional supplements (57.0%); homeopathic remedies (49.6%); and items worn (36.9%). Gaps between percentages of ever use and current use were greatest for those CAM therapies that fewer patients found useful, such as wearing copper jewelry or magnets, or for costly therapies, such as seeing CAM therapists or using glucosamine and chondroitin. Among those who had ever used CAM, 13.6% of osteoarthritis patients, 17.3% of those with rheumatoid arthritis, and 30.6% of those with fibromyalgia reported that CAM use changed their use of conventional therapies. The most common change reported in open-ended responses was the use of smaller amounts or doses of prescription or over-the-counter medication (52.8%). Of those who had ever tried CAM, 6.6% used only CAM therapies and no conventional treatments. Overall, 22.6% of those who had ever used CAM had never mentioned their CAM use to their medical doctor, 66.6% had told their doctor, 8.0% said their doctor had suggested the therapies, and 2.7% were unsure. More CAM users with fibromyalgia (82.8%) told their doctor about their CAM use than did those with rheumatoid arthritis (69.7%) or osteoarthritis (62.0%) (<italic>P</italic> &#x0003c; .001).</p><p>Open-ended responses on reasons for using CAM were in the same rank order by how often they were mentioned in each diagnostic group. Overall, reasons mentioned included the following: to relieve pain (36.1%); to prevent disease progression (14.3%); to feel better (13.7%); to try CAM to see if it would help (13.5%); and because CAM therapies had helped them (9.2%). Sources of information about CAM were also similar across the diagnostic groups. Overall, these sources included family or friends (66.1%), medical doctors (56.1%), magazines or books (34.6%), and radio or television or newspapers (22.6%); only 11.3% named the Internet as a source. Patients who had ever used any type of CAM currently spent from $0 to more than $500 per month on CAM therapies, with 67.7% spending $50 or less per month and 15.1% spending more than $100 per month. Thirty percent of CAM users with fibromyalgia spent more than $100 per month on CAM versus 24.0% of those with rheumatoid arthritis and 9.7% of those with osteoarthritis.</p></sec></sec><sec><title>Discussion</title><p>In this study, 90.2% of Hispanic and non-Hispanic white arthritis patients treated by primary care physicians had ever tried CAM for their arthritis, and 69.2% currently used one or more CAM therapies. Overall, 17.2% changed their use of conventional treatments after starting to use CAM, and more than one fifth (22.6%) had never discussed their CAM use with their medical doctor. These findings are important because they indicate that conventional therapies alone are not meeting the needs of arthritis patients. Furthermore, many patients are supplementing or decreasing their medical treatment with or without their physician's knowledge. Because some CAM therapies may interact with conventional medications and treatments, it is important for health care providers to be aware that many arthritis patients are using therapies on their own and to inquire specifically about their patients' CAM use.</p><p>The prevalence of CAM use found in this study is higher than the range of 33%&#x02013;66% reported in previous arthritis studies (<xref rid="B6" ref-type="bibr">6</xref>-<xref rid="B12" ref-type="bibr">12</xref>). Differing definitions of CAM may partly explain the disparity, as the present study included a broader array of mind-body therapies, energy therapies, and CAM movement therapies than most previous studies. Geographic location may also partly explain the difference, given that national studies of CAM use among the general population have found higher use in the West than in other regions of the United States (<xref rid="B5" ref-type="bibr">5</xref>,<xref rid="B18" ref-type="bibr">18</xref>). Also, some arthritis studies have included only older adults (<xref rid="B9" ref-type="bibr">9</xref>-<xref rid="B12" ref-type="bibr">12</xref>) who in previous studies were less likely to use CAM than adults under age 55 (<xref rid="B4" ref-type="bibr">4</xref>,<xref rid="B5" ref-type="bibr">5</xref>).</p><p>As in previous studies, most CAM use in the present study was self-care, with a smaller percentage of people seeing a CAM therapist (<xref rid="B4" ref-type="bibr">4</xref>-<xref rid="B6" ref-type="bibr">6</xref>,<xref rid="B10" ref-type="bibr">10</xref>,<xref rid="B12" ref-type="bibr">12</xref>,<xref rid="B15" ref-type="bibr">15</xref>). Consistent with some previous studies, current use of any type of CAM in this study was associated with being female, being under age 55, and having some college education, and use did not differ by Hispanic ethnicity (<xref rid="B4" ref-type="bibr">4</xref>-<xref rid="B6" ref-type="bibr">6</xref>,<xref rid="B16" ref-type="bibr">16</xref>,<xref rid="B19" ref-type="bibr">19</xref>). National studies on CAM use among the general population found higher income was associated with CAM use (<xref rid="B4" ref-type="bibr">4</xref>,<xref rid="B5" ref-type="bibr">5</xref>), but the present study and some other arthritis CAM studies found no association between CAM use and income (<xref rid="B6" ref-type="bibr">6</xref>,<xref rid="B9" ref-type="bibr">9</xref>,<xref rid="B11" ref-type="bibr">11</xref>).</p><p>The finding that patients with osteoarthritis used a lower average number of CAM therapies than those with fibromyalgia and rheumatoid arthritis conflicts with a previous rheumatology clinic study in which patients with rheumatoid arthritis were less likely to use CAM than patients with osteoarthritis or fibromyalgia (<xref rid="B6" ref-type="bibr">6</xref>). Both that study and ours, however, had small numbers of patients with fibromyalgia and rheumatoid arthritis, and the previous study had very few patients with osteoarthritis. Thus, caution should be used in interpreting this finding. In previous studies among adults with arthritis, CAM use was associated with poor perceived general health (<xref rid="B10" ref-type="bibr">10</xref>,<xref rid="B11" ref-type="bibr">11</xref>), sleep disruption (<xref rid="B12" ref-type="bibr">12</xref>), or severe pain (<xref rid="B35" ref-type="bibr">35</xref>). In one study, use of three or more types of CAM was associated with longer disease duration (<xref rid="B35" ref-type="bibr">35</xref>). In the present study, however, shorter duration of arthritis among respondents with rheumatoid arthritis was associated with current CAM use, and arthritis symptoms were not significantly associated with CAM use. Although similar percentages of Hispanic and non-Hispanic white respondents with osteoarthritis used any type of CAM, use of specific CAM therapies may vary by Hispanic ethnicity. Exploration of this issue is beyond the scope of the present overview.</p><p>An important finding of this study is that patterns of CAM use did not necessarily correspond to CAM therapies with evidence of effectiveness for particular types of arthritis. Most striking is the high percentage of patients in each diagnostic group with past and current use of glucosamine and chondroitin. Rigorous scientific studies have shown consistent moderate short-term benefits and safety of glucosamine and chondroitin for osteoarthritis of the knee, but there is no evidence for their effectiveness in rheumatoid arthritis or fibromyalgia (<xref rid="B21" ref-type="bibr">21</xref>,<xref rid="B36" ref-type="bibr">36</xref>,<xref rid="B37" ref-type="bibr">37</xref>). We checked for concurrent osteoarthritis as a possible explanation of use by those with rheumatoid arthritis and fibromyalgia, but we found that none of the participants with rheumatoid arthritis and only half of those with fibromyalgia using glucosamine and chondroitin had osteoarthritis. Another example is the low use of fish oil and GLA-containing supplements among patients with rheumatoid arthritis, even though they have been shown to reduce pain and improve function in those who have rheumatoid arthritis (<xref rid="B21" ref-type="bibr">21</xref>,<xref rid="B38" ref-type="bibr">38</xref>). Relying on friends, family members, and magazines for information about CAM may have affected participants' access to credible information specific to arthritis type. High use of mind-body therapies was found in the present study within each diagnostic group, especially among those with fibromyalgia. The few efficacy studies of mind-body therapies among patients with fibromyalgia have had equivocal findings, but results are promising for patients with osteoarthritis and rheumatoid arthritis (<xref rid="B39" ref-type="bibr">39</xref>).</p><p>This study has several limitations. Sample sizes were small for those with rheumatoid arthritis (n = 95) and fibromyalgia (n = 95), although the numbers of osteoarthritis participants (n = 422) and total participants (n = 612) were larger than in previous studies with clinic samples. Results are not generalizable beyond the particular clinic population for several reasons: the response rate was low; men, Hispanics, and those with rheumatoid arthritis were oversampled; the SUDAAN weighted analysis method provided estimates only within the particular clinic population in the study and not a larger population; the low-income, central New Mexican, university-affiliated clinic population is unlikely to be representative of other clinic populations in other locations; and New Mexican Hispanics who self-identify as Spanish Americans may not be representative of diverse Hispanic populations living elsewhere. We used the SUDAAN weighted analysis method to address oversampling certain groups, but this method is intended for use with larger samples (<xref rid="B34" ref-type="bibr">34</xref>). Use of CAM ever to manage longstanding arthritis is prone to recall bias, and so we defined current use as use at the time of the interview. There is still the limitation of asking about CAM use at only one point in time. Definitions of CAM are increasingly blurred as some therapies such as vitamins have become part of conventional clinical practice and others such as capsaicin cream are now recommended by the American College of Rheumatology because of evidence of efficacy (<xref rid="B3" ref-type="bibr">3</xref>).</p><p>Efforts are needed to investigate how best to translate and disseminate CAM efficacy research findings so people will know which CAM therapies may benefit their type of arthritis. Additional research is needed on efficacy and safety of CAM therapies used by arthritis patients, including research on potential negative interactions between CAM therapies and conventional treatments such as medications.</p><p>In conclusion, this study found that CAM use was high, potentially costly, and not always communicated to the treating physician among the osteoarthritis, rheumatoid arthritis, and fibromyalgia patients treated by primary care physicians in these clinics. Overall, 69% of the clinic population currently used any type of CAM, and current use was associated with being female, being under 55 years of age, and having a college education. Two thirds of CAM users spent less than $50 per month on CAM, but overall 15%, including 30% of the CAM users with fibromyalgia, spent more than $100 per month on CAM. Two thirds of CAM users in the study discussed CAM use with their medical doctor; the main reason cited for not disclosing CAM use was that the physician did not ask. Physicians and other health care providers should be aware of this high degree of CAM use among arthritis patients and incorporate questions about such use into their routine assessments and treatment planning.</p></sec></body><back><ack><p>This study was funded by the Division of Adult and Community Health (DACH), through the Prevention Research Centers Program, National Center for Chronic Disease Prevention and Health Promotion (NCCDPHP), Centers for Disease Control and Prevention (CDC). Special thanks go to Shirley Pareo, MS, Center for Health Promotion and Disease Prevention, University of New Mexico Health Sciences Center; Joseph Sniezek, MD, Arthritis Program, DACH, NCCDPHP, CDC; and Leigh Callahan, PhD, Thurston Arthritis Research Center, University of North Carolina at Chapel Hill, for their assistance in survey development. We also thank the Epidemiology and Cancer Control staff at the University of New Mexico Health Sciences Center, especially Lloryn Swan, for recruitment data management; Barbara Evans for designing the recruitment tracking system; Ron Darling for designing the survey data entry screens; interviewers Julie Baum, Melissa Jim, and Phoebe Underwood; and Kim Ngan Giang, research assistant.</p></ack><fn-group><fn><p>The opinions expressed by authors contributing to this journal do not necessarily reflect the opinions of the U.S. Department of Health and Human Services, the Public Health Service, Centers for Disease Control and Prevention, or the authors' affiliated institutions. Use of trade names is for identification only and does not imply endorsement by any of the groups named above.</p></fn><fn><p>
+<italic>Suggested citation for this article</italic>: Herman CJ, Allen P, Hunt WC, Prasad A, Brady TJ. Use of complementary therapies among primary care clinic patients with arthritis. Prev Chronic Dis [serial online] 2004 Oct [date cited]. Available from: URL: <ext-link xlink:href="http://www.cdc.gov/pcd/issues/2004/oct/03_0036.htm" ext-link-type="uri">http://www.cdc.gov/pcd/issues/2004/oct/03_0036.htm</ext-link>.</p></fn></fn-group><ref-list><ref id="B1"><label>1</label><element-citation publication-type="journal">
+<article-title>Prevalence of self-reported arthritis or chronic joint symptoms among adults-United States, 2001</article-title>
+<source>MMWR Morb Mortal Wkly Rep</source>
+<year>2002</year>
+<volume>52</volume>
+<fpage>948</fpage>
+<lpage>950</lpage>
+</element-citation></ref><ref id="B2"><label>2</label><element-citation publication-type="journal">
+<article-title>Adults who have never seen a health-care provider for chronic joint symptoms--United States, 2001</article-title>
+<source>MMWR Morb Mortal Wkly Rep</source>
+<year>2003</year>
+<volume>52</volume>
+<fpage>416</fpage>
+<lpage>419</lpage>
+<pub-id pub-id-type="pmid">12807091</pub-id></element-citation></ref><ref id="B3"><label>3</label><element-citation publication-type="book">
+<article-title>American College of Rheumatology. Treatment guidelines [Internet]</article-title>
+<publisher-name>The College</publisher-name>
+<publisher-loc>Atlanta (GA)</publisher-loc>
+<comment>Available from: URL:<ext-link xlink:href="http://www.rheumatology.org/publications/guidelines/index.asp?aud=mem" ext-link-type="uri">http://www.rheumatology.org/publications/ guidelines/index.asp?aud=mem</ext-link>
+</comment>
+</element-citation></ref><ref id="B4"><label>4</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wootton</surname><given-names>JC</given-names></name><name><surname>Sparber</surname><given-names>A</given-names></name></person-group>
+<article-title>Surveys of complementary and alternative medicine: part I. General trends and demographic groups</article-title>
+<source>J Altern Complement Med</source>
+<year>2001</year>
+<volume>7</volume>
+<fpage>195</fpage>
+<lpage>208</lpage>
+<pub-id pub-id-type="pmid">11327525</pub-id></element-citation></ref><ref id="B5"><label>5</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Eisenberg</surname><given-names>DM</given-names></name><name><surname>Davis</surname><given-names>RB</given-names></name><name><surname>Ettner</surname><given-names>SL</given-names></name><name><surname>Appel</surname><given-names>S</given-names></name><name><surname>Wilkey</surname><given-names>S</given-names></name><name><surname>Van Rompay</surname><given-names>M</given-names></name><etal/></person-group>
+<article-title>Trends in alternative medicine use in the United States, 1990-1997: results of a follow-up national survey</article-title>
+<source>JAMA</source>
+<year>1998</year>
+<volume>280</volume>
+<fpage>1569</fpage>
+<lpage>1575</lpage>
+<pub-id pub-id-type="pmid">9820257</pub-id></element-citation></ref><ref id="B6"><label>6</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rao</surname><given-names>JK</given-names></name><name><surname>Kroenke</surname><given-names>K</given-names></name><name><surname>Mihaliak</surname><given-names>KA</given-names></name><name><surname>Grambow</surname><given-names>SC</given-names></name><name><surname>Weinberger</surname><given-names>M</given-names></name></person-group>
+<article-title>Rheumatology patients&#x02019; use of complementary therapies: results from a one-year longitudinal study</article-title>
+<source>Arthritis Rheum</source>
+<year>2003</year>
+<volume>49</volume>
+<fpage>619</fpage>
+<lpage>625</lpage>
+<pub-id pub-id-type="pmid">14558046</pub-id></element-citation></ref><ref id="B7"><label>7</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wilson</surname><given-names>JW</given-names></name><name><surname>Lieberman</surname><given-names>JD</given-names></name></person-group>
+<source>JAAPA</source>
+<article-title>The lure of unconventional therapy for rheumatic disease: how powerful is it?</article-title>
+<year>1999</year>
+<volume>12</volume>
+<issue>11</issue>
+<fpage>69</fpage>
+<lpage>84</lpage>
+<page-range>69-74,79-80,83-4</page-range>
+<pub-id pub-id-type="pmid">10747646</pub-id></element-citation></ref><ref id="B8"><label>8</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Anderson</surname><given-names>DL</given-names></name><name><surname>Shane-McWhorter</surname><given-names>L</given-names></name><name><surname>Crouch</surname><given-names>BI</given-names></name><name><surname>Andersen</surname><given-names>SJ</given-names></name></person-group>
+<article-title>Prevalence and patterns of alternative medication use in a university hospital outpatient clinic serving rheumatology and geriatric patients</article-title>
+<source>Pharmacotherapy</source>
+<year>2000</year>
+<volume>20</volume>
+<fpage>958</fpage>
+<lpage>966</lpage>
+<pub-id pub-id-type="pmid">10939557</pub-id></element-citation></ref><ref id="B9"><label>9</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mikuls</surname><given-names>TR</given-names></name><name><surname>Mudano</surname><given-names>AS</given-names></name><name><surname>Pulley</surname><given-names>L</given-names></name><name><surname>Saag</surname><given-names>KG</given-names></name></person-group>
+<source>Med Care</source>
+<article-title>The association of race/ethnicity with the receipt of traditional and alternative arthritis-specific health care</article-title>
+<year>2003</year>
+<volume>41</volume>
+<fpage>1233</fpage>
+<lpage>1239</lpage>
+<pub-id pub-id-type="pmid">14583686</pub-id></element-citation></ref><ref id="B10"><label>10</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kaboli</surname><given-names>PJ</given-names></name><name><surname>Doebbeling</surname><given-names>BN</given-names></name><name><surname>Saag</surname><given-names>KG</given-names></name><name><surname>Rosenthal</surname><given-names>GE</given-names></name></person-group>
+<source>Arthritis Rheum</source>
+<article-title>Use of complementary and alternative medicine by older patients with arthritis: a population-based study</article-title>
+<year>2001</year>
+<volume>45</volume>
+<fpage>398</fpage>
+<lpage>403</lpage>
+<pub-id pub-id-type="pmid">11501729</pub-id></element-citation></ref><ref id="B11"><label>11</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ramsey</surname><given-names>SD</given-names></name><name><surname>Spencer</surname><given-names>AC</given-names></name><name><surname>Topolski</surname><given-names>TD</given-names></name><name><surname>Belza</surname><given-names>B</given-names></name><name><surname>Patrick</surname><given-names>DL</given-names></name></person-group>
+<source>Arthritis Rheum</source>
+<article-title>Use of alternative therapies by older adults with osteoarthritis</article-title>
+<year>2001</year>
+<volume>45</volume>
+<fpage>222</fpage>
+<lpage>227</lpage>
+<pub-id pub-id-type="pmid">11409661</pub-id></element-citation></ref><ref id="B12"><label>12</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jordan</surname><given-names>JM</given-names></name><name><surname>Bernard</surname><given-names>SL</given-names></name><name><surname>Callahan</surname><given-names>LF</given-names></name><name><surname>Kincade</surname><given-names>JE</given-names></name><name><surname>Konrad</surname><given-names>TR</given-names></name><name><surname>DeFriese</surname><given-names>GH</given-names></name></person-group>
+<article-title>Self-reported arthritis-related disruptions in sleep and daily life and the use of medical, complementary, and self-care strategies for arthritis: the National Survey of Self-care and Aging</article-title>
+<source>Arch Fam Med</source>
+<year>2000</year>
+<volume>9</volume>
+<fpage>143</fpage>
+<lpage>149</lpage>
+<pub-id pub-id-type="pmid">10693731</pub-id></element-citation></ref><ref id="B13"><label>13</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Arcury</surname><given-names>TA</given-names></name><name><surname>Bernard</surname><given-names>SL</given-names></name><name><surname>Jordan</surname><given-names>JM</given-names></name><name><surname>Cook</surname><given-names>HL</given-names></name></person-group>
+<source>Arthritis Care Res</source>
+<article-title>Gender and ethnic differences in alternative and conventional arthritis remedy use among community-dwelling rural adults with arthritis</article-title>
+<year>1996</year>
+<volume>9</volume>
+<fpage>384</fpage>
+<lpage>390</lpage>
+<pub-id pub-id-type="pmid">8997928</pub-id></element-citation></ref><ref id="B14"><label>14</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Coulton</surname><given-names>CJ</given-names></name><name><surname>Milligan</surname><given-names>S</given-names></name><name><surname>Chow</surname><given-names>J</given-names></name><name><surname>Haug</surname><given-names>M</given-names></name></person-group>
+<article-title>Ethnicity, self-care, and use of medical care among the elderly with joint symptoms</article-title>
+<source>Arthritis Care Res</source>
+<year>1990</year>
+<volume>3</volume>
+<fpage>19</fpage>
+<lpage>28</lpage>
+<pub-id pub-id-type="pmid">2285735</pub-id></element-citation></ref><ref id="B15"><label>15</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bausell</surname><given-names>RB</given-names></name><name><surname>Lee</surname><given-names>WL</given-names></name><name><surname>Berman</surname><given-names>BM</given-names></name></person-group>
+<article-title>Demographic and health-related correlates to visits to complementary and alternative medical providers</article-title>
+<source>Med Care</source>
+<year>2001</year>
+<volume>39</volume>
+<fpage>190</fpage>
+<lpage>196</lpage>
+<pub-id pub-id-type="pmid">11176556</pub-id></element-citation></ref><ref id="B16"><label>16</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cherniack</surname><given-names>EP</given-names></name><name><surname>Senzel</surname><given-names>RS</given-names></name><name><surname>Pan</surname><given-names>CX</given-names></name></person-group>
+<article-title>Correlates of use of alternative medicine by the elderly in an urban population</article-title>
+<source>J Altern Complement Med</source>
+<year>2001</year>
+<volume>7</volume>
+<fpage>277</fpage>
+<lpage>280</lpage>
+<pub-id pub-id-type="pmid">11439850</pub-id></element-citation></ref><ref id="B17"><label>17</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Factor-Litvak</surname><given-names>P</given-names></name><name><surname>Cushman</surname><given-names>LF</given-names></name><name><surname>Kronenberg</surname><given-names>F</given-names></name><name><surname>Wade</surname><given-names>C</given-names></name><name><surname>Kalmuss</surname><given-names>D</given-names></name></person-group>
+<article-title>Use of complementary and alternative medicine among women in New York City: a pilot study</article-title>
+<source>J Altern Complement Med</source>
+<year>2001</year>
+<volume>7</volume>
+<fpage>659</fpage>
+<lpage>666</lpage>
+<pub-id pub-id-type="pmid">11822614</pub-id></element-citation></ref><ref id="B18"><label>18</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Paramore</surname><given-names>LC</given-names></name></person-group>
+<article-title>Use of alternative therapies: estimates from The 1994 Robert Wood Johnson Foundation National Access to Care Survey</article-title>
+<source>J Pain Symptom Manage</source>
+<year>1997</year>
+<volume>13</volume>
+<fpage>83</fpage>
+<lpage>89</lpage>
+<pub-id pub-id-type="pmid">9095565</pub-id></element-citation></ref><ref id="B19"><label>19</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Astin</surname><given-names>JA</given-names></name></person-group>
+<article-title>Why patients use alternative medicine: results of a national study</article-title>
+<source>JAMA</source>
+<year>1998</year>
+<volume>279</volume>
+<fpage>1548</fpage>
+<lpage>1553</lpage>
+<pub-id pub-id-type="pmid">9605899</pub-id></element-citation></ref><ref id="B20"><label>20</label><element-citation publication-type="book">
+<person-group person-group-type="editor"><name><surname>Klippel</surname><given-names>JH</given-names></name><name><surname>Crofford</surname><given-names>LJ</given-names></name><name><surname>Stone</surname><given-names>JH</given-names></name><name><surname>Weyand</surname><given-names>CM</given-names></name></person-group>
+<source>Primer on the rheumatic diseases</source>
+<year>2001</year>
+<publisher-loc>Atlanta, GA</publisher-loc>
+<publisher-name>Arthritis Foundation</publisher-name>
+<edition>edition 12</edition>
+</element-citation></ref><ref id="B21"><label>21</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ernst</surname><given-names>E</given-names></name></person-group>
+<article-title>Complementary medicine</article-title>
+<source>Curr Opin Rheumatol</source>
+<year>2003</year>
+<volume>15</volume>
+<fpage>151</fpage>
+<lpage>155</lpage>
+<pub-id pub-id-type="pmid">12598804</pub-id></element-citation></ref><ref id="B22"><label>22</label><element-citation publication-type="book">
+<collab>Centers for Disease Control and Prevention</collab>
+<source>Behavioral Risk Factor Surveillance System &#x02013; 2000</source>
+<year>2000</year>
+<publisher-name>U.S. Department of Health and Human Services, National Center for Chronic Disease Prevention and Health Promotion</publisher-name>
+<publisher-loc>Atlanta (GA)</publisher-loc>
+</element-citation></ref><ref id="B23"><label>23</label><element-citation publication-type="book">
+<source>Stanford University School of Medicine. The Health Assessment Questionnaire [Internet]</source>
+<article-title>A collection of physical activity questionnaires for health-related research</article-title>
+<year>1997</year>
+<publisher-loc>Stanford (CA)</publisher-loc>
+<publisher-name>Stanford University School of Medicine, Division of Immunology &#x00026; Rheumatology</publisher-name>
+<comment>Available from: URL:<ext-link xlink:href="http://aramis.stanford.edu/HAQ.html" ext-link-type="uri">http://aramis.stanford.edu/HAQ.html</ext-link>
+</comment>
+</element-citation></ref><ref id="B24"><label>24</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>DeVellis</surname><given-names>RF</given-names></name><name><surname>Callahan</surname><given-names>LF</given-names></name></person-group>
+<source>J Rheumatol</source>
+<article-title>A brief measure of helplessness in rheumatic disease: the helplessness subscale of the Rheumatology Attitudes Index</article-title>
+<year>1993</year>
+<volume>20</volume>
+<fpage>866</fpage>
+<lpage>869</lpage>
+<pub-id pub-id-type="pmid">8336314</pub-id></element-citation></ref><ref id="B25"><label>25</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Stein</surname><given-names>MJ</given-names></name><name><surname>Wallston</surname><given-names>KA</given-names></name><name><surname>Nicassio</surname><given-names>PM</given-names></name></person-group>
+<article-title>Factor structure of the Arthritis Helplessness Index</article-title>
+<source>J Rheumatol</source>
+<year>1988</year>
+<volume>15</volume>
+<fpage>427</fpage>
+<lpage>432</lpage>
+<pub-id pub-id-type="pmid">3379620</pub-id></element-citation></ref><ref id="B26"><label>26</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fiscella</surname><given-names>K</given-names></name><name><surname>Franks</surname><given-names>P</given-names></name><name><surname>Clancy</surname><given-names>CM</given-names></name><name><surname>Doescher</surname><given-names>MP</given-names></name><name><surname>Banthin</surname><given-names>JS</given-names></name></person-group>
+<article-title>Does skepticism towards medical care predict mortality?</article-title>
+<source>Med Care</source>
+<year>1999</year>
+<volume>37</volume>
+<fpage>409</fpage>
+<lpage>414</lpage>
+<pub-id pub-id-type="pmid">10213021</pub-id></element-citation></ref><ref id="B27"><label>27</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chibnall</surname><given-names>JT</given-names></name><name><surname>Tait</surname><given-names>RC</given-names></name></person-group>
+<article-title>Pain assessment in cognitively impaired and unimpaired older adults: a comparison of four scales</article-title>
+<source>Pain</source>
+<year>2001</year>
+<volume>92</volume>
+<fpage>173</fpage>
+<lpage>186</lpage>
+<pub-id pub-id-type="pmid">11323138</pub-id></element-citation></ref><ref id="B28"><label>28</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Herr</surname><given-names>KA</given-names></name><name><surname>Mobily</surname><given-names>PR</given-names></name><name><surname>Kohout</surname><given-names>FJ</given-names></name><name><surname>Wagenaar</surname><given-names>D</given-names></name></person-group>
+<article-title>Evaluation of the Faces Pain Scale for use with the elderly</article-title>
+<source>Clin J Pain</source>
+<year>1998</year>
+<volume>14</volume>
+<fpage>29</fpage>
+<lpage>38</lpage>
+<pub-id pub-id-type="pmid">9535311</pub-id></element-citation></ref><ref id="B29"><label>29</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Goldenberg</surname><given-names>DL</given-names></name><name><surname>Felson</surname><given-names>DT</given-names></name><name><surname>Dinerman</surname><given-names>H</given-names></name></person-group>
+<article-title>A randomized, controlled trial of amitriptyline and naproxen in the treatment of patients with fibromyalgia</article-title>
+<source>Arthritis Rheum</source>
+<year>1986</year>
+<volume>29</volume>
+<fpage>1371</fpage>
+<lpage>1377</lpage>
+<pub-id pub-id-type="pmid">3535811</pub-id></element-citation></ref><ref id="B30"><label>30</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jenkins</surname><given-names>CD</given-names></name><name><surname>Stanton</surname><given-names>BA</given-names></name><name><surname>Niemcryk</surname><given-names>SJ</given-names></name><name><surname>Rose</surname><given-names>RM</given-names></name></person-group>
+<article-title>A scale for the estimation of sleep problems in clinical research</article-title>
+<source>J Clin Epidemiol</source>
+<year>1988</year>
+<volume>41</volume>
+<fpage>313</fpage>
+<lpage>321</lpage>
+<pub-id pub-id-type="pmid">3351539</pub-id></element-citation></ref><ref id="B31"><label>31</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Marin</surname><given-names>G</given-names></name><name><surname>Sabogal</surname><given-names>F</given-names></name><name><surname>Marin</surname><given-names>BV</given-names></name></person-group>
+<article-title>Development of a short acculturation scale for Hispanics</article-title>
+<source>Hisp J Behav Sci</source>
+<year>1987</year>
+<volume>9</volume>
+<fpage>183</fpage>
+<lpage>205</lpage>
+</element-citation></ref><ref id="B32"><label>32</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gonzalez</surname><given-names>VM</given-names></name><name><surname>Stewart</surname><given-names>A</given-names></name><name><surname>Ritter</surname><given-names>PL</given-names></name><name><surname>Lorig</surname><given-names>K</given-names></name></person-group>
+<article-title>Translation and validation of arthritis outcome measures into Spanish</article-title>
+<source>Arthritis Rheum</source>
+<year>1995</year>
+<volume>38</volume>
+<fpage>1429</fpage>
+<lpage>1446</lpage>
+<pub-id pub-id-type="pmid">7575693</pub-id></element-citation></ref><ref id="B33"><label>33</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Escalante</surname><given-names>A</given-names></name><name><surname>Cardiel</surname><given-names>MH</given-names></name><name><surname>del Rincon</surname><given-names>I</given-names></name><name><surname>Suarez-Mendoza</surname><given-names>AA</given-names></name></person-group>
+<source>Arthritis Care Res</source>
+<article-title>Cross-cultural equivalence of a brief helplessness scale for Spanish-speaking rheumatology patients in the United States</article-title>
+<year>1999</year>
+<volume>12</volume>
+<fpage>341</fpage>
+<lpage>350</lpage>
+<pub-id pub-id-type="pmid">11081004</pub-id></element-citation></ref><ref id="B34"><label>34</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Shah</surname><given-names>BV</given-names></name><name><surname>Barnwell</surname><given-names>BG</given-names></name><name><surname>Bieler</surname><given-names>GS</given-names></name></person-group>
+<source>SUDAAN User&#x02019;s Manual, Release 8.0</source>
+<publisher-loc>Research Triangle Park (NC)</publisher-loc>
+<publisher-name>Research Triangle Institute</publisher-name>
+<year>2003</year>
+</element-citation></ref><ref id="B35"><label>35</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rao</surname><given-names>JK</given-names></name><name><surname>Mihaliak</surname><given-names>K</given-names></name><name><surname>Kroenke</surname><given-names>K</given-names></name><name><surname>Bradley</surname><given-names>J</given-names></name><name><surname>Tierney</surname><given-names>WM</given-names></name><name><surname>Weinberger</surname><given-names>M</given-names></name></person-group>
+<article-title>Use of complementary therapies for arthritis among patients of rheumatologists</article-title>
+<source>Ann Intern Med</source>
+<year>1999</year>
+<volume>131</volume>
+<fpage>409</fpage>
+<lpage>416</lpage>
+<pub-id pub-id-type="pmid">10498556</pub-id></element-citation></ref><ref id="B36"><label>36</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Richy</surname><given-names>F</given-names></name><name><surname>Bruyere</surname><given-names>O</given-names></name><name><surname>Ethgen</surname><given-names>O</given-names></name><name><surname>Cucherat</surname><given-names>M</given-names></name><name><surname>Henrotin</surname><given-names>Y</given-names></name><name><surname>Reginster</surname><given-names>JY</given-names></name></person-group>
+<article-title>Structural and symptomatic efficacy of glucosamine and chondroitin in knee osteoarthritis: a comprehensive meta-analysis</article-title>
+<source>Arch Intern Med</source>
+<year>2003</year>
+<volume>163</volume>
+<fpage>1514</fpage>
+<lpage>1522</lpage>
+<pub-id pub-id-type="pmid">12860572</pub-id></element-citation></ref><ref id="B37"><label>37</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Towheed</surname><given-names>TE</given-names></name><name><surname>Anastassiades</surname><given-names>TP</given-names></name><name><surname>Shea</surname><given-names>B</given-names></name><name><surname>Houpt</surname><given-names>J</given-names></name><name><surname>Welch</surname><given-names>V</given-names></name><name><surname>Hochberg</surname><given-names>MC</given-names></name></person-group>
+<article-title>Glucosamine therapy for treating osteoarthritis</article-title>
+<source>Cochrane Database Syst Rev</source>
+<year>2004</year>
+<issue>1</issue>
+</element-citation></ref><ref id="B38"><label>38</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Soeken</surname><given-names>KL</given-names></name></person-group>
+<article-title>Selected CAM therapies for arthritis-related pain: the evidence from systematic reviews</article-title>
+<source>Clin J Pain</source>
+<year>2004</year>
+<volume>20</volume>
+<fpage>13</fpage>
+<lpage>18</lpage>
+<pub-id pub-id-type="pmid">14668651</pub-id></element-citation></ref><ref id="B39"><label>39</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Astin</surname><given-names>JA</given-names></name></person-group>
+<article-title>Mind-body therapies for the management of pain</article-title>
+<source>Clin J Pain</source>
+<year>2004</year>
+<volume>20</volume>
+<fpage>27</fpage>
+<lpage>32</lpage>
+<pub-id pub-id-type="pmid">14668653</pub-id></element-citation></ref></ref-list><sec><table-wrap position="float" id="T1"><label>Table 1</label><caption><p>Patient Characteristics by Diagnosis, Percentages Weighted by Inverse of Sampling Fraction, Survey on Use of Complementary and Alternative Medicine (n = 612), New Mexico, 2001&#x02013;2002</p></caption><table frame="hsides" rules="groups" cellspacing="1" cellpadding="4" width="100%" border="0"><thead><tr><th scope="col" valign="bottom" rowspan="3" align="left" colspan="1">
+<bold>Characteristics</bold>
+</th><th scope="col" valign="bottom" colspan="3" rowspan="1">
+<bold>Diagnoses</bold>
+</th><th scope="col" rowspan="2" valign="bottom" colspan="1"/><th scope="col" rowspan="2" valign="bottom" colspan="1"/></tr><tr><th colspan="3" rowspan="1">
+<hr/>
+</th></tr><tr><th scope="col" valign="bottom" rowspan="1" colspan="1">
+<bold>Osteoarthritis</bold>
+<break/>
+<bold>(n=422)</bold>
+</th><th scope="col" valign="bottom" rowspan="1" colspan="1">
+<bold>Rheumatoid</bold>
+<break/>
+<bold>Arthritis</bold>
+<break/>
+<bold>(n=95)</bold>
+</th><th scope="col" valign="bottom" rowspan="1" colspan="1">
+<bold>Fibromyalgia</bold>
+<break/>
+<bold>(n=95)</bold>
+</th><th scope="col" valign="bottom" rowspan="1" colspan="1">
+<bold>All</bold>
+<break/>
+<bold>(n=612)</bold>
+</th><th scope="col" valign="bottom" rowspan="1" colspan="1">
+<bold>Pearson</bold>
+<break/>
+<bold>Chi-square</bold>
+<break/>
+<bold>
+<italic>P</italic> Value</bold>
+</th></tr></thead><tbody><tr><td colspan="6" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" colspan="6" align="left" rowspan="1">
+<bold>Ethnic Group</bold>
+</td></tr><tr><td colspan="6" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Hispanic (%)</td><td valign="top" align="right" rowspan="1" colspan="1">47.8</td><td valign="top" align="right" rowspan="1" colspan="1">49.2</td><td valign="top" align="right" rowspan="1" colspan="1">30.2</td><td valign="top" align="right" rowspan="1" colspan="1">44.6</td><td valign="top" align="right" rowspan="2" colspan="1">.001</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Non-Hispanic white (%)</td><td valign="top" align="right" rowspan="1" colspan="1">52.2</td><td valign="top" align="right" rowspan="1" colspan="1">50.8</td><td valign="top" align="right" rowspan="1" colspan="1">69.8</td><td valign="top" align="right" rowspan="1" colspan="1">55.4</td></tr><tr><td colspan="6" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" colspan="6" align="left" rowspan="1">
+<bold>Sex</bold>
+</td></tr><tr><td colspan="6" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Female (%)</td><td valign="top" align="right" rowspan="1" colspan="1">66.6</td><td valign="top" align="right" rowspan="1" colspan="1">84.6</td><td valign="top" align="right" rowspan="1" colspan="1">85.6</td><td valign="top" align="right" rowspan="1" colspan="1">71.4</td><td valign="top" align="right" rowspan="2" colspan="1">&#x000a0;&#x0003c;.001</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Male (%)</td><td valign="top" align="right" rowspan="1" colspan="1">33.4</td><td valign="top" align="right" rowspan="1" colspan="1">15.4</td><td valign="top" align="right" rowspan="1" colspan="1">14.4</td><td valign="top" align="right" rowspan="1" colspan="1">28.6</td></tr><tr><td colspan="6" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" colspan="6" align="left" rowspan="1">
+<bold>Age at interview (years)</bold>
+</td></tr><tr><td colspan="6" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">18-54 (%)</td><td valign="top" align="right" rowspan="1" colspan="1">21.5</td><td valign="top" align="right" rowspan="1" colspan="1">41.2</td><td valign="top" align="right" rowspan="1" colspan="1">43.2</td><td valign="top" align="right" rowspan="1" colspan="1">26.9</td><td valign="top" align="right" rowspan="4" colspan="1">&#x0003c;.001</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">55-64 (%)</td><td valign="top" align="right" rowspan="1" colspan="1">34.9</td><td valign="top" align="right" rowspan="1" colspan="1">31.1</td><td valign="top" align="right" rowspan="1" colspan="1">39.2</td><td valign="top" align="right" rowspan="1" colspan="1">35.4</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">65-74 (%)</td><td valign="top" align="right" rowspan="1" colspan="1">27.9</td><td valign="top" align="right" rowspan="1" colspan="1">22.9</td><td valign="top" align="right" rowspan="1" colspan="1">16.9</td><td valign="top" align="right" rowspan="1" colspan="1">25.5</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">75-84 (%)</td><td valign="top" align="right" rowspan="1" colspan="1">15.7</td><td valign="top" align="right" rowspan="1" colspan="1">4.8</td><td valign="top" align="right" rowspan="1" colspan="1">0.8</td><td valign="top" align="right" rowspan="1" colspan="1">12.2</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Mean</td><td valign="top" align="right" rowspan="1" colspan="1">62.6</td><td valign="top" align="right" rowspan="1" colspan="1">56.0</td><td valign="top" align="right" rowspan="1" colspan="1">54.8</td><td valign="top" align="right" rowspan="1" colspan="1">60.6</td><td valign="top" align="right" rowspan="2" colspan="1">&#x0003c;.001</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Median</td><td valign="top" align="right" rowspan="1" colspan="1">61.8</td><td valign="top" align="right" rowspan="1" colspan="1">57.8</td><td valign="top" align="right" rowspan="1" colspan="1">55.2</td><td valign="top" align="right" rowspan="1" colspan="1">59.9</td></tr><tr><td colspan="6" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" colspan="6" align="left" rowspan="1">
+<bold>Education</bold>
+</td></tr><tr><td colspan="6" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Did not graduate from high school (%)</td><td valign="top" align="right" rowspan="1" colspan="1">28.9</td><td valign="top" align="right" rowspan="1" colspan="1">21.0</td><td valign="top" align="right" rowspan="1" colspan="1">7.7</td><td valign="top" align="right" rowspan="1" colspan="1">24.3</td><td valign="top" align="right" rowspan="5" colspan="1">&#x0003c;.001</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">High school graduate or GED (%)</td><td valign="top" align="right" rowspan="1" colspan="1">19.5</td><td valign="top" align="right" rowspan="1" colspan="1">26.6</td><td valign="top" align="right" rowspan="1" colspan="1">22.0</td><td valign="top" align="right" rowspan="1" colspan="1">20.5</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Some college or technical school (%)</td><td valign="top" align="right" rowspan="1" colspan="1">21.9</td><td valign="top" align="right" rowspan="1" colspan="1">27.1</td><td valign="top" align="right" rowspan="1" colspan="1">39.8</td><td valign="top" align="right" rowspan="1" colspan="1">25.7</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">College graduate (%)</td><td valign="top" align="right" rowspan="1" colspan="1">29.5</td><td valign="top" align="right" rowspan="1" colspan="1">25.3</td><td valign="top" align="right" rowspan="1" colspan="1">30.5</td><td valign="top" align="right" rowspan="1" colspan="1">29.4</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Unknown (%)</td><td valign="top" align="right" rowspan="1" colspan="1">0.2</td><td valign="top" align="right" rowspan="1" colspan="1">0.0</td><td valign="top" align="right" rowspan="1" colspan="1">0.0</td><td valign="top" align="right" rowspan="1" colspan="1">0.1</td></tr><tr><td colspan="6" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" colspan="6" align="left" rowspan="1">
+<bold>Annual household income</bold>
+</td></tr><tr><td colspan="6" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Less than $25,000 (%)</td><td valign="top" align="right" rowspan="1" colspan="1">64.4</td><td valign="top" align="right" rowspan="1" colspan="1">66.2</td><td valign="top" align="right" rowspan="1" colspan="1">66.9</td><td valign="top" align="right" rowspan="1" colspan="1">65.0</td><td valign="top" align="right" rowspan="4" colspan="1">.95</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">$25,000 to $50,000 (%)</td><td valign="top" align="right" rowspan="1" colspan="1">18.2</td><td valign="top" align="right" rowspan="1" colspan="1">15.0</td><td valign="top" align="right" rowspan="1" colspan="1">16.8</td><td valign="top" align="right" rowspan="1" colspan="1">17.7</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">$50,000 or more (%)</td><td valign="top" align="right" rowspan="1" colspan="1">12.8</td><td valign="top" align="right" rowspan="1" colspan="1">13.9</td><td valign="top" align="right" rowspan="1" colspan="1">14.0</td><td valign="top" align="right" rowspan="1" colspan="1">13.1</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Unknown (%)</td><td valign="top" align="right" rowspan="1" colspan="1">4.6</td><td valign="top" align="right" rowspan="1" colspan="1">4.9</td><td valign="top" align="right" rowspan="1" colspan="1">2.3</td><td valign="top" align="right" rowspan="1" colspan="1">4.2</td></tr><tr><td colspan="6" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" colspan="6" align="left" rowspan="1">
+<bold>Frequency of visits to medical doctor for arthritis (times per year) </bold>
+</td></tr><tr><td colspan="6" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Never or &#x0003c;1 (%)</td><td valign="top" align="right" rowspan="1" colspan="1">26.6</td><td valign="top" align="right" rowspan="1" colspan="1">10.5</td><td valign="top" align="right" rowspan="1" colspan="1">14.3</td><td valign="top" align="right" rowspan="1" colspan="1">23.2</td><td valign="top" align="right" rowspan="5" colspan="1">&#x0003c;.001</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">1-2 (%)</td><td valign="top" align="right" rowspan="1" colspan="1">24.9</td><td valign="top" align="right" rowspan="1" colspan="1">30.2</td><td valign="top" align="right" rowspan="1" colspan="1">17.4</td><td valign="top" align="right" rowspan="1" colspan="1">23.9</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">3-5 (%)</td><td valign="top" align="right" rowspan="1" colspan="1">30.8</td><td valign="top" align="right" rowspan="1" colspan="1">32.9</td><td valign="top" align="right" rowspan="1" colspan="1">30.0</td><td valign="top" align="right" rowspan="1" colspan="1">30.8</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">&#x0003e;5 (%)</td><td valign="top" align="right" rowspan="1" colspan="1">16.0</td><td valign="top" align="right" rowspan="1" colspan="1">26.4</td><td valign="top" align="right" rowspan="1" colspan="1">38.3</td><td valign="top" align="right" rowspan="1" colspan="1">20.9</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Unknown (%)</td><td valign="top" align="right" rowspan="1" colspan="1">1.6</td><td valign="top" align="right" rowspan="1" colspan="1">0.0</td><td valign="top" align="right" rowspan="1" colspan="1">0.0</td><td valign="top" align="right" rowspan="1" colspan="1">1.2</td></tr><tr><td colspan="6" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" colspan="6" align="left" rowspan="1">
+<bold>Disease duration (years)</bold>
+</td></tr><tr><td colspan="6" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">0-5 (%)</td><td valign="top" align="right" rowspan="1" colspan="1">34.0</td><td valign="top" align="right" rowspan="1" colspan="1">21.0</td><td valign="top" align="right" rowspan="1" colspan="1">32.4</td><td valign="top" align="right" rowspan="1" colspan="1">32,8</td><td valign="top" align="right" rowspan="4" colspan="1">.07</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">6-14 (%)</td><td valign="top" align="right" rowspan="1" colspan="1">33.1</td><td valign="top" align="right" rowspan="1" colspan="1">41.7</td><td valign="top" align="right" rowspan="1" colspan="1">36.8</td><td valign="top" align="right" rowspan="1" colspan="1">34.4</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">15+ (%)</td><td valign="top" align="right" rowspan="1" colspan="1">32.8</td><td valign="top" align="right" rowspan="1" colspan="1">37.2</td><td valign="top" align="right" rowspan="1" colspan="1">30.3</td><td valign="top" align="right" rowspan="1" colspan="1">32.6</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Unknown (%)</td><td valign="top" align="right" rowspan="1" colspan="1">0.2</td><td valign="top" align="right" rowspan="1" colspan="1">0.0</td><td valign="top" align="right" rowspan="1" colspan="1">0.6</td><td valign="top" align="right" rowspan="1" colspan="1">0.2</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Mean</td><td valign="top" align="right" rowspan="1" colspan="1">12.6</td><td valign="top" align="right" rowspan="1" colspan="1">15.3</td><td valign="top" align="right" rowspan="1" colspan="1">12.0</td><td valign="top" align="right" rowspan="1" colspan="1">12.6</td><td valign="top" align="right" rowspan="2" colspan="1">.12</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Median</td><td valign="top" align="right" rowspan="1" colspan="1">9.1</td><td valign="top" align="right" rowspan="1" colspan="1">11.8</td><td valign="top" align="right" rowspan="1" colspan="1">8.2</td><td valign="top" align="right" rowspan="1" colspan="1">9.1</td></tr><tr><td colspan="6" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" colspan="6" align="left" rowspan="1">
+<bold>Pain in last week (0-10 visual scale)</bold>
+</td></tr><tr><td colspan="6" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Low (0-4) (%)</td><td valign="top" align="right" rowspan="1" colspan="1">38.1</td><td valign="top" align="right" rowspan="1" colspan="1">41.2</td><td valign="top" align="right" rowspan="1" colspan="1">23.2</td><td valign="top" align="right" rowspan="1" colspan="1">35.5</td><td valign="top" align="right" rowspan="4" colspan="1">.004</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Moderate (5-7) (%)</td><td valign="top" align="right" rowspan="1" colspan="1">38.9</td><td valign="top" align="right" rowspan="1" colspan="1">33.8</td><td valign="top" align="right" rowspan="1" colspan="1">36.1</td><td valign="top" align="right" rowspan="1" colspan="1">38.0</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">High (8-10) (%)</td><td valign="top" align="right" rowspan="1" colspan="1">21.6</td><td valign="top" align="right" rowspan="1" colspan="1">25.0</td><td valign="top" align="right" rowspan="1" colspan="1">40.7</td><td valign="top" align="right" rowspan="1" colspan="1">25.5</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Unknown (%)</td><td valign="top" align="right" rowspan="1" colspan="1">1.3</td><td valign="top" align="right" rowspan="1" colspan="1">0.0</td><td valign="top" align="right" rowspan="1" colspan="1">0.0</td><td valign="top" align="right" rowspan="1" colspan="1">1.0</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Mean</td><td valign="top" align="right" rowspan="1" colspan="1">5.3</td><td valign="top" align="right" rowspan="1" colspan="1">5.3</td><td valign="top" align="right" rowspan="1" colspan="1">6.6</td><td valign="top" align="right" rowspan="1" colspan="1">5.6</td><td valign="top" align="right" rowspan="2" colspan="1">&#x0003c;.001</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Median</td><td valign="top" align="right" rowspan="1" colspan="1">5.0</td><td valign="top" align="right" rowspan="1" colspan="1">5.0</td><td valign="top" align="right" rowspan="1" colspan="1">6.3</td><td valign="top" align="right" rowspan="1" colspan="1">5.2</td></tr></tbody></table></table-wrap><table-wrap position="float" id="T2"><label>Table 2</label><caption><p>Weighted Estimates of Ever and Current Use of Complementary and Alternative Medicine Type, by Diagnosis, Survey Results (n = 612), New Mexico, 2001&#x02013;2002</p></caption><table frame="hsides" rules="groups" cellspacing="1" cellpadding="4" width="100%" border="0"><thead><tr><th scope="col" valign="bottom" rowspan="3" align="left" colspan="1">
+<bold>Types of CAM</bold>
+</th><th scope="col" valign="bottom" colspan="3" rowspan="1">
+<bold>Diagnoses</bold>
+</th><th scope="col" rowspan="2" valign="bottom" colspan="1"/><th scope="col" rowspan="2" valign="bottom" colspan="1"/></tr><tr><th colspan="3" rowspan="1">
+<hr/>
+</th></tr><tr><th scope="col" valign="bottom" rowspan="1" colspan="1">
+<bold>Osteoarthritis</bold>
+<break/>
+<bold> (n=422)</bold>
+<break/>
+<bold>%</bold>
+</th><th scope="col" valign="bottom" rowspan="1" colspan="1">
+<bold>Rheumatoid</bold>
+<break/>
+<bold>Arthritis</bold>
+<break/>
+<bold> (n=95)</bold>
+<break/>
+<bold>%</bold>
+</th><th scope="col" valign="bottom" rowspan="1" colspan="1">
+<bold>Fibromyalgia</bold>
+<break/>
+<bold>(n=95)</bold>
+<break/>
+<bold>%</bold>
+</th><th scope="col" valign="bottom" rowspan="1" colspan="1">
+<bold>All</bold>
+<break/>
+<bold>(n=612)</bold>
+<break/>
+<bold>%</bold>
+</th><th scope="col" valign="bottom" rowspan="1" colspan="1">
+<bold>Pearson</bold>
+<break/>
+<bold>Chi-square</bold>
+<break/>
+<bold>
+<italic>P</italic> Value</bold>
+</th></tr></thead><tbody><tr><td colspan="6" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="col" valign="top" colspan="6" align="left" rowspan="1">
+<bold>Any type of CAM</bold>
+</td></tr><tr><td colspan="6" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Ever</td><td valign="top" align="right" rowspan="1" colspan="1">89.4</td><td valign="top" align="right" rowspan="1" colspan="1">86.4</td><td valign="top" align="right" rowspan="1" colspan="1">94.8</td><td valign="top" align="right" rowspan="1" colspan="1">90.2</td><td valign="top" align="right" rowspan="1" colspan="1">.08</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Current</td><td valign="top" align="right" rowspan="1" colspan="1">66.7</td><td valign="top" align="right" rowspan="1" colspan="1">70.7</td><td valign="top" align="right" rowspan="1" colspan="1">78.3</td><td valign="top" align="right" rowspan="1" colspan="1">69.2</td><td valign="top" align="right" rowspan="1" colspan="1">.06</td></tr><tr><td colspan="6" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" colspan="6" align="left" rowspan="1">
+<bold>Nutritional supplements</bold>
+</td></tr><tr><td colspan="6" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Ever</td><td valign="top" align="right" rowspan="1" colspan="1">55.4</td><td valign="top" align="right" rowspan="1" colspan="1">59.8</td><td valign="top" align="right" rowspan="1" colspan="1">72.8</td><td valign="top" align="right" rowspan="1" colspan="1">59.0</td><td valign="top" align="right" rowspan="1" colspan="1">.007</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Current</td><td valign="top" align="right" rowspan="1" colspan="1">34.1</td><td valign="top" align="right" rowspan="1" colspan="1">26.6</td><td valign="top" align="right" rowspan="1" colspan="1">36.5</td><td valign="top" align="right" rowspan="1" colspan="1">34.1</td><td valign="top" align="right" rowspan="1" colspan="1">.21</td></tr><tr><td colspan="6" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" colspan="6" align="left" rowspan="1">
+<bold>Vitamins and minerals</bold>
+</td></tr><tr><td colspan="6" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Ever</td><td valign="top" align="right" rowspan="1" colspan="1">16.8</td><td valign="top" align="right" rowspan="1" colspan="1">28.8</td><td valign="top" align="right" rowspan="1" colspan="1">42.7</td><td valign="top" align="right" rowspan="1" colspan="1">22.6</td><td valign="top" align="right" rowspan="1" colspan="1">&#x0003c;.001</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Current</td><td valign="top" align="right" rowspan="1" colspan="1">12.1</td><td valign="top" align="right" rowspan="1" colspan="1">20.8</td><td valign="top" align="right" rowspan="1" colspan="1">32.9</td><td valign="top" align="right" rowspan="1" colspan="1">16.6</td><td valign="top" align="right" rowspan="1" colspan="1">&#x0003c;.001</td></tr><tr><td colspan="6" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" colspan="6" align="left" rowspan="1">
+<bold>Herbs taken orally</bold>
+</td></tr><tr><td colspan="6" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Ever</td><td valign="top" align="right" rowspan="1" colspan="1">23.5</td><td valign="top" align="right" rowspan="1" colspan="1">30.2</td><td valign="top" align="right" rowspan="1" colspan="1">50.8</td><td valign="top" align="right" rowspan="1" colspan="1">29.1</td><td valign="top" align="right" rowspan="1" colspan="1">&#x0003c;.001</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Current</td><td valign="top" align="right" rowspan="1" colspan="1">10.1</td><td valign="top" align="right" rowspan="1" colspan="1">15.6</td><td valign="top" align="right" rowspan="1" colspan="1">26.7</td><td valign="top" align="right" rowspan="1" colspan="1">13.6</td><td valign="top" align="right" rowspan="1" colspan="1">.002</td></tr><tr><td colspan="6" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" colspan="6" align="left" rowspan="1">
+<bold>topical herbal rubs</bold>
+</td></tr><tr><td colspan="6" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Ever</td><td valign="top" align="right" rowspan="1" colspan="1">46.2</td><td valign="top" align="right" rowspan="1" colspan="1">48.3</td><td valign="top" align="right" rowspan="1" colspan="1">64.9</td><td valign="top" align="right" rowspan="1" colspan="1">49.9</td><td valign="top" align="right" rowspan="1" colspan="1">.005</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Current</td><td valign="top" align="right" rowspan="1" colspan="1">23.1</td><td valign="top" align="right" rowspan="1" colspan="1">15.6</td><td valign="top" align="right" rowspan="1" colspan="1">36.5</td><td valign="top" align="right" rowspan="1" colspan="1">25.1</td><td valign="top" align="right" rowspan="1" colspan="1">.004</td></tr><tr><td colspan="6" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" colspan="6" align="left" rowspan="1">
+<bold>Items worn</bold>
+</td></tr><tr><td colspan="6" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Ever</td><td valign="top" align="right" rowspan="1" colspan="1">28.2</td><td valign="top" align="right" rowspan="1" colspan="1">43.9</td><td valign="top" align="right" rowspan="1" colspan="1">39.3</td><td valign="top" align="right" rowspan="1" colspan="1">31.3</td><td valign="top" align="right" rowspan="1" colspan="1">.006</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Current</td><td valign="top" align="right" rowspan="1" colspan="1">8.3</td><td valign="top" align="right" rowspan="1" colspan="1">10.2</td><td valign="top" align="right" rowspan="1" colspan="1">12.0</td><td valign="top" align="right" rowspan="1" colspan="1">9.2</td><td valign="top" align="right" rowspan="1" colspan="1">.56</td></tr><tr><td colspan="6" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" colspan="6" align="left" rowspan="1">
+<bold>Mind-body therapies</bold>
+</td></tr><tr><td colspan="6" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Ever</td><td valign="top" align="right" rowspan="1" colspan="1">27.9</td><td valign="top" align="right" rowspan="1" colspan="1">42.5</td><td valign="top" align="right" rowspan="1" colspan="1">59.4</td><td valign="top" align="right" rowspan="1" colspan="1">34.8</td><td valign="top" align="right" rowspan="1" colspan="1">&#x0003c;.001</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Current</td><td valign="top" align="right" rowspan="1" colspan="1">23.7</td><td valign="top" align="right" rowspan="1" colspan="1">31.1</td><td valign="top" align="right" rowspan="1" colspan="1">48.9</td><td valign="top" align="right" rowspan="1" colspan="1">29.0</td><td valign="top" align="right" rowspan="1" colspan="1">&#x0003c;.001</td></tr><tr><td colspan="6" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" colspan="6" rowspan="1">
+<bold>Energy therapies<xref rid="T2FN1" ref-type="table-fn">a</xref>
+</bold>
+</td></tr><tr><td colspan="6" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Ever</td><td valign="top" align="right" rowspan="1" colspan="1">18.3</td><td valign="top" align="right" rowspan="1" colspan="1">28.1</td><td valign="top" align="right" rowspan="1" colspan="1">55.0</td><td valign="top" align="right" rowspan="1" colspan="1">25.9</td><td valign="top" align="right" rowspan="1" colspan="1">&#x0003c;.001</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Current</td><td valign="top" align="right" rowspan="1" colspan="1">7.6</td><td valign="top" align="right" rowspan="1" colspan="1">13.2</td><td valign="top" align="right" rowspan="1" colspan="1">34.3</td><td valign="top" align="right" rowspan="1" colspan="1">13.0</td><td valign="top" align="right" rowspan="1" colspan="1">&#x0003c;.001</td></tr><tr><td colspan="6" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" colspan="6" rowspan="1">
+<bold>Movement therapies<xref rid="T2FN2" ref-type="table-fn">b</xref>
+</bold>
+</td></tr><tr><td colspan="6" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Ever</td><td valign="top" align="right" rowspan="1" colspan="1">15.1</td><td valign="top" align="right" rowspan="1" colspan="1">14.8</td><td valign="top" align="right" rowspan="1" colspan="1">32.6</td><td valign="top" align="right" rowspan="1" colspan="1">18.4</td><td valign="top" align="right" rowspan="1" colspan="1">.005</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Current</td><td valign="top" align="right" rowspan="1" colspan="1">8.4</td><td valign="top" align="right" rowspan="1" colspan="1">5.8</td><td valign="top" align="right" rowspan="1" colspan="1">20.7</td><td valign="top" align="right" rowspan="1" colspan="1">10.6</td><td valign="top" align="right" rowspan="1" colspan="1">.01</td></tr><tr><td colspan="6" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" colspan="6" rowspan="1">
+<bold>CAM therapists</bold>
+</td></tr><tr><td colspan="6" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Ever</td><td valign="top" align="right" rowspan="1" colspan="1">32.2</td><td valign="top" align="right" rowspan="1" colspan="1">45.0</td><td valign="top" align="right" rowspan="1" colspan="1">64.6</td><td valign="top" align="right" rowspan="1" colspan="1">39.2</td><td valign="top" align="right" rowspan="1" colspan="1">&#x0003c;.001</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Current</td><td valign="top" align="right" rowspan="1" colspan="1">7.6</td><td valign="top" align="right" rowspan="1" colspan="1">13.7</td><td valign="top" align="right" rowspan="1" colspan="1">32.2</td><td valign="top" align="right" rowspan="1" colspan="1">12.7</td><td valign="top" align="right" rowspan="1" colspan="1">&#x0003c;.001</td></tr><tr><td colspan="6" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" colspan="6" rowspan="1">
+<bold>Dietary approaches</bold>
+</td></tr><tr><td colspan="6" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Ever </td><td valign="top" align="right" rowspan="1" colspan="1">10.1</td><td valign="top" align="right" rowspan="1" colspan="1">27.4</td><td valign="top" align="right" rowspan="1" colspan="1">29.4</td><td valign="top" align="right" rowspan="1" colspan="1">14.9</td><td valign="top" align="right" rowspan="1" colspan="1">&#x0003c;.001</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Current</td><td valign="top" align="right" rowspan="1" colspan="1">6.4</td><td valign="top" align="right" rowspan="1" colspan="1">17.4</td><td valign="top" align="right" rowspan="1" colspan="1">21.8</td><td valign="top" align="right" rowspan="1" colspan="1">10.1</td><td valign="top" align="right" rowspan="1" colspan="1">&#x0003c;.001</td></tr><tr><td colspan="6" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" colspan="6" rowspan="1">
+<bold>Homeopathy</bold>
+</td></tr><tr><td colspan="6" rowspan="1">
+<hr/>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Ever</td><td valign="top" align="right" rowspan="1" colspan="1">3.3</td><td valign="top" align="right" rowspan="1" colspan="1">7.1</td><td valign="top" align="right" rowspan="1" colspan="1">9.3</td><td valign="top" align="right" rowspan="1" colspan="1">4.8</td><td valign="top" align="right" rowspan="1" colspan="1">.10</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Current</td><td valign="top" align="right" rowspan="1" colspan="1">0.9</td><td valign="top" align="right" rowspan="1" colspan="1">0.0</td><td valign="top" align="right" rowspan="1" colspan="1">3.6</td><td valign="top" align="right" rowspan="1" colspan="1">1.3</td><td valign="top" align="right" rowspan="1" colspan="1">.06</td></tr></tbody></table><table-wrap-foot><fn id="T2FN1"><label>a</label><p>Therapies such as acupressure, reflexology, reiki, therapeutic touch, and aromatherapy.</p></fn><fn id="T2FN2"><label>b</label><p>Primarily yoga, tai chi, and Feldenkrais.</p></fn></table-wrap-foot></table-wrap><table-wrap position="float" id="T3"><label>Table 3</label><caption><p>Weighted Estimates of the Percentages of Osteoarthritis, Rheumatoid Arthritis, and Fibromyalgia Patients Using Complementary and Alternative Medicine at Time of Interview, Survey Results (n = 612), New Mexico, 2001&#x02013;2002<xref rid="T3FN1" ref-type="table-fn">a</xref>
+</p></caption><table frame="hsides" rules="groups" border="0" cellspacing="1" cellpadding="4" width="100%"><thead><tr><th scope="col" valign="bottom" colspan="2" rowspan="3" align="left">
+<bold>Type of Complementary and Alternative Medicine</bold>
+</th><th scope="col" valign="bottom" colspan="3" rowspan="1">
+<bold>Diagnoses</bold>
+</th><th scope="col" rowspan="2" valign="bottom" colspan="1"/><th scope="col" rowspan="2" valign="bottom" colspan="1"/></tr><tr><th colspan="3" rowspan="1">
+<hr/>
+</th></tr><tr><th scope="col" valign="bottom" rowspan="1" colspan="1">
+<bold>Osteoarthritis</bold>
+<break/>
+<bold>(n=422)</bold>
+<break/>
+<bold>% </bold>
+</th><th scope="col" valign="bottom" rowspan="1" colspan="1">
+<bold>Rheumatoid</bold>
+<break/>
+<bold>Arthritis</bold>
+<break/>
+<bold>(n=95)</bold>
+<break/>
+<bold>% </bold>
+</th><th scope="col" valign="bottom" rowspan="1" colspan="1">
+<bold>Fibromyalgia</bold>
+<break/>
+<bold>(n=95)</bold>
+<break/>
+<bold>% </bold>
+</th><th scope="col" valign="bottom" rowspan="1" colspan="1">
+<bold>All</bold>
+<break/>
+<bold>(n=612)</bold>
+<break/>
+<bold>% </bold>
+</th><th scope="col" valign="bottom" rowspan="1" colspan="1">
+<bold>Pearson</bold>
+<break/>
+<bold>Chi-square</bold>
+<break/>
+<bold>
+<italic>P</italic> Value </bold>
+</th></tr></thead><tbody><tr><td scope="row" valign="top" rowspan="8" align="left" colspan="1">
+<bold>Nutritional supplements</bold>
+</td><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Glucosamine</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">25.2</td><td valign="top" align="right" rowspan="1" colspan="1">15.8</td><td valign="top" align="right" rowspan="1" colspan="1">20.7</td><td valign="top" align="right" rowspan="1" colspan="1">23.7</td><td valign="top" align="right" rowspan="1" colspan="1">.09</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Chondroitin</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">17.9</td><td valign="top" align="right" rowspan="1" colspan="1">7.5</td><td valign="top" align="right" rowspan="1" colspan="1">10.6</td><td valign="top" align="right" rowspan="1" colspan="1">15.8</td><td valign="top" align="right" rowspan="1" colspan="1">.006</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>MSM</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">4.6</td><td valign="top" align="right" rowspan="1" colspan="1">4.2</td><td valign="top" align="right" rowspan="1" colspan="1">9.9</td><td valign="top" align="right" rowspan="1" colspan="1">5.6</td><td valign="top" align="right" rowspan="1" colspan="1">.26</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Flaxseed oil</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">1.9</td><td valign="top" align="right" rowspan="1" colspan="1">5.3</td><td valign="top" align="right" rowspan="1" colspan="1">9.9</td><td valign="top" align="right" rowspan="1" colspan="1">3.6</td><td valign="top" align="right" rowspan="1" colspan="1">.02</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Vinegar</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">4.5</td><td valign="top" align="right" rowspan="1" colspan="1">5.1</td><td valign="top" align="right" rowspan="1" colspan="1">3.4</td><td valign="top" align="right" rowspan="1" colspan="1">4.3</td><td valign="top" align="right" rowspan="1" colspan="1">.83</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Fish oil</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">3.0</td><td valign="top" align="right" rowspan="1" colspan="1">6.1</td><td valign="top" align="right" rowspan="1" colspan="1">6.4</td><td valign="top" align="right" rowspan="1" colspan="1">3.9</td><td valign="top" align="right" rowspan="1" colspan="1">.27</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Cod liver oil</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">1.9</td><td valign="top" align="right" rowspan="1" colspan="1">0.9</td><td valign="top" align="right" rowspan="1" colspan="1">3.6</td><td valign="top" align="right" rowspan="1" colspan="1">2.2</td><td valign="top" align="right" rowspan="1" colspan="1">.35</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>GLA (Gamma linolenic acid) (e.g., borage oil, black currant oil, evening primrose oil)</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">0.6</td><td valign="top" align="right" rowspan="1" colspan="1">1.3</td><td valign="top" align="right" rowspan="1" colspan="1">3.5</td><td valign="top" align="right" rowspan="1" colspan="1">1.2</td><td valign="top" align="right" rowspan="1" colspan="1">.31</td></tr><tr><td scope="row" valign="top" rowspan="8" align="left" colspan="1">
+<bold>Vitamins and minerals</bold>
+</td><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Magnesium</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">3.1</td><td valign="top" align="right" rowspan="1" colspan="1">4.2</td><td valign="top" align="right" rowspan="1" colspan="1">14.1</td><td valign="top" align="right" rowspan="1" colspan="1">5.3</td><td valign="top" align="right" rowspan="1" colspan="1">.02</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Vitamin E</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">4.3</td><td valign="top" align="right" rowspan="1" colspan="1">8.6</td><td valign="top" align="right" rowspan="1" colspan="1">11.1</td><td valign="top" align="right" rowspan="1" colspan="1">5.9</td><td valign="top" align="right" rowspan="1" colspan="1">.08</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Vitamin C</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">4.1</td><td valign="top" align="right" rowspan="1" colspan="1">10.0</td><td valign="top" align="right" rowspan="1" colspan="1">9.7</td><td valign="top" align="right" rowspan="1" colspan="1">5.6</td><td valign="top" align="right" rowspan="1" colspan="1">.06</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Vitamin B12</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">3.4</td><td valign="top" align="right" rowspan="1" colspan="1">4.7</td><td valign="top" align="right" rowspan="1" colspan="1">5.0</td><td valign="top" align="right" rowspan="1" colspan="1">3.8</td><td valign="top" align="right" rowspan="1" colspan="1">.74</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Niacin</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">0.2</td><td valign="top" align="right" rowspan="1" colspan="1">0.0</td><td valign="top" align="right" rowspan="1" colspan="1">5.5</td><td valign="top" align="right" rowspan="1" colspan="1">1.2</td><td valign="top" align="right" rowspan="1" colspan="1">.06</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Zinc</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">1.3</td><td valign="top" align="right" rowspan="1" colspan="1">3.1</td><td valign="top" align="right" rowspan="1" colspan="1">3.9</td><td valign="top" align="right" rowspan="1" colspan="1">1.9</td><td valign="top" align="right" rowspan="1" colspan="1">.32</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Vitamin B Complex</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">0.9</td><td valign="top" align="right" rowspan="1" colspan="1">2.4</td><td valign="top" align="right" rowspan="1" colspan="1">4.0</td><td valign="top" align="right" rowspan="1" colspan="1">1.2</td><td valign="top" align="right" rowspan="1" colspan="1">.23</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Selenium</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">0.3</td><td valign="top" align="right" rowspan="1" colspan="1">0.0</td><td valign="top" align="right" rowspan="1" colspan="1">3.7</td><td valign="top" align="right" rowspan="1" colspan="1">0.9</td><td valign="top" align="right" rowspan="1" colspan="1">.15</td></tr><tr><td scope="row" valign="top" rowspan="6" align="left" colspan="1">
+<bold>Herbs taken orally</bold>
+</td><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Garlic</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">4.4</td><td valign="top" align="right" rowspan="1" colspan="1">6.9</td><td valign="top" align="right" rowspan="1" colspan="1">8.2</td><td valign="top" align="right" rowspan="1" colspan="1">5.3</td><td valign="top" align="right" rowspan="1" colspan="1">.34</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Ginger</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">1.4</td><td valign="top" align="right" rowspan="1" colspan="1">4.6</td><td valign="top" align="right" rowspan="1" colspan="1">4.0</td><td valign="top" align="right" rowspan="1" colspan="1">2.1</td><td valign="top" align="right" rowspan="1" colspan="1">.16</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Valerian root</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">1.1</td><td valign="top" align="right" rowspan="1" colspan="1">2.9</td><td valign="top" align="right" rowspan="1" colspan="1">4.6</td><td valign="top" align="right" rowspan="1" colspan="1">1.9</td><td valign="top" align="right" rowspan="1" colspan="1">.19</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Aloe vera</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">1.0</td><td valign="top" align="right" rowspan="1" colspan="1">3.4</td><td valign="top" align="right" rowspan="1" colspan="1">3.1</td><td valign="top" align="right" rowspan="1" colspan="1">1.6</td><td valign="top" align="right" rowspan="1" colspan="1">.29</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>St. John&#x02019;s wort</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">0.0</td><td valign="top" align="right" rowspan="1" colspan="1">1.7</td><td valign="top" align="right" rowspan="1" colspan="1">3.3</td><td valign="top" align="right" rowspan="1" colspan="1">0.7</td><td valign="top" align="right" rowspan="1" colspan="1">.09</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Turmeric</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">0.5</td><td valign="top" align="right" rowspan="1" colspan="1">1.7</td><td valign="top" align="right" rowspan="1" colspan="1">3.4</td><td valign="top" align="right" rowspan="1" colspan="1">1.1</td><td valign="top" align="right" rowspan="1" colspan="1">.24</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Homeopathy</bold>
+</td><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Arnica (oral)</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">0.3</td><td valign="top" align="right" rowspan="1" colspan="1">0.0</td><td valign="top" align="right" rowspan="1" colspan="1">3.6</td><td valign="top" align="right" rowspan="1" colspan="1">0.9</td><td valign="top" align="right" rowspan="1" colspan="1">.15</td></tr><tr><td scope="row" valign="top" rowspan="9" align="left" colspan="1">
+<bold>topical rubs</bold>
+</td><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Tiger balm</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">5.1</td><td valign="top" align="right" rowspan="1" colspan="1">4.2</td><td valign="top" align="right" rowspan="1" colspan="1">10.8</td><td valign="top" align="right" rowspan="1" colspan="1">6.1</td><td valign="top" align="right" rowspan="1" colspan="1">.19</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Arnica cream</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">2.2</td><td valign="top" align="right" rowspan="1" colspan="1">1.7</td><td valign="top" align="right" rowspan="1" colspan="1">5.1</td><td valign="top" align="right" rowspan="1" colspan="1">2.7</td><td valign="top" align="right" rowspan="1" colspan="1">.42</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Chamomile oil</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">1.0</td><td valign="top" align="right" rowspan="1" colspan="1">0.0</td><td valign="top" align="right" rowspan="1" colspan="1">4.9</td><td valign="top" align="right" rowspan="1" colspan="1">1.6</td><td valign="top" align="right" rowspan="1" colspan="1">.02</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Capsaicin cream</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">4.6</td><td valign="top" align="right" rowspan="1" colspan="1">0.9</td><td valign="top" align="right" rowspan="1" colspan="1">3.6</td><td valign="top" align="right" rowspan="1" colspan="1">4.1</td><td valign="top" align="right" rowspan="1" colspan="1">.03</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Sesame oil</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">0.3</td><td valign="top" align="right" rowspan="1" colspan="1">0.0</td><td valign="top" align="right" rowspan="1" colspan="1">3.6</td><td valign="top" align="right" rowspan="1" colspan="1">0.9</td><td valign="top" align="right" rowspan="1" colspan="1">.09</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Horse liniment</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">1.3</td><td valign="top" align="right" rowspan="1" colspan="1">3.9</td><td valign="top" align="right" rowspan="1" colspan="1">2.8</td><td valign="top" align="right" rowspan="1" colspan="1">1.8</td><td valign="top" align="right" rowspan="1" colspan="1">.33</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Traumeel ointment</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">1.2</td><td valign="top" align="right" rowspan="1" colspan="1">1.7</td><td valign="top" align="right" rowspan="1" colspan="1">4.6</td><td valign="top" align="right" rowspan="1" colspan="1">1.8</td><td valign="top" align="right" rowspan="1" colspan="1">.33</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Rosemary oil</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">0.5</td><td valign="top" align="right" rowspan="1" colspan="1">1.2</td><td valign="top" align="right" rowspan="1" colspan="1">3.0</td><td valign="top" align="right" rowspan="1" colspan="1">1.0</td><td valign="top" align="right" rowspan="1" colspan="1">.34</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Aloe vera cream</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">1.1</td><td valign="top" align="right" rowspan="1" colspan="1">0.0</td><td valign="top" align="right" rowspan="1" colspan="1">3.1</td><td valign="top" align="right" rowspan="1" colspan="1">1.4</td><td valign="top" align="right" rowspan="1" colspan="1">.02</td></tr><tr><td scope="row" valign="top" rowspan="2" align="left" colspan="1">
+<bold>Items worn</bold>
+</td><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Magnets</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">4.6</td><td valign="top" align="right" rowspan="1" colspan="1">7.6</td><td valign="top" align="right" rowspan="1" colspan="1">9.6</td><td valign="top" align="right" rowspan="1" colspan="1">5.7</td><td valign="top" align="right" rowspan="1" colspan="1">.22</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Copper jewelry</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">4.2</td><td valign="top" align="right" rowspan="1" colspan="1">3.8</td><td valign="top" align="right" rowspan="1" colspan="1">2.8</td><td valign="top" align="right" rowspan="1" colspan="1">3.9</td><td valign="top" align="right" rowspan="1" colspan="1">.79</td></tr><tr><td scope="row" valign="top" rowspan="5" align="left" colspan="1">
+<bold>Mind-body therapies</bold>
+</td><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Relaxation techniques</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">10.0</td><td valign="top" align="right" rowspan="1" colspan="1">16.3</td><td valign="top" align="right" rowspan="1" colspan="1">28.9</td><td valign="top" align="right" rowspan="1" colspan="1">14.0</td><td valign="top" align="right" rowspan="1" colspan="1">.001</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Meditation</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">10.1</td><td valign="top" align="right" rowspan="1" colspan="1">11.1</td><td valign="top" align="right" rowspan="1" colspan="1">27.6</td><td valign="top" align="right" rowspan="1" colspan="1">13.5</td><td valign="top" align="right" rowspan="1" colspan="1">.004</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Breathing techniques</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">8.4</td><td valign="top" align="right" rowspan="1" colspan="1">9.8</td><td valign="top" align="right" rowspan="1" colspan="1">36.7</td><td valign="top" align="right" rowspan="1" colspan="1">13.8</td><td valign="top" align="right" rowspan="1" colspan="1">&#x0003c;.001</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Music therapy</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">6.2</td><td valign="top" align="right" rowspan="1" colspan="1">8.8</td><td valign="top" align="right" rowspan="1" colspan="1">22.8</td><td valign="top" align="right" rowspan="1" colspan="1">9.5</td><td valign="top" align="right" rowspan="1" colspan="1">.002</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Visualization</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">6.8</td><td valign="top" align="right" rowspan="1" colspan="1">7.4</td><td valign="top" align="right" rowspan="1" colspan="1">19.6</td><td valign="top" align="right" rowspan="1" colspan="1">9.2</td><td valign="top" align="right" rowspan="1" colspan="1">.02</td></tr><tr><td scope="row" valign="top" rowspan="7" align="left" colspan="1">
+<bold>Energy therapies</bold>
+</td><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Acupressure</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">2.4</td><td valign="top" align="right" rowspan="1" colspan="1">2.9</td><td valign="top" align="right" rowspan="1" colspan="1">19.5</td><td valign="top" align="right" rowspan="1" colspan="1">5.7</td><td valign="top" align="right" rowspan="1" colspan="1">.001</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Reflexology</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">0.7</td><td valign="top" align="right" rowspan="1" colspan="1">2.0</td><td valign="top" align="right" rowspan="1" colspan="1">9.8</td><td valign="top" align="right" rowspan="1" colspan="1">2.5</td><td valign="top" align="right" rowspan="1" colspan="1">.02</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Aromatherapy</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">1.1</td><td valign="top" align="right" rowspan="1" colspan="1">3.2</td><td valign="top" align="right" rowspan="1" colspan="1">7.4</td><td valign="top" align="right" rowspan="1" colspan="1">2.4</td><td valign="top" align="right" rowspan="1" colspan="1">.05</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Therapeutic touch</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">1.1</td><td valign="top" align="right" rowspan="1" colspan="1">2.7</td><td valign="top" align="right" rowspan="1" colspan="1">4.8</td><td valign="top" align="right" rowspan="1" colspan="1">1.9</td><td valign="top" align="right" rowspan="1" colspan="1">.16</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Self-massage</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">0.2</td><td valign="top" align="right" rowspan="1" colspan="1">3.2</td><td valign="top" align="right" rowspan="1" colspan="1">0.9</td><td valign="top" align="right" rowspan="1" colspan="1">0.5</td><td valign="top" align="right" rowspan="1" colspan="1">.19</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Electromagnetic</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">1.5</td><td valign="top" align="right" rowspan="1" colspan="1">2.0</td><td valign="top" align="right" rowspan="1" colspan="1">4.1</td><td valign="top" align="right" rowspan="1" colspan="1">2.0</td><td valign="top" align="right" rowspan="1" colspan="1">.54</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Reiki</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">0.4</td><td valign="top" align="right" rowspan="1" colspan="1">0.9</td><td valign="top" align="right" rowspan="1" colspan="1">3.5</td><td valign="top" align="right" rowspan="1" colspan="1">1.1</td><td valign="top" align="right" rowspan="1" colspan="1">.32</td></tr><tr><td scope="row" valign="top" rowspan="3" align="left" colspan="1">
+<bold>Movement therapies</bold>
+</td><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Yoga</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">4.9</td><td valign="top" align="right" rowspan="1" colspan="1">4.9</td><td valign="top" align="right" rowspan="1" colspan="1">13.2</td><td valign="top" align="right" rowspan="1" colspan="1">6.5</td><td valign="top" align="right" rowspan="1" colspan="1">.09</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Tai chi</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">2.6</td><td valign="top" align="right" rowspan="1" colspan="1">0.9</td><td valign="top" align="right" rowspan="1" colspan="1">6.3</td><td valign="top" align="right" rowspan="1" colspan="1">3.2</td><td valign="top" align="right" rowspan="1" colspan="1">.09</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Feldenkrais</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">0.5</td><td valign="top" align="right" rowspan="1" colspan="1">0.0</td><td valign="top" align="right" rowspan="1" colspan="1">5.1</td><td valign="top" align="right" rowspan="1" colspan="1">1.3</td><td valign="top" align="right" rowspan="1" colspan="1">.04</td></tr><tr><td scope="row" valign="top" rowspan="5" align="left" colspan="1">
+<bold>CAM therapists</bold>
+</td><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Massage therapists</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">4.8</td><td valign="top" align="right" rowspan="1" colspan="1">4.4</td><td valign="top" align="right" rowspan="1" colspan="1">17.1</td><td valign="top" align="right" rowspan="1" colspan="1">7.1</td><td valign="top" align="right" rowspan="1" colspan="1">.01</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Chiropractors</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">1.5</td><td valign="top" align="right" rowspan="1" colspan="1">1.7</td><td valign="top" align="right" rowspan="1" colspan="1">10.3</td><td valign="top" align="right" rowspan="1" colspan="1">3.1</td><td valign="top" align="right" rowspan="1" colspan="1">.05</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Acupuncturists</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">2.1</td><td valign="top" align="right" rowspan="1" colspan="1">2.9</td><td valign="top" align="right" rowspan="1" colspan="1">5.5</td><td valign="top" align="right" rowspan="1" colspan="1">2.8</td><td valign="top" align="right" rowspan="1" colspan="1">.46</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Myofascial therapists</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">0.2</td><td valign="top" align="right" rowspan="1" colspan="1">0.0</td><td valign="top" align="right" rowspan="1" colspan="1">3.2</td><td valign="top" align="right" rowspan="1" colspan="1">0.8</td><td valign="top" align="right" rowspan="1" colspan="1">.14</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Osteopathic doctor</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">0.0</td><td valign="top" align="right" rowspan="1" colspan="1">0.9</td><td valign="top" align="right" rowspan="1" colspan="1">3.2</td><td valign="top" align="right" rowspan="1" colspan="1">0.7</td><td valign="top" align="right" rowspan="1" colspan="1">.13</td></tr><tr><td scope="row" valign="top" rowspan="4" align="left" colspan="1">
+<bold>Dietary approaches</bold>
+</td><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>&#x0201c;Arthritis diet&#x0201d;</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">1.4</td><td valign="top" align="right" rowspan="1" colspan="1">8.5</td><td valign="top" align="right" rowspan="1" colspan="1">4.4</td><td valign="top" align="right" rowspan="1" colspan="1">2.4</td><td valign="top" align="right" rowspan="1" colspan="1">.02</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Fasting or cleansing diet</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">0.2</td><td valign="top" align="right" rowspan="1" colspan="1">4.0</td><td valign="top" align="right" rowspan="1" colspan="1">7.3</td><td valign="top" align="right" rowspan="1" colspan="1">1.8</td><td valign="top" align="right" rowspan="1" colspan="1">.006</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Hypoglycemic diet</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">0.4</td><td valign="top" align="right" rowspan="1" colspan="1">0.0</td><td valign="top" align="right" rowspan="1" colspan="1">5.0</td><td valign="top" align="right" rowspan="1" colspan="1">1.2</td><td valign="top" align="right" rowspan="1" colspan="1">.04</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Vegetarian diet</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">1.2</td><td valign="top" align="right" rowspan="1" colspan="1">1.7</td><td valign="top" align="right" rowspan="1" colspan="1">3.6</td><td valign="top" align="right" rowspan="1" colspan="1">1.7</td><td valign="top" align="right" rowspan="1" colspan="1">.45</td></tr></tbody></table><table-wrap-foot><fn id="T3FN1"><label>a</label><p>Table includes complementary and alternative medicine (CAM) items used by 3% or more of patients in at least one diagnostic group. See Appendix for complete list of CAM items included in the survey.</p></fn></table-wrap-foot></table-wrap><table-wrap position="float" id="T4"><label>Table 4</label><caption><p>Weighted Estimates of Current Use of Any Type of Complementary and Alternative Medicine, by Patient Characteristics and Diagnostic Group, Survey Results (n = 612), New Mexico, 2001&#x02013;2002</p></caption><table frame="hsides" rules="groups" border="0" cellspacing="1" cellpadding="4" width="100%"><thead><tr><th scope="col" valign="bottom" colspan="2" rowspan="3" align="left">
+<bold>Patient Characteristics</bold>
+</th><th scope="col" valign="bottom" colspan="3" rowspan="1">
+<bold>Diagnoses</bold>
+</th><th scope="col" rowspan="2" valign="bottom" colspan="1"/><th scope="col" rowspan="2" valign="bottom" colspan="1"/></tr><tr><th colspan="3" rowspan="1">
+<hr/>
+</th></tr><tr><th scope="col" valign="bottom" rowspan="1" colspan="1">
+<bold>Osteoarthritis</bold>
+<break/>
+<bold>(n=422)</bold>
+<break/>
+<bold>%</bold>
+</th><th scope="col" valign="bottom" rowspan="1" colspan="1">
+<bold>Rheumatoid</bold>
+<break/>
+<bold>Arthritis</bold>
+<break/>
+<bold>(n=95)</bold>
+<break/>
+<bold>%</bold>
+</th><th scope="col" valign="bottom" rowspan="1" colspan="1">
+<bold>Fibromyalgia</bold>
+<break/>
+<bold>(n=95)</bold>
+<break/>
+<bold>%</bold>
+</th><th scope="col" valign="bottom" rowspan="1" colspan="1">
+<bold>All</bold>
+<break/>
+<bold>Participants</bold>
+<break/>
+<bold>(n=612)</bold>
+<break/>
+<bold>%</bold>
+</th><th scope="col" valign="bottom" rowspan="1" colspan="1">
+<bold>Test of</bold>
+<break/>
+<bold>Interaction</bold>
+<break/>
+<bold>
+<italic>P</italic> Value</bold>
+</th></tr></thead><tbody><tr><td scope="row" valign="top" rowspan="3" align="left" colspan="1">
+<bold>Ethnic group</bold>
+</td><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Hispanic </bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">65.5</td><td valign="top" align="right" rowspan="1" colspan="1">54.8</td><td valign="top" align="right" rowspan="1" colspan="1">70.9</td><td valign="top" align="right" rowspan="1" colspan="1">65.4</td><td valign="top" align="right" rowspan="1" colspan="1">NA<xref rid="T4FN1" ref-type="table-fn">a</xref>
+</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Non-Hispanic White</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">67.8</td><td valign="top" align="right" rowspan="1" colspan="1">86.0</td><td valign="top" align="right" rowspan="1" colspan="1">81.5</td><td valign="top" align="right" rowspan="1" colspan="1">72.2</td><td valign="top" align="right" rowspan="1" colspan="1">NA</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>(Pearson chi-square <italic>P </italic>value)</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">(0.62)</td><td valign="top" align="right" rowspan="1" colspan="1">(0.001)</td><td valign="top" align="right" rowspan="1" colspan="1">(0.27) </td><td valign="top" align="right" rowspan="1" colspan="1">(0.08)</td><td valign="top" align="right" rowspan="1" colspan="1">.03</td></tr><tr><td scope="row" valign="top" rowspan="3" align="left" colspan="1">
+<bold>Sex</bold>
+</td><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Female</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">69.3</td><td valign="top" align="right" rowspan="1" colspan="1">71.8</td><td valign="top" align="right" rowspan="1" colspan="1">79.6</td><td valign="top" align="right" rowspan="1" colspan="1">71.9</td><td valign="top" align="right" rowspan="1" colspan="1">NA</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Male</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">61.5</td><td valign="top" align="right" rowspan="1" colspan="1">64.0</td><td valign="top" align="right" rowspan="1" colspan="1">70.7</td><td valign="top" align="right" rowspan="1" colspan="1">62.4</td><td valign="top" align="right" rowspan="1" colspan="1">NA</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>(Pearson chi-square <italic>P </italic>value)</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">(0.11)</td><td valign="top" align="right" rowspan="1" colspan="1">(0.60)</td><td valign="top" align="right" rowspan="1" colspan="1">(0.55)</td><td valign="top" align="right" rowspan="1" colspan="1">(0.03) </td><td valign="top" align="right" rowspan="1" colspan="1">.98 </td></tr><tr><td scope="row" valign="top" rowspan="4" align="left" colspan="1">
+<bold>Age at interview (years)</bold>
+</td><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>18-54</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">71.9</td><td valign="top" align="right" rowspan="1" colspan="1">77.9</td><td valign="top" align="right" rowspan="1" colspan="1">84.8</td><td valign="top" align="right" rowspan="1" colspan="1">76.4</td><td valign="top" align="right" rowspan="1" colspan="1">NA</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>55-64</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">68.3</td><td valign="top" align="right" rowspan="1" colspan="1">70.1</td><td valign="top" align="right" rowspan="1" colspan="1">78.1</td><td valign="top" align="right" rowspan="1" colspan="1">70.4</td><td valign="top" align="right" rowspan="1" colspan="1">NA</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>65-84</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">62.8</td><td valign="top" align="right" rowspan="1" colspan="1">60.6</td><td valign="top" align="right" rowspan="1" colspan="1">62.9</td><td valign="top" align="right" rowspan="1" colspan="1">62.7</td><td valign="top" align="right" rowspan="1" colspan="1">NA</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>(Pearson chi-square <italic>P </italic>value)</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">(0.30)</td><td valign="top" align="right" rowspan="1" colspan="1">(0.37)</td><td valign="top" align="right" rowspan="1" colspan="1">(0.26)</td><td valign="top" align="right" rowspan="1" colspan="1">(0.02)</td><td valign="top" align="right" rowspan="1" colspan="1">.84</td></tr><tr><td scope="row" valign="top" rowspan="5" align="left" colspan="1">
+<bold>Education</bold>
+</td><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Did not graduate from high school </bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">60.7</td><td valign="top" align="right" rowspan="1" colspan="1">57.0</td><td valign="top" align="right" rowspan="1" colspan="1">49.0</td><td valign="top" align="right" rowspan="1" colspan="1">59.8</td><td valign="top" align="right" rowspan="1" colspan="1">NA</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>High school graduate or GED </bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">65.7</td><td valign="top" align="right" rowspan="1" colspan="1">59.8</td><td valign="top" align="right" rowspan="1" colspan="1">69.1</td><td valign="top" align="right" rowspan="1" colspan="1">65.9</td><td valign="top" align="right" rowspan="1" colspan="1">NA</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Some college or technical school</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">66.6</td><td valign="top" align="right" rowspan="1" colspan="1">72.7</td><td valign="top" align="right" rowspan="1" colspan="1">81.2</td><td valign="top" align="right" rowspan="1" colspan="1">71.3</td><td valign="top" align="right" rowspan="1" colspan="1">NA</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>College graduate </bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">73.1</td><td valign="top" align="right" rowspan="1" colspan="1">91.3</td><td valign="top" align="right" rowspan="1" colspan="1">88.7</td><td valign="top" align="right" rowspan="1" colspan="1">77.3</td><td valign="top" align="right" rowspan="1" colspan="1">NA</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>(Pearson chi-square <italic>P </italic>value)</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">(0.24)</td><td valign="top" align="right" rowspan="1" colspan="1">(0.02)</td><td valign="top" align="right" rowspan="1" colspan="1">(0.14)</td><td valign="top" align="right" rowspan="1" colspan="1">(0.009)</td><td valign="top" align="right" rowspan="1" colspan="1">.44</td></tr><tr><td scope="row" valign="top" rowspan="4" align="left" colspan="1">
+<bold>Annual household income</bold>
+</td><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Less than $25,000 </bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">67.0</td><td valign="top" align="right" rowspan="1" colspan="1">66.9</td><td valign="top" align="right" rowspan="1" colspan="1">75.9</td><td valign="top" align="right" rowspan="1" colspan="1">68.7</td><td valign="top" align="right" rowspan="1" colspan="1">NA</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>$25,000 to $50,000</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">62.2</td><td valign="top" align="right" rowspan="1" colspan="1">80.4</td><td valign="top" align="right" rowspan="1" colspan="1">82.1</td><td valign="top" align="right" rowspan="1" colspan="1">66.8</td><td valign="top" align="right" rowspan="1" colspan="1">NA</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>$50,000 or more </bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">72.0</td><td valign="top" align="right" rowspan="1" colspan="1">82.2</td><td valign="top" align="right" rowspan="1" colspan="1">90.0</td><td valign="top" align="right" rowspan="1" colspan="1">76.3</td><td valign="top" align="right" rowspan="1" colspan="1">NA</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>(Pearson chi-square <italic>P </italic>value)</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">(0.54)</td><td valign="top" align="right" rowspan="1" colspan="1">(0.36)</td><td valign="top" align="right" rowspan="1" colspan="1">(0.45)</td><td valign="top" align="right" rowspan="1" colspan="1">(0.34)</td><td valign="top" align="right" rowspan="1" colspan="1">.68</td></tr><tr><td scope="row" valign="top" rowspan="5" align="left" colspan="1">
+<bold>Frequency of visits to medical doctor for arthritis (times per year)</bold>
+</td><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Never or &#x0003c; 1 </bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">60.4</td><td valign="top" align="right" rowspan="1" colspan="1">82.9</td><td valign="top" align="right" rowspan="1" colspan="1">51.3</td><td valign="top" align="right" rowspan="1" colspan="1">60.1</td><td valign="top" align="right" rowspan="1" colspan="1">NA</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>1-2 </bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">69.0</td><td valign="top" align="right" rowspan="1" colspan="1">84.6</td><td valign="top" align="right" rowspan="1" colspan="1">81.3</td><td valign="top" align="right" rowspan="1" colspan="1">72.0</td><td valign="top" align="right" rowspan="1" colspan="1">NA</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>3-5 </bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">69.1</td><td valign="top" align="right" rowspan="1" colspan="1">59.1</td><td valign="top" align="right" rowspan="1" colspan="1">86.1</td><td valign="top" align="right" rowspan="1" colspan="1">71.4</td><td valign="top" align="right" rowspan="1" colspan="1">NA</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>&#x0003e;5</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">67.1</td><td valign="top" align="right" rowspan="1" colspan="1">64.3</td><td valign="top" align="right" rowspan="1" colspan="1">81.0</td><td valign="top" align="right" rowspan="1" colspan="1">71.7</td><td valign="top" align="right" rowspan="1" colspan="1">NA</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>(Pearson chi-square <italic>P</italic>&#x000a0; value)</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">(0.52)</td><td valign="top" align="right" rowspan="1" colspan="1">(0.08)</td><td valign="top" align="right" rowspan="1" colspan="1">(0.25)</td><td valign="top" align="right" rowspan="1" colspan="1">(0.14)</td><td valign="top" align="right" rowspan="1" colspan="1">.15</td></tr><tr><td scope="row" valign="top" rowspan="4" align="left" colspan="1">
+<bold>Duration of disease (years)</bold>
+</td><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>0-5</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">60.3</td><td valign="top" align="right" rowspan="1" colspan="1">91.5</td><td valign="top" align="right" rowspan="1" colspan="1">74.6</td><td valign="top" align="right" rowspan="1" colspan="1">64.3</td><td valign="top" align="right" rowspan="1" colspan="1">NA</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>6-14</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">67.4</td><td valign="top" align="right" rowspan="1" colspan="1">60.3</td><td valign="top" align="right" rowspan="1" colspan="1">79.8</td><td valign="top" align="right" rowspan="1" colspan="1">69.3</td><td valign="top" align="right" rowspan="1" colspan="1">NA</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>15+</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">72.9</td><td valign="top" align="right" rowspan="1" colspan="1">70.6</td><td valign="top" align="right" rowspan="1" colspan="1">80.1</td><td valign="top" align="right" rowspan="1" colspan="1">74.0</td><td valign="top" align="right" rowspan="1" colspan="1">NA</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>(Pearson chi-square <italic>P</italic>&#x000a0; value)</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">(0.09)</td><td valign="top" align="right" rowspan="1" colspan="1">(0.01)</td><td valign="top" align="right" rowspan="1" colspan="1">(0.85)</td><td valign="top" align="right" rowspan="1" colspan="1">(0.13)</td><td valign="top" align="right" rowspan="1" colspan="1">.11</td></tr><tr><td scope="row" valign="top" rowspan="4" align="left" colspan="1">
+<bold>Pain in last week</bold>
+</td><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Low </bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">64.3</td><td valign="top" align="right" rowspan="1" colspan="1">77.8</td><td valign="top" align="right" rowspan="1" colspan="1">85.0</td><td valign="top" align="right" rowspan="1" colspan="1">67.9</td><td valign="top" align="right" rowspan="1" colspan="1">NA</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Moderate</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">66.5</td><td valign="top" align="right" rowspan="1" colspan="1">70.9</td><td valign="top" align="right" rowspan="1" colspan="1">81.3</td><td valign="top" align="right" rowspan="1" colspan="1">69.4</td><td valign="top" align="right" rowspan="1" colspan="1">NA</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>High</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">72.9</td><td valign="top" align="right" rowspan="1" colspan="1">58.5</td><td valign="top" align="right" rowspan="1" colspan="1">71.9</td><td valign="top" align="right" rowspan="1" colspan="1">71.6</td><td valign="top" align="right" rowspan="1" colspan="1">NA</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">
+<bold>(Pearson chi-square <italic>P</italic>&#x000a0; value)</bold>
+</td><td valign="top" align="right" rowspan="1" colspan="1">(0.36)</td><td valign="top" align="right" rowspan="1" colspan="1">(0.33)</td><td valign="top" align="right" rowspan="1" colspan="1">(0.46)</td><td valign="top" align="right" rowspan="1" colspan="1">(0.77)</td><td valign="top" align="right" rowspan="1" colspan="1">.23</td></tr></tbody></table><table-wrap-foot><fn id="T4FN1"><label>a</label><p>NA indicates not applicable.</p></fn></table-wrap-foot></table-wrap></sec><app-group><app id="A1"><title>Appendix</title><p>
+Complementary and Alternative Medicine Items Included in Survey of Hispanic and Non-Hispanic White Women and Men Aged 18&#x02013;84 (n = 612), New Mexico, 2001&#x02013;2002
+</p><p>
+<bold>Nutritional supplements:</bold> glucosamine, chondroitin, MSM, SAMe, shark cartilage, bovine cartilage, collagen, cod liver oil, fish oil, flaxseed oil, GLA-containing supplements (borage oil, black currant oil, evening primrose oil), vinegar, bromelain, quercetin, noni juice, pregnenolone, DLPA, glutathione, malic acid. <bold>Vitamins &#x00026; minerals</bold>: Multiple vitamin<xref rid="A1FN1" ref-type="fn">a</xref>, calcium<xref rid="A1FN1" ref-type="fn">a</xref>, vitamin D<xref rid="A1FN1" ref-type="fn">a</xref>, vitamin C, vitamin E, beta carotene, niacin, vitamin B5, vitamin B12, folic acid<xref rid="A1FN1" ref-type="fn">a</xref>, magnesium, selenium, boron, copper, zinc. <bold>Oral herbs</bold>: aloe vera, angelica root, black cohosh, boswellia (guggul), burdock root &#x00026; seed, cactus, calendula, cat's claw, cayenne, celery seed, coix, corydalis, devil's claw, eucalyptus, fennel, feverfew, foti (Hou Shu Wu), garlic, gentian, ginger, kava kava, thundergod vine, licorice, oregano, St. John's wort, stinging nettle, turmeric, valerian root, white willow bark, wild yam, yucca. <bold>Topical oils, rubs and ointments</bold>: arnica cream, calendula, capsaicin creams, chamomile oil, clay, coriander cream, DMSO, horse liniment, linseed oil, MSM creams, pine tree sap, rosemary oil, sesame oil, tiger balm, traumeel or traumed ointment, volcanico. <bold>Items worn</bold>: acupressure beads or seeds, copper jewelry, herbal plasters, infrared wraps, magnets, Q-ray ionically charged bracelet. <bold>Mind-body therapies</bold>: meditation, visualization, special breathing techniques, relaxation techniques, music therapy, draw upon religious or spiritual beliefs<xref rid="A1FN1" ref-type="fn">a</xref>, pray<xref rid="A1FN1" ref-type="fn">a</xref>, attend religious services regularly<xref rid="A1FN1" ref-type="fn">a</xref>. <bold>Energy therapies</bold>: acupressure, aromatherapy, biofeedback, cranio-sacral therapy, hypnotism, polarity, reflexology, reiki, therapeutic touch. <bold>Movement therapies</bold>: yoga, tai chi, qigong, pilates, Feldenkrais method ("Awareness Through Movement"), Alexander movement techniques, Trager approach ("Mentastics"). <bold>CAM therapists</bold>: doctor of oriental medicine or acupuncturist, ayurvedic doctor, chiropractic doctor, curandero/curandera, herbalist, hypnotist, iridologist, massage therapist, myofascial therapist, naturopathic doctor, osteopathic doctor, religious leader, spiritual healer. <bold>Dietary approaches</bold>: "arthritis diet" with fish, fresh fruits, and vegetables except potatoes, tomatoes, eggplant, peppers; ayurvedic diet; fasting and cleansing diets; hypoglycemic diet; vegetarian diet.</p><fn-group><fn id="A1FN1"><label>a</label><p>Item excluded from analyses.</p></fn></fn-group></app></app-group></back></article>

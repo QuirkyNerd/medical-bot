@@ -1,0 +1,617 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS Pathog</journal-id><journal-id journal-id-type="iso-abbrev">PLoS Pathog</journal-id><journal-id journal-id-type="publisher-id">ppat</journal-id><journal-id journal-id-type="publisher-id">plpa</journal-id><journal-id journal-id-type="pmc">plospath</journal-id><journal-title-group><journal-title>PLoS Pathogens</journal-title></journal-title-group><issn pub-type="ppub">1553-7366</issn><issn pub-type="epub">1553-7374</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">16292356</article-id><article-id pub-id-type="pmc">PMC1283251</article-id><article-id pub-id-type="doi">10.1371/journal.ppat.0010018</article-id><article-id pub-id-type="publisher-id">05-PLPA-RA-0107R1</article-id><article-id pub-id-type="sici">plpa-01-02-07</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group><subj-group subj-group-type="Discipline"><subject>HIV - AIDS</subject><subject>Virology</subject></subj-group><subj-group subj-group-type="System Taxonomy"><subject>Viruses</subject><subject>Eukaryotes</subject><subject>Homo (human)</subject><subject>In Vitro</subject></subj-group></article-categories><title-group><article-title>The Cell Cycle Independence of HIV Infections Is Not Determined by Known Karyophilic Viral Elements</article-title><alt-title alt-title-type="running-head">Chimeric HIV and Non-Dividing Cells</alt-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Yamashita</surname><given-names>Masahiro</given-names></name><xref ref-type="aff" rid="aff1"/></contrib><contrib contrib-type="author"><name><surname>Emerman</surname><given-names>Michael</given-names></name><xref ref-type="corresp" rid="cor1">&#x0002a;</xref><xref ref-type="aff" rid="aff1"/></contrib></contrib-group><aff id="aff1">Division of Human Biology and Basic Sciences, Fred Hutchinson Cancer Research Center, Seattle, Washington, United States of America</aff><contrib-group><contrib contrib-type="editor"><name><surname>Malim</surname><given-names>Michael</given-names></name><role>Editor</role><xref ref-type="aff" rid="edit1"/></contrib></contrib-group><aff id="edit1">King&#x02032;s College London, United Kingdom</aff><author-notes><corresp id="cor1">&#x0002a; To whom correspondence should be addressed. E-mail: <email>memerman&#x00040;fhcrc.org</email></corresp></author-notes><pub-date pub-type="ppub"><month>11</month><year>2005</year></pub-date><pub-date pub-type="epub"><day>11</day><month>11</month><year>2005</year></pub-date><volume>1</volume><issue>3</issue><elocation-id>e18</elocation-id><history><date date-type="received"><day>25</day><month>7</month><year>2005</year></date><date date-type="accepted"><day>19</day><month>9</month><year>2005</year></date></history><permissions><copyright-statement>Copyright: &#x000a9; 2005 Yamashita and Emerman.</copyright-statement><copyright-year>2005</copyright-year><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p></license></permissions><abstract><p>Human immunodeficiency virus and other lentiviruses infect cells independent of cell cycle progression, but gammaretroviruses, such as the murine leukemia virus (MLV) require passage of cells through mitosis. This property is thought to be important for the ability of HIV to infect resting CD4&#x0002b; T cells and terminally differentiated macrophages. Multiple and independent redundant nuclear localization signals encoded by HIV have been hypothesized to facilitate migration of viral genomes into the nucleus. The integrase (IN) protein of HIV is one of the HIV elements that targets to the nucleus; however, its role in nuclear entry of virus genomes has been difficult to describe because mutations in IN are pleiotropic. To investigate the importance of the HIV IN protein for infection of non-dividing cells, and to investigate whether or not IN was redundant with other viral signals for cell cycle-independent nuclear entry, we constructed an HIV-based chimeric virus in which the entire IN protein of HIV was replaced by that of MLV. This chimeric virus with a heterologous IN was infectious at a low level, and was able to integrate in an IN-dependent manner. Furthermore, this virus infected non-dividing cells as well as it infected dividing cells. Moreover, we used the chimeric HIV with MLV IN to further eliminate all of the other described nuclear localization signals from an HIV genome&#x02014;matrix, IN, Viral Protein R, and the central polypurine tract&#x02014;and show that no combination of the virally encoded NLS is essential for the ability of HIV to infect non-dividing cells.</p></abstract><abstract abstract-type="synopsis"><title>Synopsis</title><p>Human immunodeficiency virus can infect many cells irrespective of whether or not they are dividing, whereas some other retroviruses, such as the murine leukemia virus can only infect cells that are proliferating. This property is important for the ability of HIV to establish infections in critical cell types in infected people. Multiple and redundant signals encoded by HIV have been hypothesized to facilitate migration of viral genomes into the nucleus. However, here the authors eliminated all four described nuclear localizing signals from an HIV genome and show that no combination of these virally encoded signals is essential for the ability of HIV to infect non-dividing cells. They suggest that another step of the virus lifecycle, other than nuclear import, is the rate-limiting step that determines the cell cycle dependence/independence of retroviral infections.</p></abstract><counts><page-count count="9"/></counts><custom-meta-group><custom-meta><meta-name>Citation:</meta-name><meta-value>Yamashita M, Emerman M (2005) The cell cycle independence of HIV infections is not determined by known karyophilic viral elements. PLoS Pathog 1(3): e18.</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec id="s1"><title>Introduction</title><p>Human immunodeficiency virus and other lentiviruses have the ability to infect non-dividing cells [<xref rid="ppat-0010018-b001" ref-type="bibr">1</xref>&#x02013;<xref rid="ppat-0010018-b003" ref-type="bibr">3</xref>]. This property allows HIV to integrate into two major types of virus reservoirs in vivo: resting CD4&#x0002b; T cells and macrophages [<xref rid="ppat-0010018-b004" ref-type="bibr">4</xref>]. However, the ability to productively infect non-dividing cells is not shared by all retroviruses [<xref rid="ppat-0010018-b005" ref-type="bibr">5</xref>]. For example, the gamma retroviruses as exemplified by the murine leukemia virus (MLV) requires mitosis for integration [<xref rid="ppat-0010018-b006" ref-type="bibr">6</xref>,<xref rid="ppat-0010018-b007" ref-type="bibr">7</xref>]. Infection and transduction with foamy retroviruses also depends on cell cycle and requires mitosis [<xref rid="ppat-0010018-b008" ref-type="bibr">8</xref>&#x02013;<xref rid="ppat-0010018-b010" ref-type="bibr">10</xref>]. An alpharetrovirus, the avian sarcoma virus, appears to be able to integrate viral genomes in non-dividing cells [<xref rid="ppat-0010018-b011" ref-type="bibr">11</xref>,<xref rid="ppat-0010018-b012" ref-type="bibr">12</xref>], but fails to produce virus particles, indicating that it requires mitosis for a later stage of the viral life-cycle [<xref rid="ppat-0010018-b013" ref-type="bibr">13</xref>,<xref rid="ppat-0010018-b014" ref-type="bibr">14</xref>].</p><p>After entry into the cytoplasm, retroviruses undergo an uncoating and reverse transcription process that yields a large nucleoprotein complex called the preintegration complex (PIC) [<xref rid="ppat-0010018-b015" ref-type="bibr">15</xref>]. Nuclear entry of viral DNA is an essential step in the retroviral life cycle since viral genomic DNA in the PIC must enter the nucleus to be integrated into host cell chromosomes. The prevailing model to explain the ability of lentiviruses to infect cells independent of the cell cycle is that lentiviruses can target their viral genomes into the nucleus of non-dividing cells via active nuclear transport, while gammaretroviruses that cannot infect non-dividing cells gain an access to the host chromosomes only when the nuclear membrane breaks down at mitosis [<xref rid="ppat-0010018-b006" ref-type="bibr">6</xref>,<xref rid="ppat-0010018-b007" ref-type="bibr">7</xref>]. Thus, it has been hypothesized that the PIC of lentiviruses contain virally encoded nuclear localization signals (NLS), which allow active nuclear transport independent of the cell cycle, whereas the PIC of gammaretroviruses do not contain virally encoded NLS, and thus can not enter the nucleus until mitosis (reviewed in [<xref rid="ppat-0010018-b016" ref-type="bibr">16</xref>]).</p><p>Several lentiviral elements that contain a potential NLS and are present in the PIC have been identified including the matrix (MA) [<xref rid="ppat-0010018-b017" ref-type="bibr">17</xref>], integrase (IN) [<xref rid="ppat-0010018-b018" ref-type="bibr">18</xref>], and Viral Protein R (Vpr) [<xref rid="ppat-0010018-b019" ref-type="bibr">19</xref>] proteins and a <italic>cis</italic>-acting element called the central polypurine tract (cPPT) [<xref rid="ppat-0010018-b020" ref-type="bibr">20</xref>]. However, the importance of each of these elements is controversial since subsequent studies have shown that HIV lacking one or several mutations in these NLS elements still retains a significant ability to infect non-dividing cells [<xref rid="ppat-0010018-b016" ref-type="bibr">16</xref>,<xref rid="ppat-0010018-b021" ref-type="bibr">21</xref>&#x02013;<xref rid="ppat-0010018-b027" ref-type="bibr">27</xref>]. The IN protein is a particularly attractive candidate to mediate nuclear import of HIV genomes since it is part of the PIC through all steps of infection until viral integration, and IN is necessary for nuclear localization and transposition of the yeast elements Ty1 and Ty3 [<xref rid="ppat-0010018-b028" ref-type="bibr">28</xref>&#x02013;<xref rid="ppat-0010018-b030" ref-type="bibr">30</xref>]. Moreover, HIV IN contains nuclear import activity [<xref rid="ppat-0010018-b018" ref-type="bibr">18</xref>,<xref rid="ppat-0010018-b025" ref-type="bibr">25</xref>,<xref rid="ppat-0010018-b031" ref-type="bibr">31</xref>&#x02013;<xref rid="ppat-0010018-b034" ref-type="bibr">34</xref>], whereas MLV IN lacks such nuclear import activity [<xref rid="ppat-0010018-b035" ref-type="bibr">35</xref>,<xref rid="ppat-0010018-b036" ref-type="bibr">36</xref>]. However, the role of HIV IN within nuclear import of viral genomes has been difficult to definitively address because mutations or deletions within IN often show pleiotropic effects on virus replication, including assembly, and reverse transcription, in addition to integration (reviewed in [<xref rid="ppat-0010018-b037" ref-type="bibr">37</xref>]). Recent work has suggested that HIV IN itself does not contain an NLS, but rather traffics to the nucleus by virtue of binding the lens epithelium-derived growth factor (LEDGF)/p75 protein [<xref rid="ppat-0010018-b036" ref-type="bibr">36</xref>,<xref rid="ppat-0010018-b038" ref-type="bibr">38</xref>&#x02013;<xref rid="ppat-0010018-b039" ref-type="bibr">39</xref>].</p><p>We recently reported that the capsid protein (CA) is a dominant determinant of retroviral infectivity in non-dividing cells since HIV containing MLV CA lost the ability to infect non-dividing cells, even though it still contains proteins with an NLS [<xref rid="ppat-0010018-b040" ref-type="bibr">40</xref>]. Because HIV CA is not nucleophilic [<xref rid="ppat-0010018-b041" ref-type="bibr">41</xref>,<xref rid="ppat-0010018-b042" ref-type="bibr">42</xref>] and is not stably associated with the HIV PIC [<xref rid="ppat-0010018-b043" ref-type="bibr">43</xref>&#x02013;<xref rid="ppat-0010018-b048" ref-type="bibr">48</xref>], these data led us to propose that nuclear entry is not the rate-limiting step in the ability of HIV to infect non-dividing cells [<xref rid="ppat-0010018-b040" ref-type="bibr">40</xref>,<xref rid="ppat-0010018-b049" ref-type="bibr">49</xref>]. However, because we were unable to eliminate all of the proposed NLS in HIV, we could not rule out the possibility that the chimeric HIV containing MLV CA masked a pathway usually used by HIV for entry into the nucleus.</p><p>Here, we directly tested the involvement of IN within infection of non-dividing cells by constructing an HIV-MLV chimeric virus in which the HIV IN coding sequence was replaced with the IN coding sequence of MLV. Somewhat remarkably, this chimeric virus was infectious at a low level and was able to integrate in an IN-dependent manner. Furthermore, this virus infected non-dividing cells as well as it infected dividing cells.</p><p>While individual NLS-containing proteins, in some cases combinations, have been mutated or deleted from HIV in previous studies, it could be argued that the effect of the different NLS are redundant, and therefore HIV still retained some ability to infect non-dividing cells because of the presence of other NLS on other proteins. The ability to generate an HIV-based chimera with MLV IN allowed us to further eliminate all of the other described NLS (MA, Vpr, and the cPPT) from an HIV infectious clone. We report here that this chimeric virus without any of the previously described NLS is still able to infect non-dividing cells. We discuss the possibility that uncoating of the entering viral particle, rather than nuclear import, is the rate-limiting step that determines the cell cycle dependence/independence of retroviral infections.</p></sec><sec id="s2"><title>Results</title><sec id="s2a"><title>Generation of an Infectious Chimeric HIV-1 with MLV IN That Is Integration-Competent</title><p>HIV IN localizes to the nucleus when stably expressed in cells, whereas MLV IN does not [<xref rid="ppat-0010018-b036" ref-type="bibr">36</xref>]. Therefore, to determine if the karyophilic property of IN is essential for the infectivity of HIV in non-dividing cells, HIV-1 IN was replaced with MLV IN within an HIV-based provirus, generating the chimeric clone called MHIV-mIN (which encodes MLV IN instead of HIV IN while the rest of the provirus is HIV) (<xref ref-type="fig" rid="ppat-0010018-g001">Figure 1</xref>). Transfection of this chimeric provirus showed that it produces virus particles as indicated by the presence of virus-specific proteins in culture supernatants of transfected cells (<xref ref-type="fig" rid="ppat-0010018-g002">Figure 2</xref>). As expected, MLV IN, and not HIV-1 IN, was detected in virions (<xref ref-type="fig" rid="ppat-0010018-g002">Figure 2</xref>). The amount of virions made by MHIV-mIN was between 3- to 30-fold lower than that made by wild-type HIV-1 as measured by p24gag ELISA (unpublished data). Nevertheless, processing of reverse transcriptase (RT) and IN appeared normal in virions produced by MHIV-mIN virus (<xref ref-type="fig" rid="ppat-0010018-g002">Figure 2</xref>).</p><fig id="ppat-0010018-g001" position="float"><label>Figure 1</label><caption><title>Schematic Representation of the Genomic Organization of Chimeric HIV/MLV Proviruses</title><p>Portions originated from the HIV genome are shown in white, while those from the MLV genome are in gray. The junction between HIV-1 RT and MLV IN within HIV-mIN was created by direct joining of DNA sequences encoding the C-terminus of HIV RT to the N-terminus of MLV IN. Part of the 3&#x02032; end of the HIV-1 IN encoding sequence is retained in the construct of MHIV-mIN to preserve the overlapping Vif sequence and <italic>cis</italic>-acting elements such as cPPT and splice acceptor(s). However, no part of HIV IN should be expressed in the chimeric virus because of the presence of two stop codons following the sequence encoding MLV IN (see <xref ref-type="sec" rid="s4">Materials and Methods</xref>). The molecular clone encoding MHIV-mIN/m<italic>att</italic> has the MLV <italic>att</italic> sites in 5&#x02032; U5 and 3&#x02032; U3. After reverse transcription, both ends of U5 and U3 will have the MLV <italic>att</italic> sites. MHIV-mMA12CA has been previously described [<xref rid="ppat-0010018-b040" ref-type="bibr">40</xref>]. MHIV-mMA12CA/mIN is similar except it contains MLV IN in addition to the MLV Gag region. A molecular clone of MHIV-mMA12CA/mIN was created by putting the DNA sequence encompassing the MLV IN encoding sequence of the MHIV-mIN with a Vpr mutation into the infectious provirus pMHIV-mMA12CA. HIV&#x00394;NLS contains MLV MA instead of HIV MA, MLV IN instead of HIV IN and mutations in the cPPT and in Vpr.</p></caption><graphic xlink:href="ppat.0010018.g001"/></fig><fig id="ppat-0010018-g002" position="float"><label>Figure 2</label><caption><title>Western Blot Analysis of Purified Virus Particles of MHIV-mIN Together with HIV-1 and MLV</title><p>Polyprotein processing was tested for HIV-1 RT, HIV-1 IN and MLV IN. Because of low protein production by MHIV-mIN, 10-times more virions were loaded for MHIV-mIN than for HIV-1 and MLV in this experiment.</p></caption><graphic xlink:href="ppat.0010018.g002"/></fig><p>We tested the infectivity of MHIV-mIN together with wild-type HIV-1 in a single-cycle replication assay [<xref rid="ppat-0010018-b050" ref-type="bibr">50</xref>]. While the titer of MHIV-mIN was about 3-logs lower than that of wild-type HIV-1 when normalized by the amount of p24gag (<xref ref-type="fig" rid="ppat-0010018-g003">Figure 3</xref>A), it was still well above the background. Real-time PCR data indicated that MHIV-mIN produces 3- to 5-fold less cDNA than wild-type HIV-1 (<xref ref-type="fig" rid="ppat-0010018-g003">Figure 3</xref>B). Thus, a decrease of reverse transcription of MHIV-mIN alone cannot explain the reduced infectivity of MHIV-mIN.</p><fig id="ppat-0010018-g003" position="float"><label>Figure 3</label><caption><title>MHIV-mIN Is Infectious</title><p>(A) Single-cycle infectivity of MHIV-mIN. VSV-G-pseudotyped HIV and MHIV-mIN were made by transfection of 293T cells with plasmid DNA. Infectivity was measured with the MAGI assay by counting &#x003b2;-galactosidase positive cells 2 d post-infection. Virus titers were normalized by the amount of p24 (&#x003bc;g). Infections were performed in triplicate. Mean values are shown here with standard derivation. The background in the assay is about 10 blue cells.</p><p>(B) Copy numbers of late products of reverse transcription were measured by using real-time quantitative PCR. Viral cDNA numbers were normalized by p24. Infections were performed in triplicate. This is a representative experiment of three independent trials.</p><p>(C) Infectivity of MHIV-mIN and MHIV-mIN/m<italic>att</italic> was compared in the MAGI assay. VSV-G-pseudotyped viruses were prepared and concentrated at 100-fold by ultracentrifugation. Infections of MAGI cells were also performed in the presence or absence of reverse transcriptase inhibitors (50 &#x003bc;M 3TC and AZT). Formation of blue cells in this assay must result from retrovirus infection since addition of reverse transcription inhibitors (shown as black bars) eliminated most of positive cells.</p><p>(D) Comparison of infectivity between wild-type HIV-1 and MHIV-mIN as judged by the ability to make puromycin-resistant clones. Infectivity was measured by counting puromycin-resistant colonies 14 d after infection. To facilitate stable transduction of HIV genomes, a mutation was introduced into the <italic>vpr</italic> gene in these proviruses because expression of Vpr would preclude formation of colonies due to its cytotoxicity [<xref rid="ppat-0010018-b069" ref-type="bibr">69</xref>,<xref rid="ppat-0010018-b077" ref-type="bibr">77</xref>]</p></caption><graphic xlink:href="ppat.0010018.g003"/></fig><p>The integration reaction requires specific recognition by viral IN of short DNA sequences (~10 bp) at both ends of viral DNA, called the attachment (<italic>att</italic>) site. A previous report indicated that replacement of HIV <italic>att</italic> sites with MLV <italic>att</italic> sites at both ends of the long terminal repeat (LTR) reduced viral titer to 0.5&#x00025; level of the wild-type level [<xref rid="ppat-0010018-b051" ref-type="bibr">51</xref>], while others have found that the <italic>att</italic> sequences other than the conserved CA dinucleotide motif are not very important in vivo [<xref rid="ppat-0010018-b052" ref-type="bibr">52</xref>,<xref rid="ppat-0010018-b053" ref-type="bibr">53</xref>]. To test this, we also made a chimeric clone that contains MLV <italic>att</italic> sequences in both ends of the LTR (<xref ref-type="fig" rid="ppat-0010018-g001">Figure 1</xref>, called pMHIV-mIN/m<italic>att</italic>), and examined the infectivity of these chimeras (<xref ref-type="fig" rid="ppat-0010018-g003">Figure 3</xref>C). We could obtain titers of up to 1 &#x000d7; 10<sup>6</sup> infectious units per ml after concentration of both viruses, but MHIV-mIN/m<italic>att</italic> did not show any significant increase in infectivity when compared with MHIV-mIN (<xref ref-type="fig" rid="ppat-0010018-g003">Figure 3</xref>C). The infectivity of MHIV-mIN was also sensitive to reverse transcriptase inhibitors (<xref ref-type="fig" rid="ppat-0010018-g003">Figure 3</xref>C and <xref ref-type="supplementary-material" rid="ppat-0010018-sg001">Figure S1</xref>), and thus depends on de novo genomic DNA synthesis. Therefore, we found that there is not a requirement for an MLV-specific <italic>att</italic> site in the context of a chimeric HIV with MLV IN.</p><p>IN mutants of HIV that are defective for integration support low levels of infectivity in the multinuclear activation of galactosidase indicate cell (MAGI) assay, probably due to weak expression of the <italic>tat</italic> gene products from unintegrated DNA [<xref rid="ppat-0010018-b054" ref-type="bibr">54</xref>&#x02013;<xref rid="ppat-0010018-b056" ref-type="bibr">56</xref>]. However stable expression of transduced genes usually requires integration of viral DNA into host chromosome [<xref rid="ppat-0010018-b057" ref-type="bibr">57</xref>,<xref rid="ppat-0010018-b058" ref-type="bibr">58</xref>]. Thus, to genetically test for integration, we made use of a reporter virus system in which the puromycin-resistant gene was put in place of the <italic>nef</italic> gene, and infected cells were selected for puromycin resistance. Compared with HIV, MHIV-mIN exhibits ~4 log decrease of infectivity in the puromycin-based assay (<xref ref-type="fig" rid="ppat-0010018-g003">Figure 3</xref>D), which is about one log lower than the virus titer difference in MAGI assay (<xref ref-type="fig" rid="ppat-0010018-g003">Figure 3</xref>A). The difference between the MAGI titer and the puromycin-resistance titer is likely due to expression of Tat from unintegrated DNA [<xref rid="ppat-0010018-b054" ref-type="bibr">54</xref>&#x02013;<xref rid="ppat-0010018-b056" ref-type="bibr">56</xref>]. Nonetheless, these data show that MHIV-mIN is capable of stable transduction.</p><p>To more directly address the question of whether or not the MHIV-mIN virus can carry out bona fide IN-mediated integration, we extracted genomic DNA from the puromycin-resistant colonies to amplify and sequence the junction between viral and host sequences. There are two characteristic features of retroviral integration of viral DNA into the host genome. First, two nucleotides are deleted from both ends of viral DNA. Indeed, we observed the deletion of two nucleotides of both ends of all sequenced clones (<xref ref-type="fig" rid="ppat-0010018-g004">Figure 4</xref>). The second characteristic of IN-mediated integration is that the target sequence of the host DNA is duplicated after the integration event. The size of duplication differs among retroviruses [<xref rid="ppat-0010018-b059" ref-type="bibr">59</xref>]; for example, HIV integration yields 5-bp duplication of the target sequence, whereas MLV integration creates 4-bp duplication. In each case, the length of the duplicated sequence was 4-bp, which is consistent with integration of the HIV chimeric virus mediated by the MLV IN. Taken together these findings demonstrate that MHIV-mIN is competent for all of the early steps of virus replication including integration.</p><fig id="ppat-0010018-g004" position="float"><label>Figure 4</label><caption><title>Integration Sites of MHIV-mIN</title><p>A schematic illustration of the unintegrated viral DNA is shown with the detailed structures of both ends of LTR (top). The two terminal base pairs at each end of the linear DNA precursor, which are removed in the integration process, as shown in highlight. Two other DNA sequences confirmed the removal of dinucleotides from one end of viral DNA (unpublished data). DNA sequences flanking integrated proviral DNA are shown (bottom). Junction sequences between the integrated MHIV-mIN genome and human genomic DNA at each end of the provirus were obtained by nested PCR based on the sequence of integration sites that were mapped with human genome sequences as described in the Materials and Methods. The 4-bp sequence duplications that flank the integrated provirus are shown in boxes.</p></caption><graphic xlink:href="ppat.0010018.g004"/></fig></sec><sec id="s2b"><title>HIV IN Is Not Essential for Infection of Non-Dividing Cells</title><p>HIV efficiently infects non-dividing cells, whereas MLV infection is restricted in non-dividing cells. To determine if IN plays an essential role in this difference, growth-arrested cells prepared by treatment of HeLa cells with aphidicolin were challenged with the chimeric virus MHIV-mIN along with control viruses, and infectivity was judged by measuring the output of the luciferase gene encoded by reporter virus constructs. As expected from previous studies, wild-type HIV was capable of infecting non-dividing cells as efficiently as dividing cells, while transduction of the luciferase gene by MLV was reduced in non-dividing cells compared with in dividing cells (<xref ref-type="fig" rid="ppat-0010018-g005">Figure 5</xref>). The phenotype of MHIV-mIN was similar to that with HIV, but not with MLV, in that it was not decreased in non-dividing cells relative to dividing cells (<xref ref-type="fig" rid="ppat-0010018-g005">Figure 5</xref>). In fact, we saw a slight increase of infectivity by MHIV-mIN on non-dividing cells relative to dividing cells (<xref ref-type="fig" rid="ppat-0010018-g005">Figure 5</xref>). This increase may be due to expression of the reporter gene from unintegrated DNA in non-dividing cells, as described in the case of infection of non-dividing cells with feline immunodeficiency virus IN mutants [<xref rid="ppat-0010018-b057" ref-type="bibr">57</xref>]. Nonetheless, these results demonstrate that IN is not an essential determinant for the ability of HIV-1 to infect non-dividing cells relative to dividing cells.</p><fig id="ppat-0010018-g005" position="float"><label>Figure 5</label><caption><title>IN Does Not Determine the Infectivity in Non-Dividing Cells</title><p>Aphidicolin-treated HeLa cells were infected with increasing amount of luciferase-encoding viruses described in <xref ref-type="fig" rid="ppat-0010018-g001">Figure 1</xref>. Culture supernatants of transfected cells were used as the inoculum. Virus infectivity was judged by measuring luciferase titers of infected cell lysates 2 d after infection. RLU; relative light units. White circles indicate cells without aphidicolin. Filled circles indicate cells with aphidicolin (2 &#x003bc;g per ml). This is a representative experiment that was done at least three times for each virus.</p></caption><graphic xlink:href="ppat.0010018.g005"/></fig><p>We previously showed that replacement of part of the <italic>gag</italic> gene of HIV with that of MLV would convert HIV into a virus that had lost the ability to infect non-dividing cells [<xref rid="ppat-0010018-b040" ref-type="bibr">40</xref>]. Similarly, we found that we can change the phenotype of the MHIV-mIN by replacing the MA and CA proteins of HIV with the MA, p12, and CA proteins of MLV (MHIV-mMA12CA-mIN in <xref ref-type="fig" rid="ppat-0010018-g001">Figure 1</xref>). Indeed, addition of Gag proteins of MLV into the HIV provirus that already contains MLV IN increased the infectivity in dividing cells, but specifically lost the ability to infect non-dividing cells (<xref ref-type="fig" rid="ppat-0010018-g005">Figure 5</xref>: Compare MHIV-mMA12CA/mIN with MHIV-mIN). These data demonstrate that Gag, rather than IN, is the dominant determinant for the ability of HIV to infect cells independent of cell cycle progression.</p></sec><sec id="s2c"><title>Normal Levels of Nuclear Import by MHIV-mIN</title><p>A recent report showed that efficient nuclear entry of HIV can occur independently of mitotic nuclear disassembly in cycling cells [<xref rid="ppat-0010018-b060" ref-type="bibr">60</xref>]. Thus, one interpretation of our results is that elimination of an NLS from HIV would result in lack of infectivity both in dividing and non-dividing cell populations. Indeed, the new chimeric virus created in the present study, MHIV-mIN, infects dividing cells and non-dividing cells with an equal efficiency, but the overall infectivity by MHIV-mIN is severely reduced from that of wild-type HIV-1 (<xref ref-type="fig" rid="ppat-0010018-g003">Figure 3</xref>A). Thus, to directly determine whether or not MHIV-mIN is restricted at nuclear import of viral DNA, infected cells were separated into cytoplasmic and nuclear fractions and real-time PCR was used to measure late reverse transcription products. The results indicate that there is little apparent difference of viral DNA associated with nuclear fractions between MHIV-mIN and HIV (<xref ref-type="fig" rid="ppat-0010018-g006">Figure 6</xref>A). Although higher amounts of viral DNA were associated with the nuclear fractions of HIV (~75&#x00025;) than MHIV-mIN (~50&#x00025;), this level of difference cannot explain the decrease of infectivity by MHIV-mIN (3-log reduction compared with wild-type HIV). Control experiments using a cytoplasmic protein (LDH I) as a maker for the cytoplasmic fraction indicated that contamination of cytoplasm into the nuclear fraction is less than 1&#x00025; (<xref ref-type="fig" rid="ppat-0010018-g006">Figure 6</xref>B. compare the 125-fold dilution of the cytoplasmic fraction in lane 2 with the nuclear fraction in lane 6). These data indicate that nuclear entry of MHIV-mIN is essentially not inhibited and that reduced infectivity of the chimeric virus is due to a post-nuclear entry event (most likely integration). We also examined 2-LTR circles, which are often used as a surrogate marker for nuclear entry. We found that the ratio of 2-LTR circles to total viral DNA in cells infected with MHIV-mIN is roughly equivalent (or even slightly higher) to the ratio in cells infected with parental HIV-1 (<xref ref-type="fig" rid="ppat-0010018-g006">Figure 6</xref>C). The slight increase in the average number of 2-LTR circles per total viral DNA for MHIV-mIN relative to wild-type virus likely reflects the fact that mutants that integrate inefficiently often accumulate 2-LTR circles [<xref rid="ppat-0010018-b056" ref-type="bibr">56</xref>]. Nonetheless, in sum, these data further support the idea that HIV IN is not essential for the nuclear transport of viral DNA and infectivity in non-dividing cells.</p><fig id="ppat-0010018-g006" position="float"><label>Figure 6</label><caption><title>Nuclear Entry of MHIV-mIN</title><p>(A) Subcellular localization of viral DNA. Infected cells were fractionated to cytoplasmic (C) and nuclear (N) fractions. Viral DNA was extracted and subject to real-time PCR to measure late products of reverse transcription. These data represent one of two independent experiments. Control viruses, with the presence of reverse transcription inhibitors or without VSV-G protein, were also used in the experiments to monitor retrovirus-dependent DNA synthesis, and showed that contamination of plasmid DNA used for transfection is less than 1&#x00025; of the total DNA.</p><p>(B) Western blot analysis of total cell lysates (To), cytoplasmic extract (Cy) and nuclear lysates (Nu). Contamination of cytoplasmic extract and the presence of intact cells in nuclear fractions were tested by checking for the presence of a cytoplasmic protein, LDH-I, in each fraction (upper lanes). Five-fold dilutions of the cytoplasmic extract (5-, 25-, and 125-fold dilutions, lanes 4, 3, and 2, respectively) were made to assess the degree of contamination of the nuclear fraction. Presence of proteins was confirmed by antibody against a nuclear pore complex protein (mAb414; lower lane).</p><p>(C) Nuclear import was monitored by measuring late reverse transcription products and 2-LTR circles. The ratio of total viral DNA and 2-LTR circles was obtained by dividing the copy number of late RT products by the copy number of 2-LTR circle. The parental wild-type strain of HIV-1 (shown here as wt) was compared with the chimeric virus MHIV-mIN (shown as mIN). Control infections with reverse transcription inhibitors (AZT and 3TC: 50 &#x003bc;M each) yielded viral copy numbers that are less than 10&#x00025; of copy numbers of the samples without reverse transcription inhibitors, indicating that contamination of plasmid DNA used to produce virus stocks does not affect the final results. Two independent experiments gave substantially identical data.</p></caption><graphic xlink:href="ppat.0010018.g006"/></fig></sec><sec id="s2d"><title>HIV Lacking All of the Known Types of NLS Still Infects Non-Dividing Cells as Efficiently as Dividing Cells</title><p>As mentioned above, IN is not the sole candidate that potentially encodes a viral NLS. MA, Vpr, and the cPPT have all been described as elements that are important for entry of HIV-1 PIC into the nucleus. To formally address the argument that other described NLSs in HIV as well as the cPPT are redundant for nuclear import with the NLS in HIV IN, a mutant HIV-1 lacking all the NLS candidates was generated. This mutant (HIV-&#x00394;NLS), carrying MLV MA and IN instead of HIV counterparts, lacks a functional <italic>vpr</italic> gene, and has a mutated cPPT (<xref ref-type="fig" rid="ppat-0010018-g001">Figure 1</xref>). We found that HIV-&#x00394;NLS had reduced infectivity relative to wild-type HIV (<xref ref-type="fig" rid="ppat-0010018-g007">Figure 7</xref>), but the infectivity of HIV-&#x00394;NLS is sensitive to reverse transcriptase inhibitors (<xref ref-type="supplementary-material" rid="ppat-0010018-sg001">Figure S1</xref>), and thus is not an artifact of the virus concentration. Importantly, the infectivity of HIV-&#x00394;NLS is independent of cell cycle conditions (<xref ref-type="fig" rid="ppat-0010018-g007">Figure 7</xref>). It should be noted that our luciferase system can detect reduction even when the activity is low (See reduction of MLV infectivity in 0.08 &#x003bc;l in <xref ref-type="fig" rid="ppat-0010018-g007">Figure 7</xref>, for example). The phenotype of HIV-&#x00394;NLS in non-dividing cells is in marked contrast to that of MLV which is dependent on the cell cycle, and in contrast to a previously described chimeric HIV virus containing MLV MA, p12, and CA (MHIV-mMA12CA: <xref ref-type="fig" rid="ppat-0010018-g001">Figure 1</xref>) [<xref rid="ppat-0010018-b040" ref-type="bibr">40</xref>], which has specifically lost the ability to efficiently infect non-dividing cells (<xref ref-type="fig" rid="ppat-0010018-g007">Figure 7</xref>). Therefore, these data demonstrate that HIV without any of the previously described NLS elements is fully capable of infecting non-dividing cells as well as it infects dividing cells, and suggest that the virally encoded NLS elements are not rate-limiting for this process.</p><fig id="ppat-0010018-g007" position="float"><label>Figure 7</label><caption><title>HIV Lacking NLSs Infects Non-Dividing Cells</title><p>Single-cycle infectivity assay of HIV-&#x00394;NLS together with HIV, MLV, and MHIV-mMA12CA. Both HIV-&#x00394;NLS and MHIV-mMA12CA were concentrated by ultracentrifugation for infections. For details, see the legend to <xref ref-type="fig" rid="ppat-0010018-g005">Figure 5</xref>. White circles indicate cells without aphidicolin. Filled circles indicate cells with aphidicolin (2 &#x003bc;g per ml). This is a representative experiment that was done at least 3 times for each virus.</p></caption><graphic xlink:href="ppat.0010018.g007"/></fig></sec></sec><sec id="s3"><title>Discussion</title><p>In the present study, we created a chimeric HIV-1 in which HIV IN is replaced by its counterpart from MLV and demonstrated that HIV can integrate with a heterologous IN protein. Thus, while inefficient, MLV IN can replace HIV IN within the context of an infectious virus. The infectivity of this chimeric virus having MLV IN was not dependent on the presence of the MLV <italic>att</italic> sites at the ends of the LTR, yet did result in duplications of genomic DNA that were consistent with MLV IN. We used this chimeric virus as a template to eliminate all previously described viral NLS elements and found that it was still able to infect non-dividing cells as well as it infected dividing cells.</p><p>A popular model for lentiviral infection of non-dividing cells is that the karyophilic activity of an HIV-encoded NLS such as IN is important to bring HIV PIC into the nucleus of non-dividing cells, thereby allowing efficient infection in the absence of mitosis. Our experiments using a chimeric HIV-1 with MLV IN showed that the exchange of IN does not cause any phenotypic change of infectivity that is specific to non-dividing cells. This finding indicates that IN is not an essential determinant that governs the infectious phenotype in non-dividing cells. These results are in agreement with some previous studies that examined individual putative NLS elements within HIV IN and argued against a role of an IN NLS in nuclear import of HIV [<xref rid="ppat-0010018-b016" ref-type="bibr">16</xref>,<xref rid="ppat-0010018-b024" ref-type="bibr">24</xref>,<xref rid="ppat-0010018-b025" ref-type="bibr">25</xref>,<xref rid="ppat-0010018-b061" ref-type="bibr">61</xref>]. Indeed, a recent report by Lu et al demonstrated that mutations in a putative NLS of HIV IN results in class II mutations, which are defective at a postnuclear entry step rather than at nuclear import [<xref rid="ppat-0010018-b061" ref-type="bibr">61</xref>]. In contrast, Ikeda et al claimed that nuclear import of viral DNA is affected by reduced binding of IN to viral cDNA [<xref rid="ppat-0010018-b062" ref-type="bibr">62</xref>]. However, the reduction of nuclear import of such IN mutants (with reduced binding ability to viral cDNA) was at most 40&#x00025; of the wild-type level as judged by nuclear DNA and that amount of reduction does not seem to explain severely reduced infectivity of their mutants (less than 1&#x00025; of the wild-type level) [<xref rid="ppat-0010018-b062" ref-type="bibr">62</xref>]. Moreover, other studies have shown that HIV IN localizes to the nucleus by virtue of binding LEDGF/p75 [<xref rid="ppat-0010018-b036" ref-type="bibr">36</xref>,<xref rid="ppat-0010018-b038" ref-type="bibr">38</xref>,<xref rid="ppat-0010018-b039" ref-type="bibr">39</xref>]. However, reduction of LEDGF levels by small interfering RNA (siRNA) affected the nuclear localization of HIV IN, but did not affect the ability of HIV to infect non-dividing cells [<xref rid="ppat-0010018-b036" ref-type="bibr">36</xref>]. Therefore, although we cannot completely rule out the possibility that HIV IN is involved in nuclear migration of viral DNA, we believe that its role is minor.</p><p>Although other studies have ruled out a role for individual and some combinations of putative karyophilic viral elements in the HIV PIC, it has not been possible up to now to eliminate all of the identified elements at once in order to test the hypothesis that infection of non-dividing cells is reliant on multiple redundant NLS. However, we were able to create an HIV mutant lacking all of the known NLS-encoding elements, and demonstrated that not only IN, but also none of the other NLS-encoding elements have any effect on the ability of HIV-1 to infect non-dividing cells. Thus, our data are not consistent with a previous suggestion that mutation of single (or double) NLS-encoding elements had little phenotypic change because of redundant NLS-encoding elements that are responsible for nuclear transport of HIV PIC and for infection in non-dividing cells. One possible interpretation of our results is that we have not yet found the most important NLS encoded by HIV. While this is still formally possible, the present results along with our previous results that found that CA is a dominant determinant for retrovirus infectivity in non-dividing cells [<xref rid="ppat-0010018-b040" ref-type="bibr">40</xref>], suggest that these virally encoded karyophilic elements are not the major determinants for the infectivity of HIV in non-dividing cells. Rather, we consider that our data lend support to the alternative hypothesis that nuclear entry is not the rate-limiting step for infection of non-dividing cells. Our hypothesis is also consistent with the findings that the addition of NLS encoding sequences to MLV does not render it infectious to non-dividing cells [<xref rid="ppat-0010018-b035" ref-type="bibr">35</xref>,<xref rid="ppat-0010018-b063" ref-type="bibr">63</xref>].</p><p>Instead, we propose that the difference in CA between HIV and MLV affects the progress of uncoating, thereby influencing downstream events such as nuclear import and integration. In this model, uncoating of HIV progresses normally in non-dividing cells and functional PIC enter the nucleus where they integrate viral DNA. In contrast, uncoating of MLV is impaired in non-dividing cells, which results in the failure of subsequent steps of the replication cycle. In this scenario, gammaretroviruses may need mitosis to complete uncoating. In fact, in the case of HIV, CA is dissociated from viral nucleoprotein complexes [<xref rid="ppat-0010018-b043" ref-type="bibr">43</xref>&#x02013;<xref rid="ppat-0010018-b048" ref-type="bibr">48</xref>], while larger amounts of CA are associated with MLV PICs [<xref rid="ppat-0010018-b015" ref-type="bibr">15</xref>,<xref rid="ppat-0010018-b064" ref-type="bibr">64</xref>&#x02013;<xref rid="ppat-0010018-b065" ref-type="bibr">65</xref>], suggesting that uncoating of MLV may not be as efficient as that of HIV. An optimal stability of the HIV core appears to be essential for infectivity [<xref rid="ppat-0010018-b066" ref-type="bibr">66</xref>], and complete uncoating may be a prerequisite for nuclear import of PIC. In this hypothesis, the tight association of MLV CA with PIC prevents cellular machinery from interacting with a putative NLS on MLV PICs, thereby retaining PICs within the cytoplasm of interphase cells. On the other hand, the HIV PIC can migrate into the nucleus of interphase cells by using cellular transport machinery. Thus, we are not arguing that nuclear import of the HIV PIC is not essential. Rather, that it is not the rate-limiting step and that cellular rather than viral components of the PIC might play the major role in viral nuclear import after uncoating.</p></sec><sec id="s4"><title>Materials and Methods</title><sec id="s4a"><title>Nomenclature and construction of proviruses.</title><p>Proviruses were named as follows: MHIV-mIN encodes the MLV IN instead of the HIV IN while the rest of the provirus is HIV. MHIV-mIN/m<italic>att</italic> has the MLV IN and MLV <italic>att</italic> sites. MHIV-MA12CA/mIN encodes the MLV IN as well as the MA, p12, and CA proteins of MLV, instead of the HIV MA and CA. HIV and MLV genes were taken from the infectious proviruses pLai [<xref rid="ppat-0010018-b067" ref-type="bibr">67</xref>] and pAMS [<xref rid="ppat-0010018-b068" ref-type="bibr">68</xref>], respectively. The AMS clone encodes a chimeric strain of amphotropic MLV of which 3&#x02032; part of the genome was obtained from the amphotropic virus clone 4070A and the 5&#x02032; end from MLV-K. The IN region derived from 4070A was cloned into the proviral DNA of HIV-1 in place of part of the HIV IN encoding sequence. The 5&#x02032; end of the MLV IN encoding sequence starts at the same position of the original 5&#x02032; end of the HIV IN encoding sequence. Therefore, the junction between the HIV RT encoding sequence and the MLV IN encoding sequence is aggaaagtactaATAGAAAACTCAA (HIV sequence is shown in small letters; MLV sequence is shown in capital letters). Part of the 3&#x02032; end of the HIV-1 IN encoding sequence was preserved in the construct of MHIV-mIN, since it contains several important <italic>cis</italic>-acting elements such as central polypurine tract (cPPT). The original TAA stop codon for the MLV IN is followed by additional stop codon (TGA) that prevents expression of a possible fusion protein containing MLV Env, since MLV IN encoding sequence also contains the initiation site of MLV Env. Thus, the junction between the MLV IN encoding sequence and HIV sequence is CGTGGAAGCCCT<underline>TAA</underline>TAGTC<underline>Tga</underline>attc (MLV sequence is shown in capital letters; HIV sequence is shown in small letters; two stop codons are shown in underlined).</p><p>A molecular clone of HIV-m<italic>att</italic> was constructed by replacing the <italic>att</italic> sites of HIV with those of MLV in pLai. The 3&#x02032; U3 <italic>att</italic> site of HIV-1 (ctggaagggcta) was replaced with the U3 <italic>att</italic> site of MLV (TGAAAGACCCCAA). The 5&#x02032; U5 <italic>att</italic> site of HIV-1 (tctctagcag) was replaced with the U5 <italic>att</italic> site of MLV (ggtctttcat). Then, the clone HIV-m<italic>att</italic> was used to create the construct encoding MHIV-mIN/m<italic>att</italic> by swapping the DNA sequence encompassing the MLV IN encoding sequence in the MHIV-mIN. An additional chimeric HIV-1 having both portion of the <italic>gag</italic> gene and IN of MLV was made by replacing the DNA sequence encoding the HIV MA and CA proteins with the DNA sequence of the MLV MA, p12 and CA in the context of the proviral clone MHIV-mIN, resulting in MHIV-mMA12CA/mIN.</p><p>An HIV mutant lacking all of the putative NLS encoding genes was made by mutating the cPPT and the <italic>vpr</italic> gene and by replacing the HIV-1 MA and IN with the MLV MA and IN, respectively. The cPPT-D mutation [<xref rid="ppat-0010018-b020" ref-type="bibr">20</xref>] was introduced into pLai by PCR mutagenesis. Construction of a Vpr mutant (pLai-&#x00394;Vpr) [<xref rid="ppat-0010018-b069" ref-type="bibr">69</xref>] and MHIV having the MLV MA [<xref rid="ppat-0010018-b040" ref-type="bibr">40</xref>] was reported previously. All of these mutations and replacements were combined together with the <italic>env</italic>-deficient provirus clone pLai-&#x00394;Env to create the NLS-minus mutant HIV-&#x00394;NLS.</p><p>The reporter virus constructs encoding the luciferase gene were made by introducing the luciferase gene from the wild-type Env-minus HIV-1 (pLai-&#x00394;Env-luc2) [<xref rid="ppat-0010018-b040" ref-type="bibr">40</xref>] into the new HIV-based constructs. The puromycin resistant gene is cloned into the <italic>nef</italic> gene of molecular clones of HIV-1, MHIV-mIN, and MHIV-Mma12CA/mIN. The HIV puromycin resistant constructs were created in the same way as the luciferase constructs as described above. The <italic>vpr</italic> mutant pLai-&#x00394;Vpr was used to introduce an insertional mutation in the <italic>vpr</italic> gene of the puromycin virus constructs.</p></sec><sec id="s4b"><title>Western blot analysis.</title><p>Western blots were probed with the following antibodies: rabbit anti-HIV-1 RT antibody (through the AIDS Research and Reference Reagent Program, Division of AIDS, NIAID); mouse monoclonal anti-HIV-1 IN antibody (Michael Malim, King's College, London); rabbit anti-MLV IN (Frederick Bushman, University of Pennsylvania, [<xref rid="ppat-0010018-b065" ref-type="bibr">65</xref>]); sheep antibody against LDH I (Cortex Biochem, San Leandro, CA); and mouse monoclonal antibody against nuclear pore complex proteins MAb414 ( Covance, Devner, Pennsylvania) [<xref rid="ppat-0010018-b070" ref-type="bibr">70</xref>]. The membranes were washed for 30 min in wash buffer (PBS containing 0.2&#x00025; Tween 20) and then incubated with a 1:10,000 dilution of horseradish peroxidase-conjugated antibodies that match with the primary antibody for 60 min at room temperature. The membranes were washed three times for 30 min, and the bound antibody was detected with ECL Plus Western blotting detection reagents (Amersham Biosciences, Little Chalfont, United Kingdom). In some cases, membranes were stripped and reprobed with another primary antibody.</p></sec><sec id="s4c"><title>Infectivity assays.</title><p>Vesicular stomatitis virus G protein (VSV-G)-pseudotyped viruses were prepared by transient transfections of 293T cells performed with the FuGene 6 reagent. HIV and MHIV expression plasmids were co-transfected with a VSV-G-expression vector (pL-VSV-G [<xref rid="ppat-0010018-b071" ref-type="bibr">71</xref>]) in addition to pCMV-tat to express the VSV-G for pL-VSV-G. For the production of VSV-G-pseudotyped MLV, the MLV Gag-Pol expression vector (pCS2-mGP) [<xref rid="ppat-0010018-b040" ref-type="bibr">40</xref>] were used along with the murine retrovirus-based vectors [<xref rid="ppat-0010018-b072" ref-type="bibr">72</xref>] encoding the luciferase gene (pLNCluc) [<xref rid="ppat-0010018-b040" ref-type="bibr">40</xref>] as well as the VSV-G construct. To enhance the infectivity, MHIV-mIN and HIV-&#x00394;NLS were concentrated by ultracentrifugation. Briefly, 25&#x02013;35 ml of culture supernatant of transfected 293T cells were centrifuged at 500 &#x000d7; g for 5 min to remove cell debris and then filtered through a 0.22 &#x003bc;m filter. The supernatant were transferred into ultracentrifuge tubes and centrifuged at 64,000 &#x000d7; g for 90 min within a SW28 rotor (Beckman Instruments, Fullerton, California, United States). The supernatants were carefully removed and 250&#x02013;350 &#x003bc;l of culture medium was added at 4 &#x000b0;C for 1 hr and freshly used for infection.</p><p>Single-cycle infectivity of HIV and MHIV was measured by challenging MAGI cells with serial dilution of virus and staining for &#x003b2;-galactosidase expression as basically described previously [<xref rid="ppat-0010018-b050" ref-type="bibr">50</xref>]. HeLa cells were used for infections with the luciferase reporter virus stocks. Luciferase titer was assayed with the luciferase assay kit (Promega, Madison, Wisconsin, United States) and read on a luminometer. Growth-arrested cells were prepared by treatment with 2 &#x003bc;g per ml of aphidicolin (Sigma, St. Louis, Missouri, United States). Virus binding was enhanced by spinoculation [<xref rid="ppat-0010018-b073" ref-type="bibr">73</xref>] and by addition of 20 &#x003bc;g per ml of DEAE/dextran.</p></sec><sec id="s4d"><title>Quantification of p24gag and viral cDNA.</title><p>The p24gag content of the viral supernatants was determined by an enzyme-linked immunosorbent assay (ELISA; Beckman Coulter, Hialeah, Florida, United States.). Late products of reverse transcription and 2-LTR circles of HIV-1 were measured by using real-time PCR based on a previously published protocol [<xref rid="ppat-0010018-b074" ref-type="bibr">74</xref>] as described previously [<xref rid="ppat-0010018-b040" ref-type="bibr">40</xref>].</p></sec><sec id="s4e"><title>Subcellular fractionation.</title><p>One day before infection, approximately 5 million HeLa cells were seeded onto four 75 cm<sup>2</sup> flasks. The cells were challenged either by the VSV-G-pseudotyped HIV-1 or MHIV-mIN. Cells were infected with virus stocks that can synthesize equivalent amount of viral DNA in target cells. Virus stock of MHIV-mIN was concentrated by ultracentrifugation. Both virus stocks were treated with 50 units of Turbo DNase (Ambion, Austin, Texas, United States) per ml at 37 &#x000b0;C for an hour. Infections were performed with the presence of DEAE/dextran (20 &#x003bc;g per ml).</p><p>Subcellular fractionations were carried out based on the method described by Yuan et al [<xref rid="ppat-0010018-b075" ref-type="bibr">75</xref>] with minor modifications. One day after infection, cells were washed, tripsinized, and washed once again with phosphate-buffered saline. In order to extract cell lysates and DNA from intact cells, 20&#x00025; of the infected cells were kept for further experiments. All the manipulations after this step were carried out at 4 &#x000b0;C. The remaining 80&#x00025; cells were resuspended in 3 volumes of hypotonic buffer (10 mM HEPES, [pH 7.9]; 1.5 mM MgCl<sub>2</sub>; 10 mM KCl; 2 mM dithiothereitol ; 20 &#x003bc;g of aprotinin per ml). Resuspended cells were centrifuged at 2,300 &#x000d7; g for 5 min. The cell pellet was resuspended in 3 volumes of hypotonic buffer and kept on ice for 10 min. The cells were homogenized with 30 strokes in a Dounce homogenizer. Nuclei and cell debris were pelleted by centrifugation at 3,300 &#x000d7; g for 15 min. The supernatant of this centrifugation was directly used to extract viral DNA or additionally spun down at 13,400 &#x000d7; g for 20 min. The nuclear pellet were washed with 3 volumes of hypotonic buffer containing 0.005&#x00025; digitonin once and then washed with hypotonic buffer twice. DNA was extracted from half of each fraction using the QIAamp DNA Mini Kit (Qiagen, Valencia, California, United States), and the other half was used for Western blotting to assess the integrity of the fractionation procedure using antibodies to a cytoplasmic protein or a nuclear pore antigen.</p><p>To assess the integrity of the fractionation procedure, we examined the contamination of cytoplasmic fraction into nuclear fraction by monitoring the presence of LDH I. Intact cells (10&#x00025; of the infected cells) and nuclei (half of the purified nuclei) were first resuspended with 50 &#x003bc;l and 100 &#x003bc;l of NTE buffer (10 mM Tris-HCl, [pH 8.0]; 1 mM EDTA; 50 mM NaCl; 2 mM DTT; 20 &#x003bc;g of aprotinin per ml), respectively. After incubation on ice for 5 min, equivalent amount of NP40-doc buffer (1&#x00025; NP40; 0.2&#x00025; sodium deoxycholate; 0.12 M NaCl; 20 mM Tris-HCl, [pH 8.0]) were added to the samples and kept on ice for 10 min. The samples were mixed by vortex and spun down at 9,300 &#x000d7; g for 5 min. Twenty &#x003bc;g of protein samples was used in SDS-PAGE and western blotting analysis.</p><p>The most serious problem for our experiments was potential contamination of cytoplasmic viral DNA into purified nuclei. Viral DNA is present in a nucleoprotein complex or a free-DNA form, and those viral DNA may behave differently than cytoplasmic proteins such as LDH I in the process of fractionation. To address this possibility, we used a control to determine if quantity of contamination of viral DNA from the cytoplasmic fraction into the nuclear fraction during the washing steps. To this end, we mixed cytoplasmic extracts of infected cells with nuclei of uninfected cells. In these experiments, we used MLV instead of HIV because of the ease of manipulation. Virus stocks of MLV were prepared by harvesting culture supernatant of ecotropic MLV-producing NIH/3T3 cells. Cytoplasmic extracts of acutely infected cells and nuclei of uninfected NIH/3T3 cells were prepared, mixed on ice, and washed as described above. Nuclear-associated DNA was extracted and subject to real-time PCR to measure the copy number of late reverse transcription products as described above. We found that there was less than 1&#x00025; introduction of cytoplasmic viral DNA into the nuclear fraction during the washing steps (unpublished data).</p></sec><sec id="s4f"><title>Sequencing of junctions between host DNA and integrated viral DNA.</title><p>Junction sequences between host DNA and viral DNA were determined by using an inverse PCR strategy as described before [<xref rid="ppat-0010018-b076" ref-type="bibr">76</xref>]. HeLa cells were infected with VSV-G-pseudotyped MHIV-mIN-&#x00394;Vpr-Puro. Puromycin-resistant cell clones (~130 colonies) were selected for 2&#x02013;3 weeks with the presence of puromycin (0.7 &#x003bc;g per ml) and used to extract genomic DNA. Genomic DNA (2 &#x003bc;g) from infected cells was digested with 20 U of PstI at 37 &#x000b0;C for 12 h. After heat inactivation at 65 &#x000b0;C for 40 min, 200 ng of digested DNA were taken out for ligation reaction. The ligation reaction was carried out at 16 &#x000b0;C for 12 h. Ligase was then heat inactivated at 65 &#x000b0;C for 15 min. The region of the junction between cellular DNA and the 5&#x02032; end of the integrated proviral DNA was amplified by nested inverse PCR. The first PCR primers were U3RRG2, 5&#x02032;-GGCAAGCTTTATTGAGGC-3&#x02032;and Gag716, 5&#x02032;-GGTCAGCCAAAATTACCCTATAGTG-3&#x02032;. The second PCR primers were MH536, 5&#x02032;-TCCACAGATCAAGGATATCTTGTC-3&#x02032;, and Gag934, 5&#x02032;-TGTTAAAAGAGACCATCAATGAGGAAG-3&#x02032;. The PCR was carried out in 50 &#x003bc;l solution, which contains 1 &#x000d7; PCR buffer, dNTPs (0.2 mM), primers (1 &#x003bc;M), 10 units of Taq polymerase (Roche, Basel, Switzerland), and 200 ng of ligated DNA. PCR products were purified and used for cloning by using pGEM-T Vector System (Promega). Positive clones were sequenced by using the T7 primer.</p><p>Junction sequences between 3&#x02032; ends of viral DNA and host DNA were determined for three of the clones by nested PCR with 5&#x02032;sense primers matching with 3&#x02032; LTR of proviral DNA and with 3&#x02032; anti-sense primers matching with host DNA downstream of viral DNA. The information obtained from 5&#x02032; junction sequences between host DNA and viral DNA allowed us to map integration sites of these three clones in the human genome sequence deposited in GenBank. Based on this information, 3&#x02032; primers were designed. Amplified products were cloned into T-vector and sequenced.</p></sec></sec><sec sec-type="supplementary-material" id="s5"><title>Supporting Information</title><supplementary-material content-type="local-data" id="ppat-0010018-sg001"><label>Figure S1</label><caption><title>Single-Cycle Infectivity Assay of MHIV-mIN and HIV-&#x00394;NLS with Reverse Transcriptase Inhibitors</title><p>Infections with viruses that encode the luciferase gene in place of <italic>nef</italic> were performed with the presence (shown in black) or absence (shown in gray) of a reverse transcriptase inhibitor (RTI) (AZT and 3TC: 50 &#x003bc;M each). For details, see the legend to <xref ref-type="fig" rid="ppat-0010018-g005">Figure 5</xref>. In both cases, the luciferase activity is decreased by RTI which indicates that expression of luciferase relies on de novo RT activity. Also, the presence of aphidicolin does not change the dependence on de novo reverse transcriptase activity for luciferase activity. This is a representative experiment done with two different virus stocks with virtually identical results.</p><p>(15 MB TIF)</p></caption><media xlink:href="ppat.0010018.sg001.tif"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack><p>We are grateful to Frederick Bushman, Yegor Voronin, and Tsai-Yu Lin for critical reading of the manuscript. We thank the National Institute of Health AIDS Reagent Program for Antiserum to HIV-1 RT; Frederick Bushman for antiserum to MLV IN; and Michael H. Malim for mouse monoclonal antibody against HIV-1 IN. This work was supported by NIH grants R01 AI 51153 and R37 AI 30927.</p></ack><fn-group><fn id="ack1" fn-type="COI-statement"><p>
+<bold>Competing interests.</bold> The authors have declared that no competing interests exist.</p></fn><fn id="ack2" fn-type="con"><p>
+<bold>Author contributions.</bold> MY and ME conceived and designed the experiments. MY performed the experiments. MY and ME analyzed the data. MY contributed reagents, materials, and analysis tools. MY and ME wrote the paper.</p></fn></fn-group><glossary><title>Abbreviations</title><def-list><def-item><term>CA</term><def><p>capsid protein</p></def></def-item><def-item><term>cPPT</term><def><p>central polypurine tract</p></def></def-item><def-item><term>IN</term><def><p>integrase</p></def></def-item><def-item><term>MA</term><def><p>matrix</p></def></def-item><def-item><term>MLV</term><def><p>murine leukemia virus</p></def></def-item><def-item><term>NLS</term><def><p>nuclear localization signal</p></def></def-item><def-item><term>PIC</term><def><p>preintegration complex</p></def></def-item><def-item><term>RT</term><def><p>reverse transcriptase</p></def></def-item><def-item><term>RTI</term><def><p>reverse transcriptase inhibitor</p></def></def-item><def-item><term>Vpr</term><def><p>Viral Protein R</p></def></def-item><def-item><term>VSV-G</term><def><p>Vesicular stomatitis virus G protein</p></def></def-item></def-list></glossary><ref-list><title>References</title><ref id="ppat-0010018-b001"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Weinberg</surname><given-names>JB</given-names></name><name><surname>Matthews</surname><given-names>TJ</given-names></name><name><surname>Cullen</surname><given-names>BR</given-names></name><name><surname>Malim</surname><given-names>MH</given-names></name></person-group>
+<year>1991</year>
+<article-title>Productive human immunodeficiency virus type 1 (HIV-1) infection of nonproliferating human monocytes</article-title>
+<source>J Exp Med</source>
+<volume>174</volume>
+<fpage>1477</fpage>
+<lpage>1482</lpage>
+<pub-id pub-id-type="pmid">1720811</pub-id></element-citation></ref><ref id="ppat-0010018-b002"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lewis</surname><given-names>P</given-names></name><name><surname>Hensel</surname><given-names>M</given-names></name><name><surname>Emerman</surname><given-names>M</given-names></name></person-group>
+<year>1992</year>
+<article-title>Human immunodeficiency virus infection of cells arrested in the cell cycle</article-title>
+<source>Embo J</source>
+<volume>11</volume>
+<fpage>3053</fpage>
+<lpage>3058</lpage>
+<pub-id pub-id-type="pmid">1322294</pub-id></element-citation></ref><ref id="ppat-0010018-b003"><element-citation publication-type="other">
+<person-group person-group-type="author"><name><surname>Desrosiers</surname><given-names>R</given-names></name></person-group>
+<year>2001</year>
+<article-title>Nonhuman lentiviruses</article-title>
+<comment>In: Knipe D, Howley P, Griffin D, Lamb R, Martin M et al., editors. Fields Virology. 4 ed. Philadephia: Lippincott, Williams, and Wilkins. pp. 2095&#x02013;2121.</comment>
+</element-citation></ref><ref id="ppat-0010018-b004"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Stevenson</surname><given-names>M</given-names></name></person-group>
+<year>2003</year>
+<article-title>HIV-1 pathogenesis</article-title>
+<source>Nat Med</source>
+<volume>9</volume>
+<fpage>853</fpage>
+<lpage>860</lpage>
+<pub-id pub-id-type="pmid">12835705</pub-id></element-citation></ref><ref id="ppat-0010018-b005"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Katz</surname><given-names>RA</given-names></name><name><surname>Greger</surname><given-names>JG</given-names></name><name><surname>Skalka</surname><given-names>AM</given-names></name></person-group>
+<year>2005</year>
+<article-title>Effects of cell cycle status on early events in retroviral replication</article-title>
+<source>J Cell Biochem</source>
+<volume>94</volume>
+<fpage>880</fpage>
+<lpage>889</lpage>
+<pub-id pub-id-type="pmid">15669021</pub-id></element-citation></ref><ref id="ppat-0010018-b006"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Roe</surname><given-names>T</given-names></name><name><surname>Reynolds</surname><given-names>TC</given-names></name><name><surname>Yu</surname><given-names>G</given-names></name><name><surname>Brown</surname><given-names>PO</given-names></name></person-group>
+<year>1993</year>
+<article-title>Integration of murine leukemia virus DNA depends on mitosis</article-title>
+<source>Embo J</source>
+<volume>12</volume>
+<fpage>2099</fpage>
+<lpage>2108</lpage>
+<pub-id pub-id-type="pmid">8491198</pub-id></element-citation></ref><ref id="ppat-0010018-b007"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lewis</surname><given-names>PF</given-names></name><name><surname>Emerman</surname><given-names>M</given-names></name></person-group>
+<year>1994</year>
+<article-title>Passage through mitosis is required for oncoretroviruses but not for the human immunodeficiency virus</article-title>
+<source>J Virol</source>
+<volume>68</volume>
+<fpage>510</fpage>
+<lpage>516</lpage>
+<pub-id pub-id-type="pmid">8254763</pub-id></element-citation></ref><ref id="ppat-0010018-b008"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bieniasz</surname><given-names>PD</given-names></name><name><surname>Weiss</surname><given-names>RA</given-names></name><name><surname>McClure</surname><given-names>MO</given-names></name></person-group>
+<year>1995</year>
+<article-title>Cell cycle dependence of foamy retrovirus infection</article-title>
+<source>J Virol</source>
+<volume>69</volume>
+<fpage>7295</fpage>
+<lpage>7299</lpage>
+<pub-id pub-id-type="pmid">7474157</pub-id></element-citation></ref><ref id="ppat-0010018-b009"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Trobridge</surname><given-names>G</given-names></name><name><surname>Russell</surname><given-names>DW</given-names></name></person-group>
+<year>2004</year>
+<article-title>Cell cycle requirements for transduction by foamy virus vectors compared to those of oncovirus and lentivirus vectors</article-title>
+<source>J Virol</source>
+<volume>78</volume>
+<fpage>2327</fpage>
+<lpage>2335</lpage>
+<pub-id pub-id-type="pmid">14963129</pub-id></element-citation></ref><ref id="ppat-0010018-b010"><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Patton</surname><given-names>GS</given-names></name><name><surname>Erlwein</surname><given-names>O</given-names></name><name><surname>McClure</surname><given-names>MO</given-names></name></person-group>
+<year>2005</year>
+<source>Cell-cycle dependence of foamy virus vectors</source>
+<publisher-loc>J Gen Virol</publisher-loc>
+<publisher-name>2925&#x02013;2930</publisher-name>
+</element-citation></ref><ref id="ppat-0010018-b011"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hatziioannou</surname><given-names>T</given-names></name><name><surname>Goff</surname><given-names>SP</given-names></name></person-group>
+<year>2001</year>
+<article-title>Infection of non-dividing cells by Rous sarcoma virus</article-title>
+<source>J Virol</source>
+<volume>75</volume>
+<fpage>9526</fpage>
+<lpage>9531</lpage>
+<pub-id pub-id-type="pmid">11533215</pub-id></element-citation></ref><ref id="ppat-0010018-b012"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Katz</surname><given-names>RA</given-names></name><name><surname>Greger</surname><given-names>JG</given-names></name><name><surname>Darby</surname><given-names>K</given-names></name><name><surname>Boimel</surname><given-names>P</given-names></name><name><surname>Rall</surname><given-names>GF</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>Transduction of interphase cells by avian sarcoma virus</article-title>
+<source>J Virol</source>
+<volume>76</volume>
+<fpage>5422</fpage>
+<lpage>5434</lpage>
+<pub-id pub-id-type="pmid">11991971</pub-id></element-citation></ref><ref id="ppat-0010018-b013"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Humphries</surname><given-names>EH</given-names></name><name><surname>Temin</surname><given-names>HM</given-names></name></person-group>
+<year>1972</year>
+<article-title>Cell cycle-dependent activation of rous sarcoma virus-infected stationary chicken cells: Avian leukosis virus group-specific antigens and ribonucleic acid</article-title>
+<source>J Virol</source>
+<volume>10</volume>
+<fpage>82</fpage>
+<lpage>87</lpage>
+<pub-id pub-id-type="pmid">4339198</pub-id></element-citation></ref><ref id="ppat-0010018-b014"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Humphries</surname><given-names>EH</given-names></name><name><surname>Temin</surname><given-names>HM</given-names></name></person-group>
+<year>1974</year>
+<article-title>Requirement for cell division for initiation of transcription of Rous sarcoma virus RNA</article-title>
+<source>J Virol</source>
+<volume>14</volume>
+<fpage>531</fpage>
+<lpage>546</lpage>
+<pub-id pub-id-type="pmid">4369144</pub-id></element-citation></ref><ref id="ppat-0010018-b015"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bowerman</surname><given-names>B</given-names></name><name><surname>Brown</surname><given-names>PO</given-names></name><name><surname>Bishop</surname><given-names>JM</given-names></name><name><surname>Varmus</surname><given-names>HE</given-names></name></person-group>
+<year>1989</year>
+<article-title>A nucleoprotein complex mediates the integration of retroviral DNA</article-title>
+<source>Genes Dev</source>
+<volume>3</volume>
+<fpage>469</fpage>
+<lpage>478</lpage>
+<pub-id pub-id-type="pmid">2721960</pub-id></element-citation></ref><ref id="ppat-0010018-b016"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dvorin</surname><given-names>JD</given-names></name><name><surname>Malim</surname><given-names>MH</given-names></name></person-group>
+<year>2003</year>
+<article-title>Intracellular trafficking of HIV-1 cores: Journey to the center of the cell</article-title>
+<source>Curr Top Microbiol Immunol</source>
+<volume>281</volume>
+<fpage>179</fpage>
+<lpage>208</lpage>
+<pub-id pub-id-type="pmid">12932078</pub-id></element-citation></ref><ref id="ppat-0010018-b017"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bukrinsky</surname><given-names>MI</given-names></name><name><surname>Haggerty</surname><given-names>S</given-names></name><name><surname>Dempsey</surname><given-names>MP</given-names></name><name><surname>Sharova</surname><given-names>N</given-names></name><name><surname>Adzhubel</surname><given-names>A</given-names></name><etal/></person-group>
+<year>1993</year>
+<article-title>A nuclear localization signal within HIV-1 matrix protein that governs infection of non-dividing cells</article-title>
+<source>Nature</source>
+<volume>365</volume>
+<fpage>666</fpage>
+<lpage>669</lpage>
+<pub-id pub-id-type="pmid">8105392</pub-id></element-citation></ref><ref id="ppat-0010018-b018"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gallay</surname><given-names>P</given-names></name><name><surname>Hope</surname><given-names>T</given-names></name><name><surname>Chin</surname><given-names>D</given-names></name><name><surname>Trono</surname><given-names>D</given-names></name></person-group>
+<year>1997</year>
+<article-title>HIV-1 infection of non-dividing cells through the recognition of integrase by the importin/karyopherin pathway</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>94</volume>
+<fpage>9825</fpage>
+<lpage>9830</lpage>
+<pub-id pub-id-type="pmid">9275210</pub-id></element-citation></ref><ref id="ppat-0010018-b019"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Heinzinger</surname><given-names>NK</given-names></name><name><surname>Bukinsky</surname><given-names>MI</given-names></name><name><surname>Haggerty</surname><given-names>SA</given-names></name><name><surname>Ragland</surname><given-names>AM</given-names></name><name><surname>Kewalramani</surname><given-names>V</given-names></name><etal/></person-group>
+<year>1994</year>
+<article-title>The Vpr protein of human immunodeficiency virus type 1 influences nuclear localization of viral nucleic acids in non-dividing host cells</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>91</volume>
+<fpage>7311</fpage>
+<lpage>7315</lpage>
+<pub-id pub-id-type="pmid">8041786</pub-id></element-citation></ref><ref id="ppat-0010018-b020"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zennou</surname><given-names>V</given-names></name><name><surname>Petit</surname><given-names>C</given-names></name><name><surname>Guetard</surname><given-names>D</given-names></name><name><surname>Nerhbass</surname><given-names>U</given-names></name><name><surname>Montagnier</surname><given-names>L</given-names></name><etal/></person-group>
+<year>2000</year>
+<article-title>HIV-1 genome nuclear import is mediated by a central DNA flap</article-title>
+<source>Cell</source>
+<volume>101</volume>
+<fpage>173</fpage>
+<lpage>185</lpage>
+<pub-id pub-id-type="pmid">10786833</pub-id></element-citation></ref><ref id="ppat-0010018-b021"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fouchier</surname><given-names>RA</given-names></name><name><surname>Meyer</surname><given-names>BE</given-names></name><name><surname>Simon</surname><given-names>JH</given-names></name><name><surname>Fischer</surname><given-names>U</given-names></name><name><surname>Malim</surname><given-names>MH</given-names></name></person-group>
+<year>1997</year>
+<article-title>HIV-1 infection of non-dividing cells: Evidence that the amino-terminal basic region of the viral matrix protein is important for Gag processing but not for post-entry nuclear import</article-title>
+<source>Embo J</source>
+<volume>16</volume>
+<fpage>4531</fpage>
+<lpage>4539</lpage>
+<pub-id pub-id-type="pmid">9303297</pub-id></element-citation></ref><ref id="ppat-0010018-b022"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Freed</surname><given-names>EO</given-names></name><name><surname>Englund</surname><given-names>G</given-names></name><name><surname>Maldarelli</surname><given-names>F</given-names></name><name><surname>Martin</surname><given-names>MA</given-names></name></person-group>
+<year>1997</year>
+<article-title>Phosphorylation of residue 131 of HIV-1 matrix is not required for macrophage infection</article-title>
+<source>Cell</source>
+<volume>88</volume>
+<fpage>171</fpage>
+<lpage>173</lpage>
+<comment>discussion</comment>
+<fpage>173</fpage>
+<lpage>174</lpage>
+<pub-id pub-id-type="pmid">9008157</pub-id></element-citation></ref><ref id="ppat-0010018-b023"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Reil</surname><given-names>H</given-names></name><name><surname>Bukovsky</surname><given-names>AA</given-names></name><name><surname>Gelderblom</surname><given-names>HR</given-names></name><name><surname>Gottlinger</surname><given-names>HG</given-names></name></person-group>
+<year>1998</year>
+<article-title>Efficient HIV-1 replication can occur in the absence of the viral matrix protein</article-title>
+<source>Embo J</source>
+<volume>17</volume>
+<fpage>2699</fpage>
+<lpage>2708</lpage>
+<pub-id pub-id-type="pmid">9564051</pub-id></element-citation></ref><ref id="ppat-0010018-b024"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Petit</surname><given-names>C</given-names></name><name><surname>Schwartz</surname><given-names>O</given-names></name><name><surname>Mammano</surname><given-names>F</given-names></name></person-group>
+<year>2000</year>
+<article-title>The karyophilic properties of human immunodeficiency virus type 1 integrase are not required for nuclear import of proviral DNA</article-title>
+<source>J Virol</source>
+<volume>74</volume>
+<fpage>7119</fpage>
+<lpage>7126</lpage>
+<pub-id pub-id-type="pmid">10888652</pub-id></element-citation></ref><ref id="ppat-0010018-b025"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Limon</surname><given-names>A</given-names></name><name><surname>Devroe</surname><given-names>E</given-names></name><name><surname>Lu</surname><given-names>R</given-names></name><name><surname>Ghory</surname><given-names>HZ</given-names></name><name><surname>Silver</surname><given-names>PA</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>Nuclear localization of human immunodeficiency virus type 1 preintegration complexes (PICs): V165A and R166A are pleiotropic integrase mutants primarily defective for integration, not PIC nuclear import</article-title>
+<source>J Virol</source>
+<volume>76</volume>
+<fpage>10598</fpage>
+<lpage>10607</lpage>
+<pub-id pub-id-type="pmid">12368302</pub-id></element-citation></ref><ref id="ppat-0010018-b026"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Limon</surname><given-names>A</given-names></name><name><surname>Nakajima</surname><given-names>N</given-names></name><name><surname>Lu</surname><given-names>R</given-names></name><name><surname>Ghory</surname><given-names>HZ</given-names></name><name><surname>Engelman</surname><given-names>A</given-names></name></person-group>
+<year>2002</year>
+<article-title>Wild-type levels of nuclear localization and human immunodeficiency virus type 1 replication in the absence of the central DNA flap</article-title>
+<source>J Virol</source>
+<volume>76</volume>
+<fpage>12078</fpage>
+<lpage>12086</lpage>
+<pub-id pub-id-type="pmid">12414949</pub-id></element-citation></ref><ref id="ppat-0010018-b027"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kootstra</surname><given-names>NA</given-names></name><name><surname>Schuitemaker</surname><given-names>H</given-names></name></person-group>
+<year>1999</year>
+<article-title>Phenotype of HIV-1 lacking a functional nuclear localization signal in matrix protein of gag and Vpr is comparable to wild-type HIV-1 in primary macrophages</article-title>
+<source>Virology</source>
+<volume>253</volume>
+<fpage>170</fpage>
+<lpage>180</lpage>
+<pub-id pub-id-type="pmid">9918876</pub-id></element-citation></ref><ref id="ppat-0010018-b028"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lin</surname><given-names>SS</given-names></name><name><surname>Nymark-McMahon</surname><given-names>MH</given-names></name><name><surname>Yieh</surname><given-names>L</given-names></name><name><surname>Sandmeyer</surname><given-names>SB</given-names></name></person-group>
+<year>2001</year>
+<article-title>Integrase mediates nuclear localization of Ty3</article-title>
+<source>Mol Cell Biol</source>
+<volume>21</volume>
+<fpage>7826</fpage>
+<lpage>7838</lpage>
+<pub-id pub-id-type="pmid">11604517</pub-id></element-citation></ref><ref id="ppat-0010018-b029"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kenna</surname><given-names>MA</given-names></name><name><surname>Brachmann</surname><given-names>CB</given-names></name><name><surname>Devine</surname><given-names>SE</given-names></name><name><surname>Boeke</surname><given-names>JD</given-names></name></person-group>
+<year>1998</year>
+<article-title>Invading the yeast nucleus: A nuclear localization signal at the C terminus of Ty1 integrase is required for transposition in vivo</article-title>
+<source>Mol Cell Biol</source>
+<volume>18</volume>
+<fpage>1115</fpage>
+<lpage>1124</lpage>
+<pub-id pub-id-type="pmid">9448009</pub-id></element-citation></ref><ref id="ppat-0010018-b030"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Moore</surname><given-names>SP</given-names></name><name><surname>Rinckel</surname><given-names>LA</given-names></name><name><surname>Garfinkel</surname><given-names>DJ</given-names></name></person-group>
+<year>1998</year>
+<article-title>A Ty1 integrase nuclear localization signal required for retrotransposition</article-title>
+<source>Mol Cell Biol</source>
+<volume>18</volume>
+<fpage>1105</fpage>
+<lpage>1114</lpage>
+<pub-id pub-id-type="pmid">9448008</pub-id></element-citation></ref><ref id="ppat-0010018-b031"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pluymers</surname><given-names>W</given-names></name><name><surname>Cherepanov</surname><given-names>P</given-names></name><name><surname>Schols</surname><given-names>D</given-names></name><name><surname>De</surname><given-names>CE</given-names></name><name><surname>Debyser</surname><given-names>Z</given-names></name></person-group>
+<year>1999</year>
+<article-title>Nuclear localization of human immunodeficiency virus type 1 integrase expressed as a fusion protein with green fluorescent protein</article-title>
+<source>Virology</source>
+<volume>258</volume>
+<fpage>327</fpage>
+<lpage>332</lpage>
+<pub-id pub-id-type="pmid">10366569</pub-id></element-citation></ref><ref id="ppat-0010018-b032"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Petit</surname><given-names>C</given-names></name><name><surname>Schwartz</surname><given-names>O</given-names></name><name><surname>Mammano</surname><given-names>F</given-names></name></person-group>
+<year>1999</year>
+<article-title>Oligomerization within virions and subcellular localization of human immunodeficiency virus type 1 integrase</article-title>
+<source>J Virol</source>
+<volume>73</volume>
+<fpage>5079</fpage>
+<lpage>5088</lpage>
+<pub-id pub-id-type="pmid">10233971</pub-id></element-citation></ref><ref id="ppat-0010018-b033"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tsurutani</surname><given-names>N</given-names></name><name><surname>Kubo</surname><given-names>M</given-names></name><name><surname>Maeda</surname><given-names>Y</given-names></name><name><surname>Ohashi</surname><given-names>T</given-names></name><name><surname>Yamamoto</surname><given-names>N</given-names></name><etal/></person-group>
+<year>2000</year>
+<article-title>Identification of critical amino acid residues in human immunodeficiency virus type 1 IN required for efficient proviral DNA formation at steps prior to integration in dividing and non-dividing cells</article-title>
+<source>J Virol</source>
+<volume>74</volume>
+<fpage>4795</fpage>
+<lpage>4806</lpage>
+<pub-id pub-id-type="pmid">10775618</pub-id></element-citation></ref><ref id="ppat-0010018-b034"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Depienne</surname><given-names>C</given-names></name><name><surname>Mousnier</surname><given-names>A</given-names></name><name><surname>Leh</surname><given-names>H</given-names></name><name><surname>Le</surname><given-names>RE</given-names></name><name><surname>Dormont</surname><given-names>D</given-names></name><etal/></person-group>
+<year>2001</year>
+<article-title>Characterization of the nuclear import pathway for HIV-1 integrase</article-title>
+<source>J Biol Chem</source>
+<volume>276</volume>
+<fpage>18102</fpage>
+<lpage>18107</lpage>
+<pub-id pub-id-type="pmid">11278458</pub-id></element-citation></ref><ref id="ppat-0010018-b035"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Seamon</surname><given-names>JA</given-names></name><name><surname>Jones</surname><given-names>KS</given-names></name><name><surname>Miller</surname><given-names>C</given-names></name><name><surname>Roth</surname><given-names>MJ</given-names></name></person-group>
+<year>2002</year>
+<article-title>Inserting a nuclear targeting signal into a replication-competent Moloney murine leukemia virus affects viral export and is not sufficient for cell cycle-independent infection</article-title>
+<source>J Virol</source>
+<volume>76</volume>
+<fpage>8475</fpage>
+<lpage>8484</lpage>
+<pub-id pub-id-type="pmid">12134052</pub-id></element-citation></ref><ref id="ppat-0010018-b036"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Llano</surname><given-names>M</given-names></name><name><surname>Vanegas</surname><given-names>M</given-names></name><name><surname>Fregoso</surname><given-names>O</given-names></name><name><surname>Saenz</surname><given-names>D</given-names></name><name><surname>Chung</surname><given-names>S</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>LEDGF/p75 determines cellular trafficking of diverse lentiviral but not murine oncoretroviral integrase proteins and is a component of functional lentiviral preintegration complexes</article-title>
+<source>J Virol</source>
+<volume>78</volume>
+<fpage>9524</fpage>
+<lpage>9537</lpage>
+<pub-id pub-id-type="pmid">15308744</pub-id></element-citation></ref><ref id="ppat-0010018-b037"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Engelman</surname><given-names>A</given-names></name></person-group>
+<year>1999</year>
+<article-title>In vivo analysis of retroviral integrase structure and function</article-title>
+<source>Adv Virus Res</source>
+<volume>52</volume>
+<fpage>411</fpage>
+<lpage>426</lpage>
+<pub-id pub-id-type="pmid">10384245</pub-id></element-citation></ref><ref id="ppat-0010018-b038"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Maertens</surname><given-names>G</given-names></name><name><surname>Cherepanov</surname><given-names>P</given-names></name><name><surname>Debyser</surname><given-names>Z</given-names></name><name><surname>Engelborghs</surname><given-names>Y</given-names></name><name><surname>Engelman</surname><given-names>A</given-names></name></person-group>
+<year>2004</year>
+<article-title>Identification and characterization of a functional nuclear localization signal in the HIV-1 integrase interactor LEDGF/p75</article-title>
+<source>J Biol Chem</source>
+<volume>279</volume>
+<fpage>33421</fpage>
+<lpage>33429</lpage>
+<pub-id pub-id-type="pmid">15163664</pub-id></element-citation></ref><ref id="ppat-0010018-b039"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Maertens</surname><given-names>G</given-names></name><name><surname>Cherepanov</surname><given-names>P</given-names></name><name><surname>Pluymers</surname><given-names>W</given-names></name><name><surname>Busschots</surname><given-names>K</given-names></name><name><surname>De Clercq</surname><given-names>E</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>LEDGF/p75 is essential for nuclear and chromosomal targeting of HIV-1 integrase in human cells</article-title>
+<source>J Biol Chem</source>
+<volume>278</volume>
+<fpage>33528</fpage>
+<lpage>33539</lpage>
+<pub-id pub-id-type="pmid">12796494</pub-id></element-citation></ref><ref id="ppat-0010018-b040"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yamashita</surname><given-names>M</given-names></name><name><surname>Emerman</surname><given-names>M</given-names></name></person-group>
+<year>2004</year>
+<article-title>Capsid is a dominant determinant of retrovirus infectivity in non-dividing cells</article-title>
+<source>J Virol</source>
+<volume>78</volume>
+<fpage>5670</fpage>
+<lpage>5678</lpage>
+<pub-id pub-id-type="pmid">15140964</pub-id></element-citation></ref><ref id="ppat-0010018-b041"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bukrinskaya</surname><given-names>AG</given-names></name><name><surname>Ghorpade</surname><given-names>A</given-names></name><name><surname>Heinzinger</surname><given-names>NK</given-names></name><name><surname>Smithgall</surname><given-names>TE</given-names></name><name><surname>Lewis</surname><given-names>RE</given-names></name><etal/></person-group>
+<year>1996</year>
+<article-title>Phosphorylation-dependent human immunodeficiency virus type 1 infection and nuclear targeting of viral DNA</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>93</volume>
+<fpage>367</fpage>
+<lpage>371</lpage>
+<pub-id pub-id-type="pmid">8552640</pub-id></element-citation></ref><ref id="ppat-0010018-b042"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gallay</surname><given-names>P</given-names></name><name><surname>Swingler</surname><given-names>S</given-names></name><name><surname>Aiken</surname><given-names>C</given-names></name><name><surname>Trono</surname><given-names>D</given-names></name></person-group>
+<year>1995</year>
+<article-title>HIV-1 infection of non-dividing cells: C-terminal tyrosine phosphorylation of the viral matrix protein is a key regulator</article-title>
+<source>Cell</source>
+<volume>80</volume>
+<fpage>379</fpage>
+<lpage>388</lpage>
+<pub-id pub-id-type="pmid">7859280</pub-id></element-citation></ref><ref id="ppat-0010018-b043"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bukrinsky</surname><given-names>MI</given-names></name><name><surname>Sharova</surname><given-names>N</given-names></name><name><surname>McDonald</surname><given-names>TL</given-names></name><name><surname>Pushkarskaya</surname><given-names>T</given-names></name><name><surname>Tarpley</surname><given-names>WG</given-names></name><etal/></person-group>
+<year>1993</year>
+<article-title>Association of integrase, matrix, and reverse transcriptase antigens of human immunodeficiency virus type 1 with viral nucleic acids following acute infection</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>90</volume>
+<fpage>6125</fpage>
+<lpage>6129</lpage>
+<pub-id pub-id-type="pmid">7687060</pub-id></element-citation></ref><ref id="ppat-0010018-b044"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Farnet</surname><given-names>CM</given-names></name><name><surname>Haseltine</surname><given-names>WA</given-names></name></person-group>
+<year>1991</year>
+<article-title>Determination of viral proteins present in the human immunodeficiency virus type 1 preintegration complex</article-title>
+<source>J Virol</source>
+<volume>65</volume>
+<fpage>1910</fpage>
+<lpage>1915</lpage>
+<pub-id pub-id-type="pmid">2002549</pub-id></element-citation></ref><ref id="ppat-0010018-b045"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fassati</surname><given-names>A</given-names></name><name><surname>Goff</surname><given-names>SP</given-names></name></person-group>
+<year>2001</year>
+<article-title>Characterization of intracellular reverse transcription complexes of human immunodeficiency virus type 1</article-title>
+<source>J Virol</source>
+<volume>75</volume>
+<fpage>3626</fpage>
+<lpage>3635</lpage>
+<pub-id pub-id-type="pmid">11264352</pub-id></element-citation></ref><ref id="ppat-0010018-b046"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Karageorgos</surname><given-names>L</given-names></name><name><surname>Li</surname><given-names>P</given-names></name><name><surname>Burrell</surname><given-names>C</given-names></name></person-group>
+<year>1993</year>
+<article-title>Characterization of HIV replication complexes early after cell-to-cell infection</article-title>
+<source>Aids Res Hum Retroviruses</source>
+<volume>9</volume>
+<fpage>817</fpage>
+<lpage>823</lpage>
+<pub-id pub-id-type="pmid">7504934</pub-id></element-citation></ref><ref id="ppat-0010018-b047"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Miller</surname><given-names>MD</given-names></name><name><surname>Farnet</surname><given-names>CM</given-names></name><name><surname>Bushman</surname><given-names>FD</given-names></name></person-group>
+<year>1997</year>
+<article-title>Human immunodeficiency virus type 1 preintegration complexes: Studies of organization and composition</article-title>
+<source>J Virol</source>
+<volume>71</volume>
+<fpage>5382</fpage>
+<lpage>5390</lpage>
+<pub-id pub-id-type="pmid">9188609</pub-id></element-citation></ref><ref id="ppat-0010018-b048"><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Khiytani</surname><given-names>DK</given-names></name><name><surname>Dimmock</surname><given-names>NJ</given-names></name></person-group>
+<year>2002</year>
+<source>Characterization of a human immunodeficiency virus type 1 pre-integration complex in which the majority of the cDNA is resistant to DNase I digestion</source>
+<publisher-loc>J Gen Virol</publisher-loc>
+<publisher-name>2523&#x02013;2532</publisher-name>
+</element-citation></ref><ref id="ppat-0010018-b049"><element-citation publication-type="other">
+<person-group person-group-type="author"><name><surname>Yamashita</surname><given-names>M</given-names></name><name><surname>Emerman</surname><given-names>M</given-names></name></person-group>
+<year>2005</year>
+<article-title>Retroviral infection of non-dividing cells: Old and new perspectives</article-title>
+<source>Virology</source>
+<comment> 344: In press.</comment>
+</element-citation></ref><ref id="ppat-0010018-b050"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kimpton</surname><given-names>J</given-names></name><name><surname>Emerman</surname><given-names>M</given-names></name></person-group>
+<year>1992</year>
+<article-title>Detection of replication-competent and pseudotyped human immunodeficiency virus with a sensitive cell line on the basis of activation of an integrated beta-galactosidase gene</article-title>
+<source>J Virol</source>
+<volume>66</volume>
+<fpage>2232</fpage>
+<lpage>2239</lpage>
+<pub-id pub-id-type="pmid">1548759</pub-id></element-citation></ref><ref id="ppat-0010018-b051"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Masuda</surname><given-names>T</given-names></name><name><surname>Kuroda</surname><given-names>MJ</given-names></name><name><surname>Harada</surname><given-names>S</given-names></name></person-group>
+<year>1998</year>
+<article-title>Specific and independent recognition of U3 and U5 att sites by human immunodeficiency virus type 1 integrase in vivo</article-title>
+<source>J Virol</source>
+<volume>72</volume>
+<fpage>8396</fpage>
+<lpage>8402</lpage>
+<pub-id pub-id-type="pmid">9733892</pub-id></element-citation></ref><ref id="ppat-0010018-b052"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Katzman</surname><given-names>M</given-names></name><name><surname>Katz</surname><given-names>RA</given-names></name></person-group>
+<year>1999</year>
+<article-title>Substrate recognition by retroviral integrases</article-title>
+<source>Adv Virus Res</source>
+<volume>52</volume>
+<fpage>371</fpage>
+<lpage>395</lpage>
+<pub-id pub-id-type="pmid">10384243</pub-id></element-citation></ref><ref id="ppat-0010018-b053"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Brown</surname><given-names>HE</given-names></name><name><surname>Chen</surname><given-names>H</given-names></name><name><surname>Engelman</surname><given-names>A</given-names></name></person-group>
+<year>1999</year>
+<article-title>Structure-based mutagenesis of the human immunodeficiency virus type 1 DNA attachment site: Effects on integration and cDNA synthesis</article-title>
+<source>J Virol</source>
+<volume>73</volume>
+<fpage>9011</fpage>
+<lpage>9020</lpage>
+<pub-id pub-id-type="pmid">10516007</pub-id></element-citation></ref><ref id="ppat-0010018-b054"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wiskerchen</surname><given-names>M</given-names></name><name><surname>Muesing</surname><given-names>MA</given-names></name></person-group>
+<year>1995</year>
+<article-title>Human immunodeficiency virus type 1 integrase: Effects of mutations on viral ability to integrate, direct viral gene expression from unintegrated viral DNA templates, and sustain viral propagation in primary cells</article-title>
+<source>J Virol</source>
+<volume>69</volume>
+<fpage>376</fpage>
+<lpage>386</lpage>
+<pub-id pub-id-type="pmid">7983732</pub-id></element-citation></ref><ref id="ppat-0010018-b055"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ansari-Lari</surname><given-names>MA</given-names></name><name><surname>Donehower</surname><given-names>LA</given-names></name><name><surname>Gibbs</surname><given-names>RA</given-names></name></person-group>
+<year>1995</year>
+<article-title>Analysis of human immunodeficiency virus type 1 integrase mutants</article-title>
+<source>Virology</source>
+<volume>211</volume>
+<fpage>332</fpage>
+<lpage>335</lpage>
+<pub-id pub-id-type="pmid">7544046</pub-id></element-citation></ref><ref id="ppat-0010018-b056"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Engelman</surname><given-names>A</given-names></name><name><surname>Englund</surname><given-names>G</given-names></name><name><surname>Orenstein</surname><given-names>JM</given-names></name><name><surname>Martin</surname><given-names>MA</given-names></name><name><surname>Craigie</surname><given-names>R</given-names></name></person-group>
+<year>1995</year>
+<article-title>Multiple effects of mutations in human immunodeficiency virus type 1 integrase on viral replication</article-title>
+<source>J Virol</source>
+<volume>69</volume>
+<fpage>2729</fpage>
+<lpage>2736</lpage>
+<pub-id pub-id-type="pmid">7535863</pub-id></element-citation></ref><ref id="ppat-0010018-b057"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Saenz</surname><given-names>DT</given-names></name><name><surname>Loewen</surname><given-names>N</given-names></name><name><surname>Peretz</surname><given-names>M</given-names></name><name><surname>Whitwam</surname><given-names>T</given-names></name><name><surname>Barraza</surname><given-names>R</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Unintegrated lentivirus DNA persistence and accessibility to expression in non-dividing cells: Analysis with class I integrase mutants</article-title>
+<source>J Virol</source>
+<volume>78</volume>
+<fpage>2906</fpage>
+<lpage>2920</lpage>
+<pub-id pub-id-type="pmid">14990709</pub-id></element-citation></ref><ref id="ppat-0010018-b058"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nakajima</surname><given-names>N</given-names></name><name><surname>Lu</surname><given-names>R</given-names></name><name><surname>Engelman</surname><given-names>A</given-names></name></person-group>
+<year>2001</year>
+<article-title>Human immunodeficiency virus type 1 replication in the absence of integrase-mediated DNA recombination: Definition of permissive and nonpermissive T-cell lines</article-title>
+<source>J Virol</source>
+<volume>75</volume>
+<fpage>7944</fpage>
+<lpage>7955</lpage>
+<pub-id pub-id-type="pmid">11483739</pub-id></element-citation></ref><ref id="ppat-0010018-b059"><element-citation publication-type="other">
+<person-group person-group-type="author"><name><surname>Brown</surname><given-names>PO</given-names></name></person-group>
+<year>1997</year>
+<article-title>Integration</article-title>
+<comment>In: Coffin JM, Hughes SH, Varmus HE, editors. Retroviruses: Cold Spring Harbor Laboratory Press. pp. 161&#x02013;203.</comment>
+</element-citation></ref><ref id="ppat-0010018-b060"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Katz</surname><given-names>RA</given-names></name><name><surname>Greger</surname><given-names>JG</given-names></name><name><surname>Boimel</surname><given-names>P</given-names></name><name><surname>Skalka</surname><given-names>AM</given-names></name></person-group>
+<year>2003</year>
+<article-title>Human immunodeficiency virus type 1 DNA nuclear import and integration are mitosis-independent in cycling cells</article-title>
+<source>J Virol</source>
+<volume>77</volume>
+<fpage>13412</fpage>
+<lpage>13417</lpage>
+<pub-id pub-id-type="pmid">14645598</pub-id></element-citation></ref><ref id="ppat-0010018-b061"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lu</surname><given-names>R</given-names></name><name><surname>Limon</surname><given-names>A</given-names></name><name><surname>Devroe</surname><given-names>E</given-names></name><name><surname>Silver</surname><given-names>PA</given-names></name><name><surname>Cherepanov</surname><given-names>P</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Class II integrase mutants with changes in putative nuclear localization signals are primarily blocked at a postnuclear entry step of human immunodeficiency virus type 1 replication</article-title>
+<source>J Virol</source>
+<volume>78</volume>
+<fpage>12735</fpage>
+<lpage>12746</lpage>
+<pub-id pub-id-type="pmid">15542626</pub-id></element-citation></ref><ref id="ppat-0010018-b062"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ikeda</surname><given-names>T</given-names></name><name><surname>Nishitsuji</surname><given-names>H</given-names></name><name><surname>Zhou</surname><given-names>X</given-names></name><name><surname>Nara</surname><given-names>N</given-names></name><name><surname>Ohashi</surname><given-names>T</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Evaluation of the functional involvement of human immunodeficiency virus type 1 integrase in nuclear import of viral cDNA during acute infection</article-title>
+<source>J Virol</source>
+<volume>78</volume>
+<fpage>11563</fpage>
+<lpage>11573</lpage>
+<pub-id pub-id-type="pmid">15479797</pub-id></element-citation></ref><ref id="ppat-0010018-b063"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Deminie</surname><given-names>CA</given-names></name><name><surname>Emerman</surname><given-names>M</given-names></name></person-group>
+<year>1994</year>
+<article-title>Functional exchange of an oncoretrovirus and a lentivirus matrix protein</article-title>
+<source>J Virol</source>
+<volume>68</volume>
+<fpage>4442</fpage>
+<lpage>4449</lpage>
+<pub-id pub-id-type="pmid">8207817</pub-id></element-citation></ref><ref id="ppat-0010018-b064"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fassati</surname><given-names>A</given-names></name><name><surname>Goff</surname><given-names>SP</given-names></name></person-group>
+<year>1999</year>
+<article-title>Characterization of intracellular reverse transcription complexes of Moloney murine leukemia virus</article-title>
+<source>J Virol</source>
+<volume>73</volume>
+<fpage>8919</fpage>
+<lpage>8925</lpage>
+<pub-id pub-id-type="pmid">10515996</pub-id></element-citation></ref><ref id="ppat-0010018-b065"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Li</surname><given-names>L</given-names></name><name><surname>Olvera</surname><given-names>JM</given-names></name><name><surname>Yoder</surname><given-names>KE</given-names></name><name><surname>Mitchell</surname><given-names>RS</given-names></name><name><surname>Butler</surname><given-names>SL</given-names></name><etal/></person-group>
+<year>2001</year>
+<article-title>Role of the non-homologous DNA end joining pathway in the early steps of retroviral infection</article-title>
+<source>EMBO J</source>
+<volume>20</volume>
+<fpage>3272</fpage>
+<lpage>3281</lpage>
+<pub-id pub-id-type="pmid">11406603</pub-id></element-citation></ref><ref id="ppat-0010018-b066"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Forshey</surname><given-names>BM</given-names></name><name><surname>von Schwedler</surname><given-names>U</given-names></name><name><surname>Sundquist</surname><given-names>WI</given-names></name><name><surname>Aiken</surname><given-names>C</given-names></name></person-group>
+<year>2002</year>
+<article-title>Formation of a human immunodeficiency virus type 1 core of optimal stability is crucial for viral replication</article-title>
+<source>J Virol</source>
+<volume>76</volume>
+<fpage>5667</fpage>
+<lpage>5677</lpage>
+<pub-id pub-id-type="pmid">11991995</pub-id></element-citation></ref><ref id="ppat-0010018-b067"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Peden</surname><given-names>K</given-names></name><name><surname>Emerman</surname><given-names>M</given-names></name><name><surname>Montagnier</surname><given-names>L</given-names></name></person-group>
+<year>1991</year>
+<article-title>Changes in growth properties on passage in tissue culture of viruses derived from infectious molecular clones of HIV-1LAI, HIV-1MAL, and HIV-1ELI</article-title>
+<source>Virology</source>
+<volume>185</volume>
+<fpage>661</fpage>
+<lpage>672</lpage>
+<pub-id pub-id-type="pmid">1683726</pub-id></element-citation></ref><ref id="ppat-0010018-b068"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Miller</surname><given-names>AD</given-names></name><name><surname>Law</surname><given-names>MF</given-names></name><name><surname>Verma</surname><given-names>IM</given-names></name></person-group>
+<year>1985</year>
+<article-title>Generation of helper-free amphotropic retroviruses that transduce a dominant-acting, methotrexate-resistant dihydrofolate reductase gene</article-title>
+<source>Mol Cell Biol</source>
+<volume>5</volume>
+<fpage>431</fpage>
+<lpage>437</lpage>
+<pub-id pub-id-type="pmid">2985952</pub-id></element-citation></ref><ref id="ppat-0010018-b069"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rogel</surname><given-names>ME</given-names></name><name><surname>Wu</surname><given-names>LI</given-names></name><name><surname>Emerman</surname><given-names>M</given-names></name></person-group>
+<year>1995</year>
+<article-title>The human immunodeficiency virus type 1 vpr gene prevents cell proliferation during chronic infection</article-title>
+<source>J Virol</source>
+<volume>69</volume>
+<fpage>882</fpage>
+<lpage>888</lpage>
+<pub-id pub-id-type="pmid">7815556</pub-id></element-citation></ref><ref id="ppat-0010018-b070"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Davis</surname><given-names>LI</given-names></name><name><surname>Blobel</surname><given-names>G</given-names></name></person-group>
+<year>1986</year>
+<article-title>Identification and characterization of a nuclear pore complex protein</article-title>
+<source>Cell</source>
+<volume>45</volume>
+<fpage>699</fpage>
+<lpage>709</lpage>
+<pub-id pub-id-type="pmid">3518946</pub-id></element-citation></ref><ref id="ppat-0010018-b071"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bartz</surname><given-names>SR</given-names></name><name><surname>Vodicka</surname><given-names>MA</given-names></name></person-group>
+<year>1997</year>
+<article-title>Production of high-titer human immunodeficiency virus type 1 pseudotyped with vesicular stomatitis virus glycoprotein</article-title>
+<source>Methods</source>
+<volume>12</volume>
+<fpage>337</fpage>
+<lpage>342</lpage>
+<pub-id pub-id-type="pmid">9245614</pub-id></element-citation></ref><ref id="ppat-0010018-b072"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Miller</surname><given-names>AD</given-names></name><name><surname>Rosman</surname><given-names>GJ</given-names></name></person-group>
+<year>1989</year>
+<article-title>Improved retroviral vectors for gene transfer and expression</article-title>
+<source>Biotechniques</source>
+<volume>7</volume>
+<fpage>980</fpage>
+<lpage>982</lpage>
+<comment>,</comment>
+<fpage>984</fpage>
+<lpage>986</lpage>
+<comment>,</comment>
+<fpage>989</fpage>
+<lpage>990</lpage>
+<pub-id pub-id-type="pmid">2631796</pub-id></element-citation></ref><ref id="ppat-0010018-b073"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>O&#x02032;Doherty</surname><given-names>U</given-names></name><name><surname>Swiggard</surname><given-names>WJ</given-names></name><name><surname>Malim</surname><given-names>MH</given-names></name></person-group>
+<year>2000</year>
+<article-title>Human immunodeficiency virus type 1 spinoculation enhances infection through virus binding</article-title>
+<source>J Virol</source>
+<volume>74</volume>
+<fpage>10074</fpage>
+<lpage>10080</lpage>
+<pub-id pub-id-type="pmid">11024136</pub-id></element-citation></ref><ref id="ppat-0010018-b074"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Butler</surname><given-names>SL</given-names></name><name><surname>Hansen</surname><given-names>MS</given-names></name><name><surname>Bushman</surname><given-names>FD</given-names></name></person-group>
+<year>2001</year>
+<article-title>A quantitative assay for HIV DNA integration in vivo</article-title>
+<source>Nat Med</source>
+<volume>7</volume>
+<fpage>631</fpage>
+<lpage>634</lpage>
+<pub-id pub-id-type="pmid">11329067</pub-id></element-citation></ref><ref id="ppat-0010018-b075"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yuan</surname><given-names>B</given-names></name><name><surname>Fassati</surname><given-names>A</given-names></name><name><surname>Yueh</surname><given-names>A</given-names></name><name><surname>Goff</surname><given-names>SP</given-names></name></person-group>
+<year>2002</year>
+<article-title>Characterization of Moloney murine leukemia virus p12 mutants blocked during early events of infection</article-title>
+<source>J Virol</source>
+<volume>76</volume>
+<fpage>10801</fpage>
+<lpage>10810</lpage>
+<pub-id pub-id-type="pmid">12368323</pub-id></element-citation></ref><ref id="ppat-0010018-b076"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chun</surname><given-names>TW</given-names></name><name><surname>Finzi</surname><given-names>D</given-names></name><name><surname>Margolick</surname><given-names>J</given-names></name><name><surname>Chadwick</surname><given-names>K</given-names></name><name><surname>Schwartz</surname><given-names>D</given-names></name><etal/></person-group>
+<year>1995</year>
+<article-title>In vivo fate of HIV-1-infected T cells: Quantitative analysis of the transition to stable latency</article-title>
+<source>Nat Med</source>
+<volume>1</volume>
+<fpage>1284</fpage>
+<lpage>1290</lpage>
+<pub-id pub-id-type="pmid">7489410</pub-id></element-citation></ref><ref id="ppat-0010018-b077"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Planelles</surname><given-names>V</given-names></name><name><surname>Bachelerie</surname><given-names>F</given-names></name><name><surname>Jowett</surname><given-names>JB</given-names></name><name><surname>Haislip</surname><given-names>A</given-names></name><name><surname>Xie</surname><given-names>Y</given-names></name><etal/></person-group>
+<year>1995</year>
+<article-title>Fate of the human immunodeficiency virus type 1 provirus in infected cells: A role for vpr</article-title>
+<source>J Virol</source>
+<volume>69</volume>
+<fpage>5883</fpage>
+<lpage>5889</lpage>
+<pub-id pub-id-type="pmid">7637036</pub-id></element-citation></ref></ref-list></back></article>

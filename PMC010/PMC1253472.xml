@@ -1,0 +1,297 @@
+<!-- edited with XMLSPY v2004 rel. 3 U (http://www.xmlspy.com) by CDC (private) -->
+<!DOCTYPE article
+PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.3 20210610//EN" "JATS-archivearticle1-3-mathml3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article"><?properties open_access?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Prev Chronic Dis</journal-id><journal-id journal-id-type="iso-abbrev">Prev Chronic Dis</journal-id><journal-title-group><journal-title>Preventing Chronic Disease</journal-title></journal-title-group><issn pub-type="epub">1545-1151</issn><publisher><publisher-name>Centers for Disease Control and Prevention</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">15670428</article-id><article-id pub-id-type="pmc">PMC1253472</article-id><article-id pub-id-type="publisher-id">PCDv13_03_0029</article-id><article-categories><subj-group subj-group-type="heading"><subject>Original Research</subject></subj-group><series-title>Peer Reviewed</series-title></article-categories><title-group><article-title>Increasing Employee Awareness of the Signs and Symptoms of Heart Attack and the Need to Use 911 in a State Health Department</article-title></title-group><contrib-group><contrib contrib-type="author" corresp="yes"><name><surname>Harwell</surname><given-names>Todd S</given-names></name><degrees>MPH</degrees><aff>Montana Department of Public Health and Human Services</aff><address><addr-line>Cogswell Building, C-317, PO Box 202951, Helena, MT 59620-2951</addr-line><email>tharwell@state.mt.us</email><phone>406-444-1437</phone></address></contrib><contrib contrib-type="author"><name><surname>Fogle</surname><given-names>Crystelle C</given-names></name><degrees>RD, MS, MBA</degrees><aff>Montana Department of Public Health and Human Services, Helena, Mont</aff></contrib><contrib contrib-type="author"><name><surname>Oser</surname><given-names>Carrie S</given-names></name><degrees>MPH</degrees><aff>Montana Department of Public Health and Human Services, Helena, Mont</aff></contrib><contrib contrib-type="author"><name><surname>Blades</surname><given-names>Lynda L</given-names></name><degrees>MPH</degrees><aff>Montana Department of Public Health and Human Services, Helena, Mont</aff></contrib><contrib contrib-type="author"><name><surname>Helgerson</surname><given-names>Steven D</given-names></name><degrees>MD, MPH</degrees><aff>Montana Department of Public Health and Human Services, Helena, Mont</aff></contrib><contrib contrib-type="author"><name><surname>Gohdes</surname><given-names>Dorothy</given-names></name><degrees>MD</degrees><aff>Montana Department of Public Health and Human Services, Helena, Mont</aff></contrib><contrib contrib-type="author"><name><surname>Spence</surname><given-names>Michael R</given-names></name><degrees>MD, MPH</degrees><aff>Montana Department of Public Health and Human Services, Helena, Mont</aff></contrib><contrib contrib-type="author"><name><surname>Dawson</surname><given-names>Drew E</given-names></name><aff>Montana Department of Public Health and Human Services, Helena, Mont</aff></contrib></contrib-group><pub-date pub-type="collection"><month>7</month><year>2004</year></pub-date><pub-date pub-type="epub"><day>15</day><month>6</month><year>2004</year></pub-date><volume>1</volume><issue>3</issue><elocation-id>A07</elocation-id><permissions><copyright-year>2004</copyright-year><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is a publication of the U.S. Government. This publication is in the public domain and is therefore without copyright. All text from this work may be reprinted freely. Use of these materials should be properly cited.</license-p></license></permissions><abstract abstract-type="key-points"><sec sec-type="intro"><title>Introduction</title><p>Early recognition of the signs and symptoms of a heart attack can lead to reduced morbidity and mortality.</p></sec><sec sec-type="methods"><title>Methods</title><p>A workplace intervention was conducted among 523 Montana state health department employees in 2003 to increase awareness of the signs and symptoms of heart attack and the need to use 911. All employees received an <italic>Act in Time to Heart Attack Signs</italic> brochure and wallet card with their paychecks. <italic>Act in Time</italic> posters were placed in key workplace areas. A weekly e-mail message, including a contest entry opportunity addressing the signs and symptoms of heart attack, was sent to all employees. Baseline and follow-up telephone surveys were conducted to evaluate intervention effectiveness.</p></sec><sec sec-type="results"><title>Results</title><p>Awareness of heart attack signs and symptoms and the need to call 911 increased significantly among employees from baseline to follow-up: pain or discomfort in the jaw, neck, or back (awareness increased from 69% to 91%); feeling weak, light-headed, or faint (awareness increased from 79% to 89%); call 911 if someone is having a heart attack or stroke (awareness increased from 84% to 90%). Awareness of chest pain, pain or discomfort in the arms or shoulders, and shortness of breath were more than 90% at baseline and did not increase significantly at follow-up. At baseline, 69% of respondents correctly reported five or more of the signs and symptoms of heart attack; 89% reported correctly at follow-up.</p></sec><sec sec-type="conclusions"><title>Conclusion</title><p>This low-cost workplace intervention increased awareness of the signs and symptoms of heart attack and the need to call 911.</p></sec></abstract></article-meta></front><body><sec sec-type="intro"><title>Introduction</title><p>Heart disease continues to be the leading cause of death in the United States in 2003, with more than 1 million Americans experiencing a new or recurrent acute myocardial infarction (AMI) (<xref rid="B1" ref-type="bibr">1</xref>). Timely coronary reperfusion (e.g., angioplasty, thrombolytic therapy) and arrhythmia control can reduce morbidity and mortality in persons experiencing AMI (<xref rid="B2" ref-type="bibr">2</xref>). Reducing the time from the initial occurrence of symptoms to hospital arrival can increase the likelihood that these therapies are used early in the course of AMI.</p><p>In the United States, the median delay time in patients hospitalized with AMI was 2.1 hours in 1997, and 32% of patients with AMI had delay times of more than four hours (<xref rid="B3" ref-type="bibr">3</xref>). Persons experiencing AMI may delay seeking care because of a number of factors, including inadequate knowledge of signs and symptoms, attribution of symptoms to other non-serious conditions, or other barriers such as fear, concerns about cost, and embarrassment about calling emergency medical services (<xref rid="B4" ref-type="bibr">4</xref>-<xref rid="B11" ref-type="bibr">11</xref>). Additionally, most people in the United States who experience AMI transport themselves to medical care instead of using emergency medical services (<xref rid="B12" ref-type="bibr">12</xref>). However, persons who believe that their symptoms are serious are less likely to delay and more likely to use emergency medical services. In addition, women may experience an array of symptoms that differ from symptoms experienced by men (<xref rid="B13" ref-type="bibr">13</xref>). This difference may delay recognition and acute care for AMI among women.</p><p>Increasing early awareness of the signs and symptoms of AMI and the need to use the 911 emergency telephone system can reduce delays in seeking treatment, thus reducing morbidity and mortality. This is particularly important for rural and frontier communities, where individuals must travel long distances to tertiary care facilities.</p><p>In 2003, the Montana Department of Public Health and Human Services (MT DPHHS) conducted an intervention within the state health department to increase employee awareness of the signs and symptoms of a heart attack and the need to use 911. This report assesses the effectiveness of the intervention.</p></sec><sec sec-type="methods"><title>Methods</title><sec><title>Setting</title><p>The intervention was conducted within the three MT DPHHS workplaces located in Helena, Mont (site one, site two, and site three). There were 523 employees at these three sites; 70% were female; and the mean age was 47.7 years.</p></sec><sec><title>Intervention</title><p>Based on the original content of the Rapid Early Action for Coronary Treatment (REACT) research program developed by the National Institutes of Health (NIH), the <italic>Act in Time</italic> campaign provides information on the warning signs of heart attack and the importance of calling 911 for emergency medical services (<ext-link xlink:href="http://www.nhlbi.nih.gov/actintime/" ext-link-type="uri">http://www.nhlbi.nih.gov/ actintime/</ext-link>) (<xref rid="B14" ref-type="bibr">14</xref>). Our adaptation of <italic>Act in Time</italic> included several components designed specifically for a workplace intervention. First, all employees at the three sites received a one-time distribution of <italic>Act in Time</italic> brochures and wallet cards with their pay stubs (<xref rid="B15" ref-type="bibr">15</xref>). Second, <italic>Act in Time</italic> posters were placed on bulletin boards, in hallways, and in all bathrooms at each work site during the six-week test period (<xref rid="F1" ref-type="fig">Figure 1</xref>). Third, also for six weeks, all employees received weekly e-mail messages and contest questions addressing the signs and symptoms of heart attack. Participants who answered the questions correctly were included in a weekly drawing for prizes (e.g., pedometers). Approximately one third of all employees participated in these weekly e-mail contests (participation ranged from 29% to 36%). The total estimated cost for intervention materials and staff time was $1037 (mean cost per employee = $1.98).</p><boxed-text position="float"><fig position="float" id="F1" fig-type="illustration"><label>Figure 1</label><caption><p>
+<italic>Act in Time</italic> poster developed by the National Institutes of Health to provide information on warning signs of heart attack and importance of calling 911 for emergency medical services.</p></caption><alt-text>The "Act in Time" poster</alt-text><graphic xlink:href="PCD13A07s1" position="float"/></fig></boxed-text></sec><sec><title>Evaluation and data analysis</title><p>To evaluate this intervention, we conducted baseline and follow-up telephone surveys. The baseline survey took place over a two-week period in April 2003, and attempts were made to contact all 523 employees at each of the three sites. Respondents were asked a series of seven standardized questions about the signs and symptoms of heart attack from the Behavioral Risk Factor Surveillance System survey (<xref rid="T1" ref-type="table">Table 1</xref>) (<xref rid="B16" ref-type="bibr">16</xref>). The follow-up telephone survey was administered in July 2003 to the 401 employees responding to the initial baseline survey. The participants again were asked questions about the signs and symptoms of heart attack and the need to use 911. Respondents were also asked the following questions to assess their awareness of intervention activities:</p><list list-type="bullet"><list-item><p>"In the past two months, have you seen posters in your workplace with information on heart attack signs and symptoms?" Those who responded yes were asked, "Where did you see these posters? Was it in the: hallways, stairwells, elevators, bathrooms?"</p></list-item><list-item><p>"Did you participate in any of the weekly e-mail quiz contests on heart attack signs and symptoms?"</p></list-item><list-item><p>"In the past two months, did you receive a brochure and wallet card on heart attack signs and symptoms with your paycheck?"</p></list-item></list><p>Data analyses were completed using SPSS version 10.0 statistical analysis software (Chicago, Ill). Independent t-tests and Pearson chi-square tests were used to compare the characteristics of respondents to the baseline and follow-up surveys. Pearson chi-square tests were used to assess differences in the proportion of respondents correctly identifying each individual sign and symptom of heart attack and the proportion identifying five or more signs and symptoms of heart attack at baseline compared to follow-up. Pearson chi-square tests were also used to assess the differences in the proportion of respondents correctly answering the question regarding the need to use 911 at baseline compared to follow-up.</p></sec></sec><sec sec-type="results"><title>Results</title><p>Of the 523 employees, 401 (77%) completed the baseline survey. Of these 401 respondents, 337 (84%) completed the follow-up survey. There were no statistically significant differences in age between baseline and follow-up: baseline respondent mean age was 46.4 years (SD 9.3); follow-up respondent mean age was 46.6 years (SD 8.9). Nor were there statistically significantly differences in sex between baseline and follow-up: 71% of baseline respondents were women, and 72% of follow-up respondents were women (data not shown). Similarly, there were no differences in the proportion of respondents from each of the three work sites at baseline or follow-up (site one, 58% responded at baseline, 57% at follow-up; site two, 38% at baseline, 40% at follow-up; site three, 4% at baseline, 4% at follow-up).</p><p>Awareness of selected signs and symptoms increased significantly among employees from baseline to follow-up: pain or discomfort in the jaw, neck, or back (awareness increased from 69% to 91%); and feeling weak, light-headed, or faint (awareness increased from 79% to 89%) (<xref rid="T2" ref-type="table">Table 2</xref>). Awareness of chest pain, pain or discomfort in the arms or shoulders, and shortness of breath was greater than 90% at baseline and did not increase significantly at follow-up. The proportion of respondents who correctly reported that "sudden trouble seeing in one or both eyes" was not a sign or symptom of heart attack did not change significantly from baseline to follow-up. At baseline, 69% of respondents reported five or more of the signs and symptoms of heart attack correctly, and this increased to 89% at follow-up. Additionally, awareness of the need to use 911 emergency telephone services increased significantly from 84% to 90% between baseline and follow-up.</p><p>At baseline, women were more likely than men to report that pain or discomfort in the jaw, neck, or back was symptomatic for AMI (72% of women, 61% of men, <italic>P</italic> = .02). This difference in response between men and women persisted at follow-up (94% of women, 84% of men, <italic>P</italic> = .006). There were no significant differences in awareness of other AMI signs and symptoms or the need to use 911 emergency telephone services by sex at baseline or follow-up (data not shown). Employees 45 years and older were more likely to recognize pain or discomfort in the jaw, neck, or back compared with younger employees at baseline (74% of older employees, 61% of younger employees, <italic>P</italic> = .008). Younger employees were more likely to report feeling weak, light-headed, or faint as an AMI symptom compared with older employees at baseline (87% of younger employees, 75% of older employees, <italic>P</italic> = .003). There were no other statistically significant differences for AMI signs and symptom awareness or the need to use 911 between younger and older employees at baseline (data not shown). At follow-up, younger employees had a higher level of awareness of the need to use 911 services compared with older employees (96% of younger employees, 87% of older employees, <italic>P</italic> = .006). There were no other statistically significant differences in the awareness of AMI signs and symptoms between younger and older employees at follow-up (data not shown).</p><p>The intervention was equally effective in increasing overall awareness of signs and symptoms of heart attack among men (14 percentage point increase, <italic>P</italic> = .02) and women (23 percentage point increase, <italic>P</italic> &#x0003c; .001) as well as younger (22 percentage point increase, <italic>P</italic> &#x0003c; .001) and older (20 percentage point increase, <italic>P</italic> &#x0003c;.001) employees from baseline to follow-up (<xref rid="F2" ref-type="fig">Figure 2</xref>). Awareness of the need to use 911 emergency telephone services increased significantly in women (9 percentage point increase, <italic>P</italic> = .005) and younger employees (11 percentage point increase, <italic>P</italic> = .004), but did not change significantly in men (1 percentage point decrease, <italic>P</italic> = .97) or older employees (3 percentage point increase, <italic>P</italic> = .34) from baseline to follow-up (<xref rid="F3" ref-type="fig">Figure 3</xref>).</p><fig position="float" id="F2" fig-type="diagram"><label>Figure 2</label><caption><p>Awareness among Montana state health department employees of five or more heart attack signs and symptoms at baseline and follow-up, by sex and by age, 2003.</p></caption><alt-text>Bar chart showing awareness of 5 or more heart attack signs and symptoms among Montana state health department employees at baseline and follow-up, by sex and by age, 2003</alt-text><graphic xlink:href="PCD13A07s2" position="float"/></fig><fig position="float" id="F3" fig-type="diagram"><label>Figure 3</label><caption><p>Awareness among Montana state health department employees of need to use 911 emergency telephone services if someone is having a heart attack or stroke at baseline and follow-up, by sex and by age, 2003.</p></caption><alt-text>Bar chart showing awareness of need to use 911 emergency telephone services if someone is having a heart attack or stroke among Montana state health department employees at baseline and follow-up, by sex and by age, 2003</alt-text><graphic xlink:href="PCD13A07s3" position="float"/></fig><p>Results of survey questions designed to assess participant awareness of intervention activities are presented in <xref rid="T3" ref-type="table">Table 3</xref>.</p></sec><sec sec-type="discussion"><title>Discussion</title><p>This low-cost workplace intervention was effective in increasing employee awareness of the signs and symptoms of a heart attack and the need to use 911 emergency telephone services. The intervention was equally effective in increasing awareness in both older and younger employees and had a slightly greater impact on women than men. Interestingly, the effect on increasing awareness of the need to use 911 services was found only in women and younger employees and not in men or older employees.</p><p>We were unable to identify other similar workplace intervention studies for comparison. At baseline, state health department employees were slightly more aware of signs and symptoms of heart attack and the need to use 911 compared to Montana adults overall. In a 2001 survey of Montana adults, only 60% were aware that pain or discomfort in the jaw, neck, or back were signs and symptoms of a heart attack, and 74% were aware that feeling weak, light-headed, or faint were signs and symptoms of a heart attack (<xref rid="B17" ref-type="bibr">17</xref>). More than 90% of adult Montanans in 2001 were aware of the signs and symptoms of chest pain, pain or discomfort in the arms or shoulders, and shortness of breath, and 82% knew to call 911 if someone is having a heart attack or stroke.</p><p>Large community intervention studies using mass media campaigns have had mixed effects on heart attack signs and symptoms awareness, use of emergency medical services, and reduction in patient delay in receiving services for persons experiencing AMI (<xref rid="B14" ref-type="bibr">14</xref>,<xref rid="B18" ref-type="bibr">18</xref>-<xref rid="B24" ref-type="bibr">24</xref>). A recent review of the literature provides a number of strategies for improving future community-based efforts to reduce patient delay times. These strategies include targeting high-risk groups; addressing emotional (e.g., denial) and social (e.g., inclusion of family members in education programs) issues; emphasizing cognitive aspects such as the physiologic consequences of delay; educating individuals on how to evaluate their symptoms; and developing messages specific to men and women (<xref rid="B25" ref-type="bibr">25</xref>). Integrating workplace awareness campaigns within larger community-based efforts may be an effective approach for reaching family and friends of persons at high risk for AMI. State health departments are attractive workplaces to pilot such interventions.</p><p>This study, however, has a number of limitations. First, all MT DPHHS employees in the three sites were exposed to the intervention, and a comparison group not receiving the intervention was not used. Other factors may have increased employee awareness outside of the intervention, although we believe that this is unlikely. Second, we used telephone surveys of employees to evaluate this intervention, and respondents were asked "aided" questions to indicate which of the possible symptoms described by the interviewer were symptoms of a heart attack. Previous studies using unaided, open-ended questions have found lower levels of heart attack awareness (<xref rid="B26" ref-type="bibr">26</xref>). Aided questions may overestimate awareness of signs and symptoms, and unaided questions may underestimate awareness. Third, the baseline telephone survey itself may have increased respondent awareness of the signs and symptoms. Fourth, the follow-up telephone survey took place during the summer months (July and August) and resulted in a smaller sample size (n = 337). The lack of response was due mostly to contact with answering machines, no answers, or no eligible respondent at telephone number (15%). Finally, we were not able to quantify the relative contributions of each of the intervention activities to increases in awareness.</p><p>Our findings show that this low-cost intervention can be easily replicated in other workplaces. The State of Montana will promote this type of intervention at work sites through the newly convened Governor's Council on Worklife Wellness. Increased awareness of the signs and symptoms of heart attack and the need to use 911 are important for individuals at high risk of AMI as well as family members and friends who are often the first people to have contact with persons potentially experiencing AMI.</p></sec></body><back><ack><p>This project was supported through a cooperative agreement (U50/CCU821287-02) with the Centers for Disease Control and Prevention (CDC) Cardiovascular Health Branch. Its contents are solely the responsibility of the authors and do not necessarily represent the official views of the CDC. We would like to thank and acknowledge Linda Priest and the staff members of Northwest Resource Consultants for their expertise and work on the telephone surveys. We also thank Jason Swant and Linda Schofield from the Montana Cardiovascular Health Program for their assistance with this project.</p></ack><fn-group><fn><p>The opinions expressed by authors contributing to this journal do not necessarily reflect the opinions of the U.S. Department of Health and Human Services, the Public Health Service, Centers for Disease Control and Prevention, or the authors' affiliated institutions. Use of trade names is for identification only and does not imply endorsement by any of the groups named above.</p></fn><fn><p>
+<italic>Suggested citation for this article</italic>: Fogle CC, Oser CS, Blades LL, Harwell TS, Helgerson SD, Gohdes D, et al. Increasing employee awareness of the signs and symptoms of heart attack and the need to use 911 in a state health department. Prev Chronic Dis [serial online] 2004 Jul [date cited]. Available from: URL: <ext-link xlink:href="http://www.cdc.gov/pcd/issues/2004/jul/03_0029.htm" ext-link-type="uri">http://www.cdc.gov/pcd/issues/2004/jul/03_0029.htm</ext-link>.</p></fn></fn-group><ref-list><ref id="B1"><label>1</label><element-citation publication-type="book">
+<source>American Heart Association (U.S.). Heart disease and stroke statistics &#x02014; 2003 update</source>
+<publisher-name>American Heart Association</publisher-name>
+<publisher-loc>Dallas (TX)</publisher-loc>
+<year>2002</year>
+<comment>Available from: URL:<ext-link xlink:href="http://www.americanheart.org/downloadable/heart/10590179711482003HDSStatsBookREV7-03.pdf" ext-link-type="uri">http://www.americanheart.org/downloadable/ heart/10590179711482003HDSStatsBookREV7-03.pdf</ext-link>
+</comment>
+</element-citation></ref><ref id="B2"><label>2</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Ryan</surname><given-names>TJ</given-names></name><name><surname>Antman</surname><given-names>EM</given-names></name><name><surname>Brooks</surname><given-names>NH</given-names></name><name><surname>Califf</surname><given-names>RM</given-names></name><name><surname>Hillis</surname><given-names>LD</given-names></name><name><surname>Hiratzka</surname><given-names>LF</given-names></name><etal/></person-group>
+<source>ACC/AHA guidelines for the management of patients with acute myocardial infarction: 1999 update: a report of the American College of Cardiology/American Heart Association Task Force on Practice Guidelines, Committee on Management of Acute Myocardial Infarction</source>
+<publisher-name>American College of Cardiology</publisher-name>
+<year>2002</year>
+<date-in-citation content-type="access-date">cited October 13, 2003</date-in-citation>
+<comment>Available from: URL:<ext-link xlink:href="http://www.acc.org/clinical/guidelines/nov96/1999/" ext-link-type="uri">http://www.acc.org/clinical/guidelines/nov96/1999/</ext-link>
+</comment>
+</element-citation></ref><ref id="B3"><label>3</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Goldberg</surname><given-names>RJ</given-names></name><name><surname>Gurwitz</surname><given-names>JH</given-names></name><name><surname>Gore</surname><given-names>JM</given-names></name></person-group>
+<article-title>Duration of, and temporal trends (1994-1997) in, prehospital delay in patients with acute myocardial infarction: the second National Registry of Myocardial Infarction.</article-title>
+<source>Arch Intern Med</source>
+<year>1999</year>
+<month>Oct</month>
+<volume>159</volume>
+<issue>18</issue>
+<fpage>2141</fpage>
+<lpage>2147</lpage>
+<pub-id pub-id-type="pmid">10527291</pub-id></element-citation></ref><ref id="B4"><label>4</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hackett</surname><given-names>TP</given-names></name><name><surname>Cassem</surname><given-names>NH</given-names></name></person-group>
+<article-title>Factors contributing to delay in responding to the signs and symptoms of acute myocardial infarction.</article-title>
+<source>Am J Cardiol</source>
+<year>1969</year>
+<month>Nov</month>
+<volume>24</volume>
+<issue>5</issue>
+<fpage>651</fpage>
+<lpage>658</lpage>
+<pub-id pub-id-type="pmid">5347938</pub-id></element-citation></ref><ref id="B5"><label>5</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sjogren</surname><given-names>A</given-names></name><name><surname>Erhardt</surname><given-names>LR</given-names></name><name><surname>Theorell</surname><given-names>T</given-names></name></person-group>
+<article-title>Circumstances around the onset of a myocardial infarction. A study of factors relevant to the perception of symptoms and to the delay in arriving at a coronary care unit</article-title>
+<source>Acta Med Scand</source>
+<year>1979</year>
+<volume>205</volume>
+<issue>4</issue>
+<fpage>287</fpage>
+<lpage>292</lpage>
+<pub-id pub-id-type="pmid">433667</pub-id></element-citation></ref><ref id="B6"><label>6</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bleeker</surname><given-names>JK</given-names></name><name><surname>Lamers</surname><given-names>LM</given-names></name><name><surname>Leenders</surname><given-names>IM</given-names></name><name><surname>Kruyssen</surname><given-names>DC</given-names></name><name><surname>Simoons</surname><given-names>ML</given-names></name><name><surname>Trijsburg</surname><given-names>RW</given-names></name><etal/></person-group>
+<article-title>Psychological and knowledge factors related to delay of help-seeking by patients with acute myocardial infarction</article-title>
+<source>Psychother Psychosom</source>
+<year>1995</year>
+<volume>63</volume>
+<issue>3-4</issue>
+<fpage>151</fpage>
+<lpage>158</lpage>
+<pub-id pub-id-type="pmid">7624459</pub-id></element-citation></ref><ref id="B7"><label>7</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Meischke</surname><given-names>H</given-names></name><name><surname>Ho</surname><given-names>MT</given-names></name><name><surname>Eisenberg</surname><given-names>MS</given-names></name><name><surname>Schaeffer</surname><given-names>SM</given-names></name><name><surname>Larsen</surname><given-names>MP</given-names></name></person-group>
+<article-title>Reasons patients with chest pain delay or do not call 911</article-title>
+<source>Ann Emerg Med</source>
+<year>1995</year>
+<month>Feb</month>
+<volume>25</volume>
+<issue>2</issue>
+<fpage>193</fpage>
+<lpage>197</lpage>
+<pub-id pub-id-type="pmid">7832346</pub-id></element-citation></ref><ref id="B8"><label>8</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Meischke</surname><given-names>H</given-names></name><name><surname>Eisenberg</surname><given-names>MS</given-names></name><name><surname>Schaeffer</surname><given-names>SM</given-names></name><name><surname>Damon</surname><given-names>SK</given-names></name><name><surname>Larsen</surname><given-names>MP</given-names></name><name><surname>Henwood</surname><given-names>DK</given-names></name></person-group>
+<article-title>Utilization of emergency medical services for symptoms of acute myocardial infarction</article-title>
+<source>Heart Lung</source>
+<year>1995</year>
+<month>Jan-Feb</month>
+<volume>24</volume>
+<issue>1</issue>
+<fpage>11</fpage>
+<lpage>18</lpage>
+<pub-id pub-id-type="pmid">7706094</pub-id></element-citation></ref><ref id="B9"><label>9</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Johnson</surname><given-names>JA</given-names></name><name><surname>King</surname><given-names>KB</given-names></name></person-group>
+<article-title>Influence of expectations about symptoms on delay in seeking treatment during myocardial infarction</article-title>
+<source>Am J Crit Care</source>
+<year>1995</year>
+<month>Jan</month>
+<volume>4</volume>
+<issue>1</issue>
+<fpage>29</fpage>
+<lpage>35</lpage>
+<pub-id pub-id-type="pmid">7894552</pub-id></element-citation></ref><ref id="B10"><label>10</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>McKinley</surname><given-names>S</given-names></name><name><surname>Moser</surname><given-names>DK</given-names></name><name><surname>Dracup</surname><given-names>K</given-names></name></person-group>
+<article-title>Treatment-seeking behavior for acute myocardial infarction symptoms in North America and Australia</article-title>
+<source>Heart Lung</source>
+<year>2000</year>
+<month>Jul-Aug</month>
+<volume>29</volume>
+<issue>&#x0003e;4</issue>
+<fpage>237</fpage>
+<lpage>247</lpage>
+<pub-id pub-id-type="pmid">10900060</pub-id></element-citation></ref><ref id="B11"><label>11</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Moser</surname><given-names>DK</given-names></name><name><surname>Dracup</surname><given-names>K</given-names></name></person-group>
+<article-title>Beyond sociodemographics: factors influencing the decision to seek treatment for symptoms of acute myocardial infarction</article-title>
+<source>Heart Lung</source>
+<year>1997</year>
+<month>Jul-Aug</month>
+<volume>26</volume>
+<issue>&#x0003e;4</issue>
+<fpage>253</fpage>
+<lpage>262</lpage>
+<pub-id pub-id-type="pmid">9257135</pub-id></element-citation></ref><ref id="B12"><label>12</label><element-citation publication-type="book">
+<person-group person-group-type="editor"><name><surname>Cummins</surname><given-names>R</given-names></name></person-group>
+<source>Advanced cardiac life support</source>
+<year>1997</year>
+<publisher-name>American Heart Association</publisher-name>
+<publisher-loc>Dallas (TX)</publisher-loc>
+</element-citation></ref><ref id="B13"><label>13</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>McSweeney</surname><given-names>JC</given-names></name><name><surname>Cody</surname><given-names>M</given-names></name><name><surname>O'Sullivan</surname><given-names>P</given-names></name><name><surname>Elberson</surname><given-names>K</given-names></name><name><surname>Moser</surname><given-names>DK</given-names></name><name><surname>Garvin</surname><given-names>BJ</given-names></name></person-group>
+<article-title>Women's early warning symptoms of acute myocardial infarction</article-title>
+<source>Circulation</source>
+<year>2003</year>
+<month>Nov</month>
+<day>25</day>
+<volume>108</volume>
+<issue>21</issue>
+<fpage>2619</fpage>
+<lpage>2623</lpage>
+<pub-id pub-id-type="pmid">14597589</pub-id></element-citation></ref><ref id="B14"><label>14</label><element-citation publication-type="book">
+<source>Act in time to heart attack signs</source>
+<publisher-name>National Institutes of Health, National Heart, Lung, and Blood Instituten</publisher-name>
+<date-in-citation content-type="access-date">cited 2003 Sep 2</date-in-citation>
+<comment>Available from: URL:<ext-link xlink:href="http://www.nhlbi.nih.gov/actintime/index.htm" ext-link-type="uri">http://www.nhlbi.nih.gov/actintime/index.htm</ext-link>
+</comment>
+</element-citation></ref><ref id="B15"><label>15</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Luepker</surname><given-names>RV</given-names></name><name><surname>Raczynski</surname><given-names>JM</given-names></name><name><surname>Osganian</surname><given-names>S</given-names></name><name><surname>Goldberg</surname><given-names>RJ</given-names></name><name><surname>Finnegan</surname><given-names>JR</given-names><suffix>Jr</suffix></name><name><surname>Hedges</surname><given-names>JR</given-names></name><etal/></person-group>
+<article-title>Effect of a community intervention on patient delay and emergency medical service use in acute coronary heart disease: the Rapid Early Action for Coronary Treatment (REACT) trial</article-title>
+<source>JAMA</source>
+<year>2000</year>
+<month>Jul</month>
+<day>5</day>
+<volume>284</volume>
+<issue>1</issue>
+<fpage>60</fpage>
+<lpage>67</lpage>
+<pub-id pub-id-type="pmid">10872014</pub-id></element-citation></ref><ref id="B16"><label>16</label><element-citation publication-type="book">
+<source>Centers for Disease Control and Prevention. Behavioral Risk Factor Surveillance System Survey Questionnaire</source>
+<publisher-loc>Atlanta (GA)</publisher-loc>
+<publisher-name>U.S. Department of Health and Human Services, Centers for Disease Control and Prevention</publisher-name>
+<year>2001</year>
+<comment>Available from: URL:<ext-link xlink:href="http://www.cdc.gov/brfss/questionnaires/index.htm" ext-link-type="uri">http://www.cdc.gov/brfss/questionnaires/index.htm</ext-link>
+</comment>
+</element-citation></ref><ref id="B17"><label>17</label><element-citation publication-type="book">
+<source>Montana Department of Public Health and Human Services. The burden of cardiovascular disease in the state of Montana 2003</source>
+<year>2003</year>
+<publisher-name>MDPHHS</publisher-name>
+<publisher-loc>Helena (MT)</publisher-loc>
+</element-citation></ref><ref id="B18"><label>18</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mitic</surname><given-names>WR</given-names></name><name><surname>Perkins</surname><given-names>J</given-names></name></person-group>
+<article-title>The effect of a media campaign on heart attack delay and decision times</article-title>
+<source>Can J Public Health</source>
+<year>1984</year>
+<month>Nov-Dec</month>
+<volume>75</volume>
+<issue>6</issue>
+<fpage>414</fpage>
+<lpage>418</lpage>
+<pub-id pub-id-type="pmid">6525584</pub-id></element-citation></ref><ref id="B19"><label>19</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ho</surname><given-names>MT</given-names></name><name><surname>Eisenberg</surname><given-names>MS</given-names></name><name><surname>Litwin</surname><given-names>PE</given-names></name><name><surname>Schaeffer</surname><given-names>SM</given-names></name><name><surname>Damon</surname><given-names>SK</given-names></name></person-group>
+<article-title>Delay between onset of chest pain and seeking medical care: the effect of public education</article-title>
+<source>Ann Emerg Med</source>
+<year>1989</year>
+<month>Jul</month>
+<volume>18</volume>
+<issue>7</issue>
+<fpage>727</fpage>
+<lpage>731</lpage>
+<pub-id pub-id-type="pmid">2735589</pub-id></element-citation></ref><ref id="B20"><label>20</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Moses</surname><given-names>HW</given-names></name><name><surname>Engelking</surname><given-names>N</given-names></name><name><surname>Taylor</surname><given-names>GJ</given-names></name><name><surname>Prabhakar</surname><given-names>C</given-names></name><name><surname>Vallala</surname><given-names>M</given-names></name><name><surname>Colliver</surname><given-names>JA</given-names></name><etal/></person-group>
+<article-title>Effect of a two-year public education campaign on reducing response time of patients with symptoms of acute myocardial infarction</article-title>
+<source>Am J Cardiol</source>
+<year>1991</year>
+<volume>68</volume>
+<issue>2</issue>
+<fpage>249</fpage>
+<lpage>251</lpage>
+<pub-id pub-id-type="pmid">2063789</pub-id></element-citation></ref><ref id="B21"><label>21</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Herlitz</surname><given-names>J</given-names></name><name><surname>Hartford</surname><given-names>M</given-names></name><name><surname>Blohm</surname><given-names>M</given-names></name><name><surname>Karlson</surname><given-names>BW</given-names></name><name><surname>Ekstrom</surname><given-names>L</given-names></name><name><surname>Risenfors</surname><given-names>M</given-names></name><etal/></person-group>
+<article-title>Effect of a media campaign on delay times and ambulance use in suspected acute myocardial infarction</article-title>
+<source>Am J Cardiol</source>
+<year>1989</year>
+<month>Jul</month>
+<day>1</day>
+<volume>64</volume>
+<issue>1</issue>
+<fpage>90</fpage>
+<lpage>93</lpage>
+<pub-id pub-id-type="pmid">2741818</pub-id></element-citation></ref><ref id="B22"><label>22</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bett</surname><given-names>N</given-names></name><name><surname>Aroney</surname><given-names>G</given-names></name><name><surname>Thompson</surname><given-names>P</given-names></name></person-group>
+<article-title>Impact of a national educational campaign to reduce patient delay in possible heart attack</article-title>
+<source>Aust N Z J Med</source>
+<year>1993</year>
+<month>Apr</month>
+<volume>23</volume>
+<issue>2</issue>
+<fpage>157</fpage>
+<lpage>161</lpage>
+<pub-id pub-id-type="pmid">8517840</pub-id></element-citation></ref><ref id="B23"><label>23</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gaspoz</surname><given-names>JM</given-names></name><name><surname>Unger</surname><given-names>PF</given-names></name><name><surname>Urban</surname><given-names>P</given-names></name><name><surname>Chevrolet</surname><given-names>JC</given-names></name><name><surname>Rutishauser</surname><given-names>W</given-names></name><name><surname>Lovis</surname><given-names>C</given-names></name><etal/></person-group>
+<article-title>Impact of a public campaign on pre-hospital delay in patients reporting chest pain</article-title>
+<source>Heart</source>
+<year>1996</year>
+<month>May</month>
+<volume>76</volume>
+<issue>2</issue>
+<fpage>150</fpage>
+<lpage>155</lpage>
+<pub-id pub-id-type="pmid">8795479</pub-id></element-citation></ref><ref id="B24"><label>24</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Meischke</surname><given-names>H</given-names></name><name><surname>Dulberg</surname><given-names>EM</given-names></name><name><surname>Schaeffer</surname><given-names>SS</given-names></name><name><surname>Henwood</surname><given-names>DK</given-names></name><name><surname>Larsen</surname><given-names>CL</given-names></name><name><surname>Eisenberg</surname><given-names>MS</given-names></name></person-group>
+<article-title>'Call fast, Call 911': a direct mail campaign to reduce patient delay in acute myocardial infarction</article-title>
+<source>Am J Public Health</source>
+<year>1997</year>
+<month>Oct</month>
+<volume>87</volume>
+<issue>10</issue>
+<fpage>1705</fpage>
+<lpage>1709</lpage>
+<pub-id pub-id-type="pmid">9357360</pub-id></element-citation></ref><ref id="B25"><label>25</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Caldwell</surname><given-names>MA</given-names></name><name><surname>Miaskowski</surname><given-names>C</given-names></name></person-group>
+<article-title>Mass media interventions to reduce help-seeking delay in people with symptoms of acute myocardial infarction: time for a new approach?</article-title>
+<source>Patient Educ Couns</source>
+<year>2002</year>
+<month>Jan</month>
+<volume>46</volume>
+<issue>1</issue>
+<fpage>1</fpage>
+<lpage>9</lpage>
+<pub-id pub-id-type="pmid">11804764</pub-id></element-citation></ref><ref id="B26"><label>26</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Goff</surname><given-names>DC</given-names><suffix>Jr</suffix></name><name><surname>Sellers</surname><given-names>DE</given-names></name><name><surname>McGovern</surname><given-names>PG</given-names></name><name><surname>Meischke</surname><given-names>H</given-names></name><name><surname>Goldberg</surname><given-names>RJ</given-names></name><name><surname>Bittner</surname><given-names>V</given-names></name><etal/></person-group>
+<article-title>Knowledge of heart attack symptoms in a population survey in the United States: The REACT Trial. Rapid Early Action for Coronary Treatment</article-title>
+<source>Arch Intern Med</source>
+<year>1998</year>
+<month>Nov</month>
+<day>23</day>
+<volume>158</volume>
+<issue>21</issue>
+<fpage>2329</fpage>
+<lpage>2338</lpage>
+<pub-id pub-id-type="pmid">9827784</pub-id></element-citation></ref></ref-list><sec><table-wrap position="float" id="T1"><label>Table 1</label><caption><p>Behavioral Risk Factor Surveillance System (BRFSS) Survey Questions on Signs and Symptoms of Heart Attack and Need to Use 911 Emergency Medical Telephone Services, Montana, 2003</p></caption><table frame="hsides" rules="groups" border="0" cellspacing="1" cellpadding="4"><thead><tr><th scope="col" valign="top" align="left" rowspan="1" colspan="1">
+<bold>BRFSS Survey Questions<xref rid="T1FN1" ref-type="table-fn">a</xref>
+</bold>
+</th><th scope="col" valign="top" align="left" rowspan="1" colspan="1">
+<bold>Response Categories (<italic>Correct Response</italic>)</bold>
+</th></tr></thead><tbody><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Do you think pain or discomfort in the jaw, neck, or back are symptoms of a heart attack?</td><td rowspan="5" valign="top" align="left" colspan="1">
+<bold>
+<italic>Yes</italic>
+</bold>, no, do not know/not sure, refuse to answer</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Do you think feeling weak, lightheaded, or faint are symptoms of a heart attack?</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">What about chest pain or discomfort...do you think these are symptoms of a heart attack?</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Pain or discomfort in the arms or shoulder (are these symptoms of a heart attack)?</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">What about shortness of breath... is that a symptom of a heart attack?</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">Sudden trouble seeing in one or both eyes&#x02026;is this a symptom of a heart attack?</td><td valign="top" align="left" rowspan="1" colspan="1">Yes, <bold>
+<italic>no</italic>
+</bold>, do not know/not sure, refuse to answer</td></tr><tr><td scope="row" valign="top" align="left" rowspan="1" colspan="1">If you thought someone was having a heart attack or stroke, what is the first thing you would do? Would you:</td><td valign="top" align="left" rowspan="1" colspan="1">Take them to the hospital, tell them to call their doctor, <bold>
+<italic>call 911</italic>
+</bold>, call their spouse or a family member, do something else, don't know/not sure, refused to answer</td></tr></tbody></table><table-wrap-foot><fn id="T1FN1"><label>a</label><p>Centers for Disease Control and Prevention (<xref rid="B16" ref-type="bibr">16</xref>).</p></fn></table-wrap-foot></table-wrap><table-wrap position="float" id="T2"><label>Table 2</label><caption><p>Numbers and Percentages of Montana State Health Department Employees Reporting Awareness of Signs and Symptoms of Heart Attack at Baseline and Follow-up, 2003</p></caption><table frame="hsides" rules="groups" border="0" cellspacing="1" cellpadding="4" width="100%"><thead><tr><th scope="col" valign="bottom" align="left" rowspan="1" colspan="1">&#x000a0;</th><th scope="col" valign="bottom" align="right" colspan="2" rowspan="1">
+<bold>Baseline</bold>
+<break/>
+<bold>n = 401</bold>
+</th><th scope="col" colspan="2" valign="bottom" align="right" rowspan="1">
+<bold>Follow-up</bold>
+<break/>
+<bold>n = 337</bold>
+</th></tr><tr><th colspan="5" rowspan="1">
+<hr/>
+</th></tr><tr><th scope="col" valign="bottom" align="left" rowspan="1" colspan="1">
+<bold>Signs and symptoms of heart attack</bold>
+</th><th scope="col" valign="bottom" align="right" rowspan="1" colspan="1">
+<bold>%</bold>
+</th><th scope="col" valign="bottom" align="right" rowspan="1" colspan="1">
+<bold>n</bold>
+</th><th scope="col" valign="bottom" align="right" rowspan="1" colspan="1">
+<bold>%</bold>
+</th><th scope="col" valign="bottom" align="right" rowspan="1" colspan="1">
+<bold>n</bold>
+</th></tr><tr><th colspan="5" rowspan="1">
+<hr/>
+</th></tr></thead><tbody><tr><td scope="row" valign="bottom" align="left" rowspan="1" colspan="1">Pain or discomfort in jaw, neck, or back</td><td valign="bottom" align="right" rowspan="1" colspan="1">69</td><td valign="bottom" align="right" rowspan="1" colspan="1">277</td><td valign="bottom" align="right" rowspan="1" colspan="1">91<xref rid="T2FN1" ref-type="table-fn">a</xref>
+</td><td valign="bottom" align="right" rowspan="1" colspan="1">307<xref rid="T2FN1" ref-type="table-fn">a</xref>
+</td></tr><tr><td scope="row" valign="bottom" align="left" rowspan="1" colspan="1">Feeling weak, light-headed, or faint</td><td valign="bottom" align="right" rowspan="1" colspan="1">79</td><td valign="bottom" align="right" rowspan="1" colspan="1">318</td><td valign="bottom" align="right" rowspan="1" colspan="1">89<xref rid="T2FN1" ref-type="table-fn">a</xref>
+</td><td valign="bottom" align="right" rowspan="1" colspan="1">301<xref rid="T2FN1" ref-type="table-fn">a</xref>
+</td></tr><tr><td scope="row" valign="bottom" align="left" rowspan="1" colspan="1">Chest pain or discomfort</td><td valign="bottom" align="right" rowspan="1" colspan="1">100</td><td valign="bottom" align="right" rowspan="1" colspan="1">399</td><td valign="bottom" align="right" rowspan="1" colspan="1">100</td><td valign="bottom" align="right" rowspan="1" colspan="1">337</td></tr><tr><td scope="row" valign="bottom" align="left" rowspan="1" colspan="1">Sudden trouble seeing in one or both eyes<xref rid="T2FN2" ref-type="table-fn">b</xref>
+</td><td valign="bottom" align="right" rowspan="1" colspan="1">43</td><td valign="bottom" align="right" rowspan="1" colspan="1">173</td><td valign="bottom" align="right" rowspan="1" colspan="1">46</td><td valign="bottom" align="right" rowspan="1" colspan="1">156</td></tr><tr><td scope="row" valign="bottom" align="left" rowspan="1" colspan="1">Pain or discomfort in arms or shoulder</td><td valign="bottom" align="right" rowspan="1" colspan="1">100</td><td valign="bottom" align="right" rowspan="1" colspan="1">399</td><td valign="bottom" align="right" rowspan="1" colspan="1">98</td><td valign="bottom" align="right" rowspan="1" colspan="1">330</td></tr><tr><td scope="row" valign="bottom" align="left" rowspan="1" colspan="1">Shortness of breath</td><td valign="bottom" align="right" rowspan="1" colspan="1">92</td><td valign="bottom" align="right" rowspan="1" colspan="1">370</td><td valign="bottom" align="right" rowspan="1" colspan="1">95</td><td valign="bottom" align="right" rowspan="1" colspan="1">319</td></tr><tr><td scope="row" valign="bottom" align="left" rowspan="1" colspan="1">Five or more correct responses to heart attack signs and symptoms<xref rid="T2FN3" ref-type="table-fn">c</xref>
+</td><td valign="bottom" align="right" rowspan="1" colspan="1">69</td><td valign="bottom" align="right" rowspan="1" colspan="1">277</td><td valign="bottom" align="right" rowspan="1" colspan="1">89<xref rid="T2FN1" ref-type="table-fn">a</xref>
+</td><td valign="bottom" align="right" rowspan="1" colspan="1">301<xref rid="T2FN1" ref-type="table-fn">a</xref>
+</td></tr><tr><td scope="row" valign="bottom" align="left" rowspan="1" colspan="1">Call 911 if someone is having a heart attack or stroke</td><td valign="bottom" align="right" rowspan="1" colspan="1">84</td><td valign="bottom" align="right" rowspan="1" colspan="1">337</td><td valign="bottom" align="right" rowspan="1" colspan="1">90<xref rid="T2FN1" ref-type="table-fn">a</xref>
+</td><td valign="bottom" align="right" rowspan="1" colspan="1">303<xref rid="T2FN1" ref-type="table-fn">a</xref>
+</td></tr></tbody></table><table-wrap-foot><fn id="T2FN1"><label>a</label><p>
+<italic>P</italic> &#x02264; .05.</p></fn><fn id="T2FN2"><label>b</label><p>Correct response is "no."</p></fn><fn id="T2FN3"><label>c</label><p>Total of six questions.</p></fn></table-wrap-foot></table-wrap><table-wrap position="float" id="T3"><label>Table 3</label><caption><p>Results of Survey Questions to State Health Department Employees, Montana, 2003</p></caption><table frame="hsides" rules="groups" border="0" cellspacing="1" cellpadding="4" width="100%"><thead><tr><th scope="col" valign="bottom" align="left" rowspan="1" colspan="1">
+<bold>Survey Question</bold>
+</th><th scope="col" valign="bottom" align="right" rowspan="1" colspan="1">
+<bold>% Responding Yes</bold>
+</th></tr></thead><tbody><tr><td scope="row" valign="bottom" align="left" rowspan="1" colspan="1">In the past two months, have you seen posters in your workplace with information on heart attack signs and symptoms?</td><td valign="bottom" align="right" rowspan="1" colspan="1">98</td></tr><tr><th scope="col" valign="bottom" align="left" colspan="2" rowspan="1">
+<bold>Those who responded yes to question above were asked, "Where did you see these posters?"</bold>
+</th></tr><tr><td scope="row" valign="bottom" align="left" rowspan="1" colspan="1">Hallways</td><td valign="bottom" align="right" rowspan="1" colspan="1">67</td></tr><tr><td scope="row" valign="bottom" align="left" rowspan="1" colspan="1">Stairwells</td><td valign="bottom" align="right" rowspan="1" colspan="1">16</td></tr><tr><td scope="row" valign="bottom" align="left" rowspan="1" colspan="1">Elevators</td><td valign="bottom" align="right" rowspan="1" colspan="1">15</td></tr><tr><td scope="row" valign="bottom" align="left" rowspan="1" colspan="1">Bathrooms</td><td valign="bottom" align="right" rowspan="1" colspan="1">96</td></tr><tr><td scope="row" valign="bottom" align="left" rowspan="1" colspan="1">Did you participate in any of the weekly e-mail quiz contests on heart attack signs and symptoms?</td><td valign="bottom" align="right" rowspan="1" colspan="1">63</td></tr><tr><td scope="row" valign="bottom" align="left" rowspan="1" colspan="1">In the past two months, did you receive an <italic>Act in Time</italic> brochure and wallet card on heart attack signs and symptoms with your paycheck?</td><td valign="bottom" align="right" rowspan="1" colspan="1">74</td></tr></tbody></table></table-wrap></sec></back></article>

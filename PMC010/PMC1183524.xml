@@ -1,0 +1,271 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS Genet</journal-id><journal-id journal-id-type="iso-abbrev">PLoS Genet</journal-id><journal-id journal-id-type="publisher-id">pgen</journal-id><journal-id journal-id-type="publisher-id">plge</journal-id><journal-id journal-id-type="pmc">plosgen</journal-id><journal-title-group><journal-title>PLoS Genetics</journal-title></journal-title-group><issn pub-type="ppub">1553-7390</issn><issn pub-type="epub">1553-7404</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">16103919</article-id><article-id pub-id-type="pmc">PMC1183524</article-id><article-id pub-id-type="doi">10.1371/journal.pgen.0010005</article-id><article-id pub-id-type="publisher-id">05-PLGE-RA-0029R1</article-id><article-id pub-id-type="sici">plge-01-01-04</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group><subj-group subj-group-type="Discipline"><subject>Evolution</subject><subject>Genetics/Population Genetics</subject></subj-group><subj-group subj-group-type="System Taxonomy"><subject>Eukaryotes</subject><subject>Yeast and Fungi</subject><subject>Saccharomyces</subject></subj-group></article-categories><title-group><article-title>Evidence for Domesticated and Wild Populations of <italic>Saccharomyces cerevisiae</italic>
+</article-title><alt-title alt-title-type="running-head">Yeast Domestication</alt-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Fay</surname><given-names>Justin C</given-names></name><xref ref-type="corresp" rid="cor1">*</xref><xref ref-type="aff" rid="aff1"/></contrib><contrib contrib-type="author"><name><surname>Benavides</surname><given-names>Joseph A</given-names></name><xref ref-type="aff" rid="aff1"/></contrib></contrib-group><aff id="aff1">Department of Genetics, Washington University School of Medicine, St. Louis, Missouri, United States of America</aff><contrib-group><contrib contrib-type="editor"><name><surname>Haber</surname><given-names>James E</given-names></name><role>Editor</role><xref ref-type="aff" rid="edit1"/></contrib></contrib-group><aff id="edit1">Brandeis University, United States of America</aff><author-notes><corresp id="cor1">*To whom correspondence should be addressed. E-mail: <email>jfay@genetics.wustl.edu</email></corresp></author-notes><pub-date pub-type="ppub"><month>7</month><year>2005</year></pub-date><pub-date pub-type="epub"><day>25</day><month>7</month><year>2005</year></pub-date><volume>1</volume><issue>1</issue><elocation-id>e5</elocation-id><history><date date-type="received"><day>23</day><month>2</month><year>2005</year></date><date date-type="accepted"><day>8</day><month>4</month><year>2005</year></date></history><permissions><copyright-statement>Copyright: &#x000a9; 2005 Fay and Benavides.</copyright-statement><copyright-year>2005</copyright-year><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p></license></permissions><abstract><p>
+<italic>Saccharomyces cerevisiae</italic> is predominantly found in association with human activities, particularly the production of alcoholic beverages. <italic>S. paradoxus,</italic> the closest known relative of <italic>S. cerevisiae,</italic> is commonly found on exudates and bark of deciduous trees and in associated soils. This has lead to the idea that <italic>S. cerevisiae</italic> is a domesticated species, specialized for the fermentation of alcoholic beverages, and isolates of <italic>S. cerevisiae</italic> from other sources simply represent migrants from these fermentations. We have surveyed DNA sequence diversity at five loci in 81 strains of <italic>S. cerevisiae</italic> that were isolated from a variety of human and natural fermentations as well as sources unrelated to alcoholic beverage production, such as tree exudates and immunocompromised patients. Diversity within vineyard strains and within sak&#x000e9; strains is low, consistent with their status as domesticated stocks. The oldest lineages and the majority of variation are found in strains from sources unrelated to wine production. We propose a model whereby two specialized breeds of <italic>S. cerevisiae</italic> have been created, one for the production of grape wine and one for the production of sak&#x000e9; wine. We estimate that these two breeds have remained isolated from one another for thousands of years, consistent with the earliest archeological evidence for winemaking. We conclude that although there are clearly strains of <italic>S. cerevisiae</italic> specialized for the production of alcoholic beverages, these have been derived from natural populations unassociated with alcoholic beverage production, rather than the opposite.</p></abstract><abstract abstract-type="synopsis"><title>Synopsis</title><sec id="st1"><title/><p>The budding yeast, <italic>Saccharomyces cerevisiae,</italic> has been used to make bread, beer, and wine for thousands of years. To investigate the evolutionary history of this species, the authors examined DNA sequence variation from a large collection of yeast strains isolated from a variety of sources, including sak&#x000e9; wine, grape wine, clinical samples, tree exudates, and fruit. The DNA sequence diversity among these strains shows that both sak&#x000e9; and grape wine strains form two distinct groups that have remained isolated for a substantial period of time. The data suggest that <italic>S. cerevisiae</italic> consists of both &#x0201c;wild&#x0201d; and &#x0201c;domesticated&#x0201d; populations and that at least two independent domestication events lead to extant grape wine and sak&#x000e9; wine strains.</p></sec></abstract><custom-meta-group><custom-meta><meta-name>Citation:</meta-name><meta-value>Fay JC, Benavides JA (2005) Evidence for domesticated and wild populations of <italic>Saccharomyces cerevisiae.</italic> PLoS Genet 1(1): e5.</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec id="s1"><title>Introduction</title><p>Sensu strictu species of the genus <italic>Saccharomyces,</italic> as their scientific name implies, are yeast specialized for growth on sugar. In comparison to other yeasts, <italic>Saccharomyces</italic> favor aerobic fermentation over respiration in the presence of high concentrations of sugar [<xref rid="pgen-0010005-b01" ref-type="bibr">1</xref>]. Fermentation results in the production of ethanol and a competitive advantage, as these yeasts are tolerant to high concentrations of ethanol [<xref rid="pgen-0010005-b02" ref-type="bibr">2</xref>]. One of these species, <italic>S. cerevisiae,</italic> has served as one of the best model systems for understanding the eukaryotic cell and has served as the dominant species for the production of beer, bread, and wine [<xref rid="pgen-0010005-b03" ref-type="bibr">3</xref>]. However, it is worth noting that strains of <italic>S. bayanus</italic> are sometimes used for wine production and strains of <italic>S. pastorianus,</italic> hybrids between <italic>S. cerevisiae</italic> and <italic>S. bayanus,</italic> are used to brew lagers [<xref rid="pgen-0010005-b04" ref-type="bibr">4</xref>].</p><p>Since the discovery of yeast as the cause of fermentation [<xref rid="pgen-0010005-b05" ref-type="bibr">5</xref>], numerous strains of <italic>S. cerevisiae</italic> have been isolated, the majority of which have been found associated with the production of alcoholic beverages [<xref rid="pgen-0010005-b06" ref-type="bibr">6</xref>&#x02013;<xref rid="pgen-0010005-b09" ref-type="bibr">9</xref>]. In many instances, the strains are clearly specialized for use in the lab [<xref rid="pgen-0010005-b10" ref-type="bibr">10</xref>] and the production of wine [<xref rid="pgen-0010005-b11" ref-type="bibr">11</xref>], beer [<xref rid="pgen-0010005-b12" ref-type="bibr">12</xref>], and bread [<xref rid="pgen-0010005-b13" ref-type="bibr">13</xref>]. This has lead to the common view that <italic>S. cerevisiae</italic> is a domesticated species that has continuously evolved in association with the production of alcoholic beverages [<xref rid="pgen-0010005-b03" ref-type="bibr">3</xref>,<xref rid="pgen-0010005-b06" ref-type="bibr">6</xref>,<xref rid="pgen-0010005-b14" ref-type="bibr">14</xref>]. Under this model, the occasional strains of <italic>S. cerevisiae</italic> found in nature are thought to be migrants from human-associated fermentations.</p><p>The first use of <italic>S. cerevisiae</italic> is likely to have been for the production of wine, rather then bread or beer [<xref rid="pgen-0010005-b03" ref-type="bibr">3</xref>,<xref rid="pgen-0010005-b15" ref-type="bibr">15</xref>]. <italic>S. cerevisiae</italic> has been associated with winemaking since 3150 BC, based on extraction of DNA from ancient wine containers [<xref rid="pgen-0010005-b16" ref-type="bibr">16</xref>], and the earliest evidence for winemaking is to 7000 BC from the molecular analysis of pottery jars found in China [<xref rid="pgen-0010005-b17" ref-type="bibr">17</xref>]. The idea that <italic>S. cerevisiae</italic> was first used to produce wine rather than beer or bread is further supported by the fact that the production of wine requires no inoculum of yeast [<xref rid="pgen-0010005-b07" ref-type="bibr">7</xref>]. In addition, strains associated with whisky, ale, and bakeries show amplified fragment length polymorphism (AFLP) profiles similar to various wine strains [<xref rid="pgen-0010005-b18" ref-type="bibr">18</xref>].</p><p>To examine the relationship between vineyard and non-vineyard strains of <italic>S. cerevisiae</italic> and to understand their evolutionary origin, we have surveyed DNA sequence variation in 81 strains isolated from geographically and ecologically diverse sources (<xref ref-type="table" rid="pgen-0010005-t101">Table 1</xref>). These include 60 strains associated with human fermentations, predominantly from vineyards, and 19 strains not associated with human fermentations, predominantly from immunocompromised patients and tree exudates.</p><table-wrap id="pgen-0010005-t101" content-type="2col" position="float"><label>Table 1</label><caption><p>Strains Studied and Their Source</p></caption><graphic xlink:href="pgen.0010005.t101"/><table-wrap-foot><fn id="nt101"><p>NA, not available; seg., segregant.</p></fn></table-wrap-foot></table-wrap><table-wrap id="pgen-0010005-t102" content-type="2col" position="float"><label>Table 1</label><caption><p>Continued</p></caption><graphic xlink:href="pgen.0010005.t102"/></table-wrap></sec><sec id="s2"><title>Results/ Discussion</title><p>DNA sequence variation was examined in 81 yeast strains at five unlinked loci (see <xref ref-type="sec" rid="s3">Materials and Methods</xref>). A total of 184 polymorphic sites were found. <xref ref-type="fig" rid="pgen-0010005-g001">Figure 1</xref> shows all of the variable sites along with a neighbor-joining tree constructed from these sites. There are two immediately striking features of the data. First, there are high levels of linkage disequilibrium between sites found in unlinked genes. This linkage disequilibrium cannot be explained by a lack of recombination because the four gamete test [<xref rid="pgen-0010005-b19" ref-type="bibr">19</xref>] shows evidence of recombination both within and between loci. The high level of linkage disequilibrium is most likely caused by population subdivision and suggests that the data from these five genes provide a genomic view of population differentiation among these strains. Second, there are significant levels of population differentiation based on the source from which the samples were isolated (see <xref ref-type="sec" rid="s3">Materials and Methods</xref>). A number of strains are worth noting. Y9 is very closely related to the sak&#x000e9; strains and was obtained from Indonesian ragi, or yeast cake, which like sak&#x000e9; is made by fermenting <italic>koji,</italic> a mixture of rice and the mold <italic>Aspergillus oryzae</italic> [<xref rid="pgen-0010005-b20" ref-type="bibr">20</xref>]. Y3 and Y12 were isolated from African palm wine, made from fermenting sap of the oil palm, <italic>Elaeis guineensis</italic>. Y5 was isolated from African bili wine.</p><fig id="pgen-0010005-g001" position="float"><label>Figure 1</label><caption><title>A Neighbor-Joining Tree Shows Differentiation among Yeast Strains Isolated from Different Sources</title><p>The tree was constructed from polymorphic sites found at five unlinked loci and was rooted using <italic>S. paradoxus</italic>. Strains are colored according to the substrates from which they were isolated. The right side shows color-coded polymorphism data with minor alleles shown in black, major alleles shown in white, missing data shown in light gray, and heterozygous sites shown in orange.</p></caption><graphic xlink:href="pgen.0010005.g001"/></fig><p>If strains of <italic>S. cerevisiae</italic> that are not associated with human fermentations have escaped their manmade environments, their progenitors should be closely related to strains isolated from human fermentations. Two aspects of the data indicate this is not the case. First, the oldest lineages at the root of the tree, that are most similar to <italic>S. paradoxus,</italic> were isolated from tree exudates in North America and Africa, or from immunocompromised patients. Although one of the clinical samples is most closely related to vineyard strains, the majority of clinical isolates are not closely related to strains obtained from human-associated fermentations. Second, strains from grape wine and sak&#x000e9; wine production contain significantly less variation, as measured by the average number of pairwise differences between strains [<xref rid="pgen-0010005-b21" ref-type="bibr">21</xref>], than is found in natural and clinical isolates, which contain just as much variation as is found in the total sample (<xref ref-type="table" rid="pgen-0010005-t002">Table 2</xref>). However, diversity in strains associated with human fermentations other than grape and sak&#x000e9; wine production is not reduced compared to the clinical and natural isolates. The four strains associated with fermentations, three of which were isolated from traditional African wines, show the greatest diversity and represent some of the oldest lineages. This raises the possibility that <italic>S. cerevisiae</italic> was domesticated in Africa and that most vineyard and sak&#x000e9; strains were derived from a domesticated African strain. If so, one would expect clinical and natural isolates to be more closely related to strains isolated from vineyards, which have a cosmopolitan distribution compared to strains from traditional African wine. Clinical and natural isolates, however, show no obvious relationship to strains associated with manmade fermentations.</p><table-wrap id="pgen-0010005-t002" content-type="1col" position="float"><label>Table 2</label><caption><p>Diversity among Strains</p></caption><graphic xlink:href="pgen.0010005.t002"/><table-wrap-foot><fn id="nt201"><p>
+<sup>a</sup>Only strains without missing data are used.</p></fn><fn id="nt202"><p>
+<sup>b</sup>&#x003c0; is the average number of pairwise differences between strains, per basepair. The standard deviation is shown in parentheses.</p></fn></table-wrap-foot></table-wrap><p>Although the genealogical relationships among strains of <italic>S. cerevisiae</italic> show that the species as a whole is not domesticated, the data do support the hypothesis that some strains are domesticated. Based on the low levels of diversity within vineyard and sak&#x000e9; strains and the clear separation of these two groups, we propose two domestication events, one for yeast used to produce grape wine and one for yeast used to produce rice wine. When might these events have occurred? Domestication would have occurred after the divergence between the vineyard and sak&#x000e9; strains but before differentiation among the vineyard and among the sak&#x000e9; strains. These two time points can be roughly estimated by the average number of differences per synonymous site between the sak&#x000e9; and vineyard strains, 1.28 &#x000d7; 10<sup>&#x02212;2</sup>, and the average number of differences among the vineyard, 2.92 &#x000d7; 10<sup>&#x02212;3</sup>, and among the sak&#x000e9; strains, 4.06 &#x000d7; 10<sup>&#x02212;3</sup>, respectively (see <xref ref-type="sec" rid="s3">Materials and Methods</xref>). Assuming a point mutation rate of 1.84 &#x000d7; 10<sup>&#x02212;10</sup> per base pair (bp) per generation and 2,920 generations per year, the estimate for the divergence time between the two groups is approximately 11,900 years ago, and within the vineyard group and sak&#x000e9; group is approximately 2,700 and approximately 3,800 years ago, respectively (see <xref ref-type="sec" rid="s3">Materials and Methods</xref>). These dates could easily be an order of magnitude older if the number of generations per year is one tenth that obtained assuming an exponential growth rate. Interestingly, the time period is consistent with the earliest archeological evidence for winemaking, approximately 9,000 years ago [<xref rid="pgen-0010005-b17" ref-type="bibr">17</xref>]. It should be noted that proof that these strains are domesticated requires evidence that they have acquired characteristics advantageous to humans through human activity, whether intentional or not. The alternative hypothesis to domestication is that initial fermentations selected those natural isolates most amenable to alcoholic beverage production and that these initial isolates have been used by humans ever since.</p><p>The source population for both the sak&#x000e9; and grape wine strains is not clear, but is likely similar to the source population for the clinical strains. Insects, particularly fruit flies, present one possibility [<xref rid="pgen-0010005-b22" ref-type="bibr">22</xref>,<xref rid="pgen-0010005-b23" ref-type="bibr">23</xref>]. Numerous strains of <italic>S. cerevisiae</italic> and <italic>S. paradoxus</italic> have been isolated from oak tree exudates in North America [<xref rid="pgen-0010005-b24" ref-type="bibr">24</xref>], and tree exudates are often visited by insects [<xref rid="pgen-0010005-b22" ref-type="bibr">22</xref>]. Three of these oak tree isolates were included in our study and are among the most diverse of the strains (<xref ref-type="fig" rid="pgen-0010005-g001">Figure 1</xref>). Given that <italic>S. paradoxus</italic> is most often found in association with tree exudates from both Europe [<xref rid="pgen-0010005-b25" ref-type="bibr">25</xref>,<xref rid="pgen-0010005-b26" ref-type="bibr">26</xref>] and North America [<xref rid="pgen-0010005-b24" ref-type="bibr">24</xref>], strains of <italic>S. cerevisiae</italic> isolated from tree exudates may be truly &#x0201c;wild&#x0201d; yeast. Whether the yeast isolated from African palm wine is domesticated remains an open question, although it is worth noting that African palm wine is made by collecting sap tapped from oil palm trees and fermentation occurs naturally without the addition of yeast.</p></sec><sec id="s3"><title>Materials and Methods</title><p>Strains were obtained from a number of individuals and stock centers. B1&#x02013;B6 were obtained from B. Dunn; I14 from J. Fay; CDB and PR from Red Star, Berkeley, California, United States; K1&#x02013;K15 from N. Goto-Yamamoto and the NODAI culture collection; M1&#x02013;M34 from R. Mortimer; SB from Whole Foods, Berkeley, California, United States; UC1&#x02013;UC10 from the University of California, Davis stock center; Y1&#x02013;Y12 from C. Kurtzman and the ARS culture collection; YJM145&#x02013;YJM1129 from J. McCusker; and YPS163&#x02013;YPS1009 were from the collection of P. Sniegowski.</p><p>Five genes, <italic>CCA1, CYT1, MLS1,</italic>
+<italic>PDR10,</italic> and <italic>ZDS2,</italic> and their promoters were sequenced in 81 strains (see <xref ref-type="table" rid="pgen-0010005-t101">Table 1</xref>). These genes were randomly chosen from all divergently transcribed intergenic sequences upstream of functionally annotated genes with clear orthologs in <italic>S. paradoxus</italic>. The sequenced regions include 3,671 bp of coding sequence and 3,561 bp of noncoding sequence. For each gene, both strands of purified PCR products were sequenced using Big Dye (Perkin Elmer, Boston, Massachusetts, United States) termination reactions. Sequence variation was identified using phred, phrap, and consed [<xref rid="pgen-0010005-b27" ref-type="bibr">27</xref>]. For construction of the neighbor-joining tree, a single allele was used from strains with heterozygous sites. The allele was randomly chosen from the two haplotypes inferred by PHASE [<xref rid="pgen-0010005-b28" ref-type="bibr">28</xref>].</p><p>Sequence data were analyzed using DNASP [<xref rid="pgen-0010005-b29" ref-type="bibr">29</xref>]. Population subdivision was tested by a permutations test according to the source categories from which each strain was obtained (<xref ref-type="table" rid="pgen-0010005-t101">Table 1</xref>). The average time since divergence of two strains was obtained by <italic>k</italic> = 2<italic>&#x003bc;t</italic>, where <italic>k</italic> is the substitution rate, <italic>&#x003bc;</italic> is the mutation rate per bp and <italic>t</italic> is the time in generations. The mutation rate has been estimated at <italic>CAN1</italic> and <italic>SUP3</italic> at 2.25 &#x000d7; 10<sup>&#x02212;10</sup> per base pair per generation [<xref rid="pgen-0010005-b30" ref-type="bibr">30</xref>]. Given that 82% of spontaneous mutations are single base substitutions [<xref rid="pgen-0010005-b31" ref-type="bibr">31</xref>], we estimate the point mutation rate is 1.84 &#x000d7; 10<sup>&#x02212;10</sup> per bp per generation. <italic>S. cerevisiae</italic> can reproduce in 90 min, or 16 generations per day. However, even under optimal laboratory conditions the number of generations over a 24-h period is typically much less. To obtain divergence time in years rather than generations, we assumed <italic>S. cerevisiae</italic> can go through a maximum of eight generations per day or 2,920 generations per year.</p></sec><sec sec-type="supplementary-material" id="s4"><title>Supporting Information</title><sec id="s4a"><title>Accession Numbers</title><p>The sequences of the genes <italic>CCA1, CYT1, MLS1, PDR10,</italic> and <italic>ZDS2</italic> that are discussed in this paper have been deposited into GenBank (<ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/Genbank/">http://www.ncbi.nlm.nih.gov/Genbank/</ext-link>) as accession numbers AY942206&#x02013;AY942556.</p></sec></sec></body><back><ack><p>We thank two anonymous reviewers, P. Sniegowski and members of the Fay lab for comments and suggestions. We also thank B. Dunn, N. Goto-Yamamoto, R. Mortimer, C. Kurtzman, J. McCusker, and P. Sniegowski for contributing yeast strains and Heidi Kuehne for the collection of strains associated with oak exudates. Without their help this study would not have been possible.</p></ack><fn-group><fn id="ack1" fn-type="COI-statement"><p>
+<bold>Competing interests.</bold> The authors have declared that no competing interests exist.</p></fn><fn id="ack2" fn-type="con"><p>
+<bold>Author contributions.</bold> JCF conceived and designed the experiments. JAB performed the experiments. JCF analyzed the data and wrote the paper.</p></fn></fn-group><glossary><title>Abbreviations</title><def-list><def-item><term>bp</term><def><p>base pair</p></def></def-item></def-list></glossary><ref-list><title>References</title><ref id="pgen-0010005-b01"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Otterstedt</surname><given-names>K</given-names></name><name><surname>Larsson</surname><given-names>C</given-names></name><name><surname>Bill</surname><given-names>RM</given-names></name><name><surname>Stahlberg</surname><given-names>A</given-names></name><name><surname>Boles</surname><given-names>E</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Switching the mode of metabolism in the yeast <italic>Saccharomyces cerevisiae</italic>
+</article-title>
+<source>EMBO Rep</source>
+<volume>5</volume>
+<fpage>532</fpage>
+<lpage>537</lpage>
+<pub-id pub-id-type="pmid">15071495</pub-id></element-citation></ref><ref id="pgen-0010005-b02"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sipiczk</surname><given-names>M</given-names></name><name><surname>Romano</surname><given-names>P</given-names></name><name><surname>Lipani</surname><given-names>G</given-names></name><name><surname>Miklos</surname><given-names>I</given-names></name><name><surname>Antunovics</surname><given-names>Z</given-names></name></person-group>
+<year>2001</year>
+<article-title>Analysis of yeasts derived from natural fermentation in a Tokaj winery</article-title>
+<source>Antonie Van Leeuwenhoek</source>
+<volume>79</volume>
+<fpage>97</fpage>
+<lpage>105</lpage>
+<pub-id pub-id-type="pmid">11392490</pub-id></element-citation></ref><ref id="pgen-0010005-b03"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mortimer</surname><given-names>RK</given-names></name></person-group>
+<year>2000</year>
+<article-title>Evolution and variation of the yeast <italic>(Saccharomyces)</italic> genome</article-title>
+<source>Genome Res</source>
+<volume>10</volume>
+<fpage>403</fpage>
+<lpage>409</lpage>
+<pub-id pub-id-type="pmid">10779481</pub-id></element-citation></ref><ref id="pgen-0010005-b04"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nguyen</surname><given-names>HV</given-names></name><name><surname>Gaillardin</surname><given-names>C</given-names></name></person-group>
+<year>2005</year>
+<article-title>Evolutionary relationships between the former species <italic>Saccharomyces uvarum</italic> and the hybrids <italic>Saccharomyces bayanus</italic> and <italic>Saccharomyces pastorianus;</italic> reinstatement of <italic>Saccharomyces uvarum</italic> (Beijerinck) as a distinct species</article-title>
+<source>FEMS Yeast Res</source>
+<volume>5</volume>
+<fpage>471</fpage>
+<lpage>483</lpage>
+<pub-id pub-id-type="pmid">15691752</pub-id></element-citation></ref><ref id="pgen-0010005-b05"><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Pasteur</surname><given-names>L</given-names></name></person-group>
+<year>1866</year>
+<source>&#x000c9;tudes sur le vin</source>
+<publisher-loc>Paris (France)</publisher-loc>
+<publisher-name>Imprimeurs Imperials</publisher-name>
+<size units="page">266</size>
+<comment>p.</comment>
+</element-citation></ref><ref id="pgen-0010005-b06"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Martini</surname><given-names>A</given-names></name></person-group>
+<year>1993</year>
+<article-title>Origin and domestication of the wine yeast <italic>Saccharomyces cerevisiae</italic>
+</article-title>
+<source>J Wine Res</source>
+<volume>4</volume>
+<fpage>165</fpage>
+<lpage>176</lpage>
+</element-citation></ref><ref id="pgen-0010005-b07"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mortimer</surname><given-names>R</given-names></name><name><surname>Polsinelli</surname><given-names>M</given-names></name></person-group>
+<year>1999</year>
+<article-title>On the origins of wine yeast</article-title>
+<source>Res Microbiol</source>
+<volume>150</volume>
+<fpage>199</fpage>
+<lpage>204</lpage>
+<pub-id pub-id-type="pmid">10229949</pub-id></element-citation></ref><ref id="pgen-0010005-b08"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Naumova</surname><given-names>ES</given-names></name><name><surname>Bulat</surname><given-names>SA</given-names></name><name><surname>Mironenko</surname><given-names>NV</given-names></name><name><surname>Naumov</surname><given-names>GI</given-names></name></person-group>
+<year>2003</year>
+<article-title>Differentiation of six sibling species in the <italic>Saccharomyces</italic> sensu stricto complex by multilocus enzyme electrophoresis and UP-PCR analysis</article-title>
+<source>Antonie Van Leeuwenhoek</source>
+<volume>83</volume>
+<fpage>155</fpage>
+<lpage>166</lpage>
+<pub-id pub-id-type="pmid">12785309</pub-id></element-citation></ref><ref id="pgen-0010005-b09"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Teresa</surname><given-names>F-EM</given-names></name><name><surname>Barrio</surname><given-names>E</given-names></name><name><surname>Querol</surname><given-names>A</given-names></name></person-group>
+<year>2003</year>
+<article-title>Analysis of the genetic variability in the species of the <italic>Saccharomyces</italic> sensu stricto complex</article-title>
+<source>Yeast</source>
+<volume>20</volume>
+<fpage>1213</fpage>
+<lpage>1226</lpage>
+<pub-id pub-id-type="pmid">14587104</pub-id></element-citation></ref><ref id="pgen-0010005-b10"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mortimer</surname><given-names>RK</given-names></name><name><surname>Johnston</surname><given-names>JR</given-names></name></person-group>
+<year>1986</year>
+<article-title>Genealogy of principal strains of the yeast genetic stock center</article-title>
+<source>Genetics</source>
+<volume>113</volume>
+<fpage>35</fpage>
+<lpage>43</lpage>
+<pub-id pub-id-type="pmid">3519363</pub-id></element-citation></ref><ref id="pgen-0010005-b11"><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Kunkee</surname><given-names>RE</given-names></name><name><surname>Bisson</surname><given-names>LF</given-names></name></person-group>
+<year>1993</year>
+<article-title>Wine-making yeasts</article-title>
+<person-group person-group-type="editor"><name><surname>Rose</surname><given-names>AH</given-names></name><name><surname>Harrison</surname><given-names>JS</given-names></name></person-group>
+<source>The yeasts. Volume 5, Yeast technology</source>
+<publisher-loc>New York</publisher-loc>
+<publisher-name>Academic Press</publisher-name>
+<fpage>69</fpage>
+<lpage>126</lpage>
+</element-citation></ref><ref id="pgen-0010005-b12"><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Hammond</surname><given-names>JRM</given-names></name></person-group>
+<year>1993</year>
+<article-title>Brewers yeast</article-title>
+<person-group person-group-type="editor"><name><surname>Rose</surname><given-names>AH</given-names></name><name><surname>Harrison</surname><given-names>JS</given-names></name></person-group>
+<source>The yeasts. Volume 5, Yeast technology</source>
+<publisher-loc>New York</publisher-loc>
+<publisher-name>Academic Press</publisher-name>
+<fpage>7</fpage>
+<lpage>67</lpage>
+</element-citation></ref><ref id="pgen-0010005-b13"><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Rose</surname><given-names>AH</given-names></name><name><surname>Vijayalakshmi</surname><given-names>G</given-names></name></person-group>
+<year>1993</year>
+<source>Baker's yeasts. In: Rose AH, Harrison JS, editors. The yeasts. Volume 5, Yeast technology</source>
+<publisher-loc>New York</publisher-loc>
+<publisher-name>Academic Press</publisher-name>
+<fpage>357</fpage>
+<lpage>397</lpage>
+</element-citation></ref><ref id="pgen-0010005-b14"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Naumov</surname><given-names>GI</given-names></name></person-group>
+<year>1996</year>
+<article-title>Genetic identification of biological species in the <italic>Saccharomyces</italic> sensu stricto complex</article-title>
+<source>J Ind Appl Microbiol</source>
+<volume>17</volume>
+<fpage>295</fpage>
+<lpage>302</lpage>
+</element-citation></ref><ref id="pgen-0010005-b15"><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>McGovern</surname><given-names>PE</given-names></name></person-group>
+<year>2003</year>
+<source>Ancient wine: The search for the origins of viniculture</source>
+<publisher-loc>Princeton (New Jersey)</publisher-loc>
+<publisher-name>Princeton University Press</publisher-name>
+<size units="page">335</size>
+<comment>p.</comment>
+</element-citation></ref><ref id="pgen-0010005-b16"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cavalieri</surname><given-names>D</given-names></name><name><surname>McGovern</surname><given-names>PE</given-names></name><name><surname>Hartl</surname><given-names>DL</given-names></name><name><surname>Mortimer</surname><given-names>R</given-names></name><name><surname>Polsinelli</surname><given-names>M</given-names></name></person-group>
+<year>2003</year>
+<article-title>Evidence for <italic>S. cerevisiae</italic> fermentation in ancient wine</article-title>
+<source>J Mol Evol</source>
+<volume>57</volume>
+<issue>(Suppl 1)</issue>
+<fpage>S226</fpage>
+<lpage>S232</lpage>
+<pub-id pub-id-type="pmid">15008419</pub-id></element-citation></ref><ref id="pgen-0010005-b17"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>McGovern</surname><given-names>PE</given-names></name><name><surname>Zhang</surname><given-names>J</given-names></name><name><surname>Tang</surname><given-names>J</given-names></name><name><surname>Zhang</surname><given-names>Z</given-names></name><name><surname>Hall</surname><given-names>GR</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Fermented beverages of pre- and proto-historic China</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>101</volume>
+<fpage>17593</fpage>
+<lpage>17598</lpage>
+<pub-id pub-id-type="pmid">15590771</pub-id></element-citation></ref><ref id="pgen-0010005-b18"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Azumi</surname><given-names>M</given-names></name><name><surname>Goto-Yamamoto</surname><given-names>N</given-names></name></person-group>
+<year>2001</year>
+<article-title>AFLP analysis of type strains and laboratory and industrial strains of <italic>Saccharomyces</italic> sensu stricto and its application to phenetic clustering</article-title>
+<source>Yeast</source>
+<volume>18</volume>
+<fpage>1145</fpage>
+<lpage>1154</lpage>
+<pub-id pub-id-type="pmid">11536336</pub-id></element-citation></ref><ref id="pgen-0010005-b19"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hudson</surname><given-names>RR</given-names></name><name><surname>Kaplan</surname><given-names>NL</given-names></name></person-group>
+<year>1985</year>
+<article-title>Statistical properties of the number of recombination events in the history of a sample of DNA sequences</article-title>
+<source>Genetics</source>
+<volume>111</volume>
+<fpage>147</fpage>
+<lpage>164</lpage>
+<pub-id pub-id-type="pmid">4029609</pub-id></element-citation></ref><ref id="pgen-0010005-b20"><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Kodama</surname><given-names>K</given-names></name></person-group>
+<year>1993</year>
+<article-title>Sak&#x000e9;-brewing yeasts</article-title>
+<person-group person-group-type="editor"><name><surname>Rose</surname><given-names>AH</given-names></name><name><surname>Harrison</surname><given-names>JS</given-names></name></person-group>
+<source>The yeasts. Volume 5, Yeast technology</source>
+<publisher-loc>New York</publisher-loc>
+<publisher-name>Academic Press</publisher-name>
+<fpage>129</fpage>
+<lpage>168</lpage>
+</element-citation></ref><ref id="pgen-0010005-b21"><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Nei</surname><given-names>M</given-names></name></person-group>
+<year>1987</year>
+<source>Molecular evolutionary genetics</source>
+<publisher-loc>New York</publisher-loc>
+<publisher-name>Columbia University Press</publisher-name>
+<size units="page">512</size>
+<comment>p.</comment>
+</element-citation></ref><ref id="pgen-0010005-b22"><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Phaff</surname><given-names>HJ</given-names></name><name><surname>Starmer</surname><given-names>WT</given-names></name></person-group>
+<year>1987</year>
+<article-title>Yeasts associated with plants, insects and soil</article-title>
+<person-group person-group-type="editor"><name><surname>Rose</surname><given-names>AH</given-names></name><name><surname>Harrison</surname><given-names>JS</given-names></name></person-group>
+<source>The yeasts. Volume 1, Biology of yeasts</source>
+<publisher-loc>New York</publisher-loc>
+<publisher-name>Academic Press</publisher-name>
+<fpage>123</fpage>
+<lpage>180</lpage>
+</element-citation></ref><ref id="pgen-0010005-b23"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Naumov</surname><given-names>GI</given-names></name><name><surname>Naumova</surname><given-names>ES</given-names></name><name><surname>Sniegowski</surname><given-names>PD</given-names></name></person-group>
+<year>1998</year>
+<article-title>
+<italic>Saccharomyces paradoxus</italic> and <italic>Saccharomyces cerevisiae</italic> are associated with exudates of North American oaks</article-title>
+<source>Can J Microbiol</source>
+<volume>44</volume>
+<fpage>1045</fpage>
+<lpage>1050</lpage>
+<pub-id pub-id-type="pmid">10029999</pub-id></element-citation></ref><ref id="pgen-0010005-b24"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sniegowski</surname><given-names>PD</given-names></name><name><surname>Dombrowski</surname><given-names>PG</given-names></name><name><surname>Fingerman</surname><given-names>E</given-names></name></person-group>
+<year>2002</year>
+<article-title>
+<italic>Saccharomyces cerevisiae</italic> and <italic>Saccharomyces paradoxus</italic> coexist in a natural woodland site in North America and display different levels of reproductive isolation from European conspecifics</article-title>
+<source>FEM Yeast Res</source>
+<volume>1</volume>
+<fpage>299</fpage>
+<lpage>306</lpage>
+</element-citation></ref><ref id="pgen-0010005-b25"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Johnson</surname><given-names>LJ</given-names></name><name><surname>Koufopanou</surname><given-names>V</given-names></name><name><surname>Goddard</surname><given-names>MR</given-names></name><name><surname>Hetherington</surname><given-names>R</given-names></name><name><surname>Schafer</surname><given-names>SM</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Population genetics of the wild yeast <italic>Saccharomyces paradoxus</italic>
+</article-title>
+<source>Genetics</source>
+<volume>166</volume>
+<fpage>43</fpage>
+<lpage>52</lpage>
+<pub-id pub-id-type="pmid">15020405</pub-id></element-citation></ref><ref id="pgen-0010005-b26"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Naumov</surname><given-names>GI</given-names></name><name><surname>Naumova</surname><given-names>ES</given-names></name><name><surname>Sniegowski</surname><given-names>PD</given-names></name></person-group>
+<year>1997</year>
+<article-title>Differentiation of European and Far East Asian populations of <italic>Saccharomyces paradoxus</italic> by allozyme analysis</article-title>
+<source>Int J Syst Bacteriol</source>
+<volume>47</volume>
+<fpage>341</fpage>
+<lpage>344</lpage>
+<pub-id pub-id-type="pmid">9103619</pub-id></element-citation></ref><ref id="pgen-0010005-b27"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ewing</surname><given-names>B</given-names></name><name><surname>Green</surname><given-names>P</given-names></name></person-group>
+<year>1998</year>
+<article-title>Base-calling of automated sequencer traces using phred. II. Error probabilities</article-title>
+<source>Genome Res</source>
+<volume>8</volume>
+<fpage>186</fpage>
+<lpage>194</lpage>
+<pub-id pub-id-type="pmid">9521922</pub-id></element-citation></ref><ref id="pgen-0010005-b28"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Stephens</surname><given-names>M</given-names></name><name><surname>Smith</surname><given-names>NJ</given-names></name><name><surname>Donnelly</surname><given-names>P</given-names></name></person-group>
+<year>2001</year>
+<article-title>A new statistical method for haplotype reconstruction from population data</article-title>
+<source>Am J Hum Genet</source>
+<volume>68</volume>
+<fpage>978</fpage>
+<lpage>989</lpage>
+<pub-id pub-id-type="pmid">11254454</pub-id></element-citation></ref><ref id="pgen-0010005-b29"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rozas</surname><given-names>J</given-names></name><name><surname>Rozas</surname><given-names>R</given-names></name></person-group>
+<year>1999</year>
+<article-title>DnaSP version 3: An integrated program for molecular population genetics and molecular evolution analysis</article-title>
+<source>Bioinformatics</source>
+<volume>15</volume>
+<fpage>174</fpage>
+<lpage>175</lpage>
+<pub-id pub-id-type="pmid">10089204</pub-id></element-citation></ref><ref id="pgen-0010005-b30"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Drake</surname><given-names>JW</given-names></name></person-group>
+<year>1991</year>
+<article-title>A constant rate of spontaneous mutation in DNA-based microbes</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>88</volume>
+<fpage>7160</fpage>
+<lpage>7164</lpage>
+<pub-id pub-id-type="pmid">1831267</pub-id></element-citation></ref><ref id="pgen-0010005-b31"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kang</surname><given-names>XL</given-names></name><name><surname>Yadao</surname><given-names>F</given-names></name><name><surname>Gietz</surname><given-names>RD</given-names></name><name><surname>Kunz</surname><given-names>BA</given-names></name></person-group>
+<year>1992</year>
+<article-title>Elimination of the yeast RAD6 ubiquitin conjugase enhances base-pair transitions and G.C----T.A transversions as well as transposition of the Ty element: Implications for the control of spontaneous mutation</article-title>
+<source>Genetics</source>
+<volume>130</volume>
+<fpage>285</fpage>
+<lpage>294</lpage>
+<pub-id pub-id-type="pmid">1311695</pub-id></element-citation></ref></ref-list></back></article>

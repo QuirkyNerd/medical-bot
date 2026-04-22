@@ -1,0 +1,49 @@
+# --- Web Framework ---
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+
+# --- Vector Database ---
+qdrant-client==1.13.2
+
+# --- Embeddings ---
+sentence-transformers==2.7.0
+
+# --- LLM ---
+google-generativeai==0.8.4
+
+# --- PDF ---
+PyMuPDF==1.25.3
+
+# --- Vision ---
+torch
+torchvision
+Pillow==11.1.0
+
+# --- RAG ---
+langchain==0.3.18
+langchain-community==0.3.17
+
+# --- HTTP ---
+requests==2.32.3
+httpx==0.28.1
+beautifulsoup4==4.13.3
+
+# --- Utils ---
+python-dotenv==1.0.1
+pydantic==2.10.6
+
+# --- Core ---
+numpy==1.26.4
+scikit-learn==1.4.2
+
+# --- Auth ---
+bcrypt==4.1.3
+PyJWT==2.8.0
+
+# --- Multimodal Extractors ---
+pypdf==5.1.0
+pytesseract==0.3.13
+
+# --- PDF Export ---
+reportlab==4.2.5

@@ -1,0 +1,18 @@
+services:
+  backend:
+    build: ./backend
+    container_name: medical-backend
+    ports:
+      - "8000:8000"
+    env_file:
+      - ./backend/.env
+    environment:
+      - DB_PATH=/data/database.db
+    volumes:
+      - ./backend:/app
+      - ./backend/qdrant_data:/app/qdrant_data
+      - medai_db:/data
+    restart: unless-stopped
+
+volumes:
+  medai_db:

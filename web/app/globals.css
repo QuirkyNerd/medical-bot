@@ -1,0 +1,382 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================================
+ * MedOS design tokens — light + dark
+ * ============================================================ */
+:root {
+  /* Surfaces (light mode — soft white, never pure #FFFFFF) */
+  --surface-0: 247 249 251; /* app backdrop  #F7F9FB */
+  --surface-1: 255 255 255; /* cards          */
+  --surface-2: 241 245 249; /* elevated panels #F1F5F9 */
+  --surface-3: 226 232 240; /* borders / rails */
+
+  --ink-base:    15  23  42; /* slate-900     */
+  --ink-muted:   71  85 105; /* slate-600     */
+  --ink-subtle: 148 163 184; /* slate-400     */
+  --ink-inverse: 255 255 255;
+
+  --line: 226 232 240; /* slate-200 */
+
+  color-scheme: light;
+}
+
+.dark {
+  /* Dark mode — warm deep navy, NOT pure black */
+  --surface-0:  11  18  32; /* #0B1220 */
+  --surface-1:  18  27  45; /* #121B2D elevated card */
+  --surface-2:  24  34  54; /* #182236 panel  */
+  --surface-3:  34  46  71; /* #222E47 border */
+
+  --ink-base:   241 245 249; /* slate-100 */
+  --ink-muted:  148 163 184; /* slate-400 */
+  --ink-subtle: 100 116 139; /* slate-500 */
+  --ink-inverse: 15  23  42;
+
+  --line: 34 46 71;
+
+  color-scheme: dark;
+}
+
+@layer base {
+  html,
+  body {
+    @apply h-full w-full;
+    /* iOS Safari 100vh fix: dvh accounts for the collapsible address bar.
+       Falls back to 100vh for browsers that don't support dvh. */
+    height: 100vh;
+    height: 100dvh;
+  }
+
+  html.text-small { font-size: 14px; }
+  html.text-medium { font-size: 16px; }
+  html.text-large { font-size: 18px; }
+
+  html {
+    font-family: var(--font-sans), Inter,
+      /* CJK fallbacks (Chinese, Japanese, Korean) */
+      "Noto Sans CJK SC", "PingFang SC", "Hiragino Sans", "MS Gothic",
+      "Malgun Gothic", "Apple SD Gothic Neo",
+      /* Arabic */
+      "Noto Sans Arabic", "Geeza Pro", "Tahoma",
+      /* Devanagari (Hindi) */
+      "Noto Sans Devanagari",
+      /* Thai */
+      "Noto Sans Thai",
+      /* System fallbacks */
+      ui-sans-serif, system-ui, -apple-system,
+      "Segoe UI", Roboto, sans-serif;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11", "ss01";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    @apply text-ink-base antialiased;
+    background: theme("backgroundImage.light-app");
+    background-attachment: fixed;
+    line-height: 1.6;
+    letter-spacing: -0.005em;
+  }
+
+  .dark body {
+    background: theme("backgroundImage.dark-app");
+    background-attachment: fixed;
+  }
+
+  /* Slightly larger, more readable body copy — medical trust */
+  p { line-height: 1.65; }
+
+  /* Focus rings that are visible in both modes */
+  :focus-visible {
+    outline: 2px solid rgb(var(--color-brand, 59 130 246));
+    outline-offset: 2px;
+    border-radius: 8px;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-surface-1/80 backdrop-blur-xl border border-line/60 shadow-soft;
+  }
+  .glass-strong {
+    @apply bg-surface-1/95 backdrop-blur-2xl border border-line/70 shadow-card;
+  }
+  /* Section headings inside an AI answer (Summary / Self-care …) */
+  .answer-section {
+    @apply relative pl-4 mt-4 first:mt-0;
+  }
+  .answer-section::before {
+    content: "";
+    @apply absolute left-0 top-1 bottom-1 w-1 rounded-full bg-brand-500/60;
+  }
+}
+
+@layer utilities {
+  .animate-in { animation: fadeIn 0.5s ease-in-out; }
+  .slide-in-from-bottom-4 { animation: slideInFromBottom 0.5s ease-in-out; }
+  .delay-100 { animation-delay: 100ms; }
+  .delay-200 { animation-delay: 200ms; }
+
+  /* Shimmer utility for the "Analyzing…" typing state */
+  .shimmer-text {
+    background: linear-gradient(
+      90deg,
+      rgb(var(--ink-muted) / 0.5) 0%,
+      rgb(var(--ink-base)) 50%,
+      rgb(var(--ink-muted) / 0.5) 100%
+    );
+    background-size: 200% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: shimmer 2.2s linear infinite;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+  @keyframes slideInFromBottom {
+    from { opacity: 0; transform: translateY(1rem); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  /* Medicine scanner viewfinder — pulsing green border */
+  @keyframes scannerPulse {
+    0%, 100% { border-color: rgba(34, 197, 94, 0.5); box-shadow: 0 0 0 0 rgba(34, 197, 94, 0); }
+    50%      { border-color: rgba(34, 197, 94, 1);   box-shadow: 0 0 20px 4px rgba(34, 197, 94, 0.15); }
+  }
+  @keyframes scanLine {
+    0%   { top: 8%; }
+    50%  { top: 88%; }
+    100% { top: 8%; }
+  }
+  @keyframes scanSuccess {
+    0%   { transform: scale(1); border-color: rgba(34, 197, 94, 0.6); }
+    50%  { transform: scale(1.02); border-color: rgba(34, 197, 94, 1); }
+    100% { transform: scale(1); border-color: rgba(34, 197, 94, 0.6); }
+  }
+  @keyframes scanProgress {
+    0%   { width: 0%; }
+    100% { width: 100%; }
+  }
+  .animate-scanner-pulse  { animation: scannerPulse 2s ease-in-out infinite; }
+  .animate-scan-line      { animation: scanLine 2.5s ease-in-out infinite; }
+  .animate-scan-success   { animation: scanSuccess 0.6s ease-out; }
+  .animate-scan-progress  { animation: scanProgress 3s ease-out forwards; }
+}
+
+/* ------------------------------------------------------------
+ * Dark-mode compatibility layer for legacy screens that still
+ * reference slate/white utility classes directly. Remaps them to
+ * the design-token surfaces so Settings/Records/Schedule/Topics/
+ * Emergency look right in dark mode without a full rewrite.
+ * New components should prefer the `bg-surface-*` and `text-ink-*`
+ * tokens directly and won't be affected by these rules.
+ * ------------------------------------------------------------ */
+.dark .bg-white         { background-color: rgb(var(--surface-1)) !important; }
+.dark .bg-slate-50      { background-color: rgb(var(--surface-2)) !important; }
+.dark .bg-slate-100     { background-color: rgb(var(--surface-2)) !important; }
+.dark .bg-\[\#F8FAFC\]  { background-color: rgb(var(--surface-0)) !important; }
+.dark .bg-\[\#F7F9FB\]  { background-color: rgb(var(--surface-0)) !important; }
+
+.dark .text-slate-900   { color: rgb(var(--ink-base)) !important; }
+.dark .text-slate-800   { color: rgb(var(--ink-base)) !important; }
+.dark .text-slate-700   { color: rgb(var(--ink-base) / 0.92) !important; }
+.dark .text-slate-600   { color: rgb(var(--ink-muted)) !important; }
+.dark .text-slate-500   { color: rgb(var(--ink-muted)) !important; }
+.dark .text-slate-400   { color: rgb(var(--ink-subtle)) !important; }
+.dark .text-slate-300   { color: rgb(var(--ink-subtle) / 0.85) !important; }
+
+.dark .border-slate-50  { border-color: rgb(var(--line) / 0.55) !important; }
+.dark .border-slate-100 { border-color: rgb(var(--line) / 0.7) !important; }
+.dark .border-slate-200 { border-color: rgb(var(--line) / 0.9) !important; }
+
+.dark .placeholder-slate-400::placeholder { color: rgb(var(--ink-subtle)); }
+
+/* Soft tinted surfaces used on a handful of views (blue-50, rose-50,
+ * amber-50, etc.) — in dark mode dim them into brand/accent tints. */
+.dark .bg-blue-50       { background-color: rgba(59,130,246,0.10) !important; }
+.dark .bg-blue-100      { background-color: rgba(59,130,246,0.18) !important; }
+.dark .bg-indigo-50     { background-color: rgba(99,102,241,0.10) !important; }
+.dark .bg-rose-50       { background-color: rgba(244,63,94,0.10) !important; }
+.dark .bg-red-50        { background-color: rgba(239,68,68,0.10) !important; }
+.dark .bg-amber-50      { background-color: rgba(245,158,11,0.10) !important; }
+.dark .bg-emerald-50    { background-color: rgba(16,185,129,0.10) !important; }
+.dark .bg-purple-50     { background-color: rgba(168,85,247,0.10) !important; }
+
+.dark .border-blue-100  { border-color: rgba(59,130,246,0.28) !important; }
+.dark .border-blue-200  { border-color: rgba(59,130,246,0.38) !important; }
+.dark .border-red-200   { border-color: rgba(239,68,68,0.38) !important; }
+.dark .border-amber-200 { border-color: rgba(245,158,11,0.38) !important; }
+
+/* Scrollbars — subtle in both modes */
+::-webkit-scrollbar        { width: 10px; height: 10px; }
+::-webkit-scrollbar-track  { background: transparent; }
+::-webkit-scrollbar-thumb  {
+  background: rgb(var(--ink-subtle) / 0.35);
+  border-radius: 9999px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(var(--ink-subtle) / 0.55);
+  background-clip: padding-box;
+}
+
+::selection {
+  background: rgba(59, 130, 246, 0.22);
+  color: inherit;
+}
+
+/* Safe area utilities for notched phones (iPhone X+, Android gesture nav) */
+.safe-area-bottom { padding-bottom: env(safe-area-inset-bottom, 0px); }
+.pb-safe-area { padding-bottom: env(safe-area-inset-bottom, 0px); }
+.safe-area-top { padding-top: env(safe-area-inset-top, 0px); }
+.px-safe-area {
+  padding-left: env(safe-area-inset-left, 0px);
+  padding-right: env(safe-area-inset-right, 0px);
+}
+
+/* ============================================================
+ * RTL (Right-to-Left) support for Arabic (ar) and Urdu (ur)
+ * Set via document.documentElement.dir = "rtl" in MedOSApp.tsx
+ * ============================================================ */
+[dir="rtl"] {
+  /* Base direction */
+  direction: rtl;
+  text-align: right;
+}
+
+/* Flex containers reverse in RTL */
+[dir="rtl"] .flex { direction: rtl; }
+
+/* Fix drawer slide direction (left → right for RTL) */
+[dir="rtl"] aside { left: auto; right: 0; }
+[dir="rtl"] .-translate-x-full { transform: translateX(100%); }
+[dir="rtl"] .translate-x-0 { transform: translateX(0); }
+
+/* Flip margins and paddings for common patterns */
+[dir="rtl"] .ml-auto { margin-left: 0; margin-right: auto; }
+[dir="rtl"] .mr-auto { margin-right: 0; margin-left: auto; }
+[dir="rtl"] .text-left { text-align: right; }
+[dir="rtl"] .text-right { text-align: left; }
+
+/* Fix icon + text alignment in nav items */
+[dir="rtl"] .gap-2 { gap: 0.5rem; }
+[dir="rtl"] .gap-3 { gap: 0.75rem; }
+
+/* Scrollbar on left side for RTL */
+[dir="rtl"] ::-webkit-scrollbar { direction: rtl; }
+
+/* Fix rounded corners (swap left/right) */
+[dir="rtl"] .rounded-tl-sm { border-top-left-radius: 0; border-top-right-radius: 0.125rem; }
+[dir="rtl"] .rounded-tr-sm { border-top-right-radius: 0; border-top-left-radius: 0.125rem; }
+
+/* Large tap targets */
+@media (pointer: coarse) {
+  button, a, select, input, textarea { min-height: 44px; }
+}
+
+/* ============================================================
+ * Mobile-first utilities
+ * ============================================================ */
+
+/* Dynamic viewport height — works on iOS Safari, Android Chrome,
+   and every modern browser. Falls back to 100vh. */
+.h-screen-safe {
+  height: 100vh;
+  height: 100dvh;
+}
+
+/* Sticky input bar that stays above the mobile keyboard.
+   Uses env(keyboard-inset-height) on supporting browsers and
+   falls back to standard sticky positioning elsewhere. */
+.sticky-bottom-keyboard {
+  position: sticky;
+  bottom: 0;
+  bottom: env(keyboard-inset-height, 0px);
+}
+
+/* Prevent iOS input zoom — any input below 16px triggers a zoom.
+   We force 16px minimum on touch devices and compensate with
+   transforms where we need visually-smaller text. */
+@media (pointer: coarse) {
+  input, textarea, select {
+    font-size: 16px !important;
+  }
+}
+
+/* CJK word-break — prevents overflow for Chinese/Japanese/Korean text */
+:lang(zh), :lang(ja), :lang(ko) {
+  word-break: break-all;
+  overflow-wrap: break-word;
+}
+
+/* iOS momentum scrolling */
+.scroll-touch {
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Bottom padding spacer for content that sits above a fixed bottom nav.
+   The 5.5rem accounts for the nav height + safe-area-inset-bottom. */
+.pb-mobile-nav {
+  padding-bottom: 5.5rem;
+}
+@media (min-width: 768px) {
+  .pb-mobile-nav {
+    padding-bottom: 0;
+  }
+}
+
+/* Respect reduced-motion preferences everywhere */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* ============================================================
+ * Print styles — professional PDF export via window.print()
+ * Hides navigation, maximizes content, clean typography
+ * ============================================================ */
+@media print {
+  /* Hide navigation, headers, footers */
+  aside, nav, header, footer,
+  .safe-area-bottom, .pb-mobile-nav,
+  button, [role="navigation"],
+  .md\:hidden, .lg\:flex { display: none !important; }
+
+  /* Full width, no sidebar */
+  body { background: white !important; color: black !important; font-size: 12pt; }
+  .flex-1 { width: 100% !important; max-width: 100% !important; }
+  .overflow-hidden { overflow: visible !important; }
+  .overflow-y-auto { overflow: visible !important; }
+
+  /* Clean card borders for print */
+  .bg-surface-1, .bg-surface-0 { background: white !important; }
+  .border { border-color: #ddd !important; }
+  .shadow-soft, .shadow-card, .shadow-glow { box-shadow: none !important; }
+  .rounded-2xl { border-radius: 8px !important; }
+
+  /* Keep colors readable */
+  .text-ink-base { color: #111 !important; }
+  .text-ink-muted { color: #555 !important; }
+  .text-brand-500, .text-brand-600 { color: #2563eb !important; }
+  .text-danger-500 { color: #dc2626 !important; }
+  .text-success-500 { color: #16a34a !important; }
+
+  /* Page breaks */
+  .stat-card, .rounded-2xl { break-inside: avoid; }
+  h2, h3 { break-after: avoid; }
+
+  /* Print header */
+  @page { margin: 1.5cm; size: A4; }
+}

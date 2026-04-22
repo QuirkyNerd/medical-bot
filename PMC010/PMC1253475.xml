@@ -1,0 +1,482 @@
+<!-- PMCEdits, 12/6/2005, 
+   Edit 1, added boxed-text to campaign materials figure caption 
+   Edit 2, nuke #133 entities.
+--><!-- PMCEdits, 03/28/2024 (peterskm), Edit 3, PMC-55276: fix figures. --><!-- edited with XMLSPY v2004 rel. 3 U (http://www.xmlspy.com) by CDC (private) -->
+<!DOCTYPE article
+PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.3 20210610//EN" "JATS-archivearticle1-3-mathml3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article"><?properties open_access?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Prev Chronic Dis</journal-id><journal-id journal-id-type="iso-abbrev">Prev Chronic Dis</journal-id><journal-title-group><journal-title>Preventing Chronic Disease</journal-title></journal-title-group><issn pub-type="epub">1545-1151</issn><publisher><publisher-name>Centers for Disease Control and Prevention</publisher-name></publisher></journal-meta>
+<article-meta><article-id pub-id-type="pmid">15670431</article-id><article-id pub-id-type="pmc">PMC1253475</article-id><article-id pub-id-type="publisher-id">PCDv13_04_0043</article-id><article-categories><subj-group subj-group-type="heading"><subject>Tools and Techniques</subject></subj-group></article-categories><title-group><article-title>VERB&#x02122; &#x02014; A Social Marketing Campaign to Increase Physical Activity Among Youth</article-title></title-group><contrib-group><contrib contrib-type="author" corresp="yes"><name><surname>Wong</surname><given-names>Faye</given-names></name><degrees>MPH, RD</degrees><aff>VERB Campaign, Division of Adolescent and School Health (DASH), National Center for Chronic Disease Prevention and Health Promotion (NCCDPHP), Centers for Disease Control and Prevention</aff><address><addr-line>4770 Buford Hwy, NE, Mail Stop K-85, Atlanta, GA 30341-3717</addr-line><email>fwong@cdc.gov</email><institution>Centers for Disease Control and Prevention</institution><phone>770-488-6427</phone></address></contrib><contrib contrib-type="author"><name><surname>Huhman</surname><given-names>Marian</given-names></name><degrees>PhD</degrees><aff>VERB Campaign, DASH, NCCDPHP, CDC, Atlanta, Ga</aff></contrib><contrib contrib-type="author"><name><surname>Asbury</surname><given-names>Lori</given-names></name><aff>VERB Campaign, DASH, NCCDPHP, CDC, Atlanta, Ga</aff></contrib><contrib contrib-type="author"><name><surname>Bretthauer-Mueller</surname><given-names>Rosemary</given-names></name><aff>VERB Campaign, DASH, NCCDPHP, CDC, Atlanta, Ga</aff></contrib><contrib contrib-type="author"><name><surname>McCarthy</surname><given-names>Susan</given-names></name><degrees>MPH</degrees><aff>VERB Campaign, DASH, NCCDPHP, CDC, Atlanta, Ga</aff></contrib><contrib contrib-type="author"><name><surname>Londe</surname><given-names>Paula</given-names></name><degrees>MD, PhD</degrees><aff>VERB Campaign, DASH, NCCDPHP, CDC, Atlanta, Ga</aff></contrib><contrib contrib-type="author"><name><surname>Heitzler</surname><given-names>Carrie</given-names></name><degrees>MPH</degrees><aff>VERB Campaign, Division of Nutrition and Physical Activity, NCCDPHP, CDC, Atlanta, Ga</aff></contrib></contrib-group><pub-date pub-type="collection"><month>7</month><year>2004</year></pub-date><pub-date pub-type="epub"><day>15</day><month>6</month><year>2004</year></pub-date><volume>1</volume><issue>3</issue><elocation-id>A10</elocation-id><permissions><copyright-year>2004</copyright-year><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is a publication of the U.S. Government. This publication is in the public domain and is therefore without copyright. All text from this work may be reprinted freely. Use of these materials should be properly cited.</license-p></license></permissions><abstract abstract-type="key-points"><p>The VERB campaign is a multiethnic media campaign with a goal to increase and maintain physical activity among <italic>tweens</italic>, or children aged nine to 13 years. Parents, especially mothers aged 29 to 46, and other sources of influence on tweens (e.g., teachers, youth program leaders) are the secondary audiences of the VERB initiative. VERB applies sophisticated commercial marketing techniques to address the public health problem of sedentary lifestyles of American children, using the social marketing principles of product, price, place, and promotion. In this paper, we describe how these four principles were applied to formulate the strategies and tactics of the VERB campaign, and we provide examples of the multimedia materials (e.g., posters, print advertising, television, radio spots) that were created.</p></abstract></article-meta></front><body><sec sec-type="intro"><title>Introduction</title><p>In response to increased concern about the health of our nation&#x02019;s youth, Congress appropriated $125 million in 2001 to the Centers for Disease Control and Prevention (CDC) to develop a national media campaign to change children&#x02019;s health behaviors. The CDC&#x02019;s response to this broad mandate was to focus on the sedentary lifestyle of young adolescents and to develop VERB&#x02122;, a multiethnic campaign launched in June 2002 to increase and maintain physical activity among tweens, or children aged nine to 13 years. These children are between childhood and adolescence and are beginning to make their own lifestyle decisions. Parents, especially mothers aged 29 to 46, and other sources of influence on tweens (e.g., teachers, youth program leaders) provide the secondary audiences for the VERB initiative.</p><p>During the past 20 years, the combination of decreased physical activity and unhealthful eating has resulted in a doubling of the percentage of overweight children and adolescents (<xref rid="B1" ref-type="bibr">1</xref>). Recent reports indicate that five of every eight children aged nine to 13 do not participate in any organized physical activity during their non-school hours, and almost one fourth do not engage in any free-time physical activity (<xref rid="B2" ref-type="bibr">2</xref>). More than one in seven children aged six to 19 years are overweight (<xref rid="B3" ref-type="bibr">3</xref>), and type 2 diabetes, a disease traditionally restricted to adults, has been reported among adolescents (<xref rid="B4" ref-type="bibr">4</xref>).</p></sec><sec><title>A Social Marketing Framework</title><p>VERB uses a social marketing framework that applies sophisticated commercial marketing techniques to address the public health problem of sedentary lifestyles among American children. The first year of the campaign consisted of national advertising, plus extra marketing activities in nine CDC-selected communities. The CDC based its selection of the nine communities on a variety of factors, including the size of the media market, racial and ethnic diversity, geographic diversity across the United States, existing infrastructure, and population size. Six of the nine communities received even more local advertising so that the CDC could evaluate whether the added media made a measurable difference in behavioral outcomes. These six evaluated communities were called &#x0201c;high-dose&#x0201d; communities.</p><fig position="anchor" id="F1" fig-type="diagram"><caption><title>Nine Communities Receiving Extra Marketing Activities</title></caption><alt-text>A U.S. map on which the following communities are highlighted: Washington DC, Los Angeles, Green Bay (WI), Columbus (OH), Greenville (SC), Houston, Miami, Spokane (WA), Kansas City (MO). Six of the cities (Los Angeles, Green Bay, Houston, Columbus, Greenville, and Miami) are additionally highlighted as high-dose communities.</alt-text><graphic xlink:href="PCD13A10s1" position="float"/></fig><p>Before campaign planners launched or named the campaign, they conducted extensive research on tweens and parents to gain an understanding of their attitudes, beliefs, and behaviors related to participation in physical activity. Research included numerous in-person focus groups, interviews, and ethnographic inquiries among multiethnic groups across the country. Additional audience research was conducted separately with African American, Hispanic/Latino, American Indian, and Asian American tweens and parents to gain deeper insights into their physical activity views and practices. The understandings gained contributed to the creation of VERB, a &#x0201c;for tweens, by tweens&#x0201d; brand that embraces the characteristics valued by tweens. VERB is not an acronym but is the word <italic>verb</italic> as a part of speech, meaning an action word. The tag line is, &#x0201c;It&#x02019;s what you do.&#x0201d; (Formative research reports for the VERB campaign are available from <ext-link xlink:href="http://www.cdc.gov/youthcampaign/research/resources.htm" ext-link-type="uri">http://www.cdc.gov/youthcampaign/research/resources.htm</ext-link>.)</p><p>Campaign planners applied the four <italic>Ps</italic> of commercial marketing &#x02014; product, price, place, and promotion (<xref rid="B5" ref-type="bibr">5</xref>) &#x02014; along with findings from the audience research to develop VERB as a social marketing campaign. In this paper, we describe how the four <italic>Ps</italic> helped to formulate the strategies and tactics of the VERB campaign.</p><sec><title>Product</title><p>In social marketing, <italic>product</italic> is the desired behavior for the targeted audience. The VERB campaign&#x02019;s product is physical activity &#x02014; a voluntary action that requires personal choice and internal motivation if it is to be performed repeatedly. The VERB &#x0201c;sales package&#x0201d; includes the intangible benefits of physical activity (e.g., enjoyment) in addition to tangible objects or services that support behavior change (<xref rid="B6" ref-type="bibr">6</xref>).</p><p>For tweens, choosing to be physically active means giving up something they may like doing better. In today&#x02019;s world, numerous activities compete for tweens&#x02019; attention, and tweens and their parents must overcome many barriers to become physically active, including lack of transportation, safety concerns, cost, and perceived lack of time (<xref rid="B2" ref-type="bibr">2</xref>). Children report spending more than 4.5 hours daily watching television, playing video games, or using the computer; parents report their children&#x02019;s screen time to be almost 6.5 hours daily (<xref rid="B7" ref-type="bibr">7</xref>). The VERB campaign&#x02019;s goal is to win or gain a greater market share of time tweens spend on sedentary activities.</p><p>The campaign&#x02019;s strategy is to influence participation in physical activity by associating it with the benefits that tweens value, such as spending time with friends, playing, having fun, having an opportunity to be active with parents, and gaining recognition from peers and adults. In addition, VERB offers tweens something else they value: the opportunity to explore and discover the world around them. Early VERB advertising stimulated curiosity about the brand and enticed tweens to identify and try the activities or VERBs (e.g., swim, run, jump) that most appealed to them.</p></sec><sec><title>Price</title><p>
+<italic>Price</italic> represents a balance of product benefits and costs to a consumer. When contemplating the purchase of a tangible product such as a tennis racquet, for example, a consumer balances the potential benefits of playing tennis against the price tag (<xref rid="B5" ref-type="bibr">5</xref>,<xref rid="B6" ref-type="bibr">6</xref>). When the product is behavior change, the concept still holds: what are the benefits and costs of changing behavior (<xref rid="B8" ref-type="bibr">8</xref>)? For physical activity, the costs can be financial (e.g., price of dance classes), psychological (e.g., the tween does not &#x0201c;feel good enough&#x0201d; to participate in physical activity or organized sports), environmental (e.g., the neighborhood does not have sidewalks), or related to time (e.g., both parents work, leaving tweens with no time for supervised physical activity). VERB messages are designed to convince tweens and their parents that physical activity has the &#x0201c;right price&#x0201d; &#x02014; that benefits outweigh costs.</p><p>Audience research yielded numerous insights into how tweens and parents view the benefits of physical activity; the CDC thus had information to show how the benefits of physical activity exceed those of non-active pursuits. The VERB campaign weaves these benefits throughout its messages, strategies, and tactics to make physical activity appealing and inviting to tweens.</p></sec><sec><title>Place</title><boxed-text position="float"><fig position="float" id="F2" fig-type="illustration"><caption><p>Download the VERB Coolness Tip Sheet (PDF 313K)</p></caption><alt-text>The VERB coolness tip sheet</alt-text><media xlink:href="04_0043_01.pdf" id="F2M1" position="anchor"/><graphic xlink:href="PCD13A10s2" position="float"/></fig></boxed-text><p>
+<italic>Place</italic> is where the target audience either performs the behavior or accesses programs or services; place must be readily available to enable the desired action (<xref rid="B5" ref-type="bibr">5</xref>,<xref rid="B6" ref-type="bibr">6</xref>). A VERB place is where tweens can be physically active in a safe environment. As interest or demand rises, parents and communities need to increase the supply of accessible places and opportunities for tweens to be active every day. If the supply side is inadequate or inaccessible, tweens cannot act on their interest and intent to be more active. For VERB, a place may be a backyard, youth-serving organization, community-based organization, church, park or recreation department, school, public or private sports organization, business, government agency, or any other place that can provide facilities and year-round or periodic event-based opportunities for tweens to be physically active and have fun.</p><p>Partner organizations such as parks, schools, and youth-serving organizations can reap the benefits of tweens&#x02019; affinity for the VERB brand and interest in becoming more active. Keeping VERB a &#x0201c;cool brand for tweens&#x0201d; is a critically important goal for partners as they collaborate on the campaign. (More information on keeping VERB &#x0201c;cool&#x0201d; is available from the VERB Coolness Tip Sheet.)</p></sec><sec><title>Promotion</title><p>
+<italic>Promotion</italic> is not simply the placement of advertisements &#x02014; communication messages and activities are included as well, and those in charge of promotions must consider multiple ways to reach the target audience to promote the benefits of the behavior change, including its product, price, and place components (<xref rid="B6" ref-type="bibr">6</xref>,<xref rid="B7" ref-type="bibr">7</xref>). The following sections provide descriptions and examples of the VERB campaign&#x02019;s messaging strategies, advertising and marketing strategies, and campaign tactics for reaching tweens and parents.</p><sec><title>Messaging strategies</title><p>Advertising and promotions do more than merely sell the features of a product; they depict a lifestyle that consumers aspire to achieve. By association, consumers perceive the product as providing the means to a desired outcome. In commercials, for example, a soft drink is more than a drink; it is a social experience. Running shoes are more than footwear; they make a statement about an individual&#x02019;s lifestyle. In the VERB campaign, commercial strategies for marketing to youth are applied to public health and used to &#x0201c;sell&#x0201d; physical activity to tweens, creating a distinct brand culture for VERB.</p><p>VERB aims to sell physical activity to consumers, but boys and girls cannot simply go to a store to buy it. Rather, tweens must develop a positive disposition to physical activity through a positive association and relationship with the VERB brand. To make the product of physical activity compelling and cool to tweens, VERB messages diverge from the &#x0201c;just-the-facts&#x0201d; delivery that is central to many public health campaigns. Rather than say, &#x0201c;Engage in moderate-to-vigorous physical activity for at least 60 minutes each day,&#x0201d; the campaign asks tweens to discover new activities they like to do.</p><p>The fact that the campaign&#x02019;s brand name, VERB, immediately connotes action increases the audience&#x02019;s comprehension of the brand. To inspire tweens to do their own VERBs (physical activities), the campaign does not simply <italic>tell</italic> tweens that physical activity is for all tweens, it <italic>shows</italic> them with appealing visuals. Casting for television and print ads includes children of varied racial and ethnic backgrounds, body weights, and ability levels &#x02014; including children with disabilities &#x02014; to convey a sense of &#x0201c;kids like me do this&#x0201d; and &#x0201c;I can do that.&#x0201d; VERB shows tweens playing backyard games in addition to participating in organized physical activities such as team sports.</p><p>If tweens are inspired by a VERB commercial and motivated to be active, parents will more likely support their participation. Had the campaign&#x02019;s strategy primarily focused on asking parents to encourage their children to be active, however, tweens might not have embraced VERB as their own brand. The campaign would have taken on a parenting agenda rather than becoming something for tweens. Notably, VERB features positive &#x0201c;can do&#x0201d; messages, not negative adult-delivered or adult-enforced &#x0201c;must do&#x0201d; or &#x0201c;don&#x02019;t do&#x0201d; messages.</p><p>Parents and others who influcence tweens are asked to support, recognize, and praise children for being active; to encourage them to try new activities; and to be physically active as a family or group. VERB gives tips on how to communicate to tweens and engage them in being active in creative, positive, and fun ways. At the same time, facts on the health risks of inactivity and excessive screen time and on the benefits of being physically active are messages for adults. The messages are further tailored for different audiences, especially ethnic audiences, to address the specific parenting priorities learned through audience research.</p><p>All VERB campaign messages and the way they are presented in ads (i.e., television, radio, print) are tested with tween-aged focus groups to ensure they are motivating, clearly understood, and resonating positively. The messages are tested primarily with mothers to ensure they are acceptable and not offensive or inappropriate.</p></sec><sec><title>Advertising and marketing strategies</title><boxed-text position="float"><fig position="float" id="F3" fig-type="illustration"><caption><title>VERB&#x02122; Bumper sticker ad</title><p>
+<named-content content-type="label">Poster Image:</named-content> A car is covered with a humorously large number of bumper stickers, all of them describing the sports in which the owners' children participate.</p><p>
+<named-content content-type="label">Poster Text:</named-content> Encourage your kids to try new things.</p><p>Getting your kids out, active, and participating in new and different activities helps them build self esteem, gain confidence, and feel better. With your help and inspiration, you, too, could see a change in your child over time (as well as your car). VERB. It's getting kids into action.</p><p>
+<named-content content-type="label">Legal Text:</named-content> For more information visit VERBparents.com
+HHS logo, CDC Logo, VERB logo</p></caption><alt-text>VERB "Bumber sticker" poster</alt-text><graphic xlink:href="PCD13A10s3" position="float"/></fig></boxed-text><p>The VERB campaign strives for high brand awareness and affinity among tweens. The theory is that when tweens are positively bonded with VERB, they will be more receptive to messages about physical activity. In the first year of VERB, marketing efforts were dedicated to creating and introducing the VERB brand to tweens. As a previously nonexistent brand, VERB initially had no value to tweens. To sell VERB successfully to tweens as &#x0201c;their brand for having fun,&#x0201d; the campaign associates itself with popular kids&#x02019; brands, athletes, and celebrities, and activities and products that are cool, fun, and motivating.</p><p>Communications for parents and tweens are separated from each other to maintain tweens&#x02019; positive affinity for the VERB brand and to avoid associating physical activity with something adults say &#x0201c;they have to do.&#x0201d; Tweens&#x02019; interests and trends evolve rapidly, whether the subject is music, clothing, electronics, or the enjoyment of being active. It is all about being &#x0201c;cool&#x0201d; to their friends and doing what&#x02019;s popular. The delicate balance of keeping the VERB brand cool for tweens while relying on parents and other adult influencers&#x02019; support to help them be active is an ongoing campaign challenge.</p><p>VERB is distinct from traditional public service announcement (PSA) campaigns because advertising placement is purchased. In the first year of VERB, the campaign averaged 115 weekly gross rating points<xref rid="FN1" ref-type="fn">1</xref> (GRPs) in the national television media market with 50 percent more GRPs in the high-dose communities. The purchase of media enables the campaign to control when and where advertising appears and to concentrate ad placement in delivery channels that reach the most tweens; popular delivery channels include kids&#x02019; television networks (e.g., Nickelodeon, Cartoon Network) and teen magazines (e.g., <italic>Teen People, Seventeen</italic>). Furthermore, it assures that tweens are sufficiently exposed to the advertising to recognize and develop a personal relationship with the brand and to understand the campaign&#x02019;s messages to become active and have fun doing it. Having the funding to purchase media placements allows VERB to compete with commercial youth marketers to capture the attention and brand loyalty of tweens.</p></sec><sec><title>Campaign tactics</title><p>VERB employs a broad mix of campaign tactics to reach tweens and their parents. The campaign is designed to surround tweens at home, in school, and in the community to give VERB visible presence in tweens&#x02019; everyday lives.</p><boxed-text position="float"><fig-group position="anchor" id="fg1"><caption><title>Campaign Materials</title></caption><!-- First television spot - "Hip Hop Scotch" --><fig position="anchor" id="fg1f1"><caption><title>"Hip Hop Scotch"</title><!-- Edit 3 --><p>Watch "Hip Hop Scotch" VERB TV spot (RM 1.9mb)</p></caption><alternatives><media xlink:href="PCD13A10s5.rm" id="fg1f1m1" position="anchor" mimetype="video" mime-subtype="vnd.rn-realmedia"/><graphic xlink:href="PCD13A10s4" position="float"/></alternatives><p content-type="transcript" id="fg1f1m1t">30-second Television Spot
+<speech><speaker>VISUALS</speaker><p>Different shots all taking place at Mecca Park in Houston, Texas. The lead tween introduces herself as &#x0201c;Andrea&#x0201d; and explains how to play a game called &#x0201c;Hip-Hop Scotch.&#x0201d; Spot opens with a stop-motion shot of tweens dancing. Shots featured are close-ups of the kids, as well as tweens playing the game. A hip-hop beat accompanies the shots of children and the game, while the rules are explained with voice-over. Title graphics of key words and images appear throughout, such as &#x0201c;Hip Hop Scotch,&#x0201d; &#x0201c;Dance Moves,&#x0201d; and a diagram of the boxes. Additional shots include kids playing the game and dancing, and a stop-motion shot of girl dancing. The spot ends with an aerial shot of a group of kids looking up and saying the tagline, &#x0201c;VERB, It&#x02019;s what you do,&#x0201d; as graphic animation depicting the logo and tagline fade in. The closing shot is a graphic with the word &#x0201c;VERB&#x0201d; being written with chalk on asphalt.</p></speech>
+<speech><speaker>GIRL TWEEN</speaker><p>Andrea: Hey, I&#x02019;m Andrea and we play at Mecca Park in Houston, Texas.</p><p>We&#x02019;ve got lots of VERBs here. Some games we even make up. Here&#x02019;s one we call Hip-Hop Scotch.</p><p>(Title Graphic&#x02014; &#x0201c;Andrea&#x0201d;/&#x0201c;Hip-Hop Scotch&#x0201d;)</p><p>Andrea: It&#x02019;s old school meets new school. You draw boxes, but instead of numbers you write in dance moves like spin, bounce, step, or shake. (Title Graphic&#x02014; &#x0201c;Dance Moves&#x0201d;)</p><p>Andrea: Wherever it lands, that&#x02019;s your thing. If it lands in the question mark, do anything. (Title Graphic&#x02014; &#x0201c;Do anything&#x0201d;)</p><p>Andrea: That&#x02019;s &#x0201c;Hip-Hop Scotch&#x0201d; in Houston. Every day is game day.</p></speech>
+<speech><speaker>GIRL TWEEN</speaker><p>Girl Tween 2 &#x00026; 3: So get out there and go play! (Title Graphic&#x02014; &#x0201c;Go Play&#x0201d;)</p></speech>
+</p></fig><!-- Second television spot - &#x0201c;Future&#x0201d;" --><fig position="anchor" id="fg1f2"><caption><title>"Future"</title><!-- Edit 3 --><p>Watch "Future" VERB TV spot (RM 3.6mb)</p></caption><alternatives><media xlink:href="PCD13A10s7.rm" id="fg1f2m1" position="anchor" mimetype="video" mime-subtype="vnd.rn-realmedia"/><graphic xlink:href="PCD13A10s6" position="float"/></alternatives><p content-type="transcript" id="fg1f2m1t">60-second Television Spot
+<speech><speaker>VISUALS</speaker><p>A father in his mid-30s returns home from work feeling very tired. When he steps into his house, he sees his two children (aged ten and seven years) playing video games in the living room. At that point, he feels very proud and happy that he has provided a comfortable environment for his children. But when he glances through a picture of himself and his parents taken during his graduation, it triggers his memory of the old days, and then we see a flash-back of him. When he was a young child, his parents always took him out to play and supported him in all kinds of physical activities. All these activities helped him to become a healthy and well&#x02013;balanced person. We then we see him back in today&#x02019;s life. He decides that he shouldn&#x02019;t give himself any more excuses and should be like his parents in helping his children to step into a brighter future. He takes out his baseball gloves and together with his wife, takes the children out to play. The voice-over reminds the audience that physical activities can help children do better in school, boost their confidence, and help develop both their body and mind. The spot ends with a call to action telling parents and adults that they need to encourage children to have 60 minutes of physical activity every day, as the words &#x0201c;VERB &#x02014; A Campaign To Build Healthy Children&#x0201d; appear on the screen.</p></speech>
+<speech><speaker>ADULT VOICE&#x02013;OVER</speaker><p>If you want your children to step into a brighter future, encourage them to participate in more physical activities. It could help them do better in school and boost their confidence for tomorrow&#x02019;s challenges!</p></speech>
+<speech><speaker>ADULT VOICE&#x02013;OVER</speaker><p>Girl Tween 2 &#x00026; 3: So get out there and go play! (Title Graphic&#x02014; &#x0201c;Go Play&#x0201d;)</p></speech>
+<speech><speaker>SIGN&#x02013;OFF</speaker><p>VERB&#x02122;</p><p>A campaign to build healthy children</p><p>www.VERBparents.com</p></speech>
+<speech><speaker>SIGN&#x02013;OFF</speaker><p>U.S. Department of Health and Human Services</p><p>Centers for Disease Control and Prevention</p></speech>
+</p></fig><!-- First radio spot - "Hip Hop Scotch" --><fig position="anchor" id="fg1f3"><caption><title>"Hip Hop Scotch"</title><!-- Edit 3 --><p>Hear "Hip Hop Scotch" VERB radio spot </p></caption><media xlink:href="PCD13A10s8.mp3" id="fg1f3m1" position="anchor"/><!-- generic picture of speaker --><graphic xlink:href="PCD13A09s15" position="float"/><p content-type="transcript" id="fg1f3m1t">30-second Radio Spot
+<speech><speaker>VOICE-OVER</speaker><p>Hey, check out these kids who made up their own VERB&#x02026;</p></speech>
+<speech><speaker>VOICEOVER</speaker><p>ANDREA: Hey, I'm Andrea and we play in Houston, Texas. We've got lots of VERBs here, some games we even make up. Here's one we call "Hip-Hop Scotch." You draw boxes. But instead of numbers, you write in dance moves. Like spin . . . bounce . . . or shake. Wherever it lands, that's your thing! If it lands on the question mark, do anything. That's "Hip Hop Scotch" in Houston.</p></speech>
+<speech><speaker>VOICE-OVER</speaker><p>Everyday is game day, so get out there and go play.</p></speech>
+<speech><speaker>VOICEOVER</speaker><p>For more cool games, log on to VERB at VERBnow.com.</p><p>VERB. It's what you do.</p><p>Made Possible by the U.S. Department of Health and Human Services and the Centers for Disease Control and Prevention.</p></speech>
+</p></fig></fig-group></boxed-text><sec><title>Paid media advertising</title><p>The primary vehicle for reaching into the home is paid advertising in general market and ethnic media channels. VERB commercials air on age-appropriate television and radio channels such as Cartoon Network, Nickelodeon, The WB, ABC Saturday Morning Disney (including Radio Disney), Telemundo, and BET. Print advertising is placed in youth publications such as <italic>Sports Illustrated for Kids, TIME for Kids, Teen People,</italic> and <italic>xSeventeen</italic>. Examples of parent publications include <italic>Family Circle, Parent Magazine, Ebony,</italic> and <italic>Indian Country Today</italic>. Spanish and Asian in-language advertising and advertorials appear in publications such as <italic>Korea Times, World Journal</italic>, and <italic>Los Padres</italic>. (An inventory of current VERB advertising is available from <ext-link xlink:href="http://www.cdc.gov/youthcampaign/advertising/index.htm" ext-link-type="uri">http://www.cdc.gov/youthcampaign/advertising/index.htm</ext-link>.)</p></sec><sec><title>Added-value opportunities</title><p>In addition to paid media placements, the campaign negotiates added-value opportunities from media partners. VERB&#x02019;s media partners donate their talent and properties or placements to help promote VERB&#x02019;s physical activity messages to tweens. For example, media partners have produced VERB PSAs using their television talent, such as the stars of The WB&#x02019;s <italic>Gilmore Girls</italic> and <italic>7<sup>th</sup> Heaven</italic> and properties such as Disney&#x02019;s <italic>Kim Possible</italic> and Cartoon Network&#x02019;s <italic>Courage the Cowardly Dog</italic>. The PSAs are aired in prime time during these shows. For parents, The WB produced VERB PSAs featuring Reba McEntire and CBS produced VERB PSAs featuring Deion Sanders. Other examples include VERB sponsorship of Nickelodeon&#x02019;s <italic>Wild and Crazy Kids Show, Sports Illustrated for Kids&#x02019; Road Show</italic>, and <italic>Teen People&#x02019;s Break for the Beach</italic>. These added-value PSAs and sponsorships increase the &#x0201c;cool factor&#x0201d; and marketing reach of the VERB campaign among tweens.</p></sec><sec><title>Activity promotions</title><p>Several times a year, VERB features promotions that invite community-based organizations and schools throughout the United States to participate. For example, in 2003, VERB proclaimed the day of the summer solstice (the longest day of the year) as the &#x0201c;Longest Day of Play&#x0201d; and created a promotion with Radio Disney to motivate tweens to be active all day long. During fall 2003, when the clocks were turned back one hour from daylight saving to standard time, VERB featured its &#x0201c;Extra Hour for Extra Action&#x0201d; (EHEA) promotion, which included a kit of innovative and fun VERB materials for teachers and youth-serving organizations to use in activating tweens. Participating EHEA schools and organizations were eligible to apply for a small grant to support physical activity at the end of the three-week promotion.</p><fig position="anchor" id="f4" fig-type="illustration"><caption><title>Download the Weekly Reader (PDF 477K)</title><p>
+VERB&#x02122; &#x02014; A Social Marketing Campaign to Increase Physical Activity Among Youth
+</p><!--								<p>VERB&#x02122; <italic>Weekly Reader</italic>
+</p>
+<p>Dear Educator,</p>
+<p>As you well know, patterns of behaviors that impact short- and long-term health&#x000a0;are established during childhood and adolescence. Roughly one-third of all young people ages 12 to 21 are not vigorously active on a regular basis.<xref ref-type="fn" rid="foot1">1</xref> And, the percentage of young people who are overweight has tripled since 1980.<xref ref-type="fn" rid="foot2">2</xref> For these reasons, the U.S. Department of Health and Human Services' Centers for Disease Control and Prevention (CDC) created the VERB.&#x02122; campaign. In support of this important effort, Weekly Reader Custom Publishing is pleased to bring you these classroom activities and video called <italic>VERB.&#x02122; It's what you do. In School. In Action</italic>. These Weekly Reader materials support the VERB multicultural, national media campaign to motivate all children ages 9 to 13 ("tweens") to get active in positive ways. The VERB initiative highlights enriching and healthy lifestyles, while helping to displace unhealthy, risky behaviors.</p>
+<p>Compared to inactive kids, research shows that children who are active experience higher self-esteem and confidence, reduced stress and anxiety, and improved overall health.<xref ref-type="fn" rid="foot3">3</xref> Children should aim for at least 60 minutes of moderate-to-vigorous physical activity five days a week, preferably daily.<xref ref-type="fn" rid="foot4">4</xref> But the VERB campaign isn't only about physical activity &#x02014; it also includes encouraging kids to get involved with family and positive groups, such as teams, clubs, community groups or religious organizations. It promotes social connectedness and positive family relationships. The intent is to get young people up and moving! To reach this goal, we are enlisting your help as well as help from parents and guardians.</p>
+<p>We hope that these materials are useful and will help encourage and inspire your students to explore new interests and find enjoyment in all kinds of activities. Please feel free to share these materials with your colleagues and adapt them to a variety of courses, including science, language arts and social studies, as well as health and physical education (see Extension Ideas on page 3). Although these printed materials are copyrighted, they may be reproduced for educational purposes. Please take a moment to complete the enclosed educator feedback form and reply card to help us prepare future educational materials.</p>
+<p>Sincerely,</p>
+<p>Katy Dobbs</p>
+<p>Editorial Director</p>
+<p>Weekly Reader Custom Publishing</p>
+<p>The video "<italic>VERB.&#x02122; It's what you do. In School. In Action"</italic> is not available.</p>
+<p>
+<fn id="foot1">
+<label>1</label>
+<p>"Youth Risk Behavior Surveillance: United States, 2001."</p>
+</fn>
+<fn id="foot2">
+<label>2</label>
+<p>"Overweight Among U.S. Children and Adolescents." National Center for Health Statistics, 2002.</p>
+</fn>
+<fn id="foot3">
+<label>3</label>
+<p>"Guidelines for Schools and Community Programs to Promote Lifelong Physical Activity Among Young People." Centers for Disease Control and Prevention, 1997.</p>
+</fn>
+<fn id="foot4">
+<label>4</label>
+<p>"CDC's Guidelines for School and Community Programs: Promoting Lifelong Physical Activity." Centers for Disease Control and Prevention, 2000.</p>
+</fn>
+</p>
+<p>
+<bold>Target Audience</bold>
+</p>
+<p>Students in grades 4 and 5</p>
+<p>
+<bold>Program Objectives</bold>
+<list list-type="bullet">
+<list-item>
+<p>To motivate students in grades 4 and 5 to get positively active in ways that are physical and done in organized groups.</p>
+</list-item>
+<list-item>
+<p>To promote healthy lifestyles among this age group and displace unhealthy, risky behaviors.</p>
+</list-item>
+<list-item>
+<p>To encourage tweens to try something new, find activities they enjoy doing and keep doing them.</p>
+</list-item>
+</list>
+</p>
+<p>
+<bold>Teacher Object</bold> To convey to students and parents the benefits of being active: improved health; self-expression, aspirations for the future and fun; enhanced sense of well-being and social belonging; enhanced self-esteem and confidence.</p>
+<p>These materials address components of the National Education Standards for Level II: Health
+									<list list-type="bullet">
+<list-item>
+<p>Standard 7 &#x02014; Knows how to maintain and promote personal health.</p>
+</list-item>
+</list>
+</p>
+<p>
+<bold>Physical Education</bold>
+</p>
+<p>
+<list list-type="bullet">
+<list-item>
+<p>Standard 3 &#x02014; Understands the benefits and costs associated with participation in physical activity.</p>
+</list-item>
+<list-item>
+<p>Standard 4 &#x02014; Understands how to monitor and maintain a health-enhancing level of physical fitness.</p>
+</list-item>
+<list-item>
+<p>Standard 5 &#x02014; Understands the social and personal responsibility associated with participation in physical activity.</p>
+</list-item>
+</list>
+</p>
+<p>
+<named-content content-type="label">Program Components</named-content>
+<list list-type="bullet">
+<list-item>
+<p>Four reproducible student pages</p>
+</list-item>
+<list-item>
+<p>Four-page teacher's guide (including a reproducible letter for parents)</p>
+</list-item>
+<list-item>
+<p>A five-minute video, Keep Moving</p>
+</list-item>
+<list-item>
+<p>One sheet of 30 stickers</p>
+</list-item>
+<list-item>
+<p>A wall poster</p>
+</list-item>
+<list-item>
+<p>A teacher feedback form and reply card</p>
+</list-item>
+</list>
+</p>
+<p>
+<bold>Getting Started</bold>
+</p>
+<p>Show your class the five-minute video, Keep Moving, that shows kids how to be active throughout their day, have fun finding out what they like to do, and enjoy those things with their friends. Ask your students if they identify themselves with any of the kids seen in the video.</p>
+<p>Prior to distributing the activity sheets to your students, discuss with them what kinds of activities they like to do. Take a tally to see which activities are the most popular. Ask students how often they do these activities, and with whom they do them.</p>
+<p>It is important that all students participate, all ideas are welcome and students are encouraged to name more than sedentary behaviors like watching TV and playing video games.</p>
+<p>
+<bold>VERB. Why you do it.</bold>
+</p>
+<p>
+<bold>Background and Objective</bold>
+</p>
+<p>This first student page focuses on the benefits of participating in physical activities such as sports and dance. Physical activities can be prosocial: in a club, group or on a team. This first lesson serves as a motivator for kids to get active. Some reasons for them to be active are:
+									<list list-type="bullet">
+<list-item>
+<p>it is fun</p>
+</list-item>
+<list-item>
+<p>they can spend time with friends, family and neighbors</p>
+</list-item>
+<list-item>
+<p>they might discover a hidden talent or skill, or find something that they really love to do</p>
+</list-item>
+<list-item>
+<p>activities are a way to express themselves and communicate what they like to do</p>
+</list-item>
+</list>
+</p>
+<p>
+<bold>Activity</bold>
+</p>
+<p>Review with your class the reasons for getting active. Brainstorm what they do that is active and fun, who they do it with, what new things they have discovered that they like doing and how these things express who they are and what interests they have.</p>
+<p>*Note: Competitive activities aren't for everyone &#x02014; as a matter of fact, competition can take the fun out of being active. Try to encourage a full range of activities so all children can have fun.</p>
+<p>Encourage your students to get active &#x02014; get their bodies and their minds moving. Children should be spending at least 60 minutes a day, at least five days a week, participating in a variety of moderate-to-vigorous physical activity individually, with friends or in an organized group. They should also consider participating in organized (or prosocial) activities such as painting, volunteering, playing in a marching band or singing. Organized (or prosocial) activities will help them build alliances with family, organized peer groups and conventional institutions, and will help to displace unhealthy, risky behavior.</p>
+<p>*Note: Be supportive of your students' efforts to get moving. If they find enjoyment from being active, it is more likely that they will incorporate activity into their lifestyle for the long-term.</p>
+<p>
+<bold>What's your VERB?</bold>
+</p>
+<p>
+<bold>Background and Objective</bold>
+</p>
+<p>This page helps students develop a plan to discuss their VERBs.</p>
+<p>It entails
+									<list list-type="bullet">
+<list-item>
+<p>setting a goal</p>
+</list-item>
+<list-item>
+<p>doing the activity</p>
+</list-item>
+<list-item>
+<p>keeping track of when they are active and the activities they try</p>
+</list-item>
+<list-item>
+<p>mixing it up to keep things new and exciting</p>
+</list-item>
+<list-item>
+<p>rewarding themselves for their efforts</p>
+</list-item>
+</list>
+</p>
+<p>
+<bold>Activity</bold>
+</p>
+<p>After discussing the page as a class, talk about each student's plan for getting active. Ask your students their main reasons for being active. How do they plan on reaching their goals? For example, if their goal is to do more things with their peers, they might join a local soccer team or take an after-school dance class.</p>
+<p>Talk about the ideas for getting active found at the bottom of the activity page. Remind students that being active and finding their VERB doesn't necessarily mean joining a sports team or paying to use an ice skating rink. Being active is about getting up and doing something fun &#x02014; it can be as simple as volunteering, helping to clean up a park, taking a walk or jog with a parent or dancing in the living room with a friend.</p>
+<p>Divide your students into groups and give each group some equipment (i.e., a basketball and 10 cones, a Frisbee&#x000ae; and a hula hoop, a football and two jump ropes, etc.). Ask students to develop a game using all of their equipment. Have groups demonstrate their games for the class.</p>
+<p>*Note: Students with disabilities can also be active. Recognize their physical abilities and be creative. Visit www.americasathletes.org or www.dsusa.org for more information.</p>
+<p>
+<bold>Some Resources</bold>
+</p>
+<p>
+<bold>Student Sites</bold>
+</p>
+<p>http://www.verbnow.com</p>
+<p>http://www.bam.gov</p>
+<p>www.kidnetic.com</p>
+<p>www.seventeen.com/VERB</p>
+<p>www.cdc.gov/powerfulbones</p>
+<p>
+<bold>Parent Sites</bold>
+</p>
+<p>http://www.verbparents.com</p>
+<p>www.healthykids.com</p>
+<p>www.fitfamilyfitkids.com</p>
+<p>www.walkingschoolbus.org</p>
+<p>www.ymca.net</p>
+<p>www.bgca.org</p>
+<p>
+<bold>Teacher and Professional Sites</bold>
+</p>
+<p>www.cdc.gov/youthcampaign</p>
+<p>www.bam.gov/teachers</p>
+<p>http://www.fitness.gov</p>
+<p>www.cdc.gov/nccdphp/dash</p>
+<p>www.cdc.gov/nccdphp/dnpa</p>
+<p>www.americasathletes.org</p>
+<p>www.dsusa.org</p>
+<p>www.pecentral.com</p>
+<p>www.pepgrant.info/newpe.htm</p>
+<p>www.aka.org.au</p>
+<p>
+<bold>VERB. Where you do it.</bold>
+</p>
+<p>
+<bold>Background and Objective</bold>
+</p>
+<p>This page asks students to find information about where they can do the VERBs they like to do.</p>
+<p>
+<bold>Activity</bold>
+</p>
+<p>Students should look for community events and local organizations, including team sports, volunteer organizations, religious groups and after-school programs in their neighborhood. Give them time in class to find this information. Provide students access to conduct this research, such as the Internet, phone books, local newspapers and the library. After students have compiled their research, discuss the information as a class so that as many local organizations and facilities as possible are talked about and explored.</p>
+<p>Note: Consider inviting a representative from a local organization, such as Boys &#x00026; Girls Clubs, YMCA, or Parks &#x00026; Recreation, to talk to the class about activity options, and/or demonstrate activities in which students showed an interest.</p>
+<p>
+<bold>Stickers</bold>
+</p>
+<p>Make a class chart, or have each student make their own chart, to keep track of how many times a week each student is active. When they are active twice a week, give each student a VERB sticker to keep them motivated. Other rewards for being active can include:
+									<list list-type="bullet">
+<list-item>
+<p>Select from one of the activities brainstormed in Activity Two to try as a class on the playground.</p>
+</list-item>
+<list-item>
+<p>Play a card game or board game after students are done with their schoolwork.</p>
+</list-item>
+<list-item>
+<p>Present the class' favorite activity to a younger grade, and tell them why it's fun to get moving.</p>
+</list-item>
+<list-item>
+<p>As a group or class, organize an activity at your school's Field Day or Wellness Day.</p>
+</list-item>
+</list>
+</p>
+<p>
+<bold>Parent Letter</bold>
+</p>
+<p>On the back of the teacher's guide there is a reproducible letter for you to share with your students' parents and guardians. It is very important to convey to parents the importance of activity in their child's life, as well as the need for their support and encouragement. At the same time, we want to ensure that activity remains fun for kids. Therefore, we request that you distribute these letters to parents and guardians directly by mailing the letter home, sending it in a PTA distribution or with report cards or saving it for parent-teacher conferences.</p>
+<p>
+<bold>To encourage parents to engage their children in positive activities, try these ideas.</bold>
+<list list-type="bullet">
+<list-item>
+<p>Suggest that neighboring parents take turns supervising their children as they play together after school. This helps to keep the kids in a safe environment.</p>
+</list-item>
+<list-item>
+<p>Encourage the PTA to form a parent/guardian committee that is responsible for organizing group activities, such as a "walk to the park" night, chalk fest on the pavement, softball game or rollerblading in the school parking lot. Work with your school's principal so that school property can be open beyond school hours to be available for activities and gatherings organized by this committee.</p>
+</list-item>
+<list-item>
+<p>Encourage parents, when feasible, to implement a "Walking School Bus" where parents take turns accompanying children walking to school and "picking up" others as they go. For more information, visit www.walkingschoolbus.org.</p>
+</list-item>
+</list>
+</p>
+<p>
+<bold>VERB. It's what I do.</bold>
+</p>
+<p>
+<bold>Background and Objective</bold>
+</p>
+<p>This activity page will give your students the opportunity to think about the things they like to do and write about them.</p>
+<p>
+<bold>Activity</bold>
+</p>
+<p>Ask your students to list activities they like to do, new things that they've tried recently, new things they'd like to try and five active things that they've done this week. This activity page can serve as a template that can be used multiple times, so the students are constantly encouraged to try new things and keep active throughout the week.</p>
+<p>You can also have students make their own VERB poster. Ask them to cut out magazine and newspaper clippings of their favorite ways to get active. Tell them to use verbs, or action words, associated with those activities to create a poster encouraging other people to get active. Display the posters in the hallways, gym and cafeteria.</p>
+<p>Ask students to keep a journal of their activities. Hold weekly discussions on how many times a week your students are active, what new positive activities they are trying, where they are going to be active, etc. When a new activity or location is mentioned, ask that student to write it on a large index card and then decorate the card. Post these on a bulletin board as a reminder of all the possible activities that are out there for them to try.</p>
+<p>
+<bold>Extension Ideas Curricula Links</bold>
+</p>
+<p>Teachers and schools can also incorporate activity into learning.
+									<list list-type="bullet">
+<list-item>
+<p>Schedule regular recess and PE classes.</p>
+</list-item>
+<list-item>
+<p>Incorporate lessons from New PE, making physical education appropriate for everyone. For more information, visit www.pepgrant.info/newpe.htm.</p>
+</list-item>
+<list-item>
+<p>Do not use physical activity as a punishment (doing laps for being late).</p>
+</list-item>
+<list-item>
+<p>Do not withhold PE or recess as a punishment.</p>
+</list-item>
+</list>
+</p>
+<p>Look for ideas to integrate activity and movement into your everyday lesson plans. It makes learning more fun, and will grab students' attention. Try these fun ideas to get you started. They can be adapted across multiple areas of the curricula.</p>
+<p>
+<bold>Go Fly A Kite</bold></p>
+<p>Teach your students about gravity, aerodynamics and wind by making and flying a kite. Visit the Australian Kite Association at www.aka.org.au for more information on lesson links and instructions.</p>
+<p>
+<bold>Energize Yourself</bold></p>
+<p>Convey the difference between Potential Energy and Kinetic Energy by giving students directives, such as march in place, take five steps forward, etc.</p>
+<p>
+<bold>VERBstorm</bold></p>
+<p>Give students, or groups of students, a verb such as twist, run, fly or groove, and ask them to list and demonstrate all of the activities and games that come to mind.</p>
+<p>
+<bold>VERBs I Do</bold></p>
+<p>Ask each student to write his or her first name vertically down the page. For each letter, ask them to write a verb that relates to them.</p>
+<p>
+<bold>Geography Movement</bold></p>
+<p>Give each group of students a region of the United States. For each state in their region, they should list the kinds of activities that can be done given the state's topography, climate, location, etc. As a class, discuss what the students came up with. For example: In how many states can you ski? Go swimming in the ocean? Take a dip in a lake?</p>
+<p>
+<bold>Freeze Facts</bold></p>
+<p>Make index cards with questions and answers to any topic you are studying. Now, play freeze tag outside or in the gym. Start by asking three-quarters of your class to skip, hop, jog or leap around. The other quarter (wearing different colored shapes taped to their shirts for distinction) tags them frozen. In order to be released, they must answer a question asked by any tagger correctly. Switch the taggers every couple of minutes to give everyone a turn.<xref ref-type="fn" rid="Foot5">5</xref>
+</p>
+<p>
+<fn id="Foot5">
+<label>5</label>
+<p>Adapted from an activity on PE Central, www.pecentral.com.</p>
+</fn>
+</p>
+<p>
+<bold>Media Literacy</bold></p>
+<p>Have children count how many media messages (TV, radio, billboards, magazines, etc.) that they see in one day encouraging inactivity (promoting video games, marathon blocks of a TV show, etc.) compared to how many they see encouraging activity.</p>
+<p>
+<bold>Dear Parents and Guardians,</bold>
+</p>
+<p>Many adults and children alike can benefit from regular physical activity. How many hours a week does your child spend in front of the TV or computer screen? The answer is probably too much. The U.S. Department of Health and Human Services' Centers for Disease Control and Prevention (CDC) has created the VERB&#x02122; campaign to encourage children ages 9&#x02013;13 to get active in an exciting and safe way. It is also about getting involved with family and organizations like clubs, community groups and religious organizations.</p>
+<p>Your child has been working on an in-school activity called VERB.&#x02122; It's what you do. In School. In Action. as part of the VERB.&#x02122; It's what you do. media campaign. Developed by Weekly Reader Custom Publishing in support of VERB, it encourages your child to discover new activities and new ways to have fun. By fitting positive activity into your child's life you may help him or her stay out of unsafe or troublesome situations. You will also bring a special bond and element of fun to your family.</p>
+<p>Children who are active often have higher self-esteem and confidence.<xref ref-type="fn" rid="ftnt1">1</xref> This can help them as they grow older and start to make important decisions on their own. By being active, children also have better overall health and have less stress and anxiety.<xref ref-type="fn" rid="ftnt2">2</xref> Children should try to be physically active for at least 60 minutes a day, five days a week, preferably every day.<xref ref-type="fn" rid="ftnt3">3</xref>
+</p>
+<p>With your help and enthusiasm, your child and your family can become more active and healthier. Some ways to add positive activities to your child's life include:
+									<list list-type="bullet">
+<list-item>
+<p>Talk to your child about activities that he or she finds interesting. Help him or her select safe, enjoyable activities.</p>
+</list-item>
+<list-item>
+<p>Encourage children to be active with their friends, and to play outside in safe and supervised places such as playgrounds and parks.</p>
+</list-item>
+<list-item>
+<p>Balance screen time (TV, video games, recreational computer use) with play time. Set limits on the amount of time your child spends watching television and playing video or computer games. (The American Academy of Pediatrics recommends no more than an hour or two a day spent watching TV.)</p>
+</list-item>
+<list-item>
+<p>Make a schedule with neighboring parents to take turns watching the children play together after school and on weekends. This helps keep your children in a safe environment.</p>
+</list-item>
+<list-item>
+<p>When possible, create a "Walking School Bus" where parents take turns walking children to school and "picking up" others as they go. For more information, visit www.walkingschoolbus.org.</p>
+</list-item>
+</list>
+</p>
+<p>
+<bold>Try these ideas to get your family moving:</bold>
+<list list-type="bullet">
+<list-item>
+<p>Walk to the park or walk around the zoo.</p>
+</list-item>
+<list-item>
+<p>Roller skate or roller blade on Saturday mornings.</p>
+</list-item>
+<list-item>
+<p>Go for a bike ride.</p>
+</list-item>
+<list-item>
+<p>Play basketball, a game of catch, badminton, Frisbee,&#x000ae; stickball, volleyball or soccer.</p>
+</list-item>
+<list-item>
+<p>Go bowling, hiking or swimming.</p>
+</list-item>
+<list-item>
+<p>Volunteer together.</p>
+</list-item>
+<list-item>
+<p>If you've wanted to take a karate or dance class, rent a tape and try it out together as a family.</p>
+</list-item>
+</list>
+</p>
+<p>
+<bold>For more fun activity ideas and tips, check out these Web sites:</bold>
+<list list-type="bullet">
+<list-item>
+<p>http://www.verbparents.com/ &#x02014; Provides parents with fun activity ideas and tips.</p>
+</list-item>
+<list-item>
+<p>www.fitfamilyfitkids.com &#x02014; Suggests strategies for improving your family's physical activity and nutrition habits.</p>
+</list-item>
+<list-item>
+<p>www.healthykids.com &#x02014; Offers health information, fun games and activities and more.</p>
+</list-item>
+</list>
+</p>
+<p>Don't forget to check out the Web for community groups, parks and recreation, and religious groups for activities and ideas. A few Web sites that may be helpful are the YMCA (www.ymca.net) and the Boys and Girls Clubs of America (www.bgca.org).</p>
+<p>
+<fn id="ftnt1">
+<label>1</label>
+<p>"Guidelines for Schools and Community Programs to Promote Lifelong Physical Activity Among Young People." Centers for Disease Control and Prevention, 1997.</p>
+</fn>
+<fn id="ftnt2">
+<label>2</label>
+<p>"Guidelines for Schools and Community Programs to Promote Lifelong Physical Activity Among Young People." Centers for Disease Control and Prevention, 1997.</p>
+</fn>
+<fn id="ftnt3">
+<label>3</label>
+<p>"CDC's Guidelines for School and Community Programs: Promoting Lifelong Physical Activity." Centers for Disease Control and Prevention, 2000.</p>
+</fn>
+</p>
+<p>&#x000a9;2003 U.S. Department of Health and Human Services' Centers for Disease Control and Prevention. Created by Weekly Reader Corporation.</p> --></caption><alt-text>The VERB Weekly Reader</alt-text><media xlink:href="04_0043_02.pdf" id="f4m1" position="anchor"/><graphic xlink:href="PCD13A10s9" position="float"/></fig><fig position="anchor" id="f5" fig-type="illustration"><caption><p>
+VERB Student Planner 2003&#x02013;2004 <ext-link xlink:href="http://www.cdc.gov/youthcampaign/materials/tweens/pdf/SchoolPlanner.pdf" ext-link-type="uri">Download the current Student Planner</ext-link> (PDF 16mb). This planner is also <ext-link xlink:href="http://www.cdc.gov/youthcampaign/materials/tweens/student_planner/intro.htm" ext-link-type="uri">available from VERB in HTML format</ext-link>.
+</p></caption><alt-text>The VERB Student Planner</alt-text><graphic xlink:href="PCD13A10s10" position="float"/></fig></sec><sec><title>Schools</title><p>School is a natural venue for reaching tweens; it also gives youth a prime opportunity to discover their interests and develop skills. For example, working with youth publications like <italic>Weekly Reader</italic> and <italic>TIME for Kids</italic>, VERB distributes custom-developed materials to middle schools throughout the country. Primedia&#x02019;s <italic>Channel One</italic> allows VERB advertising to reach tweens through schools. In-school vehicles include book covers, day planners, and customized lesson plans that incorporate physical activity into the classroom and encourage tweens to try many different VERBs.</p></sec><sec><title>Community-based events and grassroots marketing</title><p> VERB participated in existing community events, including cultural festivals such as the Harvest Moon Festival (Los Angeles, Calif), Calle Ocho (Miami, Fla), and the Gathering of Nations Pow Wow (Albuquerque, NM). At these grassroots community events, VERB hosted an &#x0201c;activity zone,&#x0201d; a dedicated space for tweens to try out different activities such as kicking a soccer ball, dancing, performing martial arts, or other activities. Another community-based tactic is the use of &#x0201c;street teams,&#x0201d; teams of five to eight college-aged men and women hired to engage tweens in being physically active at events and tween hangouts, including malls, parks, and community centers. Street teams create buzz about VERB and build affinity for the brand as tweens tell their friends and siblings about their fun experiences and show off their VERB premiums. The street teams distribute VERB-branded premiums to tweens, such as foot bags, T-shirts, temporary tattoos, and Frisbee disks.</p></sec><sec><title>Contests and sweepstakes</title><p>To increase the value of the product and reward tweens for being active, many media partners sponsor VERB contests and sweepstakes. For example, <italic>Channel One</italic> sponsored a pedometer-based middle-school competition, <italic>Make Every Move Count</italic>. The schools that accumulated the most steps won an "Action Pack" of physical activity equipment and materials to support their physical activity programs. In addition, <italic>YM (Your Magazine)</italic> featured the VERB <italic>Move It to Groove It</italic> contest, where tween contestants competed to win a video dance party for their entire school.</p></sec><sec><title>Public relations</title><p>VERB continuously communicates with the news media, stakeholders, and partner organizations to offer information on the importance of youth physical activity to parents and other influencers and to spotlight current campaign activities, such as events and promotions. The campaign maintains good relationships with key members of the tween/teen and parent news media to keep them current on the campaign and to serve as resources for information about youth physical activity, childhood overweight, and related topics. News media materials are tailored to meet specific needs, media tours are conducted in key markets, and special news media coverage is arranged when appropriate.</p></sec><sec><title>Community partnerships</title><p>In the first year of VERB, the campaign developed local partnerships in the nine cities that received extra marketing activities to bring the VERB brand to life and to establish a foundation of support in those locations. Now, the goal of VERB is to recruit organizations across the country to become site partners (organizations that can provide opportunities for tweens to be physically active) or outreach partners (organizations that can reach parents or influence the environment to support tweens' participation in physical activity). The campaign is actively reaching out to organizations that have a network of affiliates or chapters across the country and also is contacting regional, state, and local organizations. (More information on VERB partnerships is available from <ext-link xlink:href="http://www.cdc.gov/youthcampaign/partners/index.htm" ext-link-type="uri">http://www.cdc.gov/youthcampaign/partners/index.htm</ext-link>)</p><boxed-text position="float"><fig position="float" id="F8" fig-type="illustration"><caption><p>VERB poster "It's What You Do. Native Style."</p></caption><alt-text>VERB poster: It's What You Do. Native Style. Images are of healthy American Indian kids playing and exercising.</alt-text><graphic xlink:href="PCD13A10s11" position="float"/></fig><fig position="float" id="F9" fig-type="illustration"><caption><p>VERB poster "Sal y Juega."</p></caption><alt-text>Sal y Juega poster, version 3. Images are of sports equipment and exercising kids.</alt-text><graphic xlink:href="PCD13A10s12" position="float"/></fig></boxed-text></sec><sec><title>Corporate partnerships</title><p>VERB also is seeking partnerships with corporations to extend the reach and appeal of the campaign to tweens. For example, VERB is successfully negotiating partnerships with professional sports leagues for its ProVERB initiative; those who have made commitments include the National Football League, National Hockey League, Major League Soccer, and Women&#x02019;s Tennis Association. These sports leagues will provide content for the VERBnow.com Web site for tweens, donate athlete-signed merchandise for prizes, and provide opportunities for VERB sponsorship of their grassroots sports clinics.</p></sec><sec><title>Web sites</title><p>In partnership with AOL, VERB has created <ext-link xlink:href="http://www.VERBnow.com" ext-link-type="uri">http://www.VERBnow.com</ext-link>, a Web site designed exclusively for tweens that includes the VERB Recorder, where tweens can report their participation in physical activity and become eligible to win prizes for being active. A parent site, <ext-link xlink:href="http://www.VERBparents.com" ext-link-type="uri">http://www.VERBparents.com</ext-link>, includes in-language pages (Spanish, Chinese, Korean, and Vietnamese) in partnership with ethnic media partners. In addition, <ext-link xlink:href="http://www.cdc.gov/VERB" ext-link-type="uri">http://www.cdc.gov/VERB</ext-link> was created for partners and stakeholders to access information about the VERB campaign and to view advertising.</p></sec></sec></sec></sec><sec><title>Summary</title><p>The VERB campaign is a public health and marketing partnership based on the social marketing principles of product, price, place, and promotion. It brings together a diverse array of public health, marketing, and community experts to engage tweens in being physically active every day by playing, having fun, and trying new VERBs, or new ways to be physically active. A lifestyle or behavior change such as increasing physical activity is difficult to achieve and even more difficult to sustain. One can speculate, however, that success in changing behavior among tweens is more likely to be achieved when the following conditions are met: consumers have an in-depth understanding of the product and price associated with it, they have easy access to appropriate places where they can perform the behavior in everyday life, and product promotion portrays benefits in a positive, appealing fashion and reaches audiences through channels they value.</p><p>Rigorous multiyear evaluation of the VERB campaign will determine its effectiveness in motivating tweens to be more active. To ensure objectivity, the CDC has retained an evaluation contractor. The outcome evaluation is designed as a nationally representative longitudinal study of more than 6000 tweens and their parents across the country, half of whom are from the six high-dose communities. A baseline survey was conducted before the campaign's launch in June 2002. Two follow-up surveys, one conducted in 2003 and one to be completed in 2004, will measure the effectiveness of the campaign. The evaluation methodology, a longitudinal dose-response analysis, controls for numerous baseline factors and allows evaluators to measure changes in physical activity specifically attributable to the VERB campaign.</p></sec></body><back><ack><p>The authors acknowledge and thank former CDC VERB campaign strategists Michael Greenwell, Suzanne Gates, and Claudia Parvanta; former campaign team members Jami Fraze, Victor Medrano, and Enbal Shacham; and current campaign staff Bill Wood, Wanda Price, Juanita Mondesire, Lula Anna Green, Heidi Melancon, Dana Robinson, Cynthia Mitchell, and Judy Berkowitz. We also thank the VERB campaign contractors Frankel (Chicago, Ill); Saatchi &#x00026; Saatchi (New York, NY), Publicis Dialog (Chicago, Ill), Garcia 360 (San Antonio, Tex); G&#x00026;G Advertising (Alburquerque, NM); A Partnership, Inc. (New York, NY); PFI Marketing (New York, NY); and Westat (Rockville, Md).</p></ack><fn-group><fn id="FN1"><label>1</label><p>Gross rating points is a measure of estimated exposure to advertising. Reach is defined as the proportion of the target audience that has an opportunity to be exposed to the ad. Frequency is the number of times an average target audience member is estimated to have an opportunity to view the advertisement in a given time period, usually weekly or monthly. Multiplying reach times frequency produces the GRP measure. Because GRPs are the product of reach and frequency estimates, a GRP estimate reflects many different possible exposure patterns. For example, if 10% of a population could be reached five times in a week, the weekly GRPs for that advertisement would be 50 (10 x 5); if 50% of the population could be reached once in a week, the GRPs would also be 50 (50 x 1).</p></fn></fn-group><fn-group><fn><p>The opinions expressed by authors contributing to this journal do not necessarily reflect the opinions of the U.S. Department of Health and Human Services, the Public Health Service, Centers for Disease Control and Prevention, or the authors' affiliated institutions. Use of trade names is for identification only and does not imply endorsement by any of the groups named above.</p></fn><fn><p>
+<italic>Suggested citation for this article</italic>: Wong F, Huhman M, Heitzler C, Asbury L, Bretthauer-Mueller R, McCarthy S, et al. VERB&#x02122; &#x02014; a social marketing campaign to increase physical activity among youth. Prev Chronic Dis [serial online] 2004 Jul [date cited]. Available from: URL: <ext-link xlink:href="http://www.cdc.gov/pcd/issues/2004/jul/04_0043.htm" ext-link-type="uri">http://www.cdc.gov/pcd/issues/2004/jul/04_0043.htm</ext-link>.
+</p></fn></fn-group><ref-list><ref id="B1"><label>1</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ogden</surname><given-names>CL</given-names></name><name><surname>Flegal</surname><given-names>KM</given-names></name><name><surname>Carroll</surname><given-names>MD</given-names></name><name><surname>Johnson</surname><given-names>CL</given-names></name></person-group>
+<article-title>Prevalence and trends in overweight among US children and adolescents, 1999-2000</article-title>
+<source>JAMA</source>
+<year>2002</year>
+<volume>288</volume>
+<fpage>1728</fpage>
+<lpage>1732</lpage>
+<pub-id pub-id-type="pmid">12365956</pub-id>
+</element-citation></ref><ref id="B2"><label>2</label><element-citation publication-type="journal">
+<article-title>Centers for Disease Control and Prevention. Physical activity levels among children aged 9-13 years &#x02014; United States, 2002</article-title>
+<source>MMWR Morb Mortal Wkly Rep</source>
+<year>2003</year>
+<volume>52</volume>
+<issue>33</issue>
+<fpage>785</fpage>
+<lpage>788</lpage>
+<pub-id pub-id-type="pmid">12931076</pub-id>
+</element-citation></ref><ref id="B3"><label>3</label><element-citation publication-type="book">
+<year>2003</year>
+<source>National Health and Nutrition Examination Survey; NHES 11/111 (1963-70) NHANES I (1971-74), NHANES II (1976-80), NHANES III (1988-94)</source>
+<publisher-loc>Hyattsville (MD)</publisher-loc>
+<publisher-name>Centers for Disease Control and Prevention, National Center for Health Statistics</publisher-name>
+<comment>NHANES 1999 available from: URL: <ext-link xlink:href="http://www.cdc.gov/nchs/about/major/nhanes/Databriefs.htm" ext-link-type="uri"> http://www.cdc.gov/nchs/about/major/nhanes/ Databriefs.htm</ext-link>
+</comment>
+</element-citation></ref><ref id="B4"><label>4</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Goran</surname><given-names>MI</given-names></name><name><surname>Ball</surname><given-names>GD</given-names></name><name><surname>Cruz</surname><given-names>ML</given-names></name></person-group>
+<article-title>Obesity and risk of Type 2 diabetes and cardiovascular disease in children and adolescents</article-title>
+<source>J Clin Endocrinol Metab</source>
+<year>2003</year>
+<volume>88</volume>
+<fpage>1417</fpage>
+<lpage>1427</lpage>
+<pub-id pub-id-type="pmid">12679416</pub-id>
+</element-citation></ref><ref id="B5"><label>5</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Andreasen</surname><given-names>AR</given-names></name></person-group>
+<source>Marketing social change: changing behavior to promote health, social development, and the environment</source>
+<year>1995</year>
+<publisher-loc>San Francisco (CA)</publisher-loc>
+<publisher-name>Jossey-Bass</publisher-name>
+<lpage>368</lpage>
+</element-citation></ref><ref id="B6"><label>6</label><element-citation publication-type="book">
+<source>Turning Point Social Marketing Collaborative, Centers for Disease Control and Prevention, Academy for Educational Development. CDCynergy: social marketing edition, version 1.0 [CD ROM]</source>
+<year>2003</year>
+<publisher-loc>Atlanta (GA)</publisher-loc>
+<publisher-name>CDC, Office of Communication</publisher-name>
+</element-citation></ref><ref id="B7"><label>7</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Woodard</surname><given-names>EH</given-names></name></person-group>
+<source>Media in the home 2000: the fifth annual survey of parents and children</source>
+<year>2000</year>
+<publisher-loc>Philadelphia (PA)</publisher-loc>
+<publisher-name>The Annenberg Public Policy Center of the University of Pennsylvania</publisher-name>
+</element-citation></ref><ref id="B8"><label>8</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Kotler</surname><given-names>P</given-names></name><name><surname>Roberto</surname><given-names>N</given-names></name><name><surname>Lee</surname><given-names>N</given-names></name></person-group>
+<source>Social marketing: improving the quality of life</source>
+<edition>2nd</edition>
+<year>2002</year>
+<publisher-loc>Thousand Oaks (CA)</publisher-loc>
+<publisher-name>Sage Publications</publisher-name>
+</element-citation></ref></ref-list></back></article>
