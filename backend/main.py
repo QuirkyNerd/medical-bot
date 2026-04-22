@@ -16,6 +16,7 @@ from api.schedule_router import router as schedule_router
 from api.export_router import router as export_router
 from api.health_router import router as health_router
 from database import init_db, engine
+from sqlalchemy import text
 
 
 # -------------------------------------------------------------------
@@ -105,7 +106,7 @@ def create_app() -> FastAPI:
     async def db_test():
         try:
             with engine.connect() as conn:
-                conn.execute("SELECT 1")
+                conn.execute(text("SELECT 1"))
             return {"status": "database connected"}
         except Exception as e:
             return {"status": "database error", "error": str(e)}
