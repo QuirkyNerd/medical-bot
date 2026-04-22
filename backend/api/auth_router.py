@@ -143,8 +143,8 @@ async def register(body: RegisterRequest) -> JSONResponse:
             # 3. Insert user using RETURNING id
             logger.info(f"Inserting new user: {body.email}")
             result = conn.execute(
-                text("INSERT INTO users (name, email, password_hash) VALUES (:name, :email, :password_hash) RETURNING id"),
-                {"name": name, "email": body.email, "password_hash": hashed}
+                text("INSERT INTO users (name, email, password_hash, role, is_admin) VALUES (:name, :email, :password_hash, :role, :is_admin) RETURNING id"),
+                {"name": name, "email": body.email, "password_hash": hashed, "role": "user", "is_admin": False}
             )
             
             # Fetch the generated ID
@@ -160,7 +160,8 @@ async def register(body: RegisterRequest) -> JSONResponse:
                 "email": body.email,
                 "displayName": name,
                 "emailVerified": True,
-                "isAdmin": False
+                "isAdmin": False,
+                "role": "user"
             }
             
             token = create_jwt(user_id, body.email)
@@ -184,7 +185,7 @@ async def login(body: LoginRequest) -> JSONResponse:
     with engine.connect() as conn:
         try:
             row = conn.execute(
-                text("SELECT id, name, email, password_hash FROM users WHERE email = :email"),
+                text("SELECT id, name, email, password_hash, role, is_admin FROM users WHERE email = :email"),
                 {"email": body.email}
             ).fetchone()
 
@@ -209,7 +210,8 @@ async def login(body: LoginRequest) -> JSONResponse:
                 "email": row[2],
                 "displayName": row[1],
                 "emailVerified": True,
-                "isAdmin": False
+                "isAdmin": row[5],
+                "role": row[4]
             }
 
             token = create_jwt(row[0], row[2])
@@ -239,7 +241,7 @@ async def me(authorization: Optional[str] = Header(None)) -> JSONResponse:
     with engine.connect() as conn:
         try:
             row = conn.execute(
-                text("SELECT id, name, email FROM users WHERE email = :email"),
+                text("SELECT id, name, email, role, is_admin FROM users WHERE email = :email"),
                 {"email": email}
             ).fetchone()
             
@@ -251,7 +253,8 @@ async def me(authorization: Optional[str] = Header(None)) -> JSONResponse:
                 "email": row[2],
                 "displayName": row[1],
                 "emailVerified": True,
-                "isAdmin": False
+                "isAdmin": row[4],
+                "role": row[3]
             }
             return JSONResponse({"user": user_out})
         except Exception as e:
