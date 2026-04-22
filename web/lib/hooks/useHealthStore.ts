@@ -1,0 +1,465 @@
+"use client";
+
+import { useState, useCallback, useEffect, useRef } from "react";
+import * as hs from "../health-store";
+
+/**
+ * Build a flat array of sync items from all localStorage entities.
+ * Used for the initial bulk sync on login.
+ */
+function buildSyncPayload(): Array<{ id: string; type: string; data: any }> {
+  const items: Array<{ id: string; type: string; data: any }> = [];
+  for (const m of hs.loadMedications()) items.push({ id: m.id, type: "medication", data: m });
+  for (const l of hs.loadMedicationLogs()) items.push({ id: l.id, type: "medication_log", data: l });
+  for (const a of hs.loadAppointments()) items.push({ id: a.id, type: "appointment", data: a });
+  for (const v of hs.loadVitals()) items.push({ id: v.id, type: "vital", data: v });
+  for (const r of hs.loadRecords()) items.push({ id: r.id, type: "record", data: r });
+  for (const m of hs.loadMedicines()) items.push({ id: m.id, type: "medicine", data: m });
+  for (const c of hs.loadHistory()) items.push({ id: c.id, type: "conversation", data: c });
+  for (const c of hs.loadContacts()) items.push({ id: c.id, type: "contact", data: c });
+  // EHR profile — stored as a single record with a fixed ID per user
+  const ehr = hs.loadEHRProfile();
+  if (ehr.completedAt) {
+    items.push({ id: "ehr-profile", type: "ehr_profile", data: ehr });
+  }
+  return items;
+}
+
+/**
+ * React hook wrapping the health-store's localStorage CRUD.
+ *
+ * When `authToken` is provided (user is logged in), mutations are
+ * also synced to the HF Space backend via /api/proxy/health-data.
+ * The initial login triggers a bulk sync of all existing localStorage
+ * data to the server (migration from guest → account).
+ *
+ * All writes are localStorage-first (offline-capable), with async
+ * server sync as a best-effort background operation.
+ */
+export function useHealthStore(authToken?: string | null) {
+  const [medications, setMedications] = useState<hs.Medication[]>([]);
+  const [medicationLogs, setMedicationLogs] = useState<hs.MedicationLog[]>([]);
+  const [appointments, setAppointments] = useState<hs.Appointment[]>([]);
+  const [vitals, setVitals] = useState<hs.VitalReading[]>([]);
+  const [records, setRecords] = useState<hs.HealthRecord[]>([]);
+  const [medicines, setMedicines] = useState<hs.MedicineItem[]>([]);
+  const [contacts, setContacts] = useState<hs.MedContact[]>([]);
+  const [ehrProfile, setEhrProfile] = useState<hs.EHRProfile>({});
+  const [history, setHistory] = useState<hs.ConversationSummary[]>([]);
+  const [dbSchedules, setDbSchedules] = useState<any[]>([]);
+  const [loaded, setLoaded] = useState(false);
+
+  const refresh = useCallback(() => {
+    setMedications(hs.loadMedications());
+    setMedicationLogs(hs.loadMedicationLogs());
+    setAppointments(hs.loadAppointments());
+    setVitals(hs.loadVitals());
+    setRecords(hs.loadRecords());
+    setMedicines(hs.loadMedicines());
+    setContacts(hs.loadContacts());
+    setEhrProfile(hs.loadEHRProfile());
+    setHistory(hs.loadHistory());
+  }, []);
+
+  const fetchDbSchedules = useCallback(async () => {
+    if (!authToken) {
+      setDbSchedules([]);
+      return;
+    }
+    try {
+      const res = await fetch("/api/schedule", {
+        headers: { Authorization: `Bearer ${authToken}` },
+      });
+      if (res.ok) {
+        const data = await res.json();
+        setDbSchedules(data.schedules);
+      }
+    } catch (e) {
+      console.error("Failed to fetch schedules", e);
+    }
+  }, [authToken]);
+
+  const fetchAllFromBackend = useCallback(async () => {
+    if (!authToken) {
+      // Clear state on logout
+      setVitals([]);
+      setRecords([]);
+      setMedicines([]);
+      setContacts([]);
+      setEhrProfile({});
+      setMedicationLogs([]);
+      return;
+    }
+    try {
+      const endpoints = [
+        { key: "vitals", path: "vitals" },
+        { key: "records", path: "records" },
+        { key: "medicines", path: "medicines" },
+        { key: "contacts", path: "contacts" },
+        { key: "ehr", path: "ehr-profile" },
+        { key: "logs", path: "medication-logs" },
+      ];
+
+      await Promise.all(endpoints.map(async (e) => {
+        const res = await fetch(`/api/proxy/health/${e.path}`, {
+          headers: { Authorization: `Bearer ${authToken}` },
+        });
+        if (res.ok) {
+          const data = await res.json();
+          if (e.key === "vitals") setVitals(data.vitals);
+          if (e.key === "records") setRecords(data.records);
+          if (e.key === "medicines") setMedicines(data.medicines);
+          if (e.key === "contacts") setContacts(data.contacts);
+          if (e.key === "ehr") setEhrProfile(data.ehr);
+          if (e.key === "logs") setMedicationLogs(data.logs);
+        }
+      }));
+    } catch (e) {
+      console.error("Failed to fetch health data from backend", e);
+    }
+  }, [authToken]);
+
+  useEffect(() => {
+    refresh();
+    fetchDbSchedules();
+    fetchAllFromBackend().finally(() => setLoaded(true));
+  }, [refresh, fetchDbSchedules, fetchAllFromBackend]);
+
+  // --- Server sync (when authenticated) ---
+  const synced = useRef(false);
+
+  // On first login, bulk-sync all localStorage to server.
+  useEffect(() => {
+    if (!authToken || synced.current) return;
+    synced.current = true;
+    const items = buildSyncPayload();
+    if (items.length === 0) return;
+    fetch("/api/proxy/health-data/sync", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${authToken}`,
+      },
+      body: JSON.stringify({ items }),
+    }).catch(() => {});
+  }, [authToken]);
+
+  /** Best-effort server upsert — fire and forget. */
+  const syncItem = useCallback(
+    (id: string, type: string, data: any) => {
+      if (!authToken) return;
+      
+      let path = "";
+      if (type === "vital") path = "vitals";
+      else if (type === "record") path = "records";
+      else if (type === "medicine") path = "medicines";
+      else if (type === "contact") path = "contacts";
+      else if (type === "ehr_profile") path = "ehr-profile";
+      else if (type === "medication_log") path = "medication-logs";
+      else return;
+
+      fetch(`/api/proxy/health/${path}`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Bearer ${authToken}`,
+        },
+        body: JSON.stringify({ ...data, id }),
+      }).catch(() => {});
+    },
+    [authToken],
+  );
+
+  const syncDelete = useCallback(
+    (id: string, type: string) => {
+      if (!authToken) return;
+      
+      let path = "";
+      if (type === "vital") path = "vitals";
+      else if (type === "record") path = "records";
+      else if (type === "medicine") path = "medicines";
+      else if (type === "contact") path = "contacts";
+      else return;
+
+      fetch(`/api/proxy/health/${path}/${id}`, {
+        method: "DELETE",
+        headers: { Authorization: `Bearer ${authToken}` },
+      }).catch(() => {});
+    },
+    [authToken],
+  );
+
+  // --- Medications ---
+  const addMedication = useCallback(
+    (med: Omit<hs.Medication, "id">) => {
+      const saved = hs.saveMedication(med);
+      refresh();
+      syncItem(saved.id, "medication", saved);
+    },
+    [refresh, syncItem],
+  );
+  const editMedication = useCallback(
+    (id: string, patch: Partial<hs.Medication>) => {
+      hs.updateMedication(id, patch);
+      refresh();
+      const updated = hs.loadMedications().find((m) => m.id === id);
+      if (updated) syncItem(id, "medication", updated);
+    },
+    [refresh, syncItem],
+  );
+  const deleteMedication = useCallback(
+    (id: string) => {
+      hs.removeMedication(id);
+      refresh();
+      // Medications are not synced to backend in current schema, only schedules
+    },
+    [refresh],
+  );
+  const markMedTaken = useCallback(
+    (medicationId: string, date: string, time: string) => {
+      hs.logMedicationTaken(medicationId, date, time);
+      refresh();
+      // Sync the log entry
+      const logs = hs.loadMedicationLogs();
+      const latest = logs[logs.length - 1];
+      if (latest) syncItem(latest.id, "medication_log", latest);
+    },
+    [refresh, syncItem],
+  );
+
+  // --- Appointments ---
+  const addAppointment = useCallback(
+    (appt: Omit<hs.Appointment, "id">) => {
+      const saved = hs.saveAppointment(appt);
+      refresh();
+      syncItem(saved.id, "appointment", saved);
+    },
+    [refresh, syncItem],
+  );
+  const editAppointment = useCallback(
+    (id: string, patch: Partial<hs.Appointment>) => {
+      hs.updateAppointment(id, patch);
+      refresh();
+      const updated = hs.loadAppointments().find((a) => a.id === id);
+      if (updated) syncItem(id, "appointment", updated);
+    },
+    [refresh, syncItem],
+  );
+  const deleteAppointment = useCallback(
+    (id: string) => {
+      hs.removeAppointment(id);
+      refresh();
+      syncDelete(id);
+    },
+    [refresh, syncDelete],
+  );
+
+  // --- Vitals ---
+  const addVital = useCallback(
+    (reading: Omit<hs.VitalReading, "id">) => {
+      const saved = hs.saveVital(reading);
+      refresh();
+      syncItem(saved.id, "vital", saved);
+    },
+    [refresh, syncItem],
+  );
+  const deleteVital = useCallback(
+    (id: string) => {
+      hs.removeVital(id);
+      refresh();
+      syncDelete(id, "vital");
+    },
+    [refresh, syncDelete],
+  );
+
+  // --- Records ---
+  const addRecord = useCallback(
+    (rec: Omit<hs.HealthRecord, "id">) => {
+      const saved = hs.saveRecord(rec);
+      refresh();
+      syncItem(saved.id, "record", saved);
+    },
+    [refresh, syncItem],
+  );
+  const editRecord = useCallback(
+    (id: string, patch: Partial<hs.HealthRecord>) => {
+      hs.updateRecord(id, patch);
+      refresh();
+      const updated = hs.loadRecords().find((r) => r.id === id);
+      if (updated) syncItem(id, "record", updated);
+    },
+    [refresh, syncItem],
+  );
+  const deleteRecord = useCallback(
+    (id: string) => {
+      hs.removeRecord(id);
+      refresh();
+      syncDelete(id, "record");
+    },
+    [refresh, syncDelete],
+  );
+
+  // --- Medicines (inventory) ---
+  const addMedicine = useCallback(
+    (med: Omit<hs.MedicineItem, "id" | "createdAt">) => {
+      const saved = hs.saveMedicine(med);
+      refresh();
+      syncItem(saved.id, "medicine", saved);
+    },
+    [refresh, syncItem],
+  );
+  const editMedicine = useCallback(
+    (id: string, patch: Partial<hs.MedicineItem>) => {
+      hs.updateMedicine(id, patch);
+      refresh();
+      const updated = hs.loadMedicines().find((m) => m.id === id);
+      if (updated) syncItem(id, "medicine", updated);
+    },
+    [refresh, syncItem],
+  );
+  const deleteMedicine = useCallback(
+    (id: string) => {
+      hs.removeMedicine(id);
+      refresh();
+      syncDelete(id, "medicine");
+    },
+    [refresh, syncDelete],
+  );
+
+  // --- Contacts (address book) ---
+  const addContact = useCallback(
+    (contact: Omit<hs.MedContact, "id" | "createdAt">) => {
+      const saved = hs.saveContact(contact);
+      refresh();
+      syncItem(saved.id, "contact", saved);
+    },
+    [refresh, syncItem],
+  );
+  const editContact = useCallback(
+    (id: string, patch: Partial<hs.MedContact>) => {
+      hs.updateContact(id, patch);
+      refresh();
+      const updated = hs.loadContacts().find((c) => c.id === id);
+      if (updated) syncItem(id, "contact", updated);
+    },
+    [refresh, syncItem],
+  );
+  const deleteContact = useCallback(
+    (id: string) => {
+      hs.removeContact(id);
+      refresh();
+      syncDelete(id, "contact");
+    },
+    [refresh, syncDelete],
+  );
+
+  // --- EHR Profile ---
+  const saveEHR = useCallback(
+    (profile: hs.EHRProfile) => {
+      hs.saveEHRProfile(profile);
+      setEhrProfile(profile);
+      // Sync to server as a single record
+      if (profile.completedAt) {
+        syncItem("ehr-profile", "ehr_profile", profile);
+      }
+    },
+    [syncItem],
+  );
+
+  // --- History ---
+  const saveSession = useCallback(
+    (summary: Omit<hs.ConversationSummary, "id">) => {
+      hs.saveConversation(summary);
+      refresh();
+    },
+    [refresh],
+  );
+  const deleteSession = useCallback(
+    (id: string) => {
+      hs.removeConversation(id);
+      refresh();
+    },
+    [refresh],
+  );
+  const clearAllHistory = useCallback(() => {
+    hs.clearHistory();
+    refresh();
+  }, [refresh]);
+
+  // --- DB Schedules ---
+  const addDbSchedule = useCallback(async (schedule: any) => {
+    if (!authToken) return;
+    try {
+      const res = await fetch("/api/schedule", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Authorization: `Bearer ${authToken}` },
+        body: JSON.stringify(schedule),
+      });
+      if (res.ok) fetchDbSchedules();
+    } catch (e) { console.error(e); }
+  }, [authToken, fetchDbSchedules]);
+
+  const updateDbScheduleStatus = useCallback(async (id: string, status: "pending" | "done") => {
+    if (!authToken) return;
+    try {
+      const res = await fetch(`/api/schedule/${id}/status`, {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json", Authorization: `Bearer ${authToken}` },
+        body: JSON.stringify({ status }),
+      });
+      if (res.ok) fetchDbSchedules();
+    } catch (e) { console.error(e); }
+  }, [authToken, fetchDbSchedules]);
+
+  return {
+    loaded,
+    // Data
+    medications,
+    medicationLogs,
+    appointments,
+    vitals,
+    records,
+    medicines,
+    contacts,
+    ehrProfile,
+    history,
+    dbSchedules,
+    // Medication actions
+    addMedication,
+    editMedication,
+    deleteMedication,
+    markMedTaken,
+    getMedStreak: hs.getMedicationStreak,
+    isMedTaken: hs.isMedicationTaken,
+    // Appointment actions
+    addAppointment,
+    editAppointment,
+    deleteAppointment,
+    // Vital actions
+    addVital,
+    deleteVital,
+    // Record actions
+    addRecord,
+    editRecord,
+    deleteRecord,
+    // Medicine inventory actions
+    addMedicine,
+    editMedicine,
+    deleteMedicine,
+    // Contact actions
+    addContact,
+    editContact,
+    deleteContact,
+    // EHR profile
+    saveEHR,
+    // History actions
+    saveSession,
+    deleteSession,
+    clearAllHistory,
+    // DB Schedule actions
+    addDbSchedule,
+    updateDbScheduleStatus,
+    // Export
+    downloadAll: hs.downloadHealthData,
+  };
+}
