@@ -53,5 +53,5 @@ class RagAgent:
             chunks=chunks,
             confidence=confidence,
             is_relevant=is_relevant,
-            collections_searched=["medical_knowledge"]
+            collections_searched=["supabase_documents"]
         )

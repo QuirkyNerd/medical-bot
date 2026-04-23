@@ -8,7 +8,7 @@ sqlalchemy==2.0.36
 psycopg2-binary==2.9.9
 
 # --- Vector DB ---
-qdrant-client==1.13.2
+supabase==2.11.0
 
 # --- LLM / AI APIs ---
 requests==2.32.3

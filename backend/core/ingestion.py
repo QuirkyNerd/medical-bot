@@ -19,7 +19,7 @@ class Ingestion:
 
     def ingest_pdf(self, pdf_path: str, metadata: Optional[Dict] = None) -> int:
         """
-        Extracts text from PDF and ingests into Qdrant.
+        Extracts text from PDF and ingests into Supabase.
         """
         path = Path(pdf_path)
         if not path.exists():
@@ -46,7 +46,7 @@ class Ingestion:
 
     def ingest_xml(self, xml_path: str, metadata: Optional[Dict] = None) -> int:
         """
-        Parses PubMed XML research papers and ingests into Qdrant.
+        Parses PubMed XML research papers and ingests into Supabase.
         """
         path = Path(xml_path)
         if not path.exists():
@@ -101,6 +101,6 @@ class Ingestion:
 
     def ingest_text(self, text: str, source: str = "manual", metadata: Optional[Dict] = None) -> int:
         """
-        Ingests raw text into Qdrant.
+        Ingests raw text into Supabase.
         """
         return self.rag.ingest_text(text, source=source, metadata=metadata)
