@@ -23,7 +23,7 @@ SUPABASE_URL = os.getenv("SUPABASE_URL")
 SUPABASE_KEY = os.getenv("SUPABASE_KEY")
 HF_API_KEY = os.getenv("HF_API_KEY")
 HF_MODEL_ID = "sentence-transformers/all-MiniLM-L6-v2"
-HF_API_URL = "https://api-inference.huggingface.co/models/sentence-transformers/all-MiniLM-L6-v2"
+HF_API_URL = "https://router.huggingface.co/hf-inference/models/sentence-transformers/all-MiniLM-L6-v2/pipeline/feature-extraction"
 
 # ---------------------------------------------------------------------------
 # Embedding Utility
@@ -31,7 +31,7 @@ HF_API_URL = "https://api-inference.huggingface.co/models/sentence-transformers/
 
 def get_embedding(text: str, retries: int = 3, delay: int = 2) -> List[float]:
     """
-    Calls HuggingFace Inference API to get embeddings for a single text string.
+    Calls HuggingFace Router Inference API to get embeddings for a single text string.
     """
     if not HF_API_KEY:
         logger.error("HF_API_KEY not set. Embedding failed.")
@@ -47,13 +47,14 @@ def get_embedding(text: str, retries: int = 3, delay: int = 2) -> List[float]:
             response = requests.post(
                 HF_API_URL,
                 headers=headers,
-                json={"inputs": text, "options": {"wait_for_model": True}},
+                json={"inputs": text},
                 timeout=15
             )
             
             if response.status_code == 200:
                 embedding = response.json()
-                # If result is nested (List[List[float]]), flatten it
+                
+                # Router API returns nested list: [[0.1, 0.2, ...]]
                 if isinstance(embedding, list) and len(embedding) > 0 and isinstance(embedding[0], list):
                     embedding = embedding[0]
                 
