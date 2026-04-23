@@ -2,10 +2,11 @@ import os
 import logging
 import uuid
 import re
+import time
+import requests
 from typing import List, Dict, Any, Optional
 from qdrant_client import QdrantClient
 from qdrant_client.http import models as qdrant_models
-from sentence_transformers import SentenceTransformer
 
 logger = logging.getLogger("medai.rag_engine")
 
@@ -19,6 +20,53 @@ DISTANCE = qdrant_models.Distance.COSINE
 
 QDRANT_URL = os.getenv("QDRANT_URL")
 QDRANT_API_KEY = os.getenv("QDRANT_API_KEY")
+HF_API_KEY = os.getenv("HF_API_KEY")
+HF_MODEL_ID = "sentence-transformers/all-MiniLM-L6-v2"
+HF_API_URL = f"https://api-inference.huggingface.co/pipeline/feature-extraction/{HF_MODEL_ID}"
+
+# ---------------------------------------------------------------------------
+# Embedding Utility
+# ---------------------------------------------------------------------------
+
+def get_embedding(text: str, retries: int = 3, delay: int = 2) -> List[float]:
+    """
+    Calls HuggingFace Inference API to get embeddings for a single text string.
+    Includes retry logic and timeouts.
+    """
+    if not HF_API_KEY:
+        logger.error("HF_API_KEY not set. Embedding failed.")
+        return [0.0] * VECTOR_SIZE
+
+    headers = {"Authorization": f"Bearer {HF_API_KEY}"}
+    
+    for attempt in range(retries):
+        try:
+            response = requests.post(
+                HF_API_URL,
+                headers=headers,
+                json={"inputs": [text], "options": {"wait_for_model": True}},
+                timeout=10
+            )
+            
+            if response.status_code == 200:
+                result = response.json()
+                # Feature extraction returns List[List[float]] or List[float] depending on input
+                if isinstance(result, list) and len(result) > 0:
+                    embedding = result[0]
+                    if len(embedding) == VECTOR_SIZE:
+                        return embedding
+                logger.error(f"Unexpected HF API response format: {result}")
+            elif response.status_code == 503:
+                logger.warning(f"HF Model loading (503). Retrying in {delay}s...")
+            else:
+                logger.error(f"HF API Error {response.status_code}: {response.text}")
+                
+        except Exception as e:
+            logger.error(f"HF API Request failed (Attempt {attempt+1}): {e}")
+        
+        time.sleep(delay * (attempt + 1))
+    
+    return [0.0] * VECTOR_SIZE
 
 # ---------------------------------------------------------------------------
 # RAG Engine Class
@@ -37,10 +85,7 @@ class RAGEngine:
             )
             self._ensure_collection()
 
-        # Initialize Embedding Model (Singleton-like behavior via class instance)
-        logger.info("Loading embedding model: all-MiniLM-L6-v2")
-        self.model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
-        logger.info("Embedding model loaded successfully.")
+        logger.info(f"RAG Engine initialized using HF Inference API ({HF_MODEL_ID})")
 
     def _ensure_collection(self):
         """Creates the collection if it doesn't exist."""
@@ -72,21 +117,24 @@ class RAGEngine:
     # -----------------------------------------------------------------------
 
     def ingest_text(self, text: str, source: str = "manual_upload", metadata: Optional[Dict] = None) -> int:
-        """Chunks text, embeds, and stores in Qdrant."""
+        """Chunks text, embeds via API, and stores in Qdrant."""
         if not self.client:
             logger.error("Qdrant client not initialized.")
             return 0
 
-        # Refined chunking: 400 "tokens" (words) with 50 overlap
+        # Chunking: 400 words with 50 overlap
         chunks = self._chunk_text(text, chunk_size=400, overlap=50)
         points = []
 
+        logger.info(f"Processing {len(chunks)} chunks for {source} via HF API...")
+
         for i, chunk_text in enumerate(chunks):
             chunk_id = str(uuid.uuid4())
-            # Load model once and encode
-            embedding = self.model.encode(chunk_text).tolist()
+            
+            # Use API instead of local model
+            embedding = get_embedding(chunk_text)
 
-            # Ensure metadata matches user requirements
+            # Ensure metadata matches requirements
             payload = {
                 "text": chunk_text,
                 "source": source,
@@ -103,7 +151,7 @@ class RAGEngine:
                 )
             )
 
-        # Batch upsert in chunks of 100 to avoid request size limits
+        # Batch upsert
         if points:
             for i in range(0, len(points), 100):
                 batch = points[i:i + 100]
@@ -116,7 +164,7 @@ class RAGEngine:
         return len(points)
 
     def ingest_documents(self, documents: List[Dict[str, Any]]) -> int:
-        """Ingests a list of documents, each being a dict with 'text' and 'source'."""
+        """Ingests a list of documents."""
         total = 0
         for doc in documents:
             text = doc.get("text")
@@ -127,27 +175,17 @@ class RAGEngine:
         return total
 
     def _chunk_text(self, text: str, chunk_size: int = 400, overlap: int = 50) -> List[str]:
-        """
-        Splits text into chunks of chunk_size words with overlap.
-        """
-        # Clean text
+        """Splits text into chunks."""
         text = re.sub(r'\s+', ' ', text).strip()
         words = text.split()
-        
-        if not words:
-            return []
+        if not words: return []
 
         chunks = []
         for i in range(0, len(words), chunk_size - overlap):
             chunk_words = words[i:i + chunk_size]
             chunk = " ".join(chunk_words).strip()
-            if chunk:
-                chunks.append(chunk)
-            
-            # Stop if we've reached the end
-            if i + chunk_size >= len(words):
-                break
-                
+            if chunk: chunks.append(chunk)
+            if i + chunk_size >= len(words): break
         return chunks
 
     # -----------------------------------------------------------------------
@@ -155,11 +193,12 @@ class RAGEngine:
     # -----------------------------------------------------------------------
 
     def search(self, query: str, top_k: int = 5) -> List[Dict[str, Any]]:
-        """Performs semantic search and returns relevant chunks."""
+        """Performs semantic search via API embedding."""
         if not self.client:
             return []
 
-        query_vector = self.model.encode(query).tolist()
+        # Get query embedding via API
+        query_vector = get_embedding(query)
 
         try:
             results = self.client.search(
@@ -184,9 +223,7 @@ class RAGEngine:
 
     def delete_all(self):
         """Clears the collection."""
-        if not self.client:
-            return
-        
+        if not self.client: return
         try:
             self.client.delete_collection(collection_name=COLLECTION_NAME)
             self._ensure_collection()
@@ -205,3 +242,4 @@ def get_rag_engine() -> RAGEngine:
     if _rag_engine is None:
         _rag_engine = RAGEngine()
     return _rag_engine
+

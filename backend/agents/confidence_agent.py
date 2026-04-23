@@ -286,3 +286,4 @@ def evaluate(
 ) -> ConfidenceResult:
     """Module-level shortcut for confidence evaluation."""
     return _confidence_agent.evaluate(rag_confidence, query, current_answer)
+
