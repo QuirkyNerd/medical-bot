@@ -23,7 +23,7 @@ SUPABASE_URL = os.getenv("SUPABASE_URL")
 SUPABASE_KEY = os.getenv("SUPABASE_KEY")
 HF_API_KEY = os.getenv("HF_API_KEY")
 HF_MODEL_ID = "sentence-transformers/all-MiniLM-L6-v2"
-HF_API_URL = f"https://api-inference.huggingface.co/pipeline/feature-extraction/{HF_MODEL_ID}"
+HF_API_URL = "https://api-inference.huggingface.co/models/sentence-transformers/all-MiniLM-L6-v2"
 
 # ---------------------------------------------------------------------------
 # Embedding Utility
@@ -32,30 +32,35 @@ HF_API_URL = f"https://api-inference.huggingface.co/pipeline/feature-extraction/
 def get_embedding(text: str, retries: int = 3, delay: int = 2) -> List[float]:
     """
     Calls HuggingFace Inference API to get embeddings for a single text string.
-    Includes retry logic and timeouts.
     """
     if not HF_API_KEY:
         logger.error("HF_API_KEY not set. Embedding failed.")
         return [0.0] * VECTOR_SIZE
 
-    headers = {"Authorization": f"Bearer {HF_API_KEY}"}
+    headers = {
+        "Authorization": f"Bearer {HF_API_KEY}",
+        "Content-Type": "application/json"
+    }
     
     for attempt in range(retries):
         try:
             response = requests.post(
                 HF_API_URL,
                 headers=headers,
-                json={"inputs": [text], "options": {"wait_for_model": True}},
-                timeout=10
+                json={"inputs": text, "options": {"wait_for_model": True}},
+                timeout=15
             )
             
             if response.status_code == 200:
-                result = response.json()
-                if isinstance(result, list) and len(result) > 0:
-                    embedding = result[0]
-                    if len(embedding) == VECTOR_SIZE:
-                        return embedding
-                logger.error(f"Unexpected HF API response format: {result}")
+                embedding = response.json()
+                # If result is nested (List[List[float]]), flatten it
+                if isinstance(embedding, list) and len(embedding) > 0 and isinstance(embedding[0], list):
+                    embedding = embedding[0]
+                
+                if isinstance(embedding, list) and len(embedding) == VECTOR_SIZE:
+                    return embedding
+                
+                logger.error(f"Unexpected embedding dimension: {len(embedding) if isinstance(embedding, list) else type(embedding)}")
             elif response.status_code == 503:
                 logger.warning(f"HF Model loading (503). Retrying in {delay}s...")
             else:
