@@ -1,9 +1,12 @@
 import os
+from dotenv import load_dotenv
 import logging
 import uuid
 import re
 import time
 import requests
+
+load_dotenv()
 from typing import List, Dict, Any, Optional
 from qdrant_client import QdrantClient
 from qdrant_client.http import models as qdrant_models
@@ -75,15 +78,17 @@ def get_embedding(text: str, retries: int = 3, delay: int = 2) -> List[float]:
 class RAGEngine:
     def __init__(self):
         # Initialize Qdrant Client
-        if not QDRANT_URL:
-            logger.warning("QDRANT_URL not set. RAG features will be unavailable.")
-            self.client = None
-        else:
-            self.client = QdrantClient(
-                url=QDRANT_URL,
-                api_key=QDRANT_API_KEY,
-            )
-            self._ensure_collection()
+        self.qdrant_url = os.getenv("QDRANT_URL")
+        self.qdrant_api_key = os.getenv("QDRANT_API_KEY")
+
+        if not self.qdrant_url:
+            raise ValueError("QDRANT_URL not set")
+
+        self.client = QdrantClient(
+            url=self.qdrant_url,
+            api_key=self.qdrant_api_key,
+        )
+        self._ensure_collection()
 
         logger.info(f"RAG Engine initialized using HF Inference API ({HF_MODEL_ID})")
 
