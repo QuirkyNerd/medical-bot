@@ -181,7 +181,7 @@ class ConfidenceAgent:
                 fallback_type="llm_only",
                 disclaimer=(
                     "⚠️ Low retrieval confidence and web search unavailable. "
-                    "The answer above is based on general Gemini medical knowledge "
+                    "The answer above is based on general Groq medical knowledge "
                     "without specific source retrieval. Treat with caution."
                 ),
             )

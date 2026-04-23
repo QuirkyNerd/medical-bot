@@ -9,9 +9,9 @@ psycopg2-binary==2.9.9
 
 # --- Vector DB ---
 qdrant-client==1.13.2
+sentence-transformers==3.0.1
 
 # --- LLM / AI APIs ---
-google-generativeai==0.8.4
 requests==2.32.3
 httpx==0.28.1
 

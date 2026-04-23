@@ -15,6 +15,7 @@ from api.conversations_router import router as conversations_router
 from api.schedule_router import router as schedule_router
 from api.export_router import router as export_router
 from api.health_router import router as health_router
+from api.rag_router import router as rag_router
 
 from database import init_db, engine
 from sqlalchemy import text
@@ -96,6 +97,7 @@ def create_app() -> FastAPI:
     app.include_router(schedule_router, prefix="/api/schedule")
     app.include_router(export_router, prefix="/api/export-report")
     app.include_router(health_router, prefix="/api/health")
+    app.include_router(rag_router, prefix="/api")
 
     # ----------------------------------------------------------------
     # Routes
