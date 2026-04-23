@@ -5,11 +5,26 @@ import uuid
 import re
 import time
 import requests
-
-load_dotenv()
 from typing import List, Dict, Any, Optional
 from qdrant_client import QdrantClient
 from qdrant_client.http import models as qdrant_models
+
+# ---------------------------------------------------------------------------
+# Load environment variables (FIXED ORDER)
+# ---------------------------------------------------------------------------
+
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ENV_PATH = os.path.join(BASE_DIR, ".env")
+
+load_dotenv(dotenv_path=ENV_PATH)
+
+# Debug (remove later)
+print("ENV PATH:", ENV_PATH)
+print("QDRANT_URL:", os.getenv("QDRANT_URL"))
+
+# ---------------------------------------------------------------------------
+# Logger
+# ---------------------------------------------------------------------------
 
 logger = logging.getLogger("medai.rag_engine")
 

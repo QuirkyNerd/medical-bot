@@ -19,7 +19,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger("ingest_all")
 
-DATA_DIR = Path("backend/data")
+DATA_DIR = Path("data")
 
 def main():
     if not DATA_DIR.exists():
