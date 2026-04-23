@@ -27,7 +27,7 @@ class RagResult:
     collections_searched: List[str] = field(default_factory=list)
 
 class RagAgent:
-    def __init__(self, vectorstore=None, top_k: int = 5):
+    def __init__(self, top_k: int = 5):
         self.rag_engine = get_rag_engine()
         self.top_k = top_k
 

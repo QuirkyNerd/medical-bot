@@ -20,6 +20,16 @@ from agents.router_agent import QueryIntent, RouterResult, classify_query
 logger = logging.getLogger("medai.orchestrator")
 
 @dataclass
+class AgentTrace:
+    router: float = 0.0
+    rag: float = 0.0
+    image: float = 0.0
+    report: float = 0.0
+    llm: float = 0.0
+    confidence: float = 0.0
+    latency_ms: int = 0
+
+@dataclass
 class AgentResponse:
     answer: str
     confidence_score: float
@@ -29,6 +39,7 @@ class AgentResponse:
     sources: List[Dict[str, Any]]
     model_used: str
     intent: str
+    agent_trace: AgentTrace = field(default_factory=AgentTrace)
     total_latency_ms: int = 0
 
 class Orchestrator:
@@ -79,6 +90,14 @@ class Orchestrator:
             sources=sources,
             model_used="llama3-70b-8192",
             intent=intent.value,
+            agent_trace=AgentTrace(
+                router=1.0,
+                rag=1.0 if intent == QueryIntent.MEDICAL_QUESTION else 0.0,
+                image=1.0 if intent == QueryIntent.IMAGE_DIAGNOSIS else 0.0,
+                report=1.0 if intent == QueryIntent.REPORT_ANALYSIS else 0.0,
+                confidence=conf_result.score,
+                latency_ms=total_latency
+            ),
             total_latency_ms=total_latency
         )
 

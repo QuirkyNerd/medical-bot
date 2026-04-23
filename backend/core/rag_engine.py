@@ -221,15 +221,44 @@ class RAGEngine:
             logger.error(f"Search failed: {e}")
             return []
 
-    def delete_all(self):
-        """Clears the collection."""
-        if not self.client: return
+    def status(self) -> Dict[str, Any]:
+        """Returns statistics about the vector store."""
+        if not self.client:
+            return {"status": "unavailable"}
+        
         try:
-            self.client.delete_collection(collection_name=COLLECTION_NAME)
-            self._ensure_collection()
-            logger.info(f"Collection {COLLECTION_NAME} cleared.")
+            collection_info = self.client.get_collection(collection_name=COLLECTION_NAME)
+            return {
+                "status": "ok",
+                "points_count": collection_info.points_count,
+                "segments_count": collection_info.segments_count,
+                "indexed_vectors": collection_info.indexed_vectors_count
+            }
         except Exception as e:
-            logger.error(f"Error clearing collection: {e}")
+            logger.error(f"Error getting status: {e}")
+            return {"status": "error", "detail": str(e)}
+
+    def delete_by_source(self, source: str):
+        """Deletes all points associated with a specific source."""
+        if not self.client: return
+        
+        try:
+            self.client.delete(
+                collection_name=COLLECTION_NAME,
+                points_selector=qdrant_models.FilterSelector(
+                    filter=qdrant_models.Filter(
+                        must=[
+                            qdrant_models.FieldCondition(
+                                key="source",
+                                match=qdrant_models.MatchValue(value=source)
+                            )
+                        ]
+                    )
+                )
+            )
+            logger.info(f"Deleted points for source: {source}")
+        except Exception as e:
+            logger.error(f"Error deleting by source: {e}")
 
 # ---------------------------------------------------------------------------
 # Singleton Instance

@@ -16,7 +16,7 @@ from pydantic import BaseModel, Field
 from agents.image_agent import analyze_image
 from core.ingestion import Ingestion
 from core.orchestrator import orchestrate
-from core.vectorstore import get_vectorstore
+from core.rag_engine import get_rag_engine
 
 logger = logging.getLogger("medai.routes")
 router = APIRouter()
@@ -55,18 +55,15 @@ class ImageAnalyzeRequest(BaseModel):
 @router.get("/status")
 async def status():
     try:
-        vs = get_vectorstore()
-        stats = vs.status()
+        rag = get_rag_engine()
+        stats = rag.status()
 
         return {
             "success": True,
             "status": "ok",
             "service": "Multi-Agent Medical AI Backend",
             "version": "1.0.0",
-            "qdrant_stats": {
-                "global_knowledge": stats.get("global_knowledge", 0),
-                "patient_specific": stats.get("patient_specific", 0),
-            },
+            "vector_store": stats
         }
     except Exception as exc:
         logger.exception("Status check failed")
@@ -82,16 +79,13 @@ async def query_endpoint(request: QueryRequest):
         result = orchestrate(
             query=request.query,
             image_data=request.image_b64,
-            image_modality=request.image_modality,
-            report_text=request.report_text,
-            rag_filters=request.rag_filters,
-            top_k=request.top_k,
+            report_text=request.report_text
         )
 
         trace = result.agent_trace
 
         return JSONResponse(content={
-            "success": True,   # 🔥 REQUIRED FOR FRONTEND
+            "success": True,
             "intent":  result.intent,
             "answer":  result.answer,
             "confidence_score": result.confidence_score,
@@ -99,7 +93,6 @@ async def query_endpoint(request: QueryRequest):
             "badge_color":  result.badge_color,
             "badge_label":  result.badge_label,
             "sources":      result.sources,
-            "report_extraction": result.report_extraction,  # structured JSON or None
             "agent_trace": {
                 "router":     trace.router,
                 "rag":        trace.rag,
@@ -110,18 +103,11 @@ async def query_endpoint(request: QueryRequest):
                 "latency_ms": trace.latency_ms,
             },
             "model_used":        result.model_used,
-            "disclaimer":        result.disclaimer,
-            "has_image_analysis": result.has_image_analysis,
-            "image_label":       result.image_label,
-            "image_confidence":  result.image_confidence,
-            "web_fallback_used": result.web_fallback_used,
             "total_latency_ms":  result.total_latency_ms,
         })
 
     except Exception as exc:
         logger.exception("Query pipeline failed")
-
-        # 🔥 Even error responses follow same structure
         return JSONResponse(
             status_code=500,
             content={
@@ -135,8 +121,7 @@ async def query_endpoint(request: QueryRequest):
 async def image_analyze_endpoint(request: ImageAnalyzeRequest):
     try:
         result = analyze_image(
-            image_data=request.image_b64,
-            modality_hint=request.modality,
+            image_data=request.image_b64
         )
 
         return {
@@ -144,12 +129,7 @@ async def image_analyze_endpoint(request: ImageAnalyzeRequest):
             "modality": result.modality.value,
             "top_label": result.top_label,
             "top_confidence": result.top_confidence,
-            "top_predictions": [
-                {"label": label, "confidence": conf}
-                for label, conf in result.top_predictions
-            ],
             "structured_summary": result.structured_summary,
-            "disclaimer": result.disclaimer,
         }
 
     except Exception as exc:
@@ -186,14 +166,13 @@ async def ingest_pdf(
         }
 
         ing = Ingestion()
-        count = ing.ingest_pdf(tmp_path, "global_knowledge", metadata)
+        count = ing.ingest_pdf(tmp_path, metadata)
         os.unlink(tmp_path)
 
         return {
             "success": True,
             "filename": file.filename,
             "chunks_ingested": count,
-            "collection": "global_knowledge",
         }
 
     except Exception as exc:
@@ -209,12 +188,8 @@ async def ingest_pdf(
 @router.post("/ingest-patient")
 async def ingest_patient_report(request: IngestTextRequest):
     try:
-        vs = get_vectorstore()
-
-        try:
-            vs.delete_by_source("patient_specific", request.source)
-        except Exception:
-            pass
+        rag = get_rag_engine()
+        rag.delete_by_source(request.source)
 
         metadata = {
             "source": request.source,
@@ -224,13 +199,12 @@ async def ingest_patient_report(request: IngestTextRequest):
         }
 
         ing = Ingestion()
-        count = ing.ingest_text(request.text, "patient_specific", metadata)
+        count = ing.ingest_text(request.text, request.source, metadata)
 
         return {
             "success": True,
             "source": request.source,
             "chunks_ingested": count,
-            "collection": "patient_specific",
         }
 
     except Exception as exc:
